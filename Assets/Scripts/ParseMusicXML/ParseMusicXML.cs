@@ -9,16 +9,19 @@ namespace MusicSheetGenerater
     
     class MusicParser
     {
-        private string test;
         private XmlDocument doc;
-        private string xmlFilePath = "F:/Game project/HoloPiano/Assets/Music/Ode_to_Joy.xml";
-        private string txtFilePath = "F:/Game project/HoloPiano/Assets/xmldoc.txt";
+
+        //Change xmlFilepath here to switch between different musics
+        private string xmlFilePath = "Assets/Music/Ode_to_Joy.xml";
+        //MusicInfo contains all the info of the sheet.
+        //each int[]contains three information of a sigle note["step,octave,duration"]
+        //the default int[] is set to {0,4,0}
+        //for rest note, the step value is 0
         private List<int[]> MusicInfo;
         public MusicParser()
         {            
             doc = new XmlDocument();
             doc.Load(xmlFilePath);
-            test = "test";
             MusicInfo = new List<int[]>();
         }
         
@@ -72,7 +75,7 @@ namespace MusicSheetGenerater
         {
             return MusicInfo;
         }
-
+        //get 'step'and 'octave' information from <pitch> note
         private int[] parsePitch(XmlNode NoteChilds, int[] noteinfo)
         {
             int[] note = new int[] { 0, 0, 0 };

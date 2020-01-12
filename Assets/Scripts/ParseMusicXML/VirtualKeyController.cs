@@ -5,10 +5,11 @@ using UnityEngine;
 public class VirtualKeyController : MonoBehaviour
 {
     // Start is called before the first frame update
-    [SerializeField] float Keyspeed;
+    private float Keyspeed;
     void Start()
     {
-        
+        ParserMusicUnity parse = transform.parent.GetComponent<ParserMusicUnity>();
+        Keyspeed = parse.GetnoteSpeed();
     }
 
     // Update is called once per frame
