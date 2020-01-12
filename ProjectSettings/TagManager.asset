@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Button
+  - VirtualNote
+  - Base
   layers:
   - Default
   - TransparentFX
