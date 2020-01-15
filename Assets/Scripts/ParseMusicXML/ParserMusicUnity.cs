@@ -25,6 +25,9 @@ public class ParserMusicUnity : MonoBehaviour
         instance.MusicInfoGenerator();
         MusicInfo=instance.GetMusicInfo();
         StartCoroutine(WaitAndPrint());
+        xPosition = transform.position.x;
+        yPosition = transform.position.y;
+        zPosition = transform.position.z;
     }
 
     public float GetnoteSpeed()
@@ -59,11 +62,16 @@ public class ParserMusicUnity : MonoBehaviour
                     NoteCount++;
                     Vector3 NotePosition = new Vector3(0, 0, 0);
                     Vector3 NoteScale = new Vector3(XValue, Yvalue, 0.01f);
+
                     distancePerTime += noteinfo[2];
                     if (noteinfo[0] > 0)
                     {
+                        //add Xoffset according to <step>
                         NotePosition += new Vector3(XValue, 0, 0) * (noteinfo[0] + 7 * (noteinfo[1] - 4));
+                        //add Yoffset
                         NotePosition += new Vector3(0, NextStartYValue, 0);
+                        //add parent positionOffset
+                        NotePosition += new Vector3(xPosition,yPosition,zPosition);
                         NoteScale = new Vector3(XValue, Yvalue * noteinfo[2], 0.01f);
 
 

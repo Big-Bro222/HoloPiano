@@ -9,15 +9,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -2067402452, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Script: {fileID: -2067402452, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
     vuforiaLicenseKey: ART5Oyn/////AAABmXQZpcW7jkpDkaY6o8dg51sgyd1B1ibIMs76+zhqd7qGP3aZYgbkp06MHab//5JHTaTEgIPItOKzrh0nDYS7K82J9w/mvjNjNiyWdTIcmG/oXntxpLAekbw/vjUcihlMKuij8x7jRr+PHdXokYDibu2vrRFkMnFS/6eoDBB6pZnexEzYJDB2ZZipviRBvCoYhXA5TJs2V5fvBIj5TQs9eUy6aW11b4cRSWHDLUDd5dPBEjlZNGICk2R6jPkx+LEpM8tFAUUvI5xgXcGggSWINY10mtkMKIJOPcFJFZFtGvhe2GvkKVsTiQhBIbflBWVBf6wxLEct5nk2xKF6QNzjCmmU9ttrZC08vv9P0tnI0ABS
-    ufoLicenseKey: QVV2QThEWC8vLy8vQUFBQUtLVk8vUm5IWmt6NHRkR2NoZUlMaU1CVWFRdXBTRk9renE5YUNaYjdaYnV6Y0JmdVlZSTQ2ZjFaV0ZTZ2h3NUxnNVY2SXdyOTNVQk16MEhtbW9Ob0pCZGc2NUQwMzNHOGljTkFURWlDSmNMM1FLaUlsdTZ6NSt1N3laR2VBNW5Ub0MyWENIT1Fqck1nbzdmQWhiSTVqSFJEUFoxeFlXS3ZUdXdJQ001aGVGdVJvTjJqV0d3ZXZ5c2FiaSs0Qm5Db1d0UjNrdWZ5d1Y0TVVwWUJCd2VBVEhKakhBSzg3NEVLeTVDekd2bldKbitIUDJER3BLN2xLZGU4NHI1SmF0a2JaSDNvVmQ5S2E0cmpDRnEyOVJNaUxJaG9qaW9XemlISlpPQzQxVytLOU9LZ0dzY041Q0toYWVHUnBlZUd3ZnJLNHc0QmNyMGdCZ3BoaVpoWG1qRUdlZ0lqQlcwNTZ6YzNpWUJZTkdtT0tWU2Y=
+    ufoLicenseKey: QVF5Y0IwNy8vLy8vQUFBQUtBYU5qaCt0cmtMMXZFWjBINHJ4M1RrTUtUenZnZTh4MTR6MTYxS1llbUVOWDhoajljb1pDNm0rb2tOamJmQWdSVlIrSkRwSmZUaHN2RHE3SDVDYjg2a3RrRU9XR1o1MVdmWmVmVm5MTk5RM05GYTduTW5QY0JPOG5YUE9RbXEwS1hIeWpoMll1RkpEaTRZc2V2Ni81SnpzSlk5RnJibTF1RDdlbmtLVnVtWmZlMGswYjFhY3NyeVdXbUo5RFFWT3JMRXRqb3hLK0FYNVJLSEtGbHBicnR4b0labDMyRHUxcytKSDRCSjZQdXZJekhyZ09SV21GY1ZaQ092K01sY0dUL0xqTXFkcnN3bUZsaWRzNzBiRUpTdEM0d3ljUXNWRStkS05hcHRyeUlSMTMvWERLbis4TnNLdjNUOEVvZi95dG5oZDU5YkczTVhVTlVEa2QxdXVEU3FvZ01DTkk3TytGdG13OEJTeVJ1UWI=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 4
+    maxSimultaneousImageTargets: 1
     maxSimultaneousObjectTargets: 1
     useDelayedLoadingObjectTargets: 0
     modelTargetRecoWhileExtendedTracked: 1
@@ -29,8 +29,8 @@ MonoBehaviour:
     eyewearType: 1
     stereoFramework: 0
     seeThroughConfiguration: 1
-    viewerName: 
-    viewerManufacturer: 
+    viewerName: Generic Cardboard
+    viewerManufacturer: Vuforia
     useCustomViewer: 0
     customViewer:
       Version: 0
@@ -51,7 +51,7 @@ MonoBehaviour:
     numDivisions: 2
     videoBackgroundShader: {fileID: 4800000, guid: f40623b353e2f1943b1b3ba42975db7a,
       type: 3}
-    matteShader: {fileID: 15310, guid: 0000000000000000f000000000000000, type: 0}
+    matteShader: {fileID: 4800000, guid: 66d0d78a3000021448b598bb54a3bfdf, type: 3}
     videoBackgroundEnabled: 1
   deviceTracker:
     autoInitTracker: 0
