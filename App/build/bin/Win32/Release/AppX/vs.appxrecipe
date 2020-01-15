@@ -29,13 +29,13 @@
     <AppXManifest Include="F:\Game project\HoloPiano\App\build\bin\Win32\Release\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-01-15T00:37:03.550</Modified>
+      <Modified>2020-01-15T11:19:48.263</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\App\build\bin\Win32\Release\Holo Piano.exe">
       <PackagePath>Holo Piano.exe</PackagePath>
-      <Modified>2020-01-15T00:37:01.599</Modified>
+      <Modified>2020-01-15T11:19:45.776</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Program Files\2018.4.14f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\x86\Release\UnityPlayer.winmd">
       <PackagePath>UnityPlayer.winmd</PackagePath>
@@ -47,7 +47,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\App\build\bin\Win32\Release\Holo_Piano.winmd">
       <PackagePath>Holo_Piano.winmd</PackagePath>
-      <Modified>2020-01-15T00:37:01.400</Modified>
+      <Modified>2020-01-15T11:19:45.478</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\App\Holo Piano\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
@@ -221,7 +221,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\App\Holo Piano\StoreManifest.xml">
       <PackagePath>StoreManifest.xml</PackagePath>
-      <Modified>2020-01-15T00:29:29.739</Modified>
+      <Modified>2020-01-15T11:11:56.693</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\App\Holo Piano\Data\il2cpp_data\etc\mono\mconfig\config.xml">
       <PackagePath>Data\il2cpp_data\etc\mono\mconfig\config.xml</PackagePath>
@@ -253,7 +253,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\App\Holo Piano\Data\boot.config">
       <PackagePath>Data\boot.config</PackagePath>
-      <Modified>2020-01-15T00:29:27.640</Modified>
+      <Modified>2020-01-15T11:11:49.439</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\App\Holo Piano\Data\il2cpp_data\etc\mono\2.0\machine.config">
       <PackagePath>Data\il2cpp_data\etc\mono\2.0\machine.config</PackagePath>
@@ -281,11 +281,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\App\Holo Piano\Data\globalgamemanagers">
       <PackagePath>Data\globalgamemanagers</PackagePath>
-      <Modified>2020-01-15T00:29:25.154</Modified>
+      <Modified>2020-01-15T11:11:47.305</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\App\Holo Piano\Data\level0">
       <PackagePath>Data\level0</PackagePath>
-      <Modified>2020-01-15T00:29:22.910</Modified>
+      <Modified>2020-01-15T11:11:44.676</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\App\Holo Piano\Data\il2cpp_data\etc\mono\config">
       <PackagePath>Data\il2cpp_data\etc\mono\config</PackagePath>
@@ -297,39 +297,39 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\App\Holo Piano\Data\Resources\unity_builtin_extra">
       <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
-      <Modified>2020-01-15T00:29:27.634</Modified>
+      <Modified>2020-01-15T11:11:49.427</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\App\Holo Piano\Data\globalgamemanagers.assets">
       <PackagePath>Data\globalgamemanagers.assets</PackagePath>
-      <Modified>2020-01-15T00:29:25.294</Modified>
+      <Modified>2020-01-15T11:11:48.063</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\App\Holo Piano\Data\resources.assets">
       <PackagePath>Data\resources.assets</PackagePath>
-      <Modified>2020-01-15T00:29:26.558</Modified>
+      <Modified>2020-01-15T11:11:48.805</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\App\Holo Piano\Data\sharedassets0.assets">
       <PackagePath>Data\sharedassets0.assets</PackagePath>
-      <Modified>2020-01-15T00:29:27.168</Modified>
+      <Modified>2020-01-15T11:11:49.090</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\App\Holo Piano\Data\globalgamemanagers.assets.resS">
       <PackagePath>Data\globalgamemanagers.assets.resS</PackagePath>
-      <Modified>2020-01-15T00:29:25.280</Modified>
+      <Modified>2020-01-15T11:11:48.050</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\App\Holo Piano\Data\resources.assets.resS">
       <PackagePath>Data\resources.assets.resS</PackagePath>
-      <Modified>2020-01-15T00:29:26.540</Modified>
+      <Modified>2020-01-15T11:11:48.776</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\App\Holo Piano\Data\sharedassets0.assets.resS">
       <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
-      <Modified>2020-01-15T00:29:27.158</Modified>
+      <Modified>2020-01-15T11:11:49.076</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\App\Holo Piano\Data\nativePlugins.txt">
       <PackagePath>Data\nativePlugins.txt</PackagePath>
-      <Modified>2020-01-15T00:30:26.748</Modified>
+      <Modified>2020-01-15T11:13:13.459</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\App\Holo Piano\Data\sharedassets0.resource">
       <PackagePath>Data\sharedassets0.resource</PackagePath>
-      <Modified>2020-01-15T00:29:27.156</Modified>
+      <Modified>2020-01-15T11:11:49.073</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\App\Holo Piano\Data\il2cpp_data\etc\mono\browscap.ini">
       <PackagePath>Data\il2cpp_data\etc\mono\browscap.ini</PackagePath>
@@ -373,15 +373,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\App\Holo Piano\Data\il2cpp_data\Metadata\global-metadata.dat">
       <PackagePath>Data\il2cpp_data\Metadata\global-metadata.dat</PackagePath>
-      <Modified>2020-01-15T00:30:23.831</Modified>
+      <Modified>2020-01-15T11:12:58.249</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\App\Holo Piano\Data\il2cpp_data\Resources\I18N.CJK.dll-resources.dat">
       <PackagePath>Data\il2cpp_data\Resources\I18N.CJK.dll-resources.dat</PackagePath>
-      <Modified>2020-01-15T00:29:46.968</Modified>
+      <Modified>2020-01-15T11:12:15.481</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\App\Holo Piano\Data\il2cpp_data\Resources\mscorlib.dll-resources.dat">
       <PackagePath>Data\il2cpp_data\Resources\mscorlib.dll-resources.dat</PackagePath>
-      <Modified>2020-01-15T00:29:46.961</Modified>
+      <Modified>2020-01-15T11:12:15.473</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\App\Holo Piano\Data\StreamingAssets\Vuforia\VuforiaMars_Images.dat">
       <PackagePath>Data\StreamingAssets\Vuforia\VuforiaMars_Images.dat</PackagePath>
@@ -425,11 +425,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\App\build\bin\Win32\Release\GameAssembly.dll">
       <PackagePath>GameAssembly.dll</PackagePath>
-      <Modified>2020-01-15T00:36:55.733</Modified>
+      <Modified>2020-01-15T11:19:39.327</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\App\build\bin\Win32\Release\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-01-15T00:37:02.590</Modified>
+      <Modified>2020-01-15T11:19:46.829</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
