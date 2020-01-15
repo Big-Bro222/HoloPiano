@@ -17,6 +17,9 @@ public class ParserMusicUnity : MonoBehaviour
     private int Notes2GenerateOneTime=4;
     private int distancePerTime;
     private int a = 0;
+    private float xPosition ;
+    private float yPosition ;
+    private float zPosition ;
     void Start()
     {
         instance.MusicInfoGenerator();
