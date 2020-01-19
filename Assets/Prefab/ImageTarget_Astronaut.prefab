@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3677004183056534548}
   - component: {fileID: 3677004183056534549}
   - component: {fileID: 3677004183056534554}
+  - component: {fileID: 1379613660}
   m_Layer: 8
   m_Name: ImageTarget_Astronaut
   m_TagString: Untagged
@@ -126,6 +127,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turnOffRendering: 1
+--- !u!114 &1379613660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3677004183056534555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd54ce2a10cab054faa831cefca12360, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3677004183733862905
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -141,17 +154,13 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
-    - target: {fileID: 100002, guid: c6045ffd0db911d418ecf014e1fbd650, type: 3}
-      propertyPath: m_IsActive
-      value: 1
+    - target: {fileID: 100004, guid: c6045ffd0db911d418ecf014e1fbd650, type: 3}
+      propertyPath: m_Name
+      value: Astronaut
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: c6045ffd0db911d418ecf014e1fbd650, type: 3}
       propertyPath: m_Layer
       value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 100004, guid: c6045ffd0db911d418ecf014e1fbd650, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: c6045ffd0db911d418ecf014e1fbd650, type: 3}
       propertyPath: m_Layer
@@ -542,20 +551,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: c6045ffd0db911d418ecf014e1fbd650, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: c6045ffd0db911d418ecf014e1fbd650, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 180
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: c6045ffd0db911d418ecf014e1fbd650, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400004, guid: c6045ffd0db911d418ecf014e1fbd650, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400004, guid: c6045ffd0db911d418ecf014e1fbd650, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: c6045ffd0db911d418ecf014e1fbd650, type: 3}
       propertyPath: m_Controller
