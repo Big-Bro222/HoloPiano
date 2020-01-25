@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/SampleResources/Scenes/3-VuMarks.unity
     guid: d9b53b25a285640cf8ac170a80603e34
+  - enabled: 1
+    path: Assets/Scenes/restAPI.unity
+    guid: 3e0b79e54197a3e46ad48468da6c7d93
   m_configObjects: {}
