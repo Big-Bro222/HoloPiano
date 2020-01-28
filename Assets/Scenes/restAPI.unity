@@ -129,7 +129,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400132, guid: a9d04b94acf998d4f954d52e203623ab, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.025532637
+      value: 0.58
       objectReference: {fileID: 0}
     - target: {fileID: 400132, guid: a9d04b94acf998d4f954d52e203623ab, type: 3}
       propertyPath: m_LocalPosition.z
@@ -179,6 +179,106 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: a9d04b94acf998d4f954d52e203623ab, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea6a47676d3420f4abe5f256b8c8e822, type: 2}
+    - target: {fileID: 2300004, guid: a9d04b94acf998d4f954d52e203623ab, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea6a47676d3420f4abe5f256b8c8e822, type: 2}
+    - target: {fileID: 2300006, guid: a9d04b94acf998d4f954d52e203623ab, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea6a47676d3420f4abe5f256b8c8e822, type: 2}
+    - target: {fileID: 2300008, guid: a9d04b94acf998d4f954d52e203623ab, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea6a47676d3420f4abe5f256b8c8e822, type: 2}
+    - target: {fileID: 2300010, guid: a9d04b94acf998d4f954d52e203623ab, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea6a47676d3420f4abe5f256b8c8e822, type: 2}
+    - target: {fileID: 2300012, guid: a9d04b94acf998d4f954d52e203623ab, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea6a47676d3420f4abe5f256b8c8e822, type: 2}
+    - target: {fileID: 2300014, guid: a9d04b94acf998d4f954d52e203623ab, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea6a47676d3420f4abe5f256b8c8e822, type: 2}
+    - target: {fileID: 2300016, guid: a9d04b94acf998d4f954d52e203623ab, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea6a47676d3420f4abe5f256b8c8e822, type: 2}
+    - target: {fileID: 2300018, guid: a9d04b94acf998d4f954d52e203623ab, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea6a47676d3420f4abe5f256b8c8e822, type: 2}
+    - target: {fileID: 2300020, guid: a9d04b94acf998d4f954d52e203623ab, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea6a47676d3420f4abe5f256b8c8e822, type: 2}
+    - target: {fileID: 2300022, guid: a9d04b94acf998d4f954d52e203623ab, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea6a47676d3420f4abe5f256b8c8e822, type: 2}
+    - target: {fileID: 2300024, guid: a9d04b94acf998d4f954d52e203623ab, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea6a47676d3420f4abe5f256b8c8e822, type: 2}
+    - target: {fileID: 2300026, guid: a9d04b94acf998d4f954d52e203623ab, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea6a47676d3420f4abe5f256b8c8e822, type: 2}
+    - target: {fileID: 2300028, guid: a9d04b94acf998d4f954d52e203623ab, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea6a47676d3420f4abe5f256b8c8e822, type: 2}
+    - target: {fileID: 2300030, guid: a9d04b94acf998d4f954d52e203623ab, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea6a47676d3420f4abe5f256b8c8e822, type: 2}
+    - target: {fileID: 2300074, guid: a9d04b94acf998d4f954d52e203623ab, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300076, guid: a9d04b94acf998d4f954d52e203623ab, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300078, guid: a9d04b94acf998d4f954d52e203623ab, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300080, guid: a9d04b94acf998d4f954d52e203623ab, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300082, guid: a9d04b94acf998d4f954d52e203623ab, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300084, guid: a9d04b94acf998d4f954d52e203623ab, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300086, guid: a9d04b94acf998d4f954d52e203623ab, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300088, guid: a9d04b94acf998d4f954d52e203623ab, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300090, guid: a9d04b94acf998d4f954d52e203623ab, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300092, guid: a9d04b94acf998d4f954d52e203623ab, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9d04b94acf998d4f954d52e203623ab, type: 3}
 --- !u!1001 &673359529
@@ -201,8 +301,13 @@ PrefabInstance:
     - target: {fileID: 6001434406871326179, guid: 72370248de4bad845a4c7536cb0f7153,
         type: 3}
       propertyPath: getMidiDataUrl
-      value: http://10.201.2.64:8081/midi-input-last
+      value: http://192.168.43.174:8081/midi-input-last
       objectReference: {fileID: 0}
+    - target: {fileID: 6001434406871326179, guid: 72370248de4bad845a4c7536cb0f7153,
+        type: 3}
+      propertyPath: keyboard
+      value: 
+      objectReference: {fileID: 1636420144}
     - target: {fileID: 6001434406871326180, guid: 72370248de4bad845a4c7536cb0f7153,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -342,6 +447,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1636420144 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100132, guid: a9d04b94acf998d4f954d52e203623ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 88763775}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1827709284
 GameObject:
   m_ObjectHideFlags: 0
