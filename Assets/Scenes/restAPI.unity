@@ -119,6 +119,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 100074, guid: a9d04b94acf998d4f954d52e203623ab, type: 3}
+      propertyPath: m_TagString
+      value: black_keys
+      objectReference: {fileID: 0}
+    - target: {fileID: 100076, guid: a9d04b94acf998d4f954d52e203623ab, type: 3}
+      propertyPath: m_TagString
+      value: black_keys
+      objectReference: {fileID: 0}
+    - target: {fileID: 100078, guid: a9d04b94acf998d4f954d52e203623ab, type: 3}
+      propertyPath: m_TagString
+      value: black_keys
+      objectReference: {fileID: 0}
+    - target: {fileID: 100080, guid: a9d04b94acf998d4f954d52e203623ab, type: 3}
+      propertyPath: m_TagString
+      value: black_keys
+      objectReference: {fileID: 0}
+    - target: {fileID: 100082, guid: a9d04b94acf998d4f954d52e203623ab, type: 3}
+      propertyPath: m_TagString
+      value: black_keys
+      objectReference: {fileID: 0}
+    - target: {fileID: 100084, guid: a9d04b94acf998d4f954d52e203623ab, type: 3}
+      propertyPath: m_TagString
+      value: black_keys
+      objectReference: {fileID: 0}
+    - target: {fileID: 100086, guid: a9d04b94acf998d4f954d52e203623ab, type: 3}
+      propertyPath: m_TagString
+      value: black_keys
+      objectReference: {fileID: 0}
+    - target: {fileID: 100088, guid: a9d04b94acf998d4f954d52e203623ab, type: 3}
+      propertyPath: m_TagString
+      value: black_keys
+      objectReference: {fileID: 0}
+    - target: {fileID: 100090, guid: a9d04b94acf998d4f954d52e203623ab, type: 3}
+      propertyPath: m_TagString
+      value: black_keys
+      objectReference: {fileID: 0}
+    - target: {fileID: 100092, guid: a9d04b94acf998d4f954d52e203623ab, type: 3}
+      propertyPath: m_TagString
+      value: black_keys
+      objectReference: {fileID: 0}
     - target: {fileID: 100132, guid: a9d04b94acf998d4f954d52e203623ab, type: 3}
       propertyPath: m_Name
       value: Still dre
@@ -301,7 +341,7 @@ PrefabInstance:
     - target: {fileID: 6001434406871326179, guid: 72370248de4bad845a4c7536cb0f7153,
         type: 3}
       propertyPath: getMidiDataUrl
-      value: http://192.168.43.174:8081/midi-input-last
+      value: http://192.168.137.1:8081/midi-input-last
       objectReference: {fileID: 0}
     - target: {fileID: 6001434406871326179, guid: 72370248de4bad845a4c7536cb0f7153,
         type: 3}
@@ -415,7 +455,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 80
+  field of view: 40
   orthographic: 0
   orthographic size: 5
   m_Depth: -1

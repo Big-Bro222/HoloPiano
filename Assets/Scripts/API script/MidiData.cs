@@ -7,7 +7,6 @@ public class MidiData : MonoBehaviour
 {
     public string getMidiDataUrl;
     public GameObject keyboard;
-    float timeLeft = 0.0030f;
 
     IEnumerator GetMidiData()
     {
@@ -28,31 +27,29 @@ public class MidiData : MonoBehaviour
                 {
                     string jsonResult =
                         System.Text.Encoding.UTF8.GetString(www.downloadHandler.data);
-                    //Debug.Log("**************************************************************");
-                    //Debug.Log(jsonResult);
+                    
                     midiData resultdata  = JsonUtility.FromJson<midiData>(jsonResult);
-
-                    //Debug.Log("%%%%%%%%%%%%");
                     Debug.Log(resultdata.value[1] + "---"+resultdata.value[0] + "="+ resultdata.value[2]);
-
-
                     child = getChildGameObject(keyboard, findKeyPressed(resultdata));
-
-                    child.GetComponent<Renderer>().material.color = new Color(0.3f, 0.4f, 0.6f);
+                    if (resultdata.value[0] == 144)
+                    {
+                        child.GetComponent<Renderer>().material.color = new Color(0.3f, 0.4f, 0.6f);
+                    }
+                    else
+                    {
+                        if(child.tag == "black_keys")
+                        {
+                            child.GetComponent<Renderer>().material.color = new Color(0.05f, 0.05f, 0.05f);
+                        }
+                        else
+                        {
+                            child.GetComponent<Renderer>().material.color = new Color(1f, 1f, 1f);
+                        }
+                        
+                    }
+                    
                 }
-                //ddlCountries.options.AddRange(entities.
             }
-        }
-        timeLeft -= Time.deltaTime;
-        Debug.Log(timeLeft);
-        if (timeLeft < 0)
-        {
-            timeLeft = 0.0030f;
-            if(child != null)
-            {
-                Debug.Log(child.transform.name + "@@@@@@@@@@");
-                child.GetComponent<Renderer>().material.color = Color.HSVToRGB(1, 1, 1);
-            } 
         }
     }
 

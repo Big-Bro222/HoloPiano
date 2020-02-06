@@ -6,7 +6,7 @@ TagManager:
   tags:
   - Button
   - VirtualNote
-  - Base
+  - black_keys
   layers:
   - Default
   - TransparentFX
@@ -39,7 +39,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - Spatial Awareness
   m_SortingLayers:
   - name: Default
     uniqueID: 0
