@@ -18,7 +18,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>F:\Game project\HoloPiano\HoloLens\build\bin\Win32\Release\AppX</LayoutDir>
-    <RegisteredManifestChecksum>1F0370B219C706720D74E74653830CAC0519E8C13A12F9445A29E3A27C9F6E27</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>FFD83D7A15E834DEF43A671DAF2DE458806B02A17A1809CB81408285E3D6FA22</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>Vuforia.Engine.HoloLensUnity_8.3.0.0_x86__pzq3xp76mxafg</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>Vuforia.Engine.HoloLensUnity_pzq3xp76mxafg!App</RegisteredUserModeAppID>
     <RegisteredPackageID>Vuforia.Engine.HoloLensUnity</RegisteredPackageID>
@@ -29,25 +29,25 @@
     <AppXManifest Include="F:\Game project\HoloPiano\HoloLens\build\bin\Win32\Release\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-01-19T21:29:57.185</Modified>
+      <Modified>2020-02-17T18:19:08.965</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\build\bin\Win32\Release\Holo Piano.exe">
       <PackagePath>Holo Piano.exe</PackagePath>
-      <Modified>2020-01-19T21:29:55.898</Modified>
+      <Modified>2020-02-17T18:19:06.040</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Program Files\2018.4.14f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\x86\Release\UnityPlayer.winmd">
+    <AppxPackagedFile Include="D:\Unity\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\x86\Release\UnityPlayer.winmd">
       <PackagePath>UnityPlayer.winmd</PackagePath>
       <Modified>2019-12-06T10:39:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Program Files\2018.4.14f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\x86\Release\UnityPlayer.dll">
+    <AppxPackagedFile Include="D:\Unity\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\x86\Release\UnityPlayer.dll">
       <PackagePath>UnityPlayer.dll</PackagePath>
       <Modified>2019-12-06T10:39:42.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\build\bin\Win32\Release\Holo_Piano.winmd">
       <PackagePath>Holo_Piano.winmd</PackagePath>
-      <Modified>2020-01-19T21:00:06.932</Modified>
+      <Modified>2020-02-17T18:19:05.853</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
@@ -221,11 +221,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\StoreManifest.xml">
       <PackagePath>StoreManifest.xml</PackagePath>
-      <Modified>2020-01-19T21:27:53.925</Modified>
+      <Modified>2020-02-17T18:06:28.892</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\il2cpp_data\etc\mono\mconfig\config.xml">
       <PackagePath>Data\il2cpp_data\etc\mono\mconfig\config.xml</PackagePath>
-      <Modified>2019-12-06T09:53:06.000</Modified>
+      <Modified>2019-12-11T12:56:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\StreamingAssets\Vuforia\Piano_notes.xml">
+      <PackagePath>Data\StreamingAssets\Vuforia\Piano_notes.xml</PackagePath>
+      <Modified>2020-02-17T05:35:20.815</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\StreamingAssets\Vuforia\VuforiaMars_Images.xml">
       <PackagePath>Data\StreamingAssets\Vuforia\VuforiaMars_Images.xml</PackagePath>
@@ -253,191 +257,147 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\boot.config">
       <PackagePath>Data\boot.config</PackagePath>
-      <Modified>2020-01-19T21:27:52.401</Modified>
+      <Modified>2020-02-17T18:06:26.666</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\il2cpp_data\etc\mono\2.0\machine.config">
       <PackagePath>Data\il2cpp_data\etc\mono\2.0\machine.config</PackagePath>
-      <Modified>2019-12-06T09:53:06.000</Modified>
+      <Modified>2019-12-11T12:56:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\il2cpp_data\etc\mono\2.0\web.config">
       <PackagePath>Data\il2cpp_data\etc\mono\2.0\web.config</PackagePath>
-      <Modified>2019-12-06T09:53:06.000</Modified>
+      <Modified>2019-12-11T12:56:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\il2cpp_data\etc\mono\4.0\machine.config">
       <PackagePath>Data\il2cpp_data\etc\mono\4.0\machine.config</PackagePath>
-      <Modified>2019-12-06T09:53:06.000</Modified>
+      <Modified>2019-12-11T12:56:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\il2cpp_data\etc\mono\4.0\web.config">
       <PackagePath>Data\il2cpp_data\etc\mono\4.0\web.config</PackagePath>
-      <Modified>2019-12-06T09:53:06.000</Modified>
+      <Modified>2019-12-11T12:56:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\il2cpp_data\etc\mono\4.5\machine.config">
       <PackagePath>Data\il2cpp_data\etc\mono\4.5\machine.config</PackagePath>
-      <Modified>2019-12-06T09:53:06.000</Modified>
+      <Modified>2019-12-11T12:56:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\il2cpp_data\etc\mono\4.5\web.config">
       <PackagePath>Data\il2cpp_data\etc\mono\4.5\web.config</PackagePath>
-      <Modified>2019-12-06T09:53:06.000</Modified>
+      <Modified>2019-12-11T12:56:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\globalgamemanagers">
       <PackagePath>Data\globalgamemanagers</PackagePath>
-      <Modified>2020-01-19T21:27:50.670</Modified>
+      <Modified>2020-02-17T18:06:18.020</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\level0">
       <PackagePath>Data\level0</PackagePath>
-      <Modified>2020-01-19T21:27:46.986</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\level1">
-      <PackagePath>Data\level1</PackagePath>
-      <Modified>2020-01-19T21:27:47.980</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\level2">
-      <PackagePath>Data\level2</PackagePath>
-      <Modified>2020-01-19T21:27:48.094</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\level3">
-      <PackagePath>Data\level3</PackagePath>
-      <Modified>2020-01-19T21:27:48.294</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\level4">
-      <PackagePath>Data\level4</PackagePath>
-      <Modified>2020-01-19T21:27:48.541</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\level5">
-      <PackagePath>Data\level5</PackagePath>
-      <Modified>2020-01-19T21:27:48.801</Modified>
+      <Modified>2020-02-17T18:06:14.612</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\il2cpp_data\etc\mono\config">
       <PackagePath>Data\il2cpp_data\etc\mono\config</PackagePath>
-      <Modified>2019-12-06T09:53:06.000</Modified>
+      <Modified>2019-12-11T12:56:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\Resources\unity default resources">
       <PackagePath>Data\Resources\unity default resources</PackagePath>
-      <Modified>2019-12-07T00:24:34.000</Modified>
+      <Modified>2019-12-06T09:59:06.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\Resources\unity_builtin_extra">
       <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
-      <Modified>2020-01-19T21:27:52.388</Modified>
+      <Modified>2020-02-17T18:06:26.658</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\globalgamemanagers.assets">
       <PackagePath>Data\globalgamemanagers.assets</PackagePath>
-      <Modified>2020-01-19T21:27:50.826</Modified>
+      <Modified>2020-02-17T18:06:18.214</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\resources.assets">
       <PackagePath>Data\resources.assets</PackagePath>
-      <Modified>2020-01-19T21:27:51.530</Modified>
+      <Modified>2020-02-17T18:06:24.096</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\sharedassets0.assets">
       <PackagePath>Data\sharedassets0.assets</PackagePath>
-      <Modified>2020-01-19T21:27:51.546</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\sharedassets1.assets">
-      <PackagePath>Data\sharedassets1.assets</PackagePath>
-      <Modified>2020-01-19T21:27:51.797</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\sharedassets2.assets">
-      <PackagePath>Data\sharedassets2.assets</PackagePath>
-      <Modified>2020-01-19T21:27:51.815</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\sharedassets3.assets">
-      <PackagePath>Data\sharedassets3.assets</PackagePath>
-      <Modified>2020-01-19T21:27:51.828</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\sharedassets4.assets">
-      <PackagePath>Data\sharedassets4.assets</PackagePath>
-      <Modified>2020-01-19T21:27:52.013</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\sharedassets5.assets">
-      <PackagePath>Data\sharedassets5.assets</PackagePath>
-      <Modified>2020-01-19T21:27:52.110</Modified>
+      <Modified>2020-02-17T18:06:24.259</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\globalgamemanagers.assets.resS">
       <PackagePath>Data\globalgamemanagers.assets.resS</PackagePath>
-      <Modified>2020-01-19T21:27:50.813</Modified>
+      <Modified>2020-02-17T18:06:18.203</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\level1.resS">
-      <PackagePath>Data\level1.resS</PackagePath>
-      <Modified>2020-01-19T21:27:47.967</Modified>
+    <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\level0.resS">
+      <PackagePath>Data\level0.resS</PackagePath>
+      <Modified>2020-02-17T18:06:14.601</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\resources.assets.resS">
       <PackagePath>Data\resources.assets.resS</PackagePath>
-      <Modified>2020-01-19T21:27:51.512</Modified>
+      <Modified>2020-02-17T18:06:24.080</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\sharedassets1.assets.resS">
-      <PackagePath>Data\sharedassets1.assets.resS</PackagePath>
-      <Modified>2020-01-19T21:27:51.791</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\sharedassets2.assets.resS">
-      <PackagePath>Data\sharedassets2.assets.resS</PackagePath>
-      <Modified>2020-01-19T21:27:51.810</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\sharedassets4.assets.resS">
-      <PackagePath>Data\sharedassets4.assets.resS</PackagePath>
-      <Modified>2020-01-19T21:27:52.006</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\sharedassets5.assets.resS">
-      <PackagePath>Data\sharedassets5.assets.resS</PackagePath>
-      <Modified>2020-01-19T21:27:52.103</Modified>
+    <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\sharedassets0.assets.resS">
+      <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
+      <Modified>2020-02-17T18:06:24.254</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\nativePlugins.txt">
       <PackagePath>Data\nativePlugins.txt</PackagePath>
-      <Modified>2020-01-19T21:28:52.447</Modified>
+      <Modified>2020-02-17T18:08:25.720</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\sharedassets1.resource">
-      <PackagePath>Data\sharedassets1.resource</PackagePath>
-      <Modified>2020-01-19T21:27:51.789</Modified>
+    <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\resources.resource">
+      <PackagePath>Data\resources.resource</PackagePath>
+      <Modified>2020-02-17T18:06:24.069</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\il2cpp_data\etc\mono\browscap.ini">
       <PackagePath>Data\il2cpp_data\etc\mono\browscap.ini</PackagePath>
-      <Modified>2019-12-06T09:53:06.000</Modified>
+      <Modified>2019-12-11T12:56:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\il2cpp_data\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx">
       <PackagePath>Data\il2cpp_data\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx</PackagePath>
-      <Modified>2019-12-06T09:53:06.000</Modified>
+      <Modified>2019-12-11T12:56:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\il2cpp_data\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx">
       <PackagePath>Data\il2cpp_data\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx</PackagePath>
-      <Modified>2019-12-06T09:53:06.000</Modified>
+      <Modified>2019-12-11T12:56:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\il2cpp_data\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx">
       <PackagePath>Data\il2cpp_data\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx</PackagePath>
-      <Modified>2019-12-06T09:53:06.000</Modified>
+      <Modified>2019-12-11T12:56:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\il2cpp_data\etc\mono\2.0\settings.map">
       <PackagePath>Data\il2cpp_data\etc\mono\2.0\settings.map</PackagePath>
-      <Modified>2019-12-06T09:53:06.000</Modified>
+      <Modified>2019-12-11T12:56:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\il2cpp_data\etc\mono\4.0\settings.map">
       <PackagePath>Data\il2cpp_data\etc\mono\4.0\settings.map</PackagePath>
-      <Modified>2019-12-06T09:53:06.000</Modified>
+      <Modified>2019-12-11T12:56:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\il2cpp_data\etc\mono\4.5\settings.map">
       <PackagePath>Data\il2cpp_data\etc\mono\4.5\settings.map</PackagePath>
-      <Modified>2019-12-06T09:53:06.000</Modified>
+      <Modified>2019-12-11T12:56:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\il2cpp_data\etc\mono\2.0\Browsers\Compat.browser">
       <PackagePath>Data\il2cpp_data\etc\mono\2.0\Browsers\Compat.browser</PackagePath>
-      <Modified>2019-12-06T09:53:06.000</Modified>
+      <Modified>2019-12-11T12:56:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\il2cpp_data\etc\mono\4.0\Browsers\Compat.browser">
       <PackagePath>Data\il2cpp_data\etc\mono\4.0\Browsers\Compat.browser</PackagePath>
-      <Modified>2019-12-06T09:53:06.000</Modified>
+      <Modified>2019-12-11T12:56:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\il2cpp_data\etc\mono\4.5\Browsers\Compat.browser">
       <PackagePath>Data\il2cpp_data\etc\mono\4.5\Browsers\Compat.browser</PackagePath>
-      <Modified>2019-12-06T09:53:06.000</Modified>
+      <Modified>2019-12-11T12:56:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\il2cpp_data\Metadata\global-metadata.dat">
       <PackagePath>Data\il2cpp_data\Metadata\global-metadata.dat</PackagePath>
-      <Modified>2020-01-19T21:28:50.201</Modified>
+      <Modified>2020-02-17T18:08:23.008</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\il2cpp_data\Resources\I18N.CJK.dll-resources.dat">
       <PackagePath>Data\il2cpp_data\Resources\I18N.CJK.dll-resources.dat</PackagePath>
-      <Modified>2020-01-19T21:28:11.351</Modified>
+      <Modified>2020-02-17T18:06:53.055</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\il2cpp_data\Resources\mscorlib.dll-resources.dat">
       <PackagePath>Data\il2cpp_data\Resources\mscorlib.dll-resources.dat</PackagePath>
-      <Modified>2020-01-19T21:28:11.344</Modified>
+      <Modified>2020-02-17T18:06:53.044</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\il2cpp_data\Resources\UnityChat.dll-resources.dat">
+      <PackagePath>Data\il2cpp_data\Resources\UnityChat.dll-resources.dat</PackagePath>
+      <Modified>2020-02-17T18:06:53.049</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\StreamingAssets\Vuforia\Piano_notes.dat">
+      <PackagePath>Data\StreamingAssets\Vuforia\Piano_notes.dat</PackagePath>
+      <Modified>2020-02-17T05:35:20.813</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Data\StreamingAssets\Vuforia\VuforiaMars_Images.dat">
       <PackagePath>Data\StreamingAssets\Vuforia\VuforiaMars_Images.dat</PackagePath>
@@ -467,25 +427,45 @@
       <PackagePath>VuforiaWrapper.dll</PackagePath>
       <Modified>2019-07-09T00:43:32.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\PlaneFinding.dll">
+      <PackagePath>PlaneFinding.dll</PackagePath>
+      <Modified>2018-10-09T17:11:38.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\VuforiaDL.dll">
       <PackagePath>VuforiaDL.dll</PackagePath>
       <Modified>2019-07-09T00:43:32.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\AudioPluginMsHRTF.dll">
       <PackagePath>AudioPluginMsHRTF.dll</PackagePath>
-      <Modified>2019-11-13T21:46:26.000</Modified>
+      <Modified>2020-01-22T22:12:49.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\MicStreamSelector.dll">
+      <PackagePath>MicStreamSelector.dll</PackagePath>
+      <Modified>2018-10-09T17:11:37.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\GpuTiming.dll">
+      <PackagePath>GpuTiming.dll</PackagePath>
+      <Modified>2018-10-09T17:11:38.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\Vuforia.dll">
       <PackagePath>Vuforia.dll</PackagePath>
       <Modified>2019-07-09T00:43:32.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\SharingClient.dll">
+      <PackagePath>SharingClient.dll</PackagePath>
+      <Modified>2018-10-09T17:11:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\Holo Piano\SpatialUnderstanding.dll">
+      <PackagePath>SpatialUnderstanding.dll</PackagePath>
+      <Modified>2018-10-09T17:11:38.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\build\bin\Win32\Release\GameAssembly.dll">
       <PackagePath>GameAssembly.dll</PackagePath>
-      <Modified>2020-01-19T21:29:51.285</Modified>
+      <Modified>2020-02-17T18:18:56.703</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Game project\HoloPiano\HoloLens\build\bin\Win32\Release\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-01-19T21:29:56.713</Modified>
+      <Modified>2020-02-17T18:19:07.179</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

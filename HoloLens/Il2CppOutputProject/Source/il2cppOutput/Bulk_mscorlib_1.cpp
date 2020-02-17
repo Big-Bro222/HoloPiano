@@ -17627,7 +17627,7 @@ IL_000d:
 		StreamWriter_t989B894EF3BFCDF6FF5F5F068402A4F835FC8E8E * L_5 = L_4;
 		String_t* L_6 = KeyPairPersistence_ToXml_m928EAFF30A591E5270CB46CAAC65C4B71F924601(__this, /*hidden argument*/NULL);
 		NullCheck(L_5);
-		VirtActionInvoker1< String_t* >::Invoke(14 /* System.Void System.IO.TextWriter::Write(System.String) */, L_5, L_6);
+		VirtActionInvoker1< String_t* >::Invoke(15 /* System.Void System.IO.TextWriter::Write(System.String) */, L_5, L_6);
 		NullCheck(L_5);
 		VirtActionInvoker0::Invoke(8 /* System.Void System.IO.TextWriter::Close() */, L_5);
 		IL2CPP_LEAVE(0x35, FINALLY_002b);
@@ -31696,7 +31696,7 @@ extern "C" IL2CPP_METHOD_ATTR ASN1_tEEE010B7337B1A5D7B3F25DF65BE462E6704FC22 * P
 		V_4 = L_18;
 		RuntimeObject* L_19 = ___attributes1;
 		NullCheck(L_19);
-		RuntimeObject* L_20 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(2 /* System.Collections.IDictionaryEnumerator System.Collections.IDictionary::GetEnumerator() */, IDictionary_t1BD5C1546718A374EA8122FBD6C6EE45331E8CE7_il2cpp_TypeInfo_var, L_19);
+		RuntimeObject* L_20 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(8 /* System.Collections.IDictionaryEnumerator System.Collections.IDictionary::GetEnumerator() */, IDictionary_t1BD5C1546718A374EA8122FBD6C6EE45331E8CE7_il2cpp_TypeInfo_var, L_19);
 		V_5 = L_20;
 		goto IL_0206;
 	}
