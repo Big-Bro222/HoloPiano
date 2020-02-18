@@ -391,7 +391,7 @@ extern RuntimeClass* ISpatialInteractionSourceStateU5BU5D_t4639B14759AFCA18E932D
 extern RuntimeClass* IVoiceInformationU5BU5D_t7FD5B39B71E28B377DBC2F1DC64EEE96C61651BB_il2cpp_TypeInfo_var;
 extern RuntimeClass* Il2CppComObject_il2cpp_TypeInfo_var;
 extern RuntimeClass* InputStreamOptionsU5BU5D_tF25121D9C712D26D027EEE9BB94F1AB90F419EFB_il2cpp_TypeInfo_var;
-extern RuntimeClass* InputStreamOptions_t84A663CC3616A0D05994D54C1DA6B2E877F7FF82_il2cpp_TypeInfo_var;
+extern RuntimeClass* InputStreamOptions_t30069DC0816A557D0697485558A4114A7C8634E3_il2cpp_TypeInfo_var;
 extern RuntimeClass* InvalidOperationException_t0530E734D823F78310CAFAFA424CA5164D93A1F1_il2cpp_TypeInfo_var;
 extern RuntimeClass* KeyValuePair_2U5BU5D_t3AD034F844EF40D6E3F7C154CE593957A45EF296_il2cpp_TypeInfo_var;
 extern RuntimeClass* KeyValuePair_2U5BU5D_tB6181FB608917C8D71F7A30443C558DC3C6593DF_il2cpp_TypeInfo_var;
@@ -3505,8 +3505,8 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // FILEACCESSMODE_T1ED436EF08D785F918FCA55CDD41424143F93C91_H
-#ifndef INPUTSTREAMOPTIONS_T84A663CC3616A0D05994D54C1DA6B2E877F7FF82_H
-#define INPUTSTREAMOPTIONS_T84A663CC3616A0D05994D54C1DA6B2E877F7FF82_H
+#ifndef INPUTSTREAMOPTIONS_T30069DC0816A557D0697485558A4114A7C8634E3_H
+#define INPUTSTREAMOPTIONS_T30069DC0816A557D0697485558A4114A7C8634E3_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -3514,14 +3514,14 @@ public:
 #endif
 
 // Windows.Storage.Streams.InputStreamOptions
-struct  InputStreamOptions_t84A663CC3616A0D05994D54C1DA6B2E877F7FF82 
+struct  InputStreamOptions_t30069DC0816A557D0697485558A4114A7C8634E3 
 {
 public:
 	// System.UInt32 Windows.Storage.Streams.InputStreamOptions::value__
 	uint32_t ___value___2;
 
 public:
-	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(InputStreamOptions_t84A663CC3616A0D05994D54C1DA6B2E877F7FF82, ___value___2)); }
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(InputStreamOptions_t30069DC0816A557D0697485558A4114A7C8634E3, ___value___2)); }
 	inline uint32_t get_value___2() const { return ___value___2; }
 	inline uint32_t* get_address_of_value___2() { return &___value___2; }
 	inline void set_value___2(uint32_t value)
@@ -3533,7 +3533,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // INPUTSTREAMOPTIONS_T84A663CC3616A0D05994D54C1DA6B2E877F7FF82_H
+#endif // INPUTSTREAMOPTIONS_T30069DC0816A557D0697485558A4114A7C8634E3_H
 #ifndef COREDISPATCHERPRIORITY_T7EEB5F08EB958B3FBCDE4ADB8FEA6D302EE55CC0_H
 #define COREDISPATCHERPRIORITY_T7EEB5F08EB958B3FBCDE4ADB8FEA6D302EE55CC0_H
 #ifdef __clang__
@@ -11141,7 +11141,7 @@ il2cpp_hresult_t IVector_1_IndexOf_m2D7EC8B87A6EF2152B1C97EAF968DB5FAFE8EF5E_Com
 		for (int i = 0; i < elementsInCollection; i++)
 		{
 			uint32_t item = InterfaceFuncInvoker1< uint32_t, int32_t >::Invoke(0 /* T System.Collections.Generic.IList`1<Windows.Storage.Streams.InputStreamOptions>::get_Item(System.Int32) */, IList_1_t8BF47762EE5C5CECD63DEE62CBE5A61F69DEECFB_il2cpp_TypeInfo_var, __this, i);
-			if (VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(0 /* System.Boolean System.Object::Equals(System.Object) */, Box(InputStreamOptions_t84A663CC3616A0D05994D54C1DA6B2E877F7FF82_il2cpp_TypeInfo_var, &item), Box(InputStreamOptions_t84A663CC3616A0D05994D54C1DA6B2E877F7FF82_il2cpp_TypeInfo_var, &___value0)))
+			if (VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(0 /* System.Boolean System.Object::Equals(System.Object) */, Box(InputStreamOptions_t30069DC0816A557D0697485558A4114A7C8634E3_il2cpp_TypeInfo_var, &item), Box(InputStreamOptions_t30069DC0816A557D0697485558A4114A7C8634E3_il2cpp_TypeInfo_var, &___value0)))
 			{
 				____index1_empty = static_cast<uint32_t>(i);
 				returnValue = true;
@@ -11902,7 +11902,7 @@ il2cpp_hresult_t IVectorView_1_IndexOf_m62D54B64B69CE1D93823F32B61E73D061D5DDED8
 		for (int i = 0; i < elementsInCollection; i++)
 		{
 			uint32_t item = InterfaceFuncInvoker1< uint32_t, int32_t >::Invoke(0 /* T System.Collections.Generic.IReadOnlyList`1<Windows.Storage.Streams.InputStreamOptions>::get_Item(System.Int32) */, IReadOnlyList_1_tBAFFC9F7F0223438C90C7215406F5890DDF5CAB3_il2cpp_TypeInfo_var, __this, i);
-			if (VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(0 /* System.Boolean System.Object::Equals(System.Object) */, Box(InputStreamOptions_t84A663CC3616A0D05994D54C1DA6B2E877F7FF82_il2cpp_TypeInfo_var, &item), Box(InputStreamOptions_t84A663CC3616A0D05994D54C1DA6B2E877F7FF82_il2cpp_TypeInfo_var, &___value0)))
+			if (VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(0 /* System.Boolean System.Object::Equals(System.Object) */, Box(InputStreamOptions_t30069DC0816A557D0697485558A4114A7C8634E3_il2cpp_TypeInfo_var, &item), Box(InputStreamOptions_t30069DC0816A557D0697485558A4114A7C8634E3_il2cpp_TypeInfo_var, &___value0)))
 			{
 				____index1_empty = static_cast<uint32_t>(i);
 				returnValue = true;

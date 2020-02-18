@@ -253,6 +253,8 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Bulk_Generics_85.cpp">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_Generics_86.cpp">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Bulk_Generics_9.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Bulk_GLTFSerializationUWP_0.cpp">
@@ -446,6 +448,8 @@
     <ClCompile Include="Source\il2cppOutput\Bulk_Unity.TextMeshPro_2.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Bulk_Unity.TextMeshPro_3.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_Unity.XR.WindowsMR_0.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Bulk_UnityChatSDK_0.cpp">
     </ClCompile>
@@ -824,6 +828,8 @@
     <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_77Table.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_78Table.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_79Table.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_7Table.cpp">
     </ClCompile>

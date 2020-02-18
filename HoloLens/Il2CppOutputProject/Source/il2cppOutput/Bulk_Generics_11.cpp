@@ -75,8 +75,8 @@ struct Comparer_1_t80313E8B88FFC9A1EAAE95386C06BA765D44A74D;
 struct Comparer_1_t571E9BA1CF0AAFA2CB1FE5988D541343B9135CA6;
 // System.Collections.Generic.Comparer`1<UnityEngine.WebCamDevice>
 struct Comparer_1_t79AA12A89CBF2B4F8D4094F875FBC1A4B6CE7755;
-// System.Collections.Generic.Comparer`1<Vuforia.CameraDevice/CameraField>
-struct Comparer_1_t814920010C36279BD12C5F34C9CF1ABC6390F2AD;
+// System.Collections.Generic.Comparer`1<UnityEngine.XR.WSA.SpatialMappingContext/SMComponentRecord>
+struct Comparer_1_t3D176BB89287F0FD51E9E38D1007C9510538A104;
 // System.Collections.Generic.IComparer`1<System.UInt32>
 struct IComparer_1_tEB35069A836D01D7A23FAC5AFD86DFE89E95706C;
 // System.Collections.Generic.IComparer`1<System.UInt64>
@@ -117,8 +117,8 @@ struct IComparer_1_t19801D660A63EB23ADEE44DCDD9208D172E6DC26;
 struct IComparer_1_t6A7119E06BD5FB50F325A954ADBC51DF2881D3F0;
 // System.Collections.Generic.IComparer`1<UnityEngine.WebCamDevice>
 struct IComparer_1_t62A8E56E1C1B10525272A6EE11C76FEC07BF8080;
-// System.Collections.Generic.IComparer`1<Vuforia.CameraDevice/CameraField>
-struct IComparer_1_tEB29A5088266967B6413542D21A78BE6B509BC53;
+// System.Collections.Generic.IComparer`1<UnityEngine.XR.WSA.SpatialMappingContext/SMComponentRecord>
+struct IComparer_1_t8EF1747854D3ADBB8FF634B1959125415EC44CA6;
 // System.Collections.IDictionary
 struct IDictionary_t1BD5C1546718A374EA8122FBD6C6EE45331E8CE7;
 // System.Comparison`1<System.UInt32>
@@ -161,8 +161,8 @@ struct Comparison_1_t2610C89905912EB1EDFA27A459DB7E48850271A9;
 struct Comparison_1_tF9F70764A9056B13F73890AA8F374C203D2DC178;
 // System.Comparison`1<UnityEngine.WebCamDevice>
 struct Comparison_1_tE0736909C0ABA9EC279E4797781A68E7D772E3CA;
-// System.Comparison`1<Vuforia.CameraDevice/CameraField>
-struct Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509;
+// System.Comparison`1<UnityEngine.XR.WSA.SpatialMappingContext/SMComponentRecord>
+struct Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB;
 // System.DelegateData
 struct DelegateData_t1BF9F691B56DAE5F8C28C5E084FDE94F15F27BBE;
 // System.Delegate[]
@@ -241,8 +241,16 @@ struct Vector3U5BU5D_tB9EC3346CC4A0EA5447D968E84A9AC1F6F372C28;
 struct Vector4U5BU5D_t51402C154FFFCF7217A9BEC4B834F0B726C10F66;
 // UnityEngine.WebCamDevice[]
 struct WebCamDeviceU5BU5D_t1E18FBC79F0E58E248F2496291CE994A5E4AC21A;
-// Vuforia.CameraDevice/CameraField[]
-struct CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735;
+// UnityEngine.XR.WSA.SpatialMappingBase
+struct SpatialMappingBase_t167ADE0B4947CD21C9D7A7E7ED77D53B4D8EED54;
+// UnityEngine.XR.WSA.SpatialMappingBase/SurfaceDataReadyCallback
+struct SurfaceDataReadyCallback_t534FB5C4E7192E6A02B5D39352EA1F35B770D592;
+// UnityEngine.XR.WSA.SpatialMappingContext/GetHighestPriorityCallback
+struct GetHighestPriorityCallback_tD9FA96BD5B1C533B326EFB828D2111E9096850E6;
+// UnityEngine.XR.WSA.SpatialMappingContext/SMComponentRecord[]
+struct SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1;
+// UnityEngine.XR.WSA.SurfaceObserver
+struct SurfaceObserver_tE97E43137858D5F6A417980ECDABAC2BB4CF1864;
 
 extern RuntimeClass* Exception_t_il2cpp_TypeInfo_var;
 extern RuntimeClass* IndexOutOfRangeException_tEC7665FC66525AB6A6916A7EB505E5591683F0CF_il2cpp_TypeInfo_var;
@@ -259,7 +267,7 @@ extern const RuntimeMethod* ArraySortHelper_1_BinarySearch_m64924465B56453CC6759
 extern const RuntimeMethod* ArraySortHelper_1_BinarySearch_m967DF4A245B1CDED7E7FDA129877DF2449D0DE20_RuntimeMethod_var;
 extern const RuntimeMethod* ArraySortHelper_1_BinarySearch_mA66CC941FD90376EAA85C482A10742604D04DDED_RuntimeMethod_var;
 extern const RuntimeMethod* ArraySortHelper_1_BinarySearch_mAFDC6BE6CD24B04B18C2D2951AB6ADDC8F6F9647_RuntimeMethod_var;
-extern const RuntimeMethod* ArraySortHelper_1_BinarySearch_mBC1CD00E675DE4A5B22FC817BD58E6AF036431C6_RuntimeMethod_var;
+extern const RuntimeMethod* ArraySortHelper_1_BinarySearch_mB6ACFD3C3E02B893619E60CBA45338D9A98C1B1C_RuntimeMethod_var;
 extern const RuntimeMethod* ArraySortHelper_1_BinarySearch_mBC1D837D4E9F0E9FD14B1B5E3E96A8F7D12C29B4_RuntimeMethod_var;
 extern const RuntimeMethod* ArraySortHelper_1_BinarySearch_mC1E205706A115B478C70D2CEAD2DD47823714092_RuntimeMethod_var;
 extern const RuntimeMethod* ArraySortHelper_1_BinarySearch_mC9851C191B8904AFCE55089FA7256BC4030DE75E_RuntimeMethod_var;
@@ -270,6 +278,7 @@ extern const RuntimeMethod* ArraySortHelper_1_BinarySearch_mDEDC04DE087789BF851F
 extern const RuntimeMethod* ArraySortHelper_1_BinarySearch_mE5AF183D5F1DDFE0D949ED42C4A3CC25A76270E7_RuntimeMethod_var;
 extern const RuntimeMethod* ArraySortHelper_1_BinarySearch_mEBA34B8466151A4B64D6CF6A27FE087610AC1453_RuntimeMethod_var;
 extern const RuntimeMethod* ArraySortHelper_1_Sort_m00F4C78DAD6C684A3F24BF343F6FA66C48187E27_RuntimeMethod_var;
+extern const RuntimeMethod* ArraySortHelper_1_Sort_m05571D30AE4C2464067346B84A654AFC654FDC5D_RuntimeMethod_var;
 extern const RuntimeMethod* ArraySortHelper_1_Sort_m06193EE160ED4CD382B4A51E565B256C9AD403F4_RuntimeMethod_var;
 extern const RuntimeMethod* ArraySortHelper_1_Sort_m07AEA84B63778696988BF601928A470380601A6F_RuntimeMethod_var;
 extern const RuntimeMethod* ArraySortHelper_1_Sort_m1A7130392EE383B614830B46679DC48443DD1D27_RuntimeMethod_var;
@@ -288,6 +297,7 @@ extern const RuntimeMethod* ArraySortHelper_1_Sort_m6B36A47612F2102125B3B5769421
 extern const RuntimeMethod* ArraySortHelper_1_Sort_m6C87B36AE92581C1ECF3478D005AE7DE714B6DF1_RuntimeMethod_var;
 extern const RuntimeMethod* ArraySortHelper_1_Sort_m7305A81F3A07484F726B4FE7037DA03764AC1BFF_RuntimeMethod_var;
 extern const RuntimeMethod* ArraySortHelper_1_Sort_m74878984B2AC2A89E93208E81D6A2EFEFAC72426_RuntimeMethod_var;
+extern const RuntimeMethod* ArraySortHelper_1_Sort_m771C2597A50CA252EED2913D11D023CA477BB4A3_RuntimeMethod_var;
 extern const RuntimeMethod* ArraySortHelper_1_Sort_m8430EFBD0785120480E2C6CDD2F1A747A18C50A4_RuntimeMethod_var;
 extern const RuntimeMethod* ArraySortHelper_1_Sort_m91AD4EA5ECF52E7EB248C784576F8619A15C74E8_RuntimeMethod_var;
 extern const RuntimeMethod* ArraySortHelper_1_Sort_mA15CB9ED7A3743EA88984F49D17DB04F74A15124_RuntimeMethod_var;
@@ -296,7 +306,6 @@ extern const RuntimeMethod* ArraySortHelper_1_Sort_mA9C2E70622F6CAEC9F5B1892BEB5
 extern const RuntimeMethod* ArraySortHelper_1_Sort_mA9C854562E6D4B516644908AF9DB37B40AFDAA05_RuntimeMethod_var;
 extern const RuntimeMethod* ArraySortHelper_1_Sort_mAC4201EEEB8B710C5E8FCDD2CBF19DC8DAABCC4E_RuntimeMethod_var;
 extern const RuntimeMethod* ArraySortHelper_1_Sort_mADEE5FBCAD715C00E3A268DD78F013F8723D63AE_RuntimeMethod_var;
-extern const RuntimeMethod* ArraySortHelper_1_Sort_mB13ECA0AE4D3B41DA302C363AE652703796E78D0_RuntimeMethod_var;
 extern const RuntimeMethod* ArraySortHelper_1_Sort_mB19B2789C2E22F686C4625BE148FA1042DA71935_RuntimeMethod_var;
 extern const RuntimeMethod* ArraySortHelper_1_Sort_mC05D74DB72CA15C2B3D0794BB56B1002699EB70F_RuntimeMethod_var;
 extern const RuntimeMethod* ArraySortHelper_1_Sort_mC4E34818FE986BF8632B2E500758F626B98ECF49_RuntimeMethod_var;
@@ -309,7 +318,6 @@ extern const RuntimeMethod* ArraySortHelper_1_Sort_mEE0C78106EBE2CC465493C5C6D79
 extern const RuntimeMethod* ArraySortHelper_1_Sort_mF0CF8029FBA1C285D6EFFED02EFB252D41D3C343_RuntimeMethod_var;
 extern const RuntimeMethod* ArraySortHelper_1_Sort_mF4A076A06D23EE802C214424EC07171FA92CB210_RuntimeMethod_var;
 extern const RuntimeMethod* ArraySortHelper_1_Sort_mF4A1885821115CD397BA71C3A7CD02D7E724EDA8_RuntimeMethod_var;
-extern const RuntimeMethod* ArraySortHelper_1_Sort_mF880F426A1836AFE3744A0F04707C122672FAC55_RuntimeMethod_var;
 extern const RuntimeMethod* ArraySortHelper_1_Sort_mFF0F7CB3001AA860D4876D90B0CBA4874472F5A7_RuntimeMethod_var;
 extern const uint32_t ArraySortHelper_1_BinarySearch_m0889B63B11535604D42BC0838308BC8500AFD3AD_MetadataUsageId;
 extern const uint32_t ArraySortHelper_1_BinarySearch_m0B2F9D6EA76D97A87A36FF3F703176BA891689CE_MetadataUsageId;
@@ -322,7 +330,7 @@ extern const uint32_t ArraySortHelper_1_BinarySearch_m64924465B56453CC6759F8961E
 extern const uint32_t ArraySortHelper_1_BinarySearch_m967DF4A245B1CDED7E7FDA129877DF2449D0DE20_MetadataUsageId;
 extern const uint32_t ArraySortHelper_1_BinarySearch_mA66CC941FD90376EAA85C482A10742604D04DDED_MetadataUsageId;
 extern const uint32_t ArraySortHelper_1_BinarySearch_mAFDC6BE6CD24B04B18C2D2951AB6ADDC8F6F9647_MetadataUsageId;
-extern const uint32_t ArraySortHelper_1_BinarySearch_mBC1CD00E675DE4A5B22FC817BD58E6AF036431C6_MetadataUsageId;
+extern const uint32_t ArraySortHelper_1_BinarySearch_mB6ACFD3C3E02B893619E60CBA45338D9A98C1B1C_MetadataUsageId;
 extern const uint32_t ArraySortHelper_1_BinarySearch_mBC1D837D4E9F0E9FD14B1B5E3E96A8F7D12C29B4_MetadataUsageId;
 extern const uint32_t ArraySortHelper_1_BinarySearch_mC1E205706A115B478C70D2CEAD2DD47823714092_MetadataUsageId;
 extern const uint32_t ArraySortHelper_1_BinarySearch_mC9851C191B8904AFCE55089FA7256BC4030DE75E_MetadataUsageId;
@@ -333,6 +341,7 @@ extern const uint32_t ArraySortHelper_1_BinarySearch_mDEDC04DE087789BF851F7D8EB5
 extern const uint32_t ArraySortHelper_1_BinarySearch_mE5AF183D5F1DDFE0D949ED42C4A3CC25A76270E7_MetadataUsageId;
 extern const uint32_t ArraySortHelper_1_BinarySearch_mEBA34B8466151A4B64D6CF6A27FE087610AC1453_MetadataUsageId;
 extern const uint32_t ArraySortHelper_1_Sort_m00F4C78DAD6C684A3F24BF343F6FA66C48187E27_MetadataUsageId;
+extern const uint32_t ArraySortHelper_1_Sort_m05571D30AE4C2464067346B84A654AFC654FDC5D_MetadataUsageId;
 extern const uint32_t ArraySortHelper_1_Sort_m06193EE160ED4CD382B4A51E565B256C9AD403F4_MetadataUsageId;
 extern const uint32_t ArraySortHelper_1_Sort_m07AEA84B63778696988BF601928A470380601A6F_MetadataUsageId;
 extern const uint32_t ArraySortHelper_1_Sort_m1A7130392EE383B614830B46679DC48443DD1D27_MetadataUsageId;
@@ -351,6 +360,7 @@ extern const uint32_t ArraySortHelper_1_Sort_m6B36A47612F2102125B3B576942122DF87
 extern const uint32_t ArraySortHelper_1_Sort_m6C87B36AE92581C1ECF3478D005AE7DE714B6DF1_MetadataUsageId;
 extern const uint32_t ArraySortHelper_1_Sort_m7305A81F3A07484F726B4FE7037DA03764AC1BFF_MetadataUsageId;
 extern const uint32_t ArraySortHelper_1_Sort_m74878984B2AC2A89E93208E81D6A2EFEFAC72426_MetadataUsageId;
+extern const uint32_t ArraySortHelper_1_Sort_m771C2597A50CA252EED2913D11D023CA477BB4A3_MetadataUsageId;
 extern const uint32_t ArraySortHelper_1_Sort_m8430EFBD0785120480E2C6CDD2F1A747A18C50A4_MetadataUsageId;
 extern const uint32_t ArraySortHelper_1_Sort_m91AD4EA5ECF52E7EB248C784576F8619A15C74E8_MetadataUsageId;
 extern const uint32_t ArraySortHelper_1_Sort_mA15CB9ED7A3743EA88984F49D17DB04F74A15124_MetadataUsageId;
@@ -359,7 +369,6 @@ extern const uint32_t ArraySortHelper_1_Sort_mA9C2E70622F6CAEC9F5B1892BEB5D67462
 extern const uint32_t ArraySortHelper_1_Sort_mA9C854562E6D4B516644908AF9DB37B40AFDAA05_MetadataUsageId;
 extern const uint32_t ArraySortHelper_1_Sort_mAC4201EEEB8B710C5E8FCDD2CBF19DC8DAABCC4E_MetadataUsageId;
 extern const uint32_t ArraySortHelper_1_Sort_mADEE5FBCAD715C00E3A268DD78F013F8723D63AE_MetadataUsageId;
-extern const uint32_t ArraySortHelper_1_Sort_mB13ECA0AE4D3B41DA302C363AE652703796E78D0_MetadataUsageId;
 extern const uint32_t ArraySortHelper_1_Sort_mB19B2789C2E22F686C4625BE148FA1042DA71935_MetadataUsageId;
 extern const uint32_t ArraySortHelper_1_Sort_mC05D74DB72CA15C2B3D0794BB56B1002699EB70F_MetadataUsageId;
 extern const uint32_t ArraySortHelper_1_Sort_mC4E34818FE986BF8632B2E500758F626B98ECF49_MetadataUsageId;
@@ -372,13 +381,13 @@ extern const uint32_t ArraySortHelper_1_Sort_mEE0C78106EBE2CC465493C5C6D793BF7A7
 extern const uint32_t ArraySortHelper_1_Sort_mF0CF8029FBA1C285D6EFFED02EFB252D41D3C343_MetadataUsageId;
 extern const uint32_t ArraySortHelper_1_Sort_mF4A076A06D23EE802C214424EC07171FA92CB210_MetadataUsageId;
 extern const uint32_t ArraySortHelper_1_Sort_mF4A1885821115CD397BA71C3A7CD02D7E724EDA8_MetadataUsageId;
-extern const uint32_t ArraySortHelper_1_Sort_mF880F426A1836AFE3744A0F04707C122672FAC55_MetadataUsageId;
 extern const uint32_t ArraySortHelper_1_Sort_mFF0F7CB3001AA860D4876D90B0CBA4874472F5A7_MetadataUsageId;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 struct Exception_t_marshaled_com;
 struct Exception_t_marshaled_pinvoke;
 struct Resolution_t350D132B8526B5211E0BF8B22782F20D55994A90 ;
+struct SurfaceObserver_tE97E43137858D5F6A417980ECDABAC2BB4CF1864_marshaled_com;
 
 struct UInt32U5BU5D_t9AA834AF2940E75BBF8E3F08FF0D20D266DB71CB;
 struct UInt64U5BU5D_tA808FE881491284FF25AFDF5C4BC92A826031EF4;
@@ -400,7 +409,7 @@ struct Vector2U5BU5D_tA065A07DFC060C1B8786BBAA5F3A6577CCEB27D6;
 struct Vector3U5BU5D_tB9EC3346CC4A0EA5447D968E84A9AC1F6F372C28;
 struct Vector4U5BU5D_t51402C154FFFCF7217A9BEC4B834F0B726C10F66;
 struct WebCamDeviceU5BU5D_t1E18FBC79F0E58E248F2496291CE994A5E4AC21A;
-struct CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735;
+struct SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1;
 
 
 #ifndef RUNTIMEOBJECT_H
@@ -832,16 +841,16 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // ARRAYSORTHELPER_1_TD8AE381C9E165BA7C35364B9FCCBDCC3A92CFB74_H
-#ifndef ARRAYSORTHELPER_1_T33B757058C6D9CAB218B867A05F6B35963960A7D_H
-#define ARRAYSORTHELPER_1_T33B757058C6D9CAB218B867A05F6B35963960A7D_H
+#ifndef ARRAYSORTHELPER_1_TF7AA59BCE83DB0D1AFA9B00CFD86958F880B5FFA_H
+#define ARRAYSORTHELPER_1_TF7AA59BCE83DB0D1AFA9B00CFD86958F880B5FFA_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.Collections.Generic.ArraySortHelper`1<Vuforia.CameraDevice_CameraField>
-struct  ArraySortHelper_1_t33B757058C6D9CAB218B867A05F6B35963960A7D  : public RuntimeObject
+// System.Collections.Generic.ArraySortHelper`1<UnityEngine.XR.WSA.SpatialMappingContext_SMComponentRecord>
+struct  ArraySortHelper_1_tF7AA59BCE83DB0D1AFA9B00CFD86958F880B5FFA  : public RuntimeObject
 {
 public:
 
@@ -851,7 +860,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // ARRAYSORTHELPER_1_T33B757058C6D9CAB218B867A05F6B35963960A7D_H
+#endif // ARRAYSORTHELPER_1_TF7AA59BCE83DB0D1AFA9B00CFD86958F880B5FFA_H
 #ifndef COMPARER_1_T48A8EFAD34AFDD91B93724203AAF84B00763020E_H
 #define COMPARER_1_T48A8EFAD34AFDD91B93724203AAF84B00763020E_H
 #ifdef __clang__
@@ -1592,33 +1601,33 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // COMPARER_1_T79AA12A89CBF2B4F8D4094F875FBC1A4B6CE7755_H
-#ifndef COMPARER_1_T814920010C36279BD12C5F34C9CF1ABC6390F2AD_H
-#define COMPARER_1_T814920010C36279BD12C5F34C9CF1ABC6390F2AD_H
+#ifndef COMPARER_1_T3D176BB89287F0FD51E9E38D1007C9510538A104_H
+#define COMPARER_1_T3D176BB89287F0FD51E9E38D1007C9510538A104_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.Collections.Generic.Comparer`1<Vuforia.CameraDevice_CameraField>
-struct  Comparer_1_t814920010C36279BD12C5F34C9CF1ABC6390F2AD  : public RuntimeObject
+// System.Collections.Generic.Comparer`1<UnityEngine.XR.WSA.SpatialMappingContext_SMComponentRecord>
+struct  Comparer_1_t3D176BB89287F0FD51E9E38D1007C9510538A104  : public RuntimeObject
 {
 public:
 
 public:
 };
 
-struct Comparer_1_t814920010C36279BD12C5F34C9CF1ABC6390F2AD_StaticFields
+struct Comparer_1_t3D176BB89287F0FD51E9E38D1007C9510538A104_StaticFields
 {
 public:
 	// System.Collections.Generic.Comparer`1<T> modreq(System.Runtime.CompilerServices.IsVolatile) System.Collections.Generic.Comparer`1::defaultComparer
-	Comparer_1_t814920010C36279BD12C5F34C9CF1ABC6390F2AD * ___defaultComparer_0;
+	Comparer_1_t3D176BB89287F0FD51E9E38D1007C9510538A104 * ___defaultComparer_0;
 
 public:
-	inline static int32_t get_offset_of_defaultComparer_0() { return static_cast<int32_t>(offsetof(Comparer_1_t814920010C36279BD12C5F34C9CF1ABC6390F2AD_StaticFields, ___defaultComparer_0)); }
-	inline Comparer_1_t814920010C36279BD12C5F34C9CF1ABC6390F2AD * get_defaultComparer_0() const { return ___defaultComparer_0; }
-	inline Comparer_1_t814920010C36279BD12C5F34C9CF1ABC6390F2AD ** get_address_of_defaultComparer_0() { return &___defaultComparer_0; }
-	inline void set_defaultComparer_0(Comparer_1_t814920010C36279BD12C5F34C9CF1ABC6390F2AD * value)
+	inline static int32_t get_offset_of_defaultComparer_0() { return static_cast<int32_t>(offsetof(Comparer_1_t3D176BB89287F0FD51E9E38D1007C9510538A104_StaticFields, ___defaultComparer_0)); }
+	inline Comparer_1_t3D176BB89287F0FD51E9E38D1007C9510538A104 * get_defaultComparer_0() const { return ___defaultComparer_0; }
+	inline Comparer_1_t3D176BB89287F0FD51E9E38D1007C9510538A104 ** get_address_of_defaultComparer_0() { return &___defaultComparer_0; }
+	inline void set_defaultComparer_0(Comparer_1_t3D176BB89287F0FD51E9E38D1007C9510538A104 * value)
 	{
 		___defaultComparer_0 = value;
 		Il2CppCodeGenWriteBarrier((&___defaultComparer_0), value);
@@ -1628,7 +1637,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // COMPARER_1_T814920010C36279BD12C5F34C9CF1ABC6390F2AD_H
+#endif // COMPARER_1_T3D176BB89287F0FD51E9E38D1007C9510538A104_H
 #ifndef EXCEPTION_T_H
 #define EXCEPTION_T_H
 #ifdef __clang__
@@ -1950,6 +1959,45 @@ struct ValueType_t4D0C27076F7C36E76190FB3328E232BCB1CD1FFF_marshaled_com
 {
 };
 #endif // VALUETYPE_T4D0C27076F7C36E76190FB3328E232BCB1CD1FFF_H
+#ifndef SURFACEOBSERVER_TE97E43137858D5F6A417980ECDABAC2BB4CF1864_H
+#define SURFACEOBSERVER_TE97E43137858D5F6A417980ECDABAC2BB4CF1864_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.XR.WSA.SurfaceObserver
+struct  SurfaceObserver_tE97E43137858D5F6A417980ECDABAC2BB4CF1864  : public RuntimeObject
+{
+public:
+	// System.Int32 UnityEngine.XR.WSA.SurfaceObserver::m_Observer
+	int32_t ___m_Observer_1;
+
+public:
+	inline static int32_t get_offset_of_m_Observer_1() { return static_cast<int32_t>(offsetof(SurfaceObserver_tE97E43137858D5F6A417980ECDABAC2BB4CF1864, ___m_Observer_1)); }
+	inline int32_t get_m_Observer_1() const { return ___m_Observer_1; }
+	inline int32_t* get_address_of_m_Observer_1() { return &___m_Observer_1; }
+	inline void set_m_Observer_1(int32_t value)
+	{
+		___m_Observer_1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Native definition for P/Invoke marshalling of UnityEngine.XR.WSA.SurfaceObserver
+struct SurfaceObserver_tE97E43137858D5F6A417980ECDABAC2BB4CF1864_marshaled_pinvoke
+{
+	int32_t ___m_Observer_1;
+};
+// Native definition for COM marshalling of UnityEngine.XR.WSA.SurfaceObserver
+struct SurfaceObserver_tE97E43137858D5F6A417980ECDABAC2BB4CF1864_marshaled_com
+{
+	int32_t ___m_Observer_1;
+};
+#endif // SURFACEOBSERVER_TE97E43137858D5F6A417980ECDABAC2BB4CF1864_H
 #ifndef ENUM_T2AF27C02B8653AE29442467390005ABC74D8F521_H
 #define ENUM_T2AF27C02B8653AE29442467390005ABC74D8F521_H
 #ifdef __clang__
@@ -3144,6 +3192,85 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // VECTOR4_TD148D6428C3F8FF6CD998F82090113C2B490B76E_H
+#ifndef SMCOMPONENTRECORD_T4F25C7B56C9A9F701769D1F27D109B576E836C5C_H
+#define SMCOMPONENTRECORD_T4F25C7B56C9A9F701769D1F27D109B576E836C5C_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.XR.WSA.SpatialMappingContext_SMComponentRecord
+struct  SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C 
+{
+public:
+	// UnityEngine.XR.WSA.SpatialMappingBase UnityEngine.XR.WSA.SpatialMappingContext_SMComponentRecord::m_Component
+	SpatialMappingBase_t167ADE0B4947CD21C9D7A7E7ED77D53B4D8EED54 * ___m_Component_0;
+	// UnityEngine.XR.WSA.SpatialMappingBase_SurfaceDataReadyCallback UnityEngine.XR.WSA.SpatialMappingContext_SMComponentRecord::m_OnDataReady
+	SurfaceDataReadyCallback_t534FB5C4E7192E6A02B5D39352EA1F35B770D592 * ___m_OnDataReady_1;
+	// UnityEngine.XR.WSA.SpatialMappingContext_GetHighestPriorityCallback UnityEngine.XR.WSA.SpatialMappingContext_SMComponentRecord::m_GetHighestPri
+	GetHighestPriorityCallback_tD9FA96BD5B1C533B326EFB828D2111E9096850E6 * ___m_GetHighestPri_2;
+	// UnityEngine.XR.WSA.SurfaceObserver UnityEngine.XR.WSA.SpatialMappingContext_SMComponentRecord::m_SurfaceObserver
+	SurfaceObserver_tE97E43137858D5F6A417980ECDABAC2BB4CF1864 * ___m_SurfaceObserver_3;
+
+public:
+	inline static int32_t get_offset_of_m_Component_0() { return static_cast<int32_t>(offsetof(SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C, ___m_Component_0)); }
+	inline SpatialMappingBase_t167ADE0B4947CD21C9D7A7E7ED77D53B4D8EED54 * get_m_Component_0() const { return ___m_Component_0; }
+	inline SpatialMappingBase_t167ADE0B4947CD21C9D7A7E7ED77D53B4D8EED54 ** get_address_of_m_Component_0() { return &___m_Component_0; }
+	inline void set_m_Component_0(SpatialMappingBase_t167ADE0B4947CD21C9D7A7E7ED77D53B4D8EED54 * value)
+	{
+		___m_Component_0 = value;
+		Il2CppCodeGenWriteBarrier((&___m_Component_0), value);
+	}
+
+	inline static int32_t get_offset_of_m_OnDataReady_1() { return static_cast<int32_t>(offsetof(SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C, ___m_OnDataReady_1)); }
+	inline SurfaceDataReadyCallback_t534FB5C4E7192E6A02B5D39352EA1F35B770D592 * get_m_OnDataReady_1() const { return ___m_OnDataReady_1; }
+	inline SurfaceDataReadyCallback_t534FB5C4E7192E6A02B5D39352EA1F35B770D592 ** get_address_of_m_OnDataReady_1() { return &___m_OnDataReady_1; }
+	inline void set_m_OnDataReady_1(SurfaceDataReadyCallback_t534FB5C4E7192E6A02B5D39352EA1F35B770D592 * value)
+	{
+		___m_OnDataReady_1 = value;
+		Il2CppCodeGenWriteBarrier((&___m_OnDataReady_1), value);
+	}
+
+	inline static int32_t get_offset_of_m_GetHighestPri_2() { return static_cast<int32_t>(offsetof(SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C, ___m_GetHighestPri_2)); }
+	inline GetHighestPriorityCallback_tD9FA96BD5B1C533B326EFB828D2111E9096850E6 * get_m_GetHighestPri_2() const { return ___m_GetHighestPri_2; }
+	inline GetHighestPriorityCallback_tD9FA96BD5B1C533B326EFB828D2111E9096850E6 ** get_address_of_m_GetHighestPri_2() { return &___m_GetHighestPri_2; }
+	inline void set_m_GetHighestPri_2(GetHighestPriorityCallback_tD9FA96BD5B1C533B326EFB828D2111E9096850E6 * value)
+	{
+		___m_GetHighestPri_2 = value;
+		Il2CppCodeGenWriteBarrier((&___m_GetHighestPri_2), value);
+	}
+
+	inline static int32_t get_offset_of_m_SurfaceObserver_3() { return static_cast<int32_t>(offsetof(SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C, ___m_SurfaceObserver_3)); }
+	inline SurfaceObserver_tE97E43137858D5F6A417980ECDABAC2BB4CF1864 * get_m_SurfaceObserver_3() const { return ___m_SurfaceObserver_3; }
+	inline SurfaceObserver_tE97E43137858D5F6A417980ECDABAC2BB4CF1864 ** get_address_of_m_SurfaceObserver_3() { return &___m_SurfaceObserver_3; }
+	inline void set_m_SurfaceObserver_3(SurfaceObserver_tE97E43137858D5F6A417980ECDABAC2BB4CF1864 * value)
+	{
+		___m_SurfaceObserver_3 = value;
+		Il2CppCodeGenWriteBarrier((&___m_SurfaceObserver_3), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Native definition for P/Invoke marshalling of UnityEngine.XR.WSA.SpatialMappingContext/SMComponentRecord
+struct SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C_marshaled_pinvoke
+{
+	SpatialMappingBase_t167ADE0B4947CD21C9D7A7E7ED77D53B4D8EED54 * ___m_Component_0;
+	Il2CppMethodPointer ___m_OnDataReady_1;
+	Il2CppMethodPointer ___m_GetHighestPri_2;
+	SurfaceObserver_tE97E43137858D5F6A417980ECDABAC2BB4CF1864_marshaled_pinvoke ___m_SurfaceObserver_3;
+};
+// Native definition for COM marshalling of UnityEngine.XR.WSA.SpatialMappingContext/SMComponentRecord
+struct SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C_marshaled_com
+{
+	SpatialMappingBase_t167ADE0B4947CD21C9D7A7E7ED77D53B4D8EED54 * ___m_Component_0;
+	Il2CppMethodPointer ___m_OnDataReady_1;
+	Il2CppMethodPointer ___m_GetHighestPri_2;
+	SurfaceObserver_tE97E43137858D5F6A417980ECDABAC2BB4CF1864_marshaled_com* ___m_SurfaceObserver_3;
+};
+#endif // SMCOMPONENTRECORD_T4F25C7B56C9A9F701769D1F27D109B576E836C5C_H
 #ifndef DELEGATE_T_H
 #define DELEGATE_T_H
 #ifdef __clang__
@@ -4000,35 +4127,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // WEBCAMKIND_T658D67B14A1B37DCF51FF51D4ACE4CC3ADB7C33E_H
-#ifndef DATATYPE_TEDADE5E338501A7568E6F61544B9A772E9D8AD9B_H
-#define DATATYPE_TEDADE5E338501A7568E6F61544B9A772E9D8AD9B_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// Vuforia.CameraDevice_CameraField_DataType
-struct  DataType_tEDADE5E338501A7568E6F61544B9A772E9D8AD9B 
-{
-public:
-	// System.Int32 Vuforia.CameraDevice_CameraField_DataType::value__
-	int32_t ___value___2;
-
-public:
-	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(DataType_tEDADE5E338501A7568E6F61544B9A772E9D8AD9B, ___value___2)); }
-	inline int32_t get_value___2() const { return ___value___2; }
-	inline int32_t* get_address_of_value___2() { return &___value___2; }
-	inline void set_value___2(int32_t value)
-	{
-		___value___2 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // DATATYPE_TEDADE5E338501A7568E6F61544B9A772E9D8AD9B_H
 #ifndef MULTICASTDELEGATE_T_H
 #define MULTICASTDELEGATE_T_H
 #ifdef __clang__
@@ -4159,58 +4257,6 @@ struct WebCamDevice_tA545BEDFAFD78866911F4837B8406845541B8F54_marshaled_com
 	Resolution_t350D132B8526B5211E0BF8B22782F20D55994A90 * ___m_Resolutions_4;
 };
 #endif // WEBCAMDEVICE_TA545BEDFAFD78866911F4837B8406845541B8F54_H
-#ifndef CAMERAFIELD_TA76F51B38BD621368B9D9440DB131E5015ED70B4_H
-#define CAMERAFIELD_TA76F51B38BD621368B9D9440DB131E5015ED70B4_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// Vuforia.CameraDevice_CameraField
-struct  CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 
-{
-public:
-	// Vuforia.CameraDevice_CameraField_DataType Vuforia.CameraDevice_CameraField::Type
-	int32_t ___Type_0;
-	// System.String Vuforia.CameraDevice_CameraField::Key
-	String_t* ___Key_1;
-
-public:
-	inline static int32_t get_offset_of_Type_0() { return static_cast<int32_t>(offsetof(CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4, ___Type_0)); }
-	inline int32_t get_Type_0() const { return ___Type_0; }
-	inline int32_t* get_address_of_Type_0() { return &___Type_0; }
-	inline void set_Type_0(int32_t value)
-	{
-		___Type_0 = value;
-	}
-
-	inline static int32_t get_offset_of_Key_1() { return static_cast<int32_t>(offsetof(CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4, ___Key_1)); }
-	inline String_t* get_Key_1() const { return ___Key_1; }
-	inline String_t** get_address_of_Key_1() { return &___Key_1; }
-	inline void set_Key_1(String_t* value)
-	{
-		___Key_1 = value;
-		Il2CppCodeGenWriteBarrier((&___Key_1), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-// Native definition for P/Invoke marshalling of Vuforia.CameraDevice/CameraField
-struct CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4_marshaled_pinvoke
-{
-	int32_t ___Type_0;
-	char* ___Key_1;
-};
-// Native definition for COM marshalling of Vuforia.CameraDevice/CameraField
-struct CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4_marshaled_com
-{
-	int32_t ___Type_0;
-	Il2CppChar* ___Key_1;
-};
-#endif // CAMERAFIELD_TA76F51B38BD621368B9D9440DB131E5015ED70B4_H
 #ifndef COMPARISON_1_T98CC2F214ACDF8A5B494DC5FE8F950970933D162_H
 #define COMPARISON_1_T98CC2F214ACDF8A5B494DC5FE8F950970933D162_H
 #ifdef __clang__
@@ -4611,16 +4657,16 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // COMPARISON_1_TE0736909C0ABA9EC279E4797781A68E7D772E3CA_H
-#ifndef COMPARISON_1_TB917C16B225BFAA7E99CD06383E56D0924D5C509_H
-#define COMPARISON_1_TB917C16B225BFAA7E99CD06383E56D0924D5C509_H
+#ifndef COMPARISON_1_T25048161661D2F7A1271B45750B88FDD19126AAB_H
+#define COMPARISON_1_T25048161661D2F7A1271B45750B88FDD19126AAB_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.Comparison`1<Vuforia.CameraDevice_CameraField>
-struct  Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509  : public MulticastDelegate_t
+// System.Comparison`1<UnityEngine.XR.WSA.SpatialMappingContext_SMComponentRecord>
+struct  Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB  : public MulticastDelegate_t
 {
 public:
 
@@ -4630,7 +4676,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // COMPARISON_1_TB917C16B225BFAA7E99CD06383E56D0924D5C509_H
+#endif // COMPARISON_1_T25048161661D2F7A1271B45750B88FDD19126AAB_H
 // System.UInt32[]
 struct UInt32U5BU5D_t9AA834AF2940E75BBF8E3F08FF0D20D266DB71CB  : public RuntimeArray
 {
@@ -5331,37 +5377,37 @@ public:
 		m_Items[index] = value;
 	}
 };
-// Vuforia.CameraDevice_CameraField[]
-struct CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735  : public RuntimeArray
+// UnityEngine.XR.WSA.SpatialMappingContext_SMComponentRecord[]
+struct SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1  : public RuntimeArray
 {
 public:
-	ALIGN_FIELD (8) CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4  m_Items[1];
+	ALIGN_FIELD (8) SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C  m_Items[1];
 
 public:
-	inline CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4  GetAt(il2cpp_array_size_t index) const
+	inline SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C  GetAt(il2cpp_array_size_t index) const
 	{
 		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
 		return m_Items[index];
 	}
-	inline CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 * GetAddressAt(il2cpp_array_size_t index)
+	inline SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C * GetAddressAt(il2cpp_array_size_t index)
 	{
 		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
 		return m_Items + index;
 	}
-	inline void SetAt(il2cpp_array_size_t index, CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4  value)
+	inline void SetAt(il2cpp_array_size_t index, SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C  value)
 	{
 		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
 		m_Items[index] = value;
 	}
-	inline CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4  GetAtUnchecked(il2cpp_array_size_t index) const
+	inline SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C  GetAtUnchecked(il2cpp_array_size_t index) const
 	{
 		return m_Items[index];
 	}
-	inline CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	inline SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C * GetAddressAtUnchecked(il2cpp_array_size_t index)
 	{
 		return m_Items + index;
 	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4  value)
+	inline void SetAtUnchecked(il2cpp_array_size_t index, SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C  value)
 	{
 		m_Items[index] = value;
 	}
@@ -24210,13 +24256,13 @@ IL_0049:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void System.Collections.Generic.ArraySortHelper`1<Vuforia.CameraDevice_CameraField>::Sort(T[],System.Int32,System.Int32,System.Collections.Generic.IComparer`1<T>)
-extern "C" IL2CPP_METHOD_ATTR void ArraySortHelper_1_Sort_mF880F426A1836AFE3744A0F04707C122672FAC55_gshared (CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* ___keys0, int32_t ___index1, int32_t ___length2, RuntimeObject* ___comparer3, const RuntimeMethod* method)
+// System.Void System.Collections.Generic.ArraySortHelper`1<UnityEngine.XR.WSA.SpatialMappingContext_SMComponentRecord>::Sort(T[],System.Int32,System.Int32,System.Collections.Generic.IComparer`1<T>)
+extern "C" IL2CPP_METHOD_ATTR void ArraySortHelper_1_Sort_m05571D30AE4C2464067346B84A654AFC654FDC5D_gshared (SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* ___keys0, int32_t ___index1, int32_t ___length2, RuntimeObject* ___comparer3, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (ArraySortHelper_1_Sort_mF880F426A1836AFE3744A0F04707C122672FAC55_MetadataUsageId);
+		il2cpp_codegen_initialize_method (ArraySortHelper_1_Sort_m05571D30AE4C2464067346B84A654AFC654FDC5D_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	Exception_t * V_0 = NULL;
@@ -24241,20 +24287,20 @@ IL_0000:
 
 IL_0003:
 		{
-			Comparer_1_t814920010C36279BD12C5F34C9CF1ABC6390F2AD * L_1 = ((  Comparer_1_t814920010C36279BD12C5F34C9CF1ABC6390F2AD * (*) (const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 0)->methodPointer)(/*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 0));
+			Comparer_1_t3D176BB89287F0FD51E9E38D1007C9510538A104 * L_1 = ((  Comparer_1_t3D176BB89287F0FD51E9E38D1007C9510538A104 * (*) (const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 0)->methodPointer)(/*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 0));
 			___comparer3 = (RuntimeObject*)L_1;
 		}
 
 IL_000a:
 		{
-			CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_2 = ___keys0;
+			SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_2 = ___keys0;
 			int32_t L_3 = ___index1;
 			int32_t L_4 = ___length2;
 			RuntimeObject* L_5 = ___comparer3;
 			RuntimeObject* L_6 = (RuntimeObject*)L_5;
-			Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 * L_7 = (Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *)il2cpp_codegen_object_new(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 4));
-			((  void (*) (Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *, RuntimeObject *, intptr_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 5)->methodPointer)(L_7, (RuntimeObject *)L_6, (intptr_t)((intptr_t)GetInterfaceMethodInfo(L_6, 0, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3))), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 5));
-			((  void (*) (CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735*, int32_t, int32_t, Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 6)->methodPointer)((CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735*)L_2, (int32_t)L_3, (int32_t)L_4, (Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *)L_7, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 6));
+			Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB * L_7 = (Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *)il2cpp_codegen_object_new(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 4));
+			((  void (*) (Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *, RuntimeObject *, intptr_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 5)->methodPointer)(L_7, (RuntimeObject *)L_6, (intptr_t)((intptr_t)GetInterfaceMethodInfo(L_6, 0, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3))), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+			((  void (*) (SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1*, int32_t, int32_t, Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 6)->methodPointer)((SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1*)L_2, (int32_t)L_3, (int32_t)L_4, (Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *)L_7, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 			goto IL_0037;
 		}
 	} // end try (depth: 1)
@@ -24281,7 +24327,7 @@ CATCH_002a:
 		Exception_t * L_9 = V_0;
 		InvalidOperationException_t0530E734D823F78310CAFAFA424CA5164D93A1F1 * L_10 = (InvalidOperationException_t0530E734D823F78310CAFAFA424CA5164D93A1F1 *)il2cpp_codegen_object_new(InvalidOperationException_t0530E734D823F78310CAFAFA424CA5164D93A1F1_il2cpp_TypeInfo_var);
 		InvalidOperationException__ctor_mC40AA9579B996C6FBAE023590139C16304D81DC6(L_10, (String_t*)_stringLiteralFB1F9085CD251113A1CE1C7E7F6CB3C672DA6565, (Exception_t *)L_9, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_10, NULL, ArraySortHelper_1_Sort_mF880F426A1836AFE3744A0F04707C122672FAC55_RuntimeMethod_var);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_10, NULL, ArraySortHelper_1_Sort_m05571D30AE4C2464067346B84A654AFC654FDC5D_RuntimeMethod_var);
 	} // end catch (depth: 1)
 
 IL_0037:
@@ -24289,13 +24335,13 @@ IL_0037:
 		return;
 	}
 }
-// System.Int32 System.Collections.Generic.ArraySortHelper`1<Vuforia.CameraDevice_CameraField>::BinarySearch(T[],System.Int32,System.Int32,T,System.Collections.Generic.IComparer`1<T>)
-extern "C" IL2CPP_METHOD_ATTR int32_t ArraySortHelper_1_BinarySearch_mBC1CD00E675DE4A5B22FC817BD58E6AF036431C6_gshared (CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* ___array0, int32_t ___index1, int32_t ___length2, CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4  ___value3, RuntimeObject* ___comparer4, const RuntimeMethod* method)
+// System.Int32 System.Collections.Generic.ArraySortHelper`1<UnityEngine.XR.WSA.SpatialMappingContext_SMComponentRecord>::BinarySearch(T[],System.Int32,System.Int32,T,System.Collections.Generic.IComparer`1<T>)
+extern "C" IL2CPP_METHOD_ATTR int32_t ArraySortHelper_1_BinarySearch_mB6ACFD3C3E02B893619E60CBA45338D9A98C1B1C_gshared (SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* ___array0, int32_t ___index1, int32_t ___length2, SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C  ___value3, RuntimeObject* ___comparer4, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (ArraySortHelper_1_BinarySearch_mBC1CD00E675DE4A5B22FC817BD58E6AF036431C6_MetadataUsageId);
+		il2cpp_codegen_initialize_method (ArraySortHelper_1_BinarySearch_mB6ACFD3C3E02B893619E60CBA45338D9A98C1B1C_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
@@ -24321,18 +24367,18 @@ IL_0000:
 
 IL_0004:
 		{
-			Comparer_1_t814920010C36279BD12C5F34C9CF1ABC6390F2AD * L_1 = ((  Comparer_1_t814920010C36279BD12C5F34C9CF1ABC6390F2AD * (*) (const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 0)->methodPointer)(/*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 0));
+			Comparer_1_t3D176BB89287F0FD51E9E38D1007C9510538A104 * L_1 = ((  Comparer_1_t3D176BB89287F0FD51E9E38D1007C9510538A104 * (*) (const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 0)->methodPointer)(/*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 0));
 			___comparer4 = (RuntimeObject*)L_1;
 		}
 
 IL_000b:
 		{
-			CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_2 = ___array0;
+			SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_2 = ___array0;
 			int32_t L_3 = ___index1;
 			int32_t L_4 = ___length2;
-			CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4  L_5 = ___value3;
+			SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C  L_5 = ___value3;
 			RuntimeObject* L_6 = ___comparer4;
-			int32_t L_7 = ((  int32_t (*) (CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735*, int32_t, int32_t, CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 , RuntimeObject*, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 8)->methodPointer)((CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735*)L_2, (int32_t)L_3, (int32_t)L_4, (CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 )L_5, (RuntimeObject*)L_6, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+			int32_t L_7 = ((  int32_t (*) (SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1*, int32_t, int32_t, SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C , RuntimeObject*, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 8)->methodPointer)((SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1*)L_2, (int32_t)L_3, (int32_t)L_4, (SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C )L_5, (RuntimeObject*)L_6, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 			V_0 = (int32_t)L_7;
 			goto IL_0026;
 		}
@@ -24351,7 +24397,7 @@ CATCH_0019:
 		Exception_t * L_8 = V_1;
 		InvalidOperationException_t0530E734D823F78310CAFAFA424CA5164D93A1F1 * L_9 = (InvalidOperationException_t0530E734D823F78310CAFAFA424CA5164D93A1F1 *)il2cpp_codegen_object_new(InvalidOperationException_t0530E734D823F78310CAFAFA424CA5164D93A1F1_il2cpp_TypeInfo_var);
 		InvalidOperationException__ctor_mC40AA9579B996C6FBAE023590139C16304D81DC6(L_9, (String_t*)_stringLiteralFB1F9085CD251113A1CE1C7E7F6CB3C672DA6565, (Exception_t *)L_8, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_9, NULL, ArraySortHelper_1_BinarySearch_mBC1CD00E675DE4A5B22FC817BD58E6AF036431C6_RuntimeMethod_var);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_9, NULL, ArraySortHelper_1_BinarySearch_mB6ACFD3C3E02B893619E60CBA45338D9A98C1B1C_RuntimeMethod_var);
 	} // end catch (depth: 1)
 
 IL_0026:
@@ -24360,13 +24406,13 @@ IL_0026:
 		return L_10;
 	}
 }
-// System.Void System.Collections.Generic.ArraySortHelper`1<Vuforia.CameraDevice_CameraField>::Sort(T[],System.Int32,System.Int32,System.Comparison`1<T>)
-extern "C" IL2CPP_METHOD_ATTR void ArraySortHelper_1_Sort_mB13ECA0AE4D3B41DA302C363AE652703796E78D0_gshared (CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* ___keys0, int32_t ___index1, int32_t ___length2, Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 * ___comparer3, const RuntimeMethod* method)
+// System.Void System.Collections.Generic.ArraySortHelper`1<UnityEngine.XR.WSA.SpatialMappingContext_SMComponentRecord>::Sort(T[],System.Int32,System.Int32,System.Comparison`1<T>)
+extern "C" IL2CPP_METHOD_ATTR void ArraySortHelper_1_Sort_m771C2597A50CA252EED2913D11D023CA477BB4A3_gshared (SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* ___keys0, int32_t ___index1, int32_t ___length2, Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB * ___comparer3, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (ArraySortHelper_1_Sort_mB13ECA0AE4D3B41DA302C363AE652703796E78D0_MetadataUsageId);
+		il2cpp_codegen_initialize_method (ArraySortHelper_1_Sort_m771C2597A50CA252EED2913D11D023CA477BB4A3_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	Exception_t * V_0 = NULL;
@@ -24381,11 +24427,11 @@ extern "C" IL2CPP_METHOD_ATTR void ArraySortHelper_1_Sort_mB13ECA0AE4D3B41DA302C
 IL_0000:
 	try
 	{ // begin try (depth: 1)
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_0 = ___keys0;
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_0 = ___keys0;
 		int32_t L_1 = ___index1;
 		int32_t L_2 = ___length2;
-		Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 * L_3 = ___comparer3;
-		((  void (*) (CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735*, int32_t, int32_t, Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 6)->methodPointer)((CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735*)L_0, (int32_t)L_1, (int32_t)L_2, (Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *)L_3, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 6));
+		Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB * L_3 = ___comparer3;
+		((  void (*) (SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1*, int32_t, int32_t, Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 6)->methodPointer)((SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1*)L_0, (int32_t)L_1, (int32_t)L_2, (Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *)L_3, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		goto IL_0021;
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
@@ -24400,7 +24446,7 @@ IL_0000:
 
 CATCH_000b:
 	{ // begin catch(System.IndexOutOfRangeException)
-		Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 * L_4 = ___comparer3;
+		Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB * L_4 = ___comparer3;
 		IntrospectiveSortUtilities_ThrowOrIgnoreBadComparer_mC5A16A109D5D25128EC4877C34B328EAB6567C3A((RuntimeObject *)L_4, /*hidden argument*/NULL);
 		goto IL_0021;
 	} // end catch (depth: 1)
@@ -24411,7 +24457,7 @@ CATCH_0014:
 		Exception_t * L_5 = V_0;
 		InvalidOperationException_t0530E734D823F78310CAFAFA424CA5164D93A1F1 * L_6 = (InvalidOperationException_t0530E734D823F78310CAFAFA424CA5164D93A1F1 *)il2cpp_codegen_object_new(InvalidOperationException_t0530E734D823F78310CAFAFA424CA5164D93A1F1_il2cpp_TypeInfo_var);
 		InvalidOperationException__ctor_mC40AA9579B996C6FBAE023590139C16304D81DC6(L_6, (String_t*)_stringLiteralFB1F9085CD251113A1CE1C7E7F6CB3C672DA6565, (Exception_t *)L_5, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_6, NULL, ArraySortHelper_1_Sort_mB13ECA0AE4D3B41DA302C363AE652703796E78D0_RuntimeMethod_var);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_6, NULL, ArraySortHelper_1_Sort_m771C2597A50CA252EED2913D11D023CA477BB4A3_RuntimeMethod_var);
 	} // end catch (depth: 1)
 
 IL_0021:
@@ -24419,8 +24465,8 @@ IL_0021:
 		return;
 	}
 }
-// System.Int32 System.Collections.Generic.ArraySortHelper`1<Vuforia.CameraDevice_CameraField>::InternalBinarySearch(T[],System.Int32,System.Int32,T,System.Collections.Generic.IComparer`1<T>)
-extern "C" IL2CPP_METHOD_ATTR int32_t ArraySortHelper_1_InternalBinarySearch_mBFB4BEC72BE09BB5B18DDC76951D518AD1DD8984_gshared (CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* ___array0, int32_t ___index1, int32_t ___length2, CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4  ___value3, RuntimeObject* ___comparer4, const RuntimeMethod* method)
+// System.Int32 System.Collections.Generic.ArraySortHelper`1<UnityEngine.XR.WSA.SpatialMappingContext_SMComponentRecord>::InternalBinarySearch(T[],System.Int32,System.Int32,T,System.Collections.Generic.IComparer`1<T>)
+extern "C" IL2CPP_METHOD_ATTR int32_t ArraySortHelper_1_InternalBinarySearch_mFBAB2CFDE1499529D1A9776AF816E78070D9BFE5_gshared (SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* ___array0, int32_t ___index1, int32_t ___length2, SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C  ___value3, RuntimeObject* ___comparer4, const RuntimeMethod* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
@@ -24442,14 +24488,14 @@ IL_000a:
 		int32_t L_5 = V_0;
 		V_2 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_3, (int32_t)((int32_t)((int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_4, (int32_t)L_5))>>(int32_t)1))));
 		RuntimeObject* L_6 = ___comparer4;
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_7 = ___array0;
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_7 = ___array0;
 		int32_t L_8 = V_2;
 		NullCheck(L_7);
 		int32_t L_9 = L_8;
-		CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4  L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
-		CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4  L_11 = ___value3;
+		SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C  L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
+		SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C  L_11 = ___value3;
 		NullCheck((RuntimeObject*)L_6);
-		int32_t L_12 = InterfaceFuncInvoker2< int32_t, CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 , CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4  >::Invoke(0 /* System.Int32 System.Collections.Generic.IComparer`1<Vuforia.CameraDevice/CameraField>::Compare(T,T) */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3), (RuntimeObject*)L_6, (CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 )L_10, (CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 )L_11);
+		int32_t L_12 = InterfaceFuncInvoker2< int32_t, SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C , SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C  >::Invoke(0 /* System.Int32 System.Collections.Generic.IComparer`1<UnityEngine.XR.WSA.SpatialMappingContext/SMComponentRecord>::Compare(T,T) */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 3), (RuntimeObject*)L_6, (SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C )L_10, (SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C )L_11);
 		V_3 = (int32_t)L_12;
 		int32_t L_13 = V_3;
 		if (L_13)
@@ -24496,10 +24542,10 @@ IL_0035:
 		return ((~L_20));
 	}
 }
-// System.Void System.Collections.Generic.ArraySortHelper`1<Vuforia.CameraDevice_CameraField>::SwapIfGreater(T[],System.Comparison`1<T>,System.Int32,System.Int32)
-extern "C" IL2CPP_METHOD_ATTR void ArraySortHelper_1_SwapIfGreater_m2797E53F3B6197CBF12BC9CDFBB6D2BC42E60B41_gshared (CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* ___keys0, Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 * ___comparer1, int32_t ___a2, int32_t ___b3, const RuntimeMethod* method)
+// System.Void System.Collections.Generic.ArraySortHelper`1<UnityEngine.XR.WSA.SpatialMappingContext_SMComponentRecord>::SwapIfGreater(T[],System.Comparison`1<T>,System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void ArraySortHelper_1_SwapIfGreater_mF9B004958961065EBE84F49628743D972E657DBD_gshared (SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* ___keys0, Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB * ___comparer1, int32_t ___a2, int32_t ___b3, const RuntimeMethod* method)
 {
-	CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4  V_0;
+	SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C  V_0;
 	memset(&V_0, 0, sizeof(V_0));
 	{
 		int32_t L_0 = ___a2;
@@ -24510,45 +24556,45 @@ extern "C" IL2CPP_METHOD_ATTR void ArraySortHelper_1_SwapIfGreater_m2797E53F3B61
 		}
 	}
 	{
-		Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 * L_2 = ___comparer1;
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_3 = ___keys0;
+		Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB * L_2 = ___comparer1;
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_3 = ___keys0;
 		int32_t L_4 = ___a2;
 		NullCheck(L_3);
 		int32_t L_5 = L_4;
-		CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4  L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_7 = ___keys0;
+		SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C  L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_7 = ___keys0;
 		int32_t L_8 = ___b3;
 		NullCheck(L_7);
 		int32_t L_9 = L_8;
-		CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4  L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
-		NullCheck((Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *)L_2);
-		int32_t L_11 = ((  int32_t (*) (Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *, CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 , CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 , const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 9)->methodPointer)((Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *)L_2, (CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 )L_6, (CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 )L_10, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 9));
+		SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C  L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
+		NullCheck((Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *)L_2);
+		int32_t L_11 = ((  int32_t (*) (Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *, SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C , SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C , const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 9)->methodPointer)((Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *)L_2, (SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C )L_6, (SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C )L_10, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 9));
 		if ((((int32_t)L_11) <= ((int32_t)0)))
 		{
 			goto IL_0039;
 		}
 	}
 	{
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_12 = ___keys0;
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_12 = ___keys0;
 		int32_t L_13 = ___a2;
 		NullCheck(L_12);
 		int32_t L_14 = L_13;
-		CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4  L_15 = (L_12)->GetAt(static_cast<il2cpp_array_size_t>(L_14));
-		V_0 = (CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 )L_15;
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_16 = ___keys0;
+		SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C  L_15 = (L_12)->GetAt(static_cast<il2cpp_array_size_t>(L_14));
+		V_0 = (SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C )L_15;
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_16 = ___keys0;
 		int32_t L_17 = ___a2;
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_18 = ___keys0;
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_18 = ___keys0;
 		int32_t L_19 = ___b3;
 		NullCheck(L_18);
 		int32_t L_20 = L_19;
-		CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4  L_21 = (L_18)->GetAt(static_cast<il2cpp_array_size_t>(L_20));
+		SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C  L_21 = (L_18)->GetAt(static_cast<il2cpp_array_size_t>(L_20));
 		NullCheck(L_16);
-		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(L_17), (CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 )L_21);
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_22 = ___keys0;
+		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(L_17), (SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C )L_21);
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_22 = ___keys0;
 		int32_t L_23 = ___b3;
-		CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4  L_24 = V_0;
+		SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C  L_24 = V_0;
 		NullCheck(L_22);
-		(L_22)->SetAt(static_cast<il2cpp_array_size_t>(L_23), (CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 )L_24);
+		(L_22)->SetAt(static_cast<il2cpp_array_size_t>(L_23), (SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C )L_24);
 	}
 
 IL_0039:
@@ -24556,10 +24602,10 @@ IL_0039:
 		return;
 	}
 }
-// System.Void System.Collections.Generic.ArraySortHelper`1<Vuforia.CameraDevice_CameraField>::Swap(T[],System.Int32,System.Int32)
-extern "C" IL2CPP_METHOD_ATTR void ArraySortHelper_1_Swap_m26484DA9BC97403145AD44DD68991BA196276E92_gshared (CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* ___a0, int32_t ___i1, int32_t ___j2, const RuntimeMethod* method)
+// System.Void System.Collections.Generic.ArraySortHelper`1<UnityEngine.XR.WSA.SpatialMappingContext_SMComponentRecord>::Swap(T[],System.Int32,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void ArraySortHelper_1_Swap_m74398D5DC5DCB2CB5E9C6074409656E04C80308F_gshared (SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* ___a0, int32_t ___i1, int32_t ___j2, const RuntimeMethod* method)
 {
-	CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4  V_0;
+	SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C  V_0;
 	memset(&V_0, 0, sizeof(V_0));
 	{
 		int32_t L_0 = ___i1;
@@ -24570,26 +24616,26 @@ extern "C" IL2CPP_METHOD_ATTR void ArraySortHelper_1_Swap_m26484DA9BC97403145AD4
 		}
 	}
 	{
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_2 = ___a0;
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_2 = ___a0;
 		int32_t L_3 = ___i1;
 		NullCheck(L_2);
 		int32_t L_4 = L_3;
-		CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4  L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
-		V_0 = (CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 )L_5;
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_6 = ___a0;
+		SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C  L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		V_0 = (SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C )L_5;
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_6 = ___a0;
 		int32_t L_7 = ___i1;
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_8 = ___a0;
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_8 = ___a0;
 		int32_t L_9 = ___j2;
 		NullCheck(L_8);
 		int32_t L_10 = L_9;
-		CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4  L_11 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
+		SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C  L_11 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
 		NullCheck(L_6);
-		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 )L_11);
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_12 = ___a0;
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C )L_11);
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_12 = ___a0;
 		int32_t L_13 = ___j2;
-		CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4  L_14 = V_0;
+		SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C  L_14 = V_0;
 		NullCheck(L_12);
-		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(L_13), (CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 )L_14);
+		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(L_13), (SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C )L_14);
 	}
 
 IL_0022:
@@ -24597,8 +24643,8 @@ IL_0022:
 		return;
 	}
 }
-// System.Void System.Collections.Generic.ArraySortHelper`1<Vuforia.CameraDevice_CameraField>::IntrospectiveSort(T[],System.Int32,System.Int32,System.Comparison`1<T>)
-extern "C" IL2CPP_METHOD_ATTR void ArraySortHelper_1_IntrospectiveSort_m9F6A1E8D3AFDF903CA31165E6A69D41786FB088E_gshared (CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* ___keys0, int32_t ___left1, int32_t ___length2, Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 * ___comparer3, const RuntimeMethod* method)
+// System.Void System.Collections.Generic.ArraySortHelper`1<UnityEngine.XR.WSA.SpatialMappingContext_SMComponentRecord>::IntrospectiveSort(T[],System.Int32,System.Int32,System.Comparison`1<T>)
+extern "C" IL2CPP_METHOD_ATTR void ArraySortHelper_1_IntrospectiveSort_m93BC602A6BC3C05280E5BAF0B815149B701D6A62_gshared (SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* ___keys0, int32_t ___left1, int32_t ___length2, Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB * ___comparer3, const RuntimeMethod* method)
 {
 	{
 		int32_t L_0 = ___length2;
@@ -24613,20 +24659,20 @@ extern "C" IL2CPP_METHOD_ATTR void ArraySortHelper_1_IntrospectiveSort_m9F6A1E8D
 
 IL_0005:
 	{
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_1 = ___keys0;
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_1 = ___keys0;
 		int32_t L_2 = ___left1;
 		int32_t L_3 = ___length2;
 		int32_t L_4 = ___left1;
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_5 = ___keys0;
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_5 = ___keys0;
 		NullCheck(L_5);
 		int32_t L_6 = IntrospectiveSortUtilities_FloorLog2_m5D97E3CA34AA9D368A470CB423154AFEF979BFFA((int32_t)(((int32_t)((int32_t)(((RuntimeArray *)L_5)->max_length)))), /*hidden argument*/NULL);
-		Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 * L_7 = ___comparer3;
-		((  void (*) (CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735*, int32_t, int32_t, int32_t, Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 10)->methodPointer)((CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735*)L_1, (int32_t)L_2, (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_3, (int32_t)L_4)), (int32_t)1)), (int32_t)((int32_t)il2cpp_codegen_multiply((int32_t)2, (int32_t)L_6)), (Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *)L_7, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 10));
+		Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB * L_7 = ___comparer3;
+		((  void (*) (SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1*, int32_t, int32_t, int32_t, Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 10)->methodPointer)((SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1*)L_1, (int32_t)L_2, (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_3, (int32_t)L_4)), (int32_t)1)), (int32_t)((int32_t)il2cpp_codegen_multiply((int32_t)2, (int32_t)L_6)), (Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *)L_7, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 10));
 		return;
 	}
 }
-// System.Void System.Collections.Generic.ArraySortHelper`1<Vuforia.CameraDevice_CameraField>::IntroSort(T[],System.Int32,System.Int32,System.Int32,System.Comparison`1<T>)
-extern "C" IL2CPP_METHOD_ATTR void ArraySortHelper_1_IntroSort_m3533DC81B10941B954A04797D678180A2200D0E8_gshared (CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* ___keys0, int32_t ___lo1, int32_t ___hi2, int32_t ___depthLimit3, Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 * ___comparer4, const RuntimeMethod* method)
+// System.Void System.Collections.Generic.ArraySortHelper`1<UnityEngine.XR.WSA.SpatialMappingContext_SMComponentRecord>::IntroSort(T[],System.Int32,System.Int32,System.Int32,System.Comparison`1<T>)
+extern "C" IL2CPP_METHOD_ATTR void ArraySortHelper_1_IntroSort_mEF066B68AD5750787B584FB5797829F16AE02F5C_gshared (SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* ___keys0, int32_t ___lo1, int32_t ___hi2, int32_t ___depthLimit3, Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB * ___comparer4, const RuntimeMethod* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
@@ -24665,11 +24711,11 @@ IL_0015:
 		}
 	}
 	{
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_5 = ___keys0;
-		Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 * L_6 = ___comparer4;
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_5 = ___keys0;
+		Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB * L_6 = ___comparer4;
 		int32_t L_7 = ___lo1;
 		int32_t L_8 = ___hi2;
-		((  void (*) (CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735*, Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *, int32_t, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 11)->methodPointer)((CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735*)L_5, (Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *)L_6, (int32_t)L_7, (int32_t)L_8, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 11));
+		((  void (*) (SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1*, Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *, int32_t, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 11)->methodPointer)((SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1*)L_5, (Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *)L_6, (int32_t)L_7, (int32_t)L_8, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 11));
 		return;
 	}
 
@@ -24682,31 +24728,31 @@ IL_0024:
 		}
 	}
 	{
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_10 = ___keys0;
-		Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 * L_11 = ___comparer4;
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_10 = ___keys0;
+		Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB * L_11 = ___comparer4;
 		int32_t L_12 = ___lo1;
 		int32_t L_13 = ___hi2;
-		((  void (*) (CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735*, Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *, int32_t, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 11)->methodPointer)((CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735*)L_10, (Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *)L_11, (int32_t)L_12, (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_13, (int32_t)1)), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 11));
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_14 = ___keys0;
-		Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 * L_15 = ___comparer4;
+		((  void (*) (SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1*, Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *, int32_t, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 11)->methodPointer)((SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1*)L_10, (Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *)L_11, (int32_t)L_12, (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_13, (int32_t)1)), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 11));
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_14 = ___keys0;
+		Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB * L_15 = ___comparer4;
 		int32_t L_16 = ___lo1;
 		int32_t L_17 = ___hi2;
-		((  void (*) (CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735*, Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *, int32_t, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 11)->methodPointer)((CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735*)L_14, (Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *)L_15, (int32_t)L_16, (int32_t)L_17, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 11));
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_18 = ___keys0;
-		Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 * L_19 = ___comparer4;
+		((  void (*) (SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1*, Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *, int32_t, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 11)->methodPointer)((SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1*)L_14, (Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *)L_15, (int32_t)L_16, (int32_t)L_17, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 11));
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_18 = ___keys0;
+		Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB * L_19 = ___comparer4;
 		int32_t L_20 = ___hi2;
 		int32_t L_21 = ___hi2;
-		((  void (*) (CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735*, Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *, int32_t, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 11)->methodPointer)((CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735*)L_18, (Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *)L_19, (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_20, (int32_t)1)), (int32_t)L_21, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 11));
+		((  void (*) (SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1*, Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *, int32_t, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 11)->methodPointer)((SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1*)L_18, (Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *)L_19, (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_20, (int32_t)1)), (int32_t)L_21, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 11));
 		return;
 	}
 
 IL_004b:
 	{
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_22 = ___keys0;
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_22 = ___keys0;
 		int32_t L_23 = ___lo1;
 		int32_t L_24 = ___hi2;
-		Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 * L_25 = ___comparer4;
-		((  void (*) (CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735*, int32_t, int32_t, Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 12)->methodPointer)((CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735*)L_22, (int32_t)L_23, (int32_t)L_24, (Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *)L_25, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 12));
+		Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB * L_25 = ___comparer4;
+		((  void (*) (SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1*, int32_t, int32_t, Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 12)->methodPointer)((SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1*)L_22, (int32_t)L_23, (int32_t)L_24, (Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *)L_25, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		return;
 	}
 
@@ -24719,11 +24765,11 @@ IL_0056:
 		}
 	}
 	{
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_27 = ___keys0;
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_27 = ___keys0;
 		int32_t L_28 = ___lo1;
 		int32_t L_29 = ___hi2;
-		Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 * L_30 = ___comparer4;
-		((  void (*) (CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735*, int32_t, int32_t, Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 13)->methodPointer)((CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735*)L_27, (int32_t)L_28, (int32_t)L_29, (Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *)L_30, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 13));
+		Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB * L_30 = ___comparer4;
+		((  void (*) (SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1*, int32_t, int32_t, Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 13)->methodPointer)((SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1*)L_27, (int32_t)L_28, (int32_t)L_29, (Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *)L_30, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 13));
 		return;
 	}
 
@@ -24731,18 +24777,18 @@ IL_0064:
 	{
 		int32_t L_31 = ___depthLimit3;
 		___depthLimit3 = (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_31, (int32_t)1));
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_32 = ___keys0;
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_32 = ___keys0;
 		int32_t L_33 = ___lo1;
 		int32_t L_34 = ___hi2;
-		Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 * L_35 = ___comparer4;
-		int32_t L_36 = ((  int32_t (*) (CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735*, int32_t, int32_t, Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 14)->methodPointer)((CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735*)L_32, (int32_t)L_33, (int32_t)L_34, (Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *)L_35, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 14));
+		Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB * L_35 = ___comparer4;
+		int32_t L_36 = ((  int32_t (*) (SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1*, int32_t, int32_t, Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 14)->methodPointer)((SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1*)L_32, (int32_t)L_33, (int32_t)L_34, (Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *)L_35, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 14));
 		V_1 = (int32_t)L_36;
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_37 = ___keys0;
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_37 = ___keys0;
 		int32_t L_38 = V_1;
 		int32_t L_39 = ___hi2;
 		int32_t L_40 = ___depthLimit3;
-		Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 * L_41 = ___comparer4;
-		((  void (*) (CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735*, int32_t, int32_t, int32_t, Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 10)->methodPointer)((CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735*)L_37, (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_38, (int32_t)1)), (int32_t)L_39, (int32_t)L_40, (Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *)L_41, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 10));
+		Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB * L_41 = ___comparer4;
+		((  void (*) (SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1*, int32_t, int32_t, int32_t, Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 10)->methodPointer)((SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1*)L_37, (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_38, (int32_t)1)), (int32_t)L_39, (int32_t)L_40, (Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *)L_41, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 10));
 		int32_t L_42 = V_1;
 		___hi2 = (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_42, (int32_t)1));
 	}
@@ -24760,11 +24806,11 @@ IL_0086:
 		return;
 	}
 }
-// System.Int32 System.Collections.Generic.ArraySortHelper`1<Vuforia.CameraDevice_CameraField>::PickPivotAndPartition(T[],System.Int32,System.Int32,System.Comparison`1<T>)
-extern "C" IL2CPP_METHOD_ATTR int32_t ArraySortHelper_1_PickPivotAndPartition_m6C66965CE30C822D0E0408D91635A457BFB65CCF_gshared (CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* ___keys0, int32_t ___lo1, int32_t ___hi2, Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 * ___comparer3, const RuntimeMethod* method)
+// System.Int32 System.Collections.Generic.ArraySortHelper`1<UnityEngine.XR.WSA.SpatialMappingContext_SMComponentRecord>::PickPivotAndPartition(T[],System.Int32,System.Int32,System.Comparison`1<T>)
+extern "C" IL2CPP_METHOD_ATTR int32_t ArraySortHelper_1_PickPivotAndPartition_m6E063F9C38C487A07337A3BACC9037B61BB11FDC_gshared (SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* ___keys0, int32_t ___lo1, int32_t ___hi2, Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB * ___comparer3, const RuntimeMethod* method)
 {
 	int32_t V_0 = 0;
-	CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4  V_1;
+	SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C  V_1;
 	memset(&V_1, 0, sizeof(V_1));
 	int32_t V_2 = 0;
 	int32_t V_3 = 0;
@@ -24773,31 +24819,31 @@ extern "C" IL2CPP_METHOD_ATTR int32_t ArraySortHelper_1_PickPivotAndPartition_m6
 		int32_t L_1 = ___hi2;
 		int32_t L_2 = ___lo1;
 		V_0 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_0, (int32_t)((int32_t)((int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_1, (int32_t)L_2))/(int32_t)2))));
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_3 = ___keys0;
-		Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 * L_4 = ___comparer3;
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_3 = ___keys0;
+		Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB * L_4 = ___comparer3;
 		int32_t L_5 = ___lo1;
 		int32_t L_6 = V_0;
-		((  void (*) (CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735*, Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *, int32_t, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 11)->methodPointer)((CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735*)L_3, (Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *)L_4, (int32_t)L_5, (int32_t)L_6, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 11));
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_7 = ___keys0;
-		Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 * L_8 = ___comparer3;
+		((  void (*) (SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1*, Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *, int32_t, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 11)->methodPointer)((SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1*)L_3, (Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *)L_4, (int32_t)L_5, (int32_t)L_6, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 11));
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_7 = ___keys0;
+		Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB * L_8 = ___comparer3;
 		int32_t L_9 = ___lo1;
 		int32_t L_10 = ___hi2;
-		((  void (*) (CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735*, Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *, int32_t, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 11)->methodPointer)((CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735*)L_7, (Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *)L_8, (int32_t)L_9, (int32_t)L_10, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 11));
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_11 = ___keys0;
-		Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 * L_12 = ___comparer3;
+		((  void (*) (SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1*, Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *, int32_t, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 11)->methodPointer)((SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1*)L_7, (Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *)L_8, (int32_t)L_9, (int32_t)L_10, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 11));
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_11 = ___keys0;
+		Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB * L_12 = ___comparer3;
 		int32_t L_13 = V_0;
 		int32_t L_14 = ___hi2;
-		((  void (*) (CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735*, Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *, int32_t, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 11)->methodPointer)((CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735*)L_11, (Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *)L_12, (int32_t)L_13, (int32_t)L_14, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 11));
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_15 = ___keys0;
+		((  void (*) (SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1*, Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *, int32_t, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 11)->methodPointer)((SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1*)L_11, (Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *)L_12, (int32_t)L_13, (int32_t)L_14, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 11));
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_15 = ___keys0;
 		int32_t L_16 = V_0;
 		NullCheck(L_15);
 		int32_t L_17 = L_16;
-		CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4  L_18 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
-		V_1 = (CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 )L_18;
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_19 = ___keys0;
+		SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C  L_18 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
+		V_1 = (SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C )L_18;
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_19 = ___keys0;
 		int32_t L_20 = V_0;
 		int32_t L_21 = ___hi2;
-		((  void (*) (CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735*, int32_t, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 15)->methodPointer)((CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735*)L_19, (int32_t)L_20, (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_21, (int32_t)1)), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 15));
+		((  void (*) (SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1*, int32_t, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 15)->methodPointer)((SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1*)L_19, (int32_t)L_20, (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_21, (int32_t)1)), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 15));
 		int32_t L_22 = ___lo1;
 		V_2 = (int32_t)L_22;
 		int32_t L_23 = ___hi2;
@@ -24807,17 +24853,17 @@ extern "C" IL2CPP_METHOD_ATTR int32_t ArraySortHelper_1_PickPivotAndPartition_m6
 
 IL_003d:
 	{
-		Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 * L_24 = ___comparer3;
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_25 = ___keys0;
+		Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB * L_24 = ___comparer3;
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_25 = ___keys0;
 		int32_t L_26 = V_2;
 		int32_t L_27 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_26, (int32_t)1));
 		V_2 = (int32_t)L_27;
 		NullCheck(L_25);
 		int32_t L_28 = L_27;
-		CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4  L_29 = (L_25)->GetAt(static_cast<il2cpp_array_size_t>(L_28));
-		CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4  L_30 = V_1;
-		NullCheck((Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *)L_24);
-		int32_t L_31 = ((  int32_t (*) (Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *, CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 , CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 , const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 9)->methodPointer)((Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *)L_24, (CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 )L_29, (CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 )L_30, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 9));
+		SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C  L_29 = (L_25)->GetAt(static_cast<il2cpp_array_size_t>(L_28));
+		SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C  L_30 = V_1;
+		NullCheck((Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *)L_24);
+		int32_t L_31 = ((  int32_t (*) (Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *, SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C , SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C , const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 9)->methodPointer)((Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *)L_24, (SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C )L_29, (SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C )L_30, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 9));
 		if ((((int32_t)L_31) < ((int32_t)0)))
 		{
 			goto IL_003d;
@@ -24826,17 +24872,17 @@ IL_003d:
 
 IL_0052:
 	{
-		Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 * L_32 = ___comparer3;
-		CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4  L_33 = V_1;
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_34 = ___keys0;
+		Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB * L_32 = ___comparer3;
+		SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C  L_33 = V_1;
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_34 = ___keys0;
 		int32_t L_35 = V_3;
 		int32_t L_36 = (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_35, (int32_t)1));
 		V_3 = (int32_t)L_36;
 		NullCheck(L_34);
 		int32_t L_37 = L_36;
-		CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4  L_38 = (L_34)->GetAt(static_cast<il2cpp_array_size_t>(L_37));
-		NullCheck((Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *)L_32);
-		int32_t L_39 = ((  int32_t (*) (Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *, CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 , CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 , const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 9)->methodPointer)((Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *)L_32, (CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 )L_33, (CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 )L_38, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 9));
+		SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C  L_38 = (L_34)->GetAt(static_cast<il2cpp_array_size_t>(L_37));
+		NullCheck((Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *)L_32);
+		int32_t L_39 = ((  int32_t (*) (Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *, SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C , SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C , const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 9)->methodPointer)((Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *)L_32, (SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C )L_33, (SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C )L_38, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 9));
 		if ((((int32_t)L_39) < ((int32_t)0)))
 		{
 			goto IL_0052;
@@ -24851,10 +24897,10 @@ IL_0052:
 		}
 	}
 	{
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_42 = ___keys0;
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_42 = ___keys0;
 		int32_t L_43 = V_2;
 		int32_t L_44 = V_3;
-		((  void (*) (CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735*, int32_t, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 15)->methodPointer)((CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735*)L_42, (int32_t)L_43, (int32_t)L_44, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 15));
+		((  void (*) (SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1*, int32_t, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 15)->methodPointer)((SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1*)L_42, (int32_t)L_43, (int32_t)L_44, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 15));
 	}
 
 IL_0073:
@@ -24869,16 +24915,16 @@ IL_0073:
 
 IL_0077:
 	{
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_47 = ___keys0;
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_47 = ___keys0;
 		int32_t L_48 = V_2;
 		int32_t L_49 = ___hi2;
-		((  void (*) (CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735*, int32_t, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 15)->methodPointer)((CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735*)L_47, (int32_t)L_48, (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_49, (int32_t)1)), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 15));
+		((  void (*) (SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1*, int32_t, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 15)->methodPointer)((SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1*)L_47, (int32_t)L_48, (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_49, (int32_t)1)), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 15));
 		int32_t L_50 = V_2;
 		return L_50;
 	}
 }
-// System.Void System.Collections.Generic.ArraySortHelper`1<Vuforia.CameraDevice_CameraField>::Heapsort(T[],System.Int32,System.Int32,System.Comparison`1<T>)
-extern "C" IL2CPP_METHOD_ATTR void ArraySortHelper_1_Heapsort_m696CEC8BBA6EF5106A3B76A263A5F6255B15FF3B_gshared (CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* ___keys0, int32_t ___lo1, int32_t ___hi2, Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 * ___comparer3, const RuntimeMethod* method)
+// System.Void System.Collections.Generic.ArraySortHelper`1<UnityEngine.XR.WSA.SpatialMappingContext_SMComponentRecord>::Heapsort(T[],System.Int32,System.Int32,System.Comparison`1<T>)
+extern "C" IL2CPP_METHOD_ATTR void ArraySortHelper_1_Heapsort_m051388ACE662973C238F55F9C082CDA15B088B10_gshared (SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* ___keys0, int32_t ___lo1, int32_t ___hi2, Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB * ___comparer3, const RuntimeMethod* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
@@ -24894,12 +24940,12 @@ extern "C" IL2CPP_METHOD_ATTR void ArraySortHelper_1_Heapsort_m696CEC8BBA6EF5106
 
 IL_000c:
 	{
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_3 = ___keys0;
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_3 = ___keys0;
 		int32_t L_4 = V_1;
 		int32_t L_5 = V_0;
 		int32_t L_6 = ___lo1;
-		Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 * L_7 = ___comparer3;
-		((  void (*) (CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735*, int32_t, int32_t, int32_t, Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 16)->methodPointer)((CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735*)L_3, (int32_t)L_4, (int32_t)L_5, (int32_t)L_6, (Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *)L_7, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 16));
+		Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB * L_7 = ___comparer3;
+		((  void (*) (SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1*, int32_t, int32_t, int32_t, Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 16)->methodPointer)((SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1*)L_3, (int32_t)L_4, (int32_t)L_5, (int32_t)L_6, (Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *)L_7, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 16));
 		int32_t L_8 = V_1;
 		V_1 = (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_8, (int32_t)1));
 	}
@@ -24920,16 +24966,16 @@ IL_001a:
 
 IL_0022:
 	{
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_11 = ___keys0;
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_11 = ___keys0;
 		int32_t L_12 = ___lo1;
 		int32_t L_13 = ___lo1;
 		int32_t L_14 = V_2;
-		((  void (*) (CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735*, int32_t, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 15)->methodPointer)((CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735*)L_11, (int32_t)L_12, (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_13, (int32_t)L_14)), (int32_t)1)), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 15));
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_15 = ___keys0;
+		((  void (*) (SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1*, int32_t, int32_t, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 15)->methodPointer)((SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1*)L_11, (int32_t)L_12, (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_13, (int32_t)L_14)), (int32_t)1)), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 15));
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_15 = ___keys0;
 		int32_t L_16 = V_2;
 		int32_t L_17 = ___lo1;
-		Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 * L_18 = ___comparer3;
-		((  void (*) (CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735*, int32_t, int32_t, int32_t, Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 16)->methodPointer)((CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735*)L_15, (int32_t)1, (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_16, (int32_t)1)), (int32_t)L_17, (Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *)L_18, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 16));
+		Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB * L_18 = ___comparer3;
+		((  void (*) (SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1*, int32_t, int32_t, int32_t, Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 16)->methodPointer)((SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1*)L_15, (int32_t)1, (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_16, (int32_t)1)), (int32_t)L_17, (Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *)L_18, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 16));
 		int32_t L_19 = V_2;
 		V_2 = (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_19, (int32_t)1));
 	}
@@ -24946,20 +24992,20 @@ IL_003e:
 		return;
 	}
 }
-// System.Void System.Collections.Generic.ArraySortHelper`1<Vuforia.CameraDevice_CameraField>::DownHeap(T[],System.Int32,System.Int32,System.Int32,System.Comparison`1<T>)
-extern "C" IL2CPP_METHOD_ATTR void ArraySortHelper_1_DownHeap_m0854E3195631E5C8EFAE9B512C95DB12AD21B609_gshared (CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* ___keys0, int32_t ___i1, int32_t ___n2, int32_t ___lo3, Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 * ___comparer4, const RuntimeMethod* method)
+// System.Void System.Collections.Generic.ArraySortHelper`1<UnityEngine.XR.WSA.SpatialMappingContext_SMComponentRecord>::DownHeap(T[],System.Int32,System.Int32,System.Int32,System.Comparison`1<T>)
+extern "C" IL2CPP_METHOD_ATTR void ArraySortHelper_1_DownHeap_mBC7F5FFA9105337E41156B454B331B0119BB6D73_gshared (SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* ___keys0, int32_t ___i1, int32_t ___n2, int32_t ___lo3, Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB * ___comparer4, const RuntimeMethod* method)
 {
-	CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4  V_0;
+	SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C  V_0;
 	memset(&V_0, 0, sizeof(V_0));
 	int32_t V_1 = 0;
 	{
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_0 = ___keys0;
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_0 = ___keys0;
 		int32_t L_1 = ___lo3;
 		int32_t L_2 = ___i1;
 		NullCheck(L_0);
 		int32_t L_3 = ((int32_t)il2cpp_codegen_subtract((int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_1, (int32_t)L_2)), (int32_t)1));
-		CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4  L_4 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
-		V_0 = (CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 )L_4;
+		SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C  L_4 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		V_0 = (SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C )L_4;
 		goto IL_0067;
 	}
 
@@ -24975,21 +25021,21 @@ IL_000e:
 		}
 	}
 	{
-		Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 * L_8 = ___comparer4;
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_9 = ___keys0;
+		Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB * L_8 = ___comparer4;
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_9 = ___keys0;
 		int32_t L_10 = ___lo3;
 		int32_t L_11 = V_1;
 		NullCheck(L_9);
 		int32_t L_12 = ((int32_t)il2cpp_codegen_subtract((int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_10, (int32_t)L_11)), (int32_t)1));
-		CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4  L_13 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_14 = ___keys0;
+		SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C  L_13 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_14 = ___keys0;
 		int32_t L_15 = ___lo3;
 		int32_t L_16 = V_1;
 		NullCheck(L_14);
 		int32_t L_17 = ((int32_t)il2cpp_codegen_add((int32_t)L_15, (int32_t)L_16));
-		CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4  L_18 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
-		NullCheck((Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *)L_8);
-		int32_t L_19 = ((  int32_t (*) (Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *, CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 , CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 , const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 9)->methodPointer)((Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *)L_8, (CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 )L_13, (CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 )L_18, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 9));
+		SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C  L_18 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
+		NullCheck((Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *)L_8);
+		int32_t L_19 = ((  int32_t (*) (Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *, SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C , SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C , const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 9)->methodPointer)((Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *)L_8, (SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C )L_13, (SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C )L_18, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 9));
 		if ((((int32_t)L_19) >= ((int32_t)0)))
 		{
 			goto IL_0038;
@@ -25002,33 +25048,33 @@ IL_000e:
 
 IL_0038:
 	{
-		Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 * L_21 = ___comparer4;
-		CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4  L_22 = V_0;
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_23 = ___keys0;
+		Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB * L_21 = ___comparer4;
+		SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C  L_22 = V_0;
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_23 = ___keys0;
 		int32_t L_24 = ___lo3;
 		int32_t L_25 = V_1;
 		NullCheck(L_23);
 		int32_t L_26 = ((int32_t)il2cpp_codegen_subtract((int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_24, (int32_t)L_25)), (int32_t)1));
-		CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4  L_27 = (L_23)->GetAt(static_cast<il2cpp_array_size_t>(L_26));
-		NullCheck((Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *)L_21);
-		int32_t L_28 = ((  int32_t (*) (Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *, CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 , CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 , const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 9)->methodPointer)((Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *)L_21, (CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 )L_22, (CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 )L_27, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 9));
+		SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C  L_27 = (L_23)->GetAt(static_cast<il2cpp_array_size_t>(L_26));
+		NullCheck((Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *)L_21);
+		int32_t L_28 = ((  int32_t (*) (Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *, SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C , SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C , const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 9)->methodPointer)((Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *)L_21, (SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C )L_22, (SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C )L_27, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 9));
 		if ((((int32_t)L_28) >= ((int32_t)0)))
 		{
 			goto IL_006d;
 		}
 	}
 	{
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_29 = ___keys0;
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_29 = ___keys0;
 		int32_t L_30 = ___lo3;
 		int32_t L_31 = ___i1;
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_32 = ___keys0;
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_32 = ___keys0;
 		int32_t L_33 = ___lo3;
 		int32_t L_34 = V_1;
 		NullCheck(L_32);
 		int32_t L_35 = ((int32_t)il2cpp_codegen_subtract((int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_33, (int32_t)L_34)), (int32_t)1));
-		CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4  L_36 = (L_32)->GetAt(static_cast<il2cpp_array_size_t>(L_35));
+		SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C  L_36 = (L_32)->GetAt(static_cast<il2cpp_array_size_t>(L_35));
 		NullCheck(L_29);
-		(L_29)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_subtract((int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_30, (int32_t)L_31)), (int32_t)1))), (CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 )L_36);
+		(L_29)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_subtract((int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_30, (int32_t)L_31)), (int32_t)1))), (SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C )L_36);
 		int32_t L_37 = V_1;
 		___i1 = (int32_t)L_37;
 	}
@@ -25045,21 +25091,21 @@ IL_0067:
 
 IL_006d:
 	{
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_40 = ___keys0;
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_40 = ___keys0;
 		int32_t L_41 = ___lo3;
 		int32_t L_42 = ___i1;
-		CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4  L_43 = V_0;
+		SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C  L_43 = V_0;
 		NullCheck(L_40);
-		(L_40)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_subtract((int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_41, (int32_t)L_42)), (int32_t)1))), (CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 )L_43);
+		(L_40)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_subtract((int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_41, (int32_t)L_42)), (int32_t)1))), (SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C )L_43);
 		return;
 	}
 }
-// System.Void System.Collections.Generic.ArraySortHelper`1<Vuforia.CameraDevice_CameraField>::InsertionSort(T[],System.Int32,System.Int32,System.Comparison`1<T>)
-extern "C" IL2CPP_METHOD_ATTR void ArraySortHelper_1_InsertionSort_mF23715FD5D311B7BED318DB7F242BC166E6B885A_gshared (CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* ___keys0, int32_t ___lo1, int32_t ___hi2, Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 * ___comparer3, const RuntimeMethod* method)
+// System.Void System.Collections.Generic.ArraySortHelper`1<UnityEngine.XR.WSA.SpatialMappingContext_SMComponentRecord>::InsertionSort(T[],System.Int32,System.Int32,System.Comparison`1<T>)
+extern "C" IL2CPP_METHOD_ATTR void ArraySortHelper_1_InsertionSort_mD007F447DF0C46434240C33F3525B0BAB562EBEC_gshared (SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* ___keys0, int32_t ___lo1, int32_t ___hi2, Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB * ___comparer3, const RuntimeMethod* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
-	CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4  V_2;
+	SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C  V_2;
 	memset(&V_2, 0, sizeof(V_2));
 	{
 		int32_t L_0 = ___lo1;
@@ -25071,26 +25117,26 @@ IL_0004:
 	{
 		int32_t L_1 = V_0;
 		V_1 = (int32_t)L_1;
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_2 = ___keys0;
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_2 = ___keys0;
 		int32_t L_3 = V_0;
 		NullCheck(L_2);
 		int32_t L_4 = ((int32_t)il2cpp_codegen_add((int32_t)L_3, (int32_t)1));
-		CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4  L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
-		V_2 = (CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 )L_5;
+		SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C  L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		V_2 = (SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C )L_5;
 		goto IL_0026;
 	}
 
 IL_0012:
 	{
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_6 = ___keys0;
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_6 = ___keys0;
 		int32_t L_7 = V_1;
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_8 = ___keys0;
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_8 = ___keys0;
 		int32_t L_9 = V_1;
 		NullCheck(L_8);
 		int32_t L_10 = L_9;
-		CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4  L_11 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
+		SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C  L_11 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
 		NullCheck(L_6);
-		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add((int32_t)L_7, (int32_t)1))), (CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 )L_11);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add((int32_t)L_7, (int32_t)1))), (SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C )L_11);
 		int32_t L_12 = V_1;
 		V_1 = (int32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_12, (int32_t)1));
 	}
@@ -25105,15 +25151,15 @@ IL_0026:
 		}
 	}
 	{
-		Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 * L_15 = ___comparer3;
-		CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4  L_16 = V_2;
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_17 = ___keys0;
+		Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB * L_15 = ___comparer3;
+		SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C  L_16 = V_2;
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_17 = ___keys0;
 		int32_t L_18 = V_1;
 		NullCheck(L_17);
 		int32_t L_19 = L_18;
-		CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4  L_20 = (L_17)->GetAt(static_cast<il2cpp_array_size_t>(L_19));
-		NullCheck((Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *)L_15);
-		int32_t L_21 = ((  int32_t (*) (Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *, CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 , CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 , const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 9)->methodPointer)((Comparison_1_tB917C16B225BFAA7E99CD06383E56D0924D5C509 *)L_15, (CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 )L_16, (CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 )L_20, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 9));
+		SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C  L_20 = (L_17)->GetAt(static_cast<il2cpp_array_size_t>(L_19));
+		NullCheck((Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *)L_15);
+		int32_t L_21 = ((  int32_t (*) (Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *, SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C , SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C , const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 9)->methodPointer)((Comparison_1_t25048161661D2F7A1271B45750B88FDD19126AAB *)L_15, (SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C )L_16, (SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C )L_20, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->klass)->rgctx_data, 9));
 		if ((((int32_t)L_21) < ((int32_t)0)))
 		{
 			goto IL_0012;
@@ -25122,11 +25168,11 @@ IL_0026:
 
 IL_003b:
 	{
-		CameraFieldU5BU5D_tB08A527FB9E1365577B5B5968EE29960FA384735* L_22 = ___keys0;
+		SMComponentRecordU5BU5D_t8B4816D9B8F8D569C2B9854BCBCEB2AEF542B4A1* L_22 = ___keys0;
 		int32_t L_23 = V_1;
-		CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4  L_24 = V_2;
+		SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C  L_24 = V_2;
 		NullCheck(L_22);
-		(L_22)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add((int32_t)L_23, (int32_t)1))), (CameraField_tA76F51B38BD621368B9D9440DB131E5015ED70B4 )L_24);
+		(L_22)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add((int32_t)L_23, (int32_t)1))), (SMComponentRecord_t4F25C7B56C9A9F701769D1F27D109B576E836C5C )L_24);
 		int32_t L_25 = V_0;
 		V_0 = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_25, (int32_t)1));
 	}
