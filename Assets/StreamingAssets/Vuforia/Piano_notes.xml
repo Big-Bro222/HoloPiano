@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="Notes" size="0.210000 0.325424" />
     <ImageTarget name="Astronaut_scaled" size="1.000000 1.728516" />
     <ImageTarget name="Ode_to_Joy_-_Ludwig_Van_Beethoven_Easy-page-001" size="0.500000 0.707258" />
   </Tracking>
