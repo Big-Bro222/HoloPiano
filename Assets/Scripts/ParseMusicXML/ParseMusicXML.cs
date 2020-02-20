@@ -12,81 +12,88 @@ namespace MusicSheetGenerater
         private XmlDocument doc;
 
         //Change xmlFilepath here to switch between different musics
-        private string xmlFilePath = "Assets/Music/Ode_to_Joy.xml";
+        private string xmlFilePath = "Assets/Music/Ode to Joy F Major.xml";
         //MusicInfo contains all the info of the sheet.
-        //each int[]contains three information of a sigle note["step,octave,duration"]
-        //the default int[] is set to {0,4,0}
+        //each int[]contains three information of a sigle note["step,octave,alter,duration"]
+        //the default int[] is set to {0,0,0,0}
         //for rest note, the step value is 0
-        private List<int[]> MusicInfo;
+        private Dictionary<int, List<int[]>> MusicInfos;
+
         public MusicParser()
         {            
             doc = new XmlDocument();
             doc.Load(xmlFilePath);
-            MusicInfo = new List<int[]>();
+            MusicInfos = new Dictionary<int, List<int[]>>();
         }
         
         public void MusicInfoGenerator()
         {
-
-            XmlNodeList MeasureList = doc.GetElementsByTagName("measure");
-            for (int i = 0; i < MeasureList.Count; i++)
+            XmlNode Part1 = doc.GetElementsByTagName("part")[0];
+            for(int i = 0; i < Part1.ChildNodes.Count; i++)
             {
-                XmlNodeList NoteSiblings = MeasureList[i].ChildNodes;
-                for (int j = 0; j < NoteSiblings.Count; j++)
+                List<int[]> MeasureList = new List<int[]>();
+                XmlNode MeasureNode = Part1.ChildNodes[i];
+                for(int j = 0; j < MeasureNode.ChildNodes.Count; j++)
                 {
-                   
-                    int[] noteinfo = { 0, 4, 0 };
-                    if (NoteSiblings[j].Name == "backup")
+                    XmlNode NoteSiblingNode = MeasureNode.ChildNodes[j];
+                    if (NoteSiblingNode.Name == "note")
                     {
-                        break;
-                    }
-                    if (NoteSiblings[j].Name == "note")
-                    {   
-                        XmlNodeList NoteChilds = NoteSiblings[j].ChildNodes;
-                        for (int k = 0; k < NoteChilds.Count; k++)
-                        {
-
-                            switch (NoteChilds[k].Name)
-                            {
-                                case "duration":
-                                    noteinfo[2] = int.Parse(NoteChilds[k].InnerText);
-                                    break;
-                                case "rest":
-                                    noteinfo[0] = 0;
-                                    break;
-                                case "pitch":
-                                    noteinfo = parsePitch(NoteChilds[k], noteinfo);
-                                    break;
-                                default:
-                                    
-                                    break;
-                            }
-                        }
-
-                        MusicInfo.Add(noteinfo);
+                        int[] Noteinfo = { 0, 0, 0, 0 };
+                        Noteinfo = NoteParser(NoteSiblingNode);
+                        MeasureList.Add(Noteinfo);
                     }
                 }
+                MusicInfos.Add(i, MeasureList);
+            } 
+        }
 
 
+
+        public Dictionary<int, List<int[]>> GetMusicInfo()
+        {
+            return MusicInfos;
+        }
+        private int[] NoteParser(XmlNode NoteSiblingNode)
+        {
+            //[Step,Octave,Alter,Duration]
+            int[] Noteinfo = { 0, 0, 0, 0 };
+
+            XmlNodeList NoteChilds = NoteSiblingNode.ChildNodes;
+            for (int k = 0; k < NoteChilds.Count; k++)
+            {
+
+                switch (NoteChilds[k].Name)
+                {
+                    case "duration":
+                        Noteinfo[3] = int.Parse(NoteChilds[k].InnerText);
+                        break;
+                    case "rest":
+                        Noteinfo[0] = 0;
+                        break;
+                    case "pitch":
+                        Noteinfo = parsePitch(NoteChilds[k], Noteinfo);
+                        break;
+                    default:
+
+                        break;
+                }
             }
-        }
 
-        public List<int[]> GetMusicInfo ()
-        {
-            return MusicInfo;
+                return Noteinfo;
         }
-        //get 'step'and 'octave' information from <pitch> note
-        private int[] parsePitch(XmlNode NoteChilds, int[] noteinfo)
+        private int[] parsePitch(XmlNode PithNode, int[] Noteinfo)
         {
-            int[] note = new int[] { 0, 0, 0 };
-            note= noteinfo;
-            XmlNodeList PitchChilds =NoteChilds.ChildNodes;
+            int[] note = Noteinfo;
+                XmlNodeList PitchChilds = PithNode.ChildNodes;
             for (int k = 0; k < PitchChilds.Count; k++)
             {
                 switch (PitchChilds[k].Name)
                 {
                     case "step":
                         note[0] = Step2Num(PitchChilds[k].InnerText);
+                        break;
+                    case "alter":
+                        note[2] = int.Parse(PitchChilds[k].InnerText);
                         break;
                     case "octave":
                         note[1] = int.Parse(PitchChilds[k].InnerText);
@@ -96,17 +103,17 @@ namespace MusicSheetGenerater
                         break;
                 }
             }
+
             return note;
         }
-    
-
+        
         private int Step2Num(string stepStr)
         {
             int stepnum = 0;
             switch (stepStr)
             {
                 case "C":
-                    stepnum=1;
+                    stepnum = 1;
                     break;
                 case "D":
                     stepnum = 2;
