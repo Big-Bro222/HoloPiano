@@ -17,6 +17,7 @@ public class ButtonTile : MonoBehaviour
     #region PUBLIC_METHODS
     public void OnGaze(bool hasGaze)
     {
+        print("ongaze"+gameObject.name);
         m_ButtonHighlight.enabled = hasGaze;
     }
 

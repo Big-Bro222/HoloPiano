@@ -2,52 +2,52 @@
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Data">
-      <UniqueIdentifier>{b66e9d2a-db70-4309-9ffa-56aaf09d610b}</UniqueIdentifier>
+      <UniqueIdentifier>{440602fe-7483-4f64-bb45-44d18b93b44c}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono">
-      <UniqueIdentifier>{3d37ab26-9b94-4779-9fc4-7a26400ce5af}</UniqueIdentifier>
+      <UniqueIdentifier>{1088f44b-1743-4ab9-86cf-6f2e0d52f126}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\2.0">
-      <UniqueIdentifier>{029ea850-ab71-4230-8465-42b428e204d0}</UniqueIdentifier>
+      <UniqueIdentifier>{d9ebb006-053b-4fb8-9317-8925270dc90d}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\2.0\Browsers">
-      <UniqueIdentifier>{b9551b88-89d0-40e3-9217-ec8bc1440209}</UniqueIdentifier>
+      <UniqueIdentifier>{42bfb469-eb1b-422c-bbc2-51e452013ade}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\4.0">
-      <UniqueIdentifier>{b067de2c-365a-43d5-8d61-408b7032ba3b}</UniqueIdentifier>
+      <UniqueIdentifier>{df124939-1b51-411b-a6f2-e63f453b8bd0}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\4.0\Browsers">
-      <UniqueIdentifier>{23c6e7ce-dfbb-492e-88f4-2ff109f5c2a1}</UniqueIdentifier>
+      <UniqueIdentifier>{6066128e-61f8-4ff8-b4d7-d839ff8a1c11}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\4.5">
-      <UniqueIdentifier>{f7cc34ee-48f8-4108-af84-0f716b4db7e6}</UniqueIdentifier>
+      <UniqueIdentifier>{f2ff1145-90a2-46c5-ab1d-e1cf7984dc85}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\4.5\Browsers">
-      <UniqueIdentifier>{a771986f-ba7e-485e-8097-db71a07f871b}</UniqueIdentifier>
+      <UniqueIdentifier>{3fb1d317-e0d7-4683-927c-ee99c8e56d57}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\mconfig">
-      <UniqueIdentifier>{573718c6-0f84-43b6-bf84-4ecc9f086429}</UniqueIdentifier>
+      <UniqueIdentifier>{4b38fd83-2e9b-44ef-8d59-3dac99801753}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\Metadata">
-      <UniqueIdentifier>{3b94ea03-fe47-4b50-9c9a-c5a71a08f648}</UniqueIdentifier>
+      <UniqueIdentifier>{995934cd-dda6-498c-ac5a-ac73ca9dbd31}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\Resources">
-      <UniqueIdentifier>{4ecfeff9-b3c4-418e-9ac5-ba176663eae9}</UniqueIdentifier>
+      <UniqueIdentifier>{6877f18a-8da3-4cf6-8c96-090dd676dc21}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\Resources">
-      <UniqueIdentifier>{200de5b1-68e4-42db-9c2a-c680af983876}</UniqueIdentifier>
+      <UniqueIdentifier>{bce5b6b2-a100-4638-8f59-c56153390009}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\StreamingAssets\Vuforia">
-      <UniqueIdentifier>{070b8dce-2dd3-415e-9688-c5010b74dc1a}</UniqueIdentifier>
+      <UniqueIdentifier>{11fa0898-23b5-47aa-a285-efa154dd96c8}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc">
-      <UniqueIdentifier>{c17a0f55-69dc-4378-947f-1e8ec2c28471}</UniqueIdentifier>
+      <UniqueIdentifier>{c0461e32-cfdf-4511-bdf6-d273dddc2fbe}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data">
-      <UniqueIdentifier>{312a9cea-0d48-4f39-9a93-167e0dc2cf92}</UniqueIdentifier>
+      <UniqueIdentifier>{f82a194c-f2c8-42ff-9c47-221de4a6796e}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\StreamingAssets">
-      <UniqueIdentifier>{24c72fd3-1ca0-4b50-a0e7-351d1a0028ac}</UniqueIdentifier>
+      <UniqueIdentifier>{f163cdc5-0de8-4139-adc0-e3f2aba8b3ea}</UniqueIdentifier>
     </Filter>
     <Resource Include="$(MSBuildThisFileDirectory)Resource.res" />
     <None Include="$(MSBuildThisFileDirectory)StoreManifest.xml" />
@@ -68,10 +68,10 @@
     <None Include="$(MSBuildThisFileDirectory)Data\level0">
       <Filter>Data</Filter>
     </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\level1">
+    <None Include="$(MSBuildThisFileDirectory)Data\level0.resS">
       <Filter>Data</Filter>
     </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\level1.resS">
+    <None Include="$(MSBuildThisFileDirectory)Data\level1">
       <Filter>Data</Filter>
     </None>
     <None Include="$(MSBuildThisFileDirectory)Data\level2">
@@ -86,6 +86,12 @@
     <None Include="$(MSBuildThisFileDirectory)Data\level5">
       <Filter>Data</Filter>
     </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\level5.resS">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\level6">
+      <Filter>Data</Filter>
+    </None>
     <None Include="$(MSBuildThisFileDirectory)Data\nativePlugins.txt">
       <Filter>Data</Filter>
     </None>
@@ -95,16 +101,19 @@
     <None Include="$(MSBuildThisFileDirectory)Data\resources.assets.resS">
       <Filter>Data</Filter>
     </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\resources.resource">
+      <Filter>Data</Filter>
+    </None>
     <None Include="$(MSBuildThisFileDirectory)Data\sharedassets0.assets">
       <Filter>Data</Filter>
     </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\sharedassets0.assets.resS">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\sharedassets0.resource">
+      <Filter>Data</Filter>
+    </None>
     <None Include="$(MSBuildThisFileDirectory)Data\sharedassets1.assets">
-      <Filter>Data</Filter>
-    </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\sharedassets1.assets.resS">
-      <Filter>Data</Filter>
-    </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\sharedassets1.resource">
       <Filter>Data</Filter>
     </None>
     <None Include="$(MSBuildThisFileDirectory)Data\sharedassets2.assets">
@@ -114,6 +123,9 @@
       <Filter>Data</Filter>
     </None>
     <None Include="$(MSBuildThisFileDirectory)Data\sharedassets3.assets">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\sharedassets3.assets.resS">
       <Filter>Data</Filter>
     </None>
     <None Include="$(MSBuildThisFileDirectory)Data\sharedassets4.assets">
@@ -126,6 +138,12 @@
       <Filter>Data</Filter>
     </None>
     <None Include="$(MSBuildThisFileDirectory)Data\sharedassets5.assets.resS">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\sharedassets6.assets">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\sharedassets6.assets.resS">
       <Filter>Data</Filter>
     </None>
     <None Include="$(MSBuildThisFileDirectory)Data\il2cpp_data\etc\mono\browscap.ini">
@@ -191,11 +209,20 @@
     <None Include="$(MSBuildThisFileDirectory)Data\il2cpp_data\Resources\mscorlib.dll-resources.dat">
       <Filter>Data\il2cpp_data\Resources</Filter>
     </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\il2cpp_data\Resources\UnityChat.dll-resources.dat">
+      <Filter>Data\il2cpp_data\Resources</Filter>
+    </None>
     <None Include="$(MSBuildThisFileDirectory)Data\Resources\unity default resources">
       <Filter>Data\Resources</Filter>
     </None>
     <None Include="$(MSBuildThisFileDirectory)Data\Resources\unity_builtin_extra">
       <Filter>Data\Resources</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\StreamingAssets\Vuforia\Piano_notes.dat">
+      <Filter>Data\StreamingAssets\Vuforia</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\StreamingAssets\Vuforia\Piano_notes.xml">
+      <Filter>Data\StreamingAssets\Vuforia</Filter>
     </None>
     <None Include="$(MSBuildThisFileDirectory)Data\StreamingAssets\Vuforia\VuforiaMars_Images.dat">
       <Filter>Data\StreamingAssets\Vuforia</Filter>
@@ -234,9 +261,14 @@
       <Filter>Data\StreamingAssets\Vuforia</Filter>
     </None>
     <None Include="$(MSBuildThisFileDirectory)VuforiaWrapper.dll" />
+    <None Include="$(MSBuildThisFileDirectory)PlaneFinding.dll" />
     <None Include="$(MSBuildThisFileDirectory)VuforiaDL.dll" />
     <None Include="$(MSBuildThisFileDirectory)AudioPluginMsHRTF.dll" />
+    <None Include="$(MSBuildThisFileDirectory)MicStreamSelector.dll" />
+    <None Include="$(MSBuildThisFileDirectory)GpuTiming.dll" />
     <None Include="$(MSBuildThisFileDirectory)Vuforia.dll" />
+    <None Include="$(MSBuildThisFileDirectory)SharingClient.dll" />
+    <None Include="$(MSBuildThisFileDirectory)SpatialUnderstanding.dll" />
   </ItemGroup>
   <ItemGroup>
     <None Include="$(OutDir)GameAssembly.dll" />

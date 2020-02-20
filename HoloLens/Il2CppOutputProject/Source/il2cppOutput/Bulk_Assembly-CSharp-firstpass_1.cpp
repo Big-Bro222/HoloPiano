@@ -7392,7 +7392,7 @@ extern "C" IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_m9B9FB07EC2C1D82E921C9316
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>::Dispose()
 extern "C" IL2CPP_METHOD_ATTR void Enumerator_Dispose_mE363888280B72ED50538416C060EF9FC94B3BB00_gshared (Enumerator_tED23DFBF3911229086C71CCE7A54D56F5FFB34CB * __this, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::Clear()
-extern "C" IL2CPP_METHOD_ATTR void Dictionary_2_Clear_m1115171C74C982EA09CF1B8DB7E4C97ED6AC23D4_gshared (Dictionary_2_t32F25F093828AA9F93CB11C2A2B4648FD62A09BA * __this, const RuntimeMethod* method);
+extern "C" IL2CPP_METHOD_ATTR void Dictionary_2_Clear_mE02BFDCC216784E4CB370443AA386A7DF9BFD465_gshared (Dictionary_2_t32F25F093828AA9F93CB11C2A2B4648FD62A09BA * __this, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Object,System.Object>::TryGetValue(!0,!1&)
 extern "C" IL2CPP_METHOD_ATTR bool Dictionary_2_TryGetValue_m3455807C552312C60038DF52EF328C3687442DE3_gshared (Dictionary_2_t32F25F093828AA9F93CB11C2A2B4648FD62A09BA * __this, RuntimeObject * p0, RuntimeObject ** p1, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::set_Item(!0,!1)
@@ -8029,7 +8029,7 @@ inline void Enumerator_Dispose_m4F83D1FDB10370183D6E88219DD7F54EE32BF79B (Enumer
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Camera,UnityEngine.Camera>::Clear()
 inline void Dictionary_2_Clear_mF4B4A7C1BD3249C61D25E6142273A5171FBB8C00 (Dictionary_2_tFA49F113395CCC5E43B44123854AABE489C5AADD * __this, const RuntimeMethod* method)
 {
-	((  void (*) (Dictionary_2_tFA49F113395CCC5E43B44123854AABE489C5AADD *, const RuntimeMethod*))Dictionary_2_Clear_m1115171C74C982EA09CF1B8DB7E4C97ED6AC23D4_gshared)(__this, method);
+	((  void (*) (Dictionary_2_tFA49F113395CCC5E43B44123854AABE489C5AADD *, const RuntimeMethod*))Dictionary_2_Clear_mE02BFDCC216784E4CB370443AA386A7DF9BFD465_gshared)(__this, method);
 }
 // UnityEngine.Vector4 UnityEngine.Material::GetVector(System.String)
 extern "C" IL2CPP_METHOD_ATTR Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  Material_GetVector_m068E8828C9E9FB017161F018E80818C2D1651477 (Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * __this, String_t* p0, const RuntimeMethod* method);

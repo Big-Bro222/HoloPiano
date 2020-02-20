@@ -7414,7 +7414,7 @@ public:
 
 
 // System.Int32 System.Linq.Enumerable::Count<System.Object>(System.Collections.Generic.IEnumerable`1<!!0>)
-extern "C" IL2CPP_METHOD_ATTR int32_t Enumerable_Count_TisRuntimeObject_mA1B5C9CAB465409E85C9BEED5078C714BE3BC8B0_gshared (RuntimeObject* p0, const RuntimeMethod* method);
+extern "C" IL2CPP_METHOD_ATTR int32_t Enumerable_Count_TisRuntimeObject_m7F5E48162A5933330AEC4F82DC890F3B70852959_gshared (RuntimeObject* p0, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32Enum,UnityEngine.Vector2>::set_Item(!0,!1)
 extern "C" IL2CPP_METHOD_ATTR void Dictionary_2_set_Item_mAEF32A1E9D658194F046D1CA322570CE01FB24E2_gshared (Dictionary_2_t070813BC1DF4A7B9E1D62EA6EAC2916F12AADF8E * __this, int32_t p0, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  p1, const RuntimeMethod* method);
 // !2 System.Func`3<System.Object,Vuforia.WebCamProfile/ProfileData,System.Object>::Invoke(!0,!1)
@@ -7432,7 +7432,7 @@ extern "C" IL2CPP_METHOD_ATTR ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792A
 // !!0 UnityEngine.Component::GetComponent<System.Object>()
 extern "C" IL2CPP_METHOD_ATTR RuntimeObject * Component_GetComponent_TisRuntimeObject_m3FED1FF44F93EF1C3A07526800331B638EF4105B_gshared (Component_t05064EF382ABCAF4B8C94F8A350EA85184C26621 * __this, const RuntimeMethod* method);
 // !!0[] UnityEngine.Component::GetComponentsInChildren<System.Object>(System.Boolean)
-extern "C" IL2CPP_METHOD_ATTR ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* Component_GetComponentsInChildren_TisRuntimeObject_m9D0AD195AE130230B226737CAC6C6DAEC4B78ED8_gshared (Component_t05064EF382ABCAF4B8C94F8A350EA85184C26621 * __this, bool p0, const RuntimeMethod* method);
+extern "C" IL2CPP_METHOD_ATTR ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* Component_GetComponentsInChildren_TisRuntimeObject_m37863ECCB395B23FD2A694C9A67E2332D1CE97D0_gshared (Component_t05064EF382ABCAF4B8C94F8A350EA85184C26621 * __this, bool p0, const RuntimeMethod* method);
 
 // System.Void Vuforia.VuforiaRuntimeUtilities/<>c::.ctor()
 extern "C" IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m13D8B53A3F7ABC937D208E32FB41EBE400C4ED43 (U3CU3Ec_t6EBF0B9804BAEA455B4CBCE8CF2EAAFBCF990427 * __this, const RuntimeMethod* method);
@@ -7445,7 +7445,7 @@ extern "C" IL2CPP_METHOD_ATTR RuntimeObject* TargetFinder_GetObjectTargets_mA49F
 // System.Int32 System.Linq.Enumerable::Count<Vuforia.ObjectTarget>(System.Collections.Generic.IEnumerable`1<!!0>)
 inline int32_t Enumerable_Count_TisObjectTarget_tCD5EB5216840E640BC3726496EC3ABECB4C063CC_m00EA9C890B8D509442D640ADA2F016A610CE2493 (RuntimeObject* p0, const RuntimeMethod* method)
 {
-	return ((  int32_t (*) (RuntimeObject*, const RuntimeMethod*))Enumerable_Count_TisRuntimeObject_mA1B5C9CAB465409E85C9BEED5078C714BE3BC8B0_gshared)(p0, method);
+	return ((  int32_t (*) (RuntimeObject*, const RuntimeMethod*))Enumerable_Count_TisRuntimeObject_m7F5E48162A5933330AEC4F82DC890F3B70852959_gshared)(p0, method);
 }
 // System.Boolean Vuforia.VuforiaRuntimeUtilities/CameraState::get_Initialized()
 extern "C" IL2CPP_METHOD_ATTR bool CameraState_get_Initialized_m61444576C77CAAA248EF1C475C62462E18F4364F (CameraState_t4A1994F5F7B9665FD6E136894A4586C0F1E405A6 * __this, const RuntimeMethod* method);
@@ -7857,17 +7857,17 @@ extern "C" IL2CPP_METHOD_ATTR void WireframeTrackableEventHandler_OnTrackingLost
 // !!0[] UnityEngine.Component::GetComponentsInChildren<UnityEngine.Renderer>(System.Boolean)
 inline RendererU5BU5D_t711BACBBBFC0E06179ADB8932DBA208665108C93* Component_GetComponentsInChildren_TisRenderer_t0556D67DD582620D1F495627EDE30D03284151F4_m4DE45B0EE85325E8C64FDFB5DEDA8EBC70A892F0 (Component_t05064EF382ABCAF4B8C94F8A350EA85184C26621 * __this, bool p0, const RuntimeMethod* method)
 {
-	return ((  RendererU5BU5D_t711BACBBBFC0E06179ADB8932DBA208665108C93* (*) (Component_t05064EF382ABCAF4B8C94F8A350EA85184C26621 *, bool, const RuntimeMethod*))Component_GetComponentsInChildren_TisRuntimeObject_m9D0AD195AE130230B226737CAC6C6DAEC4B78ED8_gshared)(__this, p0, method);
+	return ((  RendererU5BU5D_t711BACBBBFC0E06179ADB8932DBA208665108C93* (*) (Component_t05064EF382ABCAF4B8C94F8A350EA85184C26621 *, bool, const RuntimeMethod*))Component_GetComponentsInChildren_TisRuntimeObject_m37863ECCB395B23FD2A694C9A67E2332D1CE97D0_gshared)(__this, p0, method);
 }
 // !!0[] UnityEngine.Component::GetComponentsInChildren<UnityEngine.Collider>(System.Boolean)
 inline ColliderU5BU5D_t70D1FDAE17E4359298B2BAA828048D1B7CFFE252* Component_GetComponentsInChildren_TisCollider_t0FEEB36760860AD21B3B1F0509C365B393EC4BDF_mA42E7442538CDBEC48DB8C54190ABB4C6920000A (Component_t05064EF382ABCAF4B8C94F8A350EA85184C26621 * __this, bool p0, const RuntimeMethod* method)
 {
-	return ((  ColliderU5BU5D_t70D1FDAE17E4359298B2BAA828048D1B7CFFE252* (*) (Component_t05064EF382ABCAF4B8C94F8A350EA85184C26621 *, bool, const RuntimeMethod*))Component_GetComponentsInChildren_TisRuntimeObject_m9D0AD195AE130230B226737CAC6C6DAEC4B78ED8_gshared)(__this, p0, method);
+	return ((  ColliderU5BU5D_t70D1FDAE17E4359298B2BAA828048D1B7CFFE252* (*) (Component_t05064EF382ABCAF4B8C94F8A350EA85184C26621 *, bool, const RuntimeMethod*))Component_GetComponentsInChildren_TisRuntimeObject_m37863ECCB395B23FD2A694C9A67E2332D1CE97D0_gshared)(__this, p0, method);
 }
 // !!0[] UnityEngine.Component::GetComponentsInChildren<Vuforia.WireframeBehaviour>(System.Boolean)
 inline WireframeBehaviourU5BU5D_tCC57E85A88E797B7E0580DF9A97E65B2F1430572* Component_GetComponentsInChildren_TisWireframeBehaviour_t4D7E355A49179D0FA85D66D925AD5832274D939F_m578078CEC984A74ECBCE4C5795871766832C4434 (Component_t05064EF382ABCAF4B8C94F8A350EA85184C26621 * __this, bool p0, const RuntimeMethod* method)
 {
-	return ((  WireframeBehaviourU5BU5D_tCC57E85A88E797B7E0580DF9A97E65B2F1430572* (*) (Component_t05064EF382ABCAF4B8C94F8A350EA85184C26621 *, bool, const RuntimeMethod*))Component_GetComponentsInChildren_TisRuntimeObject_m9D0AD195AE130230B226737CAC6C6DAEC4B78ED8_gshared)(__this, p0, method);
+	return ((  WireframeBehaviourU5BU5D_tCC57E85A88E797B7E0580DF9A97E65B2F1430572* (*) (Component_t05064EF382ABCAF4B8C94F8A350EA85184C26621 *, bool, const RuntimeMethod*))Component_GetComponentsInChildren_TisRuntimeObject_m37863ECCB395B23FD2A694C9A67E2332D1CE97D0_gshared)(__this, p0, method);
 }
 // System.Void UnityEngine.Renderer::set_enabled(System.Boolean)
 extern "C" IL2CPP_METHOD_ATTR void Renderer_set_enabled_m0933766657F2685BAAE3340B0A984C0E63925303 (Renderer_t0556D67DD582620D1F495627EDE30D03284151F4 * __this, bool p0, const RuntimeMethod* method);

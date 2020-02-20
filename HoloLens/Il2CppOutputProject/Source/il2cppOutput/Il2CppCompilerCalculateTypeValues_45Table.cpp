@@ -20,204 +20,87 @@
 #include "il2cpp-object-internals.h"
 
 
-// CameraSettings
-struct CameraSettings_t4FF19C14375B95F9B6D8088E48867CD98A9C1B93;
-// HelpMenu
-struct HelpMenu_tFA337B11D9CEF46CAA742D7AF0F50CDB4032B59F;
-// HoloToolkit.Unity.Interpolator
-struct Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB;
-// MenuController
-struct MenuController_t244BC6F4B06B69D85522469F892EA8375E376DA1;
-// MenuOptions
-struct MenuOptions_tCC6DAC4BE944DFA7164E8AF9F7A21C9BA2F36B7A;
-// MidiJack.MidiDriver/ChannelState[]
-struct ChannelStateU5BU5D_tF0A952AC9D272F53F6A9354974F81D3B8A3743AA;
-// MidiJack.MidiDriver/KnobDelegate
-struct KnobDelegate_t834ED9A2E7591235544DED63B3C731F8AA91968C;
-// MidiJack.MidiDriver/NoteOffDelegate
-struct NoteOffDelegate_tCB084EDADCD9221746EEDA6BC57308995B1BED35;
-// MidiJack.MidiDriver/NoteOnDelegate
-struct NoteOnDelegate_tEFD77A4AD3CB70F0EC4BAB93EBEE23A70F51C398;
-// MidiJack.MidiStateUpdater/Callback
-struct Callback_tC38747B8485A5657D460EBD31B06F21FBBC5C1A3;
-// ModelTargetAugmentationHandler
-struct ModelTargetAugmentationHandler_t19449DE28924052FA6A8FC6511DC9C5C01E036B7;
-// ModelTargetAugmentationHandler/<>c__DisplayClass8_0
-struct U3CU3Ec__DisplayClass8_0_t83AA50D441AB35DA3D45957CEE065F7FDDDF20C8;
-// ModelTargetsManager
-struct ModelTargetsManager_t4C7991E925066EA8BFAF5666AB9EEB125C22F219;
-// ModelTargetsUIManager
-struct ModelTargetsUIManager_t5899DC814D729D2C12656815AD6F5387F881D914;
-// MusicSheetGenerater.MusicParser
-struct MusicParser_t67DB8A6A5564D7BA16C6730F5E8236C175BEE7DF;
-// ParserMusicUnity
-struct ParserMusicUnity_t5D972ADDA326F1287E76105F929BDA324A1468AE;
-// PauseMenu
-struct PauseMenu_t01B62300A10E9F2CFEBE8D9E5171BC583EAC2939;
-// SimpleAnimation
-struct SimpleAnimation_t94FA757413CE9030AC86B48D58347D8CE751A481;
-// SimpleAnimation/OnAnimationCompleted
-struct OnAnimationCompleted_t6043B8B0DAD04BB109B3BD70EE8BD411DB7579D2;
-// SimpleAnimation/OnAnimationStarted
-struct OnAnimationStarted_t06E6CF5A863DF5743B555616150DD8DE6CDAA9D8;
-// StatusMessage
-struct StatusMessage_tE8F5D1F84CF3313EA4589904F697EA7D220391DA;
-// System.Action
-struct Action_t591D2A86165F896B4B800BB5C25CE18672A55579;
-// System.AsyncCallback
-struct AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4;
+// IActivationFactory
+struct Il2CppIActivationFactory;
 // System.Char[]
 struct CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2;
-// System.Collections.Generic.Dictionary`2<System.Int32,System.Single>
-struct Dictionary_2_tCB8FD71FF95FF2996E13313CC98AD98CBA243D60;
-// System.Collections.Generic.Dictionary`2<System.String,System.Action>
-struct Dictionary_2_t8B6634B584453750D056334B3141E31F88DD5F5C;
-// System.Collections.Generic.Dictionary`2<System.String,UnityEngine.GameObject>
-struct Dictionary_2_tB917211DA126597937FC7D5AF12A9E1B7A763F6A;
-// System.Collections.Generic.Dictionary`2<System.String,UnityEngine.Texture2D>
-struct Dictionary_2_tD350AEA8AC2B301F07514C565500EDDFB0DD44CC;
-// System.Collections.Generic.Dictionary`2<UnityEngine.MeshRenderer,UnityEngine.Material>
-struct Dictionary_2_t2F7484428355E9D39F269AFE0ACB5D9D4E974791;
-// System.Collections.Generic.List`1<KnobIndicator>
-struct List_1_t4753C6EE3BBFB367AB60290D99B5E8CD5AF7B8DA;
-// System.Collections.Generic.List`1<System.Int32[]>
-struct List_1_t1DF3B52866BFCD484963BD22F65080393FF97233;
-// System.Collections.Generic.List`1<UnityEngine.WebCamTexture>
-struct List_1_t4654EF53D4F929C1DB85D7F6B0831769D0F0795E;
-// System.Collections.Generic.List`1<Vuforia.ModelTargetBehaviour>
-struct List_1_t4AF30AA358DBAA568C8089709D134AB6131B557D;
-// System.DelegateData
-struct DelegateData_t1BF9F691B56DAE5F8C28C5E084FDE94F15F27BBE;
-// System.Delegate[]
-struct DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86;
-// System.IAsyncResult
-struct IAsyncResult_t8E194308510B375B42432981AE5E7488C458D598;
-// System.Reflection.MethodInfo
-struct MethodInfo_t;
-// System.Single[]
-struct SingleU5BU5D_tA7139B7CAA40EAEF9178E2C386C8A5993754FDD5;
+// System.Security.Cryptography.RandomNumberGenerator
+struct RandomNumberGenerator_t12277F7F965BA79C54E4B3BFABD27A5FFB725EE2;
 // System.String
 struct String_t;
-// System.String[]
-struct StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E;
-// System.Timers.Timer
-struct Timer_t238C45D8635596EEA04884048EF70F96775D5ADC;
-// System.Void
-struct Void_t22962CB4C05B1D89B55A6E1139F0E87A90987017;
-// System.Xml.XmlDocument
-struct XmlDocument_t448325D04430147AF19F2955BD6A5F1551003C97;
-// UnityEngine.AnimationCurve
-struct AnimationCurve_tD2F265379583AAF1BF8D84F1BB8DB12980FA504C;
-// UnityEngine.Animator
-struct Animator_tF1A88E66B3B731DDA75A066DBAE9C55837660F5A;
-// UnityEngine.AudioSource
-struct AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C;
-// UnityEngine.BoxCollider
-struct BoxCollider_t2DF257BBBFCABE0B9D78B21D238298D1942BFBAA;
-// UnityEngine.Camera
-struct Camera_t48B2B9ECB3CE6108A98BF949A1CECF0FE3421F34;
-// UnityEngine.CanvasGroup
-struct CanvasGroup_tE2C664C60990D1DCCEE0CC6545CC3E80369C7F90;
-// UnityEngine.GameObject
-struct GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F;
-// UnityEngine.GameObject[]
-struct GameObjectU5BU5D_t30E337C5B5FBBCBAEDAF4093924D916CF2944067;
-// UnityEngine.Light
-struct Light_tFDE490EADBC7E080F74CA804929513AF07C31A6C;
-// UnityEngine.LineRenderer
-struct LineRenderer_tD225C480F28F28A4D737866474F21001B803B7C3;
-// UnityEngine.Material
-struct Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598;
-// UnityEngine.Material[]
-struct MaterialU5BU5D_tD2350F98F2A1BB6C7A5FBFE1474DFC47331AB398;
-// UnityEngine.MeshRenderer
-struct MeshRenderer_t9D67CA54E83315F743623BDE8EADCD5074659EED;
-// UnityEngine.Object
-struct Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0;
-// UnityEngine.Plane[]
-struct PlaneU5BU5D_t79471E0ABE147C3018D88A036897B6DB49A782AA;
-// UnityEngine.RectTransform
-struct RectTransform_t285CBD8775B25174B75164F10618F8B9728E1B20;
-// UnityEngine.Shader
-struct Shader_tE2731FF351B74AB4186897484FB01E000C1160CA;
-// UnityEngine.SpringJoint
-struct SpringJoint_t2D196194480E339F728B463619720385523B09AF;
-// UnityEngine.Transform
-struct Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA;
-// UnityEngine.UI.Button
-struct Button_t1203820000D5513FDCCE3D4BFF9C1C9CC755CC2B;
-// UnityEngine.UI.Image
-struct Image_t18FED07D8646917E1C563745518CF3DD57FF0B3E;
-// UnityEngine.UI.Image[]
-struct ImageU5BU5D_t3FC2D3F5D777CA546CA2314E6F5DC78FE8E3A37D;
-// UnityEngine.UI.Text
-struct Text_tE9317B57477F4B50AA4C16F460DE6F82DAD6D030;
-// UnityEngine.UI.Toggle
-struct Toggle_t9ADD572046F831945ED0E48A01B50FEA1CA52106;
-// UnityEngine.WaitForSeconds
-struct WaitForSeconds_t3E9E78D3BB53F03F96C7F28BA9B9086CD1A5F4E8;
-// UnityEngine.Windows.Speech.KeywordRecognizer
-struct KeywordRecognizer_t8F0A26BBF11FE0307328C06B4A9EB4268386578C;
-// UnityEngine.XR.WSA.Input.GestureRecognizer
-struct GestureRecognizer_tE4A3B36C495289B1DF1011E12394116A91E361DE;
-// UnityEngine.XR.WSA.Persistence.WorldAnchorStore
-struct WorldAnchorStore_tD361F689FE6F087AD3F38BA8724398992434E225;
-// UnityStandardAssets.Utility.AutoMobileShaderSwitch/ReplacementDefinition[]
-struct ReplacementDefinitionU5BU5D_tFBFB3CC398F7605F4F19261327970F3F1BCD486C;
-// UnityStandardAssets.Utility.AutoMobileShaderSwitch/ReplacementList
-struct ReplacementList_tB61E3C48AEAD548534A66E61A114FE42725BF8B7;
-// UnityStandardAssets.Utility.AutoMoveAndRotate/Vector3andSpace
-struct Vector3andSpace_tFFBEB79251E79158007EDD76C0AA5F44D94FC61C;
-// UnityStandardAssets.Utility.DragRigidbody
-struct DragRigidbody_t69356A31AE06158C9C3A6F186ADA66CA6947621E;
-// UnityStandardAssets.Utility.FOVKick
-struct FOVKick_tAA0380126A0AB10D241285A16AB305CBC25E0338;
-// VuMarkHandler
-struct VuMarkHandler_t25B582A1D93CB5EA8B61A5D734598F1C904528EA;
-// VuMarkHandler/<>c__DisplayClass12_0
-struct U3CU3Ec__DisplayClass12_0_t4B2C7C7463D8C4C3FAADFF967553666CD1958F23;
-// VuMarkHandler/AugmentationObject[]
-struct AugmentationObjectU5BU5D_t2A0E18D7D7B3A800F30F23B78DFB78F8250FB123;
-// Vuforia.ModelTargetBehaviour
-struct ModelTargetBehaviour_t283F7A0B136589E033A458B5FE0C42F3248CE0B0;
-// Vuforia.ObjectTracker
-struct ObjectTracker_tC5DE67DCDB38A86F77C3462ECB63C4453A1D8B3E;
-// Vuforia.PositionalDeviceTracker
-struct PositionalDeviceTracker_tEFAA5FDB9CF19DA74081AE51B41B4B5D9F40D8EE;
-// Vuforia.StateManager
-struct StateManager_t3EECC6F13CB23833CF4CE201E0BA0B51B5A546E1;
-// Vuforia.TrackableBehaviour
-struct TrackableBehaviour_t579D75AAFEF7B2D69F4B68931D5A58074E80A7E4;
-// Vuforia.VuMarkBehaviour
-struct VuMarkBehaviour_t639ADC64791886C7F8D65CD035E0F0E4C6E2FAC4;
-// Vuforia.VuMarkManager
-struct VuMarkManager_tD0288834C61D3F733AD8E4E98FE9C5DED6AC56F9;
+// Windows.Graphics.Imaging.ISoftwareBitmapFactory
+struct ISoftwareBitmapFactory_tDCC6F9B370D495BF1367EDE6DD7574C18A03BF1B;
+// Windows.Graphics.Imaging.ISoftwareBitmapStatics
+struct ISoftwareBitmapStatics_tDB7DDB9262610AE1CF9C6B6D84A90529F306E225;
+// Windows.Media.Capture.Frames.IMediaFrameSourceGroupStatics
+struct IMediaFrameSourceGroupStatics_tA34576A9FF3ADD20A6B5B273AB4FD6604AB6862F;
+// Windows.Media.Capture.IMediaCaptureStatics
+struct IMediaCaptureStatics_t42BE19EC13C73A4C538171B7388D79D4452ED1C8;
+// Windows.Media.MediaProperties.IMediaEncodingSubtypesStatics
+struct IMediaEncodingSubtypesStatics_t45F1A6FEA78173D554298437C1E2A69D72EA67D2;
+// Windows.Media.MediaProperties.IMediaEncodingSubtypesStatics2
+struct IMediaEncodingSubtypesStatics2_t2B6BF183CB0CD1DFD49D954CF64186324E26B01B;
+// Windows.Media.MediaProperties.IMediaEncodingSubtypesStatics3
+struct IMediaEncodingSubtypesStatics3_t47F830745F0DFE30D426682E91B747A71EAC12CD;
+// Windows.Media.MediaProperties.IMediaEncodingSubtypesStatics4
+struct IMediaEncodingSubtypesStatics4_t82F4C9E4DFB25D9D17E61C44D2C31EF8B815FE55;
+// Windows.Media.MediaProperties.IMediaEncodingSubtypesStatics5
+struct IMediaEncodingSubtypesStatics5_tB0311A1306690977D21DA0F9929321C729287F59;
+// Windows.Media.MediaProperties.IVideoEncodingPropertiesStatics
+struct IVideoEncodingPropertiesStatics_t5C1FFB0BBFB5DA97B49E75A2CAD934ED984D557F;
+// Windows.Media.MediaProperties.IVideoEncodingPropertiesStatics2
+struct IVideoEncodingPropertiesStatics2_t4551D182D5576ED7B3888651840B73416B8EE22E;
+// Windows.Media.SpeechSynthesis.IInstalledVoicesStatic
+struct IInstalledVoicesStatic_t5603923E9B07BC445EF1704DF763BD9A8DE8EA26;
+// Windows.Media.SpeechSynthesis.IInstalledVoicesStatic2
+struct IInstalledVoicesStatic2_t4E597FCEFC1FE77F34510156BDF478520D211B3F;
+// Windows.Networking.IHostNameFactory
+struct IHostNameFactory_tFAC92E74B9B1ECB8C74BA8E62CF32D72A317A9B1;
+// Windows.Networking.IHostNameStatics
+struct IHostNameStatics_t037D7823E06A83B2840951D9582F972EE0A1C3DC;
+// Windows.Networking.Sockets.IDatagramSocketStatics
+struct IDatagramSocketStatics_t5405037877878A8B44286DAA57B9410B9E5A1306;
 
-struct Delegate_t_marshaled_com;
-struct Delegate_t_marshaled_pinvoke;
+struct IAsyncAction_tF980B79DBC4BD4F9F262E473628FD971545C5109;
+struct IAsyncOperationWithProgress_2_tC8E6D25AF262A1D3187C74CD8107F97E1FCC44FF;
+struct IAsyncOperationWithProgress_2_tFB6EC2AD6676686963A305CC5FB2C2F273BBB5F8;
+struct IAsyncOperation_1_t053AFB430F2EDA5C9BC1B308A7396242C887479A;
+struct IAsyncOperation_1_t2DD5E575F0AFAB6484D1019F98A3AE2DC91A28C6;
+struct IAsyncOperation_1_t3976446CEF2A153ABE683D064F3A1D00A11D5F0A;
+struct IAsyncOperation_1_t78E6B7EED78DC6F793329B3ADD76EFBA3A82C842;
+struct IAsyncOperation_1_t87D18CE947A722F07F26224E8D04C1434D92BF6A;
+struct IAsyncOperation_1_tA5E4C3165B23DB9ED7307E1B62B26FC77BFF15CF;
+struct IAsyncOperation_1_tD4661478A1C58FAA25688B0E6F4C0182D80CD5E5;
+struct IAudioDeviceController_t2F1BC18AF123286A3D5B90A8E77F3288ED861694;
+struct IBuffer_t138DC3231208360495113BAD65F24878902627D0;
+struct IHostName_t7CC103357C0004DB2503909F01EAF58DEE073A91;
+struct IInputStream_t9A06904D0534FEFA9174E580FCA59EDA460E6C6E;
+struct IIterator_1_t7C300C52737C2A8DF75056B376B673A6C739C98E;
+struct IMapView_2_t9E652CC792786FCF224B87D8FAF5C15963E400DE;
+struct IMapView_2_tCBD372B5986173406E8A73E35BBE532D194A0C1C;
+struct IMap_2_t7C9D5F7C4E0E287CCF473A96ECB7921A3605E652;
+struct IMediaCaptureInitializationSettings_t1DE7B3A5620B15183FB009189485AC2A3856B857;
+struct IMediaDeviceControl_t666956282429407E543A29B60E07040E111AF899;
+struct IMediaEncodingProperties_t161B1E1789909965DD52E51AE4703028AB8EB003;
+struct IMediaFrameReference_t1A17C7B83A5DA84F0BEF457E534B81A5D5EF1F82;
+struct IMediaFrameSourceGroup_t666F492EE37B820BB6324C17BA513497F569B70A;
+struct IMediaFrameSource_tD3308E3D0D7FF40501F566F0DA6A0E3BDEB1AC00;
+struct IMediaRatio_tDBBB7757E0030AA6510825F6BC0D5FD265CB0E55;
+struct IOutputStream_tDDEC725E2EE24D9CB5CF43B540772BFAB27E5AB4;
+struct IPropertySet_tE0FFCA1669EAF0AD5C566E1C0F3E313DF2B1A77D;
+struct ISoftwareBitmap_tF311080EE78E9ED0F3A927086502A086D0A01206;
+struct ITypedEventHandler_2_t4B655DE5AC00C6EDAFBC6996B630AF8FBC87B203_ComCallableWrapper;
+struct ITypedEventHandler_2_tFA525E5DE0F0A649A14F4AD9C370C033DF2FF73A_ComCallableWrapper;
+struct IVectorView_1_tA998D441441CE6240900250A238E35B1B75425B0;
+struct IVectorView_1_tCE33A7864B2DBB53EE157DC2D2571424D9BB11EF;
+struct IVectorView_1_tEE483ADB15ADF0967FBD5B631A5BD0FA8BEF3E5A;
+struct IVideoDeviceController_t969D8DE22D47185B0104472DB46701CC6D24F963;
+struct IVideoEffectDefinition_tB3BDE54658672900C714EE7B8ECDA0EAB155E589;
+struct IVideoMediaFrame_tBA1410A0B2408E43F9973EB75F4797320411343A;
+struct IVoiceInformation_t7606A990C72B19AFBA32B8BFE6BA93CECC002951;
 
 
 
-#ifndef U3CMODULEU3E_TF157A75827DFDE1F9E89CA3CBB54B07FA9E227FC_H
-#define U3CMODULEU3E_TF157A75827DFDE1F9E89CA3CBB54B07FA9E227FC_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// <Module>
-struct  U3CModuleU3E_tF157A75827DFDE1F9E89CA3CBB54B07FA9E227FC 
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // U3CMODULEU3E_TF157A75827DFDE1F9E89CA3CBB54B07FA9E227FC_H
 #ifndef RUNTIMEOBJECT_H
 #define RUNTIMEOBJECT_H
 #ifdef __clang__
@@ -232,612 +115,676 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // RUNTIMEOBJECT_H
-#ifndef U3CPRIVATEIMPLEMENTATIONDETAILSU3E_T4846F3E0DC61BBD6AE249FF1EAAC4CB64097DE4A_H
-#define U3CPRIVATEIMPLEMENTATIONDETAILSU3E_T4846F3E0DC61BBD6AE249FF1EAAC4CB64097DE4A_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// <PrivateImplementationDetails>
-struct  U3CPrivateImplementationDetailsU3E_t4846F3E0DC61BBD6AE249FF1EAAC4CB64097DE4A  : public RuntimeObject
+// Windows.Foundation.Collections.IIterable`1<System.Collections.Generic.KeyValuePair`2<System.Guid,System.Object>>
+struct NOVTABLE IIterable_1_tA0A3AB1250FF8C7F9FF6958BFFADAF7138735B48 : Il2CppIInspectable
 {
-public:
-
-public:
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IIterable_1_First_m270824DD0E50D645F4B61210DADD0ED5F2B3592B(IIterator_1_t7C300C52737C2A8DF75056B376B673A6C739C98E** comReturnValue) = 0;
 };
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // U3CPRIVATEIMPLEMENTATIONDETAILSU3E_T4846F3E0DC61BBD6AE249FF1EAAC4CB64097DE4A_H
-#ifndef CAMERACACHE_T442E41B2CF392BC7F600FE0A6E56F83609475326_H
-#define CAMERACACHE_T442E41B2CF392BC7F600FE0A6E56F83609475326_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// HoloToolkit.Unity.CameraCache
-struct  CameraCache_t442E41B2CF392BC7F600FE0A6E56F83609475326  : public RuntimeObject
+// Windows.Foundation.IClosable
+struct NOVTABLE IClosable_t5808AF951019E4388C66F7A88AC569F52F581167 : Il2CppIInspectable
 {
-public:
-
-public:
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IClosable_Close_m9A054CE065D4C97FAF595A8F92B3CB3463C5BCD6() = 0;
 };
-
-struct CameraCache_t442E41B2CF392BC7F600FE0A6E56F83609475326_StaticFields
+// Windows.Foundation.IStringable
+struct NOVTABLE IStringable_tC919620080C884858AC41684EF7711F71AB2F928 : Il2CppIInspectable
 {
-public:
-	// UnityEngine.Camera HoloToolkit.Unity.CameraCache::cachedCamera
-	Camera_t48B2B9ECB3CE6108A98BF949A1CECF0FE3421F34 * ___cachedCamera_0;
-
-public:
-	inline static int32_t get_offset_of_cachedCamera_0() { return static_cast<int32_t>(offsetof(CameraCache_t442E41B2CF392BC7F600FE0A6E56F83609475326_StaticFields, ___cachedCamera_0)); }
-	inline Camera_t48B2B9ECB3CE6108A98BF949A1CECF0FE3421F34 * get_cachedCamera_0() const { return ___cachedCamera_0; }
-	inline Camera_t48B2B9ECB3CE6108A98BF949A1CECF0FE3421F34 ** get_address_of_cachedCamera_0() { return &___cachedCamera_0; }
-	inline void set_cachedCamera_0(Camera_t48B2B9ECB3CE6108A98BF949A1CECF0FE3421F34 * value)
-	{
-		___cachedCamera_0 = value;
-		Il2CppCodeGenWriteBarrier((&___cachedCamera_0), value);
-	}
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IStringable_ToString_m52082689C4261A2691DF8177D839F717B13705FF(Il2CppHString* comReturnValue) = 0;
 };
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // CAMERACACHE_T442E41B2CF392BC7F600FE0A6E56F83609475326_H
-#ifndef U3CUPDATESCANTIMEU3ED__3_T7761FB7635016B230CCB6A93BCE40738E76A1D79_H
-#define U3CUPDATESCANTIMEU3ED__3_T7761FB7635016B230CCB6A93BCE40738E76A1D79_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// MaterialSwitch_<UpdateScanTime>d__3
-struct  U3CUpdateScanTimeU3Ed__3_t7761FB7635016B230CCB6A93BCE40738E76A1D79  : public RuntimeObject
+// Windows.Graphics.Imaging.ISoftwareBitmap
+struct NOVTABLE ISoftwareBitmap_tF311080EE78E9ED0F3A927086502A086D0A01206 : Il2CppIInspectable
 {
-public:
-	// System.Int32 MaterialSwitch_<UpdateScanTime>d__3::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Object MaterialSwitch_<UpdateScanTime>d__3::<>2__current
-	RuntimeObject * ___U3CU3E2__current_1;
-	// UnityEngine.Material MaterialSwitch_<UpdateScanTime>d__3::mat
-	Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * ___mat_2;
-	// System.Single MaterialSwitch_<UpdateScanTime>d__3::duration
-	float ___duration_3;
-	// System.Single MaterialSwitch_<UpdateScanTime>d__3::<time>5__2
-	float ___U3CtimeU3E5__2_4;
-	// System.Single MaterialSwitch_<UpdateScanTime>d__3::<deltaTime>5__3
-	float ___U3CdeltaTimeU3E5__3_5;
-	// UnityEngine.WaitForSeconds MaterialSwitch_<UpdateScanTime>d__3::<wait>5__4
-	WaitForSeconds_t3E9E78D3BB53F03F96C7F28BA9B9086CD1A5F4E8 * ___U3CwaitU3E5__4_6;
-
-public:
-	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CUpdateScanTimeU3Ed__3_t7761FB7635016B230CCB6A93BCE40738E76A1D79, ___U3CU3E1__state_0)); }
-	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
-	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
-	inline void set_U3CU3E1__state_0(int32_t value)
-	{
-		___U3CU3E1__state_0 = value;
-	}
-
-	inline static int32_t get_offset_of_U3CU3E2__current_1() { return static_cast<int32_t>(offsetof(U3CUpdateScanTimeU3Ed__3_t7761FB7635016B230CCB6A93BCE40738E76A1D79, ___U3CU3E2__current_1)); }
-	inline RuntimeObject * get_U3CU3E2__current_1() const { return ___U3CU3E2__current_1; }
-	inline RuntimeObject ** get_address_of_U3CU3E2__current_1() { return &___U3CU3E2__current_1; }
-	inline void set_U3CU3E2__current_1(RuntimeObject * value)
-	{
-		___U3CU3E2__current_1 = value;
-		Il2CppCodeGenWriteBarrier((&___U3CU3E2__current_1), value);
-	}
-
-	inline static int32_t get_offset_of_mat_2() { return static_cast<int32_t>(offsetof(U3CUpdateScanTimeU3Ed__3_t7761FB7635016B230CCB6A93BCE40738E76A1D79, ___mat_2)); }
-	inline Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * get_mat_2() const { return ___mat_2; }
-	inline Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 ** get_address_of_mat_2() { return &___mat_2; }
-	inline void set_mat_2(Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * value)
-	{
-		___mat_2 = value;
-		Il2CppCodeGenWriteBarrier((&___mat_2), value);
-	}
-
-	inline static int32_t get_offset_of_duration_3() { return static_cast<int32_t>(offsetof(U3CUpdateScanTimeU3Ed__3_t7761FB7635016B230CCB6A93BCE40738E76A1D79, ___duration_3)); }
-	inline float get_duration_3() const { return ___duration_3; }
-	inline float* get_address_of_duration_3() { return &___duration_3; }
-	inline void set_duration_3(float value)
-	{
-		___duration_3 = value;
-	}
-
-	inline static int32_t get_offset_of_U3CtimeU3E5__2_4() { return static_cast<int32_t>(offsetof(U3CUpdateScanTimeU3Ed__3_t7761FB7635016B230CCB6A93BCE40738E76A1D79, ___U3CtimeU3E5__2_4)); }
-	inline float get_U3CtimeU3E5__2_4() const { return ___U3CtimeU3E5__2_4; }
-	inline float* get_address_of_U3CtimeU3E5__2_4() { return &___U3CtimeU3E5__2_4; }
-	inline void set_U3CtimeU3E5__2_4(float value)
-	{
-		___U3CtimeU3E5__2_4 = value;
-	}
-
-	inline static int32_t get_offset_of_U3CdeltaTimeU3E5__3_5() { return static_cast<int32_t>(offsetof(U3CUpdateScanTimeU3Ed__3_t7761FB7635016B230CCB6A93BCE40738E76A1D79, ___U3CdeltaTimeU3E5__3_5)); }
-	inline float get_U3CdeltaTimeU3E5__3_5() const { return ___U3CdeltaTimeU3E5__3_5; }
-	inline float* get_address_of_U3CdeltaTimeU3E5__3_5() { return &___U3CdeltaTimeU3E5__3_5; }
-	inline void set_U3CdeltaTimeU3E5__3_5(float value)
-	{
-		___U3CdeltaTimeU3E5__3_5 = value;
-	}
-
-	inline static int32_t get_offset_of_U3CwaitU3E5__4_6() { return static_cast<int32_t>(offsetof(U3CUpdateScanTimeU3Ed__3_t7761FB7635016B230CCB6A93BCE40738E76A1D79, ___U3CwaitU3E5__4_6)); }
-	inline WaitForSeconds_t3E9E78D3BB53F03F96C7F28BA9B9086CD1A5F4E8 * get_U3CwaitU3E5__4_6() const { return ___U3CwaitU3E5__4_6; }
-	inline WaitForSeconds_t3E9E78D3BB53F03F96C7F28BA9B9086CD1A5F4E8 ** get_address_of_U3CwaitU3E5__4_6() { return &___U3CwaitU3E5__4_6; }
-	inline void set_U3CwaitU3E5__4_6(WaitForSeconds_t3E9E78D3BB53F03F96C7F28BA9B9086CD1A5F4E8 * value)
-	{
-		___U3CwaitU3E5__4_6 = value;
-		Il2CppCodeGenWriteBarrier((&___U3CwaitU3E5__4_6), value);
-	}
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL ISoftwareBitmap_U24__Stripped0_get_BitmapPixelFormat_mC5E70F4DC6C3CDC35178CE1D0DDE3256FD2FE6F2() = 0;
+	virtual il2cpp_hresult_t STDCALL ISoftwareBitmap_U24__Stripped1_get_BitmapAlphaMode_mCCA383759DAD12FF9D6CE02E9A5E9BC403929E2F() = 0;
+	virtual il2cpp_hresult_t STDCALL ISoftwareBitmap_get_PixelWidth_mF9DDFABED05A9821DF9EABFD66B480D8775C4E97(int32_t* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL ISoftwareBitmap_get_PixelHeight_m67BABA8BBE05FCD89CF69E75FA3367347C450B8B(int32_t* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL ISoftwareBitmap_U24__Stripped2_get_IsReadOnly_mE6AE46A81CFEA1D14112EA64F542AF9B2BA5F68C() = 0;
+	virtual il2cpp_hresult_t STDCALL ISoftwareBitmap_U24__Stripped3_put_DpiX_m7E27959331762E56116AB6E973EF7FCF14147054() = 0;
+	virtual il2cpp_hresult_t STDCALL ISoftwareBitmap_U24__Stripped4_get_DpiX_m4ACDD9EF42834051FF65D6EC182F473F35AE168E() = 0;
+	virtual il2cpp_hresult_t STDCALL ISoftwareBitmap_U24__Stripped5_put_DpiY_m2BFEA2002363B900F90192F142AC8C6A85D4F11F() = 0;
+	virtual il2cpp_hresult_t STDCALL ISoftwareBitmap_U24__Stripped6_get_DpiY_m047FA512AC6DEF19E660ECC6F493369FBCE87ADD() = 0;
+	virtual il2cpp_hresult_t STDCALL ISoftwareBitmap_U24__Stripped7_LockBuffer_mB8B66CD7653A56469E68560AD813DF986FD22374() = 0;
+	virtual il2cpp_hresult_t STDCALL ISoftwareBitmap_U24__Stripped8_CopyTo_m9B63CE194F71E5A8B32AAC9BB11D58F7C7953EA3() = 0;
+	virtual il2cpp_hresult_t STDCALL ISoftwareBitmap_U24__Stripped9_CopyFromBuffer_m76148DAD0B60A90752D7C46CED1C6CF717D76267() = 0;
+	virtual il2cpp_hresult_t STDCALL ISoftwareBitmap_CopyToBuffer_mB94CD19998D87F8A01D150CE14F28A3CF1623B5A(IBuffer_t138DC3231208360495113BAD65F24878902627D0* ___buffer0) = 0;
+	virtual il2cpp_hresult_t STDCALL ISoftwareBitmap_U24__Stripped10_GetReadOnlyView_mAD4E8182345EC791399F2DD076DB2113E9BB5123() = 0;
 };
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // U3CUPDATESCANTIMEU3ED__3_T7761FB7635016B230CCB6A93BCE40738E76A1D79_H
-#ifndef MIDIDRIVER_T0C077280D855F8BB520A7C72D8D69C6FF9BF4E12_H
-#define MIDIDRIVER_T0C077280D855F8BB520A7C72D8D69C6FF9BF4E12_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// MidiJack.MidiDriver
-struct  MidiDriver_t0C077280D855F8BB520A7C72D8D69C6FF9BF4E12  : public RuntimeObject
+// Windows.Graphics.Imaging.ISoftwareBitmapFactory
+struct NOVTABLE ISoftwareBitmapFactory_tDCC6F9B370D495BF1367EDE6DD7574C18A03BF1B : Il2CppIInspectable
 {
-public:
-	// MidiJack.MidiDriver_ChannelState[] MidiJack.MidiDriver::_channelArray
-	ChannelStateU5BU5D_tF0A952AC9D272F53F6A9354974F81D3B8A3743AA* ____channelArray_0;
-	// System.Int32 MidiJack.MidiDriver::_lastFrame
-	int32_t ____lastFrame_1;
-	// MidiJack.MidiDriver_NoteOnDelegate MidiJack.MidiDriver::<noteOnDelegate>k__BackingField
-	NoteOnDelegate_tEFD77A4AD3CB70F0EC4BAB93EBEE23A70F51C398 * ___U3CnoteOnDelegateU3Ek__BackingField_2;
-	// MidiJack.MidiDriver_NoteOffDelegate MidiJack.MidiDriver::<noteOffDelegate>k__BackingField
-	NoteOffDelegate_tCB084EDADCD9221746EEDA6BC57308995B1BED35 * ___U3CnoteOffDelegateU3Ek__BackingField_3;
-	// MidiJack.MidiDriver_KnobDelegate MidiJack.MidiDriver::<knobDelegate>k__BackingField
-	KnobDelegate_t834ED9A2E7591235544DED63B3C731F8AA91968C * ___U3CknobDelegateU3Ek__BackingField_4;
-
-public:
-	inline static int32_t get_offset_of__channelArray_0() { return static_cast<int32_t>(offsetof(MidiDriver_t0C077280D855F8BB520A7C72D8D69C6FF9BF4E12, ____channelArray_0)); }
-	inline ChannelStateU5BU5D_tF0A952AC9D272F53F6A9354974F81D3B8A3743AA* get__channelArray_0() const { return ____channelArray_0; }
-	inline ChannelStateU5BU5D_tF0A952AC9D272F53F6A9354974F81D3B8A3743AA** get_address_of__channelArray_0() { return &____channelArray_0; }
-	inline void set__channelArray_0(ChannelStateU5BU5D_tF0A952AC9D272F53F6A9354974F81D3B8A3743AA* value)
-	{
-		____channelArray_0 = value;
-		Il2CppCodeGenWriteBarrier((&____channelArray_0), value);
-	}
-
-	inline static int32_t get_offset_of__lastFrame_1() { return static_cast<int32_t>(offsetof(MidiDriver_t0C077280D855F8BB520A7C72D8D69C6FF9BF4E12, ____lastFrame_1)); }
-	inline int32_t get__lastFrame_1() const { return ____lastFrame_1; }
-	inline int32_t* get_address_of__lastFrame_1() { return &____lastFrame_1; }
-	inline void set__lastFrame_1(int32_t value)
-	{
-		____lastFrame_1 = value;
-	}
-
-	inline static int32_t get_offset_of_U3CnoteOnDelegateU3Ek__BackingField_2() { return static_cast<int32_t>(offsetof(MidiDriver_t0C077280D855F8BB520A7C72D8D69C6FF9BF4E12, ___U3CnoteOnDelegateU3Ek__BackingField_2)); }
-	inline NoteOnDelegate_tEFD77A4AD3CB70F0EC4BAB93EBEE23A70F51C398 * get_U3CnoteOnDelegateU3Ek__BackingField_2() const { return ___U3CnoteOnDelegateU3Ek__BackingField_2; }
-	inline NoteOnDelegate_tEFD77A4AD3CB70F0EC4BAB93EBEE23A70F51C398 ** get_address_of_U3CnoteOnDelegateU3Ek__BackingField_2() { return &___U3CnoteOnDelegateU3Ek__BackingField_2; }
-	inline void set_U3CnoteOnDelegateU3Ek__BackingField_2(NoteOnDelegate_tEFD77A4AD3CB70F0EC4BAB93EBEE23A70F51C398 * value)
-	{
-		___U3CnoteOnDelegateU3Ek__BackingField_2 = value;
-		Il2CppCodeGenWriteBarrier((&___U3CnoteOnDelegateU3Ek__BackingField_2), value);
-	}
-
-	inline static int32_t get_offset_of_U3CnoteOffDelegateU3Ek__BackingField_3() { return static_cast<int32_t>(offsetof(MidiDriver_t0C077280D855F8BB520A7C72D8D69C6FF9BF4E12, ___U3CnoteOffDelegateU3Ek__BackingField_3)); }
-	inline NoteOffDelegate_tCB084EDADCD9221746EEDA6BC57308995B1BED35 * get_U3CnoteOffDelegateU3Ek__BackingField_3() const { return ___U3CnoteOffDelegateU3Ek__BackingField_3; }
-	inline NoteOffDelegate_tCB084EDADCD9221746EEDA6BC57308995B1BED35 ** get_address_of_U3CnoteOffDelegateU3Ek__BackingField_3() { return &___U3CnoteOffDelegateU3Ek__BackingField_3; }
-	inline void set_U3CnoteOffDelegateU3Ek__BackingField_3(NoteOffDelegate_tCB084EDADCD9221746EEDA6BC57308995B1BED35 * value)
-	{
-		___U3CnoteOffDelegateU3Ek__BackingField_3 = value;
-		Il2CppCodeGenWriteBarrier((&___U3CnoteOffDelegateU3Ek__BackingField_3), value);
-	}
-
-	inline static int32_t get_offset_of_U3CknobDelegateU3Ek__BackingField_4() { return static_cast<int32_t>(offsetof(MidiDriver_t0C077280D855F8BB520A7C72D8D69C6FF9BF4E12, ___U3CknobDelegateU3Ek__BackingField_4)); }
-	inline KnobDelegate_t834ED9A2E7591235544DED63B3C731F8AA91968C * get_U3CknobDelegateU3Ek__BackingField_4() const { return ___U3CknobDelegateU3Ek__BackingField_4; }
-	inline KnobDelegate_t834ED9A2E7591235544DED63B3C731F8AA91968C ** get_address_of_U3CknobDelegateU3Ek__BackingField_4() { return &___U3CknobDelegateU3Ek__BackingField_4; }
-	inline void set_U3CknobDelegateU3Ek__BackingField_4(KnobDelegate_t834ED9A2E7591235544DED63B3C731F8AA91968C * value)
-	{
-		___U3CknobDelegateU3Ek__BackingField_4 = value;
-		Il2CppCodeGenWriteBarrier((&___U3CknobDelegateU3Ek__BackingField_4), value);
-	}
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL ISoftwareBitmapFactory_U24__Stripped0_Create_mC2D86EDE18DA025E029FA5B60DFB16BAFEA4A7D2() = 0;
+	virtual il2cpp_hresult_t STDCALL ISoftwareBitmapFactory_U24__Stripped1_CreateWithAlpha_mF85843E02E7A9F109E819E52262E32E5C61CD015() = 0;
 };
-
-struct MidiDriver_t0C077280D855F8BB520A7C72D8D69C6FF9BF4E12_StaticFields
+// Windows.Graphics.Imaging.ISoftwareBitmapStatics
+struct NOVTABLE ISoftwareBitmapStatics_tDB7DDB9262610AE1CF9C6B6D84A90529F306E225 : Il2CppIInspectable
 {
-public:
-	// MidiJack.MidiDriver MidiJack.MidiDriver::_instance
-	MidiDriver_t0C077280D855F8BB520A7C72D8D69C6FF9BF4E12 * ____instance_5;
-
-public:
-	inline static int32_t get_offset_of__instance_5() { return static_cast<int32_t>(offsetof(MidiDriver_t0C077280D855F8BB520A7C72D8D69C6FF9BF4E12_StaticFields, ____instance_5)); }
-	inline MidiDriver_t0C077280D855F8BB520A7C72D8D69C6FF9BF4E12 * get__instance_5() const { return ____instance_5; }
-	inline MidiDriver_t0C077280D855F8BB520A7C72D8D69C6FF9BF4E12 ** get_address_of__instance_5() { return &____instance_5; }
-	inline void set__instance_5(MidiDriver_t0C077280D855F8BB520A7C72D8D69C6FF9BF4E12 * value)
-	{
-		____instance_5 = value;
-		Il2CppCodeGenWriteBarrier((&____instance_5), value);
-	}
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL ISoftwareBitmapStatics_U24__Stripped0_Copy_m3D069CDAEC7A024D2C723F89EA92AA632C0DD648() = 0;
+	virtual il2cpp_hresult_t STDCALL ISoftwareBitmapStatics_U24__Stripped1_Convert_mCD9AF5DDC3782387D7F52F35288BC30C371CAEFC() = 0;
+	virtual il2cpp_hresult_t STDCALL ISoftwareBitmapStatics_U24__Stripped2_Convert_m451FAD654A91B5AD1568BBF0CE2FB7811BB21418() = 0;
+	virtual il2cpp_hresult_t STDCALL ISoftwareBitmapStatics_U24__Stripped3_CreateCopyFromBuffer_m45BE2FC8DC2BC95D34BB321055C182D1494D45E5() = 0;
+	virtual il2cpp_hresult_t STDCALL ISoftwareBitmapStatics_U24__Stripped4_CreateCopyFromBuffer_mBE2EC0B9A90251A10FB764B87B7E6F6BFF97E631() = 0;
+	virtual il2cpp_hresult_t STDCALL ISoftwareBitmapStatics_U24__Stripped5_CreateCopyFromSurfaceAsync_mC6C02E2C67DBAE7BF2E16C938928E4B347EC0BC9() = 0;
+	virtual il2cpp_hresult_t STDCALL ISoftwareBitmapStatics_U24__Stripped6_CreateCopyFromSurfaceAsync_m87D675FA0149CBC623E54DC42C0BFFBAABF75C47() = 0;
 };
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // MIDIDRIVER_T0C077280D855F8BB520A7C72D8D69C6FF9BF4E12_H
-#ifndef CHANNELSTATE_T2F3BBA01D56F4FB87D8E4F777DBB3AD9164986AB_H
-#define CHANNELSTATE_T2F3BBA01D56F4FB87D8E4F777DBB3AD9164986AB_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// MidiJack.MidiDriver_ChannelState
-struct  ChannelState_t2F3BBA01D56F4FB87D8E4F777DBB3AD9164986AB  : public RuntimeObject
+// Windows.Media.Capture.Frames.IMediaFrameArrivedEventArgs
+struct NOVTABLE IMediaFrameArrivedEventArgs_t07A7A43869474634E9BB7EFD85514DDBEC4EDC32 : Il2CppIInspectable
 {
-public:
-	// System.Single[] MidiJack.MidiDriver_ChannelState::_noteArray
-	SingleU5BU5D_tA7139B7CAA40EAEF9178E2C386C8A5993754FDD5* ____noteArray_0;
-	// System.Collections.Generic.Dictionary`2<System.Int32,System.Single> MidiJack.MidiDriver_ChannelState::_knobMap
-	Dictionary_2_tCB8FD71FF95FF2996E13313CC98AD98CBA243D60 * ____knobMap_1;
-
-public:
-	inline static int32_t get_offset_of__noteArray_0() { return static_cast<int32_t>(offsetof(ChannelState_t2F3BBA01D56F4FB87D8E4F777DBB3AD9164986AB, ____noteArray_0)); }
-	inline SingleU5BU5D_tA7139B7CAA40EAEF9178E2C386C8A5993754FDD5* get__noteArray_0() const { return ____noteArray_0; }
-	inline SingleU5BU5D_tA7139B7CAA40EAEF9178E2C386C8A5993754FDD5** get_address_of__noteArray_0() { return &____noteArray_0; }
-	inline void set__noteArray_0(SingleU5BU5D_tA7139B7CAA40EAEF9178E2C386C8A5993754FDD5* value)
-	{
-		____noteArray_0 = value;
-		Il2CppCodeGenWriteBarrier((&____noteArray_0), value);
-	}
-
-	inline static int32_t get_offset_of__knobMap_1() { return static_cast<int32_t>(offsetof(ChannelState_t2F3BBA01D56F4FB87D8E4F777DBB3AD9164986AB, ____knobMap_1)); }
-	inline Dictionary_2_tCB8FD71FF95FF2996E13313CC98AD98CBA243D60 * get__knobMap_1() const { return ____knobMap_1; }
-	inline Dictionary_2_tCB8FD71FF95FF2996E13313CC98AD98CBA243D60 ** get_address_of__knobMap_1() { return &____knobMap_1; }
-	inline void set__knobMap_1(Dictionary_2_tCB8FD71FF95FF2996E13313CC98AD98CBA243D60 * value)
-	{
-		____knobMap_1 = value;
-		Il2CppCodeGenWriteBarrier((&____knobMap_1), value);
-	}
+	static const Il2CppGuid IID;
 };
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // CHANNELSTATE_T2F3BBA01D56F4FB87D8E4F777DBB3AD9164986AB_H
-#ifndef MIDIMASTER_T15D939F714CBEF7B8A88D5143E1A6EE5EC57FEF4_H
-#define MIDIMASTER_T15D939F714CBEF7B8A88D5143E1A6EE5EC57FEF4_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// MidiJack.MidiMaster
-struct  MidiMaster_t15D939F714CBEF7B8A88D5143E1A6EE5EC57FEF4  : public RuntimeObject
+// Windows.Media.Capture.Frames.IMediaFrameReader2
+struct NOVTABLE IMediaFrameReader2_tF3265EEAE0A57AE73C2D1934A3C67EB21A854E41 : Il2CppIInspectable
 {
-public:
-
-public:
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IMediaFrameReader2_U24__Stripped0_put_AcquisitionMode_mC24EC21A7220493F2093BF81D701082B6519E027() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaFrameReader2_U24__Stripped1_get_AcquisitionMode_mD9B4D8323BC238450A2408206773A59615B3FA07() = 0;
 };
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // MIDIMASTER_T15D939F714CBEF7B8A88D5143E1A6EE5EC57FEF4_H
-#ifndef U3CU3EC__DISPLAYCLASS8_0_T83AA50D441AB35DA3D45957CEE065F7FDDDF20C8_H
-#define U3CU3EC__DISPLAYCLASS8_0_T83AA50D441AB35DA3D45957CEE065F7FDDDF20C8_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// ModelTargetAugmentationHandler_<>c__DisplayClass8_0
-struct  U3CU3Ec__DisplayClass8_0_t83AA50D441AB35DA3D45957CEE065F7FDDDF20C8  : public RuntimeObject
+// Windows.Media.Capture.Frames.IMediaFrameReference
+struct NOVTABLE IMediaFrameReference_t1A17C7B83A5DA84F0BEF457E534B81A5D5EF1F82 : Il2CppIInspectable
 {
-public:
-	// ModelTargetAugmentationHandler ModelTargetAugmentationHandler_<>c__DisplayClass8_0::<>4__this
-	ModelTargetAugmentationHandler_t19449DE28924052FA6A8FC6511DC9C5C01E036B7 * ___U3CU3E4__this_0;
-	// System.Int32 ModelTargetAugmentationHandler_<>c__DisplayClass8_0::animCompleteCount
-	int32_t ___animCompleteCount_1;
-	// System.Int32 ModelTargetAugmentationHandler_<>c__DisplayClass8_0::animCount
-	int32_t ___animCount_2;
-
-public:
-	inline static int32_t get_offset_of_U3CU3E4__this_0() { return static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass8_0_t83AA50D441AB35DA3D45957CEE065F7FDDDF20C8, ___U3CU3E4__this_0)); }
-	inline ModelTargetAugmentationHandler_t19449DE28924052FA6A8FC6511DC9C5C01E036B7 * get_U3CU3E4__this_0() const { return ___U3CU3E4__this_0; }
-	inline ModelTargetAugmentationHandler_t19449DE28924052FA6A8FC6511DC9C5C01E036B7 ** get_address_of_U3CU3E4__this_0() { return &___U3CU3E4__this_0; }
-	inline void set_U3CU3E4__this_0(ModelTargetAugmentationHandler_t19449DE28924052FA6A8FC6511DC9C5C01E036B7 * value)
-	{
-		___U3CU3E4__this_0 = value;
-		Il2CppCodeGenWriteBarrier((&___U3CU3E4__this_0), value);
-	}
-
-	inline static int32_t get_offset_of_animCompleteCount_1() { return static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass8_0_t83AA50D441AB35DA3D45957CEE065F7FDDDF20C8, ___animCompleteCount_1)); }
-	inline int32_t get_animCompleteCount_1() const { return ___animCompleteCount_1; }
-	inline int32_t* get_address_of_animCompleteCount_1() { return &___animCompleteCount_1; }
-	inline void set_animCompleteCount_1(int32_t value)
-	{
-		___animCompleteCount_1 = value;
-	}
-
-	inline static int32_t get_offset_of_animCount_2() { return static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass8_0_t83AA50D441AB35DA3D45957CEE065F7FDDDF20C8, ___animCount_2)); }
-	inline int32_t get_animCount_2() const { return ___animCount_2; }
-	inline int32_t* get_address_of_animCount_2() { return &___animCount_2; }
-	inline void set_animCount_2(int32_t value)
-	{
-		___animCount_2 = value;
-	}
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IMediaFrameReference_U24__Stripped0_get_SourceKind_mBC57B8BE704C2D9F10A164DFAE6DE5151A0C56F7() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaFrameReference_U24__Stripped1_get_Format_m193B8220666A987758FD061B118244C1166EB8E9() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaFrameReference_U24__Stripped2_get_SystemRelativeTime_mEBC900DB3C9A8A0FEE3E808EB337AE2671A0EA87() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaFrameReference_U24__Stripped3_get_Duration_m7BF4030150DBAA7569113A74E03724D44158A5E8() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaFrameReference_U24__Stripped4_get_Properties_mAC19DFD3EDC8F66CEA84178FFE248C2C828660F0() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaFrameReference_U24__Stripped5_get_BufferMediaFrame_mF9E553BA37C2BADAE3285EBD23499ADB96D26431() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaFrameReference_get_VideoMediaFrame_m1971B54E56EFE79C80213353A2A4F459A0536305(IVideoMediaFrame_tBA1410A0B2408E43F9973EB75F4797320411343A** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaFrameReference_U24__Stripped6_get_CoordinateSystem_m0232F72BFAC17EB6EA4884C519448FFB0AA2EB04() = 0;
 };
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // U3CU3EC__DISPLAYCLASS8_0_T83AA50D441AB35DA3D45957CEE065F7FDDDF20C8_H
-#ifndef U3CU3EC__DISPLAYCLASS8_1_T32D8129B06510ABCF3090C45C504084EC8F27EDB_H
-#define U3CU3EC__DISPLAYCLASS8_1_T32D8129B06510ABCF3090C45C504084EC8F27EDB_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// ModelTargetAugmentationHandler_<>c__DisplayClass8_1
-struct  U3CU3Ec__DisplayClass8_1_t32D8129B06510ABCF3090C45C504084EC8F27EDB  : public RuntimeObject
+// Windows.Media.Capture.Frames.IMediaFrameReference2
+struct NOVTABLE IMediaFrameReference2_tE5304240AA43B5095BDF1FD9A62A6039C4493C0A : Il2CppIInspectable
 {
-public:
-	// SimpleAnimation ModelTargetAugmentationHandler_<>c__DisplayClass8_1::anim
-	SimpleAnimation_t94FA757413CE9030AC86B48D58347D8CE751A481 * ___anim_0;
-	// ModelTargetAugmentationHandler_<>c__DisplayClass8_0 ModelTargetAugmentationHandler_<>c__DisplayClass8_1::CSU24<>8__locals1
-	U3CU3Ec__DisplayClass8_0_t83AA50D441AB35DA3D45957CEE065F7FDDDF20C8 * ___CSU24U3CU3E8__locals1_1;
-
-public:
-	inline static int32_t get_offset_of_anim_0() { return static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass8_1_t32D8129B06510ABCF3090C45C504084EC8F27EDB, ___anim_0)); }
-	inline SimpleAnimation_t94FA757413CE9030AC86B48D58347D8CE751A481 * get_anim_0() const { return ___anim_0; }
-	inline SimpleAnimation_t94FA757413CE9030AC86B48D58347D8CE751A481 ** get_address_of_anim_0() { return &___anim_0; }
-	inline void set_anim_0(SimpleAnimation_t94FA757413CE9030AC86B48D58347D8CE751A481 * value)
-	{
-		___anim_0 = value;
-		Il2CppCodeGenWriteBarrier((&___anim_0), value);
-	}
-
-	inline static int32_t get_offset_of_CSU24U3CU3E8__locals1_1() { return static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass8_1_t32D8129B06510ABCF3090C45C504084EC8F27EDB, ___CSU24U3CU3E8__locals1_1)); }
-	inline U3CU3Ec__DisplayClass8_0_t83AA50D441AB35DA3D45957CEE065F7FDDDF20C8 * get_CSU24U3CU3E8__locals1_1() const { return ___CSU24U3CU3E8__locals1_1; }
-	inline U3CU3Ec__DisplayClass8_0_t83AA50D441AB35DA3D45957CEE065F7FDDDF20C8 ** get_address_of_CSU24U3CU3E8__locals1_1() { return &___CSU24U3CU3E8__locals1_1; }
-	inline void set_CSU24U3CU3E8__locals1_1(U3CU3Ec__DisplayClass8_0_t83AA50D441AB35DA3D45957CEE065F7FDDDF20C8 * value)
-	{
-		___CSU24U3CU3E8__locals1_1 = value;
-		Il2CppCodeGenWriteBarrier((&___CSU24U3CU3E8__locals1_1), value);
-	}
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IMediaFrameReference2_U24__Stripped0_get_AudioMediaFrame_m5E666765ED7E6BD4C08F5051FD0A501F8A1A849D() = 0;
 };
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // U3CU3EC__DISPLAYCLASS8_1_T32D8129B06510ABCF3090C45C504084EC8F27EDB_H
-#ifndef U3CCLEARIMAGESEQUENCEPAUSEU3ED__20_T2FC0A3445261800B1C06AF2EC783AA392D4A9C3D_H
-#define U3CCLEARIMAGESEQUENCEPAUSEU3ED__20_T2FC0A3445261800B1C06AF2EC783AA392D4A9C3D_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// ModelTargetsUIManager_<ClearImageSequencePause>d__20
-struct  U3CClearImageSequencePauseU3Ed__20_t2FC0A3445261800B1C06AF2EC783AA392D4A9C3D  : public RuntimeObject
+// Windows.Media.Capture.Frames.IMediaFrameSource
+struct NOVTABLE IMediaFrameSource_tD3308E3D0D7FF40501F566F0DA6A0E3BDEB1AC00 : Il2CppIInspectable
 {
-public:
-	// System.Int32 ModelTargetsUIManager_<ClearImageSequencePause>d__20::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Object ModelTargetsUIManager_<ClearImageSequencePause>d__20::<>2__current
-	RuntimeObject * ___U3CU3E2__current_1;
-	// ModelTargetsUIManager ModelTargetsUIManager_<ClearImageSequencePause>d__20::<>4__this
-	ModelTargetsUIManager_t5899DC814D729D2C12656815AD6F5387F881D914 * ___U3CU3E4__this_2;
-
-public:
-	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CClearImageSequencePauseU3Ed__20_t2FC0A3445261800B1C06AF2EC783AA392D4A9C3D, ___U3CU3E1__state_0)); }
-	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
-	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
-	inline void set_U3CU3E1__state_0(int32_t value)
-	{
-		___U3CU3E1__state_0 = value;
-	}
-
-	inline static int32_t get_offset_of_U3CU3E2__current_1() { return static_cast<int32_t>(offsetof(U3CClearImageSequencePauseU3Ed__20_t2FC0A3445261800B1C06AF2EC783AA392D4A9C3D, ___U3CU3E2__current_1)); }
-	inline RuntimeObject * get_U3CU3E2__current_1() const { return ___U3CU3E2__current_1; }
-	inline RuntimeObject ** get_address_of_U3CU3E2__current_1() { return &___U3CU3E2__current_1; }
-	inline void set_U3CU3E2__current_1(RuntimeObject * value)
-	{
-		___U3CU3E2__current_1 = value;
-		Il2CppCodeGenWriteBarrier((&___U3CU3E2__current_1), value);
-	}
-
-	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CClearImageSequencePauseU3Ed__20_t2FC0A3445261800B1C06AF2EC783AA392D4A9C3D, ___U3CU3E4__this_2)); }
-	inline ModelTargetsUIManager_t5899DC814D729D2C12656815AD6F5387F881D914 * get_U3CU3E4__this_2() const { return ___U3CU3E4__this_2; }
-	inline ModelTargetsUIManager_t5899DC814D729D2C12656815AD6F5387F881D914 ** get_address_of_U3CU3E4__this_2() { return &___U3CU3E4__this_2; }
-	inline void set_U3CU3E4__this_2(ModelTargetsUIManager_t5899DC814D729D2C12656815AD6F5387F881D914 * value)
-	{
-		___U3CU3E4__this_2 = value;
-		Il2CppCodeGenWriteBarrier((&___U3CU3E4__this_2), value);
-	}
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IMediaFrameSource_U24__Stripped0_get_Info_mDEFD311C83A8BE5024238D9D0D1ABF7E621C725F() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaFrameSource_U24__Stripped1_get_Controller_mA839491B4FB19D059E10A8F55DA109E0E146C220() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaFrameSource_U24__Stripped2_get_SupportedFormats_m70F8B6F401707C2BE8160E8C1EE29A3CBAC5A8A7() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaFrameSource_U24__Stripped3_get_CurrentFormat_m6AC2C6DF97219118290A979B495B5F8D9013C3E3() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaFrameSource_U24__Stripped4_SetFormatAsync_mD50F0F8C7E731396B3F9153D5EC9D98099240443() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaFrameSource_U24__Stripped5_add_FormatChanged_m384642151FACFC956BE100548207E64EDDCACB37() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaFrameSource_U24__Stripped6_remove_FormatChanged_m0069A44214A5EB0AAD93FFA8F5B86CAD5B8A362C() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaFrameSource_U24__Stripped7_TryGetCameraIntrinsics_m4A172B860CFAE94D902D10FF446728F26ABCF45A() = 0;
 };
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // U3CCLEARIMAGESEQUENCEPAUSEU3ED__20_T2FC0A3445261800B1C06AF2EC783AA392D4A9C3D_H
-#ifndef MUSICPARSER_T67DB8A6A5564D7BA16C6730F5E8236C175BEE7DF_H
-#define MUSICPARSER_T67DB8A6A5564D7BA16C6730F5E8236C175BEE7DF_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// MusicSheetGenerater.MusicParser
-struct  MusicParser_t67DB8A6A5564D7BA16C6730F5E8236C175BEE7DF  : public RuntimeObject
+// Windows.Media.Capture.Frames.IMediaFrameSourceGroup
+struct NOVTABLE IMediaFrameSourceGroup_t666F492EE37B820BB6324C17BA513497F569B70A : Il2CppIInspectable
 {
-public:
-	// System.Xml.XmlDocument MusicSheetGenerater.MusicParser::doc
-	XmlDocument_t448325D04430147AF19F2955BD6A5F1551003C97 * ___doc_0;
-	// System.String MusicSheetGenerater.MusicParser::xmlFilePath
-	String_t* ___xmlFilePath_1;
-	// System.Collections.Generic.List`1<System.Int32[]> MusicSheetGenerater.MusicParser::MusicInfo
-	List_1_t1DF3B52866BFCD484963BD22F65080393FF97233 * ___MusicInfo_2;
-
-public:
-	inline static int32_t get_offset_of_doc_0() { return static_cast<int32_t>(offsetof(MusicParser_t67DB8A6A5564D7BA16C6730F5E8236C175BEE7DF, ___doc_0)); }
-	inline XmlDocument_t448325D04430147AF19F2955BD6A5F1551003C97 * get_doc_0() const { return ___doc_0; }
-	inline XmlDocument_t448325D04430147AF19F2955BD6A5F1551003C97 ** get_address_of_doc_0() { return &___doc_0; }
-	inline void set_doc_0(XmlDocument_t448325D04430147AF19F2955BD6A5F1551003C97 * value)
-	{
-		___doc_0 = value;
-		Il2CppCodeGenWriteBarrier((&___doc_0), value);
-	}
-
-	inline static int32_t get_offset_of_xmlFilePath_1() { return static_cast<int32_t>(offsetof(MusicParser_t67DB8A6A5564D7BA16C6730F5E8236C175BEE7DF, ___xmlFilePath_1)); }
-	inline String_t* get_xmlFilePath_1() const { return ___xmlFilePath_1; }
-	inline String_t** get_address_of_xmlFilePath_1() { return &___xmlFilePath_1; }
-	inline void set_xmlFilePath_1(String_t* value)
-	{
-		___xmlFilePath_1 = value;
-		Il2CppCodeGenWriteBarrier((&___xmlFilePath_1), value);
-	}
-
-	inline static int32_t get_offset_of_MusicInfo_2() { return static_cast<int32_t>(offsetof(MusicParser_t67DB8A6A5564D7BA16C6730F5E8236C175BEE7DF, ___MusicInfo_2)); }
-	inline List_1_t1DF3B52866BFCD484963BD22F65080393FF97233 * get_MusicInfo_2() const { return ___MusicInfo_2; }
-	inline List_1_t1DF3B52866BFCD484963BD22F65080393FF97233 ** get_address_of_MusicInfo_2() { return &___MusicInfo_2; }
-	inline void set_MusicInfo_2(List_1_t1DF3B52866BFCD484963BD22F65080393FF97233 * value)
-	{
-		___MusicInfo_2 = value;
-		Il2CppCodeGenWriteBarrier((&___MusicInfo_2), value);
-	}
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IMediaFrameSourceGroup_U24__Stripped0_get_Id_m2F9A4CD2DDE03D00375E6EF634C2B1D8E58E7574() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaFrameSourceGroup_U24__Stripped1_get_DisplayName_m1ED2B26D6CFA126B380133CBAD8DF784D84BD7DF() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaFrameSourceGroup_get_SourceInfos_m9A32687DDEEAF6138C39075684B1965839482E63(IVectorView_1_tA998D441441CE6240900250A238E35B1B75425B0** comReturnValue) = 0;
 };
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // MUSICPARSER_T67DB8A6A5564D7BA16C6730F5E8236C175BEE7DF_H
-#ifndef U3CWAITANDPRINTU3ED__15_T701D6026042A3DECD1AECE72FB8AF07C52EFF601_H
-#define U3CWAITANDPRINTU3ED__15_T701D6026042A3DECD1AECE72FB8AF07C52EFF601_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// ParserMusicUnity_<WaitAndPrint>d__15
-struct  U3CWaitAndPrintU3Ed__15_t701D6026042A3DECD1AECE72FB8AF07C52EFF601  : public RuntimeObject
+// Windows.Media.Capture.Frames.IMediaFrameSourceGroupStatics
+struct NOVTABLE IMediaFrameSourceGroupStatics_tA34576A9FF3ADD20A6B5B273AB4FD6604AB6862F : Il2CppIInspectable
 {
-public:
-	// System.Int32 ParserMusicUnity_<WaitAndPrint>d__15::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Object ParserMusicUnity_<WaitAndPrint>d__15::<>2__current
-	RuntimeObject * ___U3CU3E2__current_1;
-	// ParserMusicUnity ParserMusicUnity_<WaitAndPrint>d__15::<>4__this
-	ParserMusicUnity_t5D972ADDA326F1287E76105F929BDA324A1468AE * ___U3CU3E4__this_2;
-
-public:
-	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CWaitAndPrintU3Ed__15_t701D6026042A3DECD1AECE72FB8AF07C52EFF601, ___U3CU3E1__state_0)); }
-	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
-	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
-	inline void set_U3CU3E1__state_0(int32_t value)
-	{
-		___U3CU3E1__state_0 = value;
-	}
-
-	inline static int32_t get_offset_of_U3CU3E2__current_1() { return static_cast<int32_t>(offsetof(U3CWaitAndPrintU3Ed__15_t701D6026042A3DECD1AECE72FB8AF07C52EFF601, ___U3CU3E2__current_1)); }
-	inline RuntimeObject * get_U3CU3E2__current_1() const { return ___U3CU3E2__current_1; }
-	inline RuntimeObject ** get_address_of_U3CU3E2__current_1() { return &___U3CU3E2__current_1; }
-	inline void set_U3CU3E2__current_1(RuntimeObject * value)
-	{
-		___U3CU3E2__current_1 = value;
-		Il2CppCodeGenWriteBarrier((&___U3CU3E2__current_1), value);
-	}
-
-	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CWaitAndPrintU3Ed__15_t701D6026042A3DECD1AECE72FB8AF07C52EFF601, ___U3CU3E4__this_2)); }
-	inline ParserMusicUnity_t5D972ADDA326F1287E76105F929BDA324A1468AE * get_U3CU3E4__this_2() const { return ___U3CU3E4__this_2; }
-	inline ParserMusicUnity_t5D972ADDA326F1287E76105F929BDA324A1468AE ** get_address_of_U3CU3E4__this_2() { return &___U3CU3E4__this_2; }
-	inline void set_U3CU3E4__this_2(ParserMusicUnity_t5D972ADDA326F1287E76105F929BDA324A1468AE * value)
-	{
-		___U3CU3E4__this_2 = value;
-		Il2CppCodeGenWriteBarrier((&___U3CU3E4__this_2), value);
-	}
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IMediaFrameSourceGroupStatics_FindAllAsync_m9FC3F0870F6CF86EA152D8D410C17388B2579EF1(IAsyncOperation_1_t053AFB430F2EDA5C9BC1B308A7396242C887479A** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaFrameSourceGroupStatics_U24__Stripped0_FromIdAsync_mF7560A5CAE4C77D02DE5618AAB2EB01E0DFFAAE8() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaFrameSourceGroupStatics_U24__Stripped1_GetDeviceSelector_mADD728215642702FB3C887B9D1179F7C091F341C() = 0;
 };
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // U3CWAITANDPRINTU3ED__15_T701D6026042A3DECD1AECE72FB8AF07C52EFF601_H
-#ifndef U3CFADEOUTU3ED__9_T7DE7ABBF184C6A60C140DCADC9584D03A9D4D4D3_H
-#define U3CFADEOUTU3ED__9_T7DE7ABBF184C6A60C140DCADC9584D03A9D4D4D3_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// StatusMessage_<FadeOut>d__9
-struct  U3CFadeOutU3Ed__9_t7DE7ABBF184C6A60C140DCADC9584D03A9D4D4D3  : public RuntimeObject
+// Windows.Media.Capture.Frames.IMediaFrameSourceInfo2
+struct NOVTABLE IMediaFrameSourceInfo2_t9A1686B492F6D1620472F90E1FC9F6D0D455BF06 : Il2CppIInspectable
 {
-public:
-	// System.Int32 StatusMessage_<FadeOut>d__9::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Object StatusMessage_<FadeOut>d__9::<>2__current
-	RuntimeObject * ___U3CU3E2__current_1;
-	// StatusMessage StatusMessage_<FadeOut>d__9::<>4__this
-	StatusMessage_tE8F5D1F84CF3313EA4589904F697EA7D220391DA * ___U3CU3E4__this_2;
-	// System.Single StatusMessage_<FadeOut>d__9::<f>5__2
-	float ___U3CfU3E5__2_3;
-
-public:
-	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CFadeOutU3Ed__9_t7DE7ABBF184C6A60C140DCADC9584D03A9D4D4D3, ___U3CU3E1__state_0)); }
-	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
-	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
-	inline void set_U3CU3E1__state_0(int32_t value)
-	{
-		___U3CU3E1__state_0 = value;
-	}
-
-	inline static int32_t get_offset_of_U3CU3E2__current_1() { return static_cast<int32_t>(offsetof(U3CFadeOutU3Ed__9_t7DE7ABBF184C6A60C140DCADC9584D03A9D4D4D3, ___U3CU3E2__current_1)); }
-	inline RuntimeObject * get_U3CU3E2__current_1() const { return ___U3CU3E2__current_1; }
-	inline RuntimeObject ** get_address_of_U3CU3E2__current_1() { return &___U3CU3E2__current_1; }
-	inline void set_U3CU3E2__current_1(RuntimeObject * value)
-	{
-		___U3CU3E2__current_1 = value;
-		Il2CppCodeGenWriteBarrier((&___U3CU3E2__current_1), value);
-	}
-
-	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CFadeOutU3Ed__9_t7DE7ABBF184C6A60C140DCADC9584D03A9D4D4D3, ___U3CU3E4__this_2)); }
-	inline StatusMessage_tE8F5D1F84CF3313EA4589904F697EA7D220391DA * get_U3CU3E4__this_2() const { return ___U3CU3E4__this_2; }
-	inline StatusMessage_tE8F5D1F84CF3313EA4589904F697EA7D220391DA ** get_address_of_U3CU3E4__this_2() { return &___U3CU3E4__this_2; }
-	inline void set_U3CU3E4__this_2(StatusMessage_tE8F5D1F84CF3313EA4589904F697EA7D220391DA * value)
-	{
-		___U3CU3E4__this_2 = value;
-		Il2CppCodeGenWriteBarrier((&___U3CU3E4__this_2), value);
-	}
-
-	inline static int32_t get_offset_of_U3CfU3E5__2_3() { return static_cast<int32_t>(offsetof(U3CFadeOutU3Ed__9_t7DE7ABBF184C6A60C140DCADC9584D03A9D4D4D3, ___U3CfU3E5__2_3)); }
-	inline float get_U3CfU3E5__2_3() const { return ___U3CfU3E5__2_3; }
-	inline float* get_address_of_U3CfU3E5__2_3() { return &___U3CfU3E5__2_3; }
-	inline void set_U3CfU3E5__2_3(float value)
-	{
-		___U3CfU3E5__2_3 = value;
-	}
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IMediaFrameSourceInfo2_U24__Stripped0_get_ProfileId_mC27CCDFB660FC0792579215CF7A82E3633E9457A() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaFrameSourceInfo2_U24__Stripped1_get_VideoProfileMediaDescription_m65352E459F8F32C135ECDD3CEE5FBD0C1115CEB7() = 0;
 };
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // U3CFADEOUTU3ED__9_T7DE7ABBF184C6A60C140DCADC9584D03A9D4D4D3_H
+// Windows.Media.Capture.Frames.IVideoMediaFrame
+struct NOVTABLE IVideoMediaFrame_tBA1410A0B2408E43F9973EB75F4797320411343A : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IVideoMediaFrame_U24__Stripped0_get_FrameReference_mE2DD4A91C5D1788C1DEAAD5EE812262088F02B45() = 0;
+	virtual il2cpp_hresult_t STDCALL IVideoMediaFrame_U24__Stripped1_get_VideoFormat_mC3DED5617AADDA5016810B6057455F3271A49DB9() = 0;
+	virtual il2cpp_hresult_t STDCALL IVideoMediaFrame_get_SoftwareBitmap_m6E930439D6878EA581AECC6E21AEA663D4645D77(ISoftwareBitmap_tF311080EE78E9ED0F3A927086502A086D0A01206** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IVideoMediaFrame_U24__Stripped2_get_Direct3DSurface_mB4816AA1632A9F44080D8E076AE252C509F75E9D() = 0;
+	virtual il2cpp_hresult_t STDCALL IVideoMediaFrame_U24__Stripped3_get_CameraIntrinsics_m0F92C4C10A79CF1FE419B0C61FC36D4084A0F56E() = 0;
+	virtual il2cpp_hresult_t STDCALL IVideoMediaFrame_U24__Stripped4_get_InfraredMediaFrame_mBD5563D0B86BF5CC4F2369B129ADFECBD036F309() = 0;
+	virtual il2cpp_hresult_t STDCALL IVideoMediaFrame_U24__Stripped5_get_DepthMediaFrame_m35822AF44A9A2AF52E3100BE445B08E7391E3DC6() = 0;
+	virtual il2cpp_hresult_t STDCALL IVideoMediaFrame_U24__Stripped6_GetVideoFrame_mD0B85FCA57CDB44E76583A16AF2268FB4F3C1A4B() = 0;
+};
+// Windows.Media.Capture.IMediaCapture
+struct NOVTABLE IMediaCapture_t9123705D66590255587AAC3E4ED82ECE2767205B : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture_U24__Stripped0_InitializeAsync_m480D34203397C2ED3484360436B5ECF5930C3B43() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture_InitializeAsync_mB249AEAAA3D2632D25E59FB9D487386525E91D27(IMediaCaptureInitializationSettings_t1DE7B3A5620B15183FB009189485AC2A3856B857* ___mediaCaptureInitializationSettings0, IAsyncAction_tF980B79DBC4BD4F9F262E473628FD971545C5109** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture_U24__Stripped1_StartRecordToStorageFileAsync_mC25E837DC4FECC8DF34A29C6C661941FC67706C7() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture_U24__Stripped2_StartRecordToStreamAsync_m6FDF1843A3BED5FC45ED7432FC601DEAF226BE3A() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture_U24__Stripped3_StartRecordToCustomSinkAsync_mB6624149880C2B517F12C6E20C4690625F145313() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture_U24__Stripped4_StartRecordToCustomSinkAsync_mA65B3FD5A1C84B021228374AEFDA7B8A9692B7DC() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture_U24__Stripped5_StopRecordAsync_m6FE64249A02FB2B3FF5019EBDD4DBB986B3377AF() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture_U24__Stripped6_CapturePhotoToStorageFileAsync_mD00F34AF99E2032ECFD6F21F4796E6B225BED271() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture_U24__Stripped7_CapturePhotoToStreamAsync_m6F0F1F98E7B6BFD2CAA95FDD4E2A4B22056B709D() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture_U24__Stripped8_AddEffectAsync_m7CF61F4A4A3E11C42EB8B2A58683E3E91F63B09F() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture_U24__Stripped9_ClearEffectsAsync_mC54B28359AE26B9DAB6FEACF1BEE1DCBB060881B() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture_U24__Stripped10_SetEncoderProperty_m78570107077B47C64BBCAB22F84BF4549697DF9C() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture_U24__Stripped11_GetEncoderProperty_m567C544BFE789C894C518DF981CF531EC154E07D() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture_U24__Stripped12_add_Failed_m4447595472ABEB3B82C3638AFFC523F317620676() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture_U24__Stripped13_remove_Failed_m00D2713E9D801B4A744A24A7C527CD005E2AF142() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture_U24__Stripped14_add_RecordLimitationExceeded_mE6F23EC2B2EEE66B0F0603C3175C9F71438963E3() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture_U24__Stripped15_remove_RecordLimitationExceeded_mB9CFB7DE5C30DFC77A6F467AD6D60A915D8CB404() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture_U24__Stripped16_get_MediaCaptureSettings_mB135006F957D09EBB3428115CBFB8B44361E11BE() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture_get_AudioDeviceController_m8FD2C6ABA6742F53A0501B16FDA16D807F8C54A5(IAudioDeviceController_t2F1BC18AF123286A3D5B90A8E77F3288ED861694** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture_get_VideoDeviceController_mBAB35DC02C0A0DF20BF92D630BB94167E16DAEDB(IVideoDeviceController_t969D8DE22D47185B0104472DB46701CC6D24F963** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture_U24__Stripped17_SetPreviewMirroring_m2CA0B16EC2E62066CDBF2CB717070DAFF7846E5F() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture_U24__Stripped18_GetPreviewMirroring_mA27450B2CF9D7D87BB067371A6529F28E8DF14DC() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture_U24__Stripped19_SetPreviewRotation_mE53473BFD98F07C59A3D301270DADF15D84391B2() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture_U24__Stripped20_GetPreviewRotation_m77799550E9D18329AC8F29BA22C439A0A3D49324() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture_U24__Stripped21_SetRecordRotation_m1497A20E03B45D560BA7676C2CF734FD21B0FD1D() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture_U24__Stripped22_GetRecordRotation_mD451BC244A94239BAFAE078872D343F6A9AA0F19() = 0;
+};
+// Windows.Media.Capture.IMediaCapture2
+struct NOVTABLE IMediaCapture2_t68DE29AAFCE92011689D3D15EE28AAAF9F46F1C2 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture2_U24__Stripped0_PrepareLowLagRecordToStorageFileAsync_mBDE0310C0B6ED3FE9FE971A4B9BB47F46ABE7D04() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture2_U24__Stripped1_PrepareLowLagRecordToStreamAsync_m6CCA5F84E0FF2FDEFEC1E2A2F8983B9F8194E3D3() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture2_U24__Stripped2_PrepareLowLagRecordToCustomSinkAsync_mA86AC20BBFBF865B87B69EECD768A0019C5C9EE3() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture2_U24__Stripped3_PrepareLowLagRecordToCustomSinkAsync_mD48F80D545A18CE3B23DD93858FA6E8913473C76() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture2_U24__Stripped4_PrepareLowLagPhotoCaptureAsync_m845051D2F57334B8D35D43AB23EF0AC30CAA2A34() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture2_U24__Stripped5_PrepareLowLagPhotoSequenceCaptureAsync_m4D0908C9A7FA1C1971C0658799BD5297514FFDDD() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture2_U24__Stripped6_SetEncodingPropertiesAsync_m9C5F398F97265EE96BF9E54E441A9ED771ED23CB() = 0;
+};
+// Windows.Media.Capture.IMediaCapture3
+struct NOVTABLE IMediaCapture3_t016C6386E44A19033700DBDFCE814747EE5CB351 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture3_U24__Stripped0_PrepareVariablePhotoSequenceCaptureAsync_mEE4D12360219EC1CC40CD5E117652D52497244E8() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture3_U24__Stripped1_add_FocusChanged_mCA74198FD6AA5E6721B94365BA858BCD139F4084() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture3_U24__Stripped2_remove_FocusChanged_m37A1CF554B84BF1E236440221E77EEF591F5DE80() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture3_U24__Stripped3_add_PhotoConfirmationCaptured_m102C19EB1A1143B90615D443D066552BB1BF074E() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture3_U24__Stripped4_remove_PhotoConfirmationCaptured_mCE44E97B811A271270BBE6E7A3D2EA74892F834D() = 0;
+};
+// Windows.Media.Capture.IMediaCapture5
+struct NOVTABLE IMediaCapture5_t27428D8E8E521422152B4F1A2E17E445B56EF2E2 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture5_U24__Stripped0_RemoveEffectAsync_m52497791C34BEEA829231DFB4642898F88868203() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture5_U24__Stripped1_PauseRecordWithResultAsync_mB2ED453CCBA46947A60FD814737A24D73E43A381() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture5_U24__Stripped2_StopRecordWithResultAsync_m1F759DA17CD2A27932D25DE7F9D995AFCCCD35A8() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture5_get_FrameSources_mC3B4C40EF6630DD9C6DF7B83A0BEE29383C06804(IMapView_2_t9E652CC792786FCF224B87D8FAF5C15963E400DE** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture5_U24__Stripped3_CreateFrameReaderAsync_m91DDBD6F22EC6CA4C7D6A22B2BC1DA51E3AC1C21() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture5_CreateFrameReaderAsync_mBE81BC935696CC6C7129C6F525C336E736294DF3(IMediaFrameSource_tD3308E3D0D7FF40501F566F0DA6A0E3BDEB1AC00* ___inputSource0, Il2CppHString ___outputSubtype1, IAsyncOperation_1_tD4661478A1C58FAA25688B0E6F4C0182D80CD5E5** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture5_U24__Stripped4_CreateFrameReaderAsync_mF2A0A1C7D271A70D0B3E4D27AE7B3D7A3D1428C8() = 0;
+};
+// Windows.Media.Capture.IMediaCapture6
+struct NOVTABLE IMediaCapture6_tD6E451C596042EC9DEFB6A9410427AB2F1A81382 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture6_U24__Stripped0_add_CaptureDeviceExclusiveControlStatusChanged_m382DDD683A5BEEE1F588E5CA553677B15ACBAB5F() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture6_U24__Stripped1_remove_CaptureDeviceExclusiveControlStatusChanged_mD695B687468DB6A70F57C60619F32038846DA8D6() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture6_U24__Stripped2_CreateMultiSourceFrameReaderAsync_mAB197C10A867413F7077ACD21447EA18A8EAC37F() = 0;
+};
+// Windows.Media.Capture.IMediaCaptureInitializationSettings3
+struct NOVTABLE IMediaCaptureInitializationSettings3_t579AFF8CFA204E3C76CE38804A1D7EEDCCF2607A : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IMediaCaptureInitializationSettings3_U24__Stripped0_put_AudioSource_mDBD7C4F9D8BB0324E4EAF0903108BDC7A63688C5() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCaptureInitializationSettings3_U24__Stripped1_get_AudioSource_m500E16ACC2CC08E3365B9273EF138D4B4D00D0E4() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCaptureInitializationSettings3_U24__Stripped2_put_VideoSource_m7C8122122FA74353E8407D6AD30F416ABDE92A13() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCaptureInitializationSettings3_U24__Stripped3_get_VideoSource_mE14DABFA356049415F107BF595AC0876A894B782() = 0;
+};
+// Windows.Media.Capture.IMediaCaptureInitializationSettings4
+struct NOVTABLE IMediaCaptureInitializationSettings4_t7137E0773132F892B4C82C7015884CADC5BA5541 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IMediaCaptureInitializationSettings4_U24__Stripped0_get_VideoProfile_mF266B327E572F11EB81E97BBBAC5EACB7E2E80FE() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCaptureInitializationSettings4_U24__Stripped1_put_VideoProfile_mAB86A4EE3E69DBB2BF1E6D6448FB2FEF2EEB4F88() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCaptureInitializationSettings4_U24__Stripped2_get_PreviewMediaDescription_mFC62E32D65F8E4941BB379372ED6775BE2A64CAF() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCaptureInitializationSettings4_U24__Stripped3_put_PreviewMediaDescription_m5EF3D127DD5AA2DE8A9324B4A011030C7BFABF8B() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCaptureInitializationSettings4_U24__Stripped4_get_RecordMediaDescription_mC0E638D32A70DA50A1D8EA32643CAE0A77E8F440() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCaptureInitializationSettings4_U24__Stripped5_put_RecordMediaDescription_m691E1AC3529117F8338FD9797E88873B850E36B6() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCaptureInitializationSettings4_U24__Stripped6_get_PhotoMediaDescription_mAFEB6D220B18EAD7FC333690EF2F3571EA1F3251() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCaptureInitializationSettings4_U24__Stripped7_put_PhotoMediaDescription_m29A30F79A643811E10A085FF3391A134FFE29FC3() = 0;
+};
+// Windows.Media.Capture.IMediaCaptureInitializationSettings6
+struct NOVTABLE IMediaCaptureInitializationSettings6_t4690F94C235648E9707EE63997895107C4ACA685 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IMediaCaptureInitializationSettings6_U24__Stripped0_get_AlwaysPlaySystemShutterSound_m63D682AC926C5B1EC58D81D015999EAB96164CF2() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCaptureInitializationSettings6_U24__Stripped1_put_AlwaysPlaySystemShutterSound_mC3971DEDAF93460CDDFD6D978A7B88B989C5B7A2() = 0;
+};
+// Windows.Media.Capture.IMediaCaptureStatics
+struct NOVTABLE IMediaCaptureStatics_t42BE19EC13C73A4C538171B7388D79D4452ED1C8 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IMediaCaptureStatics_U24__Stripped0_IsVideoProfileSupported_mD602219129738D6CFDBE2AB4287CC6D9EF07A6E3() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCaptureStatics_U24__Stripped1_FindAllVideoProfiles_m776C30ECF220B7543016203A481A935AD0017CE3() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCaptureStatics_U24__Stripped2_FindConcurrentProfiles_m78E2BF5312834A23CD2FFDEBD9C44AF67F6A2FFA() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCaptureStatics_U24__Stripped3_FindKnownVideoProfiles_mB5B3DD814D3C77A454D87206AF27BC184A646753() = 0;
+};
+// Windows.Media.Capture.IMediaCaptureVideoPreview
+struct NOVTABLE IMediaCaptureVideoPreview_t9226A4AA5FCD778BA9439FF047B95A86ED32B3AB : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IMediaCaptureVideoPreview_U24__Stripped0_StartPreviewAsync_m1F1F7D3C8B3D6AE4305E3F906969A1F6117EE067() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCaptureVideoPreview_U24__Stripped1_StartPreviewToCustomSinkAsync_m211BAA140FEAF9C6AD01A63512132396ACBC1AA9() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCaptureVideoPreview_U24__Stripped2_StartPreviewToCustomSinkAsync_m71FF037E13C16C94C573F0DB1AFCB81ADE4E4BF4() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCaptureVideoPreview_U24__Stripped3_StopPreviewAsync_m4CB4F4BA3231F3FAE104EA5BF4065728E64E9611() = 0;
+};
+// Windows.Media.Core.ITimedMetadataTrackProvider
+struct NOVTABLE ITimedMetadataTrackProvider_tF751FEAD3B72E8A922F2E37AA081DE8FD043452C : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL ITimedMetadataTrackProvider_U24__Stripped0_get_TimedMetadataTracks_m728FD0F151A209EB5BE9A4DC64ACF67BD60892A5() = 0;
+};
+// Windows.Media.Devices.IAdvancedVideoCaptureDeviceController
+struct NOVTABLE IAdvancedVideoCaptureDeviceController_t36B983AF24BEC71D09C3D2573A928A85E582F510 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IAdvancedVideoCaptureDeviceController_U24__Stripped0_SetDeviceProperty_mEC0DF6D21B5510F7346116014CBD93F8B55851FF() = 0;
+	virtual il2cpp_hresult_t STDCALL IAdvancedVideoCaptureDeviceController_U24__Stripped1_GetDeviceProperty_m3FB9609F44892B9EDF3C58E0DFFBF7E2499E9607() = 0;
+};
+// Windows.Media.Devices.IAdvancedVideoCaptureDeviceController2
+struct NOVTABLE IAdvancedVideoCaptureDeviceController2_t0156A6C57BEE70C052A9444838892A9A35F3F8F4 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IAdvancedVideoCaptureDeviceController2_U24__Stripped0_get_LowLagPhotoSequence_m681596CC7E56F13FD1BEFF06B6AE6FD96E075BEB() = 0;
+	virtual il2cpp_hresult_t STDCALL IAdvancedVideoCaptureDeviceController2_U24__Stripped1_get_LowLagPhoto_m3AB9BB0AFF2532B47E4C05C466D5B116F9537CCA() = 0;
+	virtual il2cpp_hresult_t STDCALL IAdvancedVideoCaptureDeviceController2_U24__Stripped2_get_SceneModeControl_m762F4A6D02FEF8726E686A045850430815EA3856() = 0;
+	virtual il2cpp_hresult_t STDCALL IAdvancedVideoCaptureDeviceController2_U24__Stripped3_get_TorchControl_mEF1F1849377C839CD6EB09D643A5AACE52900A4F() = 0;
+	virtual il2cpp_hresult_t STDCALL IAdvancedVideoCaptureDeviceController2_U24__Stripped4_get_FlashControl_mF1468238D35097CAFB207F40DDDE97F16F3A97E4() = 0;
+	virtual il2cpp_hresult_t STDCALL IAdvancedVideoCaptureDeviceController2_U24__Stripped5_get_WhiteBalanceControl_m529DF0C8ED06E93569CA32AFAC421476DC709962() = 0;
+	virtual il2cpp_hresult_t STDCALL IAdvancedVideoCaptureDeviceController2_U24__Stripped6_get_ExposureControl_mF6AD507C221E2D2490B7AB09FF52EAE713B7A5A0() = 0;
+	virtual il2cpp_hresult_t STDCALL IAdvancedVideoCaptureDeviceController2_U24__Stripped7_get_FocusControl_mDCA550173D29826FA3B72D88914A8A7059E09DF3() = 0;
+	virtual il2cpp_hresult_t STDCALL IAdvancedVideoCaptureDeviceController2_U24__Stripped8_get_ExposureCompensationControl_mD01844F8F83C5F7630644C976A5B2E0790BA6C4D() = 0;
+	virtual il2cpp_hresult_t STDCALL IAdvancedVideoCaptureDeviceController2_U24__Stripped9_get_IsoSpeedControl_mCB4BDDF2421F1CD48615A02D59CE733BF38140E0() = 0;
+	virtual il2cpp_hresult_t STDCALL IAdvancedVideoCaptureDeviceController2_U24__Stripped10_get_RegionsOfInterestControl_m76F7C7C7B3E92FA53F2D6D1FF87C01E6A12299BD() = 0;
+	virtual il2cpp_hresult_t STDCALL IAdvancedVideoCaptureDeviceController2_U24__Stripped11_get_PrimaryUse_m7831F2876E4ECBFAEFFD070D036E5C074CE90A9E() = 0;
+	virtual il2cpp_hresult_t STDCALL IAdvancedVideoCaptureDeviceController2_U24__Stripped12_put_PrimaryUse_mE4305BCEABF4C233AD0661F7D4D2ECF3BEE35427() = 0;
+};
+// Windows.Media.Devices.IAdvancedVideoCaptureDeviceController3
+struct NOVTABLE IAdvancedVideoCaptureDeviceController3_t6C1557162255E65296FF2F01EE359A9E3584FF4C : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IAdvancedVideoCaptureDeviceController3_U24__Stripped0_get_VariablePhotoSequenceController_m7A8C80558CBF523408DA62B4B830A3264D49034C() = 0;
+	virtual il2cpp_hresult_t STDCALL IAdvancedVideoCaptureDeviceController3_U24__Stripped1_get_PhotoConfirmationControl_m27FAE6164B3F9A837B60ADA6C54DDDF1446C1732() = 0;
+	virtual il2cpp_hresult_t STDCALL IAdvancedVideoCaptureDeviceController3_U24__Stripped2_get_ZoomControl_m9260A0B150D3D04E8EC1EF849155DE45559FE475() = 0;
+};
+// Windows.Media.Devices.IAdvancedVideoCaptureDeviceController4
+struct NOVTABLE IAdvancedVideoCaptureDeviceController4_tED29D347171185E1921766AC81559BD3EE171D7A : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IAdvancedVideoCaptureDeviceController4_U24__Stripped0_get_ExposurePriorityVideoControl_m25EECBFBCC5CF2839FF00D9364D0E986B62CE478() = 0;
+	virtual il2cpp_hresult_t STDCALL IAdvancedVideoCaptureDeviceController4_U24__Stripped1_get_DesiredOptimization_mC8F8B1140F3A20302EF0D1D14BFF351A27155220() = 0;
+	virtual il2cpp_hresult_t STDCALL IAdvancedVideoCaptureDeviceController4_U24__Stripped2_put_DesiredOptimization_mE877F9D658B29FA9B6B3DB2EDFCE199CFFF67DF3() = 0;
+	virtual il2cpp_hresult_t STDCALL IAdvancedVideoCaptureDeviceController4_U24__Stripped3_get_HdrVideoControl_mC13FAE15C1DBCC3B5C2A4E260381F4EEA09F9344() = 0;
+	virtual il2cpp_hresult_t STDCALL IAdvancedVideoCaptureDeviceController4_U24__Stripped4_get_OpticalImageStabilizationControl_mC45A8E835AAB08C4CF5E4A264C7B463113147BB0() = 0;
+	virtual il2cpp_hresult_t STDCALL IAdvancedVideoCaptureDeviceController4_U24__Stripped5_get_AdvancedPhotoControl_m4123BD1B5C34D473E74C1A55882C309B83B2A772() = 0;
+};
+// Windows.Media.Devices.IAdvancedVideoCaptureDeviceController5
+struct NOVTABLE IAdvancedVideoCaptureDeviceController5_t5B0434956B779CBE12A546568C6E83004A418FB4 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IAdvancedVideoCaptureDeviceController5_U24__Stripped0_get_Id_m0D2BFF845BAC8D1B8DE042C62B6A2487930D12B4() = 0;
+	virtual il2cpp_hresult_t STDCALL IAdvancedVideoCaptureDeviceController5_U24__Stripped1_GetDevicePropertyById_mEDA6011ACF7C91CE021C3B77114B89F2676E9CCA() = 0;
+	virtual il2cpp_hresult_t STDCALL IAdvancedVideoCaptureDeviceController5_U24__Stripped2_SetDevicePropertyById_mEFC1FDDC92593667215146123EC63A9C8EBD319B() = 0;
+	virtual il2cpp_hresult_t STDCALL IAdvancedVideoCaptureDeviceController5_U24__Stripped3_GetDevicePropertyByExtendedId_m17205C492B23295E76FC4725C8916B8991E33E6D() = 0;
+	virtual il2cpp_hresult_t STDCALL IAdvancedVideoCaptureDeviceController5_U24__Stripped4_SetDevicePropertyByExtendedId_m69A0FB36B356C7837601F92575EA6F38BC41B6E2() = 0;
+};
+// Windows.Media.Devices.IAdvancedVideoCaptureDeviceController6
+struct NOVTABLE IAdvancedVideoCaptureDeviceController6_t03323832EEF893541CD077CE8E0FDBCDAA1576A1 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IAdvancedVideoCaptureDeviceController6_U24__Stripped0_get_VideoTemporalDenoisingControl_m759509B1231F5A5D1E36645ED581AA45BA5B90B4() = 0;
+};
+// Windows.Media.Devices.IAdvancedVideoCaptureDeviceController7
+struct NOVTABLE IAdvancedVideoCaptureDeviceController7_t7913D7FB115FDC15EB985911CDDB14E00C4E860A : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IAdvancedVideoCaptureDeviceController7_U24__Stripped0_get_InfraredTorchControl_m065BD02F9BD29C9981262B8C800161FB53F2F6EA() = 0;
+};
+// Windows.Media.Devices.IAudioDeviceController
+struct NOVTABLE IAudioDeviceController_t2F1BC18AF123286A3D5B90A8E77F3288ED861694 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IAudioDeviceController_U24__Stripped0_put_Muted_m9ED698999242F96E9FAF400F8E248D03D45BDCE9() = 0;
+	virtual il2cpp_hresult_t STDCALL IAudioDeviceController_get_Muted_m3E21AFD3A04FF7C792D0E61E952C74DECFDC6FE7(bool* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IAudioDeviceController_U24__Stripped1_put_VolumePercent_m05B4A88355567B91F7CCDC063B5669FF9D8C017A() = 0;
+	virtual il2cpp_hresult_t STDCALL IAudioDeviceController_U24__Stripped2_get_VolumePercent_mC288515B20A6661560E74076F9C1902E55328E74() = 0;
+};
+// Windows.Media.Devices.IMediaDeviceControl
+struct NOVTABLE IMediaDeviceControl_t666956282429407E543A29B60E07040E111AF899 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IMediaDeviceControl_U24__Stripped0_get_Capabilities_m89D5A3137806B63C37E5559FEC2598820F3D4083() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaDeviceControl_U24__Stripped1_TryGetValue_m143438F9A681EFB9A253482FB266C3A86114E5B5() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaDeviceControl_U24__Stripped2_TrySetValue_mFA1B79F5DC31838DD0516B34720832F3EFECB099() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaDeviceControl_U24__Stripped3_TryGetAuto_m382659221A55DAACF8B6A1413E9911416A4E19E6() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaDeviceControl_TrySetAuto_m3B44B7D4D5153037F63F6515E4A90EF6A42B1583(bool ___value0, bool* comReturnValue) = 0;
+};
+// Windows.Media.Devices.IVideoDeviceController
+struct NOVTABLE IVideoDeviceController_t969D8DE22D47185B0104472DB46701CC6D24F963 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IVideoDeviceController_U24__Stripped0_get_Brightness_m545E8FD792E4F0A8B00EABD6B672461E47E6E726() = 0;
+	virtual il2cpp_hresult_t STDCALL IVideoDeviceController_U24__Stripped1_get_Contrast_m8DC86EA04B6789C7BA808E0FAD8844FF5976C439() = 0;
+	virtual il2cpp_hresult_t STDCALL IVideoDeviceController_U24__Stripped2_get_Hue_m439D7AB53F2AC91EA044E65817F9AE503BBF5E0E() = 0;
+	virtual il2cpp_hresult_t STDCALL IVideoDeviceController_U24__Stripped3_get_WhiteBalance_m6D3F791A9C2F77F5EB44C0F1A912549E87CD961F() = 0;
+	virtual il2cpp_hresult_t STDCALL IVideoDeviceController_U24__Stripped4_get_BacklightCompensation_m5B8F1D8D46E93DCE7887DB94BFA64783A6F0A867() = 0;
+	virtual il2cpp_hresult_t STDCALL IVideoDeviceController_U24__Stripped5_get_Pan_m20E3666F959FAA37D29F256570F3055B84409AAB() = 0;
+	virtual il2cpp_hresult_t STDCALL IVideoDeviceController_U24__Stripped6_get_Tilt_mC957B3255F6704D29351C8A9647D7CAEA58B8B2D() = 0;
+	virtual il2cpp_hresult_t STDCALL IVideoDeviceController_U24__Stripped7_get_Zoom_m28765A4133E20F955B25F311CCA76E9F90654D2F() = 0;
+	virtual il2cpp_hresult_t STDCALL IVideoDeviceController_U24__Stripped8_get_Roll_mCB79C8A8D6C179D74A606E66B79DA4604DA20B01() = 0;
+	virtual il2cpp_hresult_t STDCALL IVideoDeviceController_U24__Stripped9_get_Exposure_m494EBF34720BDBE0269568A5B81CA594BFD01C96() = 0;
+	virtual il2cpp_hresult_t STDCALL IVideoDeviceController_get_Focus_mB378721178F8144BBF1111B3BBD67C9718255CF7(IMediaDeviceControl_t666956282429407E543A29B60E07040E111AF899** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IVideoDeviceController_U24__Stripped10_TrySetPowerlineFrequency_m5B916A10FF2D33DE79CF4C94DD61113BF6CCCFA6() = 0;
+	virtual il2cpp_hresult_t STDCALL IVideoDeviceController_U24__Stripped11_TryGetPowerlineFrequency_m7DBB48478A0785A5C6426D433755BE98B74785FC() = 0;
+};
+// Windows.Media.Effects.IVideoEffectDefinition
+struct NOVTABLE IVideoEffectDefinition_tB3BDE54658672900C714EE7B8ECDA0EAB155E589 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IVideoEffectDefinition_get_ActivatableClassId_m43465DC1663485D1965EA3A1D99D2C4EF77BA783(Il2CppHString* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IVideoEffectDefinition_get_Properties_m89F77FE1AF05FC7B3C524F426289D8B4E211B6E2(IPropertySet_tE0FFCA1669EAF0AD5C566E1C0F3E313DF2B1A77D** comReturnValue) = 0;
+};
+// Windows.Media.IMediaExtension
+struct NOVTABLE IMediaExtension_tB342711957C1D9ACAC9E3E85C4B4F68E4637B5ED : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IMediaExtension_U24__Stripped0_SetProperties_m7E2B36ECE08DF3753B02A59AE690764081439DF8() = 0;
+};
+// Windows.Media.MediaProperties.IMediaEncodingProperties
+struct NOVTABLE IMediaEncodingProperties_t161B1E1789909965DD52E51AE4703028AB8EB003 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingProperties_get_Properties_m34976B69B80342EF4C29146F31607B3771D51933(IMap_2_t7C9D5F7C4E0E287CCF473A96ECB7921A3605E652** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingProperties_U24__Stripped0_get_Type_m7D5C51C9DEBB8ED1758996CB36F1710195529FDC() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingProperties_U24__Stripped1_put_Subtype_m8E3AB4E99A545176B93313CD0B132C417944F3FB() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingProperties_U24__Stripped2_get_Subtype_m7DE75CBA1B42C88BC1CCDB715A933061232E2F97() = 0;
+};
+// Windows.Media.MediaProperties.IMediaEncodingSubtypesStatics
+struct NOVTABLE IMediaEncodingSubtypesStatics_t45F1A6FEA78173D554298437C1E2A69D72EA67D2 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics_U24__Stripped0_get_Aac_m2A5AFA5818BEA87CA66290C4BD590E20028023F3() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics_U24__Stripped1_get_AacAdts_mF1CC1F4FA100CE4321BC7E4C730E66FB33A38A53() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics_U24__Stripped2_get_Ac3_m6B2E5A987FCFC78F8D1EA7CDE05DBC3491129998() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics_U24__Stripped3_get_AmrNb_mBC775DB42EE94B8B61E531ED1D8ECC810C80CC2E() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics_U24__Stripped4_get_AmrWb_m9AF3958B5D6516A20F343A10CEFF22BD97928438() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics_U24__Stripped5_get_Argb32_mAB9B1842F05D38C37FE0BF028889ECD27FEF4BF2() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics_U24__Stripped6_get_Asf_mE6AF47A337CD4E3C63248443637A9FC3C80D89DB() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics_U24__Stripped7_get_Avi_m16F78B45615D73319776FABD6FE690BD9B68DC31() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics_get_Bgra8_mA257E9C3EF2F4EBA246A93B29E4F314A29AC4F41(Il2CppHString* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics_U24__Stripped8_get_Bmp_m33464BCF539B269B7D7BA2AC5E8367B9DCB3E759() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics_U24__Stripped9_get_Eac3_mFA6FFFE7062BA12CA9C732735F3D83F337772263() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics_U24__Stripped10_get_Float_m81ADAF4D39EE4038C69430C8D8F67B027082D346() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics_U24__Stripped11_get_Gif_m228C6028B660A09F5206B563A5EB895626E9C09F() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics_U24__Stripped12_get_H263_m70FA90AE502C7E8C81C8AFF66F4F5DBAF9C21BCB() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics_U24__Stripped13_get_H264_m71082D13FA4615B46B9AE97831560553C90C16F5() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics_U24__Stripped14_get_H264Es_mA2B5D486A8C81D14A3BF06DF6D441483C37D6BC5() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics_U24__Stripped15_get_Hevc_m3EB8E679910EFC5A350608B03FF6ECA2D742CCAC() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics_U24__Stripped16_get_HevcEs_mCCAE64CED97FF5FECBE0F2B16E9D85D9B995729B() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics_U24__Stripped17_get_Iyuv_m3C78E486ACF0E4359883B16BD62705E34756C78B() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics_get_Jpeg_mCDE720B7EF7C9B95FE863EE0BEF430297B19A35A(Il2CppHString* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics_U24__Stripped18_get_JpegXr_m63BBB200D73BE55B546CAFA43079E6F071B3EC42() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics_U24__Stripped19_get_Mjpg_m8721AEC260EFF6FE73266510BC944ED57139643D() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics_U24__Stripped20_get_Mpeg_m5A81D7BD45FC34D7372E1DEDC493E955711DA8F5() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics_U24__Stripped21_get_Mpeg1_m56967595B5F9297BA560640344CD115AD1036AD8() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics_U24__Stripped22_get_Mpeg2_m32B72EA48C1AE93CA7F310C40939E269C2169BEF() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics_U24__Stripped23_get_Mp3_m7ECA423847631C23F56F65E5B452110F5B090AFA() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics_U24__Stripped24_get_Mpeg4_m28D3952378F69B4FFE3BD7AE1F0841B4DEDF69D1() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics_get_Nv12_m08D8F4953E59D7BF30E7DACC9F27164ECDCAE89E(Il2CppHString* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics_U24__Stripped25_get_Pcm_m82C2C0FD6A74D0F728DA9A2B31E933D8E273FF02() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics_get_Png_m24965FD4D0719637E2D873E34DBF095BFE171735(Il2CppHString* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics_U24__Stripped26_get_Rgb24_m76377007BB5D0A6957C78C1B8717ACB0A9AA6195() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics_U24__Stripped27_get_Rgb32_m85A079DD1B875E7D92260194F3121D98AA8E0B05() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics_U24__Stripped28_get_Tiff_m13C5F6D4B59542C715DCA98F591ACFDAB1EFC63D() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics_U24__Stripped29_get_Wave_mA3B1C26F84579B066EA229DBD148A50F036F71E8() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics_U24__Stripped30_get_Wma8_mCC3FAF870C0114113254689372B52374636C9F1B() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics_U24__Stripped31_get_Wma9_mA5E3714D8A9698686534456D9F87D75905EDF0E1() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics_U24__Stripped32_get_Wmv3_m83BBA2B39E2077E667E5D63DF5EB778168F3B5F0() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics_U24__Stripped33_get_Wvc1_m37BE3CD6103810C67056D9879145744495A4EB3D() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics_U24__Stripped34_get_Yuy2_m7F3042C9BC071B84556068A37FC39F72B80781E1() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics_U24__Stripped35_get_Yv12_mB913240EAA4BEE6DE75446CCBA789C66DD28E04A() = 0;
+};
+// Windows.Media.MediaProperties.IMediaEncodingSubtypesStatics2
+struct NOVTABLE IMediaEncodingSubtypesStatics2_t2B6BF183CB0CD1DFD49D954CF64186324E26B01B : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics2_U24__Stripped0_get_Vp9_m106EAC23AAD908510129465BA941F74D45B9C3A6() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics2_U24__Stripped1_get_L8_mCB29D9423D86CA6C7B006DB702840307FB3EF27A() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics2_U24__Stripped2_get_L16_m204BB643B050332D51AA50A5B893984340972F50() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics2_U24__Stripped3_get_D16_mA8BCF2D5FD2E4D87F9C51DB1EE21231534FD8F15() = 0;
+};
+// Windows.Media.MediaProperties.IMediaEncodingSubtypesStatics3
+struct NOVTABLE IMediaEncodingSubtypesStatics3_t47F830745F0DFE30D426682E91B747A71EAC12CD : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics3_U24__Stripped0_get_Alac_mDB8BCA1633C7A9A05D8A7172500C1C0B509F257D() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics3_U24__Stripped1_get_Flac_mD3AC03B928824DFCE9A7D1BC784E18AF60C8B834() = 0;
+};
+// Windows.Media.MediaProperties.IMediaEncodingSubtypesStatics4
+struct NOVTABLE IMediaEncodingSubtypesStatics4_t82F4C9E4DFB25D9D17E61C44D2C31EF8B815FE55 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics4_U24__Stripped0_get_P010_m3B7F7BE0A99900C0FBAF153FDBA356DE82BB5A5F() = 0;
+};
+// Windows.Media.MediaProperties.IMediaEncodingSubtypesStatics5
+struct NOVTABLE IMediaEncodingSubtypesStatics5_tB0311A1306690977D21DA0F9929321C729287F59 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IMediaEncodingSubtypesStatics5_U24__Stripped0_get_Heif_mB53D98E9F5E630EE09B4AF1C354B3004682DA820() = 0;
+};
+// Windows.Media.MediaProperties.IMediaRatio
+struct NOVTABLE IMediaRatio_tDBBB7757E0030AA6510825F6BC0D5FD265CB0E55 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IMediaRatio_U24__Stripped0_put_Numerator_mB762020E9F785C25E277ED975F170433AC11F253() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaRatio_get_Numerator_mF2795DED6AC6C3ECCF8D1A2E6A338B86EBA9E60C(uint32_t* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaRatio_U24__Stripped1_put_Denominator_m5260BFFA2CDFAEC091428AE45E1056FA20DA857E() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaRatio_get_Denominator_mEC90A84CF2516DF06578122EAAD8D77AC22082EF(uint32_t* comReturnValue) = 0;
+};
+// Windows.Media.MediaProperties.IVideoEncodingProperties
+struct NOVTABLE IVideoEncodingProperties_tD45C3489F08F03A97B3FE0BC7E44695344F92D68 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IVideoEncodingProperties_U24__Stripped0_put_Bitrate_m2BF1039B0217EB78F3B62DD607B8898EA80019C9() = 0;
+	virtual il2cpp_hresult_t STDCALL IVideoEncodingProperties_U24__Stripped1_get_Bitrate_mA9D0E8F359E51651AD820634EC206A1F09E8AD2B() = 0;
+	virtual il2cpp_hresult_t STDCALL IVideoEncodingProperties_U24__Stripped2_put_Width_m6DF235AFDF68BEA3C30014A8D7B5888E4491F576() = 0;
+	virtual il2cpp_hresult_t STDCALL IVideoEncodingProperties_get_Width_m2E855E1309A94BA4301257729F74E28FBC0CA7E3(uint32_t* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IVideoEncodingProperties_U24__Stripped3_put_Height_m7CEE81FE59100FBC54F2070AC9F18147E621B7BB() = 0;
+	virtual il2cpp_hresult_t STDCALL IVideoEncodingProperties_get_Height_m1AE5683BB84B7241ACE73CAC6558D053B561BFC5(uint32_t* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IVideoEncodingProperties_get_FrameRate_m9B1CA83E6EE5CBC23A81AA0AFEC586F15C49E486(IMediaRatio_tDBBB7757E0030AA6510825F6BC0D5FD265CB0E55** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IVideoEncodingProperties_U24__Stripped4_get_PixelAspectRatio_m95D4E30C887235C93285B8FB99168B510A071C66() = 0;
+};
+// Windows.Media.MediaProperties.IVideoEncodingProperties2
+struct NOVTABLE IVideoEncodingProperties2_tC14A8671575FC2276B0979128A90AB11342FD978 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IVideoEncodingProperties2_U24__Stripped0_SetFormatUserData_m191B96B57D2780AB5EBF5DAA517DD496E132EA24() = 0;
+	virtual il2cpp_hresult_t STDCALL IVideoEncodingProperties2_U24__Stripped1_GetFormatUserData_m00F1920415D3AC3475AA30053C966B8CA46B17E4() = 0;
+	virtual il2cpp_hresult_t STDCALL IVideoEncodingProperties2_U24__Stripped2_put_ProfileId_m44CEA9ADB197BBD13A37701D84265B269C484EBB() = 0;
+	virtual il2cpp_hresult_t STDCALL IVideoEncodingProperties2_U24__Stripped3_get_ProfileId_m5B459B7EA08E6024F7223027CB0680682F796DEF() = 0;
+};
+// Windows.Media.MediaProperties.IVideoEncodingProperties3
+struct NOVTABLE IVideoEncodingProperties3_t6DBEBF2F6C3C16C2B8C318E4C15321D3F9325864 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IVideoEncodingProperties3_U24__Stripped0_get_StereoscopicVideoPackingMode_mCF0479ACBA3FF471E2C0FD1C4ED243D8E04CEDB5() = 0;
+};
+// Windows.Media.MediaProperties.IVideoEncodingProperties4
+struct NOVTABLE IVideoEncodingProperties4_t17EB6B012BC70A9E8BBE184BDC8139BD0E51A216 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IVideoEncodingProperties4_U24__Stripped0_get_SphericalVideoFrameFormat_mC1E35256AA2826725AB0B682BFB935A1DB54DF8E() = 0;
+};
+// Windows.Media.MediaProperties.IVideoEncodingProperties5
+struct NOVTABLE IVideoEncodingProperties5_t4B3702033B965E27CECE1BFE811218A715B4E1A0 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IVideoEncodingProperties5_U24__Stripped0_Copy_m75C9419573A9DAB644E52B28AD7310A3B47C40DD() = 0;
+};
+// Windows.Media.MediaProperties.IVideoEncodingPropertiesStatics
+struct NOVTABLE IVideoEncodingPropertiesStatics_t5C1FFB0BBFB5DA97B49E75A2CAD934ED984D557F : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IVideoEncodingPropertiesStatics_U24__Stripped0_CreateH264_mB66D8C455A082A3FA2350E3F56C2413B47220A47() = 0;
+	virtual il2cpp_hresult_t STDCALL IVideoEncodingPropertiesStatics_U24__Stripped1_CreateMpeg2_m4FF220E0452F41901ED3019CDAB845FC483C3926() = 0;
+	virtual il2cpp_hresult_t STDCALL IVideoEncodingPropertiesStatics_U24__Stripped2_CreateUncompressed_m8AE3B41434A3BF38CF823C2DFE6034C9E917D4EC() = 0;
+};
+// Windows.Media.MediaProperties.IVideoEncodingPropertiesStatics2
+struct NOVTABLE IVideoEncodingPropertiesStatics2_t4551D182D5576ED7B3888651840B73416B8EE22E : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IVideoEncodingPropertiesStatics2_U24__Stripped0_CreateHevc_m858747DE6FE8761F43E4F082E0B0C25093C75E70() = 0;
+};
+// Windows.Media.SpeechSynthesis.IInstalledVoicesStatic
+struct NOVTABLE IInstalledVoicesStatic_t5603923E9B07BC445EF1704DF763BD9A8DE8EA26 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IInstalledVoicesStatic_get_AllVoices_m8A0471328D99D6A51E4A98C43F42DA63DB9CDA77(IVectorView_1_tCE33A7864B2DBB53EE157DC2D2571424D9BB11EF** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IInstalledVoicesStatic_U24__Stripped0_get_DefaultVoice_m14EBB630D9AEDA319342CDA145D3B4FC741B4A8A() = 0;
+};
+// Windows.Media.SpeechSynthesis.IInstalledVoicesStatic2
+struct NOVTABLE IInstalledVoicesStatic2_t4E597FCEFC1FE77F34510156BDF478520D211B3F : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IInstalledVoicesStatic2_U24__Stripped0_TrySetDefaultVoiceAsync_mC1F48980FB793E1A45BAA3EA1C3E51138BAF215F() = 0;
+};
+// Windows.Media.SpeechSynthesis.ISpeechSynthesisStream
+struct NOVTABLE ISpeechSynthesisStream_t3158646B3FF9B7D7F312A13B123160155F843665 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL ISpeechSynthesisStream_U24__Stripped0_get_Markers_mEE440F684A10A10A660BD8A7E406074B071C334B() = 0;
+};
+// Windows.Media.SpeechSynthesis.ISpeechSynthesizer
+struct NOVTABLE ISpeechSynthesizer_t091D478F98B160C7BDC66FD80727A7C43D9345EA : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL ISpeechSynthesizer_SynthesizeTextToStreamAsync_mF1A1AB7B5C33B2432DABDF16FDD870478B258521(Il2CppHString ___text0, IAsyncOperation_1_t3976446CEF2A153ABE683D064F3A1D00A11D5F0A** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL ISpeechSynthesizer_SynthesizeSsmlToStreamAsync_m701DCB469D9E75A18A6777C115B42A0473D98D17(Il2CppHString ___Ssml0, IAsyncOperation_1_t3976446CEF2A153ABE683D064F3A1D00A11D5F0A** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL ISpeechSynthesizer_put_Voice_m3BB7F961084967C434D627DF7268E07C7D4BFD5D(IVoiceInformation_t7606A990C72B19AFBA32B8BFE6BA93CECC002951* ___value0) = 0;
+	virtual il2cpp_hresult_t STDCALL ISpeechSynthesizer_U24__Stripped0_get_Voice_m199145A644CB5FC0D08B54201A7108D1F805F8F4() = 0;
+};
+// Windows.Media.SpeechSynthesis.ISpeechSynthesizer2
+struct NOVTABLE ISpeechSynthesizer2_t0D042039205C82FA8EF06BE41815B86301E83795 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL ISpeechSynthesizer2_U24__Stripped0_get_Options_mDE3364E54FFC01B1B168ED0C36139510570D6E13() = 0;
+};
+// Windows.Media.SpeechSynthesis.IVoiceInformation
+struct NOVTABLE IVoiceInformation_t7606A990C72B19AFBA32B8BFE6BA93CECC002951 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IVoiceInformation_get_DisplayName_mEE151AE3FBED852D906D15176BC0F12039E6AF96(Il2CppHString* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IVoiceInformation_U24__Stripped0_get_Id_mCA3021E7969DA8EF04EC7495B684834E3617FBE3() = 0;
+	virtual il2cpp_hresult_t STDCALL IVoiceInformation_U24__Stripped1_get_Language_m2F8276C0E48AEDE5050A20E02BCF6DA443DA519B() = 0;
+	virtual il2cpp_hresult_t STDCALL IVoiceInformation_U24__Stripped2_get_Description_m40ED375628F9B5306B8BF6511B50643DF544CF66() = 0;
+	virtual il2cpp_hresult_t STDCALL IVoiceInformation_U24__Stripped3_get_Gender_mE95BD8070EDB1C1BE7EFC1B8D8CEB1AB32DF9319() = 0;
+};
+// Windows.Networking.IHostName
+struct NOVTABLE IHostName_t7CC103357C0004DB2503909F01EAF58DEE073A91 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IHostName_U24__Stripped0_get_IPInformation_m64C51B53A585FB31851DF3EFBB123F12A1A10E50() = 0;
+	virtual il2cpp_hresult_t STDCALL IHostName_U24__Stripped1_get_RawName_mC38C45A0A971C3DE9C7DD3BFA49DB8B2CCEBD40A() = 0;
+	virtual il2cpp_hresult_t STDCALL IHostName_U24__Stripped2_get_DisplayName_m1F6C7EBA3FEB39C4FD3186C7762A5C3DDF8D2DB6() = 0;
+	virtual il2cpp_hresult_t STDCALL IHostName_U24__Stripped3_get_CanonicalName_m5713FB86B9D9D90F1CDA315C44EF1C21D454CACE() = 0;
+	virtual il2cpp_hresult_t STDCALL IHostName_U24__Stripped4_get_Type_m099F80701E667BFFEBADDCE11747E4695232D750() = 0;
+	virtual il2cpp_hresult_t STDCALL IHostName_U24__Stripped5_IsEqual_m1D752A6DD1A72E1A310E35A5A2A7A5D02FBAA233() = 0;
+};
+// Windows.Networking.IHostNameFactory
+struct NOVTABLE IHostNameFactory_tFAC92E74B9B1ECB8C74BA8E62CF32D72A317A9B1 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IHostNameFactory_CreateHostName_m06FB172FA394E31717172D172B890E84AA85A68D(Il2CppHString ___hostName0, IHostName_t7CC103357C0004DB2503909F01EAF58DEE073A91** comReturnValue) = 0;
+};
+// Windows.Networking.IHostNameStatics
+struct NOVTABLE IHostNameStatics_t037D7823E06A83B2840951D9582F972EE0A1C3DC : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IHostNameStatics_U24__Stripped0_Compare_m6EA9E7E56A1F73DCABEC54F41FDD86DD6D4C40DD() = 0;
+};
+// Windows.Networking.Sockets.IDatagramSocket2
+struct NOVTABLE IDatagramSocket2_t9B6F3932780D35065730ED075C569F2EC63971CB : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IDatagramSocket2_U24__Stripped0_BindServiceNameAsync_m61A017ED78086A84AC41E3FC02F460D6929E987F() = 0;
+};
+// Windows.Networking.Sockets.IDatagramSocket3
+struct NOVTABLE IDatagramSocket3_tC850609CA66B2414F6A6177A72803BF4F2A3660D : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IDatagramSocket3_U24__Stripped0_CancelIOAsync_m6B6916AAA67700979EFE0E19DF3756DEE1E41FA4() = 0;
+	virtual il2cpp_hresult_t STDCALL IDatagramSocket3_U24__Stripped1_EnableTransferOwnership_mC46F541C6E9E591E041BA86BF973EC6BBAC162F5() = 0;
+	virtual il2cpp_hresult_t STDCALL IDatagramSocket3_U24__Stripped2_EnableTransferOwnership_mCA21ACA59654F05651F3C32D35CA2F3AEBC0B4DA() = 0;
+	virtual il2cpp_hresult_t STDCALL IDatagramSocket3_U24__Stripped3_TransferOwnership_mF60BF0E246966257B84AA69D4B427C08933C1700() = 0;
+	virtual il2cpp_hresult_t STDCALL IDatagramSocket3_U24__Stripped4_TransferOwnership_m9EDC06BE78C2D376FA6E0A8995C7CE4515797F68() = 0;
+	virtual il2cpp_hresult_t STDCALL IDatagramSocket3_U24__Stripped5_TransferOwnership_m21A71F3E4EA29CDA036A91034BFF07F16BF3042E() = 0;
+};
+// Windows.Networking.Sockets.IDatagramSocketMessageReceivedEventArgs
+struct NOVTABLE IDatagramSocketMessageReceivedEventArgs_t7FDF380B953E1040BB8DC9B74396100AEE3E8571 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IDatagramSocketMessageReceivedEventArgs_U24__Stripped0_get_RemoteAddress_m20EA9BBEDC38C1D6229F8CAC11B1271F9D82308C() = 0;
+	virtual il2cpp_hresult_t STDCALL IDatagramSocketMessageReceivedEventArgs_U24__Stripped1_get_RemotePort_m00FFFB244CD2E8F9EE29903242765494503935CB() = 0;
+	virtual il2cpp_hresult_t STDCALL IDatagramSocketMessageReceivedEventArgs_U24__Stripped2_get_LocalAddress_m8C9CF85461F7BCBA8DD6F1BEDA385642A81EEC9C() = 0;
+	virtual il2cpp_hresult_t STDCALL IDatagramSocketMessageReceivedEventArgs_U24__Stripped3_GetDataReader_mEE599226AD58150CFCDBEFF880837AF92E20C911() = 0;
+	virtual il2cpp_hresult_t STDCALL IDatagramSocketMessageReceivedEventArgs_GetDataStream_m631D23500850009317DDF662BC6B2B8EE3752D3E(IInputStream_t9A06904D0534FEFA9174E580FCA59EDA460E6C6E** comReturnValue) = 0;
+};
+// Windows.Networking.Sockets.IDatagramSocketStatics
+struct NOVTABLE IDatagramSocketStatics_t5405037877878A8B44286DAA57B9410B9E5A1306 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IDatagramSocketStatics_U24__Stripped0_GetEndpointPairsAsync_mDCB0A6A919A2BAF96D448437CD4DBC65D7C386FE() = 0;
+	virtual il2cpp_hresult_t STDCALL IDatagramSocketStatics_U24__Stripped1_GetEndpointPairsAsync_m2B75EAE6F8B4256F9D4C107ACFBAAE8F02E94EC9() = 0;
+};
+// Windows.Networking.Sockets.IStreamSocket
+struct NOVTABLE IStreamSocket_t54E613F47EB9A57A06BD3CA55485E33B54B70014 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IStreamSocket_U24__Stripped0_get_Control_m096E86D54179A1987F82CB130690C38535F6FD67() = 0;
+	virtual il2cpp_hresult_t STDCALL IStreamSocket_U24__Stripped1_get_Information_mD1B3C552C4197A5A1FE2C882052EF7FFA0C80C88() = 0;
+	virtual il2cpp_hresult_t STDCALL IStreamSocket_U24__Stripped2_get_InputStream_mD1A6F53F390AA48678ABEE2E2447A51A24EBD194() = 0;
+	virtual il2cpp_hresult_t STDCALL IStreamSocket_get_OutputStream_mD71AE6976512411F67F019AB0D3E90F9E7274A68(IOutputStream_tDDEC725E2EE24D9CB5CF43B540772BFAB27E5AB4** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IStreamSocket_U24__Stripped3_ConnectAsync_m50E7E6B91FE009B65F885BC26A7FCDC5C70009EF() = 0;
+	virtual il2cpp_hresult_t STDCALL IStreamSocket_ConnectAsync_m7CBB6D7BA8A01A7E710FD6DB8DB66BFB52628F4E(IHostName_t7CC103357C0004DB2503909F01EAF58DEE073A91* ___remoteHostName0, Il2CppHString ___remoteServiceName1, IAsyncAction_tF980B79DBC4BD4F9F262E473628FD971545C5109** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IStreamSocket_U24__Stripped4_ConnectAsync_m9401CEA7E7617E89AE5BAA7AF2E3E3B8FC78F7CC() = 0;
+	virtual il2cpp_hresult_t STDCALL IStreamSocket_U24__Stripped5_ConnectAsync_m69C75B5D1904EE24A3671C15CC7D3F7A876AEDE3() = 0;
+	virtual il2cpp_hresult_t STDCALL IStreamSocket_U24__Stripped6_UpgradeToSslAsync_mEF68D471126C822089EA7A7A40B1365E99D41BF6() = 0;
+};
+// Windows.Storage.Streams.IContentTypeProvider
+struct NOVTABLE IContentTypeProvider_tC966990E1A9CCBB174017FD532E3B895DB99A656 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IContentTypeProvider_U24__Stripped0_get_ContentType_m99AED1C4F375907DF7910A4D4146BEAEB8FCDA46() = 0;
+};
+// Windows.Storage.Streams.IOutputStream
+struct NOVTABLE IOutputStream_tDDEC725E2EE24D9CB5CF43B540772BFAB27E5AB4 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IOutputStream_WriteAsync_mD26203907F4FA0E05517013062C5FE6AD97ECAC8(IBuffer_t138DC3231208360495113BAD65F24878902627D0* ___buffer0, IAsyncOperationWithProgress_2_tC8E6D25AF262A1D3187C74CD8107F97E1FCC44FF** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IOutputStream_FlushAsync_m120764FAE02AC5E836E4FCA45E3BE757DF12291B(IAsyncOperation_1_t87D18CE947A722F07F26224E8D04C1434D92BF6A** comReturnValue) = 0;
+};
+// Windows.Storage.Streams.IRandomAccessStream
+struct NOVTABLE IRandomAccessStream_t5E0FCB2F3CA43A5BC93D47882CB485D7722ADD86 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IRandomAccessStream_get_Size_mD4147D402BCC0155C5D577339CA97684C72CAB4C(uint64_t* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IRandomAccessStream_U24__Stripped0_put_Size_m5EC6EDD867FCC2575F31F1162F64E4523CCC71AF() = 0;
+	virtual il2cpp_hresult_t STDCALL IRandomAccessStream_GetInputStreamAt_m6D9D58D4B8ABFF7327EF89AE6C15C76DEA846C43(uint64_t ___position0, IInputStream_t9A06904D0534FEFA9174E580FCA59EDA460E6C6E** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IRandomAccessStream_U24__Stripped1_GetOutputStreamAt_m96EAE33666AE61ED9382006F2E42A8A2484B8004() = 0;
+	virtual il2cpp_hresult_t STDCALL IRandomAccessStream_get_Position_m1A2FD9DAC396D5ACFC638B05197C62C0F47622E5(uint64_t* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IRandomAccessStream_Seek_m73DB72148840685AE4D0EF41F4F1BF03353CF490(uint64_t ___position0) = 0;
+	virtual il2cpp_hresult_t STDCALL IRandomAccessStream_U24__Stripped2_CloneStream_mB833F36377C2557D2ACC2A7A41D3B2C2C7271CCE() = 0;
+	virtual il2cpp_hresult_t STDCALL IRandomAccessStream_get_CanRead_m06640930BBF2BF1FCBCEEC551CAEED0EC25B0CD9(bool* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IRandomAccessStream_get_CanWrite_m61FC70AA48412E495436D066F1DEFFF4BB24FBEC(bool* comReturnValue) = 0;
+};
+// Windows.Storage.Streams.IRandomAccessStreamWithContentType
+struct NOVTABLE IRandomAccessStreamWithContentType_t9F1D07F943E693513E0EFD51B27C50F49B7F9771 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+};
 #ifndef VALUETYPE_T4D0C27076F7C36E76190FB3328E232BCB1CD1FFF_H
 #define VALUETYPE_T4D0C27076F7C36E76190FB3328E232BCB1CD1FFF_H
 #ifdef __clang__
@@ -866,720 +813,20 @@ struct ValueType_t4D0C27076F7C36E76190FB3328E232BCB1CD1FFF_marshaled_com
 {
 };
 #endif // VALUETYPE_T4D0C27076F7C36E76190FB3328E232BCB1CD1FFF_H
-#ifndef REPLACEMENTDEFINITION_T3D10BAC1E74904A954F1225F7B5F7A26BD6B04E3_H
-#define REPLACEMENTDEFINITION_T3D10BAC1E74904A954F1225F7B5F7A26BD6B04E3_H
+#ifndef IL2CPPCOMOBJECT_H
+#define IL2CPPCOMOBJECT_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityStandardAssets.Utility.AutoMobileShaderSwitch_ReplacementDefinition
-struct  ReplacementDefinition_t3D10BAC1E74904A954F1225F7B5F7A26BD6B04E3  : public RuntimeObject
-{
-public:
-	// UnityEngine.Shader UnityStandardAssets.Utility.AutoMobileShaderSwitch_ReplacementDefinition::original
-	Shader_tE2731FF351B74AB4186897484FB01E000C1160CA * ___original_0;
-	// UnityEngine.Shader UnityStandardAssets.Utility.AutoMobileShaderSwitch_ReplacementDefinition::replacement
-	Shader_tE2731FF351B74AB4186897484FB01E000C1160CA * ___replacement_1;
-
-public:
-	inline static int32_t get_offset_of_original_0() { return static_cast<int32_t>(offsetof(ReplacementDefinition_t3D10BAC1E74904A954F1225F7B5F7A26BD6B04E3, ___original_0)); }
-	inline Shader_tE2731FF351B74AB4186897484FB01E000C1160CA * get_original_0() const { return ___original_0; }
-	inline Shader_tE2731FF351B74AB4186897484FB01E000C1160CA ** get_address_of_original_0() { return &___original_0; }
-	inline void set_original_0(Shader_tE2731FF351B74AB4186897484FB01E000C1160CA * value)
-	{
-		___original_0 = value;
-		Il2CppCodeGenWriteBarrier((&___original_0), value);
-	}
-
-	inline static int32_t get_offset_of_replacement_1() { return static_cast<int32_t>(offsetof(ReplacementDefinition_t3D10BAC1E74904A954F1225F7B5F7A26BD6B04E3, ___replacement_1)); }
-	inline Shader_tE2731FF351B74AB4186897484FB01E000C1160CA * get_replacement_1() const { return ___replacement_1; }
-	inline Shader_tE2731FF351B74AB4186897484FB01E000C1160CA ** get_address_of_replacement_1() { return &___replacement_1; }
-	inline void set_replacement_1(Shader_tE2731FF351B74AB4186897484FB01E000C1160CA * value)
-	{
-		___replacement_1 = value;
-		Il2CppCodeGenWriteBarrier((&___replacement_1), value);
-	}
-};
+// System.__Il2CppComObject
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // REPLACEMENTDEFINITION_T3D10BAC1E74904A954F1225F7B5F7A26BD6B04E3_H
-#ifndef REPLACEMENTLIST_TB61E3C48AEAD548534A66E61A114FE42725BF8B7_H
-#define REPLACEMENTLIST_TB61E3C48AEAD548534A66E61A114FE42725BF8B7_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityStandardAssets.Utility.AutoMobileShaderSwitch_ReplacementList
-struct  ReplacementList_tB61E3C48AEAD548534A66E61A114FE42725BF8B7  : public RuntimeObject
-{
-public:
-	// UnityStandardAssets.Utility.AutoMobileShaderSwitch_ReplacementDefinition[] UnityStandardAssets.Utility.AutoMobileShaderSwitch_ReplacementList::items
-	ReplacementDefinitionU5BU5D_tFBFB3CC398F7605F4F19261327970F3F1BCD486C* ___items_0;
-
-public:
-	inline static int32_t get_offset_of_items_0() { return static_cast<int32_t>(offsetof(ReplacementList_tB61E3C48AEAD548534A66E61A114FE42725BF8B7, ___items_0)); }
-	inline ReplacementDefinitionU5BU5D_tFBFB3CC398F7605F4F19261327970F3F1BCD486C* get_items_0() const { return ___items_0; }
-	inline ReplacementDefinitionU5BU5D_tFBFB3CC398F7605F4F19261327970F3F1BCD486C** get_address_of_items_0() { return &___items_0; }
-	inline void set_items_0(ReplacementDefinitionU5BU5D_tFBFB3CC398F7605F4F19261327970F3F1BCD486C* value)
-	{
-		___items_0 = value;
-		Il2CppCodeGenWriteBarrier((&___items_0), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // REPLACEMENTLIST_TB61E3C48AEAD548534A66E61A114FE42725BF8B7_H
-#ifndef U3CDRAGOBJECTU3ED__8_T828402A7C81F732C617C4D4B11AE8CECCF21BFDE_H
-#define U3CDRAGOBJECTU3ED__8_T828402A7C81F732C617C4D4B11AE8CECCF21BFDE_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityStandardAssets.Utility.DragRigidbody_<DragObject>d__8
-struct  U3CDragObjectU3Ed__8_t828402A7C81F732C617C4D4B11AE8CECCF21BFDE  : public RuntimeObject
-{
-public:
-	// System.Int32 UnityStandardAssets.Utility.DragRigidbody_<DragObject>d__8::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Object UnityStandardAssets.Utility.DragRigidbody_<DragObject>d__8::<>2__current
-	RuntimeObject * ___U3CU3E2__current_1;
-	// UnityStandardAssets.Utility.DragRigidbody UnityStandardAssets.Utility.DragRigidbody_<DragObject>d__8::<>4__this
-	DragRigidbody_t69356A31AE06158C9C3A6F186ADA66CA6947621E * ___U3CU3E4__this_2;
-	// System.Single UnityStandardAssets.Utility.DragRigidbody_<DragObject>d__8::distance
-	float ___distance_3;
-	// System.Single UnityStandardAssets.Utility.DragRigidbody_<DragObject>d__8::<oldDrag>5__2
-	float ___U3ColdDragU3E5__2_4;
-	// System.Single UnityStandardAssets.Utility.DragRigidbody_<DragObject>d__8::<oldAngularDrag>5__3
-	float ___U3ColdAngularDragU3E5__3_5;
-	// UnityEngine.Camera UnityStandardAssets.Utility.DragRigidbody_<DragObject>d__8::<mainCamera>5__4
-	Camera_t48B2B9ECB3CE6108A98BF949A1CECF0FE3421F34 * ___U3CmainCameraU3E5__4_6;
-
-public:
-	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CDragObjectU3Ed__8_t828402A7C81F732C617C4D4B11AE8CECCF21BFDE, ___U3CU3E1__state_0)); }
-	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
-	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
-	inline void set_U3CU3E1__state_0(int32_t value)
-	{
-		___U3CU3E1__state_0 = value;
-	}
-
-	inline static int32_t get_offset_of_U3CU3E2__current_1() { return static_cast<int32_t>(offsetof(U3CDragObjectU3Ed__8_t828402A7C81F732C617C4D4B11AE8CECCF21BFDE, ___U3CU3E2__current_1)); }
-	inline RuntimeObject * get_U3CU3E2__current_1() const { return ___U3CU3E2__current_1; }
-	inline RuntimeObject ** get_address_of_U3CU3E2__current_1() { return &___U3CU3E2__current_1; }
-	inline void set_U3CU3E2__current_1(RuntimeObject * value)
-	{
-		___U3CU3E2__current_1 = value;
-		Il2CppCodeGenWriteBarrier((&___U3CU3E2__current_1), value);
-	}
-
-	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CDragObjectU3Ed__8_t828402A7C81F732C617C4D4B11AE8CECCF21BFDE, ___U3CU3E4__this_2)); }
-	inline DragRigidbody_t69356A31AE06158C9C3A6F186ADA66CA6947621E * get_U3CU3E4__this_2() const { return ___U3CU3E4__this_2; }
-	inline DragRigidbody_t69356A31AE06158C9C3A6F186ADA66CA6947621E ** get_address_of_U3CU3E4__this_2() { return &___U3CU3E4__this_2; }
-	inline void set_U3CU3E4__this_2(DragRigidbody_t69356A31AE06158C9C3A6F186ADA66CA6947621E * value)
-	{
-		___U3CU3E4__this_2 = value;
-		Il2CppCodeGenWriteBarrier((&___U3CU3E4__this_2), value);
-	}
-
-	inline static int32_t get_offset_of_distance_3() { return static_cast<int32_t>(offsetof(U3CDragObjectU3Ed__8_t828402A7C81F732C617C4D4B11AE8CECCF21BFDE, ___distance_3)); }
-	inline float get_distance_3() const { return ___distance_3; }
-	inline float* get_address_of_distance_3() { return &___distance_3; }
-	inline void set_distance_3(float value)
-	{
-		___distance_3 = value;
-	}
-
-	inline static int32_t get_offset_of_U3ColdDragU3E5__2_4() { return static_cast<int32_t>(offsetof(U3CDragObjectU3Ed__8_t828402A7C81F732C617C4D4B11AE8CECCF21BFDE, ___U3ColdDragU3E5__2_4)); }
-	inline float get_U3ColdDragU3E5__2_4() const { return ___U3ColdDragU3E5__2_4; }
-	inline float* get_address_of_U3ColdDragU3E5__2_4() { return &___U3ColdDragU3E5__2_4; }
-	inline void set_U3ColdDragU3E5__2_4(float value)
-	{
-		___U3ColdDragU3E5__2_4 = value;
-	}
-
-	inline static int32_t get_offset_of_U3ColdAngularDragU3E5__3_5() { return static_cast<int32_t>(offsetof(U3CDragObjectU3Ed__8_t828402A7C81F732C617C4D4B11AE8CECCF21BFDE, ___U3ColdAngularDragU3E5__3_5)); }
-	inline float get_U3ColdAngularDragU3E5__3_5() const { return ___U3ColdAngularDragU3E5__3_5; }
-	inline float* get_address_of_U3ColdAngularDragU3E5__3_5() { return &___U3ColdAngularDragU3E5__3_5; }
-	inline void set_U3ColdAngularDragU3E5__3_5(float value)
-	{
-		___U3ColdAngularDragU3E5__3_5 = value;
-	}
-
-	inline static int32_t get_offset_of_U3CmainCameraU3E5__4_6() { return static_cast<int32_t>(offsetof(U3CDragObjectU3Ed__8_t828402A7C81F732C617C4D4B11AE8CECCF21BFDE, ___U3CmainCameraU3E5__4_6)); }
-	inline Camera_t48B2B9ECB3CE6108A98BF949A1CECF0FE3421F34 * get_U3CmainCameraU3E5__4_6() const { return ___U3CmainCameraU3E5__4_6; }
-	inline Camera_t48B2B9ECB3CE6108A98BF949A1CECF0FE3421F34 ** get_address_of_U3CmainCameraU3E5__4_6() { return &___U3CmainCameraU3E5__4_6; }
-	inline void set_U3CmainCameraU3E5__4_6(Camera_t48B2B9ECB3CE6108A98BF949A1CECF0FE3421F34 * value)
-	{
-		___U3CmainCameraU3E5__4_6 = value;
-		Il2CppCodeGenWriteBarrier((&___U3CmainCameraU3E5__4_6), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // U3CDRAGOBJECTU3ED__8_T828402A7C81F732C617C4D4B11AE8CECCF21BFDE_H
-#ifndef FOVKICK_TAA0380126A0AB10D241285A16AB305CBC25E0338_H
-#define FOVKICK_TAA0380126A0AB10D241285A16AB305CBC25E0338_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityStandardAssets.Utility.FOVKick
-struct  FOVKick_tAA0380126A0AB10D241285A16AB305CBC25E0338  : public RuntimeObject
-{
-public:
-	// UnityEngine.Camera UnityStandardAssets.Utility.FOVKick::Camera
-	Camera_t48B2B9ECB3CE6108A98BF949A1CECF0FE3421F34 * ___Camera_0;
-	// System.Single UnityStandardAssets.Utility.FOVKick::originalFov
-	float ___originalFov_1;
-	// System.Single UnityStandardAssets.Utility.FOVKick::FOVIncrease
-	float ___FOVIncrease_2;
-	// System.Single UnityStandardAssets.Utility.FOVKick::TimeToIncrease
-	float ___TimeToIncrease_3;
-	// System.Single UnityStandardAssets.Utility.FOVKick::TimeToDecrease
-	float ___TimeToDecrease_4;
-	// UnityEngine.AnimationCurve UnityStandardAssets.Utility.FOVKick::IncreaseCurve
-	AnimationCurve_tD2F265379583AAF1BF8D84F1BB8DB12980FA504C * ___IncreaseCurve_5;
-
-public:
-	inline static int32_t get_offset_of_Camera_0() { return static_cast<int32_t>(offsetof(FOVKick_tAA0380126A0AB10D241285A16AB305CBC25E0338, ___Camera_0)); }
-	inline Camera_t48B2B9ECB3CE6108A98BF949A1CECF0FE3421F34 * get_Camera_0() const { return ___Camera_0; }
-	inline Camera_t48B2B9ECB3CE6108A98BF949A1CECF0FE3421F34 ** get_address_of_Camera_0() { return &___Camera_0; }
-	inline void set_Camera_0(Camera_t48B2B9ECB3CE6108A98BF949A1CECF0FE3421F34 * value)
-	{
-		___Camera_0 = value;
-		Il2CppCodeGenWriteBarrier((&___Camera_0), value);
-	}
-
-	inline static int32_t get_offset_of_originalFov_1() { return static_cast<int32_t>(offsetof(FOVKick_tAA0380126A0AB10D241285A16AB305CBC25E0338, ___originalFov_1)); }
-	inline float get_originalFov_1() const { return ___originalFov_1; }
-	inline float* get_address_of_originalFov_1() { return &___originalFov_1; }
-	inline void set_originalFov_1(float value)
-	{
-		___originalFov_1 = value;
-	}
-
-	inline static int32_t get_offset_of_FOVIncrease_2() { return static_cast<int32_t>(offsetof(FOVKick_tAA0380126A0AB10D241285A16AB305CBC25E0338, ___FOVIncrease_2)); }
-	inline float get_FOVIncrease_2() const { return ___FOVIncrease_2; }
-	inline float* get_address_of_FOVIncrease_2() { return &___FOVIncrease_2; }
-	inline void set_FOVIncrease_2(float value)
-	{
-		___FOVIncrease_2 = value;
-	}
-
-	inline static int32_t get_offset_of_TimeToIncrease_3() { return static_cast<int32_t>(offsetof(FOVKick_tAA0380126A0AB10D241285A16AB305CBC25E0338, ___TimeToIncrease_3)); }
-	inline float get_TimeToIncrease_3() const { return ___TimeToIncrease_3; }
-	inline float* get_address_of_TimeToIncrease_3() { return &___TimeToIncrease_3; }
-	inline void set_TimeToIncrease_3(float value)
-	{
-		___TimeToIncrease_3 = value;
-	}
-
-	inline static int32_t get_offset_of_TimeToDecrease_4() { return static_cast<int32_t>(offsetof(FOVKick_tAA0380126A0AB10D241285A16AB305CBC25E0338, ___TimeToDecrease_4)); }
-	inline float get_TimeToDecrease_4() const { return ___TimeToDecrease_4; }
-	inline float* get_address_of_TimeToDecrease_4() { return &___TimeToDecrease_4; }
-	inline void set_TimeToDecrease_4(float value)
-	{
-		___TimeToDecrease_4 = value;
-	}
-
-	inline static int32_t get_offset_of_IncreaseCurve_5() { return static_cast<int32_t>(offsetof(FOVKick_tAA0380126A0AB10D241285A16AB305CBC25E0338, ___IncreaseCurve_5)); }
-	inline AnimationCurve_tD2F265379583AAF1BF8D84F1BB8DB12980FA504C * get_IncreaseCurve_5() const { return ___IncreaseCurve_5; }
-	inline AnimationCurve_tD2F265379583AAF1BF8D84F1BB8DB12980FA504C ** get_address_of_IncreaseCurve_5() { return &___IncreaseCurve_5; }
-	inline void set_IncreaseCurve_5(AnimationCurve_tD2F265379583AAF1BF8D84F1BB8DB12980FA504C * value)
-	{
-		___IncreaseCurve_5 = value;
-		Il2CppCodeGenWriteBarrier((&___IncreaseCurve_5), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // FOVKICK_TAA0380126A0AB10D241285A16AB305CBC25E0338_H
-#ifndef U3CFOVKICKDOWNU3ED__10_TA3A428EA856F6715B9E240F0F89309C5FCB5B775_H
-#define U3CFOVKICKDOWNU3ED__10_TA3A428EA856F6715B9E240F0F89309C5FCB5B775_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityStandardAssets.Utility.FOVKick_<FOVKickDown>d__10
-struct  U3CFOVKickDownU3Ed__10_tA3A428EA856F6715B9E240F0F89309C5FCB5B775  : public RuntimeObject
-{
-public:
-	// System.Int32 UnityStandardAssets.Utility.FOVKick_<FOVKickDown>d__10::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Object UnityStandardAssets.Utility.FOVKick_<FOVKickDown>d__10::<>2__current
-	RuntimeObject * ___U3CU3E2__current_1;
-	// UnityStandardAssets.Utility.FOVKick UnityStandardAssets.Utility.FOVKick_<FOVKickDown>d__10::<>4__this
-	FOVKick_tAA0380126A0AB10D241285A16AB305CBC25E0338 * ___U3CU3E4__this_2;
-	// System.Single UnityStandardAssets.Utility.FOVKick_<FOVKickDown>d__10::<t>5__2
-	float ___U3CtU3E5__2_3;
-
-public:
-	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CFOVKickDownU3Ed__10_tA3A428EA856F6715B9E240F0F89309C5FCB5B775, ___U3CU3E1__state_0)); }
-	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
-	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
-	inline void set_U3CU3E1__state_0(int32_t value)
-	{
-		___U3CU3E1__state_0 = value;
-	}
-
-	inline static int32_t get_offset_of_U3CU3E2__current_1() { return static_cast<int32_t>(offsetof(U3CFOVKickDownU3Ed__10_tA3A428EA856F6715B9E240F0F89309C5FCB5B775, ___U3CU3E2__current_1)); }
-	inline RuntimeObject * get_U3CU3E2__current_1() const { return ___U3CU3E2__current_1; }
-	inline RuntimeObject ** get_address_of_U3CU3E2__current_1() { return &___U3CU3E2__current_1; }
-	inline void set_U3CU3E2__current_1(RuntimeObject * value)
-	{
-		___U3CU3E2__current_1 = value;
-		Il2CppCodeGenWriteBarrier((&___U3CU3E2__current_1), value);
-	}
-
-	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CFOVKickDownU3Ed__10_tA3A428EA856F6715B9E240F0F89309C5FCB5B775, ___U3CU3E4__this_2)); }
-	inline FOVKick_tAA0380126A0AB10D241285A16AB305CBC25E0338 * get_U3CU3E4__this_2() const { return ___U3CU3E4__this_2; }
-	inline FOVKick_tAA0380126A0AB10D241285A16AB305CBC25E0338 ** get_address_of_U3CU3E4__this_2() { return &___U3CU3E4__this_2; }
-	inline void set_U3CU3E4__this_2(FOVKick_tAA0380126A0AB10D241285A16AB305CBC25E0338 * value)
-	{
-		___U3CU3E4__this_2 = value;
-		Il2CppCodeGenWriteBarrier((&___U3CU3E4__this_2), value);
-	}
-
-	inline static int32_t get_offset_of_U3CtU3E5__2_3() { return static_cast<int32_t>(offsetof(U3CFOVKickDownU3Ed__10_tA3A428EA856F6715B9E240F0F89309C5FCB5B775, ___U3CtU3E5__2_3)); }
-	inline float get_U3CtU3E5__2_3() const { return ___U3CtU3E5__2_3; }
-	inline float* get_address_of_U3CtU3E5__2_3() { return &___U3CtU3E5__2_3; }
-	inline void set_U3CtU3E5__2_3(float value)
-	{
-		___U3CtU3E5__2_3 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // U3CFOVKICKDOWNU3ED__10_TA3A428EA856F6715B9E240F0F89309C5FCB5B775_H
-#ifndef U3CFOVKICKUPU3ED__9_TF607E93C083049E68350B12FC37D2151BBC87360_H
-#define U3CFOVKICKUPU3ED__9_TF607E93C083049E68350B12FC37D2151BBC87360_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityStandardAssets.Utility.FOVKick_<FOVKickUp>d__9
-struct  U3CFOVKickUpU3Ed__9_tF607E93C083049E68350B12FC37D2151BBC87360  : public RuntimeObject
-{
-public:
-	// System.Int32 UnityStandardAssets.Utility.FOVKick_<FOVKickUp>d__9::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Object UnityStandardAssets.Utility.FOVKick_<FOVKickUp>d__9::<>2__current
-	RuntimeObject * ___U3CU3E2__current_1;
-	// UnityStandardAssets.Utility.FOVKick UnityStandardAssets.Utility.FOVKick_<FOVKickUp>d__9::<>4__this
-	FOVKick_tAA0380126A0AB10D241285A16AB305CBC25E0338 * ___U3CU3E4__this_2;
-	// System.Single UnityStandardAssets.Utility.FOVKick_<FOVKickUp>d__9::<t>5__2
-	float ___U3CtU3E5__2_3;
-
-public:
-	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CFOVKickUpU3Ed__9_tF607E93C083049E68350B12FC37D2151BBC87360, ___U3CU3E1__state_0)); }
-	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
-	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
-	inline void set_U3CU3E1__state_0(int32_t value)
-	{
-		___U3CU3E1__state_0 = value;
-	}
-
-	inline static int32_t get_offset_of_U3CU3E2__current_1() { return static_cast<int32_t>(offsetof(U3CFOVKickUpU3Ed__9_tF607E93C083049E68350B12FC37D2151BBC87360, ___U3CU3E2__current_1)); }
-	inline RuntimeObject * get_U3CU3E2__current_1() const { return ___U3CU3E2__current_1; }
-	inline RuntimeObject ** get_address_of_U3CU3E2__current_1() { return &___U3CU3E2__current_1; }
-	inline void set_U3CU3E2__current_1(RuntimeObject * value)
-	{
-		___U3CU3E2__current_1 = value;
-		Il2CppCodeGenWriteBarrier((&___U3CU3E2__current_1), value);
-	}
-
-	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CFOVKickUpU3Ed__9_tF607E93C083049E68350B12FC37D2151BBC87360, ___U3CU3E4__this_2)); }
-	inline FOVKick_tAA0380126A0AB10D241285A16AB305CBC25E0338 * get_U3CU3E4__this_2() const { return ___U3CU3E4__this_2; }
-	inline FOVKick_tAA0380126A0AB10D241285A16AB305CBC25E0338 ** get_address_of_U3CU3E4__this_2() { return &___U3CU3E4__this_2; }
-	inline void set_U3CU3E4__this_2(FOVKick_tAA0380126A0AB10D241285A16AB305CBC25E0338 * value)
-	{
-		___U3CU3E4__this_2 = value;
-		Il2CppCodeGenWriteBarrier((&___U3CU3E4__this_2), value);
-	}
-
-	inline static int32_t get_offset_of_U3CtU3E5__2_3() { return static_cast<int32_t>(offsetof(U3CFOVKickUpU3Ed__9_tF607E93C083049E68350B12FC37D2151BBC87360, ___U3CtU3E5__2_3)); }
-	inline float get_U3CtU3E5__2_3() const { return ___U3CtU3E5__2_3; }
-	inline float* get_address_of_U3CtU3E5__2_3() { return &___U3CtU3E5__2_3; }
-	inline void set_U3CtU3E5__2_3(float value)
-	{
-		___U3CtU3E5__2_3 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // U3CFOVKICKUPU3ED__9_TF607E93C083049E68350B12FC37D2151BBC87360_H
-#ifndef VLOG_T63DCFEA9AC5AEE08887BF454A4A5E9E76B47801F_H
-#define VLOG_T63DCFEA9AC5AEE08887BF454A4A5E9E76B47801F_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// VLog
-struct  VLog_t63DCFEA9AC5AEE08887BF454A4A5E9E76B47801F  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // VLOG_T63DCFEA9AC5AEE08887BF454A4A5E9E76B47801F_H
-#ifndef U3CU3EC_T5915546C48D5F18D0EFD9C4955DB321BBBCAC8C1_H
-#define U3CU3EC_T5915546C48D5F18D0EFD9C4955DB321BBBCAC8C1_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// VoiceCommands_<>c
-struct  U3CU3Ec_t5915546C48D5F18D0EFD9C4955DB321BBBCAC8C1  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-struct U3CU3Ec_t5915546C48D5F18D0EFD9C4955DB321BBBCAC8C1_StaticFields
-{
-public:
-	// VoiceCommands_<>c VoiceCommands_<>c::<>9
-	U3CU3Ec_t5915546C48D5F18D0EFD9C4955DB321BBBCAC8C1 * ___U3CU3E9_0;
-	// System.Action VoiceCommands_<>c::<>9__9_3
-	Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * ___U3CU3E9__9_3_1;
-	// System.Action VoiceCommands_<>c::<>9__9_4
-	Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * ___U3CU3E9__9_4_2;
-	// System.Action VoiceCommands_<>c::<>9__9_5
-	Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * ___U3CU3E9__9_5_3;
-	// System.Action VoiceCommands_<>c::<>9__9_6
-	Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * ___U3CU3E9__9_6_4;
-	// System.Action VoiceCommands_<>c::<>9__9_7
-	Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * ___U3CU3E9__9_7_5;
-	// System.Action VoiceCommands_<>c::<>9__9_8
-	Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * ___U3CU3E9__9_8_6;
-	// System.Action VoiceCommands_<>c::<>9__9_9
-	Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * ___U3CU3E9__9_9_7;
-	// System.Action VoiceCommands_<>c::<>9__9_10
-	Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * ___U3CU3E9__9_10_8;
-
-public:
-	inline static int32_t get_offset_of_U3CU3E9_0() { return static_cast<int32_t>(offsetof(U3CU3Ec_t5915546C48D5F18D0EFD9C4955DB321BBBCAC8C1_StaticFields, ___U3CU3E9_0)); }
-	inline U3CU3Ec_t5915546C48D5F18D0EFD9C4955DB321BBBCAC8C1 * get_U3CU3E9_0() const { return ___U3CU3E9_0; }
-	inline U3CU3Ec_t5915546C48D5F18D0EFD9C4955DB321BBBCAC8C1 ** get_address_of_U3CU3E9_0() { return &___U3CU3E9_0; }
-	inline void set_U3CU3E9_0(U3CU3Ec_t5915546C48D5F18D0EFD9C4955DB321BBBCAC8C1 * value)
-	{
-		___U3CU3E9_0 = value;
-		Il2CppCodeGenWriteBarrier((&___U3CU3E9_0), value);
-	}
-
-	inline static int32_t get_offset_of_U3CU3E9__9_3_1() { return static_cast<int32_t>(offsetof(U3CU3Ec_t5915546C48D5F18D0EFD9C4955DB321BBBCAC8C1_StaticFields, ___U3CU3E9__9_3_1)); }
-	inline Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * get_U3CU3E9__9_3_1() const { return ___U3CU3E9__9_3_1; }
-	inline Action_t591D2A86165F896B4B800BB5C25CE18672A55579 ** get_address_of_U3CU3E9__9_3_1() { return &___U3CU3E9__9_3_1; }
-	inline void set_U3CU3E9__9_3_1(Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * value)
-	{
-		___U3CU3E9__9_3_1 = value;
-		Il2CppCodeGenWriteBarrier((&___U3CU3E9__9_3_1), value);
-	}
-
-	inline static int32_t get_offset_of_U3CU3E9__9_4_2() { return static_cast<int32_t>(offsetof(U3CU3Ec_t5915546C48D5F18D0EFD9C4955DB321BBBCAC8C1_StaticFields, ___U3CU3E9__9_4_2)); }
-	inline Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * get_U3CU3E9__9_4_2() const { return ___U3CU3E9__9_4_2; }
-	inline Action_t591D2A86165F896B4B800BB5C25CE18672A55579 ** get_address_of_U3CU3E9__9_4_2() { return &___U3CU3E9__9_4_2; }
-	inline void set_U3CU3E9__9_4_2(Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * value)
-	{
-		___U3CU3E9__9_4_2 = value;
-		Il2CppCodeGenWriteBarrier((&___U3CU3E9__9_4_2), value);
-	}
-
-	inline static int32_t get_offset_of_U3CU3E9__9_5_3() { return static_cast<int32_t>(offsetof(U3CU3Ec_t5915546C48D5F18D0EFD9C4955DB321BBBCAC8C1_StaticFields, ___U3CU3E9__9_5_3)); }
-	inline Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * get_U3CU3E9__9_5_3() const { return ___U3CU3E9__9_5_3; }
-	inline Action_t591D2A86165F896B4B800BB5C25CE18672A55579 ** get_address_of_U3CU3E9__9_5_3() { return &___U3CU3E9__9_5_3; }
-	inline void set_U3CU3E9__9_5_3(Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * value)
-	{
-		___U3CU3E9__9_5_3 = value;
-		Il2CppCodeGenWriteBarrier((&___U3CU3E9__9_5_3), value);
-	}
-
-	inline static int32_t get_offset_of_U3CU3E9__9_6_4() { return static_cast<int32_t>(offsetof(U3CU3Ec_t5915546C48D5F18D0EFD9C4955DB321BBBCAC8C1_StaticFields, ___U3CU3E9__9_6_4)); }
-	inline Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * get_U3CU3E9__9_6_4() const { return ___U3CU3E9__9_6_4; }
-	inline Action_t591D2A86165F896B4B800BB5C25CE18672A55579 ** get_address_of_U3CU3E9__9_6_4() { return &___U3CU3E9__9_6_4; }
-	inline void set_U3CU3E9__9_6_4(Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * value)
-	{
-		___U3CU3E9__9_6_4 = value;
-		Il2CppCodeGenWriteBarrier((&___U3CU3E9__9_6_4), value);
-	}
-
-	inline static int32_t get_offset_of_U3CU3E9__9_7_5() { return static_cast<int32_t>(offsetof(U3CU3Ec_t5915546C48D5F18D0EFD9C4955DB321BBBCAC8C1_StaticFields, ___U3CU3E9__9_7_5)); }
-	inline Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * get_U3CU3E9__9_7_5() const { return ___U3CU3E9__9_7_5; }
-	inline Action_t591D2A86165F896B4B800BB5C25CE18672A55579 ** get_address_of_U3CU3E9__9_7_5() { return &___U3CU3E9__9_7_5; }
-	inline void set_U3CU3E9__9_7_5(Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * value)
-	{
-		___U3CU3E9__9_7_5 = value;
-		Il2CppCodeGenWriteBarrier((&___U3CU3E9__9_7_5), value);
-	}
-
-	inline static int32_t get_offset_of_U3CU3E9__9_8_6() { return static_cast<int32_t>(offsetof(U3CU3Ec_t5915546C48D5F18D0EFD9C4955DB321BBBCAC8C1_StaticFields, ___U3CU3E9__9_8_6)); }
-	inline Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * get_U3CU3E9__9_8_6() const { return ___U3CU3E9__9_8_6; }
-	inline Action_t591D2A86165F896B4B800BB5C25CE18672A55579 ** get_address_of_U3CU3E9__9_8_6() { return &___U3CU3E9__9_8_6; }
-	inline void set_U3CU3E9__9_8_6(Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * value)
-	{
-		___U3CU3E9__9_8_6 = value;
-		Il2CppCodeGenWriteBarrier((&___U3CU3E9__9_8_6), value);
-	}
-
-	inline static int32_t get_offset_of_U3CU3E9__9_9_7() { return static_cast<int32_t>(offsetof(U3CU3Ec_t5915546C48D5F18D0EFD9C4955DB321BBBCAC8C1_StaticFields, ___U3CU3E9__9_9_7)); }
-	inline Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * get_U3CU3E9__9_9_7() const { return ___U3CU3E9__9_9_7; }
-	inline Action_t591D2A86165F896B4B800BB5C25CE18672A55579 ** get_address_of_U3CU3E9__9_9_7() { return &___U3CU3E9__9_9_7; }
-	inline void set_U3CU3E9__9_9_7(Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * value)
-	{
-		___U3CU3E9__9_9_7 = value;
-		Il2CppCodeGenWriteBarrier((&___U3CU3E9__9_9_7), value);
-	}
-
-	inline static int32_t get_offset_of_U3CU3E9__9_10_8() { return static_cast<int32_t>(offsetof(U3CU3Ec_t5915546C48D5F18D0EFD9C4955DB321BBBCAC8C1_StaticFields, ___U3CU3E9__9_10_8)); }
-	inline Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * get_U3CU3E9__9_10_8() const { return ___U3CU3E9__9_10_8; }
-	inline Action_t591D2A86165F896B4B800BB5C25CE18672A55579 ** get_address_of_U3CU3E9__9_10_8() { return &___U3CU3E9__9_10_8; }
-	inline void set_U3CU3E9__9_10_8(Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * value)
-	{
-		___U3CU3E9__9_10_8 = value;
-		Il2CppCodeGenWriteBarrier((&___U3CU3E9__9_10_8), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // U3CU3EC_T5915546C48D5F18D0EFD9C4955DB321BBBCAC8C1_H
-#ifndef U3CU3EC__DISPLAYCLASS12_0_T4B2C7C7463D8C4C3FAADFF967553666CD1958F23_H
-#define U3CU3EC__DISPLAYCLASS12_0_T4B2C7C7463D8C4C3FAADFF967553666CD1958F23_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// VuMarkHandler_<>c__DisplayClass12_0
-struct  U3CU3Ec__DisplayClass12_0_t4B2C7C7463D8C4C3FAADFF967553666CD1958F23  : public RuntimeObject
-{
-public:
-	// Vuforia.VuMarkBehaviour VuMarkHandler_<>c__DisplayClass12_0::vumarkBehaviour
-	VuMarkBehaviour_t639ADC64791886C7F8D65CD035E0F0E4C6E2FAC4 * ___vumarkBehaviour_0;
-
-public:
-	inline static int32_t get_offset_of_vumarkBehaviour_0() { return static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass12_0_t4B2C7C7463D8C4C3FAADFF967553666CD1958F23, ___vumarkBehaviour_0)); }
-	inline VuMarkBehaviour_t639ADC64791886C7F8D65CD035E0F0E4C6E2FAC4 * get_vumarkBehaviour_0() const { return ___vumarkBehaviour_0; }
-	inline VuMarkBehaviour_t639ADC64791886C7F8D65CD035E0F0E4C6E2FAC4 ** get_address_of_vumarkBehaviour_0() { return &___vumarkBehaviour_0; }
-	inline void set_vumarkBehaviour_0(VuMarkBehaviour_t639ADC64791886C7F8D65CD035E0F0E4C6E2FAC4 * value)
-	{
-		___vumarkBehaviour_0 = value;
-		Il2CppCodeGenWriteBarrier((&___vumarkBehaviour_0), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // U3CU3EC__DISPLAYCLASS12_0_T4B2C7C7463D8C4C3FAADFF967553666CD1958F23_H
-#ifndef U3CONVUMARKTARGETAVAILABLEU3ED__12_T56430753AEA0B8989DC9565A574DE4AE470875A4_H
-#define U3CONVUMARKTARGETAVAILABLEU3ED__12_T56430753AEA0B8989DC9565A574DE4AE470875A4_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// VuMarkHandler_<OnVuMarkTargetAvailable>d__12
-struct  U3COnVuMarkTargetAvailableU3Ed__12_t56430753AEA0B8989DC9565A574DE4AE470875A4  : public RuntimeObject
-{
-public:
-	// System.Int32 VuMarkHandler_<OnVuMarkTargetAvailable>d__12::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Object VuMarkHandler_<OnVuMarkTargetAvailable>d__12::<>2__current
-	RuntimeObject * ___U3CU3E2__current_1;
-	// Vuforia.VuMarkBehaviour VuMarkHandler_<OnVuMarkTargetAvailable>d__12::vumarkBehaviour
-	VuMarkBehaviour_t639ADC64791886C7F8D65CD035E0F0E4C6E2FAC4 * ___vumarkBehaviour_2;
-	// VuMarkHandler VuMarkHandler_<OnVuMarkTargetAvailable>d__12::<>4__this
-	VuMarkHandler_t25B582A1D93CB5EA8B61A5D734598F1C904528EA * ___U3CU3E4__this_3;
-	// VuMarkHandler_<>c__DisplayClass12_0 VuMarkHandler_<OnVuMarkTargetAvailable>d__12::<>8__1
-	U3CU3Ec__DisplayClass12_0_t4B2C7C7463D8C4C3FAADFF967553666CD1958F23 * ___U3CU3E8__1_4;
-
-public:
-	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3COnVuMarkTargetAvailableU3Ed__12_t56430753AEA0B8989DC9565A574DE4AE470875A4, ___U3CU3E1__state_0)); }
-	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
-	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
-	inline void set_U3CU3E1__state_0(int32_t value)
-	{
-		___U3CU3E1__state_0 = value;
-	}
-
-	inline static int32_t get_offset_of_U3CU3E2__current_1() { return static_cast<int32_t>(offsetof(U3COnVuMarkTargetAvailableU3Ed__12_t56430753AEA0B8989DC9565A574DE4AE470875A4, ___U3CU3E2__current_1)); }
-	inline RuntimeObject * get_U3CU3E2__current_1() const { return ___U3CU3E2__current_1; }
-	inline RuntimeObject ** get_address_of_U3CU3E2__current_1() { return &___U3CU3E2__current_1; }
-	inline void set_U3CU3E2__current_1(RuntimeObject * value)
-	{
-		___U3CU3E2__current_1 = value;
-		Il2CppCodeGenWriteBarrier((&___U3CU3E2__current_1), value);
-	}
-
-	inline static int32_t get_offset_of_vumarkBehaviour_2() { return static_cast<int32_t>(offsetof(U3COnVuMarkTargetAvailableU3Ed__12_t56430753AEA0B8989DC9565A574DE4AE470875A4, ___vumarkBehaviour_2)); }
-	inline VuMarkBehaviour_t639ADC64791886C7F8D65CD035E0F0E4C6E2FAC4 * get_vumarkBehaviour_2() const { return ___vumarkBehaviour_2; }
-	inline VuMarkBehaviour_t639ADC64791886C7F8D65CD035E0F0E4C6E2FAC4 ** get_address_of_vumarkBehaviour_2() { return &___vumarkBehaviour_2; }
-	inline void set_vumarkBehaviour_2(VuMarkBehaviour_t639ADC64791886C7F8D65CD035E0F0E4C6E2FAC4 * value)
-	{
-		___vumarkBehaviour_2 = value;
-		Il2CppCodeGenWriteBarrier((&___vumarkBehaviour_2), value);
-	}
-
-	inline static int32_t get_offset_of_U3CU3E4__this_3() { return static_cast<int32_t>(offsetof(U3COnVuMarkTargetAvailableU3Ed__12_t56430753AEA0B8989DC9565A574DE4AE470875A4, ___U3CU3E4__this_3)); }
-	inline VuMarkHandler_t25B582A1D93CB5EA8B61A5D734598F1C904528EA * get_U3CU3E4__this_3() const { return ___U3CU3E4__this_3; }
-	inline VuMarkHandler_t25B582A1D93CB5EA8B61A5D734598F1C904528EA ** get_address_of_U3CU3E4__this_3() { return &___U3CU3E4__this_3; }
-	inline void set_U3CU3E4__this_3(VuMarkHandler_t25B582A1D93CB5EA8B61A5D734598F1C904528EA * value)
-	{
-		___U3CU3E4__this_3 = value;
-		Il2CppCodeGenWriteBarrier((&___U3CU3E4__this_3), value);
-	}
-
-	inline static int32_t get_offset_of_U3CU3E8__1_4() { return static_cast<int32_t>(offsetof(U3COnVuMarkTargetAvailableU3Ed__12_t56430753AEA0B8989DC9565A574DE4AE470875A4, ___U3CU3E8__1_4)); }
-	inline U3CU3Ec__DisplayClass12_0_t4B2C7C7463D8C4C3FAADFF967553666CD1958F23 * get_U3CU3E8__1_4() const { return ___U3CU3E8__1_4; }
-	inline U3CU3Ec__DisplayClass12_0_t4B2C7C7463D8C4C3FAADFF967553666CD1958F23 ** get_address_of_U3CU3E8__1_4() { return &___U3CU3E8__1_4; }
-	inline void set_U3CU3E8__1_4(U3CU3Ec__DisplayClass12_0_t4B2C7C7463D8C4C3FAADFF967553666CD1958F23 * value)
-	{
-		___U3CU3E8__1_4 = value;
-		Il2CppCodeGenWriteBarrier((&___U3CU3E8__1_4), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // U3CONVUMARKTARGETAVAILABLEU3ED__12_T56430753AEA0B8989DC9565A574DE4AE470875A4_H
-#ifndef AUGMENTATIONOBJECT_T8F6D1880BF472F5C9A272AC91B331BA8172DAD26_H
-#define AUGMENTATIONOBJECT_T8F6D1880BF472F5C9A272AC91B331BA8172DAD26_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// VuMarkHandler_AugmentationObject
-struct  AugmentationObject_t8F6D1880BF472F5C9A272AC91B331BA8172DAD26  : public RuntimeObject
-{
-public:
-	// System.String VuMarkHandler_AugmentationObject::vumarkID
-	String_t* ___vumarkID_0;
-	// UnityEngine.GameObject VuMarkHandler_AugmentationObject::augmentation
-	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___augmentation_1;
-
-public:
-	inline static int32_t get_offset_of_vumarkID_0() { return static_cast<int32_t>(offsetof(AugmentationObject_t8F6D1880BF472F5C9A272AC91B331BA8172DAD26, ___vumarkID_0)); }
-	inline String_t* get_vumarkID_0() const { return ___vumarkID_0; }
-	inline String_t** get_address_of_vumarkID_0() { return &___vumarkID_0; }
-	inline void set_vumarkID_0(String_t* value)
-	{
-		___vumarkID_0 = value;
-		Il2CppCodeGenWriteBarrier((&___vumarkID_0), value);
-	}
-
-	inline static int32_t get_offset_of_augmentation_1() { return static_cast<int32_t>(offsetof(AugmentationObject_t8F6D1880BF472F5C9A272AC91B331BA8172DAD26, ___augmentation_1)); }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * get_augmentation_1() const { return ___augmentation_1; }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F ** get_address_of_augmentation_1() { return &___augmentation_1; }
-	inline void set_augmentation_1(GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * value)
-	{
-		___augmentation_1 = value;
-		Il2CppCodeGenWriteBarrier((&___augmentation_1), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // AUGMENTATIONOBJECT_T8F6D1880BF472F5C9A272AC91B331BA8172DAD26_H
-#ifndef MIDIMESSAGE_T8CD3ADBE3F82C837CFC39B070CB428BF1A246DA8_H
-#define MIDIMESSAGE_T8CD3ADBE3F82C837CFC39B070CB428BF1A246DA8_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// MidiJack.MidiMessage
-struct  MidiMessage_t8CD3ADBE3F82C837CFC39B070CB428BF1A246DA8 
-{
-public:
-	// System.UInt32 MidiJack.MidiMessage::source
-	uint32_t ___source_0;
-	// System.Byte MidiJack.MidiMessage::status
-	uint8_t ___status_1;
-	// System.Byte MidiJack.MidiMessage::data1
-	uint8_t ___data1_2;
-	// System.Byte MidiJack.MidiMessage::data2
-	uint8_t ___data2_3;
-
-public:
-	inline static int32_t get_offset_of_source_0() { return static_cast<int32_t>(offsetof(MidiMessage_t8CD3ADBE3F82C837CFC39B070CB428BF1A246DA8, ___source_0)); }
-	inline uint32_t get_source_0() const { return ___source_0; }
-	inline uint32_t* get_address_of_source_0() { return &___source_0; }
-	inline void set_source_0(uint32_t value)
-	{
-		___source_0 = value;
-	}
-
-	inline static int32_t get_offset_of_status_1() { return static_cast<int32_t>(offsetof(MidiMessage_t8CD3ADBE3F82C837CFC39B070CB428BF1A246DA8, ___status_1)); }
-	inline uint8_t get_status_1() const { return ___status_1; }
-	inline uint8_t* get_address_of_status_1() { return &___status_1; }
-	inline void set_status_1(uint8_t value)
-	{
-		___status_1 = value;
-	}
-
-	inline static int32_t get_offset_of_data1_2() { return static_cast<int32_t>(offsetof(MidiMessage_t8CD3ADBE3F82C837CFC39B070CB428BF1A246DA8, ___data1_2)); }
-	inline uint8_t get_data1_2() const { return ___data1_2; }
-	inline uint8_t* get_address_of_data1_2() { return &___data1_2; }
-	inline void set_data1_2(uint8_t value)
-	{
-		___data1_2 = value;
-	}
-
-	inline static int32_t get_offset_of_data2_3() { return static_cast<int32_t>(offsetof(MidiMessage_t8CD3ADBE3F82C837CFC39B070CB428BF1A246DA8, ___data2_3)); }
-	inline uint8_t get_data2_3() const { return ___data2_3; }
-	inline uint8_t* get_address_of_data2_3() { return &___data2_3; }
-	inline void set_data2_3(uint8_t value)
-	{
-		___data2_3 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // MIDIMESSAGE_T8CD3ADBE3F82C837CFC39B070CB428BF1A246DA8_H
+#endif // IL2CPPCOMOBJECT_H
 #ifndef ENUM_T2AF27C02B8653AE29442467390005ABC74D8F521_H
 #define ENUM_T2AF27C02B8653AE29442467390005ABC74D8F521_H
 #ifdef __clang__
@@ -1625,26 +872,193 @@ struct Enum_t2AF27C02B8653AE29442467390005ABC74D8F521_marshaled_com
 {
 };
 #endif // ENUM_T2AF27C02B8653AE29442467390005ABC74D8F521_H
-#ifndef INT32_T585191389E07734F19F3156FF88FB3EF4800D102_H
-#define INT32_T585191389E07734F19F3156FF88FB3EF4800D102_H
+#ifndef GUID_T_H
+#define GUID_T_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.Int32
-struct  Int32_t585191389E07734F19F3156FF88FB3EF4800D102 
+// System.Guid
+struct  Guid_t 
 {
 public:
-	// System.Int32 System.Int32::m_value
-	int32_t ___m_value_0;
+	// System.Int32 System.Guid::_a
+	int32_t ____a_1;
+	// System.Int16 System.Guid::_b
+	int16_t ____b_2;
+	// System.Int16 System.Guid::_c
+	int16_t ____c_3;
+	// System.Byte System.Guid::_d
+	uint8_t ____d_4;
+	// System.Byte System.Guid::_e
+	uint8_t ____e_5;
+	// System.Byte System.Guid::_f
+	uint8_t ____f_6;
+	// System.Byte System.Guid::_g
+	uint8_t ____g_7;
+	// System.Byte System.Guid::_h
+	uint8_t ____h_8;
+	// System.Byte System.Guid::_i
+	uint8_t ____i_9;
+	// System.Byte System.Guid::_j
+	uint8_t ____j_10;
+	// System.Byte System.Guid::_k
+	uint8_t ____k_11;
 
 public:
-	inline static int32_t get_offset_of_m_value_0() { return static_cast<int32_t>(offsetof(Int32_t585191389E07734F19F3156FF88FB3EF4800D102, ___m_value_0)); }
-	inline int32_t get_m_value_0() const { return ___m_value_0; }
-	inline int32_t* get_address_of_m_value_0() { return &___m_value_0; }
-	inline void set_m_value_0(int32_t value)
+	inline static int32_t get_offset_of__a_1() { return static_cast<int32_t>(offsetof(Guid_t, ____a_1)); }
+	inline int32_t get__a_1() const { return ____a_1; }
+	inline int32_t* get_address_of__a_1() { return &____a_1; }
+	inline void set__a_1(int32_t value)
+	{
+		____a_1 = value;
+	}
+
+	inline static int32_t get_offset_of__b_2() { return static_cast<int32_t>(offsetof(Guid_t, ____b_2)); }
+	inline int16_t get__b_2() const { return ____b_2; }
+	inline int16_t* get_address_of__b_2() { return &____b_2; }
+	inline void set__b_2(int16_t value)
+	{
+		____b_2 = value;
+	}
+
+	inline static int32_t get_offset_of__c_3() { return static_cast<int32_t>(offsetof(Guid_t, ____c_3)); }
+	inline int16_t get__c_3() const { return ____c_3; }
+	inline int16_t* get_address_of__c_3() { return &____c_3; }
+	inline void set__c_3(int16_t value)
+	{
+		____c_3 = value;
+	}
+
+	inline static int32_t get_offset_of__d_4() { return static_cast<int32_t>(offsetof(Guid_t, ____d_4)); }
+	inline uint8_t get__d_4() const { return ____d_4; }
+	inline uint8_t* get_address_of__d_4() { return &____d_4; }
+	inline void set__d_4(uint8_t value)
+	{
+		____d_4 = value;
+	}
+
+	inline static int32_t get_offset_of__e_5() { return static_cast<int32_t>(offsetof(Guid_t, ____e_5)); }
+	inline uint8_t get__e_5() const { return ____e_5; }
+	inline uint8_t* get_address_of__e_5() { return &____e_5; }
+	inline void set__e_5(uint8_t value)
+	{
+		____e_5 = value;
+	}
+
+	inline static int32_t get_offset_of__f_6() { return static_cast<int32_t>(offsetof(Guid_t, ____f_6)); }
+	inline uint8_t get__f_6() const { return ____f_6; }
+	inline uint8_t* get_address_of__f_6() { return &____f_6; }
+	inline void set__f_6(uint8_t value)
+	{
+		____f_6 = value;
+	}
+
+	inline static int32_t get_offset_of__g_7() { return static_cast<int32_t>(offsetof(Guid_t, ____g_7)); }
+	inline uint8_t get__g_7() const { return ____g_7; }
+	inline uint8_t* get_address_of__g_7() { return &____g_7; }
+	inline void set__g_7(uint8_t value)
+	{
+		____g_7 = value;
+	}
+
+	inline static int32_t get_offset_of__h_8() { return static_cast<int32_t>(offsetof(Guid_t, ____h_8)); }
+	inline uint8_t get__h_8() const { return ____h_8; }
+	inline uint8_t* get_address_of__h_8() { return &____h_8; }
+	inline void set__h_8(uint8_t value)
+	{
+		____h_8 = value;
+	}
+
+	inline static int32_t get_offset_of__i_9() { return static_cast<int32_t>(offsetof(Guid_t, ____i_9)); }
+	inline uint8_t get__i_9() const { return ____i_9; }
+	inline uint8_t* get_address_of__i_9() { return &____i_9; }
+	inline void set__i_9(uint8_t value)
+	{
+		____i_9 = value;
+	}
+
+	inline static int32_t get_offset_of__j_10() { return static_cast<int32_t>(offsetof(Guid_t, ____j_10)); }
+	inline uint8_t get__j_10() const { return ____j_10; }
+	inline uint8_t* get_address_of__j_10() { return &____j_10; }
+	inline void set__j_10(uint8_t value)
+	{
+		____j_10 = value;
+	}
+
+	inline static int32_t get_offset_of__k_11() { return static_cast<int32_t>(offsetof(Guid_t, ____k_11)); }
+	inline uint8_t get__k_11() const { return ____k_11; }
+	inline uint8_t* get_address_of__k_11() { return &____k_11; }
+	inline void set__k_11(uint8_t value)
+	{
+		____k_11 = value;
+	}
+};
+
+struct Guid_t_StaticFields
+{
+public:
+	// System.Guid System.Guid::Empty
+	Guid_t  ___Empty_0;
+	// System.Object System.Guid::_rngAccess
+	RuntimeObject * ____rngAccess_12;
+	// System.Security.Cryptography.RandomNumberGenerator System.Guid::_rng
+	RandomNumberGenerator_t12277F7F965BA79C54E4B3BFABD27A5FFB725EE2 * ____rng_13;
+
+public:
+	inline static int32_t get_offset_of_Empty_0() { return static_cast<int32_t>(offsetof(Guid_t_StaticFields, ___Empty_0)); }
+	inline Guid_t  get_Empty_0() const { return ___Empty_0; }
+	inline Guid_t * get_address_of_Empty_0() { return &___Empty_0; }
+	inline void set_Empty_0(Guid_t  value)
+	{
+		___Empty_0 = value;
+	}
+
+	inline static int32_t get_offset_of__rngAccess_12() { return static_cast<int32_t>(offsetof(Guid_t_StaticFields, ____rngAccess_12)); }
+	inline RuntimeObject * get__rngAccess_12() const { return ____rngAccess_12; }
+	inline RuntimeObject ** get_address_of__rngAccess_12() { return &____rngAccess_12; }
+	inline void set__rngAccess_12(RuntimeObject * value)
+	{
+		____rngAccess_12 = value;
+		Il2CppCodeGenWriteBarrier((&____rngAccess_12), value);
+	}
+
+	inline static int32_t get_offset_of__rng_13() { return static_cast<int32_t>(offsetof(Guid_t_StaticFields, ____rng_13)); }
+	inline RandomNumberGenerator_t12277F7F965BA79C54E4B3BFABD27A5FFB725EE2 * get__rng_13() const { return ____rng_13; }
+	inline RandomNumberGenerator_t12277F7F965BA79C54E4B3BFABD27A5FFB725EE2 ** get_address_of__rng_13() { return &____rng_13; }
+	inline void set__rng_13(RandomNumberGenerator_t12277F7F965BA79C54E4B3BFABD27A5FFB725EE2 * value)
+	{
+		____rng_13 = value;
+		Il2CppCodeGenWriteBarrier((&____rng_13), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // GUID_T_H
+#ifndef EVENTREGISTRATIONTOKEN_TE1F3FD8339DB10082B4291DE47C45A352DCB08A7_H
+#define EVENTREGISTRATIONTOKEN_TE1F3FD8339DB10082B4291DE47C45A352DCB08A7_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken
+struct  EventRegistrationToken_tE1F3FD8339DB10082B4291DE47C45A352DCB08A7 
+{
+public:
+	// System.UInt64 System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken::m_value
+	uint64_t ___m_value_0;
+
+public:
+	inline static int32_t get_offset_of_m_value_0() { return static_cast<int32_t>(offsetof(EventRegistrationToken_tE1F3FD8339DB10082B4291DE47C45A352DCB08A7, ___m_value_0)); }
+	inline uint64_t get_m_value_0() const { return ___m_value_0; }
+	inline uint64_t* get_address_of_m_value_0() { return &___m_value_0; }
+	inline void set_m_value_0(uint64_t value)
 	{
 		___m_value_0 = value;
 	}
@@ -1653,539 +1067,1185 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // INT32_T585191389E07734F19F3156FF88FB3EF4800D102_H
-#ifndef INTPTR_T_H
-#define INTPTR_T_H
+#endif // EVENTREGISTRATIONTOKEN_TE1F3FD8339DB10082B4291DE47C45A352DCB08A7_H
+#ifndef SOFTWAREBITMAP_T871B3C0711A694F4528932C74C6772A4B469710C_H
+#define SOFTWAREBITMAP_T871B3C0711A694F4528932C74C6772A4B469710C_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.IntPtr
-struct  IntPtr_t 
+// Windows.Graphics.Imaging.SoftwareBitmap
+struct  SoftwareBitmap_t871B3C0711A694F4528932C74C6772A4B469710C  : public Il2CppComObject
 {
 public:
-	// System.Void* System.IntPtr::m_value
-	void* ___m_value_0;
+	// Cached pointer to Windows.Graphics.Imaging.ISoftwareBitmap
+	ISoftwareBitmap_tF311080EE78E9ED0F3A927086502A086D0A01206* ____isoftwareBitmap_tF311080EE78E9ED0F3A927086502A086D0A01206;
+	// Cached pointer to Windows.Foundation.IClosable
+	IClosable_t5808AF951019E4388C66F7A88AC569F52F581167* ____iclosable_t5808AF951019E4388C66F7A88AC569F52F581167;
 
 public:
-	inline static int32_t get_offset_of_m_value_0() { return static_cast<int32_t>(offsetof(IntPtr_t, ___m_value_0)); }
-	inline void* get_m_value_0() const { return ___m_value_0; }
-	inline void** get_address_of_m_value_0() { return &___m_value_0; }
-	inline void set_m_value_0(void* value)
+	inline ISoftwareBitmap_tF311080EE78E9ED0F3A927086502A086D0A01206* get_____isoftwareBitmap_tF311080EE78E9ED0F3A927086502A086D0A01206()
 	{
-		___m_value_0 = value;
-	}
-};
-
-struct IntPtr_t_StaticFields
-{
-public:
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
-
-public:
-	inline static int32_t get_offset_of_Zero_1() { return static_cast<int32_t>(offsetof(IntPtr_t_StaticFields, ___Zero_1)); }
-	inline intptr_t get_Zero_1() const { return ___Zero_1; }
-	inline intptr_t* get_address_of_Zero_1() { return &___Zero_1; }
-	inline void set_Zero_1(intptr_t value)
-	{
-		___Zero_1 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // INTPTR_T_H
-#ifndef SINGLE_TDDDA9169C4E4E308AC6D7A824F9B28DC82204AE1_H
-#define SINGLE_TDDDA9169C4E4E308AC6D7A824F9B28DC82204AE1_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Single
-struct  Single_tDDDA9169C4E4E308AC6D7A824F9B28DC82204AE1 
-{
-public:
-	// System.Single System.Single::m_value
-	float ___m_value_0;
-
-public:
-	inline static int32_t get_offset_of_m_value_0() { return static_cast<int32_t>(offsetof(Single_tDDDA9169C4E4E308AC6D7A824F9B28DC82204AE1, ___m_value_0)); }
-	inline float get_m_value_0() const { return ___m_value_0; }
-	inline float* get_address_of_m_value_0() { return &___m_value_0; }
-	inline void set_m_value_0(float value)
-	{
-		___m_value_0 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // SINGLE_TDDDA9169C4E4E308AC6D7A824F9B28DC82204AE1_H
-#ifndef VOID_T22962CB4C05B1D89B55A6E1139F0E87A90987017_H
-#define VOID_T22962CB4C05B1D89B55A6E1139F0E87A90987017_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Void
-struct  Void_t22962CB4C05B1D89B55A6E1139F0E87A90987017 
-{
-public:
-	union
-	{
-		struct
+		ISoftwareBitmap_tF311080EE78E9ED0F3A927086502A086D0A01206* returnValue = ____isoftwareBitmap_tF311080EE78E9ED0F3A927086502A086D0A01206;
+		if (returnValue == NULL)
 		{
-		};
-		uint8_t Void_t22962CB4C05B1D89B55A6E1139F0E87A90987017__padding[1];
-	};
+			const il2cpp_hresult_t hr = identity->QueryInterface(ISoftwareBitmap_tF311080EE78E9ED0F3A927086502A086D0A01206::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
 
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // VOID_T22962CB4C05B1D89B55A6E1139F0E87A90987017_H
-#ifndef COLOR_T119BCA590009762C7223FDD3AF9706653AC84ED2_H
-#define COLOR_T119BCA590009762C7223FDD3AF9706653AC84ED2_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Color
-struct  Color_t119BCA590009762C7223FDD3AF9706653AC84ED2 
-{
-public:
-	// System.Single UnityEngine.Color::r
-	float ___r_0;
-	// System.Single UnityEngine.Color::g
-	float ___g_1;
-	// System.Single UnityEngine.Color::b
-	float ___b_2;
-	// System.Single UnityEngine.Color::a
-	float ___a_3;
-
-public:
-	inline static int32_t get_offset_of_r_0() { return static_cast<int32_t>(offsetof(Color_t119BCA590009762C7223FDD3AF9706653AC84ED2, ___r_0)); }
-	inline float get_r_0() const { return ___r_0; }
-	inline float* get_address_of_r_0() { return &___r_0; }
-	inline void set_r_0(float value)
-	{
-		___r_0 = value;
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<ISoftwareBitmap_tF311080EE78E9ED0F3A927086502A086D0A01206>((&____isoftwareBitmap_tF311080EE78E9ED0F3A927086502A086D0A01206), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____isoftwareBitmap_tF311080EE78E9ED0F3A927086502A086D0A01206;
+			}
+		}
+		return returnValue;
 	}
 
-	inline static int32_t get_offset_of_g_1() { return static_cast<int32_t>(offsetof(Color_t119BCA590009762C7223FDD3AF9706653AC84ED2, ___g_1)); }
-	inline float get_g_1() const { return ___g_1; }
-	inline float* get_address_of_g_1() { return &___g_1; }
-	inline void set_g_1(float value)
+	inline IClosable_t5808AF951019E4388C66F7A88AC569F52F581167* get_____iclosable_t5808AF951019E4388C66F7A88AC569F52F581167()
 	{
-		___g_1 = value;
-	}
+		IClosable_t5808AF951019E4388C66F7A88AC569F52F581167* returnValue = ____iclosable_t5808AF951019E4388C66F7A88AC569F52F581167;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IClosable_t5808AF951019E4388C66F7A88AC569F52F581167::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
 
-	inline static int32_t get_offset_of_b_2() { return static_cast<int32_t>(offsetof(Color_t119BCA590009762C7223FDD3AF9706653AC84ED2, ___b_2)); }
-	inline float get_b_2() const { return ___b_2; }
-	inline float* get_address_of_b_2() { return &___b_2; }
-	inline void set_b_2(float value)
-	{
-		___b_2 = value;
-	}
-
-	inline static int32_t get_offset_of_a_3() { return static_cast<int32_t>(offsetof(Color_t119BCA590009762C7223FDD3AF9706653AC84ED2, ___a_3)); }
-	inline float get_a_3() const { return ___a_3; }
-	inline float* get_address_of_a_3() { return &___a_3; }
-	inline void set_a_3(float value)
-	{
-		___a_3 = value;
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IClosable_t5808AF951019E4388C66F7A88AC569F52F581167>((&____iclosable_t5808AF951019E4388C66F7A88AC569F52F581167), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____iclosable_t5808AF951019E4388C66F7A88AC569F52F581167;
+			}
+		}
+		return returnValue;
 	}
 };
 
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // COLOR_T119BCA590009762C7223FDD3AF9706653AC84ED2_H
-#ifndef QUATERNION_T319F3319A7D43FFA5D819AD6C0A98851F0095357_H
-#define QUATERNION_T319F3319A7D43FFA5D819AD6C0A98851F0095357_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Quaternion
-struct  Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357 
+struct SoftwareBitmap_t871B3C0711A694F4528932C74C6772A4B469710C_StaticFields
 {
 public:
-	// System.Single UnityEngine.Quaternion::x
-	float ___x_0;
-	// System.Single UnityEngine.Quaternion::y
-	float ___y_1;
-	// System.Single UnityEngine.Quaternion::z
-	float ___z_2;
-	// System.Single UnityEngine.Quaternion::w
-	float ___w_3;
+	// Cached pointer to IActivationFactory
+	Il2CppIActivationFactory* activationFactory;
+	// Cached pointer to Windows.Graphics.Imaging.ISoftwareBitmapFactory
+	ISoftwareBitmapFactory_tDCC6F9B370D495BF1367EDE6DD7574C18A03BF1B* ____isoftwareBitmapFactory_tDCC6F9B370D495BF1367EDE6DD7574C18A03BF1B;
+	// Cached pointer to Windows.Graphics.Imaging.ISoftwareBitmapStatics
+	ISoftwareBitmapStatics_tDB7DDB9262610AE1CF9C6B6D84A90529F306E225* ____isoftwareBitmapStatics_tDB7DDB9262610AE1CF9C6B6D84A90529F306E225;
 
 public:
-	inline static int32_t get_offset_of_x_0() { return static_cast<int32_t>(offsetof(Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357, ___x_0)); }
-	inline float get_x_0() const { return ___x_0; }
-	inline float* get_address_of_x_0() { return &___x_0; }
-	inline void set_x_0(float value)
+	inline Il2CppIActivationFactory* get_activationFactory()
 	{
-		___x_0 = value;
+		Il2CppIActivationFactory* returnValue = activationFactory;
+		if (returnValue == NULL)
+		{
+			il2cpp::utils::StringView<Il2CppNativeChar> className(IL2CPP_NATIVE_STRING("Windows.Graphics.Imaging.SoftwareBitmap"));
+			returnValue = il2cpp_codegen_windows_runtime_get_activation_factory(className);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<Il2CppIActivationFactory>((&activationFactory), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = activationFactory;
+			}
+		}
+		return returnValue;
 	}
 
-	inline static int32_t get_offset_of_y_1() { return static_cast<int32_t>(offsetof(Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357, ___y_1)); }
-	inline float get_y_1() const { return ___y_1; }
-	inline float* get_address_of_y_1() { return &___y_1; }
-	inline void set_y_1(float value)
+	inline ISoftwareBitmapFactory_tDCC6F9B370D495BF1367EDE6DD7574C18A03BF1B* get_____isoftwareBitmapFactory_tDCC6F9B370D495BF1367EDE6DD7574C18A03BF1B()
 	{
-		___y_1 = value;
+		ISoftwareBitmapFactory_tDCC6F9B370D495BF1367EDE6DD7574C18A03BF1B* returnValue = ____isoftwareBitmapFactory_tDCC6F9B370D495BF1367EDE6DD7574C18A03BF1B;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = get_activationFactory()->QueryInterface(ISoftwareBitmapFactory_tDCC6F9B370D495BF1367EDE6DD7574C18A03BF1B::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<ISoftwareBitmapFactory_tDCC6F9B370D495BF1367EDE6DD7574C18A03BF1B>((&____isoftwareBitmapFactory_tDCC6F9B370D495BF1367EDE6DD7574C18A03BF1B), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____isoftwareBitmapFactory_tDCC6F9B370D495BF1367EDE6DD7574C18A03BF1B;
+			}
+		}
+		return returnValue;
 	}
 
-	inline static int32_t get_offset_of_z_2() { return static_cast<int32_t>(offsetof(Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357, ___z_2)); }
-	inline float get_z_2() const { return ___z_2; }
-	inline float* get_address_of_z_2() { return &___z_2; }
-	inline void set_z_2(float value)
+	inline ISoftwareBitmapStatics_tDB7DDB9262610AE1CF9C6B6D84A90529F306E225* get_____isoftwareBitmapStatics_tDB7DDB9262610AE1CF9C6B6D84A90529F306E225()
 	{
-		___z_2 = value;
-	}
+		ISoftwareBitmapStatics_tDB7DDB9262610AE1CF9C6B6D84A90529F306E225* returnValue = ____isoftwareBitmapStatics_tDB7DDB9262610AE1CF9C6B6D84A90529F306E225;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = get_activationFactory()->QueryInterface(ISoftwareBitmapStatics_tDB7DDB9262610AE1CF9C6B6D84A90529F306E225::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
 
-	inline static int32_t get_offset_of_w_3() { return static_cast<int32_t>(offsetof(Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357, ___w_3)); }
-	inline float get_w_3() const { return ___w_3; }
-	inline float* get_address_of_w_3() { return &___w_3; }
-	inline void set_w_3(float value)
-	{
-		___w_3 = value;
-	}
-};
-
-struct Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357_StaticFields
-{
-public:
-	// UnityEngine.Quaternion UnityEngine.Quaternion::identityQuaternion
-	Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  ___identityQuaternion_4;
-
-public:
-	inline static int32_t get_offset_of_identityQuaternion_4() { return static_cast<int32_t>(offsetof(Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357_StaticFields, ___identityQuaternion_4)); }
-	inline Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  get_identityQuaternion_4() const { return ___identityQuaternion_4; }
-	inline Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357 * get_address_of_identityQuaternion_4() { return &___identityQuaternion_4; }
-	inline void set_identityQuaternion_4(Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  value)
-	{
-		___identityQuaternion_4 = value;
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<ISoftwareBitmapStatics_tDB7DDB9262610AE1CF9C6B6D84A90529F306E225>((&____isoftwareBitmapStatics_tDB7DDB9262610AE1CF9C6B6D84A90529F306E225), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____isoftwareBitmapStatics_tDB7DDB9262610AE1CF9C6B6D84A90529F306E225;
+			}
+		}
+		return returnValue;
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // QUATERNION_T319F3319A7D43FFA5D819AD6C0A98851F0095357_H
-#ifndef VECTOR2_TA85D2DD88578276CA8A8796756458277E72D073D_H
-#define VECTOR2_TA85D2DD88578276CA8A8796756458277E72D073D_H
+#endif // SOFTWAREBITMAP_T871B3C0711A694F4528932C74C6772A4B469710C_H
+#ifndef MEDIAFRAMEARRIVEDEVENTARGS_TEDB0535697E59BD65D82FC073BE9891E02D91C52_H
+#define MEDIAFRAMEARRIVEDEVENTARGS_TEDB0535697E59BD65D82FC073BE9891E02D91C52_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.Vector2
-struct  Vector2_tA85D2DD88578276CA8A8796756458277E72D073D 
+// Windows.Media.Capture.Frames.MediaFrameArrivedEventArgs
+struct  MediaFrameArrivedEventArgs_tEDB0535697E59BD65D82FC073BE9891E02D91C52  : public Il2CppComObject
 {
 public:
-	// System.Single UnityEngine.Vector2::x
-	float ___x_0;
-	// System.Single UnityEngine.Vector2::y
-	float ___y_1;
+	// Cached pointer to Windows.Media.Capture.Frames.IMediaFrameArrivedEventArgs
+	IMediaFrameArrivedEventArgs_t07A7A43869474634E9BB7EFD85514DDBEC4EDC32* ____imediaFrameArrivedEventArgs_t07A7A43869474634E9BB7EFD85514DDBEC4EDC32;
 
 public:
-	inline static int32_t get_offset_of_x_0() { return static_cast<int32_t>(offsetof(Vector2_tA85D2DD88578276CA8A8796756458277E72D073D, ___x_0)); }
-	inline float get_x_0() const { return ___x_0; }
-	inline float* get_address_of_x_0() { return &___x_0; }
-	inline void set_x_0(float value)
+	inline IMediaFrameArrivedEventArgs_t07A7A43869474634E9BB7EFD85514DDBEC4EDC32* get_____imediaFrameArrivedEventArgs_t07A7A43869474634E9BB7EFD85514DDBEC4EDC32()
 	{
-		___x_0 = value;
-	}
+		IMediaFrameArrivedEventArgs_t07A7A43869474634E9BB7EFD85514DDBEC4EDC32* returnValue = ____imediaFrameArrivedEventArgs_t07A7A43869474634E9BB7EFD85514DDBEC4EDC32;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IMediaFrameArrivedEventArgs_t07A7A43869474634E9BB7EFD85514DDBEC4EDC32::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
 
-	inline static int32_t get_offset_of_y_1() { return static_cast<int32_t>(offsetof(Vector2_tA85D2DD88578276CA8A8796756458277E72D073D, ___y_1)); }
-	inline float get_y_1() const { return ___y_1; }
-	inline float* get_address_of_y_1() { return &___y_1; }
-	inline void set_y_1(float value)
-	{
-		___y_1 = value;
-	}
-};
-
-struct Vector2_tA85D2DD88578276CA8A8796756458277E72D073D_StaticFields
-{
-public:
-	// UnityEngine.Vector2 UnityEngine.Vector2::zeroVector
-	Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___zeroVector_2;
-	// UnityEngine.Vector2 UnityEngine.Vector2::oneVector
-	Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___oneVector_3;
-	// UnityEngine.Vector2 UnityEngine.Vector2::upVector
-	Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___upVector_4;
-	// UnityEngine.Vector2 UnityEngine.Vector2::downVector
-	Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___downVector_5;
-	// UnityEngine.Vector2 UnityEngine.Vector2::leftVector
-	Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___leftVector_6;
-	// UnityEngine.Vector2 UnityEngine.Vector2::rightVector
-	Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___rightVector_7;
-	// UnityEngine.Vector2 UnityEngine.Vector2::positiveInfinityVector
-	Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___positiveInfinityVector_8;
-	// UnityEngine.Vector2 UnityEngine.Vector2::negativeInfinityVector
-	Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___negativeInfinityVector_9;
-
-public:
-	inline static int32_t get_offset_of_zeroVector_2() { return static_cast<int32_t>(offsetof(Vector2_tA85D2DD88578276CA8A8796756458277E72D073D_StaticFields, ___zeroVector_2)); }
-	inline Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  get_zeroVector_2() const { return ___zeroVector_2; }
-	inline Vector2_tA85D2DD88578276CA8A8796756458277E72D073D * get_address_of_zeroVector_2() { return &___zeroVector_2; }
-	inline void set_zeroVector_2(Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  value)
-	{
-		___zeroVector_2 = value;
-	}
-
-	inline static int32_t get_offset_of_oneVector_3() { return static_cast<int32_t>(offsetof(Vector2_tA85D2DD88578276CA8A8796756458277E72D073D_StaticFields, ___oneVector_3)); }
-	inline Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  get_oneVector_3() const { return ___oneVector_3; }
-	inline Vector2_tA85D2DD88578276CA8A8796756458277E72D073D * get_address_of_oneVector_3() { return &___oneVector_3; }
-	inline void set_oneVector_3(Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  value)
-	{
-		___oneVector_3 = value;
-	}
-
-	inline static int32_t get_offset_of_upVector_4() { return static_cast<int32_t>(offsetof(Vector2_tA85D2DD88578276CA8A8796756458277E72D073D_StaticFields, ___upVector_4)); }
-	inline Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  get_upVector_4() const { return ___upVector_4; }
-	inline Vector2_tA85D2DD88578276CA8A8796756458277E72D073D * get_address_of_upVector_4() { return &___upVector_4; }
-	inline void set_upVector_4(Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  value)
-	{
-		___upVector_4 = value;
-	}
-
-	inline static int32_t get_offset_of_downVector_5() { return static_cast<int32_t>(offsetof(Vector2_tA85D2DD88578276CA8A8796756458277E72D073D_StaticFields, ___downVector_5)); }
-	inline Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  get_downVector_5() const { return ___downVector_5; }
-	inline Vector2_tA85D2DD88578276CA8A8796756458277E72D073D * get_address_of_downVector_5() { return &___downVector_5; }
-	inline void set_downVector_5(Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  value)
-	{
-		___downVector_5 = value;
-	}
-
-	inline static int32_t get_offset_of_leftVector_6() { return static_cast<int32_t>(offsetof(Vector2_tA85D2DD88578276CA8A8796756458277E72D073D_StaticFields, ___leftVector_6)); }
-	inline Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  get_leftVector_6() const { return ___leftVector_6; }
-	inline Vector2_tA85D2DD88578276CA8A8796756458277E72D073D * get_address_of_leftVector_6() { return &___leftVector_6; }
-	inline void set_leftVector_6(Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  value)
-	{
-		___leftVector_6 = value;
-	}
-
-	inline static int32_t get_offset_of_rightVector_7() { return static_cast<int32_t>(offsetof(Vector2_tA85D2DD88578276CA8A8796756458277E72D073D_StaticFields, ___rightVector_7)); }
-	inline Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  get_rightVector_7() const { return ___rightVector_7; }
-	inline Vector2_tA85D2DD88578276CA8A8796756458277E72D073D * get_address_of_rightVector_7() { return &___rightVector_7; }
-	inline void set_rightVector_7(Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  value)
-	{
-		___rightVector_7 = value;
-	}
-
-	inline static int32_t get_offset_of_positiveInfinityVector_8() { return static_cast<int32_t>(offsetof(Vector2_tA85D2DD88578276CA8A8796756458277E72D073D_StaticFields, ___positiveInfinityVector_8)); }
-	inline Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  get_positiveInfinityVector_8() const { return ___positiveInfinityVector_8; }
-	inline Vector2_tA85D2DD88578276CA8A8796756458277E72D073D * get_address_of_positiveInfinityVector_8() { return &___positiveInfinityVector_8; }
-	inline void set_positiveInfinityVector_8(Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  value)
-	{
-		___positiveInfinityVector_8 = value;
-	}
-
-	inline static int32_t get_offset_of_negativeInfinityVector_9() { return static_cast<int32_t>(offsetof(Vector2_tA85D2DD88578276CA8A8796756458277E72D073D_StaticFields, ___negativeInfinityVector_9)); }
-	inline Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  get_negativeInfinityVector_9() const { return ___negativeInfinityVector_9; }
-	inline Vector2_tA85D2DD88578276CA8A8796756458277E72D073D * get_address_of_negativeInfinityVector_9() { return &___negativeInfinityVector_9; }
-	inline void set_negativeInfinityVector_9(Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  value)
-	{
-		___negativeInfinityVector_9 = value;
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IMediaFrameArrivedEventArgs_t07A7A43869474634E9BB7EFD85514DDBEC4EDC32>((&____imediaFrameArrivedEventArgs_t07A7A43869474634E9BB7EFD85514DDBEC4EDC32), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____imediaFrameArrivedEventArgs_t07A7A43869474634E9BB7EFD85514DDBEC4EDC32;
+			}
+		}
+		return returnValue;
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // VECTOR2_TA85D2DD88578276CA8A8796756458277E72D073D_H
-#ifndef VECTOR3_TDCF05E21F632FE2BA260C06E0D10CA81513E6720_H
-#define VECTOR3_TDCF05E21F632FE2BA260C06E0D10CA81513E6720_H
+#endif // MEDIAFRAMEARRIVEDEVENTARGS_TEDB0535697E59BD65D82FC073BE9891E02D91C52_H
+#ifndef MEDIAFRAMEREFERENCE_T715F59D5326D7C916CC8EEF6D0DD32E95AE97957_H
+#define MEDIAFRAMEREFERENCE_T715F59D5326D7C916CC8EEF6D0DD32E95AE97957_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.Vector3
-struct  Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 
+// Windows.Media.Capture.Frames.MediaFrameReference
+struct  MediaFrameReference_t715F59D5326D7C916CC8EEF6D0DD32E95AE97957  : public Il2CppComObject
 {
 public:
-	// System.Single UnityEngine.Vector3::x
-	float ___x_2;
-	// System.Single UnityEngine.Vector3::y
-	float ___y_3;
-	// System.Single UnityEngine.Vector3::z
-	float ___z_4;
+	// Cached pointer to Windows.Media.Capture.Frames.IMediaFrameReference
+	IMediaFrameReference_t1A17C7B83A5DA84F0BEF457E534B81A5D5EF1F82* ____imediaFrameReference_t1A17C7B83A5DA84F0BEF457E534B81A5D5EF1F82;
+	// Cached pointer to Windows.Media.Capture.Frames.IMediaFrameReference2
+	IMediaFrameReference2_tE5304240AA43B5095BDF1FD9A62A6039C4493C0A* ____imediaFrameReference2_tE5304240AA43B5095BDF1FD9A62A6039C4493C0A;
+	// Cached pointer to Windows.Foundation.IClosable
+	IClosable_t5808AF951019E4388C66F7A88AC569F52F581167* ____iclosable_t5808AF951019E4388C66F7A88AC569F52F581167;
 
 public:
-	inline static int32_t get_offset_of_x_2() { return static_cast<int32_t>(offsetof(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720, ___x_2)); }
-	inline float get_x_2() const { return ___x_2; }
-	inline float* get_address_of_x_2() { return &___x_2; }
-	inline void set_x_2(float value)
+	inline IMediaFrameReference_t1A17C7B83A5DA84F0BEF457E534B81A5D5EF1F82* get_____imediaFrameReference_t1A17C7B83A5DA84F0BEF457E534B81A5D5EF1F82()
 	{
-		___x_2 = value;
+		IMediaFrameReference_t1A17C7B83A5DA84F0BEF457E534B81A5D5EF1F82* returnValue = ____imediaFrameReference_t1A17C7B83A5DA84F0BEF457E534B81A5D5EF1F82;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IMediaFrameReference_t1A17C7B83A5DA84F0BEF457E534B81A5D5EF1F82::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IMediaFrameReference_t1A17C7B83A5DA84F0BEF457E534B81A5D5EF1F82>((&____imediaFrameReference_t1A17C7B83A5DA84F0BEF457E534B81A5D5EF1F82), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____imediaFrameReference_t1A17C7B83A5DA84F0BEF457E534B81A5D5EF1F82;
+			}
+		}
+		return returnValue;
 	}
 
-	inline static int32_t get_offset_of_y_3() { return static_cast<int32_t>(offsetof(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720, ___y_3)); }
-	inline float get_y_3() const { return ___y_3; }
-	inline float* get_address_of_y_3() { return &___y_3; }
-	inline void set_y_3(float value)
+	inline IMediaFrameReference2_tE5304240AA43B5095BDF1FD9A62A6039C4493C0A* get_____imediaFrameReference2_tE5304240AA43B5095BDF1FD9A62A6039C4493C0A()
 	{
-		___y_3 = value;
+		IMediaFrameReference2_tE5304240AA43B5095BDF1FD9A62A6039C4493C0A* returnValue = ____imediaFrameReference2_tE5304240AA43B5095BDF1FD9A62A6039C4493C0A;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IMediaFrameReference2_tE5304240AA43B5095BDF1FD9A62A6039C4493C0A::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IMediaFrameReference2_tE5304240AA43B5095BDF1FD9A62A6039C4493C0A>((&____imediaFrameReference2_tE5304240AA43B5095BDF1FD9A62A6039C4493C0A), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____imediaFrameReference2_tE5304240AA43B5095BDF1FD9A62A6039C4493C0A;
+			}
+		}
+		return returnValue;
 	}
 
-	inline static int32_t get_offset_of_z_4() { return static_cast<int32_t>(offsetof(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720, ___z_4)); }
-	inline float get_z_4() const { return ___z_4; }
-	inline float* get_address_of_z_4() { return &___z_4; }
-	inline void set_z_4(float value)
+	inline IClosable_t5808AF951019E4388C66F7A88AC569F52F581167* get_____iclosable_t5808AF951019E4388C66F7A88AC569F52F581167()
 	{
-		___z_4 = value;
-	}
-};
+		IClosable_t5808AF951019E4388C66F7A88AC569F52F581167* returnValue = ____iclosable_t5808AF951019E4388C66F7A88AC569F52F581167;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IClosable_t5808AF951019E4388C66F7A88AC569F52F581167::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
 
-struct Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720_StaticFields
-{
-public:
-	// UnityEngine.Vector3 UnityEngine.Vector3::zeroVector
-	Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___zeroVector_5;
-	// UnityEngine.Vector3 UnityEngine.Vector3::oneVector
-	Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___oneVector_6;
-	// UnityEngine.Vector3 UnityEngine.Vector3::upVector
-	Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___upVector_7;
-	// UnityEngine.Vector3 UnityEngine.Vector3::downVector
-	Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___downVector_8;
-	// UnityEngine.Vector3 UnityEngine.Vector3::leftVector
-	Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___leftVector_9;
-	// UnityEngine.Vector3 UnityEngine.Vector3::rightVector
-	Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___rightVector_10;
-	// UnityEngine.Vector3 UnityEngine.Vector3::forwardVector
-	Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___forwardVector_11;
-	// UnityEngine.Vector3 UnityEngine.Vector3::backVector
-	Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___backVector_12;
-	// UnityEngine.Vector3 UnityEngine.Vector3::positiveInfinityVector
-	Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___positiveInfinityVector_13;
-	// UnityEngine.Vector3 UnityEngine.Vector3::negativeInfinityVector
-	Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___negativeInfinityVector_14;
-
-public:
-	inline static int32_t get_offset_of_zeroVector_5() { return static_cast<int32_t>(offsetof(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720_StaticFields, ___zeroVector_5)); }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  get_zeroVector_5() const { return ___zeroVector_5; }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * get_address_of_zeroVector_5() { return &___zeroVector_5; }
-	inline void set_zeroVector_5(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  value)
-	{
-		___zeroVector_5 = value;
-	}
-
-	inline static int32_t get_offset_of_oneVector_6() { return static_cast<int32_t>(offsetof(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720_StaticFields, ___oneVector_6)); }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  get_oneVector_6() const { return ___oneVector_6; }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * get_address_of_oneVector_6() { return &___oneVector_6; }
-	inline void set_oneVector_6(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  value)
-	{
-		___oneVector_6 = value;
-	}
-
-	inline static int32_t get_offset_of_upVector_7() { return static_cast<int32_t>(offsetof(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720_StaticFields, ___upVector_7)); }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  get_upVector_7() const { return ___upVector_7; }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * get_address_of_upVector_7() { return &___upVector_7; }
-	inline void set_upVector_7(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  value)
-	{
-		___upVector_7 = value;
-	}
-
-	inline static int32_t get_offset_of_downVector_8() { return static_cast<int32_t>(offsetof(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720_StaticFields, ___downVector_8)); }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  get_downVector_8() const { return ___downVector_8; }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * get_address_of_downVector_8() { return &___downVector_8; }
-	inline void set_downVector_8(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  value)
-	{
-		___downVector_8 = value;
-	}
-
-	inline static int32_t get_offset_of_leftVector_9() { return static_cast<int32_t>(offsetof(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720_StaticFields, ___leftVector_9)); }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  get_leftVector_9() const { return ___leftVector_9; }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * get_address_of_leftVector_9() { return &___leftVector_9; }
-	inline void set_leftVector_9(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  value)
-	{
-		___leftVector_9 = value;
-	}
-
-	inline static int32_t get_offset_of_rightVector_10() { return static_cast<int32_t>(offsetof(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720_StaticFields, ___rightVector_10)); }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  get_rightVector_10() const { return ___rightVector_10; }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * get_address_of_rightVector_10() { return &___rightVector_10; }
-	inline void set_rightVector_10(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  value)
-	{
-		___rightVector_10 = value;
-	}
-
-	inline static int32_t get_offset_of_forwardVector_11() { return static_cast<int32_t>(offsetof(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720_StaticFields, ___forwardVector_11)); }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  get_forwardVector_11() const { return ___forwardVector_11; }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * get_address_of_forwardVector_11() { return &___forwardVector_11; }
-	inline void set_forwardVector_11(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  value)
-	{
-		___forwardVector_11 = value;
-	}
-
-	inline static int32_t get_offset_of_backVector_12() { return static_cast<int32_t>(offsetof(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720_StaticFields, ___backVector_12)); }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  get_backVector_12() const { return ___backVector_12; }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * get_address_of_backVector_12() { return &___backVector_12; }
-	inline void set_backVector_12(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  value)
-	{
-		___backVector_12 = value;
-	}
-
-	inline static int32_t get_offset_of_positiveInfinityVector_13() { return static_cast<int32_t>(offsetof(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720_StaticFields, ___positiveInfinityVector_13)); }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  get_positiveInfinityVector_13() const { return ___positiveInfinityVector_13; }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * get_address_of_positiveInfinityVector_13() { return &___positiveInfinityVector_13; }
-	inline void set_positiveInfinityVector_13(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  value)
-	{
-		___positiveInfinityVector_13 = value;
-	}
-
-	inline static int32_t get_offset_of_negativeInfinityVector_14() { return static_cast<int32_t>(offsetof(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720_StaticFields, ___negativeInfinityVector_14)); }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  get_negativeInfinityVector_14() const { return ___negativeInfinityVector_14; }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * get_address_of_negativeInfinityVector_14() { return &___negativeInfinityVector_14; }
-	inline void set_negativeInfinityVector_14(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  value)
-	{
-		___negativeInfinityVector_14 = value;
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IClosable_t5808AF951019E4388C66F7A88AC569F52F581167>((&____iclosable_t5808AF951019E4388C66F7A88AC569F52F581167), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____iclosable_t5808AF951019E4388C66F7A88AC569F52F581167;
+			}
+		}
+		return returnValue;
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // VECTOR3_TDCF05E21F632FE2BA260C06E0D10CA81513E6720_H
-#ifndef TURNOFFRENDERING_T931FE22566FBF87F7FA8C2BB89D377B2A65BFDE9_H
-#define TURNOFFRENDERING_T931FE22566FBF87F7FA8C2BB89D377B2A65BFDE9_H
+#endif // MEDIAFRAMEREFERENCE_T715F59D5326D7C916CC8EEF6D0DD32E95AE97957_H
+#ifndef MEDIAFRAMESOURCE_T6FF8936C4424F0E059DBF2B2E89C231EDB9DF3BF_H
+#define MEDIAFRAMESOURCE_T6FF8936C4424F0E059DBF2B2E89C231EDB9DF3BF_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// CustomTurnOffBehaviour_TurnOffRendering
-struct  TurnOffRendering_t931FE22566FBF87F7FA8C2BB89D377B2A65BFDE9 
+// Windows.Media.Capture.Frames.MediaFrameSource
+struct  MediaFrameSource_t6FF8936C4424F0E059DBF2B2E89C231EDB9DF3BF  : public Il2CppComObject
 {
 public:
-	// System.Int32 CustomTurnOffBehaviour_TurnOffRendering::value__
+	// Cached pointer to Windows.Media.Capture.Frames.IMediaFrameSource
+	IMediaFrameSource_tD3308E3D0D7FF40501F566F0DA6A0E3BDEB1AC00* ____imediaFrameSource_tD3308E3D0D7FF40501F566F0DA6A0E3BDEB1AC00;
+
+public:
+	inline IMediaFrameSource_tD3308E3D0D7FF40501F566F0DA6A0E3BDEB1AC00* get_____imediaFrameSource_tD3308E3D0D7FF40501F566F0DA6A0E3BDEB1AC00()
+	{
+		IMediaFrameSource_tD3308E3D0D7FF40501F566F0DA6A0E3BDEB1AC00* returnValue = ____imediaFrameSource_tD3308E3D0D7FF40501F566F0DA6A0E3BDEB1AC00;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IMediaFrameSource_tD3308E3D0D7FF40501F566F0DA6A0E3BDEB1AC00::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IMediaFrameSource_tD3308E3D0D7FF40501F566F0DA6A0E3BDEB1AC00>((&____imediaFrameSource_tD3308E3D0D7FF40501F566F0DA6A0E3BDEB1AC00), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____imediaFrameSource_tD3308E3D0D7FF40501F566F0DA6A0E3BDEB1AC00;
+			}
+		}
+		return returnValue;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // MEDIAFRAMESOURCE_T6FF8936C4424F0E059DBF2B2E89C231EDB9DF3BF_H
+#ifndef MEDIAFRAMESOURCEGROUP_TF997C40F28C6CEB09D9F3BC9F94F275F48F23901_H
+#define MEDIAFRAMESOURCEGROUP_TF997C40F28C6CEB09D9F3BC9F94F275F48F23901_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// Windows.Media.Capture.Frames.MediaFrameSourceGroup
+struct  MediaFrameSourceGroup_tF997C40F28C6CEB09D9F3BC9F94F275F48F23901  : public Il2CppComObject
+{
+public:
+	// Cached pointer to Windows.Media.Capture.Frames.IMediaFrameSourceGroup
+	IMediaFrameSourceGroup_t666F492EE37B820BB6324C17BA513497F569B70A* ____imediaFrameSourceGroup_t666F492EE37B820BB6324C17BA513497F569B70A;
+
+public:
+	inline IMediaFrameSourceGroup_t666F492EE37B820BB6324C17BA513497F569B70A* get_____imediaFrameSourceGroup_t666F492EE37B820BB6324C17BA513497F569B70A()
+	{
+		IMediaFrameSourceGroup_t666F492EE37B820BB6324C17BA513497F569B70A* returnValue = ____imediaFrameSourceGroup_t666F492EE37B820BB6324C17BA513497F569B70A;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IMediaFrameSourceGroup_t666F492EE37B820BB6324C17BA513497F569B70A::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IMediaFrameSourceGroup_t666F492EE37B820BB6324C17BA513497F569B70A>((&____imediaFrameSourceGroup_t666F492EE37B820BB6324C17BA513497F569B70A), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____imediaFrameSourceGroup_t666F492EE37B820BB6324C17BA513497F569B70A;
+			}
+		}
+		return returnValue;
+	}
+};
+
+struct MediaFrameSourceGroup_tF997C40F28C6CEB09D9F3BC9F94F275F48F23901_StaticFields
+{
+public:
+	// Cached pointer to IActivationFactory
+	Il2CppIActivationFactory* activationFactory;
+	// Cached pointer to Windows.Media.Capture.Frames.IMediaFrameSourceGroupStatics
+	IMediaFrameSourceGroupStatics_tA34576A9FF3ADD20A6B5B273AB4FD6604AB6862F* ____imediaFrameSourceGroupStatics_tA34576A9FF3ADD20A6B5B273AB4FD6604AB6862F;
+
+public:
+	inline Il2CppIActivationFactory* get_activationFactory()
+	{
+		Il2CppIActivationFactory* returnValue = activationFactory;
+		if (returnValue == NULL)
+		{
+			il2cpp::utils::StringView<Il2CppNativeChar> className(IL2CPP_NATIVE_STRING("Windows.Media.Capture.Frames.MediaFrameSourceGroup"));
+			returnValue = il2cpp_codegen_windows_runtime_get_activation_factory(className);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<Il2CppIActivationFactory>((&activationFactory), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = activationFactory;
+			}
+		}
+		return returnValue;
+	}
+
+	inline IMediaFrameSourceGroupStatics_tA34576A9FF3ADD20A6B5B273AB4FD6604AB6862F* get_____imediaFrameSourceGroupStatics_tA34576A9FF3ADD20A6B5B273AB4FD6604AB6862F()
+	{
+		IMediaFrameSourceGroupStatics_tA34576A9FF3ADD20A6B5B273AB4FD6604AB6862F* returnValue = ____imediaFrameSourceGroupStatics_tA34576A9FF3ADD20A6B5B273AB4FD6604AB6862F;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = get_activationFactory()->QueryInterface(IMediaFrameSourceGroupStatics_tA34576A9FF3ADD20A6B5B273AB4FD6604AB6862F::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IMediaFrameSourceGroupStatics_tA34576A9FF3ADD20A6B5B273AB4FD6604AB6862F>((&____imediaFrameSourceGroupStatics_tA34576A9FF3ADD20A6B5B273AB4FD6604AB6862F), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____imediaFrameSourceGroupStatics_tA34576A9FF3ADD20A6B5B273AB4FD6604AB6862F;
+			}
+		}
+		return returnValue;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // MEDIAFRAMESOURCEGROUP_TF997C40F28C6CEB09D9F3BC9F94F275F48F23901_H
+#ifndef VIDEOMEDIAFRAME_T22718691D0AAD0F64822EE569F35DEE9EDF60532_H
+#define VIDEOMEDIAFRAME_T22718691D0AAD0F64822EE569F35DEE9EDF60532_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// Windows.Media.Capture.Frames.VideoMediaFrame
+struct  VideoMediaFrame_t22718691D0AAD0F64822EE569F35DEE9EDF60532  : public Il2CppComObject
+{
+public:
+	// Cached pointer to Windows.Media.Capture.Frames.IVideoMediaFrame
+	IVideoMediaFrame_tBA1410A0B2408E43F9973EB75F4797320411343A* ____ivideoMediaFrame_tBA1410A0B2408E43F9973EB75F4797320411343A;
+
+public:
+	inline IVideoMediaFrame_tBA1410A0B2408E43F9973EB75F4797320411343A* get_____ivideoMediaFrame_tBA1410A0B2408E43F9973EB75F4797320411343A()
+	{
+		IVideoMediaFrame_tBA1410A0B2408E43F9973EB75F4797320411343A* returnValue = ____ivideoMediaFrame_tBA1410A0B2408E43F9973EB75F4797320411343A;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IVideoMediaFrame_tBA1410A0B2408E43F9973EB75F4797320411343A::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IVideoMediaFrame_tBA1410A0B2408E43F9973EB75F4797320411343A>((&____ivideoMediaFrame_tBA1410A0B2408E43F9973EB75F4797320411343A), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____ivideoMediaFrame_tBA1410A0B2408E43F9973EB75F4797320411343A;
+			}
+		}
+		return returnValue;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // VIDEOMEDIAFRAME_T22718691D0AAD0F64822EE569F35DEE9EDF60532_H
+#ifndef MEDIADEVICECONTROL_T1258FE1F900A772A8299940F25E149DBDB9E56BE_H
+#define MEDIADEVICECONTROL_T1258FE1F900A772A8299940F25E149DBDB9E56BE_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// Windows.Media.Devices.MediaDeviceControl
+struct  MediaDeviceControl_t1258FE1F900A772A8299940F25E149DBDB9E56BE  : public Il2CppComObject
+{
+public:
+	// Cached pointer to Windows.Media.Devices.IMediaDeviceControl
+	IMediaDeviceControl_t666956282429407E543A29B60E07040E111AF899* ____imediaDeviceControl_t666956282429407E543A29B60E07040E111AF899;
+
+public:
+	inline IMediaDeviceControl_t666956282429407E543A29B60E07040E111AF899* get_____imediaDeviceControl_t666956282429407E543A29B60E07040E111AF899()
+	{
+		IMediaDeviceControl_t666956282429407E543A29B60E07040E111AF899* returnValue = ____imediaDeviceControl_t666956282429407E543A29B60E07040E111AF899;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IMediaDeviceControl_t666956282429407E543A29B60E07040E111AF899::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IMediaDeviceControl_t666956282429407E543A29B60E07040E111AF899>((&____imediaDeviceControl_t666956282429407E543A29B60E07040E111AF899), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____imediaDeviceControl_t666956282429407E543A29B60E07040E111AF899;
+			}
+		}
+		return returnValue;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // MEDIADEVICECONTROL_T1258FE1F900A772A8299940F25E149DBDB9E56BE_H
+#ifndef MEDIAENCODINGSUBTYPES_T5FAA0D0C81884372AC21736D5D96BE5FA4B5F8A1_H
+#define MEDIAENCODINGSUBTYPES_T5FAA0D0C81884372AC21736D5D96BE5FA4B5F8A1_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// Windows.Media.MediaProperties.MediaEncodingSubtypes
+struct  MediaEncodingSubtypes_t5FAA0D0C81884372AC21736D5D96BE5FA4B5F8A1  : public Il2CppComObject
+{
+public:
+
+public:
+};
+
+struct MediaEncodingSubtypes_t5FAA0D0C81884372AC21736D5D96BE5FA4B5F8A1_StaticFields
+{
+public:
+	// Cached pointer to IActivationFactory
+	Il2CppIActivationFactory* activationFactory;
+	// Cached pointer to Windows.Media.MediaProperties.IMediaEncodingSubtypesStatics4
+	IMediaEncodingSubtypesStatics4_t82F4C9E4DFB25D9D17E61C44D2C31EF8B815FE55* ____imediaEncodingSubtypesStatics4_t82F4C9E4DFB25D9D17E61C44D2C31EF8B815FE55;
+	// Cached pointer to Windows.Media.MediaProperties.IMediaEncodingSubtypesStatics
+	IMediaEncodingSubtypesStatics_t45F1A6FEA78173D554298437C1E2A69D72EA67D2* ____imediaEncodingSubtypesStatics_t45F1A6FEA78173D554298437C1E2A69D72EA67D2;
+	// Cached pointer to Windows.Media.MediaProperties.IMediaEncodingSubtypesStatics2
+	IMediaEncodingSubtypesStatics2_t2B6BF183CB0CD1DFD49D954CF64186324E26B01B* ____imediaEncodingSubtypesStatics2_t2B6BF183CB0CD1DFD49D954CF64186324E26B01B;
+	// Cached pointer to Windows.Media.MediaProperties.IMediaEncodingSubtypesStatics3
+	IMediaEncodingSubtypesStatics3_t47F830745F0DFE30D426682E91B747A71EAC12CD* ____imediaEncodingSubtypesStatics3_t47F830745F0DFE30D426682E91B747A71EAC12CD;
+	// Cached pointer to Windows.Media.MediaProperties.IMediaEncodingSubtypesStatics5
+	IMediaEncodingSubtypesStatics5_tB0311A1306690977D21DA0F9929321C729287F59* ____imediaEncodingSubtypesStatics5_tB0311A1306690977D21DA0F9929321C729287F59;
+
+public:
+	inline Il2CppIActivationFactory* get_activationFactory()
+	{
+		Il2CppIActivationFactory* returnValue = activationFactory;
+		if (returnValue == NULL)
+		{
+			il2cpp::utils::StringView<Il2CppNativeChar> className(IL2CPP_NATIVE_STRING("Windows.Media.MediaProperties.MediaEncodingSubtypes"));
+			returnValue = il2cpp_codegen_windows_runtime_get_activation_factory(className);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<Il2CppIActivationFactory>((&activationFactory), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = activationFactory;
+			}
+		}
+		return returnValue;
+	}
+
+	inline IMediaEncodingSubtypesStatics4_t82F4C9E4DFB25D9D17E61C44D2C31EF8B815FE55* get_____imediaEncodingSubtypesStatics4_t82F4C9E4DFB25D9D17E61C44D2C31EF8B815FE55()
+	{
+		IMediaEncodingSubtypesStatics4_t82F4C9E4DFB25D9D17E61C44D2C31EF8B815FE55* returnValue = ____imediaEncodingSubtypesStatics4_t82F4C9E4DFB25D9D17E61C44D2C31EF8B815FE55;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = get_activationFactory()->QueryInterface(IMediaEncodingSubtypesStatics4_t82F4C9E4DFB25D9D17E61C44D2C31EF8B815FE55::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IMediaEncodingSubtypesStatics4_t82F4C9E4DFB25D9D17E61C44D2C31EF8B815FE55>((&____imediaEncodingSubtypesStatics4_t82F4C9E4DFB25D9D17E61C44D2C31EF8B815FE55), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____imediaEncodingSubtypesStatics4_t82F4C9E4DFB25D9D17E61C44D2C31EF8B815FE55;
+			}
+		}
+		return returnValue;
+	}
+
+	inline IMediaEncodingSubtypesStatics_t45F1A6FEA78173D554298437C1E2A69D72EA67D2* get_____imediaEncodingSubtypesStatics_t45F1A6FEA78173D554298437C1E2A69D72EA67D2()
+	{
+		IMediaEncodingSubtypesStatics_t45F1A6FEA78173D554298437C1E2A69D72EA67D2* returnValue = ____imediaEncodingSubtypesStatics_t45F1A6FEA78173D554298437C1E2A69D72EA67D2;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = get_activationFactory()->QueryInterface(IMediaEncodingSubtypesStatics_t45F1A6FEA78173D554298437C1E2A69D72EA67D2::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IMediaEncodingSubtypesStatics_t45F1A6FEA78173D554298437C1E2A69D72EA67D2>((&____imediaEncodingSubtypesStatics_t45F1A6FEA78173D554298437C1E2A69D72EA67D2), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____imediaEncodingSubtypesStatics_t45F1A6FEA78173D554298437C1E2A69D72EA67D2;
+			}
+		}
+		return returnValue;
+	}
+
+	inline IMediaEncodingSubtypesStatics2_t2B6BF183CB0CD1DFD49D954CF64186324E26B01B* get_____imediaEncodingSubtypesStatics2_t2B6BF183CB0CD1DFD49D954CF64186324E26B01B()
+	{
+		IMediaEncodingSubtypesStatics2_t2B6BF183CB0CD1DFD49D954CF64186324E26B01B* returnValue = ____imediaEncodingSubtypesStatics2_t2B6BF183CB0CD1DFD49D954CF64186324E26B01B;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = get_activationFactory()->QueryInterface(IMediaEncodingSubtypesStatics2_t2B6BF183CB0CD1DFD49D954CF64186324E26B01B::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IMediaEncodingSubtypesStatics2_t2B6BF183CB0CD1DFD49D954CF64186324E26B01B>((&____imediaEncodingSubtypesStatics2_t2B6BF183CB0CD1DFD49D954CF64186324E26B01B), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____imediaEncodingSubtypesStatics2_t2B6BF183CB0CD1DFD49D954CF64186324E26B01B;
+			}
+		}
+		return returnValue;
+	}
+
+	inline IMediaEncodingSubtypesStatics3_t47F830745F0DFE30D426682E91B747A71EAC12CD* get_____imediaEncodingSubtypesStatics3_t47F830745F0DFE30D426682E91B747A71EAC12CD()
+	{
+		IMediaEncodingSubtypesStatics3_t47F830745F0DFE30D426682E91B747A71EAC12CD* returnValue = ____imediaEncodingSubtypesStatics3_t47F830745F0DFE30D426682E91B747A71EAC12CD;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = get_activationFactory()->QueryInterface(IMediaEncodingSubtypesStatics3_t47F830745F0DFE30D426682E91B747A71EAC12CD::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IMediaEncodingSubtypesStatics3_t47F830745F0DFE30D426682E91B747A71EAC12CD>((&____imediaEncodingSubtypesStatics3_t47F830745F0DFE30D426682E91B747A71EAC12CD), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____imediaEncodingSubtypesStatics3_t47F830745F0DFE30D426682E91B747A71EAC12CD;
+			}
+		}
+		return returnValue;
+	}
+
+	inline IMediaEncodingSubtypesStatics5_tB0311A1306690977D21DA0F9929321C729287F59* get_____imediaEncodingSubtypesStatics5_tB0311A1306690977D21DA0F9929321C729287F59()
+	{
+		IMediaEncodingSubtypesStatics5_tB0311A1306690977D21DA0F9929321C729287F59* returnValue = ____imediaEncodingSubtypesStatics5_tB0311A1306690977D21DA0F9929321C729287F59;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = get_activationFactory()->QueryInterface(IMediaEncodingSubtypesStatics5_tB0311A1306690977D21DA0F9929321C729287F59::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IMediaEncodingSubtypesStatics5_tB0311A1306690977D21DA0F9929321C729287F59>((&____imediaEncodingSubtypesStatics5_tB0311A1306690977D21DA0F9929321C729287F59), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____imediaEncodingSubtypesStatics5_tB0311A1306690977D21DA0F9929321C729287F59;
+			}
+		}
+		return returnValue;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // MEDIAENCODINGSUBTYPES_T5FAA0D0C81884372AC21736D5D96BE5FA4B5F8A1_H
+#ifndef MEDIARATIO_TC2CF36E10AEFE5F8A09DF33E38AC5B67DE7B910A_H
+#define MEDIARATIO_TC2CF36E10AEFE5F8A09DF33E38AC5B67DE7B910A_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// Windows.Media.MediaProperties.MediaRatio
+struct  MediaRatio_tC2CF36E10AEFE5F8A09DF33E38AC5B67DE7B910A  : public Il2CppComObject
+{
+public:
+	// Cached pointer to Windows.Media.MediaProperties.IMediaRatio
+	IMediaRatio_tDBBB7757E0030AA6510825F6BC0D5FD265CB0E55* ____imediaRatio_tDBBB7757E0030AA6510825F6BC0D5FD265CB0E55;
+
+public:
+	inline IMediaRatio_tDBBB7757E0030AA6510825F6BC0D5FD265CB0E55* get_____imediaRatio_tDBBB7757E0030AA6510825F6BC0D5FD265CB0E55()
+	{
+		IMediaRatio_tDBBB7757E0030AA6510825F6BC0D5FD265CB0E55* returnValue = ____imediaRatio_tDBBB7757E0030AA6510825F6BC0D5FD265CB0E55;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IMediaRatio_tDBBB7757E0030AA6510825F6BC0D5FD265CB0E55::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IMediaRatio_tDBBB7757E0030AA6510825F6BC0D5FD265CB0E55>((&____imediaRatio_tDBBB7757E0030AA6510825F6BC0D5FD265CB0E55), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____imediaRatio_tDBBB7757E0030AA6510825F6BC0D5FD265CB0E55;
+			}
+		}
+		return returnValue;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // MEDIARATIO_TC2CF36E10AEFE5F8A09DF33E38AC5B67DE7B910A_H
+#ifndef VIDEOENCODINGPROPERTIES_TAFED37F348B6713E9E01FE5CAC57C1A3CB3A2652_H
+#define VIDEOENCODINGPROPERTIES_TAFED37F348B6713E9E01FE5CAC57C1A3CB3A2652_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// Windows.Media.MediaProperties.VideoEncodingProperties
+struct  VideoEncodingProperties_tAFED37F348B6713E9E01FE5CAC57C1A3CB3A2652  : public Il2CppComObject
+{
+public:
+	// Cached pointer to Windows.Media.MediaProperties.IVideoEncodingProperties
+	IVideoEncodingProperties_tD45C3489F08F03A97B3FE0BC7E44695344F92D68* ____ivideoEncodingProperties_tD45C3489F08F03A97B3FE0BC7E44695344F92D68;
+	// Cached pointer to Windows.Media.MediaProperties.IMediaEncodingProperties
+	IMediaEncodingProperties_t161B1E1789909965DD52E51AE4703028AB8EB003* ____imediaEncodingProperties_t161B1E1789909965DD52E51AE4703028AB8EB003;
+	// Cached pointer to Windows.Media.MediaProperties.IVideoEncodingProperties2
+	IVideoEncodingProperties2_tC14A8671575FC2276B0979128A90AB11342FD978* ____ivideoEncodingProperties2_tC14A8671575FC2276B0979128A90AB11342FD978;
+	// Cached pointer to Windows.Media.MediaProperties.IVideoEncodingProperties3
+	IVideoEncodingProperties3_t6DBEBF2F6C3C16C2B8C318E4C15321D3F9325864* ____ivideoEncodingProperties3_t6DBEBF2F6C3C16C2B8C318E4C15321D3F9325864;
+	// Cached pointer to Windows.Media.MediaProperties.IVideoEncodingProperties4
+	IVideoEncodingProperties4_t17EB6B012BC70A9E8BBE184BDC8139BD0E51A216* ____ivideoEncodingProperties4_t17EB6B012BC70A9E8BBE184BDC8139BD0E51A216;
+	// Cached pointer to Windows.Media.MediaProperties.IVideoEncodingProperties5
+	IVideoEncodingProperties5_t4B3702033B965E27CECE1BFE811218A715B4E1A0* ____ivideoEncodingProperties5_t4B3702033B965E27CECE1BFE811218A715B4E1A0;
+
+public:
+	inline IVideoEncodingProperties_tD45C3489F08F03A97B3FE0BC7E44695344F92D68* get_____ivideoEncodingProperties_tD45C3489F08F03A97B3FE0BC7E44695344F92D68()
+	{
+		IVideoEncodingProperties_tD45C3489F08F03A97B3FE0BC7E44695344F92D68* returnValue = ____ivideoEncodingProperties_tD45C3489F08F03A97B3FE0BC7E44695344F92D68;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IVideoEncodingProperties_tD45C3489F08F03A97B3FE0BC7E44695344F92D68::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IVideoEncodingProperties_tD45C3489F08F03A97B3FE0BC7E44695344F92D68>((&____ivideoEncodingProperties_tD45C3489F08F03A97B3FE0BC7E44695344F92D68), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____ivideoEncodingProperties_tD45C3489F08F03A97B3FE0BC7E44695344F92D68;
+			}
+		}
+		return returnValue;
+	}
+
+	inline IMediaEncodingProperties_t161B1E1789909965DD52E51AE4703028AB8EB003* get_____imediaEncodingProperties_t161B1E1789909965DD52E51AE4703028AB8EB003()
+	{
+		IMediaEncodingProperties_t161B1E1789909965DD52E51AE4703028AB8EB003* returnValue = ____imediaEncodingProperties_t161B1E1789909965DD52E51AE4703028AB8EB003;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IMediaEncodingProperties_t161B1E1789909965DD52E51AE4703028AB8EB003::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IMediaEncodingProperties_t161B1E1789909965DD52E51AE4703028AB8EB003>((&____imediaEncodingProperties_t161B1E1789909965DD52E51AE4703028AB8EB003), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____imediaEncodingProperties_t161B1E1789909965DD52E51AE4703028AB8EB003;
+			}
+		}
+		return returnValue;
+	}
+
+	inline IVideoEncodingProperties2_tC14A8671575FC2276B0979128A90AB11342FD978* get_____ivideoEncodingProperties2_tC14A8671575FC2276B0979128A90AB11342FD978()
+	{
+		IVideoEncodingProperties2_tC14A8671575FC2276B0979128A90AB11342FD978* returnValue = ____ivideoEncodingProperties2_tC14A8671575FC2276B0979128A90AB11342FD978;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IVideoEncodingProperties2_tC14A8671575FC2276B0979128A90AB11342FD978::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IVideoEncodingProperties2_tC14A8671575FC2276B0979128A90AB11342FD978>((&____ivideoEncodingProperties2_tC14A8671575FC2276B0979128A90AB11342FD978), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____ivideoEncodingProperties2_tC14A8671575FC2276B0979128A90AB11342FD978;
+			}
+		}
+		return returnValue;
+	}
+
+	inline IVideoEncodingProperties3_t6DBEBF2F6C3C16C2B8C318E4C15321D3F9325864* get_____ivideoEncodingProperties3_t6DBEBF2F6C3C16C2B8C318E4C15321D3F9325864()
+	{
+		IVideoEncodingProperties3_t6DBEBF2F6C3C16C2B8C318E4C15321D3F9325864* returnValue = ____ivideoEncodingProperties3_t6DBEBF2F6C3C16C2B8C318E4C15321D3F9325864;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IVideoEncodingProperties3_t6DBEBF2F6C3C16C2B8C318E4C15321D3F9325864::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IVideoEncodingProperties3_t6DBEBF2F6C3C16C2B8C318E4C15321D3F9325864>((&____ivideoEncodingProperties3_t6DBEBF2F6C3C16C2B8C318E4C15321D3F9325864), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____ivideoEncodingProperties3_t6DBEBF2F6C3C16C2B8C318E4C15321D3F9325864;
+			}
+		}
+		return returnValue;
+	}
+
+	inline IVideoEncodingProperties4_t17EB6B012BC70A9E8BBE184BDC8139BD0E51A216* get_____ivideoEncodingProperties4_t17EB6B012BC70A9E8BBE184BDC8139BD0E51A216()
+	{
+		IVideoEncodingProperties4_t17EB6B012BC70A9E8BBE184BDC8139BD0E51A216* returnValue = ____ivideoEncodingProperties4_t17EB6B012BC70A9E8BBE184BDC8139BD0E51A216;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IVideoEncodingProperties4_t17EB6B012BC70A9E8BBE184BDC8139BD0E51A216::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IVideoEncodingProperties4_t17EB6B012BC70A9E8BBE184BDC8139BD0E51A216>((&____ivideoEncodingProperties4_t17EB6B012BC70A9E8BBE184BDC8139BD0E51A216), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____ivideoEncodingProperties4_t17EB6B012BC70A9E8BBE184BDC8139BD0E51A216;
+			}
+		}
+		return returnValue;
+	}
+
+	inline IVideoEncodingProperties5_t4B3702033B965E27CECE1BFE811218A715B4E1A0* get_____ivideoEncodingProperties5_t4B3702033B965E27CECE1BFE811218A715B4E1A0()
+	{
+		IVideoEncodingProperties5_t4B3702033B965E27CECE1BFE811218A715B4E1A0* returnValue = ____ivideoEncodingProperties5_t4B3702033B965E27CECE1BFE811218A715B4E1A0;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IVideoEncodingProperties5_t4B3702033B965E27CECE1BFE811218A715B4E1A0::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IVideoEncodingProperties5_t4B3702033B965E27CECE1BFE811218A715B4E1A0>((&____ivideoEncodingProperties5_t4B3702033B965E27CECE1BFE811218A715B4E1A0), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____ivideoEncodingProperties5_t4B3702033B965E27CECE1BFE811218A715B4E1A0;
+			}
+		}
+		return returnValue;
+	}
+};
+
+struct VideoEncodingProperties_tAFED37F348B6713E9E01FE5CAC57C1A3CB3A2652_StaticFields
+{
+public:
+	// Cached pointer to IActivationFactory
+	Il2CppIActivationFactory* activationFactory;
+	// Cached pointer to Windows.Media.MediaProperties.IVideoEncodingPropertiesStatics2
+	IVideoEncodingPropertiesStatics2_t4551D182D5576ED7B3888651840B73416B8EE22E* ____ivideoEncodingPropertiesStatics2_t4551D182D5576ED7B3888651840B73416B8EE22E;
+	// Cached pointer to Windows.Media.MediaProperties.IVideoEncodingPropertiesStatics
+	IVideoEncodingPropertiesStatics_t5C1FFB0BBFB5DA97B49E75A2CAD934ED984D557F* ____ivideoEncodingPropertiesStatics_t5C1FFB0BBFB5DA97B49E75A2CAD934ED984D557F;
+
+public:
+	inline Il2CppIActivationFactory* get_activationFactory()
+	{
+		Il2CppIActivationFactory* returnValue = activationFactory;
+		if (returnValue == NULL)
+		{
+			il2cpp::utils::StringView<Il2CppNativeChar> className(IL2CPP_NATIVE_STRING("Windows.Media.MediaProperties.VideoEncodingProperties"));
+			returnValue = il2cpp_codegen_windows_runtime_get_activation_factory(className);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<Il2CppIActivationFactory>((&activationFactory), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = activationFactory;
+			}
+		}
+		return returnValue;
+	}
+
+	inline IVideoEncodingPropertiesStatics2_t4551D182D5576ED7B3888651840B73416B8EE22E* get_____ivideoEncodingPropertiesStatics2_t4551D182D5576ED7B3888651840B73416B8EE22E()
+	{
+		IVideoEncodingPropertiesStatics2_t4551D182D5576ED7B3888651840B73416B8EE22E* returnValue = ____ivideoEncodingPropertiesStatics2_t4551D182D5576ED7B3888651840B73416B8EE22E;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = get_activationFactory()->QueryInterface(IVideoEncodingPropertiesStatics2_t4551D182D5576ED7B3888651840B73416B8EE22E::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IVideoEncodingPropertiesStatics2_t4551D182D5576ED7B3888651840B73416B8EE22E>((&____ivideoEncodingPropertiesStatics2_t4551D182D5576ED7B3888651840B73416B8EE22E), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____ivideoEncodingPropertiesStatics2_t4551D182D5576ED7B3888651840B73416B8EE22E;
+			}
+		}
+		return returnValue;
+	}
+
+	inline IVideoEncodingPropertiesStatics_t5C1FFB0BBFB5DA97B49E75A2CAD934ED984D557F* get_____ivideoEncodingPropertiesStatics_t5C1FFB0BBFB5DA97B49E75A2CAD934ED984D557F()
+	{
+		IVideoEncodingPropertiesStatics_t5C1FFB0BBFB5DA97B49E75A2CAD934ED984D557F* returnValue = ____ivideoEncodingPropertiesStatics_t5C1FFB0BBFB5DA97B49E75A2CAD934ED984D557F;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = get_activationFactory()->QueryInterface(IVideoEncodingPropertiesStatics_t5C1FFB0BBFB5DA97B49E75A2CAD934ED984D557F::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IVideoEncodingPropertiesStatics_t5C1FFB0BBFB5DA97B49E75A2CAD934ED984D557F>((&____ivideoEncodingPropertiesStatics_t5C1FFB0BBFB5DA97B49E75A2CAD934ED984D557F), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____ivideoEncodingPropertiesStatics_t5C1FFB0BBFB5DA97B49E75A2CAD934ED984D557F;
+			}
+		}
+		return returnValue;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // VIDEOENCODINGPROPERTIES_TAFED37F348B6713E9E01FE5CAC57C1A3CB3A2652_H
+#ifndef SPEECHSYNTHESIZER_T3FDCAAF5EABFC84F7D3C3F85E728E05BCBA97CA2_H
+#define SPEECHSYNTHESIZER_T3FDCAAF5EABFC84F7D3C3F85E728E05BCBA97CA2_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// Windows.Media.SpeechSynthesis.SpeechSynthesizer
+struct  SpeechSynthesizer_t3FDCAAF5EABFC84F7D3C3F85E728E05BCBA97CA2  : public Il2CppComObject
+{
+public:
+	// Cached pointer to Windows.Media.SpeechSynthesis.ISpeechSynthesizer
+	ISpeechSynthesizer_t091D478F98B160C7BDC66FD80727A7C43D9345EA* ____ispeechSynthesizer_t091D478F98B160C7BDC66FD80727A7C43D9345EA;
+	// Cached pointer to Windows.Media.SpeechSynthesis.ISpeechSynthesizer2
+	ISpeechSynthesizer2_t0D042039205C82FA8EF06BE41815B86301E83795* ____ispeechSynthesizer2_t0D042039205C82FA8EF06BE41815B86301E83795;
+	// Cached pointer to Windows.Foundation.IClosable
+	IClosable_t5808AF951019E4388C66F7A88AC569F52F581167* ____iclosable_t5808AF951019E4388C66F7A88AC569F52F581167;
+
+public:
+	inline ISpeechSynthesizer_t091D478F98B160C7BDC66FD80727A7C43D9345EA* get_____ispeechSynthesizer_t091D478F98B160C7BDC66FD80727A7C43D9345EA()
+	{
+		ISpeechSynthesizer_t091D478F98B160C7BDC66FD80727A7C43D9345EA* returnValue = ____ispeechSynthesizer_t091D478F98B160C7BDC66FD80727A7C43D9345EA;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(ISpeechSynthesizer_t091D478F98B160C7BDC66FD80727A7C43D9345EA::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<ISpeechSynthesizer_t091D478F98B160C7BDC66FD80727A7C43D9345EA>((&____ispeechSynthesizer_t091D478F98B160C7BDC66FD80727A7C43D9345EA), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____ispeechSynthesizer_t091D478F98B160C7BDC66FD80727A7C43D9345EA;
+			}
+		}
+		return returnValue;
+	}
+
+	inline ISpeechSynthesizer2_t0D042039205C82FA8EF06BE41815B86301E83795* get_____ispeechSynthesizer2_t0D042039205C82FA8EF06BE41815B86301E83795()
+	{
+		ISpeechSynthesizer2_t0D042039205C82FA8EF06BE41815B86301E83795* returnValue = ____ispeechSynthesizer2_t0D042039205C82FA8EF06BE41815B86301E83795;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(ISpeechSynthesizer2_t0D042039205C82FA8EF06BE41815B86301E83795::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<ISpeechSynthesizer2_t0D042039205C82FA8EF06BE41815B86301E83795>((&____ispeechSynthesizer2_t0D042039205C82FA8EF06BE41815B86301E83795), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____ispeechSynthesizer2_t0D042039205C82FA8EF06BE41815B86301E83795;
+			}
+		}
+		return returnValue;
+	}
+
+	inline IClosable_t5808AF951019E4388C66F7A88AC569F52F581167* get_____iclosable_t5808AF951019E4388C66F7A88AC569F52F581167()
+	{
+		IClosable_t5808AF951019E4388C66F7A88AC569F52F581167* returnValue = ____iclosable_t5808AF951019E4388C66F7A88AC569F52F581167;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IClosable_t5808AF951019E4388C66F7A88AC569F52F581167::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IClosable_t5808AF951019E4388C66F7A88AC569F52F581167>((&____iclosable_t5808AF951019E4388C66F7A88AC569F52F581167), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____iclosable_t5808AF951019E4388C66F7A88AC569F52F581167;
+			}
+		}
+		return returnValue;
+	}
+};
+
+struct SpeechSynthesizer_t3FDCAAF5EABFC84F7D3C3F85E728E05BCBA97CA2_StaticFields
+{
+public:
+	// Cached pointer to IActivationFactory
+	Il2CppIActivationFactory* activationFactory;
+	// Cached pointer to Windows.Media.SpeechSynthesis.IInstalledVoicesStatic
+	IInstalledVoicesStatic_t5603923E9B07BC445EF1704DF763BD9A8DE8EA26* ____iinstalledVoicesStatic_t5603923E9B07BC445EF1704DF763BD9A8DE8EA26;
+	// Cached pointer to Windows.Media.SpeechSynthesis.IInstalledVoicesStatic2
+	IInstalledVoicesStatic2_t4E597FCEFC1FE77F34510156BDF478520D211B3F* ____iinstalledVoicesStatic2_t4E597FCEFC1FE77F34510156BDF478520D211B3F;
+
+public:
+	inline Il2CppIActivationFactory* get_activationFactory()
+	{
+		Il2CppIActivationFactory* returnValue = activationFactory;
+		if (returnValue == NULL)
+		{
+			il2cpp::utils::StringView<Il2CppNativeChar> className(IL2CPP_NATIVE_STRING("Windows.Media.SpeechSynthesis.SpeechSynthesizer"));
+			returnValue = il2cpp_codegen_windows_runtime_get_activation_factory(className);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<Il2CppIActivationFactory>((&activationFactory), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = activationFactory;
+			}
+		}
+		return returnValue;
+	}
+
+	inline IInstalledVoicesStatic_t5603923E9B07BC445EF1704DF763BD9A8DE8EA26* get_____iinstalledVoicesStatic_t5603923E9B07BC445EF1704DF763BD9A8DE8EA26()
+	{
+		IInstalledVoicesStatic_t5603923E9B07BC445EF1704DF763BD9A8DE8EA26* returnValue = ____iinstalledVoicesStatic_t5603923E9B07BC445EF1704DF763BD9A8DE8EA26;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = get_activationFactory()->QueryInterface(IInstalledVoicesStatic_t5603923E9B07BC445EF1704DF763BD9A8DE8EA26::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IInstalledVoicesStatic_t5603923E9B07BC445EF1704DF763BD9A8DE8EA26>((&____iinstalledVoicesStatic_t5603923E9B07BC445EF1704DF763BD9A8DE8EA26), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____iinstalledVoicesStatic_t5603923E9B07BC445EF1704DF763BD9A8DE8EA26;
+			}
+		}
+		return returnValue;
+	}
+
+	inline IInstalledVoicesStatic2_t4E597FCEFC1FE77F34510156BDF478520D211B3F* get_____iinstalledVoicesStatic2_t4E597FCEFC1FE77F34510156BDF478520D211B3F()
+	{
+		IInstalledVoicesStatic2_t4E597FCEFC1FE77F34510156BDF478520D211B3F* returnValue = ____iinstalledVoicesStatic2_t4E597FCEFC1FE77F34510156BDF478520D211B3F;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = get_activationFactory()->QueryInterface(IInstalledVoicesStatic2_t4E597FCEFC1FE77F34510156BDF478520D211B3F::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IInstalledVoicesStatic2_t4E597FCEFC1FE77F34510156BDF478520D211B3F>((&____iinstalledVoicesStatic2_t4E597FCEFC1FE77F34510156BDF478520D211B3F), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____iinstalledVoicesStatic2_t4E597FCEFC1FE77F34510156BDF478520D211B3F;
+			}
+		}
+		return returnValue;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // SPEECHSYNTHESIZER_T3FDCAAF5EABFC84F7D3C3F85E728E05BCBA97CA2_H
+#ifndef VOICEINFORMATION_TB8E5450502FC3969D822253F14FFCBDCB985532C_H
+#define VOICEINFORMATION_TB8E5450502FC3969D822253F14FFCBDCB985532C_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// Windows.Media.SpeechSynthesis.VoiceInformation
+struct  VoiceInformation_tB8E5450502FC3969D822253F14FFCBDCB985532C  : public Il2CppComObject
+{
+public:
+	// Cached pointer to Windows.Media.SpeechSynthesis.IVoiceInformation
+	IVoiceInformation_t7606A990C72B19AFBA32B8BFE6BA93CECC002951* ____ivoiceInformation_t7606A990C72B19AFBA32B8BFE6BA93CECC002951;
+
+public:
+	inline IVoiceInformation_t7606A990C72B19AFBA32B8BFE6BA93CECC002951* get_____ivoiceInformation_t7606A990C72B19AFBA32B8BFE6BA93CECC002951()
+	{
+		IVoiceInformation_t7606A990C72B19AFBA32B8BFE6BA93CECC002951* returnValue = ____ivoiceInformation_t7606A990C72B19AFBA32B8BFE6BA93CECC002951;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IVoiceInformation_t7606A990C72B19AFBA32B8BFE6BA93CECC002951::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IVoiceInformation_t7606A990C72B19AFBA32B8BFE6BA93CECC002951>((&____ivoiceInformation_t7606A990C72B19AFBA32B8BFE6BA93CECC002951), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____ivoiceInformation_t7606A990C72B19AFBA32B8BFE6BA93CECC002951;
+			}
+		}
+		return returnValue;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // VOICEINFORMATION_TB8E5450502FC3969D822253F14FFCBDCB985532C_H
+#ifndef HOSTNAME_TDD37407B091F8A365D9C09F55E6F4D488358064F_H
+#define HOSTNAME_TDD37407B091F8A365D9C09F55E6F4D488358064F_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// Windows.Networking.HostName
+struct  HostName_tDD37407B091F8A365D9C09F55E6F4D488358064F  : public Il2CppComObject
+{
+public:
+	// Cached pointer to Windows.Networking.IHostName
+	IHostName_t7CC103357C0004DB2503909F01EAF58DEE073A91* ____ihostName_t7CC103357C0004DB2503909F01EAF58DEE073A91;
+	// Cached pointer to Windows.Foundation.IStringable
+	IStringable_tC919620080C884858AC41684EF7711F71AB2F928* ____istringable_tC919620080C884858AC41684EF7711F71AB2F928;
+
+public:
+	inline IHostName_t7CC103357C0004DB2503909F01EAF58DEE073A91* get_____ihostName_t7CC103357C0004DB2503909F01EAF58DEE073A91()
+	{
+		IHostName_t7CC103357C0004DB2503909F01EAF58DEE073A91* returnValue = ____ihostName_t7CC103357C0004DB2503909F01EAF58DEE073A91;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IHostName_t7CC103357C0004DB2503909F01EAF58DEE073A91::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IHostName_t7CC103357C0004DB2503909F01EAF58DEE073A91>((&____ihostName_t7CC103357C0004DB2503909F01EAF58DEE073A91), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____ihostName_t7CC103357C0004DB2503909F01EAF58DEE073A91;
+			}
+		}
+		return returnValue;
+	}
+
+	inline IStringable_tC919620080C884858AC41684EF7711F71AB2F928* get_____istringable_tC919620080C884858AC41684EF7711F71AB2F928()
+	{
+		IStringable_tC919620080C884858AC41684EF7711F71AB2F928* returnValue = ____istringable_tC919620080C884858AC41684EF7711F71AB2F928;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IStringable_tC919620080C884858AC41684EF7711F71AB2F928::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IStringable_tC919620080C884858AC41684EF7711F71AB2F928>((&____istringable_tC919620080C884858AC41684EF7711F71AB2F928), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____istringable_tC919620080C884858AC41684EF7711F71AB2F928;
+			}
+		}
+		return returnValue;
+	}
+};
+
+struct HostName_tDD37407B091F8A365D9C09F55E6F4D488358064F_StaticFields
+{
+public:
+	// Cached pointer to IActivationFactory
+	Il2CppIActivationFactory* activationFactory;
+	// Cached pointer to Windows.Networking.IHostNameFactory
+	IHostNameFactory_tFAC92E74B9B1ECB8C74BA8E62CF32D72A317A9B1* ____ihostNameFactory_tFAC92E74B9B1ECB8C74BA8E62CF32D72A317A9B1;
+	// Cached pointer to Windows.Networking.IHostNameStatics
+	IHostNameStatics_t037D7823E06A83B2840951D9582F972EE0A1C3DC* ____ihostNameStatics_t037D7823E06A83B2840951D9582F972EE0A1C3DC;
+
+public:
+	inline Il2CppIActivationFactory* get_activationFactory()
+	{
+		Il2CppIActivationFactory* returnValue = activationFactory;
+		if (returnValue == NULL)
+		{
+			il2cpp::utils::StringView<Il2CppNativeChar> className(IL2CPP_NATIVE_STRING("Windows.Networking.HostName"));
+			returnValue = il2cpp_codegen_windows_runtime_get_activation_factory(className);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<Il2CppIActivationFactory>((&activationFactory), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = activationFactory;
+			}
+		}
+		return returnValue;
+	}
+
+	inline IHostNameFactory_tFAC92E74B9B1ECB8C74BA8E62CF32D72A317A9B1* get_____ihostNameFactory_tFAC92E74B9B1ECB8C74BA8E62CF32D72A317A9B1()
+	{
+		IHostNameFactory_tFAC92E74B9B1ECB8C74BA8E62CF32D72A317A9B1* returnValue = ____ihostNameFactory_tFAC92E74B9B1ECB8C74BA8E62CF32D72A317A9B1;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = get_activationFactory()->QueryInterface(IHostNameFactory_tFAC92E74B9B1ECB8C74BA8E62CF32D72A317A9B1::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IHostNameFactory_tFAC92E74B9B1ECB8C74BA8E62CF32D72A317A9B1>((&____ihostNameFactory_tFAC92E74B9B1ECB8C74BA8E62CF32D72A317A9B1), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____ihostNameFactory_tFAC92E74B9B1ECB8C74BA8E62CF32D72A317A9B1;
+			}
+		}
+		return returnValue;
+	}
+
+	inline IHostNameStatics_t037D7823E06A83B2840951D9582F972EE0A1C3DC* get_____ihostNameStatics_t037D7823E06A83B2840951D9582F972EE0A1C3DC()
+	{
+		IHostNameStatics_t037D7823E06A83B2840951D9582F972EE0A1C3DC* returnValue = ____ihostNameStatics_t037D7823E06A83B2840951D9582F972EE0A1C3DC;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = get_activationFactory()->QueryInterface(IHostNameStatics_t037D7823E06A83B2840951D9582F972EE0A1C3DC::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IHostNameStatics_t037D7823E06A83B2840951D9582F972EE0A1C3DC>((&____ihostNameStatics_t037D7823E06A83B2840951D9582F972EE0A1C3DC), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____ihostNameStatics_t037D7823E06A83B2840951D9582F972EE0A1C3DC;
+			}
+		}
+		return returnValue;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // HOSTNAME_TDD37407B091F8A365D9C09F55E6F4D488358064F_H
+#ifndef DATAGRAMSOCKETMESSAGERECEIVEDEVENTARGS_T576CC06FFC9E4EFFBCB6F08EE5ACB8FFEC6E9E7D_H
+#define DATAGRAMSOCKETMESSAGERECEIVEDEVENTARGS_T576CC06FFC9E4EFFBCB6F08EE5ACB8FFEC6E9E7D_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// Windows.Networking.Sockets.DatagramSocketMessageReceivedEventArgs
+struct  DatagramSocketMessageReceivedEventArgs_t576CC06FFC9E4EFFBCB6F08EE5ACB8FFEC6E9E7D  : public Il2CppComObject
+{
+public:
+	// Cached pointer to Windows.Networking.Sockets.IDatagramSocketMessageReceivedEventArgs
+	IDatagramSocketMessageReceivedEventArgs_t7FDF380B953E1040BB8DC9B74396100AEE3E8571* ____idatagramSocketMessageReceivedEventArgs_t7FDF380B953E1040BB8DC9B74396100AEE3E8571;
+
+public:
+	inline IDatagramSocketMessageReceivedEventArgs_t7FDF380B953E1040BB8DC9B74396100AEE3E8571* get_____idatagramSocketMessageReceivedEventArgs_t7FDF380B953E1040BB8DC9B74396100AEE3E8571()
+	{
+		IDatagramSocketMessageReceivedEventArgs_t7FDF380B953E1040BB8DC9B74396100AEE3E8571* returnValue = ____idatagramSocketMessageReceivedEventArgs_t7FDF380B953E1040BB8DC9B74396100AEE3E8571;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IDatagramSocketMessageReceivedEventArgs_t7FDF380B953E1040BB8DC9B74396100AEE3E8571::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IDatagramSocketMessageReceivedEventArgs_t7FDF380B953E1040BB8DC9B74396100AEE3E8571>((&____idatagramSocketMessageReceivedEventArgs_t7FDF380B953E1040BB8DC9B74396100AEE3E8571), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____idatagramSocketMessageReceivedEventArgs_t7FDF380B953E1040BB8DC9B74396100AEE3E8571;
+			}
+		}
+		return returnValue;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // DATAGRAMSOCKETMESSAGERECEIVEDEVENTARGS_T576CC06FFC9E4EFFBCB6F08EE5ACB8FFEC6E9E7D_H
+// Windows.Foundation.Collections.IMap`2<System.Guid,System.Object>
+struct NOVTABLE IMap_2_t7C9D5F7C4E0E287CCF473A96ECB7921A3605E652 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IMap_2_Lookup_mB6474522910A4F3652019ABC59A9C61B31614414(Guid_t  ___key0, Il2CppIInspectable** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IMap_2_get_Size_m69217B83D7EC733A15146A20E4DA73BAAD70A104(uint32_t* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IMap_2_HasKey_m1BE07D68B261543E22DC35572A6079E1F682726B(Guid_t  ___key0, bool* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IMap_2_GetView_mDF46A70C8920C9750EFE89AA622B6DC17BFB1A5D(IMapView_2_tCBD372B5986173406E8A73E35BBE532D194A0C1C** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IMap_2_Insert_m46C9BEF7D6DB45D0A89876D62D5529889B8522B1(Guid_t  ___key0, Il2CppIInspectable* ___value1, bool* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IMap_2_Remove_m6F2F5725FD7EA84960BB8FF29BD1BCCB0FE501EA(Guid_t  ___key0) = 0;
+	virtual il2cpp_hresult_t STDCALL IMap_2_Clear_mDEE40BB66D10BC5D86D4F4FA1AB37E10C03ABC30() = 0;
+};
+// Windows.Media.Capture.Frames.IMediaFrameReader
+struct NOVTABLE IMediaFrameReader_t41159792231B0F1C5CEA6AABB5F70CBFC5A1359C : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IMediaFrameReader_add_FrameArrived_m2C5A85F4DBED0CAAD72663A7C38CA5389C6FEB36(ITypedEventHandler_2_tFA525E5DE0F0A649A14F4AD9C370C033DF2FF73A_ComCallableWrapper* ___handler0, EventRegistrationToken_tE1F3FD8339DB10082B4291DE47C45A352DCB08A7 * comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaFrameReader_remove_FrameArrived_mE668261597D5A119F527E2BCF4A34B28C64944F7(EventRegistrationToken_tE1F3FD8339DB10082B4291DE47C45A352DCB08A7  ___token0) = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaFrameReader_TryAcquireLatestFrame_m3F498947624C263B869C689F23DB00DB39E8FE74(IMediaFrameReference_t1A17C7B83A5DA84F0BEF457E534B81A5D5EF1F82** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaFrameReader_StartAsync_mEEA843FAB0776075ED9851F1E8C89D8A3A830687(IAsyncOperation_1_t78E6B7EED78DC6F793329B3ADD76EFBA3A82C842** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaFrameReader_StopAsync_mC6C1CF501E1390176175C425F927EA7758358280(IAsyncAction_tF980B79DBC4BD4F9F262E473628FD971545C5109** comReturnValue) = 0;
+};
+#ifndef MEDIAFRAMEREADERSTARTSTATUS_T25BC32FEBC7625500B86728E22F570F6FA8ACA41_H
+#define MEDIAFRAMEREADERSTARTSTATUS_T25BC32FEBC7625500B86728E22F570F6FA8ACA41_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// Windows.Media.Capture.Frames.MediaFrameReaderStartStatus
+struct  MediaFrameReaderStartStatus_t25BC32FEBC7625500B86728E22F570F6FA8ACA41 
+{
+public:
+	// System.Int32 Windows.Media.Capture.Frames.MediaFrameReaderStartStatus::value__
 	int32_t ___value___2;
 
 public:
-	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(TurnOffRendering_t931FE22566FBF87F7FA8C2BB89D377B2A65BFDE9, ___value___2)); }
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(MediaFrameReaderStartStatus_t25BC32FEBC7625500B86728E22F570F6FA8ACA41, ___value___2)); }
 	inline int32_t get_value___2() const { return ___value___2; }
 	inline int32_t* get_address_of_value___2() { return &___value___2; }
 	inline void set_value___2(int32_t value)
@@ -2197,24 +2257,24 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // TURNOFFRENDERING_T931FE22566FBF87F7FA8C2BB89D377B2A65BFDE9_H
-#ifndef PIVOTAXIS_T0C9C612304ED1362B78F9DB9CBB7BE918A2F230D_H
-#define PIVOTAXIS_T0C9C612304ED1362B78F9DB9CBB7BE918A2F230D_H
+#endif // MEDIAFRAMEREADERSTARTSTATUS_T25BC32FEBC7625500B86728E22F570F6FA8ACA41_H
+#ifndef MEDIAFRAMESOURCEKIND_T8B06C82985C44DB2339F6DD61CFD817F26EBC79E_H
+#define MEDIAFRAMESOURCEKIND_T8B06C82985C44DB2339F6DD61CFD817F26EBC79E_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// HoloToolkit.Unity.PivotAxis
-struct  PivotAxis_t0C9C612304ED1362B78F9DB9CBB7BE918A2F230D 
+// Windows.Media.Capture.Frames.MediaFrameSourceKind
+struct  MediaFrameSourceKind_t8B06C82985C44DB2339F6DD61CFD817F26EBC79E 
 {
 public:
-	// System.Int32 HoloToolkit.Unity.PivotAxis::value__
+	// System.Int32 Windows.Media.Capture.Frames.MediaFrameSourceKind::value__
 	int32_t ___value___2;
 
 public:
-	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(PivotAxis_t0C9C612304ED1362B78F9DB9CBB7BE918A2F230D, ___value___2)); }
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(MediaFrameSourceKind_t8B06C82985C44DB2339F6DD61CFD817F26EBC79E, ___value___2)); }
 	inline int32_t get_value___2() const { return ___value___2; }
 	inline int32_t* get_address_of_value___2() { return &___value___2; }
 	inline void set_value___2(int32_t value)
@@ -2226,24 +2286,24 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // PIVOTAXIS_T0C9C612304ED1362B78F9DB9CBB7BE918A2F230D_H
-#ifndef MIDICHANNEL_T97D5735B251967416AC5DA93355FF631BD778F87_H
-#define MIDICHANNEL_T97D5735B251967416AC5DA93355FF631BD778F87_H
+#endif // MEDIAFRAMESOURCEKIND_T8B06C82985C44DB2339F6DD61CFD817F26EBC79E_H
+#ifndef MEDIACAPTUREMEMORYPREFERENCE_TA054D938FC915F3D12266E27673C27B0F6B298E6_H
+#define MEDIACAPTUREMEMORYPREFERENCE_TA054D938FC915F3D12266E27673C27B0F6B298E6_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// MidiJack.MidiChannel
-struct  MidiChannel_t97D5735B251967416AC5DA93355FF631BD778F87 
+// Windows.Media.Capture.MediaCaptureMemoryPreference
+struct  MediaCaptureMemoryPreference_tA054D938FC915F3D12266E27673C27B0F6B298E6 
 {
 public:
-	// System.Int32 MidiJack.MidiChannel::value__
+	// System.Int32 Windows.Media.Capture.MediaCaptureMemoryPreference::value__
 	int32_t ___value___2;
 
 public:
-	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(MidiChannel_t97D5735B251967416AC5DA93355FF631BD778F87, ___value___2)); }
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(MediaCaptureMemoryPreference_tA054D938FC915F3D12266E27673C27B0F6B298E6, ___value___2)); }
 	inline int32_t get_value___2() const { return ___value___2; }
 	inline int32_t* get_address_of_value___2() { return &___value___2; }
 	inline void set_value___2(int32_t value)
@@ -2255,24 +2315,24 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // MIDICHANNEL_T97D5735B251967416AC5DA93355FF631BD778F87_H
-#ifndef MODELTARGETMODE_T162CE2C85BF4B801DDB26DD1C815DBC9A68EC639_H
-#define MODELTARGETMODE_T162CE2C85BF4B801DDB26DD1C815DBC9A68EC639_H
+#endif // MEDIACAPTUREMEMORYPREFERENCE_TA054D938FC915F3D12266E27673C27B0F6B298E6_H
+#ifndef MEDIACATEGORY_T30261E1B04C33AB5BAEEB3860A44B5AD781EDA3A_H
+#define MEDIACATEGORY_T30261E1B04C33AB5BAEEB3860A44B5AD781EDA3A_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// ModelTargetsManager_ModelTargetMode
-struct  ModelTargetMode_t162CE2C85BF4B801DDB26DD1C815DBC9A68EC639 
+// Windows.Media.Capture.MediaCategory
+struct  MediaCategory_t30261E1B04C33AB5BAEEB3860A44B5AD781EDA3A 
 {
 public:
-	// System.Int32 ModelTargetsManager_ModelTargetMode::value__
+	// System.Int32 Windows.Media.Capture.MediaCategory::value__
 	int32_t ___value___2;
 
 public:
-	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(ModelTargetMode_t162CE2C85BF4B801DDB26DD1C815DBC9A68EC639, ___value___2)); }
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(MediaCategory_t30261E1B04C33AB5BAEEB3860A44B5AD781EDA3A, ___value___2)); }
 	inline int32_t get_value___2() const { return ___value___2; }
 	inline int32_t* get_address_of_value___2() { return &___value___2; }
 	inline void set_value___2(int32_t value)
@@ -2284,242 +2344,24 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // MODELTARGETMODE_T162CE2C85BF4B801DDB26DD1C815DBC9A68EC639_H
-#ifndef DELEGATE_T_H
-#define DELEGATE_T_H
+#endif // MEDIACATEGORY_T30261E1B04C33AB5BAEEB3860A44B5AD781EDA3A_H
+#ifndef MEDIASTREAMTYPE_T546C2A3EE080E2AC38DF1BB6161D4F79841951A2_H
+#define MEDIASTREAMTYPE_T546C2A3EE080E2AC38DF1BB6161D4F79841951A2_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.Delegate
-struct  Delegate_t  : public RuntimeObject
+// Windows.Media.Capture.MediaStreamType
+struct  MediaStreamType_t546C2A3EE080E2AC38DF1BB6161D4F79841951A2 
 {
 public:
-	// System.IntPtr System.Delegate::method_ptr
-	Il2CppMethodPointer ___method_ptr_0;
-	// System.IntPtr System.Delegate::invoke_impl
-	intptr_t ___invoke_impl_1;
-	// System.Object System.Delegate::m_target
-	RuntimeObject * ___m_target_2;
-	// System.IntPtr System.Delegate::method
-	intptr_t ___method_3;
-	// System.IntPtr System.Delegate::delegate_trampoline
-	intptr_t ___delegate_trampoline_4;
-	// System.IntPtr System.Delegate::extra_arg
-	intptr_t ___extra_arg_5;
-	// System.IntPtr System.Delegate::method_code
-	intptr_t ___method_code_6;
-	// System.Reflection.MethodInfo System.Delegate::method_info
-	MethodInfo_t * ___method_info_7;
-	// System.Reflection.MethodInfo System.Delegate::original_method_info
-	MethodInfo_t * ___original_method_info_8;
-	// System.DelegateData System.Delegate::data
-	DelegateData_t1BF9F691B56DAE5F8C28C5E084FDE94F15F27BBE * ___data_9;
-	// System.Boolean System.Delegate::method_is_virtual
-	bool ___method_is_virtual_10;
-
-public:
-	inline static int32_t get_offset_of_method_ptr_0() { return static_cast<int32_t>(offsetof(Delegate_t, ___method_ptr_0)); }
-	inline Il2CppMethodPointer get_method_ptr_0() const { return ___method_ptr_0; }
-	inline Il2CppMethodPointer* get_address_of_method_ptr_0() { return &___method_ptr_0; }
-	inline void set_method_ptr_0(Il2CppMethodPointer value)
-	{
-		___method_ptr_0 = value;
-	}
-
-	inline static int32_t get_offset_of_invoke_impl_1() { return static_cast<int32_t>(offsetof(Delegate_t, ___invoke_impl_1)); }
-	inline intptr_t get_invoke_impl_1() const { return ___invoke_impl_1; }
-	inline intptr_t* get_address_of_invoke_impl_1() { return &___invoke_impl_1; }
-	inline void set_invoke_impl_1(intptr_t value)
-	{
-		___invoke_impl_1 = value;
-	}
-
-	inline static int32_t get_offset_of_m_target_2() { return static_cast<int32_t>(offsetof(Delegate_t, ___m_target_2)); }
-	inline RuntimeObject * get_m_target_2() const { return ___m_target_2; }
-	inline RuntimeObject ** get_address_of_m_target_2() { return &___m_target_2; }
-	inline void set_m_target_2(RuntimeObject * value)
-	{
-		___m_target_2 = value;
-		Il2CppCodeGenWriteBarrier((&___m_target_2), value);
-	}
-
-	inline static int32_t get_offset_of_method_3() { return static_cast<int32_t>(offsetof(Delegate_t, ___method_3)); }
-	inline intptr_t get_method_3() const { return ___method_3; }
-	inline intptr_t* get_address_of_method_3() { return &___method_3; }
-	inline void set_method_3(intptr_t value)
-	{
-		___method_3 = value;
-	}
-
-	inline static int32_t get_offset_of_delegate_trampoline_4() { return static_cast<int32_t>(offsetof(Delegate_t, ___delegate_trampoline_4)); }
-	inline intptr_t get_delegate_trampoline_4() const { return ___delegate_trampoline_4; }
-	inline intptr_t* get_address_of_delegate_trampoline_4() { return &___delegate_trampoline_4; }
-	inline void set_delegate_trampoline_4(intptr_t value)
-	{
-		___delegate_trampoline_4 = value;
-	}
-
-	inline static int32_t get_offset_of_extra_arg_5() { return static_cast<int32_t>(offsetof(Delegate_t, ___extra_arg_5)); }
-	inline intptr_t get_extra_arg_5() const { return ___extra_arg_5; }
-	inline intptr_t* get_address_of_extra_arg_5() { return &___extra_arg_5; }
-	inline void set_extra_arg_5(intptr_t value)
-	{
-		___extra_arg_5 = value;
-	}
-
-	inline static int32_t get_offset_of_method_code_6() { return static_cast<int32_t>(offsetof(Delegate_t, ___method_code_6)); }
-	inline intptr_t get_method_code_6() const { return ___method_code_6; }
-	inline intptr_t* get_address_of_method_code_6() { return &___method_code_6; }
-	inline void set_method_code_6(intptr_t value)
-	{
-		___method_code_6 = value;
-	}
-
-	inline static int32_t get_offset_of_method_info_7() { return static_cast<int32_t>(offsetof(Delegate_t, ___method_info_7)); }
-	inline MethodInfo_t * get_method_info_7() const { return ___method_info_7; }
-	inline MethodInfo_t ** get_address_of_method_info_7() { return &___method_info_7; }
-	inline void set_method_info_7(MethodInfo_t * value)
-	{
-		___method_info_7 = value;
-		Il2CppCodeGenWriteBarrier((&___method_info_7), value);
-	}
-
-	inline static int32_t get_offset_of_original_method_info_8() { return static_cast<int32_t>(offsetof(Delegate_t, ___original_method_info_8)); }
-	inline MethodInfo_t * get_original_method_info_8() const { return ___original_method_info_8; }
-	inline MethodInfo_t ** get_address_of_original_method_info_8() { return &___original_method_info_8; }
-	inline void set_original_method_info_8(MethodInfo_t * value)
-	{
-		___original_method_info_8 = value;
-		Il2CppCodeGenWriteBarrier((&___original_method_info_8), value);
-	}
-
-	inline static int32_t get_offset_of_data_9() { return static_cast<int32_t>(offsetof(Delegate_t, ___data_9)); }
-	inline DelegateData_t1BF9F691B56DAE5F8C28C5E084FDE94F15F27BBE * get_data_9() const { return ___data_9; }
-	inline DelegateData_t1BF9F691B56DAE5F8C28C5E084FDE94F15F27BBE ** get_address_of_data_9() { return &___data_9; }
-	inline void set_data_9(DelegateData_t1BF9F691B56DAE5F8C28C5E084FDE94F15F27BBE * value)
-	{
-		___data_9 = value;
-		Il2CppCodeGenWriteBarrier((&___data_9), value);
-	}
-
-	inline static int32_t get_offset_of_method_is_virtual_10() { return static_cast<int32_t>(offsetof(Delegate_t, ___method_is_virtual_10)); }
-	inline bool get_method_is_virtual_10() const { return ___method_is_virtual_10; }
-	inline bool* get_address_of_method_is_virtual_10() { return &___method_is_virtual_10; }
-	inline void set_method_is_virtual_10(bool value)
-	{
-		___method_is_virtual_10 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-// Native definition for P/Invoke marshalling of System.Delegate
-struct Delegate_t_marshaled_pinvoke
-{
-	intptr_t ___method_ptr_0;
-	intptr_t ___invoke_impl_1;
-	Il2CppIUnknown* ___m_target_2;
-	intptr_t ___method_3;
-	intptr_t ___delegate_trampoline_4;
-	intptr_t ___extra_arg_5;
-	intptr_t ___method_code_6;
-	MethodInfo_t * ___method_info_7;
-	MethodInfo_t * ___original_method_info_8;
-	DelegateData_t1BF9F691B56DAE5F8C28C5E084FDE94F15F27BBE * ___data_9;
-	int32_t ___method_is_virtual_10;
-};
-// Native definition for COM marshalling of System.Delegate
-struct Delegate_t_marshaled_com
-{
-	intptr_t ___method_ptr_0;
-	intptr_t ___invoke_impl_1;
-	Il2CppIUnknown* ___m_target_2;
-	intptr_t ___method_3;
-	intptr_t ___delegate_trampoline_4;
-	intptr_t ___extra_arg_5;
-	intptr_t ___method_code_6;
-	MethodInfo_t * ___method_info_7;
-	MethodInfo_t * ___original_method_info_8;
-	DelegateData_t1BF9F691B56DAE5F8C28C5E084FDE94F15F27BBE * ___data_9;
-	int32_t ___method_is_virtual_10;
-};
-#endif // DELEGATE_T_H
-#ifndef OBJECT_TAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0_H
-#define OBJECT_TAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Object
-struct  Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0  : public RuntimeObject
-{
-public:
-	// System.IntPtr UnityEngine.Object::m_CachedPtr
-	intptr_t ___m_CachedPtr_0;
-
-public:
-	inline static int32_t get_offset_of_m_CachedPtr_0() { return static_cast<int32_t>(offsetof(Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0, ___m_CachedPtr_0)); }
-	inline intptr_t get_m_CachedPtr_0() const { return ___m_CachedPtr_0; }
-	inline intptr_t* get_address_of_m_CachedPtr_0() { return &___m_CachedPtr_0; }
-	inline void set_m_CachedPtr_0(intptr_t value)
-	{
-		___m_CachedPtr_0 = value;
-	}
-};
-
-struct Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0_StaticFields
-{
-public:
-	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
-	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
-
-public:
-	inline static int32_t get_offset_of_OffsetOfInstanceIDInCPlusPlusObject_1() { return static_cast<int32_t>(offsetof(Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0_StaticFields, ___OffsetOfInstanceIDInCPlusPlusObject_1)); }
-	inline int32_t get_OffsetOfInstanceIDInCPlusPlusObject_1() const { return ___OffsetOfInstanceIDInCPlusPlusObject_1; }
-	inline int32_t* get_address_of_OffsetOfInstanceIDInCPlusPlusObject_1() { return &___OffsetOfInstanceIDInCPlusPlusObject_1; }
-	inline void set_OffsetOfInstanceIDInCPlusPlusObject_1(int32_t value)
-	{
-		___OffsetOfInstanceIDInCPlusPlusObject_1 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-// Native definition for P/Invoke marshalling of UnityEngine.Object
-struct Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0_marshaled_pinvoke
-{
-	intptr_t ___m_CachedPtr_0;
-};
-// Native definition for COM marshalling of UnityEngine.Object
-struct Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0_marshaled_com
-{
-	intptr_t ___m_CachedPtr_0;
-};
-#endif // OBJECT_TAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0_H
-#ifndef SPACE_T0F622BF939B7A47E0F9632CE968F7D72FC63AF58_H
-#define SPACE_T0F622BF939B7A47E0F9632CE968F7D72FC63AF58_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Space
-struct  Space_t0F622BF939B7A47E0F9632CE968F7D72FC63AF58 
-{
-public:
-	// System.Int32 UnityEngine.Space::value__
+	// System.Int32 Windows.Media.Capture.MediaStreamType::value__
 	int32_t ___value___2;
 
 public:
-	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(Space_t0F622BF939B7A47E0F9632CE968F7D72FC63AF58, ___value___2)); }
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(MediaStreamType_t546C2A3EE080E2AC38DF1BB6161D4F79841951A2, ___value___2)); }
 	inline int32_t get_value___2() const { return ___value___2; }
 	inline int32_t* get_address_of_value___2() { return &___value___2; }
 	inline void set_value___2(int32_t value)
@@ -2531,24 +2373,24 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // SPACE_T0F622BF939B7A47E0F9632CE968F7D72FC63AF58_H
-#ifndef MODE_TECAD0D4C21C8FACD30B1EA8B2273801BB473E016_H
-#define MODE_TECAD0D4C21C8FACD30B1EA8B2273801BB473E016_H
+#endif // MEDIASTREAMTYPE_T546C2A3EE080E2AC38DF1BB6161D4F79841951A2_H
+#ifndef STREAMINGCAPTUREMODE_TC9866CDFB670BCDE0C1D600D65677FDFD67BFC00_H
+#define STREAMINGCAPTUREMODE_TC9866CDFB670BCDE0C1D600D65677FDFD67BFC00_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityStandardAssets.Utility.ActivateTrigger_Mode
-struct  Mode_tECAD0D4C21C8FACD30B1EA8B2273801BB473E016 
+// Windows.Media.Capture.StreamingCaptureMode
+struct  StreamingCaptureMode_tC9866CDFB670BCDE0C1D600D65677FDFD67BFC00 
 {
 public:
-	// System.Int32 UnityStandardAssets.Utility.ActivateTrigger_Mode::value__
+	// System.Int32 Windows.Media.Capture.StreamingCaptureMode::value__
 	int32_t ___value___2;
 
 public:
-	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(Mode_tECAD0D4C21C8FACD30B1EA8B2273801BB473E016, ___value___2)); }
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(StreamingCaptureMode_tC9866CDFB670BCDE0C1D600D65677FDFD67BFC00, ___value___2)); }
 	inline int32_t get_value___2() const { return ___value___2; }
 	inline int32_t* get_address_of_value___2() { return &___value___2; }
 	inline void set_value___2(int32_t value)
@@ -2560,208 +2402,44 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // MODE_TECAD0D4C21C8FACD30B1EA8B2273801BB473E016_H
-#ifndef CAMERAREFOCUS_T2D15BFE1408DB751FF2C93747084E74B86409683_H
-#define CAMERAREFOCUS_T2D15BFE1408DB751FF2C93747084E74B86409683_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityStandardAssets.Utility.CameraRefocus
-struct  CameraRefocus_t2D15BFE1408DB751FF2C93747084E74B86409683  : public RuntimeObject
+#endif // STREAMINGCAPTUREMODE_TC9866CDFB670BCDE0C1D600D65677FDFD67BFC00_H
+// Windows.Networking.Sockets.IDatagramSocket
+struct NOVTABLE IDatagramSocket_t848EE6700A7594CBABF900E1A2EDA9CA16BBC69C : Il2CppIInspectable
 {
-public:
-	// UnityEngine.Camera UnityStandardAssets.Utility.CameraRefocus::Camera
-	Camera_t48B2B9ECB3CE6108A98BF949A1CECF0FE3421F34 * ___Camera_0;
-	// UnityEngine.Vector3 UnityStandardAssets.Utility.CameraRefocus::Lookatpoint
-	Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___Lookatpoint_1;
-	// UnityEngine.Transform UnityStandardAssets.Utility.CameraRefocus::Parent
-	Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * ___Parent_2;
-	// UnityEngine.Vector3 UnityStandardAssets.Utility.CameraRefocus::m_OrigCameraPos
-	Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___m_OrigCameraPos_3;
-	// System.Boolean UnityStandardAssets.Utility.CameraRefocus::m_Refocus
-	bool ___m_Refocus_4;
-
-public:
-	inline static int32_t get_offset_of_Camera_0() { return static_cast<int32_t>(offsetof(CameraRefocus_t2D15BFE1408DB751FF2C93747084E74B86409683, ___Camera_0)); }
-	inline Camera_t48B2B9ECB3CE6108A98BF949A1CECF0FE3421F34 * get_Camera_0() const { return ___Camera_0; }
-	inline Camera_t48B2B9ECB3CE6108A98BF949A1CECF0FE3421F34 ** get_address_of_Camera_0() { return &___Camera_0; }
-	inline void set_Camera_0(Camera_t48B2B9ECB3CE6108A98BF949A1CECF0FE3421F34 * value)
-	{
-		___Camera_0 = value;
-		Il2CppCodeGenWriteBarrier((&___Camera_0), value);
-	}
-
-	inline static int32_t get_offset_of_Lookatpoint_1() { return static_cast<int32_t>(offsetof(CameraRefocus_t2D15BFE1408DB751FF2C93747084E74B86409683, ___Lookatpoint_1)); }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  get_Lookatpoint_1() const { return ___Lookatpoint_1; }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * get_address_of_Lookatpoint_1() { return &___Lookatpoint_1; }
-	inline void set_Lookatpoint_1(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  value)
-	{
-		___Lookatpoint_1 = value;
-	}
-
-	inline static int32_t get_offset_of_Parent_2() { return static_cast<int32_t>(offsetof(CameraRefocus_t2D15BFE1408DB751FF2C93747084E74B86409683, ___Parent_2)); }
-	inline Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * get_Parent_2() const { return ___Parent_2; }
-	inline Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA ** get_address_of_Parent_2() { return &___Parent_2; }
-	inline void set_Parent_2(Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * value)
-	{
-		___Parent_2 = value;
-		Il2CppCodeGenWriteBarrier((&___Parent_2), value);
-	}
-
-	inline static int32_t get_offset_of_m_OrigCameraPos_3() { return static_cast<int32_t>(offsetof(CameraRefocus_t2D15BFE1408DB751FF2C93747084E74B86409683, ___m_OrigCameraPos_3)); }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  get_m_OrigCameraPos_3() const { return ___m_OrigCameraPos_3; }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * get_address_of_m_OrigCameraPos_3() { return &___m_OrigCameraPos_3; }
-	inline void set_m_OrigCameraPos_3(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  value)
-	{
-		___m_OrigCameraPos_3 = value;
-	}
-
-	inline static int32_t get_offset_of_m_Refocus_4() { return static_cast<int32_t>(offsetof(CameraRefocus_t2D15BFE1408DB751FF2C93747084E74B86409683, ___m_Refocus_4)); }
-	inline bool get_m_Refocus_4() const { return ___m_Refocus_4; }
-	inline bool* get_address_of_m_Refocus_4() { return &___m_Refocus_4; }
-	inline void set_m_Refocus_4(bool value)
-	{
-		___m_Refocus_4 = value;
-	}
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IDatagramSocket_U24__Stripped0_get_Control_mF3C01ADC990BC48C717F240D42D8F3C5A8531E83() = 0;
+	virtual il2cpp_hresult_t STDCALL IDatagramSocket_U24__Stripped1_get_Information_m8C0AE21F455E41A1B22A49E09F1C1CDFD1CE82DE() = 0;
+	virtual il2cpp_hresult_t STDCALL IDatagramSocket_U24__Stripped2_get_OutputStream_m7E18E30B925DB376C81EA3C4E9740364AFD6B603() = 0;
+	virtual il2cpp_hresult_t STDCALL IDatagramSocket_U24__Stripped3_ConnectAsync_m1364E2CB5F3DE5D17E127889A8D6227C4C8992BC() = 0;
+	virtual il2cpp_hresult_t STDCALL IDatagramSocket_U24__Stripped4_ConnectAsync_mCC45591E590A655265EF3A14CFE1A8C2933498C9() = 0;
+	virtual il2cpp_hresult_t STDCALL IDatagramSocket_BindServiceNameAsync_m6F60053B27BB0FE814E0ED053D05E2246B459367(Il2CppHString ___localServiceName0, IAsyncAction_tF980B79DBC4BD4F9F262E473628FD971545C5109** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IDatagramSocket_U24__Stripped5_BindEndpointAsync_m5C713E6DBC9B601CAC7EBF02795882F305867217() = 0;
+	virtual il2cpp_hresult_t STDCALL IDatagramSocket_U24__Stripped6_JoinMulticastGroup_mB4982AE45D42A01B4939420EBE9B73B64F297AAB() = 0;
+	virtual il2cpp_hresult_t STDCALL IDatagramSocket_GetOutputStreamAsync_m7523C9862DB8890DCD476F6E8ABC55271CD9E179(IHostName_t7CC103357C0004DB2503909F01EAF58DEE073A91* ___remoteHostName0, Il2CppHString ___remoteServiceName1, IAsyncOperation_1_tA5E4C3165B23DB9ED7307E1B62B26FC77BFF15CF** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IDatagramSocket_U24__Stripped7_GetOutputStreamAsync_mD4DAED548974EC8577E20DE550A407F62686019B() = 0;
+	virtual il2cpp_hresult_t STDCALL IDatagramSocket_add_MessageReceived_mBBF7EF65915E02AB6932F07BDBC1ADF24B6765FC(ITypedEventHandler_2_t4B655DE5AC00C6EDAFBC6996B630AF8FBC87B203_ComCallableWrapper* ___eventHandler0, EventRegistrationToken_tE1F3FD8339DB10082B4291DE47C45A352DCB08A7 * comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IDatagramSocket_remove_MessageReceived_m7C443259D38DDDE9E2AEBCA2C94992513111D4BD(EventRegistrationToken_tE1F3FD8339DB10082B4291DE47C45A352DCB08A7  ___eventCookie0) = 0;
 };
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // CAMERAREFOCUS_T2D15BFE1408DB751FF2C93747084E74B86409683_H
-#ifndef CURVECONTROLLEDBOB_TF4E3AA910B2B83A2C5EFC83AE44AF01410EB3CDD_H
-#define CURVECONTROLLEDBOB_TF4E3AA910B2B83A2C5EFC83AE44AF01410EB3CDD_H
+#ifndef INPUTSTREAMOPTIONS_T30069DC0816A557D0697485558A4114A7C8634E3_H
+#define INPUTSTREAMOPTIONS_T30069DC0816A557D0697485558A4114A7C8634E3_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityStandardAssets.Utility.CurveControlledBob
-struct  CurveControlledBob_tF4E3AA910B2B83A2C5EFC83AE44AF01410EB3CDD  : public RuntimeObject
+// Windows.Storage.Streams.InputStreamOptions
+struct  InputStreamOptions_t30069DC0816A557D0697485558A4114A7C8634E3 
 {
 public:
-	// System.Single UnityStandardAssets.Utility.CurveControlledBob::HorizontalBobRange
-	float ___HorizontalBobRange_0;
-	// System.Single UnityStandardAssets.Utility.CurveControlledBob::VerticalBobRange
-	float ___VerticalBobRange_1;
-	// UnityEngine.AnimationCurve UnityStandardAssets.Utility.CurveControlledBob::Bobcurve
-	AnimationCurve_tD2F265379583AAF1BF8D84F1BB8DB12980FA504C * ___Bobcurve_2;
-	// System.Single UnityStandardAssets.Utility.CurveControlledBob::VerticaltoHorizontalRatio
-	float ___VerticaltoHorizontalRatio_3;
-	// System.Single UnityStandardAssets.Utility.CurveControlledBob::m_CyclePositionX
-	float ___m_CyclePositionX_4;
-	// System.Single UnityStandardAssets.Utility.CurveControlledBob::m_CyclePositionY
-	float ___m_CyclePositionY_5;
-	// System.Single UnityStandardAssets.Utility.CurveControlledBob::m_BobBaseInterval
-	float ___m_BobBaseInterval_6;
-	// UnityEngine.Vector3 UnityStandardAssets.Utility.CurveControlledBob::m_OriginalCameraPosition
-	Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___m_OriginalCameraPosition_7;
-	// System.Single UnityStandardAssets.Utility.CurveControlledBob::m_Time
-	float ___m_Time_8;
+	// System.UInt32 Windows.Storage.Streams.InputStreamOptions::value__
+	uint32_t ___value___2;
 
 public:
-	inline static int32_t get_offset_of_HorizontalBobRange_0() { return static_cast<int32_t>(offsetof(CurveControlledBob_tF4E3AA910B2B83A2C5EFC83AE44AF01410EB3CDD, ___HorizontalBobRange_0)); }
-	inline float get_HorizontalBobRange_0() const { return ___HorizontalBobRange_0; }
-	inline float* get_address_of_HorizontalBobRange_0() { return &___HorizontalBobRange_0; }
-	inline void set_HorizontalBobRange_0(float value)
-	{
-		___HorizontalBobRange_0 = value;
-	}
-
-	inline static int32_t get_offset_of_VerticalBobRange_1() { return static_cast<int32_t>(offsetof(CurveControlledBob_tF4E3AA910B2B83A2C5EFC83AE44AF01410EB3CDD, ___VerticalBobRange_1)); }
-	inline float get_VerticalBobRange_1() const { return ___VerticalBobRange_1; }
-	inline float* get_address_of_VerticalBobRange_1() { return &___VerticalBobRange_1; }
-	inline void set_VerticalBobRange_1(float value)
-	{
-		___VerticalBobRange_1 = value;
-	}
-
-	inline static int32_t get_offset_of_Bobcurve_2() { return static_cast<int32_t>(offsetof(CurveControlledBob_tF4E3AA910B2B83A2C5EFC83AE44AF01410EB3CDD, ___Bobcurve_2)); }
-	inline AnimationCurve_tD2F265379583AAF1BF8D84F1BB8DB12980FA504C * get_Bobcurve_2() const { return ___Bobcurve_2; }
-	inline AnimationCurve_tD2F265379583AAF1BF8D84F1BB8DB12980FA504C ** get_address_of_Bobcurve_2() { return &___Bobcurve_2; }
-	inline void set_Bobcurve_2(AnimationCurve_tD2F265379583AAF1BF8D84F1BB8DB12980FA504C * value)
-	{
-		___Bobcurve_2 = value;
-		Il2CppCodeGenWriteBarrier((&___Bobcurve_2), value);
-	}
-
-	inline static int32_t get_offset_of_VerticaltoHorizontalRatio_3() { return static_cast<int32_t>(offsetof(CurveControlledBob_tF4E3AA910B2B83A2C5EFC83AE44AF01410EB3CDD, ___VerticaltoHorizontalRatio_3)); }
-	inline float get_VerticaltoHorizontalRatio_3() const { return ___VerticaltoHorizontalRatio_3; }
-	inline float* get_address_of_VerticaltoHorizontalRatio_3() { return &___VerticaltoHorizontalRatio_3; }
-	inline void set_VerticaltoHorizontalRatio_3(float value)
-	{
-		___VerticaltoHorizontalRatio_3 = value;
-	}
-
-	inline static int32_t get_offset_of_m_CyclePositionX_4() { return static_cast<int32_t>(offsetof(CurveControlledBob_tF4E3AA910B2B83A2C5EFC83AE44AF01410EB3CDD, ___m_CyclePositionX_4)); }
-	inline float get_m_CyclePositionX_4() const { return ___m_CyclePositionX_4; }
-	inline float* get_address_of_m_CyclePositionX_4() { return &___m_CyclePositionX_4; }
-	inline void set_m_CyclePositionX_4(float value)
-	{
-		___m_CyclePositionX_4 = value;
-	}
-
-	inline static int32_t get_offset_of_m_CyclePositionY_5() { return static_cast<int32_t>(offsetof(CurveControlledBob_tF4E3AA910B2B83A2C5EFC83AE44AF01410EB3CDD, ___m_CyclePositionY_5)); }
-	inline float get_m_CyclePositionY_5() const { return ___m_CyclePositionY_5; }
-	inline float* get_address_of_m_CyclePositionY_5() { return &___m_CyclePositionY_5; }
-	inline void set_m_CyclePositionY_5(float value)
-	{
-		___m_CyclePositionY_5 = value;
-	}
-
-	inline static int32_t get_offset_of_m_BobBaseInterval_6() { return static_cast<int32_t>(offsetof(CurveControlledBob_tF4E3AA910B2B83A2C5EFC83AE44AF01410EB3CDD, ___m_BobBaseInterval_6)); }
-	inline float get_m_BobBaseInterval_6() const { return ___m_BobBaseInterval_6; }
-	inline float* get_address_of_m_BobBaseInterval_6() { return &___m_BobBaseInterval_6; }
-	inline void set_m_BobBaseInterval_6(float value)
-	{
-		___m_BobBaseInterval_6 = value;
-	}
-
-	inline static int32_t get_offset_of_m_OriginalCameraPosition_7() { return static_cast<int32_t>(offsetof(CurveControlledBob_tF4E3AA910B2B83A2C5EFC83AE44AF01410EB3CDD, ___m_OriginalCameraPosition_7)); }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  get_m_OriginalCameraPosition_7() const { return ___m_OriginalCameraPosition_7; }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * get_address_of_m_OriginalCameraPosition_7() { return &___m_OriginalCameraPosition_7; }
-	inline void set_m_OriginalCameraPosition_7(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  value)
-	{
-		___m_OriginalCameraPosition_7 = value;
-	}
-
-	inline static int32_t get_offset_of_m_Time_8() { return static_cast<int32_t>(offsetof(CurveControlledBob_tF4E3AA910B2B83A2C5EFC83AE44AF01410EB3CDD, ___m_Time_8)); }
-	inline float get_m_Time_8() const { return ___m_Time_8; }
-	inline float* get_address_of_m_Time_8() { return &___m_Time_8; }
-	inline void set_m_Time_8(float value)
-	{
-		___m_Time_8 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // CURVECONTROLLEDBOB_TF4E3AA910B2B83A2C5EFC83AE44AF01410EB3CDD_H
-#ifndef STATUS_T9B64F0BA3AD7E64C80B7CD10F61ECC24F20EC092_H
-#define STATUS_T9B64F0BA3AD7E64C80B7CD10F61ECC24F20EC092_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// Vuforia.TrackableBehaviour_Status
-struct  Status_t9B64F0BA3AD7E64C80B7CD10F61ECC24F20EC092 
-{
-public:
-	// System.Int32 Vuforia.TrackableBehaviour_Status::value__
-	int32_t ___value___2;
-
-public:
-	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(Status_t9B64F0BA3AD7E64C80B7CD10F61ECC24F20EC092, ___value___2)); }
-	inline int32_t get_value___2() const { return ___value___2; }
-	inline int32_t* get_address_of_value___2() { return &___value___2; }
-	inline void set_value___2(int32_t value)
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(InputStreamOptions_t30069DC0816A557D0697485558A4114A7C8634E3, ___value___2)); }
+	inline uint32_t get_value___2() const { return ___value___2; }
+	inline uint32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(uint32_t value)
 	{
 		___value___2 = value;
 	}
@@ -2770,3868 +2448,1229 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // STATUS_T9B64F0BA3AD7E64C80B7CD10F61ECC24F20EC092_H
-#ifndef MULTICASTDELEGATE_T_H
-#define MULTICASTDELEGATE_T_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.MulticastDelegate
-struct  MulticastDelegate_t  : public Delegate_t
-{
-public:
-	// System.Delegate[] System.MulticastDelegate::delegates
-	DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* ___delegates_11;
-
-public:
-	inline static int32_t get_offset_of_delegates_11() { return static_cast<int32_t>(offsetof(MulticastDelegate_t, ___delegates_11)); }
-	inline DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* get_delegates_11() const { return ___delegates_11; }
-	inline DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86** get_address_of_delegates_11() { return &___delegates_11; }
-	inline void set_delegates_11(DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* value)
-	{
-		___delegates_11 = value;
-		Il2CppCodeGenWriteBarrier((&___delegates_11), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-// Native definition for P/Invoke marshalling of System.MulticastDelegate
-struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
-{
-	Delegate_t_marshaled_pinvoke** ___delegates_11;
-};
-// Native definition for COM marshalling of System.MulticastDelegate
-struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
-{
-	Delegate_t_marshaled_com** ___delegates_11;
-};
-#endif // MULTICASTDELEGATE_T_H
-#ifndef COMPONENT_T05064EF382ABCAF4B8C94F8A350EA85184C26621_H
-#define COMPONENT_T05064EF382ABCAF4B8C94F8A350EA85184C26621_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Component
-struct  Component_t05064EF382ABCAF4B8C94F8A350EA85184C26621  : public Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // COMPONENT_T05064EF382ABCAF4B8C94F8A350EA85184C26621_H
-#ifndef VECTOR3ANDSPACE_TFFBEB79251E79158007EDD76C0AA5F44D94FC61C_H
-#define VECTOR3ANDSPACE_TFFBEB79251E79158007EDD76C0AA5F44D94FC61C_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityStandardAssets.Utility.AutoMoveAndRotate_Vector3andSpace
-struct  Vector3andSpace_tFFBEB79251E79158007EDD76C0AA5F44D94FC61C  : public RuntimeObject
-{
-public:
-	// UnityEngine.Vector3 UnityStandardAssets.Utility.AutoMoveAndRotate_Vector3andSpace::value
-	Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___value_0;
-	// UnityEngine.Space UnityStandardAssets.Utility.AutoMoveAndRotate_Vector3andSpace::space
-	int32_t ___space_1;
-
-public:
-	inline static int32_t get_offset_of_value_0() { return static_cast<int32_t>(offsetof(Vector3andSpace_tFFBEB79251E79158007EDD76C0AA5F44D94FC61C, ___value_0)); }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  get_value_0() const { return ___value_0; }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * get_address_of_value_0() { return &___value_0; }
-	inline void set_value_0(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  value)
-	{
-		___value_0 = value;
-	}
-
-	inline static int32_t get_offset_of_space_1() { return static_cast<int32_t>(offsetof(Vector3andSpace_tFFBEB79251E79158007EDD76C0AA5F44D94FC61C, ___space_1)); }
-	inline int32_t get_space_1() const { return ___space_1; }
-	inline int32_t* get_address_of_space_1() { return &___space_1; }
-	inline void set_space_1(int32_t value)
-	{
-		___space_1 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // VECTOR3ANDSPACE_TFFBEB79251E79158007EDD76C0AA5F44D94FC61C_H
-#ifndef KNOBDELEGATE_T834ED9A2E7591235544DED63B3C731F8AA91968C_H
-#define KNOBDELEGATE_T834ED9A2E7591235544DED63B3C731F8AA91968C_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// MidiJack.MidiDriver_KnobDelegate
-struct  KnobDelegate_t834ED9A2E7591235544DED63B3C731F8AA91968C  : public MulticastDelegate_t
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // KNOBDELEGATE_T834ED9A2E7591235544DED63B3C731F8AA91968C_H
-#ifndef NOTEOFFDELEGATE_TCB084EDADCD9221746EEDA6BC57308995B1BED35_H
-#define NOTEOFFDELEGATE_TCB084EDADCD9221746EEDA6BC57308995B1BED35_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// MidiJack.MidiDriver_NoteOffDelegate
-struct  NoteOffDelegate_tCB084EDADCD9221746EEDA6BC57308995B1BED35  : public MulticastDelegate_t
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // NOTEOFFDELEGATE_TCB084EDADCD9221746EEDA6BC57308995B1BED35_H
-#ifndef NOTEONDELEGATE_TEFD77A4AD3CB70F0EC4BAB93EBEE23A70F51C398_H
-#define NOTEONDELEGATE_TEFD77A4AD3CB70F0EC4BAB93EBEE23A70F51C398_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// MidiJack.MidiDriver_NoteOnDelegate
-struct  NoteOnDelegate_tEFD77A4AD3CB70F0EC4BAB93EBEE23A70F51C398  : public MulticastDelegate_t
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // NOTEONDELEGATE_TEFD77A4AD3CB70F0EC4BAB93EBEE23A70F51C398_H
-#ifndef CALLBACK_TC38747B8485A5657D460EBD31B06F21FBBC5C1A3_H
-#define CALLBACK_TC38747B8485A5657D460EBD31B06F21FBBC5C1A3_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// MidiJack.MidiStateUpdater_Callback
-struct  Callback_tC38747B8485A5657D460EBD31B06F21FBBC5C1A3  : public MulticastDelegate_t
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // CALLBACK_TC38747B8485A5657D460EBD31B06F21FBBC5C1A3_H
-#ifndef ONANIMATIONCOMPLETED_T6043B8B0DAD04BB109B3BD70EE8BD411DB7579D2_H
-#define ONANIMATIONCOMPLETED_T6043B8B0DAD04BB109B3BD70EE8BD411DB7579D2_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// SimpleAnimation_OnAnimationCompleted
-struct  OnAnimationCompleted_t6043B8B0DAD04BB109B3BD70EE8BD411DB7579D2  : public MulticastDelegate_t
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // ONANIMATIONCOMPLETED_T6043B8B0DAD04BB109B3BD70EE8BD411DB7579D2_H
-#ifndef ONANIMATIONSTARTED_T06E6CF5A863DF5743B555616150DD8DE6CDAA9D8_H
-#define ONANIMATIONSTARTED_T06E6CF5A863DF5743B555616150DD8DE6CDAA9D8_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// SimpleAnimation_OnAnimationStarted
-struct  OnAnimationStarted_t06E6CF5A863DF5743B555616150DD8DE6CDAA9D8  : public MulticastDelegate_t
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // ONANIMATIONSTARTED_T06E6CF5A863DF5743B555616150DD8DE6CDAA9D8_H
-#ifndef BEHAVIOUR_TBDC7E9C3C898AD8348891B82D3E345801D920CA8_H
-#define BEHAVIOUR_TBDC7E9C3C898AD8348891B82D3E345801D920CA8_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Behaviour
-struct  Behaviour_tBDC7E9C3C898AD8348891B82D3E345801D920CA8  : public Component_t05064EF382ABCAF4B8C94F8A350EA85184C26621
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // BEHAVIOUR_TBDC7E9C3C898AD8348891B82D3E345801D920CA8_H
-#ifndef MONOBEHAVIOUR_T4A60845CF505405AF8BE8C61CC07F75CADEF6429_H
-#define MONOBEHAVIOUR_T4A60845CF505405AF8BE8C61CC07F75CADEF6429_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.MonoBehaviour
-struct  MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429  : public Behaviour_tBDC7E9C3C898AD8348891B82D3E345801D920CA8
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // MONOBEHAVIOUR_T4A60845CF505405AF8BE8C61CC07F75CADEF6429_H
-#ifndef ALPHABUTTONCLICKMASK_T431FFA331A9DD47186CB93FD6922BAF79193588A_H
-#define ALPHABUTTONCLICKMASK_T431FFA331A9DD47186CB93FD6922BAF79193588A_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// AlphaButtonClickMask
-struct  AlphaButtonClickMask_t431FFA331A9DD47186CB93FD6922BAF79193588A  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
-	// UnityEngine.UI.Image AlphaButtonClickMask::_image
-	Image_t18FED07D8646917E1C563745518CF3DD57FF0B3E * ____image_4;
-
-public:
-	inline static int32_t get_offset_of__image_4() { return static_cast<int32_t>(offsetof(AlphaButtonClickMask_t431FFA331A9DD47186CB93FD6922BAF79193588A, ____image_4)); }
-	inline Image_t18FED07D8646917E1C563745518CF3DD57FF0B3E * get__image_4() const { return ____image_4; }
-	inline Image_t18FED07D8646917E1C563745518CF3DD57FF0B3E ** get_address_of__image_4() { return &____image_4; }
-	inline void set__image_4(Image_t18FED07D8646917E1C563745518CF3DD57FF0B3E * value)
-	{
-		____image_4 = value;
-		Il2CppCodeGenWriteBarrier((&____image_4), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // ALPHABUTTONCLICKMASK_T431FFA331A9DD47186CB93FD6922BAF79193588A_H
-#ifndef BUTTONTILE_TE73735CFF50DE9F164B3B3661FED7F2F53AEF8BB_H
-#define BUTTONTILE_TE73735CFF50DE9F164B3B3661FED7F2F53AEF8BB_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// ButtonTile
-struct  ButtonTile_tE73735CFF50DE9F164B3B3661FED7F2F53AEF8BB  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
-	// UnityEngine.MeshRenderer ButtonTile::m_ButtonHighlight
-	MeshRenderer_t9D67CA54E83315F743623BDE8EADCD5074659EED * ___m_ButtonHighlight_4;
-	// System.String ButtonTile::m_SceneToLoad
-	String_t* ___m_SceneToLoad_5;
-
-public:
-	inline static int32_t get_offset_of_m_ButtonHighlight_4() { return static_cast<int32_t>(offsetof(ButtonTile_tE73735CFF50DE9F164B3B3661FED7F2F53AEF8BB, ___m_ButtonHighlight_4)); }
-	inline MeshRenderer_t9D67CA54E83315F743623BDE8EADCD5074659EED * get_m_ButtonHighlight_4() const { return ___m_ButtonHighlight_4; }
-	inline MeshRenderer_t9D67CA54E83315F743623BDE8EADCD5074659EED ** get_address_of_m_ButtonHighlight_4() { return &___m_ButtonHighlight_4; }
-	inline void set_m_ButtonHighlight_4(MeshRenderer_t9D67CA54E83315F743623BDE8EADCD5074659EED * value)
-	{
-		___m_ButtonHighlight_4 = value;
-		Il2CppCodeGenWriteBarrier((&___m_ButtonHighlight_4), value);
-	}
-
-	inline static int32_t get_offset_of_m_SceneToLoad_5() { return static_cast<int32_t>(offsetof(ButtonTile_tE73735CFF50DE9F164B3B3661FED7F2F53AEF8BB, ___m_SceneToLoad_5)); }
-	inline String_t* get_m_SceneToLoad_5() const { return ___m_SceneToLoad_5; }
-	inline String_t** get_address_of_m_SceneToLoad_5() { return &___m_SceneToLoad_5; }
-	inline void set_m_SceneToLoad_5(String_t* value)
-	{
-		___m_SceneToLoad_5 = value;
-		Il2CppCodeGenWriteBarrier((&___m_SceneToLoad_5), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // BUTTONTILE_TE73735CFF50DE9F164B3B3661FED7F2F53AEF8BB_H
-#ifndef BUTTONUICONTROLLER_T3BCC5FCBC07E70CA7E3518E9BAF288DCBE807F44_H
-#define BUTTONUICONTROLLER_T3BCC5FCBC07E70CA7E3518E9BAF288DCBE807F44_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// ButtonUIController
-struct  ButtonUIController_t3BCC5FCBC07E70CA7E3518E9BAF288DCBE807F44  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
-	// UnityEngine.GameObject ButtonUIController::Scene2Generate
-	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___Scene2Generate_4;
-	// UnityEngine.GameObject ButtonUIController::ButtonBundary
-	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___ButtonBundary_5;
-
-public:
-	inline static int32_t get_offset_of_Scene2Generate_4() { return static_cast<int32_t>(offsetof(ButtonUIController_t3BCC5FCBC07E70CA7E3518E9BAF288DCBE807F44, ___Scene2Generate_4)); }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * get_Scene2Generate_4() const { return ___Scene2Generate_4; }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F ** get_address_of_Scene2Generate_4() { return &___Scene2Generate_4; }
-	inline void set_Scene2Generate_4(GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * value)
-	{
-		___Scene2Generate_4 = value;
-		Il2CppCodeGenWriteBarrier((&___Scene2Generate_4), value);
-	}
-
-	inline static int32_t get_offset_of_ButtonBundary_5() { return static_cast<int32_t>(offsetof(ButtonUIController_t3BCC5FCBC07E70CA7E3518E9BAF288DCBE807F44, ___ButtonBundary_5)); }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * get_ButtonBundary_5() const { return ___ButtonBundary_5; }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F ** get_address_of_ButtonBundary_5() { return &___ButtonBundary_5; }
-	inline void set_ButtonBundary_5(GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * value)
-	{
-		___ButtonBundary_5 = value;
-		Il2CppCodeGenWriteBarrier((&___ButtonBundary_5), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // BUTTONUICONTROLLER_T3BCC5FCBC07E70CA7E3518E9BAF288DCBE807F44_H
-#ifndef CAMERADEPTHENABLER_T8B94E44704577D03715DB8695252E0F5264D2A39_H
-#define CAMERADEPTHENABLER_T8B94E44704577D03715DB8695252E0F5264D2A39_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// CameraDepthEnabler
-struct  CameraDepthEnabler_t8B94E44704577D03715DB8695252E0F5264D2A39  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // CAMERADEPTHENABLER_T8B94E44704577D03715DB8695252E0F5264D2A39_H
-#ifndef CAMERASWITCH_TD1CD73543B6468A64BCE40E61FF8FE77A75D589E_H
-#define CAMERASWITCH_TD1CD73543B6468A64BCE40E61FF8FE77A75D589E_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// CameraSwitch
-struct  CameraSwitch_tD1CD73543B6468A64BCE40E61FF8FE77A75D589E  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
-	// UnityEngine.GameObject[] CameraSwitch::objects
-	GameObjectU5BU5D_t30E337C5B5FBBCBAEDAF4093924D916CF2944067* ___objects_4;
-	// UnityEngine.UI.Text CameraSwitch::text
-	Text_tE9317B57477F4B50AA4C16F460DE6F82DAD6D030 * ___text_5;
-	// System.Int32 CameraSwitch::m_CurrentActiveObject
-	int32_t ___m_CurrentActiveObject_6;
-
-public:
-	inline static int32_t get_offset_of_objects_4() { return static_cast<int32_t>(offsetof(CameraSwitch_tD1CD73543B6468A64BCE40E61FF8FE77A75D589E, ___objects_4)); }
-	inline GameObjectU5BU5D_t30E337C5B5FBBCBAEDAF4093924D916CF2944067* get_objects_4() const { return ___objects_4; }
-	inline GameObjectU5BU5D_t30E337C5B5FBBCBAEDAF4093924D916CF2944067** get_address_of_objects_4() { return &___objects_4; }
-	inline void set_objects_4(GameObjectU5BU5D_t30E337C5B5FBBCBAEDAF4093924D916CF2944067* value)
-	{
-		___objects_4 = value;
-		Il2CppCodeGenWriteBarrier((&___objects_4), value);
-	}
-
-	inline static int32_t get_offset_of_text_5() { return static_cast<int32_t>(offsetof(CameraSwitch_tD1CD73543B6468A64BCE40E61FF8FE77A75D589E, ___text_5)); }
-	inline Text_tE9317B57477F4B50AA4C16F460DE6F82DAD6D030 * get_text_5() const { return ___text_5; }
-	inline Text_tE9317B57477F4B50AA4C16F460DE6F82DAD6D030 ** get_address_of_text_5() { return &___text_5; }
-	inline void set_text_5(Text_tE9317B57477F4B50AA4C16F460DE6F82DAD6D030 * value)
-	{
-		___text_5 = value;
-		Il2CppCodeGenWriteBarrier((&___text_5), value);
-	}
-
-	inline static int32_t get_offset_of_m_CurrentActiveObject_6() { return static_cast<int32_t>(offsetof(CameraSwitch_tD1CD73543B6468A64BCE40E61FF8FE77A75D589E, ___m_CurrentActiveObject_6)); }
-	inline int32_t get_m_CurrentActiveObject_6() const { return ___m_CurrentActiveObject_6; }
-	inline int32_t* get_address_of_m_CurrentActiveObject_6() { return &___m_CurrentActiveObject_6; }
-	inline void set_m_CurrentActiveObject_6(int32_t value)
-	{
-		___m_CurrentActiveObject_6 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // CAMERASWITCH_TD1CD73543B6468A64BCE40E61FF8FE77A75D589E_H
-#ifndef CURSOR_T41C86541F738B8481E1B52E133EA0C2E03D3D630_H
-#define CURSOR_T41C86541F738B8481E1B52E133EA0C2E03D3D630_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// Cursor
-struct  Cursor_t41C86541F738B8481E1B52E133EA0C2E03D3D630  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
-	// UnityEngine.Material Cursor::m_CursorDot
-	Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * ___m_CursorDot_4;
-	// UnityEngine.Material Cursor::m_CursorRing
-	Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * ___m_CursorRing_5;
-	// UnityEngine.MeshRenderer Cursor::m_Cursor
-	MeshRenderer_t9D67CA54E83315F743623BDE8EADCD5074659EED * ___m_Cursor_6;
-	// UnityEngine.XR.WSA.Input.GestureRecognizer Cursor::m_GestureRecognizer
-	GestureRecognizer_tE4A3B36C495289B1DF1011E12394116A91E361DE * ___m_GestureRecognizer_7;
-
-public:
-	inline static int32_t get_offset_of_m_CursorDot_4() { return static_cast<int32_t>(offsetof(Cursor_t41C86541F738B8481E1B52E133EA0C2E03D3D630, ___m_CursorDot_4)); }
-	inline Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * get_m_CursorDot_4() const { return ___m_CursorDot_4; }
-	inline Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 ** get_address_of_m_CursorDot_4() { return &___m_CursorDot_4; }
-	inline void set_m_CursorDot_4(Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * value)
-	{
-		___m_CursorDot_4 = value;
-		Il2CppCodeGenWriteBarrier((&___m_CursorDot_4), value);
-	}
-
-	inline static int32_t get_offset_of_m_CursorRing_5() { return static_cast<int32_t>(offsetof(Cursor_t41C86541F738B8481E1B52E133EA0C2E03D3D630, ___m_CursorRing_5)); }
-	inline Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * get_m_CursorRing_5() const { return ___m_CursorRing_5; }
-	inline Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 ** get_address_of_m_CursorRing_5() { return &___m_CursorRing_5; }
-	inline void set_m_CursorRing_5(Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * value)
-	{
-		___m_CursorRing_5 = value;
-		Il2CppCodeGenWriteBarrier((&___m_CursorRing_5), value);
-	}
-
-	inline static int32_t get_offset_of_m_Cursor_6() { return static_cast<int32_t>(offsetof(Cursor_t41C86541F738B8481E1B52E133EA0C2E03D3D630, ___m_Cursor_6)); }
-	inline MeshRenderer_t9D67CA54E83315F743623BDE8EADCD5074659EED * get_m_Cursor_6() const { return ___m_Cursor_6; }
-	inline MeshRenderer_t9D67CA54E83315F743623BDE8EADCD5074659EED ** get_address_of_m_Cursor_6() { return &___m_Cursor_6; }
-	inline void set_m_Cursor_6(MeshRenderer_t9D67CA54E83315F743623BDE8EADCD5074659EED * value)
-	{
-		___m_Cursor_6 = value;
-		Il2CppCodeGenWriteBarrier((&___m_Cursor_6), value);
-	}
-
-	inline static int32_t get_offset_of_m_GestureRecognizer_7() { return static_cast<int32_t>(offsetof(Cursor_t41C86541F738B8481E1B52E133EA0C2E03D3D630, ___m_GestureRecognizer_7)); }
-	inline GestureRecognizer_tE4A3B36C495289B1DF1011E12394116A91E361DE * get_m_GestureRecognizer_7() const { return ___m_GestureRecognizer_7; }
-	inline GestureRecognizer_tE4A3B36C495289B1DF1011E12394116A91E361DE ** get_address_of_m_GestureRecognizer_7() { return &___m_GestureRecognizer_7; }
-	inline void set_m_GestureRecognizer_7(GestureRecognizer_tE4A3B36C495289B1DF1011E12394116A91E361DE * value)
-	{
-		___m_GestureRecognizer_7 = value;
-		Il2CppCodeGenWriteBarrier((&___m_GestureRecognizer_7), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // CURSOR_T41C86541F738B8481E1B52E133EA0C2E03D3D630_H
-#ifndef CURSOR_UI_DEL_T4DB42CABBDE3444831FAAA43954A4C645617147D_H
-#define CURSOR_UI_DEL_T4DB42CABBDE3444831FAAA43954A4C645617147D_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// Cursor_UI_del
-struct  Cursor_UI_del_t4DB42CABBDE3444831FAAA43954A4C645617147D  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // CURSOR_UI_DEL_T4DB42CABBDE3444831FAAA43954A4C645617147D_H
-#ifndef CUSTOMTURNOFFBEHAVIOUR_T8CDB915D20EEFB3A8BEBCA303083D020C2BB5C42_H
-#define CUSTOMTURNOFFBEHAVIOUR_T8CDB915D20EEFB3A8BEBCA303083D020C2BB5C42_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// CustomTurnOffBehaviour
-struct  CustomTurnOffBehaviour_t8CDB915D20EEFB3A8BEBCA303083D020C2BB5C42  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
-	// CustomTurnOffBehaviour_TurnOffRendering CustomTurnOffBehaviour::turnOffRendering
-	int32_t ___turnOffRendering_4;
-
-public:
-	inline static int32_t get_offset_of_turnOffRendering_4() { return static_cast<int32_t>(offsetof(CustomTurnOffBehaviour_t8CDB915D20EEFB3A8BEBCA303083D020C2BB5C42, ___turnOffRendering_4)); }
-	inline int32_t get_turnOffRendering_4() const { return ___turnOffRendering_4; }
-	inline int32_t* get_address_of_turnOffRendering_4() { return &___turnOffRendering_4; }
-	inline void set_turnOffRendering_4(int32_t value)
-	{
-		___turnOffRendering_4 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // CUSTOMTURNOFFBEHAVIOUR_T8CDB915D20EEFB3A8BEBCA303083D020C2BB5C42_H
-#ifndef DEFAULTTRACKABLEEVENTHANDLER_T6997E0A19AC0FABC165FB7264F57DF2EDF4E8022_H
-#define DEFAULTTRACKABLEEVENTHANDLER_T6997E0A19AC0FABC165FB7264F57DF2EDF4E8022_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// DefaultTrackableEventHandler
-struct  DefaultTrackableEventHandler_t6997E0A19AC0FABC165FB7264F57DF2EDF4E8022  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
-	// Vuforia.TrackableBehaviour DefaultTrackableEventHandler::mTrackableBehaviour
-	TrackableBehaviour_t579D75AAFEF7B2D69F4B68931D5A58074E80A7E4 * ___mTrackableBehaviour_4;
-	// Vuforia.TrackableBehaviour_Status DefaultTrackableEventHandler::m_PreviousStatus
-	int32_t ___m_PreviousStatus_5;
-	// Vuforia.TrackableBehaviour_Status DefaultTrackableEventHandler::m_NewStatus
-	int32_t ___m_NewStatus_6;
-
-public:
-	inline static int32_t get_offset_of_mTrackableBehaviour_4() { return static_cast<int32_t>(offsetof(DefaultTrackableEventHandler_t6997E0A19AC0FABC165FB7264F57DF2EDF4E8022, ___mTrackableBehaviour_4)); }
-	inline TrackableBehaviour_t579D75AAFEF7B2D69F4B68931D5A58074E80A7E4 * get_mTrackableBehaviour_4() const { return ___mTrackableBehaviour_4; }
-	inline TrackableBehaviour_t579D75AAFEF7B2D69F4B68931D5A58074E80A7E4 ** get_address_of_mTrackableBehaviour_4() { return &___mTrackableBehaviour_4; }
-	inline void set_mTrackableBehaviour_4(TrackableBehaviour_t579D75AAFEF7B2D69F4B68931D5A58074E80A7E4 * value)
-	{
-		___mTrackableBehaviour_4 = value;
-		Il2CppCodeGenWriteBarrier((&___mTrackableBehaviour_4), value);
-	}
-
-	inline static int32_t get_offset_of_m_PreviousStatus_5() { return static_cast<int32_t>(offsetof(DefaultTrackableEventHandler_t6997E0A19AC0FABC165FB7264F57DF2EDF4E8022, ___m_PreviousStatus_5)); }
-	inline int32_t get_m_PreviousStatus_5() const { return ___m_PreviousStatus_5; }
-	inline int32_t* get_address_of_m_PreviousStatus_5() { return &___m_PreviousStatus_5; }
-	inline void set_m_PreviousStatus_5(int32_t value)
-	{
-		___m_PreviousStatus_5 = value;
-	}
-
-	inline static int32_t get_offset_of_m_NewStatus_6() { return static_cast<int32_t>(offsetof(DefaultTrackableEventHandler_t6997E0A19AC0FABC165FB7264F57DF2EDF4E8022, ___m_NewStatus_6)); }
-	inline int32_t get_m_NewStatus_6() const { return ___m_NewStatus_6; }
-	inline int32_t* get_address_of_m_NewStatus_6() { return &___m_NewStatus_6; }
-	inline void set_m_NewStatus_6(int32_t value)
-	{
-		___m_NewStatus_6 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // DEFAULTTRACKABLEEVENTHANDLER_T6997E0A19AC0FABC165FB7264F57DF2EDF4E8022_H
-#ifndef DELEGATE_T9AAD81FB10F2D1DFC2BA6FF9894EEBABA66FFB01_H
-#define DELEGATE_T9AAD81FB10F2D1DFC2BA6FF9894EEBABA66FFB01_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// Delegate
-struct  Delegate_t9AAD81FB10F2D1DFC2BA6FF9894EEBABA66FFB01  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // DELEGATE_T9AAD81FB10F2D1DFC2BA6FF9894EEBABA66FFB01_H
-#ifndef DELEGATETESTER_T3667221E06FC92C60AED6CCCD626C244BCE43EF8_H
-#define DELEGATETESTER_T3667221E06FC92C60AED6CCCD626C244BCE43EF8_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// DelegateTester
-struct  DelegateTester_t3667221E06FC92C60AED6CCCD626C244BCE43EF8  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // DELEGATETESTER_T3667221E06FC92C60AED6CCCD626C244BCE43EF8_H
-#ifndef DEPTHCANVAS_T3905F2376783E66F8DC07D648E29FEE06CAEFBDB_H
-#define DEPTHCANVAS_T3905F2376783E66F8DC07D648E29FEE06CAEFBDB_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// DepthCanvas
-struct  DepthCanvas_t3905F2376783E66F8DC07D648E29FEE06CAEFBDB  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
-	// UnityEngine.Camera DepthCanvas::vuforiaCamera
-	Camera_t48B2B9ECB3CE6108A98BF949A1CECF0FE3421F34 * ___vuforiaCamera_4;
-	// UnityEngine.RectTransform DepthCanvas::canvasRectTransform
-	RectTransform_t285CBD8775B25174B75164F10618F8B9728E1B20 * ___canvasRectTransform_5;
-
-public:
-	inline static int32_t get_offset_of_vuforiaCamera_4() { return static_cast<int32_t>(offsetof(DepthCanvas_t3905F2376783E66F8DC07D648E29FEE06CAEFBDB, ___vuforiaCamera_4)); }
-	inline Camera_t48B2B9ECB3CE6108A98BF949A1CECF0FE3421F34 * get_vuforiaCamera_4() const { return ___vuforiaCamera_4; }
-	inline Camera_t48B2B9ECB3CE6108A98BF949A1CECF0FE3421F34 ** get_address_of_vuforiaCamera_4() { return &___vuforiaCamera_4; }
-	inline void set_vuforiaCamera_4(Camera_t48B2B9ECB3CE6108A98BF949A1CECF0FE3421F34 * value)
-	{
-		___vuforiaCamera_4 = value;
-		Il2CppCodeGenWriteBarrier((&___vuforiaCamera_4), value);
-	}
-
-	inline static int32_t get_offset_of_canvasRectTransform_5() { return static_cast<int32_t>(offsetof(DepthCanvas_t3905F2376783E66F8DC07D648E29FEE06CAEFBDB, ___canvasRectTransform_5)); }
-	inline RectTransform_t285CBD8775B25174B75164F10618F8B9728E1B20 * get_canvasRectTransform_5() const { return ___canvasRectTransform_5; }
-	inline RectTransform_t285CBD8775B25174B75164F10618F8B9728E1B20 ** get_address_of_canvasRectTransform_5() { return &___canvasRectTransform_5; }
-	inline void set_canvasRectTransform_5(RectTransform_t285CBD8775B25174B75164F10618F8B9728E1B20 * value)
-	{
-		___canvasRectTransform_5 = value;
-		Il2CppCodeGenWriteBarrier((&___canvasRectTransform_5), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // DEPTHCANVAS_T3905F2376783E66F8DC07D648E29FEE06CAEFBDB_H
-#ifndef EVENTSYSTEMCHECKER_TBCFA2122420709BFD03E62FC9C31AB1EF1C0D9A2_H
-#define EVENTSYSTEMCHECKER_TBCFA2122420709BFD03E62FC9C31AB1EF1C0D9A2_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// EventSystemChecker
-struct  EventSystemChecker_tBCFA2122420709BFD03E62FC9C31AB1EF1C0D9A2  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // EVENTSYSTEMCHECKER_TBCFA2122420709BFD03E62FC9C31AB1EF1C0D9A2_H
-#ifndef FORCEDRESET_TEC3681031282AAB62160CCEDC9038AD76F4ABD48_H
-#define FORCEDRESET_TEC3681031282AAB62160CCEDC9038AD76F4ABD48_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// ForcedReset
-struct  ForcedReset_tEC3681031282AAB62160CCEDC9038AD76F4ABD48  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // FORCEDRESET_TEC3681031282AAB62160CCEDC9038AD76F4ABD48_H
-#ifndef GAZEMANAGER_TE03EC6EAC225C91FBAA402157FBE1C801316D828_H
-#define GAZEMANAGER_TE03EC6EAC225C91FBAA402157FBE1C801316D828_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// GazeManager
-struct  GazeManager_tE03EC6EAC225C91FBAA402157FBE1C801316D828  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
-	// UnityEngine.Transform GazeManager::_selection
-	Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * ____selection_4;
-	// System.String GazeManager::selectableTag
-	String_t* ___selectableTag_5;
-	// UnityEngine.GameObject GazeManager::FocusObj
-	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___FocusObj_6;
-
-public:
-	inline static int32_t get_offset_of__selection_4() { return static_cast<int32_t>(offsetof(GazeManager_tE03EC6EAC225C91FBAA402157FBE1C801316D828, ____selection_4)); }
-	inline Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * get__selection_4() const { return ____selection_4; }
-	inline Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA ** get_address_of__selection_4() { return &____selection_4; }
-	inline void set__selection_4(Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * value)
-	{
-		____selection_4 = value;
-		Il2CppCodeGenWriteBarrier((&____selection_4), value);
-	}
-
-	inline static int32_t get_offset_of_selectableTag_5() { return static_cast<int32_t>(offsetof(GazeManager_tE03EC6EAC225C91FBAA402157FBE1C801316D828, ___selectableTag_5)); }
-	inline String_t* get_selectableTag_5() const { return ___selectableTag_5; }
-	inline String_t** get_address_of_selectableTag_5() { return &___selectableTag_5; }
-	inline void set_selectableTag_5(String_t* value)
-	{
-		___selectableTag_5 = value;
-		Il2CppCodeGenWriteBarrier((&___selectableTag_5), value);
-	}
-
-	inline static int32_t get_offset_of_FocusObj_6() { return static_cast<int32_t>(offsetof(GazeManager_tE03EC6EAC225C91FBAA402157FBE1C801316D828, ___FocusObj_6)); }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * get_FocusObj_6() const { return ___FocusObj_6; }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F ** get_address_of_FocusObj_6() { return &___FocusObj_6; }
-	inline void set_FocusObj_6(GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * value)
-	{
-		___FocusObj_6 = value;
-		Il2CppCodeGenWriteBarrier((&___FocusObj_6), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // GAZEMANAGER_TE03EC6EAC225C91FBAA402157FBE1C801316D828_H
-#ifndef HELPMENU_TFA337B11D9CEF46CAA742D7AF0F50CDB4032B59F_H
-#define HELPMENU_TFA337B11D9CEF46CAA742D7AF0F50CDB4032B59F_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// HelpMenu
-struct  HelpMenu_tFA337B11D9CEF46CAA742D7AF0F50CDB4032B59F  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
-	// System.Boolean HelpMenu::m_DisplayOnLoad
-	bool ___m_DisplayOnLoad_4;
-	// UnityEngine.XR.WSA.Input.GestureRecognizer HelpMenu::m_GestureRecognizer
-	GestureRecognizer_tE4A3B36C495289B1DF1011E12394116A91E361DE * ___m_GestureRecognizer_5;
-	// UnityEngine.AudioSource HelpMenu::m_AudioButtonPress
-	AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C * ___m_AudioButtonPress_6;
-
-public:
-	inline static int32_t get_offset_of_m_DisplayOnLoad_4() { return static_cast<int32_t>(offsetof(HelpMenu_tFA337B11D9CEF46CAA742D7AF0F50CDB4032B59F, ___m_DisplayOnLoad_4)); }
-	inline bool get_m_DisplayOnLoad_4() const { return ___m_DisplayOnLoad_4; }
-	inline bool* get_address_of_m_DisplayOnLoad_4() { return &___m_DisplayOnLoad_4; }
-	inline void set_m_DisplayOnLoad_4(bool value)
-	{
-		___m_DisplayOnLoad_4 = value;
-	}
-
-	inline static int32_t get_offset_of_m_GestureRecognizer_5() { return static_cast<int32_t>(offsetof(HelpMenu_tFA337B11D9CEF46CAA742D7AF0F50CDB4032B59F, ___m_GestureRecognizer_5)); }
-	inline GestureRecognizer_tE4A3B36C495289B1DF1011E12394116A91E361DE * get_m_GestureRecognizer_5() const { return ___m_GestureRecognizer_5; }
-	inline GestureRecognizer_tE4A3B36C495289B1DF1011E12394116A91E361DE ** get_address_of_m_GestureRecognizer_5() { return &___m_GestureRecognizer_5; }
-	inline void set_m_GestureRecognizer_5(GestureRecognizer_tE4A3B36C495289B1DF1011E12394116A91E361DE * value)
-	{
-		___m_GestureRecognizer_5 = value;
-		Il2CppCodeGenWriteBarrier((&___m_GestureRecognizer_5), value);
-	}
-
-	inline static int32_t get_offset_of_m_AudioButtonPress_6() { return static_cast<int32_t>(offsetof(HelpMenu_tFA337B11D9CEF46CAA742D7AF0F50CDB4032B59F, ___m_AudioButtonPress_6)); }
-	inline AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C * get_m_AudioButtonPress_6() const { return ___m_AudioButtonPress_6; }
-	inline AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C ** get_address_of_m_AudioButtonPress_6() { return &___m_AudioButtonPress_6; }
-	inline void set_m_AudioButtonPress_6(AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C * value)
-	{
-		___m_AudioButtonPress_6 = value;
-		Il2CppCodeGenWriteBarrier((&___m_AudioButtonPress_6), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // HELPMENU_TFA337B11D9CEF46CAA742D7AF0F50CDB4032B59F_H
-#ifndef BILLBOARD_TAA8C1AD8979B5E4EB34DF529C07E9F1485ED61CD_H
-#define BILLBOARD_TAA8C1AD8979B5E4EB34DF529C07E9F1485ED61CD_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// HoloToolkit.Unity.Billboard
-struct  Billboard_tAA8C1AD8979B5E4EB34DF529C07E9F1485ED61CD  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
-	// HoloToolkit.Unity.PivotAxis HoloToolkit.Unity.Billboard::PivotAxis
-	int32_t ___PivotAxis_4;
-	// UnityEngine.Transform HoloToolkit.Unity.Billboard::TargetTransform
-	Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * ___TargetTransform_5;
-
-public:
-	inline static int32_t get_offset_of_PivotAxis_4() { return static_cast<int32_t>(offsetof(Billboard_tAA8C1AD8979B5E4EB34DF529C07E9F1485ED61CD, ___PivotAxis_4)); }
-	inline int32_t get_PivotAxis_4() const { return ___PivotAxis_4; }
-	inline int32_t* get_address_of_PivotAxis_4() { return &___PivotAxis_4; }
-	inline void set_PivotAxis_4(int32_t value)
-	{
-		___PivotAxis_4 = value;
-	}
-
-	inline static int32_t get_offset_of_TargetTransform_5() { return static_cast<int32_t>(offsetof(Billboard_tAA8C1AD8979B5E4EB34DF529C07E9F1485ED61CD, ___TargetTransform_5)); }
-	inline Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * get_TargetTransform_5() const { return ___TargetTransform_5; }
-	inline Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA ** get_address_of_TargetTransform_5() { return &___TargetTransform_5; }
-	inline void set_TargetTransform_5(Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * value)
-	{
-		___TargetTransform_5 = value;
-		Il2CppCodeGenWriteBarrier((&___TargetTransform_5), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // BILLBOARD_TAA8C1AD8979B5E4EB34DF529C07E9F1485ED61CD_H
-#ifndef FIXEDANGULARSIZE_T84073CBDB97236B0628E55C301ECB054732ECF1A_H
-#define FIXEDANGULARSIZE_T84073CBDB97236B0628E55C301ECB054732ECF1A_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// HoloToolkit.Unity.FixedAngularSize
-struct  FixedAngularSize_t84073CBDB97236B0628E55C301ECB054732ECF1A  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
-	// System.Single HoloToolkit.Unity.FixedAngularSize::SizeRatio
-	float ___SizeRatio_4;
-	// System.Single HoloToolkit.Unity.FixedAngularSize::startingDistance
-	float ___startingDistance_5;
-	// UnityEngine.Vector3 HoloToolkit.Unity.FixedAngularSize::startingScale
-	Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___startingScale_6;
-
-public:
-	inline static int32_t get_offset_of_SizeRatio_4() { return static_cast<int32_t>(offsetof(FixedAngularSize_t84073CBDB97236B0628E55C301ECB054732ECF1A, ___SizeRatio_4)); }
-	inline float get_SizeRatio_4() const { return ___SizeRatio_4; }
-	inline float* get_address_of_SizeRatio_4() { return &___SizeRatio_4; }
-	inline void set_SizeRatio_4(float value)
-	{
-		___SizeRatio_4 = value;
-	}
-
-	inline static int32_t get_offset_of_startingDistance_5() { return static_cast<int32_t>(offsetof(FixedAngularSize_t84073CBDB97236B0628E55C301ECB054732ECF1A, ___startingDistance_5)); }
-	inline float get_startingDistance_5() const { return ___startingDistance_5; }
-	inline float* get_address_of_startingDistance_5() { return &___startingDistance_5; }
-	inline void set_startingDistance_5(float value)
-	{
-		___startingDistance_5 = value;
-	}
-
-	inline static int32_t get_offset_of_startingScale_6() { return static_cast<int32_t>(offsetof(FixedAngularSize_t84073CBDB97236B0628E55C301ECB054732ECF1A, ___startingScale_6)); }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  get_startingScale_6() const { return ___startingScale_6; }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * get_address_of_startingScale_6() { return &___startingScale_6; }
-	inline void set_startingScale_6(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  value)
-	{
-		___startingScale_6 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // FIXEDANGULARSIZE_T84073CBDB97236B0628E55C301ECB054732ECF1A_H
-#ifndef INTERPOLATOR_T91D8B29AE390B7B78F51A16E607B6E077BCF08FB_H
-#define INTERPOLATOR_T91D8B29AE390B7B78F51A16E607B6E077BCF08FB_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// HoloToolkit.Unity.Interpolator
-struct  Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
-	// System.Boolean HoloToolkit.Unity.Interpolator::UseUnscaledTime
-	bool ___UseUnscaledTime_4;
-	// System.Single HoloToolkit.Unity.Interpolator::PositionPerSecond
-	float ___PositionPerSecond_6;
-	// System.Single HoloToolkit.Unity.Interpolator::RotationDegreesPerSecond
-	float ___RotationDegreesPerSecond_7;
-	// System.Single HoloToolkit.Unity.Interpolator::RotationSpeedScaler
-	float ___RotationSpeedScaler_8;
-	// System.Single HoloToolkit.Unity.Interpolator::ScalePerSecond
-	float ___ScalePerSecond_9;
-	// System.Boolean HoloToolkit.Unity.Interpolator::SmoothLerpToTarget
-	bool ___SmoothLerpToTarget_10;
-	// System.Single HoloToolkit.Unity.Interpolator::SmoothPositionLerpRatio
-	float ___SmoothPositionLerpRatio_11;
-	// System.Single HoloToolkit.Unity.Interpolator::SmoothRotationLerpRatio
-	float ___SmoothRotationLerpRatio_12;
-	// System.Single HoloToolkit.Unity.Interpolator::SmoothScaleLerpRatio
-	float ___SmoothScaleLerpRatio_13;
-	// UnityEngine.Vector3 HoloToolkit.Unity.Interpolator::targetPosition
-	Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___targetPosition_14;
-	// System.Boolean HoloToolkit.Unity.Interpolator::<AnimatingPosition>k__BackingField
-	bool ___U3CAnimatingPositionU3Ek__BackingField_15;
-	// UnityEngine.Quaternion HoloToolkit.Unity.Interpolator::targetRotation
-	Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  ___targetRotation_16;
-	// System.Boolean HoloToolkit.Unity.Interpolator::<AnimatingRotation>k__BackingField
-	bool ___U3CAnimatingRotationU3Ek__BackingField_17;
-	// UnityEngine.Quaternion HoloToolkit.Unity.Interpolator::targetLocalRotation
-	Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  ___targetLocalRotation_18;
-	// System.Boolean HoloToolkit.Unity.Interpolator::<AnimatingLocalRotation>k__BackingField
-	bool ___U3CAnimatingLocalRotationU3Ek__BackingField_19;
-	// UnityEngine.Vector3 HoloToolkit.Unity.Interpolator::targetLocalScale
-	Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___targetLocalScale_20;
-	// System.Boolean HoloToolkit.Unity.Interpolator::<AnimatingLocalScale>k__BackingField
-	bool ___U3CAnimatingLocalScaleU3Ek__BackingField_21;
-	// System.Action HoloToolkit.Unity.Interpolator::InterpolationStarted
-	Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * ___InterpolationStarted_22;
-	// System.Action HoloToolkit.Unity.Interpolator::InterpolationDone
-	Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * ___InterpolationDone_23;
-	// UnityEngine.Vector3 HoloToolkit.Unity.Interpolator::<PositionVelocity>k__BackingField
-	Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___U3CPositionVelocityU3Ek__BackingField_24;
-	// UnityEngine.Vector3 HoloToolkit.Unity.Interpolator::oldPosition
-	Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___oldPosition_25;
-
-public:
-	inline static int32_t get_offset_of_UseUnscaledTime_4() { return static_cast<int32_t>(offsetof(Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB, ___UseUnscaledTime_4)); }
-	inline bool get_UseUnscaledTime_4() const { return ___UseUnscaledTime_4; }
-	inline bool* get_address_of_UseUnscaledTime_4() { return &___UseUnscaledTime_4; }
-	inline void set_UseUnscaledTime_4(bool value)
-	{
-		___UseUnscaledTime_4 = value;
-	}
-
-	inline static int32_t get_offset_of_PositionPerSecond_6() { return static_cast<int32_t>(offsetof(Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB, ___PositionPerSecond_6)); }
-	inline float get_PositionPerSecond_6() const { return ___PositionPerSecond_6; }
-	inline float* get_address_of_PositionPerSecond_6() { return &___PositionPerSecond_6; }
-	inline void set_PositionPerSecond_6(float value)
-	{
-		___PositionPerSecond_6 = value;
-	}
-
-	inline static int32_t get_offset_of_RotationDegreesPerSecond_7() { return static_cast<int32_t>(offsetof(Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB, ___RotationDegreesPerSecond_7)); }
-	inline float get_RotationDegreesPerSecond_7() const { return ___RotationDegreesPerSecond_7; }
-	inline float* get_address_of_RotationDegreesPerSecond_7() { return &___RotationDegreesPerSecond_7; }
-	inline void set_RotationDegreesPerSecond_7(float value)
-	{
-		___RotationDegreesPerSecond_7 = value;
-	}
-
-	inline static int32_t get_offset_of_RotationSpeedScaler_8() { return static_cast<int32_t>(offsetof(Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB, ___RotationSpeedScaler_8)); }
-	inline float get_RotationSpeedScaler_8() const { return ___RotationSpeedScaler_8; }
-	inline float* get_address_of_RotationSpeedScaler_8() { return &___RotationSpeedScaler_8; }
-	inline void set_RotationSpeedScaler_8(float value)
-	{
-		___RotationSpeedScaler_8 = value;
-	}
-
-	inline static int32_t get_offset_of_ScalePerSecond_9() { return static_cast<int32_t>(offsetof(Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB, ___ScalePerSecond_9)); }
-	inline float get_ScalePerSecond_9() const { return ___ScalePerSecond_9; }
-	inline float* get_address_of_ScalePerSecond_9() { return &___ScalePerSecond_9; }
-	inline void set_ScalePerSecond_9(float value)
-	{
-		___ScalePerSecond_9 = value;
-	}
-
-	inline static int32_t get_offset_of_SmoothLerpToTarget_10() { return static_cast<int32_t>(offsetof(Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB, ___SmoothLerpToTarget_10)); }
-	inline bool get_SmoothLerpToTarget_10() const { return ___SmoothLerpToTarget_10; }
-	inline bool* get_address_of_SmoothLerpToTarget_10() { return &___SmoothLerpToTarget_10; }
-	inline void set_SmoothLerpToTarget_10(bool value)
-	{
-		___SmoothLerpToTarget_10 = value;
-	}
-
-	inline static int32_t get_offset_of_SmoothPositionLerpRatio_11() { return static_cast<int32_t>(offsetof(Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB, ___SmoothPositionLerpRatio_11)); }
-	inline float get_SmoothPositionLerpRatio_11() const { return ___SmoothPositionLerpRatio_11; }
-	inline float* get_address_of_SmoothPositionLerpRatio_11() { return &___SmoothPositionLerpRatio_11; }
-	inline void set_SmoothPositionLerpRatio_11(float value)
-	{
-		___SmoothPositionLerpRatio_11 = value;
-	}
-
-	inline static int32_t get_offset_of_SmoothRotationLerpRatio_12() { return static_cast<int32_t>(offsetof(Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB, ___SmoothRotationLerpRatio_12)); }
-	inline float get_SmoothRotationLerpRatio_12() const { return ___SmoothRotationLerpRatio_12; }
-	inline float* get_address_of_SmoothRotationLerpRatio_12() { return &___SmoothRotationLerpRatio_12; }
-	inline void set_SmoothRotationLerpRatio_12(float value)
-	{
-		___SmoothRotationLerpRatio_12 = value;
-	}
-
-	inline static int32_t get_offset_of_SmoothScaleLerpRatio_13() { return static_cast<int32_t>(offsetof(Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB, ___SmoothScaleLerpRatio_13)); }
-	inline float get_SmoothScaleLerpRatio_13() const { return ___SmoothScaleLerpRatio_13; }
-	inline float* get_address_of_SmoothScaleLerpRatio_13() { return &___SmoothScaleLerpRatio_13; }
-	inline void set_SmoothScaleLerpRatio_13(float value)
-	{
-		___SmoothScaleLerpRatio_13 = value;
-	}
-
-	inline static int32_t get_offset_of_targetPosition_14() { return static_cast<int32_t>(offsetof(Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB, ___targetPosition_14)); }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  get_targetPosition_14() const { return ___targetPosition_14; }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * get_address_of_targetPosition_14() { return &___targetPosition_14; }
-	inline void set_targetPosition_14(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  value)
-	{
-		___targetPosition_14 = value;
-	}
-
-	inline static int32_t get_offset_of_U3CAnimatingPositionU3Ek__BackingField_15() { return static_cast<int32_t>(offsetof(Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB, ___U3CAnimatingPositionU3Ek__BackingField_15)); }
-	inline bool get_U3CAnimatingPositionU3Ek__BackingField_15() const { return ___U3CAnimatingPositionU3Ek__BackingField_15; }
-	inline bool* get_address_of_U3CAnimatingPositionU3Ek__BackingField_15() { return &___U3CAnimatingPositionU3Ek__BackingField_15; }
-	inline void set_U3CAnimatingPositionU3Ek__BackingField_15(bool value)
-	{
-		___U3CAnimatingPositionU3Ek__BackingField_15 = value;
-	}
-
-	inline static int32_t get_offset_of_targetRotation_16() { return static_cast<int32_t>(offsetof(Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB, ___targetRotation_16)); }
-	inline Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  get_targetRotation_16() const { return ___targetRotation_16; }
-	inline Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357 * get_address_of_targetRotation_16() { return &___targetRotation_16; }
-	inline void set_targetRotation_16(Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  value)
-	{
-		___targetRotation_16 = value;
-	}
-
-	inline static int32_t get_offset_of_U3CAnimatingRotationU3Ek__BackingField_17() { return static_cast<int32_t>(offsetof(Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB, ___U3CAnimatingRotationU3Ek__BackingField_17)); }
-	inline bool get_U3CAnimatingRotationU3Ek__BackingField_17() const { return ___U3CAnimatingRotationU3Ek__BackingField_17; }
-	inline bool* get_address_of_U3CAnimatingRotationU3Ek__BackingField_17() { return &___U3CAnimatingRotationU3Ek__BackingField_17; }
-	inline void set_U3CAnimatingRotationU3Ek__BackingField_17(bool value)
-	{
-		___U3CAnimatingRotationU3Ek__BackingField_17 = value;
-	}
-
-	inline static int32_t get_offset_of_targetLocalRotation_18() { return static_cast<int32_t>(offsetof(Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB, ___targetLocalRotation_18)); }
-	inline Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  get_targetLocalRotation_18() const { return ___targetLocalRotation_18; }
-	inline Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357 * get_address_of_targetLocalRotation_18() { return &___targetLocalRotation_18; }
-	inline void set_targetLocalRotation_18(Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  value)
-	{
-		___targetLocalRotation_18 = value;
-	}
-
-	inline static int32_t get_offset_of_U3CAnimatingLocalRotationU3Ek__BackingField_19() { return static_cast<int32_t>(offsetof(Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB, ___U3CAnimatingLocalRotationU3Ek__BackingField_19)); }
-	inline bool get_U3CAnimatingLocalRotationU3Ek__BackingField_19() const { return ___U3CAnimatingLocalRotationU3Ek__BackingField_19; }
-	inline bool* get_address_of_U3CAnimatingLocalRotationU3Ek__BackingField_19() { return &___U3CAnimatingLocalRotationU3Ek__BackingField_19; }
-	inline void set_U3CAnimatingLocalRotationU3Ek__BackingField_19(bool value)
-	{
-		___U3CAnimatingLocalRotationU3Ek__BackingField_19 = value;
-	}
-
-	inline static int32_t get_offset_of_targetLocalScale_20() { return static_cast<int32_t>(offsetof(Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB, ___targetLocalScale_20)); }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  get_targetLocalScale_20() const { return ___targetLocalScale_20; }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * get_address_of_targetLocalScale_20() { return &___targetLocalScale_20; }
-	inline void set_targetLocalScale_20(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  value)
-	{
-		___targetLocalScale_20 = value;
-	}
-
-	inline static int32_t get_offset_of_U3CAnimatingLocalScaleU3Ek__BackingField_21() { return static_cast<int32_t>(offsetof(Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB, ___U3CAnimatingLocalScaleU3Ek__BackingField_21)); }
-	inline bool get_U3CAnimatingLocalScaleU3Ek__BackingField_21() const { return ___U3CAnimatingLocalScaleU3Ek__BackingField_21; }
-	inline bool* get_address_of_U3CAnimatingLocalScaleU3Ek__BackingField_21() { return &___U3CAnimatingLocalScaleU3Ek__BackingField_21; }
-	inline void set_U3CAnimatingLocalScaleU3Ek__BackingField_21(bool value)
-	{
-		___U3CAnimatingLocalScaleU3Ek__BackingField_21 = value;
-	}
-
-	inline static int32_t get_offset_of_InterpolationStarted_22() { return static_cast<int32_t>(offsetof(Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB, ___InterpolationStarted_22)); }
-	inline Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * get_InterpolationStarted_22() const { return ___InterpolationStarted_22; }
-	inline Action_t591D2A86165F896B4B800BB5C25CE18672A55579 ** get_address_of_InterpolationStarted_22() { return &___InterpolationStarted_22; }
-	inline void set_InterpolationStarted_22(Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * value)
-	{
-		___InterpolationStarted_22 = value;
-		Il2CppCodeGenWriteBarrier((&___InterpolationStarted_22), value);
-	}
-
-	inline static int32_t get_offset_of_InterpolationDone_23() { return static_cast<int32_t>(offsetof(Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB, ___InterpolationDone_23)); }
-	inline Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * get_InterpolationDone_23() const { return ___InterpolationDone_23; }
-	inline Action_t591D2A86165F896B4B800BB5C25CE18672A55579 ** get_address_of_InterpolationDone_23() { return &___InterpolationDone_23; }
-	inline void set_InterpolationDone_23(Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * value)
-	{
-		___InterpolationDone_23 = value;
-		Il2CppCodeGenWriteBarrier((&___InterpolationDone_23), value);
-	}
-
-	inline static int32_t get_offset_of_U3CPositionVelocityU3Ek__BackingField_24() { return static_cast<int32_t>(offsetof(Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB, ___U3CPositionVelocityU3Ek__BackingField_24)); }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  get_U3CPositionVelocityU3Ek__BackingField_24() const { return ___U3CPositionVelocityU3Ek__BackingField_24; }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * get_address_of_U3CPositionVelocityU3Ek__BackingField_24() { return &___U3CPositionVelocityU3Ek__BackingField_24; }
-	inline void set_U3CPositionVelocityU3Ek__BackingField_24(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  value)
-	{
-		___U3CPositionVelocityU3Ek__BackingField_24 = value;
-	}
-
-	inline static int32_t get_offset_of_oldPosition_25() { return static_cast<int32_t>(offsetof(Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB, ___oldPosition_25)); }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  get_oldPosition_25() const { return ___oldPosition_25; }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * get_address_of_oldPosition_25() { return &___oldPosition_25; }
-	inline void set_oldPosition_25(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  value)
-	{
-		___oldPosition_25 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // INTERPOLATOR_T91D8B29AE390B7B78F51A16E607B6E077BCF08FB_H
-#ifndef SIMPLETAGALONG_T37199001ED0DBE680EBA7D85763CC3DD78FE3671_H
-#define SIMPLETAGALONG_T37199001ED0DBE680EBA7D85763CC3DD78FE3671_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// HoloToolkit.Unity.SimpleTagalong
-struct  SimpleTagalong_t37199001ED0DBE680EBA7D85763CC3DD78FE3671  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
-	// System.Single HoloToolkit.Unity.SimpleTagalong::TagalongDistance
-	float ___TagalongDistance_4;
-	// System.Boolean HoloToolkit.Unity.SimpleTagalong::EnforceDistance
-	bool ___EnforceDistance_5;
-	// System.Single HoloToolkit.Unity.SimpleTagalong::PositionUpdateSpeed
-	float ___PositionUpdateSpeed_6;
-	// System.Boolean HoloToolkit.Unity.SimpleTagalong::SmoothMotion
-	bool ___SmoothMotion_7;
-	// System.Single HoloToolkit.Unity.SimpleTagalong::SmoothingFactor
-	float ___SmoothingFactor_8;
-	// UnityEngine.BoxCollider HoloToolkit.Unity.SimpleTagalong::tagalongCollider
-	BoxCollider_t2DF257BBBFCABE0B9D78B21D238298D1942BFBAA * ___tagalongCollider_9;
-	// HoloToolkit.Unity.Interpolator HoloToolkit.Unity.SimpleTagalong::interpolator
-	Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB * ___interpolator_10;
-	// UnityEngine.Plane[] HoloToolkit.Unity.SimpleTagalong::frustumPlanes
-	PlaneU5BU5D_t79471E0ABE147C3018D88A036897B6DB49A782AA* ___frustumPlanes_11;
-
-public:
-	inline static int32_t get_offset_of_TagalongDistance_4() { return static_cast<int32_t>(offsetof(SimpleTagalong_t37199001ED0DBE680EBA7D85763CC3DD78FE3671, ___TagalongDistance_4)); }
-	inline float get_TagalongDistance_4() const { return ___TagalongDistance_4; }
-	inline float* get_address_of_TagalongDistance_4() { return &___TagalongDistance_4; }
-	inline void set_TagalongDistance_4(float value)
-	{
-		___TagalongDistance_4 = value;
-	}
-
-	inline static int32_t get_offset_of_EnforceDistance_5() { return static_cast<int32_t>(offsetof(SimpleTagalong_t37199001ED0DBE680EBA7D85763CC3DD78FE3671, ___EnforceDistance_5)); }
-	inline bool get_EnforceDistance_5() const { return ___EnforceDistance_5; }
-	inline bool* get_address_of_EnforceDistance_5() { return &___EnforceDistance_5; }
-	inline void set_EnforceDistance_5(bool value)
-	{
-		___EnforceDistance_5 = value;
-	}
-
-	inline static int32_t get_offset_of_PositionUpdateSpeed_6() { return static_cast<int32_t>(offsetof(SimpleTagalong_t37199001ED0DBE680EBA7D85763CC3DD78FE3671, ___PositionUpdateSpeed_6)); }
-	inline float get_PositionUpdateSpeed_6() const { return ___PositionUpdateSpeed_6; }
-	inline float* get_address_of_PositionUpdateSpeed_6() { return &___PositionUpdateSpeed_6; }
-	inline void set_PositionUpdateSpeed_6(float value)
-	{
-		___PositionUpdateSpeed_6 = value;
-	}
-
-	inline static int32_t get_offset_of_SmoothMotion_7() { return static_cast<int32_t>(offsetof(SimpleTagalong_t37199001ED0DBE680EBA7D85763CC3DD78FE3671, ___SmoothMotion_7)); }
-	inline bool get_SmoothMotion_7() const { return ___SmoothMotion_7; }
-	inline bool* get_address_of_SmoothMotion_7() { return &___SmoothMotion_7; }
-	inline void set_SmoothMotion_7(bool value)
-	{
-		___SmoothMotion_7 = value;
-	}
-
-	inline static int32_t get_offset_of_SmoothingFactor_8() { return static_cast<int32_t>(offsetof(SimpleTagalong_t37199001ED0DBE680EBA7D85763CC3DD78FE3671, ___SmoothingFactor_8)); }
-	inline float get_SmoothingFactor_8() const { return ___SmoothingFactor_8; }
-	inline float* get_address_of_SmoothingFactor_8() { return &___SmoothingFactor_8; }
-	inline void set_SmoothingFactor_8(float value)
-	{
-		___SmoothingFactor_8 = value;
-	}
-
-	inline static int32_t get_offset_of_tagalongCollider_9() { return static_cast<int32_t>(offsetof(SimpleTagalong_t37199001ED0DBE680EBA7D85763CC3DD78FE3671, ___tagalongCollider_9)); }
-	inline BoxCollider_t2DF257BBBFCABE0B9D78B21D238298D1942BFBAA * get_tagalongCollider_9() const { return ___tagalongCollider_9; }
-	inline BoxCollider_t2DF257BBBFCABE0B9D78B21D238298D1942BFBAA ** get_address_of_tagalongCollider_9() { return &___tagalongCollider_9; }
-	inline void set_tagalongCollider_9(BoxCollider_t2DF257BBBFCABE0B9D78B21D238298D1942BFBAA * value)
-	{
-		___tagalongCollider_9 = value;
-		Il2CppCodeGenWriteBarrier((&___tagalongCollider_9), value);
-	}
-
-	inline static int32_t get_offset_of_interpolator_10() { return static_cast<int32_t>(offsetof(SimpleTagalong_t37199001ED0DBE680EBA7D85763CC3DD78FE3671, ___interpolator_10)); }
-	inline Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB * get_interpolator_10() const { return ___interpolator_10; }
-	inline Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB ** get_address_of_interpolator_10() { return &___interpolator_10; }
-	inline void set_interpolator_10(Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB * value)
-	{
-		___interpolator_10 = value;
-		Il2CppCodeGenWriteBarrier((&___interpolator_10), value);
-	}
-
-	inline static int32_t get_offset_of_frustumPlanes_11() { return static_cast<int32_t>(offsetof(SimpleTagalong_t37199001ED0DBE680EBA7D85763CC3DD78FE3671, ___frustumPlanes_11)); }
-	inline PlaneU5BU5D_t79471E0ABE147C3018D88A036897B6DB49A782AA* get_frustumPlanes_11() const { return ___frustumPlanes_11; }
-	inline PlaneU5BU5D_t79471E0ABE147C3018D88A036897B6DB49A782AA** get_address_of_frustumPlanes_11() { return &___frustumPlanes_11; }
-	inline void set_frustumPlanes_11(PlaneU5BU5D_t79471E0ABE147C3018D88A036897B6DB49A782AA* value)
-	{
-		___frustumPlanes_11 = value;
-		Il2CppCodeGenWriteBarrier((&___frustumPlanes_11), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // SIMPLETAGALONG_T37199001ED0DBE680EBA7D85763CC3DD78FE3671_H
-#ifndef INPUTMANAGER_T208BBEDF18F7B320FCB945FC0F5D757BEBC45ACE_H
-#define INPUTMANAGER_T208BBEDF18F7B320FCB945FC0F5D757BEBC45ACE_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// InputManager
-struct  InputManager_t208BBEDF18F7B320FCB945FC0F5D757BEBC45ACE  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
-	// UnityEngine.GameObject InputManager::Toggle
-	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___Toggle_4;
-
-public:
-	inline static int32_t get_offset_of_Toggle_4() { return static_cast<int32_t>(offsetof(InputManager_t208BBEDF18F7B320FCB945FC0F5D757BEBC45ACE, ___Toggle_4)); }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * get_Toggle_4() const { return ___Toggle_4; }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F ** get_address_of_Toggle_4() { return &___Toggle_4; }
-	inline void set_Toggle_4(GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * value)
-	{
-		___Toggle_4 = value;
-		Il2CppCodeGenWriteBarrier((&___Toggle_4), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // INPUTMANAGER_T208BBEDF18F7B320FCB945FC0F5D757BEBC45ACE_H
-#ifndef KEYMESSAGERECEIVER_TE60D4584279E8CF9B46B9DEAD35210A3316A73F4_H
-#define KEYMESSAGERECEIVER_TE60D4584279E8CF9B46B9DEAD35210A3316A73F4_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// KeyMessageReceiver
-struct  KeyMessageReceiver_tE60D4584279E8CF9B46B9DEAD35210A3316A73F4  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
-	// UnityEngine.Transform KeyMessageReceiver::Child
-	Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * ___Child_4;
-	// UnityEngine.UI.Image KeyMessageReceiver::image
-	Image_t18FED07D8646917E1C563745518CF3DD57FF0B3E * ___image_5;
-	// System.Int32 KeyMessageReceiver::Musicoffset
-	int32_t ___Musicoffset_6;
-
-public:
-	inline static int32_t get_offset_of_Child_4() { return static_cast<int32_t>(offsetof(KeyMessageReceiver_tE60D4584279E8CF9B46B9DEAD35210A3316A73F4, ___Child_4)); }
-	inline Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * get_Child_4() const { return ___Child_4; }
-	inline Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA ** get_address_of_Child_4() { return &___Child_4; }
-	inline void set_Child_4(Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * value)
-	{
-		___Child_4 = value;
-		Il2CppCodeGenWriteBarrier((&___Child_4), value);
-	}
-
-	inline static int32_t get_offset_of_image_5() { return static_cast<int32_t>(offsetof(KeyMessageReceiver_tE60D4584279E8CF9B46B9DEAD35210A3316A73F4, ___image_5)); }
-	inline Image_t18FED07D8646917E1C563745518CF3DD57FF0B3E * get_image_5() const { return ___image_5; }
-	inline Image_t18FED07D8646917E1C563745518CF3DD57FF0B3E ** get_address_of_image_5() { return &___image_5; }
-	inline void set_image_5(Image_t18FED07D8646917E1C563745518CF3DD57FF0B3E * value)
-	{
-		___image_5 = value;
-		Il2CppCodeGenWriteBarrier((&___image_5), value);
-	}
-
-	inline static int32_t get_offset_of_Musicoffset_6() { return static_cast<int32_t>(offsetof(KeyMessageReceiver_tE60D4584279E8CF9B46B9DEAD35210A3316A73F4, ___Musicoffset_6)); }
-	inline int32_t get_Musicoffset_6() const { return ___Musicoffset_6; }
-	inline int32_t* get_address_of_Musicoffset_6() { return &___Musicoffset_6; }
-	inline void set_Musicoffset_6(int32_t value)
-	{
-		___Musicoffset_6 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // KEYMESSAGERECEIVER_TE60D4584279E8CF9B46B9DEAD35210A3316A73F4_H
-#ifndef KEY_DETECTION_TB5E5266FA03A9669E8083924FF12F6DCFA09DF15_H
-#define KEY_DETECTION_TB5E5266FA03A9669E8083924FF12F6DCFA09DF15_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// Key_detection
-struct  Key_detection_tB5E5266FA03A9669E8083924FF12F6DCFA09DF15  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
-	// UnityEngine.GameObject Key_detection::Notetester
-	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___Notetester_4;
-
-public:
-	inline static int32_t get_offset_of_Notetester_4() { return static_cast<int32_t>(offsetof(Key_detection_tB5E5266FA03A9669E8083924FF12F6DCFA09DF15, ___Notetester_4)); }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * get_Notetester_4() const { return ___Notetester_4; }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F ** get_address_of_Notetester_4() { return &___Notetester_4; }
-	inline void set_Notetester_4(GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * value)
-	{
-		___Notetester_4 = value;
-		Il2CppCodeGenWriteBarrier((&___Notetester_4), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // KEY_DETECTION_TB5E5266FA03A9669E8083924FF12F6DCFA09DF15_H
-#ifndef KNOBINDICATOR_T9286A06632F1B8CF11D36E2E8CD5A8E8BFEEA90C_H
-#define KNOBINDICATOR_T9286A06632F1B8CF11D36E2E8CD5A8E8BFEEA90C_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// KnobIndicator
-struct  KnobIndicator_t9286A06632F1B8CF11D36E2E8CD5A8E8BFEEA90C  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
-	// System.Int32 KnobIndicator::knobNumber
-	int32_t ___knobNumber_4;
-
-public:
-	inline static int32_t get_offset_of_knobNumber_4() { return static_cast<int32_t>(offsetof(KnobIndicator_t9286A06632F1B8CF11D36E2E8CD5A8E8BFEEA90C, ___knobNumber_4)); }
-	inline int32_t get_knobNumber_4() const { return ___knobNumber_4; }
-	inline int32_t* get_address_of_knobNumber_4() { return &___knobNumber_4; }
-	inline void set_knobNumber_4(int32_t value)
-	{
-		___knobNumber_4 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // KNOBINDICATOR_T9286A06632F1B8CF11D36E2E8CD5A8E8BFEEA90C_H
-#ifndef KNOBINDICATORGROUP_T0C727E091CC4752C97D7AF74D17D2B777A88222F_H
-#define KNOBINDICATORGROUP_T0C727E091CC4752C97D7AF74D17D2B777A88222F_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// KnobIndicatorGroup
-struct  KnobIndicatorGroup_t0C727E091CC4752C97D7AF74D17D2B777A88222F  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
-	// UnityEngine.GameObject KnobIndicatorGroup::prefab
-	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___prefab_4;
-	// System.Collections.Generic.List`1<KnobIndicator> KnobIndicatorGroup::indicators
-	List_1_t4753C6EE3BBFB367AB60290D99B5E8CD5AF7B8DA * ___indicators_5;
-
-public:
-	inline static int32_t get_offset_of_prefab_4() { return static_cast<int32_t>(offsetof(KnobIndicatorGroup_t0C727E091CC4752C97D7AF74D17D2B777A88222F, ___prefab_4)); }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * get_prefab_4() const { return ___prefab_4; }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F ** get_address_of_prefab_4() { return &___prefab_4; }
-	inline void set_prefab_4(GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * value)
-	{
-		___prefab_4 = value;
-		Il2CppCodeGenWriteBarrier((&___prefab_4), value);
-	}
-
-	inline static int32_t get_offset_of_indicators_5() { return static_cast<int32_t>(offsetof(KnobIndicatorGroup_t0C727E091CC4752C97D7AF74D17D2B777A88222F, ___indicators_5)); }
-	inline List_1_t4753C6EE3BBFB367AB60290D99B5E8CD5AF7B8DA * get_indicators_5() const { return ___indicators_5; }
-	inline List_1_t4753C6EE3BBFB367AB60290D99B5E8CD5AF7B8DA ** get_address_of_indicators_5() { return &___indicators_5; }
-	inline void set_indicators_5(List_1_t4753C6EE3BBFB367AB60290D99B5E8CD5AF7B8DA * value)
-	{
-		___indicators_5 = value;
-		Il2CppCodeGenWriteBarrier((&___indicators_5), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // KNOBINDICATORGROUP_T0C727E091CC4752C97D7AF74D17D2B777A88222F_H
-#ifndef LEVELRESET_TB9564C9993E2B89A7DEF83BCA188F126AF3DB46E_H
-#define LEVELRESET_TB9564C9993E2B89A7DEF83BCA188F126AF3DB46E_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// LevelReset
-struct  LevelReset_tB9564C9993E2B89A7DEF83BCA188F126AF3DB46E  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // LEVELRESET_TB9564C9993E2B89A7DEF83BCA188F126AF3DB46E_H
-#ifndef MAINMENU_T7CD5D54EA3EBFAE6ECFE46E095EFEBFD14C45105_H
-#define MAINMENU_T7CD5D54EA3EBFAE6ECFE46E095EFEBFD14C45105_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// MainMenu
-struct  MainMenu_t7CD5D54EA3EBFAE6ECFE46E095EFEBFD14C45105  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
-	// UnityEngine.GameObject MainMenu::<FocusedObject>k__BackingField
-	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___U3CFocusedObjectU3Ek__BackingField_4;
-	// UnityEngine.GameObject MainMenu::FocusedObjectPrevFrame
-	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___FocusedObjectPrevFrame_5;
-	// UnityEngine.XR.WSA.Input.GestureRecognizer MainMenu::m_GestureRecognizer
-	GestureRecognizer_tE4A3B36C495289B1DF1011E12394116A91E361DE * ___m_GestureRecognizer_6;
-	// UnityEngine.AudioSource MainMenu::m_AudioButtonPress
-	AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C * ___m_AudioButtonPress_7;
-
-public:
-	inline static int32_t get_offset_of_U3CFocusedObjectU3Ek__BackingField_4() { return static_cast<int32_t>(offsetof(MainMenu_t7CD5D54EA3EBFAE6ECFE46E095EFEBFD14C45105, ___U3CFocusedObjectU3Ek__BackingField_4)); }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * get_U3CFocusedObjectU3Ek__BackingField_4() const { return ___U3CFocusedObjectU3Ek__BackingField_4; }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F ** get_address_of_U3CFocusedObjectU3Ek__BackingField_4() { return &___U3CFocusedObjectU3Ek__BackingField_4; }
-	inline void set_U3CFocusedObjectU3Ek__BackingField_4(GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * value)
-	{
-		___U3CFocusedObjectU3Ek__BackingField_4 = value;
-		Il2CppCodeGenWriteBarrier((&___U3CFocusedObjectU3Ek__BackingField_4), value);
-	}
-
-	inline static int32_t get_offset_of_FocusedObjectPrevFrame_5() { return static_cast<int32_t>(offsetof(MainMenu_t7CD5D54EA3EBFAE6ECFE46E095EFEBFD14C45105, ___FocusedObjectPrevFrame_5)); }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * get_FocusedObjectPrevFrame_5() const { return ___FocusedObjectPrevFrame_5; }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F ** get_address_of_FocusedObjectPrevFrame_5() { return &___FocusedObjectPrevFrame_5; }
-	inline void set_FocusedObjectPrevFrame_5(GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * value)
-	{
-		___FocusedObjectPrevFrame_5 = value;
-		Il2CppCodeGenWriteBarrier((&___FocusedObjectPrevFrame_5), value);
-	}
-
-	inline static int32_t get_offset_of_m_GestureRecognizer_6() { return static_cast<int32_t>(offsetof(MainMenu_t7CD5D54EA3EBFAE6ECFE46E095EFEBFD14C45105, ___m_GestureRecognizer_6)); }
-	inline GestureRecognizer_tE4A3B36C495289B1DF1011E12394116A91E361DE * get_m_GestureRecognizer_6() const { return ___m_GestureRecognizer_6; }
-	inline GestureRecognizer_tE4A3B36C495289B1DF1011E12394116A91E361DE ** get_address_of_m_GestureRecognizer_6() { return &___m_GestureRecognizer_6; }
-	inline void set_m_GestureRecognizer_6(GestureRecognizer_tE4A3B36C495289B1DF1011E12394116A91E361DE * value)
-	{
-		___m_GestureRecognizer_6 = value;
-		Il2CppCodeGenWriteBarrier((&___m_GestureRecognizer_6), value);
-	}
-
-	inline static int32_t get_offset_of_m_AudioButtonPress_7() { return static_cast<int32_t>(offsetof(MainMenu_t7CD5D54EA3EBFAE6ECFE46E095EFEBFD14C45105, ___m_AudioButtonPress_7)); }
-	inline AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C * get_m_AudioButtonPress_7() const { return ___m_AudioButtonPress_7; }
-	inline AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C ** get_address_of_m_AudioButtonPress_7() { return &___m_AudioButtonPress_7; }
-	inline void set_m_AudioButtonPress_7(AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C * value)
-	{
-		___m_AudioButtonPress_7 = value;
-		Il2CppCodeGenWriteBarrier((&___m_AudioButtonPress_7), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // MAINMENU_T7CD5D54EA3EBFAE6ECFE46E095EFEBFD14C45105_H
-#ifndef MATERIALSWITCH_T5E11C2002C97E7E67E84CB9937D72BD45155981D_H
-#define MATERIALSWITCH_T5E11C2002C97E7E67E84CB9937D72BD45155981D_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// MaterialSwitch
-struct  MaterialSwitch_t5E11C2002C97E7E67E84CB9937D72BD45155981D  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
-	// UnityEngine.Material[] MaterialSwitch::materials
-	MaterialU5BU5D_tD2350F98F2A1BB6C7A5FBFE1474DFC47331AB398* ___materials_4;
-	// System.Int32 MaterialSwitch::materialIndex
-	int32_t ___materialIndex_5;
-
-public:
-	inline static int32_t get_offset_of_materials_4() { return static_cast<int32_t>(offsetof(MaterialSwitch_t5E11C2002C97E7E67E84CB9937D72BD45155981D, ___materials_4)); }
-	inline MaterialU5BU5D_tD2350F98F2A1BB6C7A5FBFE1474DFC47331AB398* get_materials_4() const { return ___materials_4; }
-	inline MaterialU5BU5D_tD2350F98F2A1BB6C7A5FBFE1474DFC47331AB398** get_address_of_materials_4() { return &___materials_4; }
-	inline void set_materials_4(MaterialU5BU5D_tD2350F98F2A1BB6C7A5FBFE1474DFC47331AB398* value)
-	{
-		___materials_4 = value;
-		Il2CppCodeGenWriteBarrier((&___materials_4), value);
-	}
-
-	inline static int32_t get_offset_of_materialIndex_5() { return static_cast<int32_t>(offsetof(MaterialSwitch_t5E11C2002C97E7E67E84CB9937D72BD45155981D, ___materialIndex_5)); }
-	inline int32_t get_materialIndex_5() const { return ___materialIndex_5; }
-	inline int32_t* get_address_of_materialIndex_5() { return &___materialIndex_5; }
-	inline void set_materialIndex_5(int32_t value)
-	{
-		___materialIndex_5 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // MATERIALSWITCH_T5E11C2002C97E7E67E84CB9937D72BD45155981D_H
-#ifndef MENUCONTROLLER_T244BC6F4B06B69D85522469F892EA8375E376DA1_H
-#define MENUCONTROLLER_T244BC6F4B06B69D85522469F892EA8375E376DA1_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// MenuController
-struct  MenuController_t244BC6F4B06B69D85522469F892EA8375E376DA1  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
-	// UnityEngine.GameObject MenuController::StartingInstruction
-	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___StartingInstruction_4;
-	// UnityEngine.GameObject MenuController::MainMenu
-	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___MainMenu_5;
-
-public:
-	inline static int32_t get_offset_of_StartingInstruction_4() { return static_cast<int32_t>(offsetof(MenuController_t244BC6F4B06B69D85522469F892EA8375E376DA1, ___StartingInstruction_4)); }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * get_StartingInstruction_4() const { return ___StartingInstruction_4; }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F ** get_address_of_StartingInstruction_4() { return &___StartingInstruction_4; }
-	inline void set_StartingInstruction_4(GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * value)
-	{
-		___StartingInstruction_4 = value;
-		Il2CppCodeGenWriteBarrier((&___StartingInstruction_4), value);
-	}
-
-	inline static int32_t get_offset_of_MainMenu_5() { return static_cast<int32_t>(offsetof(MenuController_t244BC6F4B06B69D85522469F892EA8375E376DA1, ___MainMenu_5)); }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * get_MainMenu_5() const { return ___MainMenu_5; }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F ** get_address_of_MainMenu_5() { return &___MainMenu_5; }
-	inline void set_MainMenu_5(GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * value)
-	{
-		___MainMenu_5 = value;
-		Il2CppCodeGenWriteBarrier((&___MainMenu_5), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // MENUCONTROLLER_T244BC6F4B06B69D85522469F892EA8375E376DA1_H
-#ifndef MENUSCENELOADER_TED3F5289ED7B0BED1A420F475DA66E8FF4A2B0CD_H
-#define MENUSCENELOADER_TED3F5289ED7B0BED1A420F475DA66E8FF4A2B0CD_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// MenuSceneLoader
-struct  MenuSceneLoader_tED3F5289ED7B0BED1A420F475DA66E8FF4A2B0CD  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
-	// UnityEngine.GameObject MenuSceneLoader::menuUI
-	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___menuUI_4;
-	// UnityEngine.GameObject MenuSceneLoader::m_Go
-	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___m_Go_5;
-
-public:
-	inline static int32_t get_offset_of_menuUI_4() { return static_cast<int32_t>(offsetof(MenuSceneLoader_tED3F5289ED7B0BED1A420F475DA66E8FF4A2B0CD, ___menuUI_4)); }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * get_menuUI_4() const { return ___menuUI_4; }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F ** get_address_of_menuUI_4() { return &___menuUI_4; }
-	inline void set_menuUI_4(GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * value)
-	{
-		___menuUI_4 = value;
-		Il2CppCodeGenWriteBarrier((&___menuUI_4), value);
-	}
-
-	inline static int32_t get_offset_of_m_Go_5() { return static_cast<int32_t>(offsetof(MenuSceneLoader_tED3F5289ED7B0BED1A420F475DA66E8FF4A2B0CD, ___m_Go_5)); }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * get_m_Go_5() const { return ___m_Go_5; }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F ** get_address_of_m_Go_5() { return &___m_Go_5; }
-	inline void set_m_Go_5(GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * value)
-	{
-		___m_Go_5 = value;
-		Il2CppCodeGenWriteBarrier((&___m_Go_5), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // MENUSCENELOADER_TED3F5289ED7B0BED1A420F475DA66E8FF4A2B0CD_H
-#ifndef MIDISTATEUPDATER_T23667673EDC8942E414F725B00F4C700A0A2C5F2_H
-#define MIDISTATEUPDATER_T23667673EDC8942E414F725B00F4C700A0A2C5F2_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// MidiJack.MidiStateUpdater
-struct  MidiStateUpdater_t23667673EDC8942E414F725B00F4C700A0A2C5F2  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
-	// MidiJack.MidiStateUpdater_Callback MidiJack.MidiStateUpdater::_callback
-	Callback_tC38747B8485A5657D460EBD31B06F21FBBC5C1A3 * ____callback_4;
-
-public:
-	inline static int32_t get_offset_of__callback_4() { return static_cast<int32_t>(offsetof(MidiStateUpdater_t23667673EDC8942E414F725B00F4C700A0A2C5F2, ____callback_4)); }
-	inline Callback_tC38747B8485A5657D460EBD31B06F21FBBC5C1A3 * get__callback_4() const { return ____callback_4; }
-	inline Callback_tC38747B8485A5657D460EBD31B06F21FBBC5C1A3 ** get_address_of__callback_4() { return &____callback_4; }
-	inline void set__callback_4(Callback_tC38747B8485A5657D460EBD31B06F21FBBC5C1A3 * value)
-	{
-		____callback_4 = value;
-		Il2CppCodeGenWriteBarrier((&____callback_4), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // MIDISTATEUPDATER_T23667673EDC8942E414F725B00F4C700A0A2C5F2_H
-#ifndef MODELTARGETAUGMENTATIONHANDLER_T19449DE28924052FA6A8FC6511DC9C5C01E036B7_H
-#define MODELTARGETAUGMENTATIONHANDLER_T19449DE28924052FA6A8FC6511DC9C5C01E036B7_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// ModelTargetAugmentationHandler
-struct  ModelTargetAugmentationHandler_t19449DE28924052FA6A8FC6511DC9C5C01E036B7  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
-	// UnityEngine.Material ModelTargetAugmentationHandler::animationMaterial
-	Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * ___animationMaterial_4;
-	// System.Collections.Generic.Dictionary`2<UnityEngine.MeshRenderer,UnityEngine.Material> ModelTargetAugmentationHandler::savedMaterials
-	Dictionary_2_t2F7484428355E9D39F269AFE0ACB5D9D4E974791 * ___savedMaterials_5;
-	// System.Boolean ModelTargetAugmentationHandler::alreadyDetectedOnce
-	bool ___alreadyDetectedOnce_6;
-
-public:
-	inline static int32_t get_offset_of_animationMaterial_4() { return static_cast<int32_t>(offsetof(ModelTargetAugmentationHandler_t19449DE28924052FA6A8FC6511DC9C5C01E036B7, ___animationMaterial_4)); }
-	inline Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * get_animationMaterial_4() const { return ___animationMaterial_4; }
-	inline Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 ** get_address_of_animationMaterial_4() { return &___animationMaterial_4; }
-	inline void set_animationMaterial_4(Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * value)
-	{
-		___animationMaterial_4 = value;
-		Il2CppCodeGenWriteBarrier((&___animationMaterial_4), value);
-	}
-
-	inline static int32_t get_offset_of_savedMaterials_5() { return static_cast<int32_t>(offsetof(ModelTargetAugmentationHandler_t19449DE28924052FA6A8FC6511DC9C5C01E036B7, ___savedMaterials_5)); }
-	inline Dictionary_2_t2F7484428355E9D39F269AFE0ACB5D9D4E974791 * get_savedMaterials_5() const { return ___savedMaterials_5; }
-	inline Dictionary_2_t2F7484428355E9D39F269AFE0ACB5D9D4E974791 ** get_address_of_savedMaterials_5() { return &___savedMaterials_5; }
-	inline void set_savedMaterials_5(Dictionary_2_t2F7484428355E9D39F269AFE0ACB5D9D4E974791 * value)
-	{
-		___savedMaterials_5 = value;
-		Il2CppCodeGenWriteBarrier((&___savedMaterials_5), value);
-	}
-
-	inline static int32_t get_offset_of_alreadyDetectedOnce_6() { return static_cast<int32_t>(offsetof(ModelTargetAugmentationHandler_t19449DE28924052FA6A8FC6511DC9C5C01E036B7, ___alreadyDetectedOnce_6)); }
-	inline bool get_alreadyDetectedOnce_6() const { return ___alreadyDetectedOnce_6; }
-	inline bool* get_address_of_alreadyDetectedOnce_6() { return &___alreadyDetectedOnce_6; }
-	inline void set_alreadyDetectedOnce_6(bool value)
-	{
-		___alreadyDetectedOnce_6 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // MODELTARGETAUGMENTATIONHANDLER_T19449DE28924052FA6A8FC6511DC9C5C01E036B7_H
-#ifndef MODELTARGETSMANAGER_T4C7991E925066EA8BFAF5666AB9EEB125C22F219_H
-#define MODELTARGETSMANAGER_T4C7991E925066EA8BFAF5666AB9EEB125C22F219_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// ModelTargetsManager
-struct  ModelTargetsManager_t4C7991E925066EA8BFAF5666AB9EEB125C22F219  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
-	// ModelTargetsManager_ModelTargetMode ModelTargetsManager::modelTargetMode
-	int32_t ___modelTargetMode_4;
-	// UnityEngine.GameObject ModelTargetsManager::augmentation
-	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___augmentation_5;
-	// Vuforia.ModelTargetBehaviour ModelTargetsManager::modelStandard
-	ModelTargetBehaviour_t283F7A0B136589E033A458B5FE0C42F3248CE0B0 * ___modelStandard_6;
-	// Vuforia.ModelTargetBehaviour ModelTargetsManager::modelAdvanced
-	ModelTargetBehaviour_t283F7A0B136589E033A458B5FE0C42F3248CE0B0 * ___modelAdvanced_7;
-	// Vuforia.ModelTargetBehaviour ModelTargetsManager::model360
-	ModelTargetBehaviour_t283F7A0B136589E033A458B5FE0C42F3248CE0B0 * ___model360_8;
-	// System.String ModelTargetsManager::DataSetStandard
-	String_t* ___DataSetStandard_9;
-	// System.String ModelTargetsManager::DataSetAdvanced
-	String_t* ___DataSetAdvanced_10;
-	// System.String ModelTargetsManager::DataSet360
-	String_t* ___DataSet360_11;
-	// UnityEngine.UI.Button ModelTargetsManager::guideViewsButton
-	Button_t1203820000D5513FDCCE3D4BFF9C1C9CC755CC2B * ___guideViewsButton_12;
-	// UnityEngine.CanvasGroup ModelTargetsManager::datasetsMenu
-	CanvasGroup_tE2C664C60990D1DCCEE0CC6545CC3E80369C7F90 * ___datasetsMenu_13;
-	// Vuforia.ObjectTracker ModelTargetsManager::objectTracker
-	ObjectTracker_tC5DE67DCDB38A86F77C3462ECB63C4453A1D8B3E * ___objectTracker_14;
-	// Vuforia.StateManager ModelTargetsManager::stateManager
-	StateManager_t3EECC6F13CB23833CF4CE201E0BA0B51B5A546E1 * ___stateManager_15;
-	// ModelTargetsUIManager ModelTargetsManager::modelTargetsUIManager
-	ModelTargetsUIManager_t5899DC814D729D2C12656815AD6F5387F881D914 * ___modelTargetsUIManager_16;
-	// System.Collections.Generic.List`1<Vuforia.ModelTargetBehaviour> ModelTargetsManager::modelTargetBehaviours
-	List_1_t4AF30AA358DBAA568C8089709D134AB6131B557D * ___modelTargetBehaviours_17;
-	// System.String ModelTargetsManager::currentActiveDataSet
-	String_t* ___currentActiveDataSet_18;
-
-public:
-	inline static int32_t get_offset_of_modelTargetMode_4() { return static_cast<int32_t>(offsetof(ModelTargetsManager_t4C7991E925066EA8BFAF5666AB9EEB125C22F219, ___modelTargetMode_4)); }
-	inline int32_t get_modelTargetMode_4() const { return ___modelTargetMode_4; }
-	inline int32_t* get_address_of_modelTargetMode_4() { return &___modelTargetMode_4; }
-	inline void set_modelTargetMode_4(int32_t value)
-	{
-		___modelTargetMode_4 = value;
-	}
-
-	inline static int32_t get_offset_of_augmentation_5() { return static_cast<int32_t>(offsetof(ModelTargetsManager_t4C7991E925066EA8BFAF5666AB9EEB125C22F219, ___augmentation_5)); }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * get_augmentation_5() const { return ___augmentation_5; }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F ** get_address_of_augmentation_5() { return &___augmentation_5; }
-	inline void set_augmentation_5(GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * value)
-	{
-		___augmentation_5 = value;
-		Il2CppCodeGenWriteBarrier((&___augmentation_5), value);
-	}
-
-	inline static int32_t get_offset_of_modelStandard_6() { return static_cast<int32_t>(offsetof(ModelTargetsManager_t4C7991E925066EA8BFAF5666AB9EEB125C22F219, ___modelStandard_6)); }
-	inline ModelTargetBehaviour_t283F7A0B136589E033A458B5FE0C42F3248CE0B0 * get_modelStandard_6() const { return ___modelStandard_6; }
-	inline ModelTargetBehaviour_t283F7A0B136589E033A458B5FE0C42F3248CE0B0 ** get_address_of_modelStandard_6() { return &___modelStandard_6; }
-	inline void set_modelStandard_6(ModelTargetBehaviour_t283F7A0B136589E033A458B5FE0C42F3248CE0B0 * value)
-	{
-		___modelStandard_6 = value;
-		Il2CppCodeGenWriteBarrier((&___modelStandard_6), value);
-	}
-
-	inline static int32_t get_offset_of_modelAdvanced_7() { return static_cast<int32_t>(offsetof(ModelTargetsManager_t4C7991E925066EA8BFAF5666AB9EEB125C22F219, ___modelAdvanced_7)); }
-	inline ModelTargetBehaviour_t283F7A0B136589E033A458B5FE0C42F3248CE0B0 * get_modelAdvanced_7() const { return ___modelAdvanced_7; }
-	inline ModelTargetBehaviour_t283F7A0B136589E033A458B5FE0C42F3248CE0B0 ** get_address_of_modelAdvanced_7() { return &___modelAdvanced_7; }
-	inline void set_modelAdvanced_7(ModelTargetBehaviour_t283F7A0B136589E033A458B5FE0C42F3248CE0B0 * value)
-	{
-		___modelAdvanced_7 = value;
-		Il2CppCodeGenWriteBarrier((&___modelAdvanced_7), value);
-	}
-
-	inline static int32_t get_offset_of_model360_8() { return static_cast<int32_t>(offsetof(ModelTargetsManager_t4C7991E925066EA8BFAF5666AB9EEB125C22F219, ___model360_8)); }
-	inline ModelTargetBehaviour_t283F7A0B136589E033A458B5FE0C42F3248CE0B0 * get_model360_8() const { return ___model360_8; }
-	inline ModelTargetBehaviour_t283F7A0B136589E033A458B5FE0C42F3248CE0B0 ** get_address_of_model360_8() { return &___model360_8; }
-	inline void set_model360_8(ModelTargetBehaviour_t283F7A0B136589E033A458B5FE0C42F3248CE0B0 * value)
-	{
-		___model360_8 = value;
-		Il2CppCodeGenWriteBarrier((&___model360_8), value);
-	}
-
-	inline static int32_t get_offset_of_DataSetStandard_9() { return static_cast<int32_t>(offsetof(ModelTargetsManager_t4C7991E925066EA8BFAF5666AB9EEB125C22F219, ___DataSetStandard_9)); }
-	inline String_t* get_DataSetStandard_9() const { return ___DataSetStandard_9; }
-	inline String_t** get_address_of_DataSetStandard_9() { return &___DataSetStandard_9; }
-	inline void set_DataSetStandard_9(String_t* value)
-	{
-		___DataSetStandard_9 = value;
-		Il2CppCodeGenWriteBarrier((&___DataSetStandard_9), value);
-	}
-
-	inline static int32_t get_offset_of_DataSetAdvanced_10() { return static_cast<int32_t>(offsetof(ModelTargetsManager_t4C7991E925066EA8BFAF5666AB9EEB125C22F219, ___DataSetAdvanced_10)); }
-	inline String_t* get_DataSetAdvanced_10() const { return ___DataSetAdvanced_10; }
-	inline String_t** get_address_of_DataSetAdvanced_10() { return &___DataSetAdvanced_10; }
-	inline void set_DataSetAdvanced_10(String_t* value)
-	{
-		___DataSetAdvanced_10 = value;
-		Il2CppCodeGenWriteBarrier((&___DataSetAdvanced_10), value);
-	}
-
-	inline static int32_t get_offset_of_DataSet360_11() { return static_cast<int32_t>(offsetof(ModelTargetsManager_t4C7991E925066EA8BFAF5666AB9EEB125C22F219, ___DataSet360_11)); }
-	inline String_t* get_DataSet360_11() const { return ___DataSet360_11; }
-	inline String_t** get_address_of_DataSet360_11() { return &___DataSet360_11; }
-	inline void set_DataSet360_11(String_t* value)
-	{
-		___DataSet360_11 = value;
-		Il2CppCodeGenWriteBarrier((&___DataSet360_11), value);
-	}
-
-	inline static int32_t get_offset_of_guideViewsButton_12() { return static_cast<int32_t>(offsetof(ModelTargetsManager_t4C7991E925066EA8BFAF5666AB9EEB125C22F219, ___guideViewsButton_12)); }
-	inline Button_t1203820000D5513FDCCE3D4BFF9C1C9CC755CC2B * get_guideViewsButton_12() const { return ___guideViewsButton_12; }
-	inline Button_t1203820000D5513FDCCE3D4BFF9C1C9CC755CC2B ** get_address_of_guideViewsButton_12() { return &___guideViewsButton_12; }
-	inline void set_guideViewsButton_12(Button_t1203820000D5513FDCCE3D4BFF9C1C9CC755CC2B * value)
-	{
-		___guideViewsButton_12 = value;
-		Il2CppCodeGenWriteBarrier((&___guideViewsButton_12), value);
-	}
-
-	inline static int32_t get_offset_of_datasetsMenu_13() { return static_cast<int32_t>(offsetof(ModelTargetsManager_t4C7991E925066EA8BFAF5666AB9EEB125C22F219, ___datasetsMenu_13)); }
-	inline CanvasGroup_tE2C664C60990D1DCCEE0CC6545CC3E80369C7F90 * get_datasetsMenu_13() const { return ___datasetsMenu_13; }
-	inline CanvasGroup_tE2C664C60990D1DCCEE0CC6545CC3E80369C7F90 ** get_address_of_datasetsMenu_13() { return &___datasetsMenu_13; }
-	inline void set_datasetsMenu_13(CanvasGroup_tE2C664C60990D1DCCEE0CC6545CC3E80369C7F90 * value)
-	{
-		___datasetsMenu_13 = value;
-		Il2CppCodeGenWriteBarrier((&___datasetsMenu_13), value);
-	}
-
-	inline static int32_t get_offset_of_objectTracker_14() { return static_cast<int32_t>(offsetof(ModelTargetsManager_t4C7991E925066EA8BFAF5666AB9EEB125C22F219, ___objectTracker_14)); }
-	inline ObjectTracker_tC5DE67DCDB38A86F77C3462ECB63C4453A1D8B3E * get_objectTracker_14() const { return ___objectTracker_14; }
-	inline ObjectTracker_tC5DE67DCDB38A86F77C3462ECB63C4453A1D8B3E ** get_address_of_objectTracker_14() { return &___objectTracker_14; }
-	inline void set_objectTracker_14(ObjectTracker_tC5DE67DCDB38A86F77C3462ECB63C4453A1D8B3E * value)
-	{
-		___objectTracker_14 = value;
-		Il2CppCodeGenWriteBarrier((&___objectTracker_14), value);
-	}
-
-	inline static int32_t get_offset_of_stateManager_15() { return static_cast<int32_t>(offsetof(ModelTargetsManager_t4C7991E925066EA8BFAF5666AB9EEB125C22F219, ___stateManager_15)); }
-	inline StateManager_t3EECC6F13CB23833CF4CE201E0BA0B51B5A546E1 * get_stateManager_15() const { return ___stateManager_15; }
-	inline StateManager_t3EECC6F13CB23833CF4CE201E0BA0B51B5A546E1 ** get_address_of_stateManager_15() { return &___stateManager_15; }
-	inline void set_stateManager_15(StateManager_t3EECC6F13CB23833CF4CE201E0BA0B51B5A546E1 * value)
-	{
-		___stateManager_15 = value;
-		Il2CppCodeGenWriteBarrier((&___stateManager_15), value);
-	}
-
-	inline static int32_t get_offset_of_modelTargetsUIManager_16() { return static_cast<int32_t>(offsetof(ModelTargetsManager_t4C7991E925066EA8BFAF5666AB9EEB125C22F219, ___modelTargetsUIManager_16)); }
-	inline ModelTargetsUIManager_t5899DC814D729D2C12656815AD6F5387F881D914 * get_modelTargetsUIManager_16() const { return ___modelTargetsUIManager_16; }
-	inline ModelTargetsUIManager_t5899DC814D729D2C12656815AD6F5387F881D914 ** get_address_of_modelTargetsUIManager_16() { return &___modelTargetsUIManager_16; }
-	inline void set_modelTargetsUIManager_16(ModelTargetsUIManager_t5899DC814D729D2C12656815AD6F5387F881D914 * value)
-	{
-		___modelTargetsUIManager_16 = value;
-		Il2CppCodeGenWriteBarrier((&___modelTargetsUIManager_16), value);
-	}
-
-	inline static int32_t get_offset_of_modelTargetBehaviours_17() { return static_cast<int32_t>(offsetof(ModelTargetsManager_t4C7991E925066EA8BFAF5666AB9EEB125C22F219, ___modelTargetBehaviours_17)); }
-	inline List_1_t4AF30AA358DBAA568C8089709D134AB6131B557D * get_modelTargetBehaviours_17() const { return ___modelTargetBehaviours_17; }
-	inline List_1_t4AF30AA358DBAA568C8089709D134AB6131B557D ** get_address_of_modelTargetBehaviours_17() { return &___modelTargetBehaviours_17; }
-	inline void set_modelTargetBehaviours_17(List_1_t4AF30AA358DBAA568C8089709D134AB6131B557D * value)
-	{
-		___modelTargetBehaviours_17 = value;
-		Il2CppCodeGenWriteBarrier((&___modelTargetBehaviours_17), value);
-	}
-
-	inline static int32_t get_offset_of_currentActiveDataSet_18() { return static_cast<int32_t>(offsetof(ModelTargetsManager_t4C7991E925066EA8BFAF5666AB9EEB125C22F219, ___currentActiveDataSet_18)); }
-	inline String_t* get_currentActiveDataSet_18() const { return ___currentActiveDataSet_18; }
-	inline String_t** get_address_of_currentActiveDataSet_18() { return &___currentActiveDataSet_18; }
-	inline void set_currentActiveDataSet_18(String_t* value)
-	{
-		___currentActiveDataSet_18 = value;
-		Il2CppCodeGenWriteBarrier((&___currentActiveDataSet_18), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // MODELTARGETSMANAGER_T4C7991E925066EA8BFAF5666AB9EEB125C22F219_H
-#ifndef MODELTARGETSUIMANAGER_T5899DC814D729D2C12656815AD6F5387F881D914_H
-#define MODELTARGETSUIMANAGER_T5899DC814D729D2C12656815AD6F5387F881D914_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// ModelTargetsUIManager
-struct  ModelTargetsUIManager_t5899DC814D729D2C12656815AD6F5387F881D914  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
-	// UnityEngine.CanvasGroup ModelTargetsUIManager::canvasGroupAdvanced
-	CanvasGroup_tE2C664C60990D1DCCEE0CC6545CC3E80369C7F90 * ___canvasGroupAdvanced_4;
-	// UnityEngine.CanvasGroup ModelTargetsUIManager::canvasGroup360
-	CanvasGroup_tE2C664C60990D1DCCEE0CC6545CC3E80369C7F90 * ___canvasGroup360_5;
-	// System.Boolean ModelTargetsUIManager::cycleMultipleIcons
-	bool ___cycleMultipleIcons_6;
-	// UnityEngine.GameObject ModelTargetsUIManager::spatialMapping
-	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___spatialMapping_7;
-	// UnityEngine.Color ModelTargetsUIManager::whiteTransparent
-	Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___whiteTransparent_8;
-	// UnityEngine.UI.Image[] ModelTargetsUIManager::imageSequence
-	ImageU5BU5D_t3FC2D3F5D777CA546CA2314E6F5DC78FE8E3A37D* ___imageSequence_9;
-	// UnityEngine.UI.Image[] ModelTargetsUIManager::imagesAdvanced
-	ImageU5BU5D_t3FC2D3F5D777CA546CA2314E6F5DC78FE8E3A37D* ___imagesAdvanced_10;
-	// UnityEngine.UI.Image[] ModelTargetsUIManager::images360
-	ImageU5BU5D_t3FC2D3F5D777CA546CA2314E6F5DC78FE8E3A37D* ___images360_11;
-	// System.Boolean ModelTargetsUIManager::uiEnabled
-	bool ___uiEnabled_12;
-	// System.Boolean ModelTargetsUIManager::imageSequencePaused
-	bool ___imageSequencePaused_13;
-	// System.Int32 ModelTargetsUIManager::imageSequenceIndex
-	int32_t ___imageSequenceIndex_14;
-	// System.Single ModelTargetsUIManager::clock
-	float ___clock_15;
-	// System.Single ModelTargetsUIManager::fadeMeter
-	float ___fadeMeter_16;
-
-public:
-	inline static int32_t get_offset_of_canvasGroupAdvanced_4() { return static_cast<int32_t>(offsetof(ModelTargetsUIManager_t5899DC814D729D2C12656815AD6F5387F881D914, ___canvasGroupAdvanced_4)); }
-	inline CanvasGroup_tE2C664C60990D1DCCEE0CC6545CC3E80369C7F90 * get_canvasGroupAdvanced_4() const { return ___canvasGroupAdvanced_4; }
-	inline CanvasGroup_tE2C664C60990D1DCCEE0CC6545CC3E80369C7F90 ** get_address_of_canvasGroupAdvanced_4() { return &___canvasGroupAdvanced_4; }
-	inline void set_canvasGroupAdvanced_4(CanvasGroup_tE2C664C60990D1DCCEE0CC6545CC3E80369C7F90 * value)
-	{
-		___canvasGroupAdvanced_4 = value;
-		Il2CppCodeGenWriteBarrier((&___canvasGroupAdvanced_4), value);
-	}
-
-	inline static int32_t get_offset_of_canvasGroup360_5() { return static_cast<int32_t>(offsetof(ModelTargetsUIManager_t5899DC814D729D2C12656815AD6F5387F881D914, ___canvasGroup360_5)); }
-	inline CanvasGroup_tE2C664C60990D1DCCEE0CC6545CC3E80369C7F90 * get_canvasGroup360_5() const { return ___canvasGroup360_5; }
-	inline CanvasGroup_tE2C664C60990D1DCCEE0CC6545CC3E80369C7F90 ** get_address_of_canvasGroup360_5() { return &___canvasGroup360_5; }
-	inline void set_canvasGroup360_5(CanvasGroup_tE2C664C60990D1DCCEE0CC6545CC3E80369C7F90 * value)
-	{
-		___canvasGroup360_5 = value;
-		Il2CppCodeGenWriteBarrier((&___canvasGroup360_5), value);
-	}
-
-	inline static int32_t get_offset_of_cycleMultipleIcons_6() { return static_cast<int32_t>(offsetof(ModelTargetsUIManager_t5899DC814D729D2C12656815AD6F5387F881D914, ___cycleMultipleIcons_6)); }
-	inline bool get_cycleMultipleIcons_6() const { return ___cycleMultipleIcons_6; }
-	inline bool* get_address_of_cycleMultipleIcons_6() { return &___cycleMultipleIcons_6; }
-	inline void set_cycleMultipleIcons_6(bool value)
-	{
-		___cycleMultipleIcons_6 = value;
-	}
-
-	inline static int32_t get_offset_of_spatialMapping_7() { return static_cast<int32_t>(offsetof(ModelTargetsUIManager_t5899DC814D729D2C12656815AD6F5387F881D914, ___spatialMapping_7)); }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * get_spatialMapping_7() const { return ___spatialMapping_7; }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F ** get_address_of_spatialMapping_7() { return &___spatialMapping_7; }
-	inline void set_spatialMapping_7(GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * value)
-	{
-		___spatialMapping_7 = value;
-		Il2CppCodeGenWriteBarrier((&___spatialMapping_7), value);
-	}
-
-	inline static int32_t get_offset_of_whiteTransparent_8() { return static_cast<int32_t>(offsetof(ModelTargetsUIManager_t5899DC814D729D2C12656815AD6F5387F881D914, ___whiteTransparent_8)); }
-	inline Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  get_whiteTransparent_8() const { return ___whiteTransparent_8; }
-	inline Color_t119BCA590009762C7223FDD3AF9706653AC84ED2 * get_address_of_whiteTransparent_8() { return &___whiteTransparent_8; }
-	inline void set_whiteTransparent_8(Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  value)
-	{
-		___whiteTransparent_8 = value;
-	}
-
-	inline static int32_t get_offset_of_imageSequence_9() { return static_cast<int32_t>(offsetof(ModelTargetsUIManager_t5899DC814D729D2C12656815AD6F5387F881D914, ___imageSequence_9)); }
-	inline ImageU5BU5D_t3FC2D3F5D777CA546CA2314E6F5DC78FE8E3A37D* get_imageSequence_9() const { return ___imageSequence_9; }
-	inline ImageU5BU5D_t3FC2D3F5D777CA546CA2314E6F5DC78FE8E3A37D** get_address_of_imageSequence_9() { return &___imageSequence_9; }
-	inline void set_imageSequence_9(ImageU5BU5D_t3FC2D3F5D777CA546CA2314E6F5DC78FE8E3A37D* value)
-	{
-		___imageSequence_9 = value;
-		Il2CppCodeGenWriteBarrier((&___imageSequence_9), value);
-	}
-
-	inline static int32_t get_offset_of_imagesAdvanced_10() { return static_cast<int32_t>(offsetof(ModelTargetsUIManager_t5899DC814D729D2C12656815AD6F5387F881D914, ___imagesAdvanced_10)); }
-	inline ImageU5BU5D_t3FC2D3F5D777CA546CA2314E6F5DC78FE8E3A37D* get_imagesAdvanced_10() const { return ___imagesAdvanced_10; }
-	inline ImageU5BU5D_t3FC2D3F5D777CA546CA2314E6F5DC78FE8E3A37D** get_address_of_imagesAdvanced_10() { return &___imagesAdvanced_10; }
-	inline void set_imagesAdvanced_10(ImageU5BU5D_t3FC2D3F5D777CA546CA2314E6F5DC78FE8E3A37D* value)
-	{
-		___imagesAdvanced_10 = value;
-		Il2CppCodeGenWriteBarrier((&___imagesAdvanced_10), value);
-	}
-
-	inline static int32_t get_offset_of_images360_11() { return static_cast<int32_t>(offsetof(ModelTargetsUIManager_t5899DC814D729D2C12656815AD6F5387F881D914, ___images360_11)); }
-	inline ImageU5BU5D_t3FC2D3F5D777CA546CA2314E6F5DC78FE8E3A37D* get_images360_11() const { return ___images360_11; }
-	inline ImageU5BU5D_t3FC2D3F5D777CA546CA2314E6F5DC78FE8E3A37D** get_address_of_images360_11() { return &___images360_11; }
-	inline void set_images360_11(ImageU5BU5D_t3FC2D3F5D777CA546CA2314E6F5DC78FE8E3A37D* value)
-	{
-		___images360_11 = value;
-		Il2CppCodeGenWriteBarrier((&___images360_11), value);
-	}
-
-	inline static int32_t get_offset_of_uiEnabled_12() { return static_cast<int32_t>(offsetof(ModelTargetsUIManager_t5899DC814D729D2C12656815AD6F5387F881D914, ___uiEnabled_12)); }
-	inline bool get_uiEnabled_12() const { return ___uiEnabled_12; }
-	inline bool* get_address_of_uiEnabled_12() { return &___uiEnabled_12; }
-	inline void set_uiEnabled_12(bool value)
-	{
-		___uiEnabled_12 = value;
-	}
-
-	inline static int32_t get_offset_of_imageSequencePaused_13() { return static_cast<int32_t>(offsetof(ModelTargetsUIManager_t5899DC814D729D2C12656815AD6F5387F881D914, ___imageSequencePaused_13)); }
-	inline bool get_imageSequencePaused_13() const { return ___imageSequencePaused_13; }
-	inline bool* get_address_of_imageSequencePaused_13() { return &___imageSequencePaused_13; }
-	inline void set_imageSequencePaused_13(bool value)
-	{
-		___imageSequencePaused_13 = value;
-	}
-
-	inline static int32_t get_offset_of_imageSequenceIndex_14() { return static_cast<int32_t>(offsetof(ModelTargetsUIManager_t5899DC814D729D2C12656815AD6F5387F881D914, ___imageSequenceIndex_14)); }
-	inline int32_t get_imageSequenceIndex_14() const { return ___imageSequenceIndex_14; }
-	inline int32_t* get_address_of_imageSequenceIndex_14() { return &___imageSequenceIndex_14; }
-	inline void set_imageSequenceIndex_14(int32_t value)
-	{
-		___imageSequenceIndex_14 = value;
-	}
-
-	inline static int32_t get_offset_of_clock_15() { return static_cast<int32_t>(offsetof(ModelTargetsUIManager_t5899DC814D729D2C12656815AD6F5387F881D914, ___clock_15)); }
-	inline float get_clock_15() const { return ___clock_15; }
-	inline float* get_address_of_clock_15() { return &___clock_15; }
-	inline void set_clock_15(float value)
-	{
-		___clock_15 = value;
-	}
-
-	inline static int32_t get_offset_of_fadeMeter_16() { return static_cast<int32_t>(offsetof(ModelTargetsUIManager_t5899DC814D729D2C12656815AD6F5387F881D914, ___fadeMeter_16)); }
-	inline float get_fadeMeter_16() const { return ___fadeMeter_16; }
-	inline float* get_address_of_fadeMeter_16() { return &___fadeMeter_16; }
-	inline void set_fadeMeter_16(float value)
-	{
-		___fadeMeter_16 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // MODELTARGETSUIMANAGER_T5899DC814D729D2C12656815AD6F5387F881D914_H
-#ifndef MULTIWEBCAMMANAGER_T10103B6E7C506A50519CC5E443765CAA6C59402B_H
-#define MULTIWEBCAMMANAGER_T10103B6E7C506A50519CC5E443765CAA6C59402B_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// MultiWebCamManager
-struct  MultiWebCamManager_t10103B6E7C506A50519CC5E443765CAA6C59402B  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
-	// UnityEngine.GameObject MultiWebCamManager::webCamTexturePrefab
-	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___webCamTexturePrefab_4;
-	// System.String[] MultiWebCamManager::nameOfCams
-	StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* ___nameOfCams_5;
-	// System.Collections.Generic.List`1<UnityEngine.WebCamTexture> MultiWebCamManager::webCamTextures
-	List_1_t4654EF53D4F929C1DB85D7F6B0831769D0F0795E * ___webCamTextures_6;
-
-public:
-	inline static int32_t get_offset_of_webCamTexturePrefab_4() { return static_cast<int32_t>(offsetof(MultiWebCamManager_t10103B6E7C506A50519CC5E443765CAA6C59402B, ___webCamTexturePrefab_4)); }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * get_webCamTexturePrefab_4() const { return ___webCamTexturePrefab_4; }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F ** get_address_of_webCamTexturePrefab_4() { return &___webCamTexturePrefab_4; }
-	inline void set_webCamTexturePrefab_4(GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * value)
-	{
-		___webCamTexturePrefab_4 = value;
-		Il2CppCodeGenWriteBarrier((&___webCamTexturePrefab_4), value);
-	}
-
-	inline static int32_t get_offset_of_nameOfCams_5() { return static_cast<int32_t>(offsetof(MultiWebCamManager_t10103B6E7C506A50519CC5E443765CAA6C59402B, ___nameOfCams_5)); }
-	inline StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* get_nameOfCams_5() const { return ___nameOfCams_5; }
-	inline StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E** get_address_of_nameOfCams_5() { return &___nameOfCams_5; }
-	inline void set_nameOfCams_5(StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* value)
-	{
-		___nameOfCams_5 = value;
-		Il2CppCodeGenWriteBarrier((&___nameOfCams_5), value);
-	}
-
-	inline static int32_t get_offset_of_webCamTextures_6() { return static_cast<int32_t>(offsetof(MultiWebCamManager_t10103B6E7C506A50519CC5E443765CAA6C59402B, ___webCamTextures_6)); }
-	inline List_1_t4654EF53D4F929C1DB85D7F6B0831769D0F0795E * get_webCamTextures_6() const { return ___webCamTextures_6; }
-	inline List_1_t4654EF53D4F929C1DB85D7F6B0831769D0F0795E ** get_address_of_webCamTextures_6() { return &___webCamTextures_6; }
-	inline void set_webCamTextures_6(List_1_t4654EF53D4F929C1DB85D7F6B0831769D0F0795E * value)
-	{
-		___webCamTextures_6 = value;
-		Il2CppCodeGenWriteBarrier((&___webCamTextures_6), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // MULTIWEBCAMMANAGER_T10103B6E7C506A50519CC5E443765CAA6C59402B_H
-#ifndef NOTEINDICATOR_T4ED2900AAE12DAED4A9F8ACEC03D036D8FE455B2_H
-#define NOTEINDICATOR_T4ED2900AAE12DAED4A9F8ACEC03D036D8FE455B2_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// NoteIndicator
-struct  NoteIndicator_t4ED2900AAE12DAED4A9F8ACEC03D036D8FE455B2  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
-	// System.Int32 NoteIndicator::noteNumber
-	int32_t ___noteNumber_4;
-
-public:
-	inline static int32_t get_offset_of_noteNumber_4() { return static_cast<int32_t>(offsetof(NoteIndicator_t4ED2900AAE12DAED4A9F8ACEC03D036D8FE455B2, ___noteNumber_4)); }
-	inline int32_t get_noteNumber_4() const { return ___noteNumber_4; }
-	inline int32_t* get_address_of_noteNumber_4() { return &___noteNumber_4; }
-	inline void set_noteNumber_4(int32_t value)
-	{
-		___noteNumber_4 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // NOTEINDICATOR_T4ED2900AAE12DAED4A9F8ACEC03D036D8FE455B2_H
-#ifndef NOTEINDICATORGROUP_TB497ECE81DEF5B25E939C0EC4D926BD47FCE152A_H
-#define NOTEINDICATORGROUP_TB497ECE81DEF5B25E939C0EC4D926BD47FCE152A_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// NoteIndicatorGroup
-struct  NoteIndicatorGroup_tB497ECE81DEF5B25E939C0EC4D926BD47FCE152A  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
-	// UnityEngine.GameObject NoteIndicatorGroup::prefab
-	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___prefab_4;
-
-public:
-	inline static int32_t get_offset_of_prefab_4() { return static_cast<int32_t>(offsetof(NoteIndicatorGroup_tB497ECE81DEF5B25E939C0EC4D926BD47FCE152A, ___prefab_4)); }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * get_prefab_4() const { return ___prefab_4; }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F ** get_address_of_prefab_4() { return &___prefab_4; }
-	inline void set_prefab_4(GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * value)
-	{
-		___prefab_4 = value;
-		Il2CppCodeGenWriteBarrier((&___prefab_4), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // NOTEINDICATORGROUP_TB497ECE81DEF5B25E939C0EC4D926BD47FCE152A_H
-#ifndef PARSERMUSICUNITY_T5D972ADDA326F1287E76105F929BDA324A1468AE_H
-#define PARSERMUSICUNITY_T5D972ADDA326F1287E76105F929BDA324A1468AE_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// ParserMusicUnity
-struct  ParserMusicUnity_t5D972ADDA326F1287E76105F929BDA324A1468AE  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
-	// MusicSheetGenerater.MusicParser ParserMusicUnity::instance
-	MusicParser_t67DB8A6A5564D7BA16C6730F5E8236C175BEE7DF * ___instance_4;
-	// UnityEngine.GameObject ParserMusicUnity::notePrefab
-	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___notePrefab_5;
-	// System.Single ParserMusicUnity::Yvalue
-	float ___Yvalue_6;
-	// System.Single ParserMusicUnity::XValue
-	float ___XValue_7;
-	// System.Single ParserMusicUnity::notespeed
-	float ___notespeed_8;
-	// System.Collections.Generic.List`1<System.Int32[]> ParserMusicUnity::MusicInfo
-	List_1_t1DF3B52866BFCD484963BD22F65080393FF97233 * ___MusicInfo_9;
-	// System.Int32 ParserMusicUnity::MusicinfoDetector
-	int32_t ___MusicinfoDetector_10;
-	// System.Int32 ParserMusicUnity::Notes2GenerateOneTime
-	int32_t ___Notes2GenerateOneTime_11;
-	// System.Int32 ParserMusicUnity::distancePerTime
-	int32_t ___distancePerTime_12;
-	// System.Int32 ParserMusicUnity::a
-	int32_t ___a_13;
-	// System.Single ParserMusicUnity::xPosition
-	float ___xPosition_14;
-	// System.Single ParserMusicUnity::yPosition
-	float ___yPosition_15;
-	// System.Single ParserMusicUnity::zPosition
-	float ___zPosition_16;
-
-public:
-	inline static int32_t get_offset_of_instance_4() { return static_cast<int32_t>(offsetof(ParserMusicUnity_t5D972ADDA326F1287E76105F929BDA324A1468AE, ___instance_4)); }
-	inline MusicParser_t67DB8A6A5564D7BA16C6730F5E8236C175BEE7DF * get_instance_4() const { return ___instance_4; }
-	inline MusicParser_t67DB8A6A5564D7BA16C6730F5E8236C175BEE7DF ** get_address_of_instance_4() { return &___instance_4; }
-	inline void set_instance_4(MusicParser_t67DB8A6A5564D7BA16C6730F5E8236C175BEE7DF * value)
-	{
-		___instance_4 = value;
-		Il2CppCodeGenWriteBarrier((&___instance_4), value);
-	}
-
-	inline static int32_t get_offset_of_notePrefab_5() { return static_cast<int32_t>(offsetof(ParserMusicUnity_t5D972ADDA326F1287E76105F929BDA324A1468AE, ___notePrefab_5)); }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * get_notePrefab_5() const { return ___notePrefab_5; }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F ** get_address_of_notePrefab_5() { return &___notePrefab_5; }
-	inline void set_notePrefab_5(GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * value)
-	{
-		___notePrefab_5 = value;
-		Il2CppCodeGenWriteBarrier((&___notePrefab_5), value);
-	}
-
-	inline static int32_t get_offset_of_Yvalue_6() { return static_cast<int32_t>(offsetof(ParserMusicUnity_t5D972ADDA326F1287E76105F929BDA324A1468AE, ___Yvalue_6)); }
-	inline float get_Yvalue_6() const { return ___Yvalue_6; }
-	inline float* get_address_of_Yvalue_6() { return &___Yvalue_6; }
-	inline void set_Yvalue_6(float value)
-	{
-		___Yvalue_6 = value;
-	}
-
-	inline static int32_t get_offset_of_XValue_7() { return static_cast<int32_t>(offsetof(ParserMusicUnity_t5D972ADDA326F1287E76105F929BDA324A1468AE, ___XValue_7)); }
-	inline float get_XValue_7() const { return ___XValue_7; }
-	inline float* get_address_of_XValue_7() { return &___XValue_7; }
-	inline void set_XValue_7(float value)
-	{
-		___XValue_7 = value;
-	}
-
-	inline static int32_t get_offset_of_notespeed_8() { return static_cast<int32_t>(offsetof(ParserMusicUnity_t5D972ADDA326F1287E76105F929BDA324A1468AE, ___notespeed_8)); }
-	inline float get_notespeed_8() const { return ___notespeed_8; }
-	inline float* get_address_of_notespeed_8() { return &___notespeed_8; }
-	inline void set_notespeed_8(float value)
-	{
-		___notespeed_8 = value;
-	}
-
-	inline static int32_t get_offset_of_MusicInfo_9() { return static_cast<int32_t>(offsetof(ParserMusicUnity_t5D972ADDA326F1287E76105F929BDA324A1468AE, ___MusicInfo_9)); }
-	inline List_1_t1DF3B52866BFCD484963BD22F65080393FF97233 * get_MusicInfo_9() const { return ___MusicInfo_9; }
-	inline List_1_t1DF3B52866BFCD484963BD22F65080393FF97233 ** get_address_of_MusicInfo_9() { return &___MusicInfo_9; }
-	inline void set_MusicInfo_9(List_1_t1DF3B52866BFCD484963BD22F65080393FF97233 * value)
-	{
-		___MusicInfo_9 = value;
-		Il2CppCodeGenWriteBarrier((&___MusicInfo_9), value);
-	}
-
-	inline static int32_t get_offset_of_MusicinfoDetector_10() { return static_cast<int32_t>(offsetof(ParserMusicUnity_t5D972ADDA326F1287E76105F929BDA324A1468AE, ___MusicinfoDetector_10)); }
-	inline int32_t get_MusicinfoDetector_10() const { return ___MusicinfoDetector_10; }
-	inline int32_t* get_address_of_MusicinfoDetector_10() { return &___MusicinfoDetector_10; }
-	inline void set_MusicinfoDetector_10(int32_t value)
-	{
-		___MusicinfoDetector_10 = value;
-	}
-
-	inline static int32_t get_offset_of_Notes2GenerateOneTime_11() { return static_cast<int32_t>(offsetof(ParserMusicUnity_t5D972ADDA326F1287E76105F929BDA324A1468AE, ___Notes2GenerateOneTime_11)); }
-	inline int32_t get_Notes2GenerateOneTime_11() const { return ___Notes2GenerateOneTime_11; }
-	inline int32_t* get_address_of_Notes2GenerateOneTime_11() { return &___Notes2GenerateOneTime_11; }
-	inline void set_Notes2GenerateOneTime_11(int32_t value)
-	{
-		___Notes2GenerateOneTime_11 = value;
-	}
-
-	inline static int32_t get_offset_of_distancePerTime_12() { return static_cast<int32_t>(offsetof(ParserMusicUnity_t5D972ADDA326F1287E76105F929BDA324A1468AE, ___distancePerTime_12)); }
-	inline int32_t get_distancePerTime_12() const { return ___distancePerTime_12; }
-	inline int32_t* get_address_of_distancePerTime_12() { return &___distancePerTime_12; }
-	inline void set_distancePerTime_12(int32_t value)
-	{
-		___distancePerTime_12 = value;
-	}
-
-	inline static int32_t get_offset_of_a_13() { return static_cast<int32_t>(offsetof(ParserMusicUnity_t5D972ADDA326F1287E76105F929BDA324A1468AE, ___a_13)); }
-	inline int32_t get_a_13() const { return ___a_13; }
-	inline int32_t* get_address_of_a_13() { return &___a_13; }
-	inline void set_a_13(int32_t value)
-	{
-		___a_13 = value;
-	}
-
-	inline static int32_t get_offset_of_xPosition_14() { return static_cast<int32_t>(offsetof(ParserMusicUnity_t5D972ADDA326F1287E76105F929BDA324A1468AE, ___xPosition_14)); }
-	inline float get_xPosition_14() const { return ___xPosition_14; }
-	inline float* get_address_of_xPosition_14() { return &___xPosition_14; }
-	inline void set_xPosition_14(float value)
-	{
-		___xPosition_14 = value;
-	}
-
-	inline static int32_t get_offset_of_yPosition_15() { return static_cast<int32_t>(offsetof(ParserMusicUnity_t5D972ADDA326F1287E76105F929BDA324A1468AE, ___yPosition_15)); }
-	inline float get_yPosition_15() const { return ___yPosition_15; }
-	inline float* get_address_of_yPosition_15() { return &___yPosition_15; }
-	inline void set_yPosition_15(float value)
-	{
-		___yPosition_15 = value;
-	}
-
-	inline static int32_t get_offset_of_zPosition_16() { return static_cast<int32_t>(offsetof(ParserMusicUnity_t5D972ADDA326F1287E76105F929BDA324A1468AE, ___zPosition_16)); }
-	inline float get_zPosition_16() const { return ___zPosition_16; }
-	inline float* get_address_of_zPosition_16() { return &___zPosition_16; }
-	inline void set_zPosition_16(float value)
-	{
-		___zPosition_16 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // PARSERMUSICUNITY_T5D972ADDA326F1287E76105F929BDA324A1468AE_H
-#ifndef PAUSEMENU_T01B62300A10E9F2CFEBE8D9E5171BC583EAC2939_H
-#define PAUSEMENU_T01B62300A10E9F2CFEBE8D9E5171BC583EAC2939_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// PauseMenu
-struct  PauseMenu_t01B62300A10E9F2CFEBE8D9E5171BC583EAC2939  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
-	// UnityEngine.UI.Toggle PauseMenu::m_MenuToggle
-	Toggle_t9ADD572046F831945ED0E48A01B50FEA1CA52106 * ___m_MenuToggle_4;
-	// System.Single PauseMenu::m_TimeScaleRef
-	float ___m_TimeScaleRef_5;
-	// System.Single PauseMenu::m_VolumeRef
-	float ___m_VolumeRef_6;
-	// System.Boolean PauseMenu::m_Paused
-	bool ___m_Paused_7;
-
-public:
-	inline static int32_t get_offset_of_m_MenuToggle_4() { return static_cast<int32_t>(offsetof(PauseMenu_t01B62300A10E9F2CFEBE8D9E5171BC583EAC2939, ___m_MenuToggle_4)); }
-	inline Toggle_t9ADD572046F831945ED0E48A01B50FEA1CA52106 * get_m_MenuToggle_4() const { return ___m_MenuToggle_4; }
-	inline Toggle_t9ADD572046F831945ED0E48A01B50FEA1CA52106 ** get_address_of_m_MenuToggle_4() { return &___m_MenuToggle_4; }
-	inline void set_m_MenuToggle_4(Toggle_t9ADD572046F831945ED0E48A01B50FEA1CA52106 * value)
-	{
-		___m_MenuToggle_4 = value;
-		Il2CppCodeGenWriteBarrier((&___m_MenuToggle_4), value);
-	}
-
-	inline static int32_t get_offset_of_m_TimeScaleRef_5() { return static_cast<int32_t>(offsetof(PauseMenu_t01B62300A10E9F2CFEBE8D9E5171BC583EAC2939, ___m_TimeScaleRef_5)); }
-	inline float get_m_TimeScaleRef_5() const { return ___m_TimeScaleRef_5; }
-	inline float* get_address_of_m_TimeScaleRef_5() { return &___m_TimeScaleRef_5; }
-	inline void set_m_TimeScaleRef_5(float value)
-	{
-		___m_TimeScaleRef_5 = value;
-	}
-
-	inline static int32_t get_offset_of_m_VolumeRef_6() { return static_cast<int32_t>(offsetof(PauseMenu_t01B62300A10E9F2CFEBE8D9E5171BC583EAC2939, ___m_VolumeRef_6)); }
-	inline float get_m_VolumeRef_6() const { return ___m_VolumeRef_6; }
-	inline float* get_address_of_m_VolumeRef_6() { return &___m_VolumeRef_6; }
-	inline void set_m_VolumeRef_6(float value)
-	{
-		___m_VolumeRef_6 = value;
-	}
-
-	inline static int32_t get_offset_of_m_Paused_7() { return static_cast<int32_t>(offsetof(PauseMenu_t01B62300A10E9F2CFEBE8D9E5171BC583EAC2939, ___m_Paused_7)); }
-	inline bool get_m_Paused_7() const { return ___m_Paused_7; }
-	inline bool* get_address_of_m_Paused_7() { return &___m_Paused_7; }
-	inline void set_m_Paused_7(bool value)
-	{
-		___m_Paused_7 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // PAUSEMENU_T01B62300A10E9F2CFEBE8D9E5171BC583EAC2939_H
-#ifndef PLACETARGET_TFB603789D1053B5486882F2BAFA97939137BDB47_H
-#define PLACETARGET_TFB603789D1053B5486882F2BAFA97939137BDB47_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// Placetarget
-struct  Placetarget_tFB603789D1053B5486882F2BAFA97939137BDB47  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
-	// System.String Placetarget::ObjectAnchorStoreName
-	String_t* ___ObjectAnchorStoreName_4;
-	// UnityEngine.XR.WSA.Persistence.WorldAnchorStore Placetarget::anchorStore
-	WorldAnchorStore_tD361F689FE6F087AD3F38BA8724398992434E225 * ___anchorStore_5;
-
-public:
-	inline static int32_t get_offset_of_ObjectAnchorStoreName_4() { return static_cast<int32_t>(offsetof(Placetarget_tFB603789D1053B5486882F2BAFA97939137BDB47, ___ObjectAnchorStoreName_4)); }
-	inline String_t* get_ObjectAnchorStoreName_4() const { return ___ObjectAnchorStoreName_4; }
-	inline String_t** get_address_of_ObjectAnchorStoreName_4() { return &___ObjectAnchorStoreName_4; }
-	inline void set_ObjectAnchorStoreName_4(String_t* value)
-	{
-		___ObjectAnchorStoreName_4 = value;
-		Il2CppCodeGenWriteBarrier((&___ObjectAnchorStoreName_4), value);
-	}
-
-	inline static int32_t get_offset_of_anchorStore_5() { return static_cast<int32_t>(offsetof(Placetarget_tFB603789D1053B5486882F2BAFA97939137BDB47, ___anchorStore_5)); }
-	inline WorldAnchorStore_tD361F689FE6F087AD3F38BA8724398992434E225 * get_anchorStore_5() const { return ___anchorStore_5; }
-	inline WorldAnchorStore_tD361F689FE6F087AD3F38BA8724398992434E225 ** get_address_of_anchorStore_5() { return &___anchorStore_5; }
-	inline void set_anchorStore_5(WorldAnchorStore_tD361F689FE6F087AD3F38BA8724398992434E225 * value)
-	{
-		___anchorStore_5 = value;
-		Il2CppCodeGenWriteBarrier((&___anchorStore_5), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // PLACETARGET_TFB603789D1053B5486882F2BAFA97939137BDB47_H
-#ifndef SCENEANDURLLOADER_TB39E2777F0AB69CEABCC90C76B69FBC1F002E649_H
-#define SCENEANDURLLOADER_TB39E2777F0AB69CEABCC90C76B69FBC1F002E649_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// SceneAndURLLoader
-struct  SceneAndURLLoader_tB39E2777F0AB69CEABCC90C76B69FBC1F002E649  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
-	// PauseMenu SceneAndURLLoader::m_PauseMenu
-	PauseMenu_t01B62300A10E9F2CFEBE8D9E5171BC583EAC2939 * ___m_PauseMenu_4;
-
-public:
-	inline static int32_t get_offset_of_m_PauseMenu_4() { return static_cast<int32_t>(offsetof(SceneAndURLLoader_tB39E2777F0AB69CEABCC90C76B69FBC1F002E649, ___m_PauseMenu_4)); }
-	inline PauseMenu_t01B62300A10E9F2CFEBE8D9E5171BC583EAC2939 * get_m_PauseMenu_4() const { return ___m_PauseMenu_4; }
-	inline PauseMenu_t01B62300A10E9F2CFEBE8D9E5171BC583EAC2939 ** get_address_of_m_PauseMenu_4() { return &___m_PauseMenu_4; }
-	inline void set_m_PauseMenu_4(PauseMenu_t01B62300A10E9F2CFEBE8D9E5171BC583EAC2939 * value)
-	{
-		___m_PauseMenu_4 = value;
-		Il2CppCodeGenWriteBarrier((&___m_PauseMenu_4), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // SCENEANDURLLOADER_TB39E2777F0AB69CEABCC90C76B69FBC1F002E649_H
-#ifndef SHAKEANIMATION_T3A5A964BF2B303492C8CF521A92AA41F86F84A69_H
-#define SHAKEANIMATION_T3A5A964BF2B303492C8CF521A92AA41F86F84A69_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// ShakeAnimation
-struct  ShakeAnimation_t3A5A964BF2B303492C8CF521A92AA41F86F84A69  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
+#endif // INPUTSTREAMOPTIONS_T30069DC0816A557D0697485558A4114A7C8634E3_H
+// Windows.Media.Capture.Frames.IMediaFrameSourceInfo
+struct NOVTABLE IMediaFrameSourceInfo_t692F99DEA8E8FA2CCFC018711951A0BED5EFD0CA : Il2CppIInspectable
 {
-public:
-	// System.Single ShakeAnimation::shakeAmount
-	float ___shakeAmount_4;
-	// System.Boolean ShakeAnimation::is_shake
-	bool ___is_shake_5;
-	// UnityEngine.Vector3 ShakeAnimation::first_pos
-	Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___first_pos_6;
-
-public:
-	inline static int32_t get_offset_of_shakeAmount_4() { return static_cast<int32_t>(offsetof(ShakeAnimation_t3A5A964BF2B303492C8CF521A92AA41F86F84A69, ___shakeAmount_4)); }
-	inline float get_shakeAmount_4() const { return ___shakeAmount_4; }
-	inline float* get_address_of_shakeAmount_4() { return &___shakeAmount_4; }
-	inline void set_shakeAmount_4(float value)
-	{
-		___shakeAmount_4 = value;
-	}
-
-	inline static int32_t get_offset_of_is_shake_5() { return static_cast<int32_t>(offsetof(ShakeAnimation_t3A5A964BF2B303492C8CF521A92AA41F86F84A69, ___is_shake_5)); }
-	inline bool get_is_shake_5() const { return ___is_shake_5; }
-	inline bool* get_address_of_is_shake_5() { return &___is_shake_5; }
-	inline void set_is_shake_5(bool value)
-	{
-		___is_shake_5 = value;
-	}
-
-	inline static int32_t get_offset_of_first_pos_6() { return static_cast<int32_t>(offsetof(ShakeAnimation_t3A5A964BF2B303492C8CF521A92AA41F86F84A69, ___first_pos_6)); }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  get_first_pos_6() const { return ___first_pos_6; }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * get_address_of_first_pos_6() { return &___first_pos_6; }
-	inline void set_first_pos_6(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  value)
-	{
-		___first_pos_6 = value;
-	}
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IMediaFrameSourceInfo_get_Id_m4CDB5A1C7EDCAF48DB6B7FC3A94841F540D6BD09(Il2CppHString* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaFrameSourceInfo_get_MediaStreamType_m5104EC8606481EE4B704C16FC263257A7DA7C7B7(int32_t* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaFrameSourceInfo_get_SourceKind_m94D2AFE7709EF0F9048CA949F8610827C68614BB(int32_t* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaFrameSourceInfo_U24__Stripped0_get_SourceGroup_m9EC072F763C46D49EBCA47FF7D77FA28543D589E() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaFrameSourceInfo_U24__Stripped1_get_DeviceInformation_mA7D02E1307B4640A60A765E2F25C4D1A18DD8837() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaFrameSourceInfo_U24__Stripped2_get_Properties_mE529092D1C0614D2A44FCE214DF22E974384F0A1() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaFrameSourceInfo_U24__Stripped3_get_CoordinateSystem_mFEE4C9F9A22F9A1F14D3ED10CFED6B83837B092A() = 0;
 };
-
+#ifndef MEDIAFRAMEREADER_T342162B051092146AAF3EBE162314FB1B7B682A8_H
+#define MEDIAFRAMEREADER_T342162B051092146AAF3EBE162314FB1B7B682A8_H
 #ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // SHAKEANIMATION_T3A5A964BF2B303492C8CF521A92AA41F86F84A69_H
-#ifndef SIMPLEANIMATION_T94FA757413CE9030AC86B48D58347D8CE751A481_H
-#define SIMPLEANIMATION_T94FA757413CE9030AC86B48D58347D8CE751A481_H
-#ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// SimpleAnimation
-struct  SimpleAnimation_t94FA757413CE9030AC86B48D58347D8CE751A481  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
+// Windows.Media.Capture.Frames.MediaFrameReader
+struct  MediaFrameReader_t342162B051092146AAF3EBE162314FB1B7B682A8  : public Il2CppComObject
 {
 public:
-	// SimpleAnimation_OnAnimationStarted SimpleAnimation::OnStartEvent
-	OnAnimationStarted_t06E6CF5A863DF5743B555616150DD8DE6CDAA9D8 * ___OnStartEvent_4;
-	// SimpleAnimation_OnAnimationCompleted SimpleAnimation::OnCompleteEvent
-	OnAnimationCompleted_t6043B8B0DAD04BB109B3BD70EE8BD411DB7579D2 * ___OnCompleteEvent_5;
-	// UnityEngine.Vector3 SimpleAnimation::startPos
-	Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___startPos_6;
-	// UnityEngine.Vector3 SimpleAnimation::endPos
-	Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___endPos_7;
-	// UnityEngine.Vector3 SimpleAnimation::rotationAxis
-	Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___rotationAxis_8;
-	// UnityEngine.Transform SimpleAnimation::rotationCenter
-	Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * ___rotationCenter_9;
-	// System.Single SimpleAnimation::rotationAngle
-	float ___rotationAngle_10;
-	// System.Single SimpleAnimation::startDelay
-	float ___startDelay_11;
-	// System.Single SimpleAnimation::duration
-	float ___duration_12;
-	// System.Boolean SimpleAnimation::loop
-	bool ___loop_13;
-	// System.Boolean SimpleAnimation::playOnAwake
-	bool ___playOnAwake_14;
-	// UnityEngine.Vector3 SimpleAnimation::originalPos
-	Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___originalPos_15;
-	// UnityEngine.Quaternion SimpleAnimation::originalRot
-	Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  ___originalRot_16;
-	// System.Single SimpleAnimation::startTime
-	float ___startTime_17;
-	// System.Boolean SimpleAnimation::playing
-	bool ___playing_18;
-	// System.Boolean SimpleAnimation::startTimeReached
-	bool ___startTimeReached_19;
+	// Cached pointer to Windows.Media.Capture.Frames.IMediaFrameReader
+	IMediaFrameReader_t41159792231B0F1C5CEA6AABB5F70CBFC5A1359C* ____imediaFrameReader_t41159792231B0F1C5CEA6AABB5F70CBFC5A1359C;
+	// Cached pointer to Windows.Media.Capture.Frames.IMediaFrameReader2
+	IMediaFrameReader2_tF3265EEAE0A57AE73C2D1934A3C67EB21A854E41* ____imediaFrameReader2_tF3265EEAE0A57AE73C2D1934A3C67EB21A854E41;
+	// Cached pointer to Windows.Foundation.IClosable
+	IClosable_t5808AF951019E4388C66F7A88AC569F52F581167* ____iclosable_t5808AF951019E4388C66F7A88AC569F52F581167;
 
 public:
-	inline static int32_t get_offset_of_OnStartEvent_4() { return static_cast<int32_t>(offsetof(SimpleAnimation_t94FA757413CE9030AC86B48D58347D8CE751A481, ___OnStartEvent_4)); }
-	inline OnAnimationStarted_t06E6CF5A863DF5743B555616150DD8DE6CDAA9D8 * get_OnStartEvent_4() const { return ___OnStartEvent_4; }
-	inline OnAnimationStarted_t06E6CF5A863DF5743B555616150DD8DE6CDAA9D8 ** get_address_of_OnStartEvent_4() { return &___OnStartEvent_4; }
-	inline void set_OnStartEvent_4(OnAnimationStarted_t06E6CF5A863DF5743B555616150DD8DE6CDAA9D8 * value)
-	{
-		___OnStartEvent_4 = value;
-		Il2CppCodeGenWriteBarrier((&___OnStartEvent_4), value);
-	}
-
-	inline static int32_t get_offset_of_OnCompleteEvent_5() { return static_cast<int32_t>(offsetof(SimpleAnimation_t94FA757413CE9030AC86B48D58347D8CE751A481, ___OnCompleteEvent_5)); }
-	inline OnAnimationCompleted_t6043B8B0DAD04BB109B3BD70EE8BD411DB7579D2 * get_OnCompleteEvent_5() const { return ___OnCompleteEvent_5; }
-	inline OnAnimationCompleted_t6043B8B0DAD04BB109B3BD70EE8BD411DB7579D2 ** get_address_of_OnCompleteEvent_5() { return &___OnCompleteEvent_5; }
-	inline void set_OnCompleteEvent_5(OnAnimationCompleted_t6043B8B0DAD04BB109B3BD70EE8BD411DB7579D2 * value)
-	{
-		___OnCompleteEvent_5 = value;
-		Il2CppCodeGenWriteBarrier((&___OnCompleteEvent_5), value);
-	}
-
-	inline static int32_t get_offset_of_startPos_6() { return static_cast<int32_t>(offsetof(SimpleAnimation_t94FA757413CE9030AC86B48D58347D8CE751A481, ___startPos_6)); }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  get_startPos_6() const { return ___startPos_6; }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * get_address_of_startPos_6() { return &___startPos_6; }
-	inline void set_startPos_6(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  value)
-	{
-		___startPos_6 = value;
-	}
-
-	inline static int32_t get_offset_of_endPos_7() { return static_cast<int32_t>(offsetof(SimpleAnimation_t94FA757413CE9030AC86B48D58347D8CE751A481, ___endPos_7)); }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  get_endPos_7() const { return ___endPos_7; }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * get_address_of_endPos_7() { return &___endPos_7; }
-	inline void set_endPos_7(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  value)
-	{
-		___endPos_7 = value;
-	}
-
-	inline static int32_t get_offset_of_rotationAxis_8() { return static_cast<int32_t>(offsetof(SimpleAnimation_t94FA757413CE9030AC86B48D58347D8CE751A481, ___rotationAxis_8)); }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  get_rotationAxis_8() const { return ___rotationAxis_8; }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * get_address_of_rotationAxis_8() { return &___rotationAxis_8; }
-	inline void set_rotationAxis_8(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  value)
-	{
-		___rotationAxis_8 = value;
-	}
-
-	inline static int32_t get_offset_of_rotationCenter_9() { return static_cast<int32_t>(offsetof(SimpleAnimation_t94FA757413CE9030AC86B48D58347D8CE751A481, ___rotationCenter_9)); }
-	inline Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * get_rotationCenter_9() const { return ___rotationCenter_9; }
-	inline Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA ** get_address_of_rotationCenter_9() { return &___rotationCenter_9; }
-	inline void set_rotationCenter_9(Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * value)
-	{
-		___rotationCenter_9 = value;
-		Il2CppCodeGenWriteBarrier((&___rotationCenter_9), value);
-	}
-
-	inline static int32_t get_offset_of_rotationAngle_10() { return static_cast<int32_t>(offsetof(SimpleAnimation_t94FA757413CE9030AC86B48D58347D8CE751A481, ___rotationAngle_10)); }
-	inline float get_rotationAngle_10() const { return ___rotationAngle_10; }
-	inline float* get_address_of_rotationAngle_10() { return &___rotationAngle_10; }
-	inline void set_rotationAngle_10(float value)
-	{
-		___rotationAngle_10 = value;
-	}
-
-	inline static int32_t get_offset_of_startDelay_11() { return static_cast<int32_t>(offsetof(SimpleAnimation_t94FA757413CE9030AC86B48D58347D8CE751A481, ___startDelay_11)); }
-	inline float get_startDelay_11() const { return ___startDelay_11; }
-	inline float* get_address_of_startDelay_11() { return &___startDelay_11; }
-	inline void set_startDelay_11(float value)
-	{
-		___startDelay_11 = value;
-	}
-
-	inline static int32_t get_offset_of_duration_12() { return static_cast<int32_t>(offsetof(SimpleAnimation_t94FA757413CE9030AC86B48D58347D8CE751A481, ___duration_12)); }
-	inline float get_duration_12() const { return ___duration_12; }
-	inline float* get_address_of_duration_12() { return &___duration_12; }
-	inline void set_duration_12(float value)
-	{
-		___duration_12 = value;
-	}
-
-	inline static int32_t get_offset_of_loop_13() { return static_cast<int32_t>(offsetof(SimpleAnimation_t94FA757413CE9030AC86B48D58347D8CE751A481, ___loop_13)); }
-	inline bool get_loop_13() const { return ___loop_13; }
-	inline bool* get_address_of_loop_13() { return &___loop_13; }
-	inline void set_loop_13(bool value)
-	{
-		___loop_13 = value;
-	}
-
-	inline static int32_t get_offset_of_playOnAwake_14() { return static_cast<int32_t>(offsetof(SimpleAnimation_t94FA757413CE9030AC86B48D58347D8CE751A481, ___playOnAwake_14)); }
-	inline bool get_playOnAwake_14() const { return ___playOnAwake_14; }
-	inline bool* get_address_of_playOnAwake_14() { return &___playOnAwake_14; }
-	inline void set_playOnAwake_14(bool value)
-	{
-		___playOnAwake_14 = value;
-	}
-
-	inline static int32_t get_offset_of_originalPos_15() { return static_cast<int32_t>(offsetof(SimpleAnimation_t94FA757413CE9030AC86B48D58347D8CE751A481, ___originalPos_15)); }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  get_originalPos_15() const { return ___originalPos_15; }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * get_address_of_originalPos_15() { return &___originalPos_15; }
-	inline void set_originalPos_15(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  value)
-	{
-		___originalPos_15 = value;
-	}
-
-	inline static int32_t get_offset_of_originalRot_16() { return static_cast<int32_t>(offsetof(SimpleAnimation_t94FA757413CE9030AC86B48D58347D8CE751A481, ___originalRot_16)); }
-	inline Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  get_originalRot_16() const { return ___originalRot_16; }
-	inline Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357 * get_address_of_originalRot_16() { return &___originalRot_16; }
-	inline void set_originalRot_16(Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  value)
-	{
-		___originalRot_16 = value;
-	}
-
-	inline static int32_t get_offset_of_startTime_17() { return static_cast<int32_t>(offsetof(SimpleAnimation_t94FA757413CE9030AC86B48D58347D8CE751A481, ___startTime_17)); }
-	inline float get_startTime_17() const { return ___startTime_17; }
-	inline float* get_address_of_startTime_17() { return &___startTime_17; }
-	inline void set_startTime_17(float value)
-	{
-		___startTime_17 = value;
-	}
-
-	inline static int32_t get_offset_of_playing_18() { return static_cast<int32_t>(offsetof(SimpleAnimation_t94FA757413CE9030AC86B48D58347D8CE751A481, ___playing_18)); }
-	inline bool get_playing_18() const { return ___playing_18; }
-	inline bool* get_address_of_playing_18() { return &___playing_18; }
-	inline void set_playing_18(bool value)
+	inline IMediaFrameReader_t41159792231B0F1C5CEA6AABB5F70CBFC5A1359C* get_____imediaFrameReader_t41159792231B0F1C5CEA6AABB5F70CBFC5A1359C()
 	{
-		___playing_18 = value;
-	}
+		IMediaFrameReader_t41159792231B0F1C5CEA6AABB5F70CBFC5A1359C* returnValue = ____imediaFrameReader_t41159792231B0F1C5CEA6AABB5F70CBFC5A1359C;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IMediaFrameReader_t41159792231B0F1C5CEA6AABB5F70CBFC5A1359C::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
 
-	inline static int32_t get_offset_of_startTimeReached_19() { return static_cast<int32_t>(offsetof(SimpleAnimation_t94FA757413CE9030AC86B48D58347D8CE751A481, ___startTimeReached_19)); }
-	inline bool get_startTimeReached_19() const { return ___startTimeReached_19; }
-	inline bool* get_address_of_startTimeReached_19() { return &___startTimeReached_19; }
-	inline void set_startTimeReached_19(bool value)
-	{
-		___startTimeReached_19 = value;
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IMediaFrameReader_t41159792231B0F1C5CEA6AABB5F70CBFC5A1359C>((&____imediaFrameReader_t41159792231B0F1C5CEA6AABB5F70CBFC5A1359C), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____imediaFrameReader_t41159792231B0F1C5CEA6AABB5F70CBFC5A1359C;
+			}
+		}
+		return returnValue;
 	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // SIMPLEANIMATION_T94FA757413CE9030AC86B48D58347D8CE751A481_H
-#ifndef TAPHANDLER_T77893A0EA6C4FAF0429821F4F5558C0D2D65E5F2_H
-#define TAPHANDLER_T77893A0EA6C4FAF0429821F4F5558C0D2D65E5F2_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// TapHandler
-struct  TapHandler_t77893A0EA6C4FAF0429821F4F5558C0D2D65E5F2  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
-	// System.Single TapHandler::mTimeSinceLastTap
-	float ___mTimeSinceLastTap_5;
-	// MenuOptions TapHandler::m_MenuOptions
-	MenuOptions_tCC6DAC4BE944DFA7164E8AF9F7A21C9BA2F36B7A * ___m_MenuOptions_6;
-	// CameraSettings TapHandler::m_CameraSettings
-	CameraSettings_t4FF19C14375B95F9B6D8088E48867CD98A9C1B93 * ___m_CameraSettings_7;
-	// System.Int32 TapHandler::mTapCount
-	int32_t ___mTapCount_8;
 
-public:
-	inline static int32_t get_offset_of_mTimeSinceLastTap_5() { return static_cast<int32_t>(offsetof(TapHandler_t77893A0EA6C4FAF0429821F4F5558C0D2D65E5F2, ___mTimeSinceLastTap_5)); }
-	inline float get_mTimeSinceLastTap_5() const { return ___mTimeSinceLastTap_5; }
-	inline float* get_address_of_mTimeSinceLastTap_5() { return &___mTimeSinceLastTap_5; }
-	inline void set_mTimeSinceLastTap_5(float value)
+	inline IMediaFrameReader2_tF3265EEAE0A57AE73C2D1934A3C67EB21A854E41* get_____imediaFrameReader2_tF3265EEAE0A57AE73C2D1934A3C67EB21A854E41()
 	{
-		___mTimeSinceLastTap_5 = value;
-	}
+		IMediaFrameReader2_tF3265EEAE0A57AE73C2D1934A3C67EB21A854E41* returnValue = ____imediaFrameReader2_tF3265EEAE0A57AE73C2D1934A3C67EB21A854E41;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IMediaFrameReader2_tF3265EEAE0A57AE73C2D1934A3C67EB21A854E41::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
 
-	inline static int32_t get_offset_of_m_MenuOptions_6() { return static_cast<int32_t>(offsetof(TapHandler_t77893A0EA6C4FAF0429821F4F5558C0D2D65E5F2, ___m_MenuOptions_6)); }
-	inline MenuOptions_tCC6DAC4BE944DFA7164E8AF9F7A21C9BA2F36B7A * get_m_MenuOptions_6() const { return ___m_MenuOptions_6; }
-	inline MenuOptions_tCC6DAC4BE944DFA7164E8AF9F7A21C9BA2F36B7A ** get_address_of_m_MenuOptions_6() { return &___m_MenuOptions_6; }
-	inline void set_m_MenuOptions_6(MenuOptions_tCC6DAC4BE944DFA7164E8AF9F7A21C9BA2F36B7A * value)
-	{
-		___m_MenuOptions_6 = value;
-		Il2CppCodeGenWriteBarrier((&___m_MenuOptions_6), value);
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IMediaFrameReader2_tF3265EEAE0A57AE73C2D1934A3C67EB21A854E41>((&____imediaFrameReader2_tF3265EEAE0A57AE73C2D1934A3C67EB21A854E41), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____imediaFrameReader2_tF3265EEAE0A57AE73C2D1934A3C67EB21A854E41;
+			}
+		}
+		return returnValue;
 	}
 
-	inline static int32_t get_offset_of_m_CameraSettings_7() { return static_cast<int32_t>(offsetof(TapHandler_t77893A0EA6C4FAF0429821F4F5558C0D2D65E5F2, ___m_CameraSettings_7)); }
-	inline CameraSettings_t4FF19C14375B95F9B6D8088E48867CD98A9C1B93 * get_m_CameraSettings_7() const { return ___m_CameraSettings_7; }
-	inline CameraSettings_t4FF19C14375B95F9B6D8088E48867CD98A9C1B93 ** get_address_of_m_CameraSettings_7() { return &___m_CameraSettings_7; }
-	inline void set_m_CameraSettings_7(CameraSettings_t4FF19C14375B95F9B6D8088E48867CD98A9C1B93 * value)
+	inline IClosable_t5808AF951019E4388C66F7A88AC569F52F581167* get_____iclosable_t5808AF951019E4388C66F7A88AC569F52F581167()
 	{
-		___m_CameraSettings_7 = value;
-		Il2CppCodeGenWriteBarrier((&___m_CameraSettings_7), value);
-	}
+		IClosable_t5808AF951019E4388C66F7A88AC569F52F581167* returnValue = ____iclosable_t5808AF951019E4388C66F7A88AC569F52F581167;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IClosable_t5808AF951019E4388C66F7A88AC569F52F581167::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
 
-	inline static int32_t get_offset_of_mTapCount_8() { return static_cast<int32_t>(offsetof(TapHandler_t77893A0EA6C4FAF0429821F4F5558C0D2D65E5F2, ___mTapCount_8)); }
-	inline int32_t get_mTapCount_8() const { return ___mTapCount_8; }
-	inline int32_t* get_address_of_mTapCount_8() { return &___mTapCount_8; }
-	inline void set_mTapCount_8(int32_t value)
-	{
-		___mTapCount_8 = value;
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IClosable_t5808AF951019E4388C66F7A88AC569F52F581167>((&____iclosable_t5808AF951019E4388C66F7A88AC569F52F581167), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____iclosable_t5808AF951019E4388C66F7A88AC569F52F581167;
+			}
+		}
+		return returnValue;
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
-#endif
-#endif // TAPHANDLER_T77893A0EA6C4FAF0429821F4F5558C0D2D65E5F2_H
-#ifndef TOGGLEUICONTROLLER_TE9A9D0CB9A93822946CF715E9D784D73CEAF8995_H
-#define TOGGLEUICONTROLLER_TE9A9D0CB9A93822946CF715E9D784D73CEAF8995_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-
-// ToggleUIController
-struct  ToggleUIController_tE9A9D0CB9A93822946CF715E9D784D73CEAF8995  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
+#endif // MEDIAFRAMEREADER_T342162B051092146AAF3EBE162314FB1B7B682A8_H
+// Windows.Media.Capture.IMediaCapture4
+struct NOVTABLE IMediaCapture4_tF72CFA3080F25AEA976608EBBA0F66019F3B697B : Il2CppIInspectable
 {
-public:
-	// UnityEngine.GameObject ToggleUIController::PlayScene
-	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___PlayScene_4;
-	// UnityEngine.GameObject ToggleUIController::RepeatScene
-	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___RepeatScene_5;
-	// UnityEngine.GameObject ToggleUIController::Bundary
-	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___Bundary_6;
-	// UnityEngine.GameObject ToggleUIController::Switch
-	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___Switch_7;
-	// System.Boolean ToggleUIController::Repeat
-	bool ___Repeat_8;
-
-public:
-	inline static int32_t get_offset_of_PlayScene_4() { return static_cast<int32_t>(offsetof(ToggleUIController_tE9A9D0CB9A93822946CF715E9D784D73CEAF8995, ___PlayScene_4)); }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * get_PlayScene_4() const { return ___PlayScene_4; }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F ** get_address_of_PlayScene_4() { return &___PlayScene_4; }
-	inline void set_PlayScene_4(GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * value)
-	{
-		___PlayScene_4 = value;
-		Il2CppCodeGenWriteBarrier((&___PlayScene_4), value);
-	}
-
-	inline static int32_t get_offset_of_RepeatScene_5() { return static_cast<int32_t>(offsetof(ToggleUIController_tE9A9D0CB9A93822946CF715E9D784D73CEAF8995, ___RepeatScene_5)); }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * get_RepeatScene_5() const { return ___RepeatScene_5; }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F ** get_address_of_RepeatScene_5() { return &___RepeatScene_5; }
-	inline void set_RepeatScene_5(GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * value)
-	{
-		___RepeatScene_5 = value;
-		Il2CppCodeGenWriteBarrier((&___RepeatScene_5), value);
-	}
-
-	inline static int32_t get_offset_of_Bundary_6() { return static_cast<int32_t>(offsetof(ToggleUIController_tE9A9D0CB9A93822946CF715E9D784D73CEAF8995, ___Bundary_6)); }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * get_Bundary_6() const { return ___Bundary_6; }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F ** get_address_of_Bundary_6() { return &___Bundary_6; }
-	inline void set_Bundary_6(GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * value)
-	{
-		___Bundary_6 = value;
-		Il2CppCodeGenWriteBarrier((&___Bundary_6), value);
-	}
-
-	inline static int32_t get_offset_of_Switch_7() { return static_cast<int32_t>(offsetof(ToggleUIController_tE9A9D0CB9A93822946CF715E9D784D73CEAF8995, ___Switch_7)); }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * get_Switch_7() const { return ___Switch_7; }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F ** get_address_of_Switch_7() { return &___Switch_7; }
-	inline void set_Switch_7(GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * value)
-	{
-		___Switch_7 = value;
-		Il2CppCodeGenWriteBarrier((&___Switch_7), value);
-	}
-
-	inline static int32_t get_offset_of_Repeat_8() { return static_cast<int32_t>(offsetof(ToggleUIController_tE9A9D0CB9A93822946CF715E9D784D73CEAF8995, ___Repeat_8)); }
-	inline bool get_Repeat_8() const { return ___Repeat_8; }
-	inline bool* get_address_of_Repeat_8() { return &___Repeat_8; }
-	inline void set_Repeat_8(bool value)
-	{
-		___Repeat_8 = value;
-	}
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture4_U24__Stripped0_AddAudioEffectAsync_m86DCA39F9F9A2D2D0FD8BC2E2A7075FA861816F3() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture4_AddVideoEffectAsync_m1DE69D44817EF15F1DFE8D48043CFF31FC4619BE(IVideoEffectDefinition_tB3BDE54658672900C714EE7B8ECDA0EAB155E589* ___definition0, int32_t ___mediaStreamType1, IAsyncOperation_1_t2DD5E575F0AFAB6484D1019F98A3AE2DC91A28C6** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture4_U24__Stripped1_PauseRecordAsync_m6D163B12F3F00F448BF0B53DC92452D52B13460F() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture4_U24__Stripped2_ResumeRecordAsync_m1289A22863BC1040799D0A5D7A94E9EAF935CE5E() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture4_U24__Stripped3_add_CameraStreamStateChanged_m3EB4A154490523F1B03F44249AEE98D2A7E9BF3B() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture4_U24__Stripped4_remove_CameraStreamStateChanged_mD899EEBAC9E287890C49F187FCE2720E08588D6F() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture4_U24__Stripped5_get_CameraStreamState_m8186F5D36FD1FF171497EE915DC4B94450CEE609() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture4_U24__Stripped6_GetPreviewFrameAsync_m42075F421BA7C3A688BB16D26DEA259580C2B200() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture4_U24__Stripped7_GetPreviewFrameAsync_m4402CBB806F50B30E3B87EBB0FDEBFD5809EC5F2() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture4_U24__Stripped8_add_ThermalStatusChanged_mF39842A442335F31DDC63D59BB3676AEC45561A4() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture4_U24__Stripped9_remove_ThermalStatusChanged_m96AFDDA234ACCFAE526D45BC7F93BA8B283D6079() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture4_U24__Stripped10_get_ThermalStatus_mC15C6727383FE7407FBCB8C6C92669222BB3D531() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCapture4_U24__Stripped11_PrepareAdvancedPhotoCaptureAsync_m589208FE5245C6175DA931CFE8E0553B974CC815() = 0;
 };
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // TOGGLEUICONTROLLER_TE9A9D0CB9A93822946CF715E9D784D73CEAF8995_H
-#ifndef TRACKABLEEVENTHANDLE_HOLOPIANO_T25D420B57466CE6798F82A08F3C34D101C1CA4B0_H
-#define TRACKABLEEVENTHANDLE_HOLOPIANO_T25D420B57466CE6798F82A08F3C34D101C1CA4B0_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// TrackableEventHandle_holoPiano
-struct  TrackableEventHandle_holoPiano_t25D420B57466CE6798F82A08F3C34D101C1CA4B0  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
+// Windows.Media.Capture.IMediaCaptureInitializationSettings
+struct NOVTABLE IMediaCaptureInitializationSettings_t1DE7B3A5620B15183FB009189485AC2A3856B857 : Il2CppIInspectable
 {
-public:
-	// Vuforia.TrackableBehaviour TrackableEventHandle_holoPiano::mTrackableBehaviour
-	TrackableBehaviour_t579D75AAFEF7B2D69F4B68931D5A58074E80A7E4 * ___mTrackableBehaviour_4;
-	// Vuforia.TrackableBehaviour_Status TrackableEventHandle_holoPiano::m_PreviousStatus
-	int32_t ___m_PreviousStatus_5;
-	// Vuforia.TrackableBehaviour_Status TrackableEventHandle_holoPiano::m_NewStatus
-	int32_t ___m_NewStatus_6;
-	// MenuController TrackableEventHandle_holoPiano::menuController
-	MenuController_t244BC6F4B06B69D85522469F892EA8375E376DA1 * ___menuController_7;
-
-public:
-	inline static int32_t get_offset_of_mTrackableBehaviour_4() { return static_cast<int32_t>(offsetof(TrackableEventHandle_holoPiano_t25D420B57466CE6798F82A08F3C34D101C1CA4B0, ___mTrackableBehaviour_4)); }
-	inline TrackableBehaviour_t579D75AAFEF7B2D69F4B68931D5A58074E80A7E4 * get_mTrackableBehaviour_4() const { return ___mTrackableBehaviour_4; }
-	inline TrackableBehaviour_t579D75AAFEF7B2D69F4B68931D5A58074E80A7E4 ** get_address_of_mTrackableBehaviour_4() { return &___mTrackableBehaviour_4; }
-	inline void set_mTrackableBehaviour_4(TrackableBehaviour_t579D75AAFEF7B2D69F4B68931D5A58074E80A7E4 * value)
-	{
-		___mTrackableBehaviour_4 = value;
-		Il2CppCodeGenWriteBarrier((&___mTrackableBehaviour_4), value);
-	}
-
-	inline static int32_t get_offset_of_m_PreviousStatus_5() { return static_cast<int32_t>(offsetof(TrackableEventHandle_holoPiano_t25D420B57466CE6798F82A08F3C34D101C1CA4B0, ___m_PreviousStatus_5)); }
-	inline int32_t get_m_PreviousStatus_5() const { return ___m_PreviousStatus_5; }
-	inline int32_t* get_address_of_m_PreviousStatus_5() { return &___m_PreviousStatus_5; }
-	inline void set_m_PreviousStatus_5(int32_t value)
-	{
-		___m_PreviousStatus_5 = value;
-	}
-
-	inline static int32_t get_offset_of_m_NewStatus_6() { return static_cast<int32_t>(offsetof(TrackableEventHandle_holoPiano_t25D420B57466CE6798F82A08F3C34D101C1CA4B0, ___m_NewStatus_6)); }
-	inline int32_t get_m_NewStatus_6() const { return ___m_NewStatus_6; }
-	inline int32_t* get_address_of_m_NewStatus_6() { return &___m_NewStatus_6; }
-	inline void set_m_NewStatus_6(int32_t value)
-	{
-		___m_NewStatus_6 = value;
-	}
-
-	inline static int32_t get_offset_of_menuController_7() { return static_cast<int32_t>(offsetof(TrackableEventHandle_holoPiano_t25D420B57466CE6798F82A08F3C34D101C1CA4B0, ___menuController_7)); }
-	inline MenuController_t244BC6F4B06B69D85522469F892EA8375E376DA1 * get_menuController_7() const { return ___menuController_7; }
-	inline MenuController_t244BC6F4B06B69D85522469F892EA8375E376DA1 ** get_address_of_menuController_7() { return &___menuController_7; }
-	inline void set_menuController_7(MenuController_t244BC6F4B06B69D85522469F892EA8375E376DA1 * value)
-	{
-		___menuController_7 = value;
-		Il2CppCodeGenWriteBarrier((&___menuController_7), value);
-	}
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IMediaCaptureInitializationSettings_U24__Stripped0_put_AudioDeviceId_mB80D2AB554816F8D5535E2FB8743955BC64C9AE0() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCaptureInitializationSettings_U24__Stripped1_get_AudioDeviceId_mF5996D59FE1BFA58078CEC45A4330ADEED7FD177() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCaptureInitializationSettings_put_VideoDeviceId_m4D50C3F80820A451AE8DFEE5B234C43EF6799284(Il2CppHString ___value0) = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCaptureInitializationSettings_U24__Stripped2_get_VideoDeviceId_m4ED22CF2695583D4A375B7AC84EF94257D3DD711() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCaptureInitializationSettings_put_StreamingCaptureMode_mBDA873EBC39E291CD69939831640C85F16BDBA95(int32_t ___value0) = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCaptureInitializationSettings_U24__Stripped3_get_StreamingCaptureMode_m63648BF237714D700064C3B2F667F5534F6FBBEE() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCaptureInitializationSettings_U24__Stripped4_put_PhotoCaptureSource_m9F515C02E249A184FFAFF9BA40401CF6F5774096() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCaptureInitializationSettings_U24__Stripped5_get_PhotoCaptureSource_mD903B93D1F5BCBBB54B1842FF5A3108954081ECE() = 0;
 };
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // TRACKABLEEVENTHANDLE_HOLOPIANO_T25D420B57466CE6798F82A08F3C34D101C1CA4B0_H
-#ifndef TRACKABLESETTINGS_TAA777CC0FC23BE330E495AF9917781398A70BA35_H
-#define TRACKABLESETTINGS_TAA777CC0FC23BE330E495AF9917781398A70BA35_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// TrackableSettings
-struct  TrackableSettings_tAA777CC0FC23BE330E495AF9917781398A70BA35  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
+// Windows.Media.Capture.IMediaCaptureInitializationSettings2
+struct NOVTABLE IMediaCaptureInitializationSettings2_t482972210DD8330BF057CA8F290F95CE10C0F508 : Il2CppIInspectable
 {
-public:
-	// System.Boolean TrackableSettings::deviceTrackerEnabled
-	bool ___deviceTrackerEnabled_4;
-	// Vuforia.PositionalDeviceTracker TrackableSettings::positionalDeviceTracker
-	PositionalDeviceTracker_tEFAA5FDB9CF19DA74081AE51B41B4B5D9F40D8EE * ___positionalDeviceTracker_5;
-	// System.Timers.Timer TrackableSettings::relocalizationStatusDelayTimer
-	Timer_t238C45D8635596EEA04884048EF70F96775D5ADC * ___relocalizationStatusDelayTimer_6;
-	// System.Timers.Timer TrackableSettings::resetDeviceTrackerTimer
-	Timer_t238C45D8635596EEA04884048EF70F96775D5ADC * ___resetDeviceTrackerTimer_7;
-
-public:
-	inline static int32_t get_offset_of_deviceTrackerEnabled_4() { return static_cast<int32_t>(offsetof(TrackableSettings_tAA777CC0FC23BE330E495AF9917781398A70BA35, ___deviceTrackerEnabled_4)); }
-	inline bool get_deviceTrackerEnabled_4() const { return ___deviceTrackerEnabled_4; }
-	inline bool* get_address_of_deviceTrackerEnabled_4() { return &___deviceTrackerEnabled_4; }
-	inline void set_deviceTrackerEnabled_4(bool value)
-	{
-		___deviceTrackerEnabled_4 = value;
-	}
-
-	inline static int32_t get_offset_of_positionalDeviceTracker_5() { return static_cast<int32_t>(offsetof(TrackableSettings_tAA777CC0FC23BE330E495AF9917781398A70BA35, ___positionalDeviceTracker_5)); }
-	inline PositionalDeviceTracker_tEFAA5FDB9CF19DA74081AE51B41B4B5D9F40D8EE * get_positionalDeviceTracker_5() const { return ___positionalDeviceTracker_5; }
-	inline PositionalDeviceTracker_tEFAA5FDB9CF19DA74081AE51B41B4B5D9F40D8EE ** get_address_of_positionalDeviceTracker_5() { return &___positionalDeviceTracker_5; }
-	inline void set_positionalDeviceTracker_5(PositionalDeviceTracker_tEFAA5FDB9CF19DA74081AE51B41B4B5D9F40D8EE * value)
-	{
-		___positionalDeviceTracker_5 = value;
-		Il2CppCodeGenWriteBarrier((&___positionalDeviceTracker_5), value);
-	}
-
-	inline static int32_t get_offset_of_relocalizationStatusDelayTimer_6() { return static_cast<int32_t>(offsetof(TrackableSettings_tAA777CC0FC23BE330E495AF9917781398A70BA35, ___relocalizationStatusDelayTimer_6)); }
-	inline Timer_t238C45D8635596EEA04884048EF70F96775D5ADC * get_relocalizationStatusDelayTimer_6() const { return ___relocalizationStatusDelayTimer_6; }
-	inline Timer_t238C45D8635596EEA04884048EF70F96775D5ADC ** get_address_of_relocalizationStatusDelayTimer_6() { return &___relocalizationStatusDelayTimer_6; }
-	inline void set_relocalizationStatusDelayTimer_6(Timer_t238C45D8635596EEA04884048EF70F96775D5ADC * value)
-	{
-		___relocalizationStatusDelayTimer_6 = value;
-		Il2CppCodeGenWriteBarrier((&___relocalizationStatusDelayTimer_6), value);
-	}
-
-	inline static int32_t get_offset_of_resetDeviceTrackerTimer_7() { return static_cast<int32_t>(offsetof(TrackableSettings_tAA777CC0FC23BE330E495AF9917781398A70BA35, ___resetDeviceTrackerTimer_7)); }
-	inline Timer_t238C45D8635596EEA04884048EF70F96775D5ADC * get_resetDeviceTrackerTimer_7() const { return ___resetDeviceTrackerTimer_7; }
-	inline Timer_t238C45D8635596EEA04884048EF70F96775D5ADC ** get_address_of_resetDeviceTrackerTimer_7() { return &___resetDeviceTrackerTimer_7; }
-	inline void set_resetDeviceTrackerTimer_7(Timer_t238C45D8635596EEA04884048EF70F96775D5ADC * value)
-	{
-		___resetDeviceTrackerTimer_7 = value;
-		Il2CppCodeGenWriteBarrier((&___resetDeviceTrackerTimer_7), value);
-	}
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IMediaCaptureInitializationSettings2_put_MediaCategory_m2B5998EEA0F0B6E24CBD106EAB19477BB6968658(int32_t ___value0) = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCaptureInitializationSettings2_U24__Stripped0_get_MediaCategory_m9597ED4795FC102A2FD1DA736F5B121A60EDC7BD() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCaptureInitializationSettings2_U24__Stripped1_put_AudioProcessing_m4E2766A2AA21AACC7C60AAA2B088956C8A48025B() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCaptureInitializationSettings2_U24__Stripped2_get_AudioProcessing_m4711D606EF3CCF744234208100FFDB07DF97463F() = 0;
 };
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // TRACKABLESETTINGS_TAA777CC0FC23BE330E495AF9917781398A70BA35_H
-#ifndef ACTIVATETRIGGER_T27EAD9B7C42E77005A11C30C36157241265BEBFE_H
-#define ACTIVATETRIGGER_T27EAD9B7C42E77005A11C30C36157241265BEBFE_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityStandardAssets.Utility.ActivateTrigger
-struct  ActivateTrigger_t27EAD9B7C42E77005A11C30C36157241265BEBFE  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
+// Windows.Media.Capture.IMediaCaptureInitializationSettings5
+struct NOVTABLE IMediaCaptureInitializationSettings5_tA06528D746752978C624C1F39B8BAF77FB7F6689 : Il2CppIInspectable
 {
-public:
-	// UnityStandardAssets.Utility.ActivateTrigger_Mode UnityStandardAssets.Utility.ActivateTrigger::action
-	int32_t ___action_4;
-	// UnityEngine.Object UnityStandardAssets.Utility.ActivateTrigger::target
-	Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0 * ___target_5;
-	// UnityEngine.GameObject UnityStandardAssets.Utility.ActivateTrigger::source
-	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___source_6;
-	// System.Int32 UnityStandardAssets.Utility.ActivateTrigger::triggerCount
-	int32_t ___triggerCount_7;
-	// System.Boolean UnityStandardAssets.Utility.ActivateTrigger::repeatTrigger
-	bool ___repeatTrigger_8;
-
-public:
-	inline static int32_t get_offset_of_action_4() { return static_cast<int32_t>(offsetof(ActivateTrigger_t27EAD9B7C42E77005A11C30C36157241265BEBFE, ___action_4)); }
-	inline int32_t get_action_4() const { return ___action_4; }
-	inline int32_t* get_address_of_action_4() { return &___action_4; }
-	inline void set_action_4(int32_t value)
-	{
-		___action_4 = value;
-	}
-
-	inline static int32_t get_offset_of_target_5() { return static_cast<int32_t>(offsetof(ActivateTrigger_t27EAD9B7C42E77005A11C30C36157241265BEBFE, ___target_5)); }
-	inline Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0 * get_target_5() const { return ___target_5; }
-	inline Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0 ** get_address_of_target_5() { return &___target_5; }
-	inline void set_target_5(Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0 * value)
-	{
-		___target_5 = value;
-		Il2CppCodeGenWriteBarrier((&___target_5), value);
-	}
-
-	inline static int32_t get_offset_of_source_6() { return static_cast<int32_t>(offsetof(ActivateTrigger_t27EAD9B7C42E77005A11C30C36157241265BEBFE, ___source_6)); }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * get_source_6() const { return ___source_6; }
-	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F ** get_address_of_source_6() { return &___source_6; }
-	inline void set_source_6(GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * value)
-	{
-		___source_6 = value;
-		Il2CppCodeGenWriteBarrier((&___source_6), value);
-	}
-
-	inline static int32_t get_offset_of_triggerCount_7() { return static_cast<int32_t>(offsetof(ActivateTrigger_t27EAD9B7C42E77005A11C30C36157241265BEBFE, ___triggerCount_7)); }
-	inline int32_t get_triggerCount_7() const { return ___triggerCount_7; }
-	inline int32_t* get_address_of_triggerCount_7() { return &___triggerCount_7; }
-	inline void set_triggerCount_7(int32_t value)
-	{
-		___triggerCount_7 = value;
-	}
-
-	inline static int32_t get_offset_of_repeatTrigger_8() { return static_cast<int32_t>(offsetof(ActivateTrigger_t27EAD9B7C42E77005A11C30C36157241265BEBFE, ___repeatTrigger_8)); }
-	inline bool get_repeatTrigger_8() const { return ___repeatTrigger_8; }
-	inline bool* get_address_of_repeatTrigger_8() { return &___repeatTrigger_8; }
-	inline void set_repeatTrigger_8(bool value)
-	{
-		___repeatTrigger_8 = value;
-	}
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IMediaCaptureInitializationSettings5_U24__Stripped0_get_SourceGroup_mC2F223A38711885D23FF8E5A39D8C024A2BF3655() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCaptureInitializationSettings5_put_SourceGroup_m6F2E674434DDE495F51009E6848CE158D98B179D(IMediaFrameSourceGroup_t666F492EE37B820BB6324C17BA513497F569B70A* ___value0) = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCaptureInitializationSettings5_U24__Stripped1_get_SharingMode_m8CE32A32D56A23CBB1BAFBE35D2760DCAA6795DC() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCaptureInitializationSettings5_U24__Stripped2_put_SharingMode_m0B7AADD6B042B0CC98F47471A91E0F5C6A00679A() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCaptureInitializationSettings5_U24__Stripped3_get_MemoryPreference_m089079F7E6BEC03D6C4F2D3D8C6CA9144486F508() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaCaptureInitializationSettings5_put_MemoryPreference_m798FD1D228FAF0BFB695B5B6421876A9BBD9B289(int32_t ___value0) = 0;
 };
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // ACTIVATETRIGGER_T27EAD9B7C42E77005A11C30C36157241265BEBFE_H
-#ifndef AUTOMOBILESHADERSWITCH_TD7D1F3E76F3ACE1F239A8282654518512466F602_H
-#define AUTOMOBILESHADERSWITCH_TD7D1F3E76F3ACE1F239A8282654518512466F602_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityStandardAssets.Utility.AutoMobileShaderSwitch
-struct  AutoMobileShaderSwitch_tD7D1F3E76F3ACE1F239A8282654518512466F602  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
+// Windows.Media.Devices.IMediaDeviceController
+struct NOVTABLE IMediaDeviceController_t3165BC615DF1E88AD9D62D57D6783A4170CD7860 : Il2CppIInspectable
 {
-public:
-	// UnityStandardAssets.Utility.AutoMobileShaderSwitch_ReplacementList UnityStandardAssets.Utility.AutoMobileShaderSwitch::m_ReplacementList
-	ReplacementList_tB61E3C48AEAD548534A66E61A114FE42725BF8B7 * ___m_ReplacementList_4;
-
-public:
-	inline static int32_t get_offset_of_m_ReplacementList_4() { return static_cast<int32_t>(offsetof(AutoMobileShaderSwitch_tD7D1F3E76F3ACE1F239A8282654518512466F602, ___m_ReplacementList_4)); }
-	inline ReplacementList_tB61E3C48AEAD548534A66E61A114FE42725BF8B7 * get_m_ReplacementList_4() const { return ___m_ReplacementList_4; }
-	inline ReplacementList_tB61E3C48AEAD548534A66E61A114FE42725BF8B7 ** get_address_of_m_ReplacementList_4() { return &___m_ReplacementList_4; }
-	inline void set_m_ReplacementList_4(ReplacementList_tB61E3C48AEAD548534A66E61A114FE42725BF8B7 * value)
-	{
-		___m_ReplacementList_4 = value;
-		Il2CppCodeGenWriteBarrier((&___m_ReplacementList_4), value);
-	}
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IMediaDeviceController_GetAvailableMediaStreamProperties_mDB002563346DD03F60041BB42970D39526D6B91E(int32_t ___mediaStreamType0, IVectorView_1_tEE483ADB15ADF0967FBD5B631A5BD0FA8BEF3E5A** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaDeviceController_U24__Stripped0_GetMediaStreamProperties_m581103CEA63D499C7D49F56C2B4DDA32BF12724E() = 0;
+	virtual il2cpp_hresult_t STDCALL IMediaDeviceController_SetMediaStreamPropertiesAsync_m67057BC4C79516B3AAEF226EE2DC683B0DB924B4(int32_t ___mediaStreamType0, IMediaEncodingProperties_t161B1E1789909965DD52E51AE4703028AB8EB003* ___mediaEncodingProperties1, IAsyncAction_tF980B79DBC4BD4F9F262E473628FD971545C5109** comReturnValue) = 0;
 };
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // AUTOMOBILESHADERSWITCH_TD7D1F3E76F3ACE1F239A8282654518512466F602_H
-#ifndef AUTOMOVEANDROTATE_T0C306BE99E1D9B543961EFD066E123FEF9981BAE_H
-#define AUTOMOVEANDROTATE_T0C306BE99E1D9B543961EFD066E123FEF9981BAE_H
+#ifndef MEDIAPROPERTYSET_T1C2AABD14D3DB741938E0283A4B24394DBE7937C_H
+#define MEDIAPROPERTYSET_T1C2AABD14D3DB741938E0283A4B24394DBE7937C_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityStandardAssets.Utility.AutoMoveAndRotate
-struct  AutoMoveAndRotate_t0C306BE99E1D9B543961EFD066E123FEF9981BAE  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
+// Windows.Media.MediaProperties.MediaPropertySet
+struct  MediaPropertySet_t1C2AABD14D3DB741938E0283A4B24394DBE7937C  : public Il2CppComObject
 {
 public:
-	// UnityStandardAssets.Utility.AutoMoveAndRotate_Vector3andSpace UnityStandardAssets.Utility.AutoMoveAndRotate::moveUnitsPerSecond
-	Vector3andSpace_tFFBEB79251E79158007EDD76C0AA5F44D94FC61C * ___moveUnitsPerSecond_4;
-	// UnityStandardAssets.Utility.AutoMoveAndRotate_Vector3andSpace UnityStandardAssets.Utility.AutoMoveAndRotate::rotateDegreesPerSecond
-	Vector3andSpace_tFFBEB79251E79158007EDD76C0AA5F44D94FC61C * ___rotateDegreesPerSecond_5;
-	// System.Boolean UnityStandardAssets.Utility.AutoMoveAndRotate::ignoreTimescale
-	bool ___ignoreTimescale_6;
-	// System.Single UnityStandardAssets.Utility.AutoMoveAndRotate::m_LastRealTime
-	float ___m_LastRealTime_7;
+	// Cached pointer to Windows.Foundation.Collections.IMap`2<System.Guid,System.Object>
+	IMap_2_t7C9D5F7C4E0E287CCF473A96ECB7921A3605E652* ____imap_2_t7C9D5F7C4E0E287CCF473A96ECB7921A3605E652;
+	// Cached pointer to Windows.Foundation.Collections.IIterable`1<System.Collections.Generic.KeyValuePair`2<System.Guid,System.Object>>
+	IIterable_1_tA0A3AB1250FF8C7F9FF6958BFFADAF7138735B48* ____iiterable_1_tA0A3AB1250FF8C7F9FF6958BFFADAF7138735B48;
 
 public:
-	inline static int32_t get_offset_of_moveUnitsPerSecond_4() { return static_cast<int32_t>(offsetof(AutoMoveAndRotate_t0C306BE99E1D9B543961EFD066E123FEF9981BAE, ___moveUnitsPerSecond_4)); }
-	inline Vector3andSpace_tFFBEB79251E79158007EDD76C0AA5F44D94FC61C * get_moveUnitsPerSecond_4() const { return ___moveUnitsPerSecond_4; }
-	inline Vector3andSpace_tFFBEB79251E79158007EDD76C0AA5F44D94FC61C ** get_address_of_moveUnitsPerSecond_4() { return &___moveUnitsPerSecond_4; }
-	inline void set_moveUnitsPerSecond_4(Vector3andSpace_tFFBEB79251E79158007EDD76C0AA5F44D94FC61C * value)
+	inline IMap_2_t7C9D5F7C4E0E287CCF473A96ECB7921A3605E652* get_____imap_2_t7C9D5F7C4E0E287CCF473A96ECB7921A3605E652()
 	{
-		___moveUnitsPerSecond_4 = value;
-		Il2CppCodeGenWriteBarrier((&___moveUnitsPerSecond_4), value);
-	}
+		IMap_2_t7C9D5F7C4E0E287CCF473A96ECB7921A3605E652* returnValue = ____imap_2_t7C9D5F7C4E0E287CCF473A96ECB7921A3605E652;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IMap_2_t7C9D5F7C4E0E287CCF473A96ECB7921A3605E652::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
 
-	inline static int32_t get_offset_of_rotateDegreesPerSecond_5() { return static_cast<int32_t>(offsetof(AutoMoveAndRotate_t0C306BE99E1D9B543961EFD066E123FEF9981BAE, ___rotateDegreesPerSecond_5)); }
-	inline Vector3andSpace_tFFBEB79251E79158007EDD76C0AA5F44D94FC61C * get_rotateDegreesPerSecond_5() const { return ___rotateDegreesPerSecond_5; }
-	inline Vector3andSpace_tFFBEB79251E79158007EDD76C0AA5F44D94FC61C ** get_address_of_rotateDegreesPerSecond_5() { return &___rotateDegreesPerSecond_5; }
-	inline void set_rotateDegreesPerSecond_5(Vector3andSpace_tFFBEB79251E79158007EDD76C0AA5F44D94FC61C * value)
-	{
-		___rotateDegreesPerSecond_5 = value;
-		Il2CppCodeGenWriteBarrier((&___rotateDegreesPerSecond_5), value);
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IMap_2_t7C9D5F7C4E0E287CCF473A96ECB7921A3605E652>((&____imap_2_t7C9D5F7C4E0E287CCF473A96ECB7921A3605E652), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____imap_2_t7C9D5F7C4E0E287CCF473A96ECB7921A3605E652;
+			}
+		}
+		return returnValue;
 	}
 
-	inline static int32_t get_offset_of_ignoreTimescale_6() { return static_cast<int32_t>(offsetof(AutoMoveAndRotate_t0C306BE99E1D9B543961EFD066E123FEF9981BAE, ___ignoreTimescale_6)); }
-	inline bool get_ignoreTimescale_6() const { return ___ignoreTimescale_6; }
-	inline bool* get_address_of_ignoreTimescale_6() { return &___ignoreTimescale_6; }
-	inline void set_ignoreTimescale_6(bool value)
+	inline IIterable_1_tA0A3AB1250FF8C7F9FF6958BFFADAF7138735B48* get_____iiterable_1_tA0A3AB1250FF8C7F9FF6958BFFADAF7138735B48()
 	{
-		___ignoreTimescale_6 = value;
-	}
+		IIterable_1_tA0A3AB1250FF8C7F9FF6958BFFADAF7138735B48* returnValue = ____iiterable_1_tA0A3AB1250FF8C7F9FF6958BFFADAF7138735B48;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IIterable_1_tA0A3AB1250FF8C7F9FF6958BFFADAF7138735B48::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
 
-	inline static int32_t get_offset_of_m_LastRealTime_7() { return static_cast<int32_t>(offsetof(AutoMoveAndRotate_t0C306BE99E1D9B543961EFD066E123FEF9981BAE, ___m_LastRealTime_7)); }
-	inline float get_m_LastRealTime_7() const { return ___m_LastRealTime_7; }
-	inline float* get_address_of_m_LastRealTime_7() { return &___m_LastRealTime_7; }
-	inline void set_m_LastRealTime_7(float value)
-	{
-		___m_LastRealTime_7 = value;
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IIterable_1_tA0A3AB1250FF8C7F9FF6958BFFADAF7138735B48>((&____iiterable_1_tA0A3AB1250FF8C7F9FF6958BFFADAF7138735B48), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____iiterable_1_tA0A3AB1250FF8C7F9FF6958BFFADAF7138735B48;
+			}
+		}
+		return returnValue;
 	}
 };
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // AUTOMOVEANDROTATE_T0C306BE99E1D9B543961EFD066E123FEF9981BAE_H
-#ifndef DRAGRIGIDBODY_T69356A31AE06158C9C3A6F186ADA66CA6947621E_H
-#define DRAGRIGIDBODY_T69356A31AE06158C9C3A6F186ADA66CA6947621E_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
 
-// UnityStandardAssets.Utility.DragRigidbody
-struct  DragRigidbody_t69356A31AE06158C9C3A6F186ADA66CA6947621E  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
+struct MediaPropertySet_t1C2AABD14D3DB741938E0283A4B24394DBE7937C_StaticFields
 {
 public:
-	// UnityEngine.SpringJoint UnityStandardAssets.Utility.DragRigidbody::m_SpringJoint
-	SpringJoint_t2D196194480E339F728B463619720385523B09AF * ___m_SpringJoint_10;
+	// Cached pointer to IActivationFactory
+	Il2CppIActivationFactory* activationFactory;
 
 public:
-	inline static int32_t get_offset_of_m_SpringJoint_10() { return static_cast<int32_t>(offsetof(DragRigidbody_t69356A31AE06158C9C3A6F186ADA66CA6947621E, ___m_SpringJoint_10)); }
-	inline SpringJoint_t2D196194480E339F728B463619720385523B09AF * get_m_SpringJoint_10() const { return ___m_SpringJoint_10; }
-	inline SpringJoint_t2D196194480E339F728B463619720385523B09AF ** get_address_of_m_SpringJoint_10() { return &___m_SpringJoint_10; }
-	inline void set_m_SpringJoint_10(SpringJoint_t2D196194480E339F728B463619720385523B09AF * value)
+	inline Il2CppIActivationFactory* get_activationFactory()
 	{
-		___m_SpringJoint_10 = value;
-		Il2CppCodeGenWriteBarrier((&___m_SpringJoint_10), value);
+		Il2CppIActivationFactory* returnValue = activationFactory;
+		if (returnValue == NULL)
+		{
+			il2cpp::utils::StringView<Il2CppNativeChar> className(IL2CPP_NATIVE_STRING("Windows.Media.MediaProperties.MediaPropertySet"));
+			returnValue = il2cpp_codegen_windows_runtime_get_activation_factory(className);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<Il2CppIActivationFactory>((&activationFactory), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = activationFactory;
+			}
+		}
+		return returnValue;
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // DRAGRIGIDBODY_T69356A31AE06158C9C3A6F186ADA66CA6947621E_H
-#ifndef DYNAMICSHADOWSETTINGS_TC19A73E12D5C65EDF4C4229F037176B73DC6B819_H
-#define DYNAMICSHADOWSETTINGS_TC19A73E12D5C65EDF4C4229F037176B73DC6B819_H
+#endif // MEDIAPROPERTYSET_T1C2AABD14D3DB741938E0283A4B24394DBE7937C_H
+#ifndef DATAGRAMSOCKET_T6F2D811AC1E3705DA96D6972DA4D6BA0A96B2C78_H
+#define DATAGRAMSOCKET_T6F2D811AC1E3705DA96D6972DA4D6BA0A96B2C78_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityStandardAssets.Utility.DynamicShadowSettings
-struct  DynamicShadowSettings_tC19A73E12D5C65EDF4C4229F037176B73DC6B819  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
+// Windows.Networking.Sockets.DatagramSocket
+struct  DatagramSocket_t6F2D811AC1E3705DA96D6972DA4D6BA0A96B2C78  : public Il2CppComObject
 {
 public:
-	// UnityEngine.Light UnityStandardAssets.Utility.DynamicShadowSettings::sunLight
-	Light_tFDE490EADBC7E080F74CA804929513AF07C31A6C * ___sunLight_4;
-	// System.Single UnityStandardAssets.Utility.DynamicShadowSettings::minHeight
-	float ___minHeight_5;
-	// System.Single UnityStandardAssets.Utility.DynamicShadowSettings::minShadowDistance
-	float ___minShadowDistance_6;
-	// System.Single UnityStandardAssets.Utility.DynamicShadowSettings::minShadowBias
-	float ___minShadowBias_7;
-	// System.Single UnityStandardAssets.Utility.DynamicShadowSettings::maxHeight
-	float ___maxHeight_8;
-	// System.Single UnityStandardAssets.Utility.DynamicShadowSettings::maxShadowDistance
-	float ___maxShadowDistance_9;
-	// System.Single UnityStandardAssets.Utility.DynamicShadowSettings::maxShadowBias
-	float ___maxShadowBias_10;
-	// System.Single UnityStandardAssets.Utility.DynamicShadowSettings::adaptTime
-	float ___adaptTime_11;
-	// System.Single UnityStandardAssets.Utility.DynamicShadowSettings::m_SmoothHeight
-	float ___m_SmoothHeight_12;
-	// System.Single UnityStandardAssets.Utility.DynamicShadowSettings::m_ChangeSpeed
-	float ___m_ChangeSpeed_13;
-	// System.Single UnityStandardAssets.Utility.DynamicShadowSettings::m_OriginalStrength
-	float ___m_OriginalStrength_14;
+	// Cached pointer to Windows.Networking.Sockets.IDatagramSocket
+	IDatagramSocket_t848EE6700A7594CBABF900E1A2EDA9CA16BBC69C* ____idatagramSocket_t848EE6700A7594CBABF900E1A2EDA9CA16BBC69C;
+	// Cached pointer to Windows.Networking.Sockets.IDatagramSocket2
+	IDatagramSocket2_t9B6F3932780D35065730ED075C569F2EC63971CB* ____idatagramSocket2_t9B6F3932780D35065730ED075C569F2EC63971CB;
+	// Cached pointer to Windows.Networking.Sockets.IDatagramSocket3
+	IDatagramSocket3_tC850609CA66B2414F6A6177A72803BF4F2A3660D* ____idatagramSocket3_tC850609CA66B2414F6A6177A72803BF4F2A3660D;
+	// Cached pointer to Windows.Foundation.IClosable
+	IClosable_t5808AF951019E4388C66F7A88AC569F52F581167* ____iclosable_t5808AF951019E4388C66F7A88AC569F52F581167;
 
 public:
-	inline static int32_t get_offset_of_sunLight_4() { return static_cast<int32_t>(offsetof(DynamicShadowSettings_tC19A73E12D5C65EDF4C4229F037176B73DC6B819, ___sunLight_4)); }
-	inline Light_tFDE490EADBC7E080F74CA804929513AF07C31A6C * get_sunLight_4() const { return ___sunLight_4; }
-	inline Light_tFDE490EADBC7E080F74CA804929513AF07C31A6C ** get_address_of_sunLight_4() { return &___sunLight_4; }
-	inline void set_sunLight_4(Light_tFDE490EADBC7E080F74CA804929513AF07C31A6C * value)
+	inline IDatagramSocket_t848EE6700A7594CBABF900E1A2EDA9CA16BBC69C* get_____idatagramSocket_t848EE6700A7594CBABF900E1A2EDA9CA16BBC69C()
 	{
-		___sunLight_4 = value;
-		Il2CppCodeGenWriteBarrier((&___sunLight_4), value);
-	}
+		IDatagramSocket_t848EE6700A7594CBABF900E1A2EDA9CA16BBC69C* returnValue = ____idatagramSocket_t848EE6700A7594CBABF900E1A2EDA9CA16BBC69C;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IDatagramSocket_t848EE6700A7594CBABF900E1A2EDA9CA16BBC69C::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
 
-	inline static int32_t get_offset_of_minHeight_5() { return static_cast<int32_t>(offsetof(DynamicShadowSettings_tC19A73E12D5C65EDF4C4229F037176B73DC6B819, ___minHeight_5)); }
-	inline float get_minHeight_5() const { return ___minHeight_5; }
-	inline float* get_address_of_minHeight_5() { return &___minHeight_5; }
-	inline void set_minHeight_5(float value)
-	{
-		___minHeight_5 = value;
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IDatagramSocket_t848EE6700A7594CBABF900E1A2EDA9CA16BBC69C>((&____idatagramSocket_t848EE6700A7594CBABF900E1A2EDA9CA16BBC69C), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____idatagramSocket_t848EE6700A7594CBABF900E1A2EDA9CA16BBC69C;
+			}
+		}
+		return returnValue;
 	}
 
-	inline static int32_t get_offset_of_minShadowDistance_6() { return static_cast<int32_t>(offsetof(DynamicShadowSettings_tC19A73E12D5C65EDF4C4229F037176B73DC6B819, ___minShadowDistance_6)); }
-	inline float get_minShadowDistance_6() const { return ___minShadowDistance_6; }
-	inline float* get_address_of_minShadowDistance_6() { return &___minShadowDistance_6; }
-	inline void set_minShadowDistance_6(float value)
+	inline IDatagramSocket2_t9B6F3932780D35065730ED075C569F2EC63971CB* get_____idatagramSocket2_t9B6F3932780D35065730ED075C569F2EC63971CB()
 	{
-		___minShadowDistance_6 = value;
-	}
+		IDatagramSocket2_t9B6F3932780D35065730ED075C569F2EC63971CB* returnValue = ____idatagramSocket2_t9B6F3932780D35065730ED075C569F2EC63971CB;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IDatagramSocket2_t9B6F3932780D35065730ED075C569F2EC63971CB::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
 
-	inline static int32_t get_offset_of_minShadowBias_7() { return static_cast<int32_t>(offsetof(DynamicShadowSettings_tC19A73E12D5C65EDF4C4229F037176B73DC6B819, ___minShadowBias_7)); }
-	inline float get_minShadowBias_7() const { return ___minShadowBias_7; }
-	inline float* get_address_of_minShadowBias_7() { return &___minShadowBias_7; }
-	inline void set_minShadowBias_7(float value)
-	{
-		___minShadowBias_7 = value;
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IDatagramSocket2_t9B6F3932780D35065730ED075C569F2EC63971CB>((&____idatagramSocket2_t9B6F3932780D35065730ED075C569F2EC63971CB), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____idatagramSocket2_t9B6F3932780D35065730ED075C569F2EC63971CB;
+			}
+		}
+		return returnValue;
 	}
 
-	inline static int32_t get_offset_of_maxHeight_8() { return static_cast<int32_t>(offsetof(DynamicShadowSettings_tC19A73E12D5C65EDF4C4229F037176B73DC6B819, ___maxHeight_8)); }
-	inline float get_maxHeight_8() const { return ___maxHeight_8; }
-	inline float* get_address_of_maxHeight_8() { return &___maxHeight_8; }
-	inline void set_maxHeight_8(float value)
+	inline IDatagramSocket3_tC850609CA66B2414F6A6177A72803BF4F2A3660D* get_____idatagramSocket3_tC850609CA66B2414F6A6177A72803BF4F2A3660D()
 	{
-		___maxHeight_8 = value;
-	}
+		IDatagramSocket3_tC850609CA66B2414F6A6177A72803BF4F2A3660D* returnValue = ____idatagramSocket3_tC850609CA66B2414F6A6177A72803BF4F2A3660D;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IDatagramSocket3_tC850609CA66B2414F6A6177A72803BF4F2A3660D::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
 
-	inline static int32_t get_offset_of_maxShadowDistance_9() { return static_cast<int32_t>(offsetof(DynamicShadowSettings_tC19A73E12D5C65EDF4C4229F037176B73DC6B819, ___maxShadowDistance_9)); }
-	inline float get_maxShadowDistance_9() const { return ___maxShadowDistance_9; }
-	inline float* get_address_of_maxShadowDistance_9() { return &___maxShadowDistance_9; }
-	inline void set_maxShadowDistance_9(float value)
-	{
-		___maxShadowDistance_9 = value;
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IDatagramSocket3_tC850609CA66B2414F6A6177A72803BF4F2A3660D>((&____idatagramSocket3_tC850609CA66B2414F6A6177A72803BF4F2A3660D), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____idatagramSocket3_tC850609CA66B2414F6A6177A72803BF4F2A3660D;
+			}
+		}
+		return returnValue;
 	}
 
-	inline static int32_t get_offset_of_maxShadowBias_10() { return static_cast<int32_t>(offsetof(DynamicShadowSettings_tC19A73E12D5C65EDF4C4229F037176B73DC6B819, ___maxShadowBias_10)); }
-	inline float get_maxShadowBias_10() const { return ___maxShadowBias_10; }
-	inline float* get_address_of_maxShadowBias_10() { return &___maxShadowBias_10; }
-	inline void set_maxShadowBias_10(float value)
+	inline IClosable_t5808AF951019E4388C66F7A88AC569F52F581167* get_____iclosable_t5808AF951019E4388C66F7A88AC569F52F581167()
 	{
-		___maxShadowBias_10 = value;
-	}
+		IClosable_t5808AF951019E4388C66F7A88AC569F52F581167* returnValue = ____iclosable_t5808AF951019E4388C66F7A88AC569F52F581167;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IClosable_t5808AF951019E4388C66F7A88AC569F52F581167::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
 
-	inline static int32_t get_offset_of_adaptTime_11() { return static_cast<int32_t>(offsetof(DynamicShadowSettings_tC19A73E12D5C65EDF4C4229F037176B73DC6B819, ___adaptTime_11)); }
-	inline float get_adaptTime_11() const { return ___adaptTime_11; }
-	inline float* get_address_of_adaptTime_11() { return &___adaptTime_11; }
-	inline void set_adaptTime_11(float value)
-	{
-		___adaptTime_11 = value;
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IClosable_t5808AF951019E4388C66F7A88AC569F52F581167>((&____iclosable_t5808AF951019E4388C66F7A88AC569F52F581167), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____iclosable_t5808AF951019E4388C66F7A88AC569F52F581167;
+			}
+		}
+		return returnValue;
 	}
+};
 
-	inline static int32_t get_offset_of_m_SmoothHeight_12() { return static_cast<int32_t>(offsetof(DynamicShadowSettings_tC19A73E12D5C65EDF4C4229F037176B73DC6B819, ___m_SmoothHeight_12)); }
-	inline float get_m_SmoothHeight_12() const { return ___m_SmoothHeight_12; }
-	inline float* get_address_of_m_SmoothHeight_12() { return &___m_SmoothHeight_12; }
-	inline void set_m_SmoothHeight_12(float value)
-	{
-		___m_SmoothHeight_12 = value;
-	}
+struct DatagramSocket_t6F2D811AC1E3705DA96D6972DA4D6BA0A96B2C78_StaticFields
+{
+public:
+	// Cached pointer to IActivationFactory
+	Il2CppIActivationFactory* activationFactory;
+	// Cached pointer to Windows.Networking.Sockets.IDatagramSocketStatics
+	IDatagramSocketStatics_t5405037877878A8B44286DAA57B9410B9E5A1306* ____idatagramSocketStatics_t5405037877878A8B44286DAA57B9410B9E5A1306;
 
-	inline static int32_t get_offset_of_m_ChangeSpeed_13() { return static_cast<int32_t>(offsetof(DynamicShadowSettings_tC19A73E12D5C65EDF4C4229F037176B73DC6B819, ___m_ChangeSpeed_13)); }
-	inline float get_m_ChangeSpeed_13() const { return ___m_ChangeSpeed_13; }
-	inline float* get_address_of_m_ChangeSpeed_13() { return &___m_ChangeSpeed_13; }
-	inline void set_m_ChangeSpeed_13(float value)
+public:
+	inline Il2CppIActivationFactory* get_activationFactory()
 	{
-		___m_ChangeSpeed_13 = value;
+		Il2CppIActivationFactory* returnValue = activationFactory;
+		if (returnValue == NULL)
+		{
+			il2cpp::utils::StringView<Il2CppNativeChar> className(IL2CPP_NATIVE_STRING("Windows.Networking.Sockets.DatagramSocket"));
+			returnValue = il2cpp_codegen_windows_runtime_get_activation_factory(className);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<Il2CppIActivationFactory>((&activationFactory), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = activationFactory;
+			}
+		}
+		return returnValue;
 	}
 
-	inline static int32_t get_offset_of_m_OriginalStrength_14() { return static_cast<int32_t>(offsetof(DynamicShadowSettings_tC19A73E12D5C65EDF4C4229F037176B73DC6B819, ___m_OriginalStrength_14)); }
-	inline float get_m_OriginalStrength_14() const { return ___m_OriginalStrength_14; }
-	inline float* get_address_of_m_OriginalStrength_14() { return &___m_OriginalStrength_14; }
-	inline void set_m_OriginalStrength_14(float value)
+	inline IDatagramSocketStatics_t5405037877878A8B44286DAA57B9410B9E5A1306* get_____idatagramSocketStatics_t5405037877878A8B44286DAA57B9410B9E5A1306()
 	{
-		___m_OriginalStrength_14 = value;
+		IDatagramSocketStatics_t5405037877878A8B44286DAA57B9410B9E5A1306* returnValue = ____idatagramSocketStatics_t5405037877878A8B44286DAA57B9410B9E5A1306;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = get_activationFactory()->QueryInterface(IDatagramSocketStatics_t5405037877878A8B44286DAA57B9410B9E5A1306::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IDatagramSocketStatics_t5405037877878A8B44286DAA57B9410B9E5A1306>((&____idatagramSocketStatics_t5405037877878A8B44286DAA57B9410B9E5A1306), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____idatagramSocketStatics_t5405037877878A8B44286DAA57B9410B9E5A1306;
+			}
+		}
+		return returnValue;
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // DYNAMICSHADOWSETTINGS_TC19A73E12D5C65EDF4C4229F037176B73DC6B819_H
-#ifndef FPSCOUNTER_TBC9E1AF914C13C7EC521697E94D53B0DCE5CF598_H
-#define FPSCOUNTER_TBC9E1AF914C13C7EC521697E94D53B0DCE5CF598_H
+#endif // DATAGRAMSOCKET_T6F2D811AC1E3705DA96D6972DA4D6BA0A96B2C78_H
+// Windows.Storage.Streams.IInputStream
+struct NOVTABLE IInputStream_t9A06904D0534FEFA9174E580FCA59EDA460E6C6E : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IInputStream_ReadAsync_m56EEF3A4C12B6B9AEC2A13394152DAD7C4BC5CD7(IBuffer_t138DC3231208360495113BAD65F24878902627D0* ___buffer0, uint32_t ___count1, uint32_t ___options2, IAsyncOperationWithProgress_2_tFB6EC2AD6676686963A305CC5FB2C2F273BBB5F8** comReturnValue) = 0;
+};
+#ifndef MEDIAFRAMESOURCEINFO_TE86F622882F703CDC5C74582BB85F69BABC54180_H
+#define MEDIAFRAMESOURCEINFO_TE86F622882F703CDC5C74582BB85F69BABC54180_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityStandardAssets.Utility.FPSCounter
-struct  FPSCounter_tBC9E1AF914C13C7EC521697E94D53B0DCE5CF598  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
+// Windows.Media.Capture.Frames.MediaFrameSourceInfo
+struct  MediaFrameSourceInfo_tE86F622882F703CDC5C74582BB85F69BABC54180  : public Il2CppComObject
 {
 public:
-	// System.Int32 UnityStandardAssets.Utility.FPSCounter::m_FpsAccumulator
-	int32_t ___m_FpsAccumulator_5;
-	// System.Single UnityStandardAssets.Utility.FPSCounter::m_FpsNextPeriod
-	float ___m_FpsNextPeriod_6;
-	// System.Int32 UnityStandardAssets.Utility.FPSCounter::m_CurrentFps
-	int32_t ___m_CurrentFps_7;
-	// UnityEngine.UI.Text UnityStandardAssets.Utility.FPSCounter::m_Text
-	Text_tE9317B57477F4B50AA4C16F460DE6F82DAD6D030 * ___m_Text_9;
+	// Cached pointer to Windows.Media.Capture.Frames.IMediaFrameSourceInfo
+	IMediaFrameSourceInfo_t692F99DEA8E8FA2CCFC018711951A0BED5EFD0CA* ____imediaFrameSourceInfo_t692F99DEA8E8FA2CCFC018711951A0BED5EFD0CA;
+	// Cached pointer to Windows.Media.Capture.Frames.IMediaFrameSourceInfo2
+	IMediaFrameSourceInfo2_t9A1686B492F6D1620472F90E1FC9F6D0D455BF06* ____imediaFrameSourceInfo2_t9A1686B492F6D1620472F90E1FC9F6D0D455BF06;
 
 public:
-	inline static int32_t get_offset_of_m_FpsAccumulator_5() { return static_cast<int32_t>(offsetof(FPSCounter_tBC9E1AF914C13C7EC521697E94D53B0DCE5CF598, ___m_FpsAccumulator_5)); }
-	inline int32_t get_m_FpsAccumulator_5() const { return ___m_FpsAccumulator_5; }
-	inline int32_t* get_address_of_m_FpsAccumulator_5() { return &___m_FpsAccumulator_5; }
-	inline void set_m_FpsAccumulator_5(int32_t value)
+	inline IMediaFrameSourceInfo_t692F99DEA8E8FA2CCFC018711951A0BED5EFD0CA* get_____imediaFrameSourceInfo_t692F99DEA8E8FA2CCFC018711951A0BED5EFD0CA()
 	{
-		___m_FpsAccumulator_5 = value;
-	}
+		IMediaFrameSourceInfo_t692F99DEA8E8FA2CCFC018711951A0BED5EFD0CA* returnValue = ____imediaFrameSourceInfo_t692F99DEA8E8FA2CCFC018711951A0BED5EFD0CA;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IMediaFrameSourceInfo_t692F99DEA8E8FA2CCFC018711951A0BED5EFD0CA::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
 
-	inline static int32_t get_offset_of_m_FpsNextPeriod_6() { return static_cast<int32_t>(offsetof(FPSCounter_tBC9E1AF914C13C7EC521697E94D53B0DCE5CF598, ___m_FpsNextPeriod_6)); }
-	inline float get_m_FpsNextPeriod_6() const { return ___m_FpsNextPeriod_6; }
-	inline float* get_address_of_m_FpsNextPeriod_6() { return &___m_FpsNextPeriod_6; }
-	inline void set_m_FpsNextPeriod_6(float value)
-	{
-		___m_FpsNextPeriod_6 = value;
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IMediaFrameSourceInfo_t692F99DEA8E8FA2CCFC018711951A0BED5EFD0CA>((&____imediaFrameSourceInfo_t692F99DEA8E8FA2CCFC018711951A0BED5EFD0CA), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____imediaFrameSourceInfo_t692F99DEA8E8FA2CCFC018711951A0BED5EFD0CA;
+			}
+		}
+		return returnValue;
 	}
 
-	inline static int32_t get_offset_of_m_CurrentFps_7() { return static_cast<int32_t>(offsetof(FPSCounter_tBC9E1AF914C13C7EC521697E94D53B0DCE5CF598, ___m_CurrentFps_7)); }
-	inline int32_t get_m_CurrentFps_7() const { return ___m_CurrentFps_7; }
-	inline int32_t* get_address_of_m_CurrentFps_7() { return &___m_CurrentFps_7; }
-	inline void set_m_CurrentFps_7(int32_t value)
+	inline IMediaFrameSourceInfo2_t9A1686B492F6D1620472F90E1FC9F6D0D455BF06* get_____imediaFrameSourceInfo2_t9A1686B492F6D1620472F90E1FC9F6D0D455BF06()
 	{
-		___m_CurrentFps_7 = value;
-	}
+		IMediaFrameSourceInfo2_t9A1686B492F6D1620472F90E1FC9F6D0D455BF06* returnValue = ____imediaFrameSourceInfo2_t9A1686B492F6D1620472F90E1FC9F6D0D455BF06;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IMediaFrameSourceInfo2_t9A1686B492F6D1620472F90E1FC9F6D0D455BF06::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
 
-	inline static int32_t get_offset_of_m_Text_9() { return static_cast<int32_t>(offsetof(FPSCounter_tBC9E1AF914C13C7EC521697E94D53B0DCE5CF598, ___m_Text_9)); }
-	inline Text_tE9317B57477F4B50AA4C16F460DE6F82DAD6D030 * get_m_Text_9() const { return ___m_Text_9; }
-	inline Text_tE9317B57477F4B50AA4C16F460DE6F82DAD6D030 ** get_address_of_m_Text_9() { return &___m_Text_9; }
-	inline void set_m_Text_9(Text_tE9317B57477F4B50AA4C16F460DE6F82DAD6D030 * value)
-	{
-		___m_Text_9 = value;
-		Il2CppCodeGenWriteBarrier((&___m_Text_9), value);
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IMediaFrameSourceInfo2_t9A1686B492F6D1620472F90E1FC9F6D0D455BF06>((&____imediaFrameSourceInfo2_t9A1686B492F6D1620472F90E1FC9F6D0D455BF06), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____imediaFrameSourceInfo2_t9A1686B492F6D1620472F90E1FC9F6D0D455BF06;
+			}
+		}
+		return returnValue;
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // FPSCOUNTER_TBC9E1AF914C13C7EC521697E94D53B0DCE5CF598_H
-#ifndef FOLLOWTARGET_T16A3ED322B3D2F4070743A76D701B2C1BA818207_H
-#define FOLLOWTARGET_T16A3ED322B3D2F4070743A76D701B2C1BA818207_H
+#endif // MEDIAFRAMESOURCEINFO_TE86F622882F703CDC5C74582BB85F69BABC54180_H
+#ifndef MEDIACAPTURE_T9943184E78F5E7BEE77F2169A0C554B47A74C8A4_H
+#define MEDIACAPTURE_T9943184E78F5E7BEE77F2169A0C554B47A74C8A4_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityStandardAssets.Utility.FollowTarget
-struct  FollowTarget_t16A3ED322B3D2F4070743A76D701B2C1BA818207  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
+// Windows.Media.Capture.MediaCapture
+struct  MediaCapture_t9943184E78F5E7BEE77F2169A0C554B47A74C8A4  : public Il2CppComObject
 {
 public:
-	// UnityEngine.Transform UnityStandardAssets.Utility.FollowTarget::target
-	Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * ___target_4;
-	// UnityEngine.Vector3 UnityStandardAssets.Utility.FollowTarget::offset
-	Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___offset_5;
+	// Cached pointer to Windows.Media.Capture.IMediaCapture
+	IMediaCapture_t9123705D66590255587AAC3E4ED82ECE2767205B* ____imediaCapture_t9123705D66590255587AAC3E4ED82ECE2767205B;
+	// Cached pointer to Windows.Media.Capture.IMediaCaptureVideoPreview
+	IMediaCaptureVideoPreview_t9226A4AA5FCD778BA9439FF047B95A86ED32B3AB* ____imediaCaptureVideoPreview_t9226A4AA5FCD778BA9439FF047B95A86ED32B3AB;
+	// Cached pointer to Windows.Media.Capture.IMediaCapture2
+	IMediaCapture2_t68DE29AAFCE92011689D3D15EE28AAAF9F46F1C2* ____imediaCapture2_t68DE29AAFCE92011689D3D15EE28AAAF9F46F1C2;
+	// Cached pointer to Windows.Media.Capture.IMediaCapture3
+	IMediaCapture3_t016C6386E44A19033700DBDFCE814747EE5CB351* ____imediaCapture3_t016C6386E44A19033700DBDFCE814747EE5CB351;
+	// Cached pointer to Windows.Media.Capture.IMediaCapture4
+	IMediaCapture4_tF72CFA3080F25AEA976608EBBA0F66019F3B697B* ____imediaCapture4_tF72CFA3080F25AEA976608EBBA0F66019F3B697B;
+	// Cached pointer to Windows.Media.Capture.IMediaCapture5
+	IMediaCapture5_t27428D8E8E521422152B4F1A2E17E445B56EF2E2* ____imediaCapture5_t27428D8E8E521422152B4F1A2E17E445B56EF2E2;
+	// Cached pointer to Windows.Media.Capture.IMediaCapture6
+	IMediaCapture6_tD6E451C596042EC9DEFB6A9410427AB2F1A81382* ____imediaCapture6_tD6E451C596042EC9DEFB6A9410427AB2F1A81382;
+	// Cached pointer to Windows.Foundation.IClosable
+	IClosable_t5808AF951019E4388C66F7A88AC569F52F581167* ____iclosable_t5808AF951019E4388C66F7A88AC569F52F581167;
 
 public:
-	inline static int32_t get_offset_of_target_4() { return static_cast<int32_t>(offsetof(FollowTarget_t16A3ED322B3D2F4070743A76D701B2C1BA818207, ___target_4)); }
-	inline Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * get_target_4() const { return ___target_4; }
-	inline Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA ** get_address_of_target_4() { return &___target_4; }
-	inline void set_target_4(Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * value)
+	inline IMediaCapture_t9123705D66590255587AAC3E4ED82ECE2767205B* get_____imediaCapture_t9123705D66590255587AAC3E4ED82ECE2767205B()
 	{
-		___target_4 = value;
-		Il2CppCodeGenWriteBarrier((&___target_4), value);
+		IMediaCapture_t9123705D66590255587AAC3E4ED82ECE2767205B* returnValue = ____imediaCapture_t9123705D66590255587AAC3E4ED82ECE2767205B;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IMediaCapture_t9123705D66590255587AAC3E4ED82ECE2767205B::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IMediaCapture_t9123705D66590255587AAC3E4ED82ECE2767205B>((&____imediaCapture_t9123705D66590255587AAC3E4ED82ECE2767205B), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____imediaCapture_t9123705D66590255587AAC3E4ED82ECE2767205B;
+			}
+		}
+		return returnValue;
 	}
 
-	inline static int32_t get_offset_of_offset_5() { return static_cast<int32_t>(offsetof(FollowTarget_t16A3ED322B3D2F4070743A76D701B2C1BA818207, ___offset_5)); }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  get_offset_5() const { return ___offset_5; }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * get_address_of_offset_5() { return &___offset_5; }
-	inline void set_offset_5(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  value)
+	inline IMediaCaptureVideoPreview_t9226A4AA5FCD778BA9439FF047B95A86ED32B3AB* get_____imediaCaptureVideoPreview_t9226A4AA5FCD778BA9439FF047B95A86ED32B3AB()
 	{
-		___offset_5 = value;
+		IMediaCaptureVideoPreview_t9226A4AA5FCD778BA9439FF047B95A86ED32B3AB* returnValue = ____imediaCaptureVideoPreview_t9226A4AA5FCD778BA9439FF047B95A86ED32B3AB;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IMediaCaptureVideoPreview_t9226A4AA5FCD778BA9439FF047B95A86ED32B3AB::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IMediaCaptureVideoPreview_t9226A4AA5FCD778BA9439FF047B95A86ED32B3AB>((&____imediaCaptureVideoPreview_t9226A4AA5FCD778BA9439FF047B95A86ED32B3AB), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____imediaCaptureVideoPreview_t9226A4AA5FCD778BA9439FF047B95A86ED32B3AB;
+			}
+		}
+		return returnValue;
 	}
-};
 
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // FOLLOWTARGET_T16A3ED322B3D2F4070743A76D701B2C1BA818207_H
-#ifndef VERSIONS_T5D3FA6D1214ABD061112BAFD928AD221D5604149_H
-#define VERSIONS_T5D3FA6D1214ABD061112BAFD928AD221D5604149_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
+	inline IMediaCapture2_t68DE29AAFCE92011689D3D15EE28AAAF9F46F1C2* get_____imediaCapture2_t68DE29AAFCE92011689D3D15EE28AAAF9F46F1C2()
+	{
+		IMediaCapture2_t68DE29AAFCE92011689D3D15EE28AAAF9F46F1C2* returnValue = ____imediaCapture2_t68DE29AAFCE92011689D3D15EE28AAAF9F46F1C2;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IMediaCapture2_t68DE29AAFCE92011689D3D15EE28AAAF9F46F1C2::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
 
-// Versions
-struct  Versions_t5D3FA6D1214ABD061112BAFD928AD221D5604149  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
-{
-public:
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IMediaCapture2_t68DE29AAFCE92011689D3D15EE28AAAF9F46F1C2>((&____imediaCapture2_t68DE29AAFCE92011689D3D15EE28AAAF9F46F1C2), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____imediaCapture2_t68DE29AAFCE92011689D3D15EE28AAAF9F46F1C2;
+			}
+		}
+		return returnValue;
+	}
 
-public:
-};
+	inline IMediaCapture3_t016C6386E44A19033700DBDFCE814747EE5CB351* get_____imediaCapture3_t016C6386E44A19033700DBDFCE814747EE5CB351()
+	{
+		IMediaCapture3_t016C6386E44A19033700DBDFCE814747EE5CB351* returnValue = ____imediaCapture3_t016C6386E44A19033700DBDFCE814747EE5CB351;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IMediaCapture3_t016C6386E44A19033700DBDFCE814747EE5CB351::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
 
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // VERSIONS_T5D3FA6D1214ABD061112BAFD928AD221D5604149_H
-#ifndef VIRTUALKEYCONTROLLER_T3303962BF9975D85DF975B8EC6D1DB1D5E3DA076_H
-#define VIRTUALKEYCONTROLLER_T3303962BF9975D85DF975B8EC6D1DB1D5E3DA076_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IMediaCapture3_t016C6386E44A19033700DBDFCE814747EE5CB351>((&____imediaCapture3_t016C6386E44A19033700DBDFCE814747EE5CB351), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____imediaCapture3_t016C6386E44A19033700DBDFCE814747EE5CB351;
+			}
+		}
+		return returnValue;
+	}
+
+	inline IMediaCapture4_tF72CFA3080F25AEA976608EBBA0F66019F3B697B* get_____imediaCapture4_tF72CFA3080F25AEA976608EBBA0F66019F3B697B()
+	{
+		IMediaCapture4_tF72CFA3080F25AEA976608EBBA0F66019F3B697B* returnValue = ____imediaCapture4_tF72CFA3080F25AEA976608EBBA0F66019F3B697B;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IMediaCapture4_tF72CFA3080F25AEA976608EBBA0F66019F3B697B::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IMediaCapture4_tF72CFA3080F25AEA976608EBBA0F66019F3B697B>((&____imediaCapture4_tF72CFA3080F25AEA976608EBBA0F66019F3B697B), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____imediaCapture4_tF72CFA3080F25AEA976608EBBA0F66019F3B697B;
+			}
+		}
+		return returnValue;
+	}
+
+	inline IMediaCapture5_t27428D8E8E521422152B4F1A2E17E445B56EF2E2* get_____imediaCapture5_t27428D8E8E521422152B4F1A2E17E445B56EF2E2()
+	{
+		IMediaCapture5_t27428D8E8E521422152B4F1A2E17E445B56EF2E2* returnValue = ____imediaCapture5_t27428D8E8E521422152B4F1A2E17E445B56EF2E2;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IMediaCapture5_t27428D8E8E521422152B4F1A2E17E445B56EF2E2::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IMediaCapture5_t27428D8E8E521422152B4F1A2E17E445B56EF2E2>((&____imediaCapture5_t27428D8E8E521422152B4F1A2E17E445B56EF2E2), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____imediaCapture5_t27428D8E8E521422152B4F1A2E17E445B56EF2E2;
+			}
+		}
+		return returnValue;
+	}
 
-// VirtualKeyController
-struct  VirtualKeyController_t3303962BF9975D85DF975B8EC6D1DB1D5E3DA076  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
+	inline IMediaCapture6_tD6E451C596042EC9DEFB6A9410427AB2F1A81382* get_____imediaCapture6_tD6E451C596042EC9DEFB6A9410427AB2F1A81382()
+	{
+		IMediaCapture6_tD6E451C596042EC9DEFB6A9410427AB2F1A81382* returnValue = ____imediaCapture6_tD6E451C596042EC9DEFB6A9410427AB2F1A81382;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IMediaCapture6_tD6E451C596042EC9DEFB6A9410427AB2F1A81382::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IMediaCapture6_tD6E451C596042EC9DEFB6A9410427AB2F1A81382>((&____imediaCapture6_tD6E451C596042EC9DEFB6A9410427AB2F1A81382), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____imediaCapture6_tD6E451C596042EC9DEFB6A9410427AB2F1A81382;
+			}
+		}
+		return returnValue;
+	}
+
+	inline IClosable_t5808AF951019E4388C66F7A88AC569F52F581167* get_____iclosable_t5808AF951019E4388C66F7A88AC569F52F581167()
+	{
+		IClosable_t5808AF951019E4388C66F7A88AC569F52F581167* returnValue = ____iclosable_t5808AF951019E4388C66F7A88AC569F52F581167;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IClosable_t5808AF951019E4388C66F7A88AC569F52F581167::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IClosable_t5808AF951019E4388C66F7A88AC569F52F581167>((&____iclosable_t5808AF951019E4388C66F7A88AC569F52F581167), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____iclosable_t5808AF951019E4388C66F7A88AC569F52F581167;
+			}
+		}
+		return returnValue;
+	}
+};
+
+struct MediaCapture_t9943184E78F5E7BEE77F2169A0C554B47A74C8A4_StaticFields
 {
 public:
-	// System.Single VirtualKeyController::Keyspeed
-	float ___Keyspeed_4;
+	// Cached pointer to IActivationFactory
+	Il2CppIActivationFactory* activationFactory;
+	// Cached pointer to Windows.Media.Capture.IMediaCaptureStatics
+	IMediaCaptureStatics_t42BE19EC13C73A4C538171B7388D79D4452ED1C8* ____imediaCaptureStatics_t42BE19EC13C73A4C538171B7388D79D4452ED1C8;
 
 public:
-	inline static int32_t get_offset_of_Keyspeed_4() { return static_cast<int32_t>(offsetof(VirtualKeyController_t3303962BF9975D85DF975B8EC6D1DB1D5E3DA076, ___Keyspeed_4)); }
-	inline float get_Keyspeed_4() const { return ___Keyspeed_4; }
-	inline float* get_address_of_Keyspeed_4() { return &___Keyspeed_4; }
-	inline void set_Keyspeed_4(float value)
+	inline Il2CppIActivationFactory* get_activationFactory()
+	{
+		Il2CppIActivationFactory* returnValue = activationFactory;
+		if (returnValue == NULL)
+		{
+			il2cpp::utils::StringView<Il2CppNativeChar> className(IL2CPP_NATIVE_STRING("Windows.Media.Capture.MediaCapture"));
+			returnValue = il2cpp_codegen_windows_runtime_get_activation_factory(className);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<Il2CppIActivationFactory>((&activationFactory), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = activationFactory;
+			}
+		}
+		return returnValue;
+	}
+
+	inline IMediaCaptureStatics_t42BE19EC13C73A4C538171B7388D79D4452ED1C8* get_____imediaCaptureStatics_t42BE19EC13C73A4C538171B7388D79D4452ED1C8()
 	{
-		___Keyspeed_4 = value;
+		IMediaCaptureStatics_t42BE19EC13C73A4C538171B7388D79D4452ED1C8* returnValue = ____imediaCaptureStatics_t42BE19EC13C73A4C538171B7388D79D4452ED1C8;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = get_activationFactory()->QueryInterface(IMediaCaptureStatics_t42BE19EC13C73A4C538171B7388D79D4452ED1C8::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IMediaCaptureStatics_t42BE19EC13C73A4C538171B7388D79D4452ED1C8>((&____imediaCaptureStatics_t42BE19EC13C73A4C538171B7388D79D4452ED1C8), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____imediaCaptureStatics_t42BE19EC13C73A4C538171B7388D79D4452ED1C8;
+			}
+		}
+		return returnValue;
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // VIRTUALKEYCONTROLLER_T3303962BF9975D85DF975B8EC6D1DB1D5E3DA076_H
-#ifndef VOICECOMMANDS_TA60059AD288209E85CD3E2F35DDDB8265359A555_H
-#define VOICECOMMANDS_TA60059AD288209E85CD3E2F35DDDB8265359A555_H
+#endif // MEDIACAPTURE_T9943184E78F5E7BEE77F2169A0C554B47A74C8A4_H
+#ifndef MEDIACAPTUREINITIALIZATIONSETTINGS_T86219F0A1AD1FE0B87F0403C7BEAF2B8428AA1B1_H
+#define MEDIACAPTUREINITIALIZATIONSETTINGS_T86219F0A1AD1FE0B87F0403C7BEAF2B8428AA1B1_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// VoiceCommands
-struct  VoiceCommands_tA60059AD288209E85CD3E2F35DDDB8265359A555  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
+// Windows.Media.Capture.MediaCaptureInitializationSettings
+struct  MediaCaptureInitializationSettings_t86219F0A1AD1FE0B87F0403C7BEAF2B8428AA1B1  : public Il2CppComObject
 {
 public:
-	// System.Collections.Generic.Dictionary`2<System.String,System.Action> VoiceCommands::keywords
-	Dictionary_2_t8B6634B584453750D056334B3141E31F88DD5F5C * ___keywords_4;
-	// UnityEngine.Windows.Speech.KeywordRecognizer VoiceCommands::m_KeywordRecognizer
-	KeywordRecognizer_t8F0A26BBF11FE0307328C06B4A9EB4268386578C * ___m_KeywordRecognizer_5;
-	// UnityEngine.CanvasGroup VoiceCommands::m_CanvasGroup
-	CanvasGroup_tE2C664C60990D1DCCEE0CC6545CC3E80369C7F90 * ___m_CanvasGroup_6;
-	// UnityEngine.UI.Text VoiceCommands::m_VoiceKeywordText
-	Text_tE9317B57477F4B50AA4C16F460DE6F82DAD6D030 * ___m_VoiceKeywordText_7;
-	// UnityEngine.Animator VoiceCommands::m_VoiceKeywordAnimator
-	Animator_tF1A88E66B3B731DDA75A066DBAE9C55837660F5A * ___m_VoiceKeywordAnimator_8;
-	// UnityEngine.AudioSource VoiceCommands::m_AudioSource
-	AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C * ___m_AudioSource_9;
-	// HelpMenu VoiceCommands::m_HelpMenu
-	HelpMenu_tFA337B11D9CEF46CAA742D7AF0F50CDB4032B59F * ___m_HelpMenu_10;
+	// Cached pointer to Windows.Media.Capture.IMediaCaptureInitializationSettings
+	IMediaCaptureInitializationSettings_t1DE7B3A5620B15183FB009189485AC2A3856B857* ____imediaCaptureInitializationSettings_t1DE7B3A5620B15183FB009189485AC2A3856B857;
+	// Cached pointer to Windows.Media.Capture.IMediaCaptureInitializationSettings2
+	IMediaCaptureInitializationSettings2_t482972210DD8330BF057CA8F290F95CE10C0F508* ____imediaCaptureInitializationSettings2_t482972210DD8330BF057CA8F290F95CE10C0F508;
+	// Cached pointer to Windows.Media.Capture.IMediaCaptureInitializationSettings3
+	IMediaCaptureInitializationSettings3_t579AFF8CFA204E3C76CE38804A1D7EEDCCF2607A* ____imediaCaptureInitializationSettings3_t579AFF8CFA204E3C76CE38804A1D7EEDCCF2607A;
+	// Cached pointer to Windows.Media.Capture.IMediaCaptureInitializationSettings4
+	IMediaCaptureInitializationSettings4_t7137E0773132F892B4C82C7015884CADC5BA5541* ____imediaCaptureInitializationSettings4_t7137E0773132F892B4C82C7015884CADC5BA5541;
+	// Cached pointer to Windows.Media.Capture.IMediaCaptureInitializationSettings5
+	IMediaCaptureInitializationSettings5_tA06528D746752978C624C1F39B8BAF77FB7F6689* ____imediaCaptureInitializationSettings5_tA06528D746752978C624C1F39B8BAF77FB7F6689;
+	// Cached pointer to Windows.Media.Capture.IMediaCaptureInitializationSettings6
+	IMediaCaptureInitializationSettings6_t4690F94C235648E9707EE63997895107C4ACA685* ____imediaCaptureInitializationSettings6_t4690F94C235648E9707EE63997895107C4ACA685;
 
 public:
-	inline static int32_t get_offset_of_keywords_4() { return static_cast<int32_t>(offsetof(VoiceCommands_tA60059AD288209E85CD3E2F35DDDB8265359A555, ___keywords_4)); }
-	inline Dictionary_2_t8B6634B584453750D056334B3141E31F88DD5F5C * get_keywords_4() const { return ___keywords_4; }
-	inline Dictionary_2_t8B6634B584453750D056334B3141E31F88DD5F5C ** get_address_of_keywords_4() { return &___keywords_4; }
-	inline void set_keywords_4(Dictionary_2_t8B6634B584453750D056334B3141E31F88DD5F5C * value)
+	inline IMediaCaptureInitializationSettings_t1DE7B3A5620B15183FB009189485AC2A3856B857* get_____imediaCaptureInitializationSettings_t1DE7B3A5620B15183FB009189485AC2A3856B857()
 	{
-		___keywords_4 = value;
-		Il2CppCodeGenWriteBarrier((&___keywords_4), value);
+		IMediaCaptureInitializationSettings_t1DE7B3A5620B15183FB009189485AC2A3856B857* returnValue = ____imediaCaptureInitializationSettings_t1DE7B3A5620B15183FB009189485AC2A3856B857;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IMediaCaptureInitializationSettings_t1DE7B3A5620B15183FB009189485AC2A3856B857::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IMediaCaptureInitializationSettings_t1DE7B3A5620B15183FB009189485AC2A3856B857>((&____imediaCaptureInitializationSettings_t1DE7B3A5620B15183FB009189485AC2A3856B857), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____imediaCaptureInitializationSettings_t1DE7B3A5620B15183FB009189485AC2A3856B857;
+			}
+		}
+		return returnValue;
 	}
 
-	inline static int32_t get_offset_of_m_KeywordRecognizer_5() { return static_cast<int32_t>(offsetof(VoiceCommands_tA60059AD288209E85CD3E2F35DDDB8265359A555, ___m_KeywordRecognizer_5)); }
-	inline KeywordRecognizer_t8F0A26BBF11FE0307328C06B4A9EB4268386578C * get_m_KeywordRecognizer_5() const { return ___m_KeywordRecognizer_5; }
-	inline KeywordRecognizer_t8F0A26BBF11FE0307328C06B4A9EB4268386578C ** get_address_of_m_KeywordRecognizer_5() { return &___m_KeywordRecognizer_5; }
-	inline void set_m_KeywordRecognizer_5(KeywordRecognizer_t8F0A26BBF11FE0307328C06B4A9EB4268386578C * value)
+	inline IMediaCaptureInitializationSettings2_t482972210DD8330BF057CA8F290F95CE10C0F508* get_____imediaCaptureInitializationSettings2_t482972210DD8330BF057CA8F290F95CE10C0F508()
 	{
-		___m_KeywordRecognizer_5 = value;
-		Il2CppCodeGenWriteBarrier((&___m_KeywordRecognizer_5), value);
+		IMediaCaptureInitializationSettings2_t482972210DD8330BF057CA8F290F95CE10C0F508* returnValue = ____imediaCaptureInitializationSettings2_t482972210DD8330BF057CA8F290F95CE10C0F508;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IMediaCaptureInitializationSettings2_t482972210DD8330BF057CA8F290F95CE10C0F508::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IMediaCaptureInitializationSettings2_t482972210DD8330BF057CA8F290F95CE10C0F508>((&____imediaCaptureInitializationSettings2_t482972210DD8330BF057CA8F290F95CE10C0F508), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____imediaCaptureInitializationSettings2_t482972210DD8330BF057CA8F290F95CE10C0F508;
+			}
+		}
+		return returnValue;
 	}
 
-	inline static int32_t get_offset_of_m_CanvasGroup_6() { return static_cast<int32_t>(offsetof(VoiceCommands_tA60059AD288209E85CD3E2F35DDDB8265359A555, ___m_CanvasGroup_6)); }
-	inline CanvasGroup_tE2C664C60990D1DCCEE0CC6545CC3E80369C7F90 * get_m_CanvasGroup_6() const { return ___m_CanvasGroup_6; }
-	inline CanvasGroup_tE2C664C60990D1DCCEE0CC6545CC3E80369C7F90 ** get_address_of_m_CanvasGroup_6() { return &___m_CanvasGroup_6; }
-	inline void set_m_CanvasGroup_6(CanvasGroup_tE2C664C60990D1DCCEE0CC6545CC3E80369C7F90 * value)
+	inline IMediaCaptureInitializationSettings3_t579AFF8CFA204E3C76CE38804A1D7EEDCCF2607A* get_____imediaCaptureInitializationSettings3_t579AFF8CFA204E3C76CE38804A1D7EEDCCF2607A()
 	{
-		___m_CanvasGroup_6 = value;
-		Il2CppCodeGenWriteBarrier((&___m_CanvasGroup_6), value);
+		IMediaCaptureInitializationSettings3_t579AFF8CFA204E3C76CE38804A1D7EEDCCF2607A* returnValue = ____imediaCaptureInitializationSettings3_t579AFF8CFA204E3C76CE38804A1D7EEDCCF2607A;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IMediaCaptureInitializationSettings3_t579AFF8CFA204E3C76CE38804A1D7EEDCCF2607A::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IMediaCaptureInitializationSettings3_t579AFF8CFA204E3C76CE38804A1D7EEDCCF2607A>((&____imediaCaptureInitializationSettings3_t579AFF8CFA204E3C76CE38804A1D7EEDCCF2607A), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____imediaCaptureInitializationSettings3_t579AFF8CFA204E3C76CE38804A1D7EEDCCF2607A;
+			}
+		}
+		return returnValue;
 	}
 
-	inline static int32_t get_offset_of_m_VoiceKeywordText_7() { return static_cast<int32_t>(offsetof(VoiceCommands_tA60059AD288209E85CD3E2F35DDDB8265359A555, ___m_VoiceKeywordText_7)); }
-	inline Text_tE9317B57477F4B50AA4C16F460DE6F82DAD6D030 * get_m_VoiceKeywordText_7() const { return ___m_VoiceKeywordText_7; }
-	inline Text_tE9317B57477F4B50AA4C16F460DE6F82DAD6D030 ** get_address_of_m_VoiceKeywordText_7() { return &___m_VoiceKeywordText_7; }
-	inline void set_m_VoiceKeywordText_7(Text_tE9317B57477F4B50AA4C16F460DE6F82DAD6D030 * value)
+	inline IMediaCaptureInitializationSettings4_t7137E0773132F892B4C82C7015884CADC5BA5541* get_____imediaCaptureInitializationSettings4_t7137E0773132F892B4C82C7015884CADC5BA5541()
 	{
-		___m_VoiceKeywordText_7 = value;
-		Il2CppCodeGenWriteBarrier((&___m_VoiceKeywordText_7), value);
+		IMediaCaptureInitializationSettings4_t7137E0773132F892B4C82C7015884CADC5BA5541* returnValue = ____imediaCaptureInitializationSettings4_t7137E0773132F892B4C82C7015884CADC5BA5541;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IMediaCaptureInitializationSettings4_t7137E0773132F892B4C82C7015884CADC5BA5541::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IMediaCaptureInitializationSettings4_t7137E0773132F892B4C82C7015884CADC5BA5541>((&____imediaCaptureInitializationSettings4_t7137E0773132F892B4C82C7015884CADC5BA5541), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____imediaCaptureInitializationSettings4_t7137E0773132F892B4C82C7015884CADC5BA5541;
+			}
+		}
+		return returnValue;
 	}
 
-	inline static int32_t get_offset_of_m_VoiceKeywordAnimator_8() { return static_cast<int32_t>(offsetof(VoiceCommands_tA60059AD288209E85CD3E2F35DDDB8265359A555, ___m_VoiceKeywordAnimator_8)); }
-	inline Animator_tF1A88E66B3B731DDA75A066DBAE9C55837660F5A * get_m_VoiceKeywordAnimator_8() const { return ___m_VoiceKeywordAnimator_8; }
-	inline Animator_tF1A88E66B3B731DDA75A066DBAE9C55837660F5A ** get_address_of_m_VoiceKeywordAnimator_8() { return &___m_VoiceKeywordAnimator_8; }
-	inline void set_m_VoiceKeywordAnimator_8(Animator_tF1A88E66B3B731DDA75A066DBAE9C55837660F5A * value)
+	inline IMediaCaptureInitializationSettings5_tA06528D746752978C624C1F39B8BAF77FB7F6689* get_____imediaCaptureInitializationSettings5_tA06528D746752978C624C1F39B8BAF77FB7F6689()
 	{
-		___m_VoiceKeywordAnimator_8 = value;
-		Il2CppCodeGenWriteBarrier((&___m_VoiceKeywordAnimator_8), value);
+		IMediaCaptureInitializationSettings5_tA06528D746752978C624C1F39B8BAF77FB7F6689* returnValue = ____imediaCaptureInitializationSettings5_tA06528D746752978C624C1F39B8BAF77FB7F6689;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IMediaCaptureInitializationSettings5_tA06528D746752978C624C1F39B8BAF77FB7F6689::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IMediaCaptureInitializationSettings5_tA06528D746752978C624C1F39B8BAF77FB7F6689>((&____imediaCaptureInitializationSettings5_tA06528D746752978C624C1F39B8BAF77FB7F6689), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____imediaCaptureInitializationSettings5_tA06528D746752978C624C1F39B8BAF77FB7F6689;
+			}
+		}
+		return returnValue;
 	}
 
-	inline static int32_t get_offset_of_m_AudioSource_9() { return static_cast<int32_t>(offsetof(VoiceCommands_tA60059AD288209E85CD3E2F35DDDB8265359A555, ___m_AudioSource_9)); }
-	inline AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C * get_m_AudioSource_9() const { return ___m_AudioSource_9; }
-	inline AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C ** get_address_of_m_AudioSource_9() { return &___m_AudioSource_9; }
-	inline void set_m_AudioSource_9(AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C * value)
+	inline IMediaCaptureInitializationSettings6_t4690F94C235648E9707EE63997895107C4ACA685* get_____imediaCaptureInitializationSettings6_t4690F94C235648E9707EE63997895107C4ACA685()
 	{
-		___m_AudioSource_9 = value;
-		Il2CppCodeGenWriteBarrier((&___m_AudioSource_9), value);
+		IMediaCaptureInitializationSettings6_t4690F94C235648E9707EE63997895107C4ACA685* returnValue = ____imediaCaptureInitializationSettings6_t4690F94C235648E9707EE63997895107C4ACA685;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IMediaCaptureInitializationSettings6_t4690F94C235648E9707EE63997895107C4ACA685::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IMediaCaptureInitializationSettings6_t4690F94C235648E9707EE63997895107C4ACA685>((&____imediaCaptureInitializationSettings6_t4690F94C235648E9707EE63997895107C4ACA685), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____imediaCaptureInitializationSettings6_t4690F94C235648E9707EE63997895107C4ACA685;
+			}
+		}
+		return returnValue;
 	}
+};
+
+struct MediaCaptureInitializationSettings_t86219F0A1AD1FE0B87F0403C7BEAF2B8428AA1B1_StaticFields
+{
+public:
+	// Cached pointer to IActivationFactory
+	Il2CppIActivationFactory* activationFactory;
 
-	inline static int32_t get_offset_of_m_HelpMenu_10() { return static_cast<int32_t>(offsetof(VoiceCommands_tA60059AD288209E85CD3E2F35DDDB8265359A555, ___m_HelpMenu_10)); }
-	inline HelpMenu_tFA337B11D9CEF46CAA742D7AF0F50CDB4032B59F * get_m_HelpMenu_10() const { return ___m_HelpMenu_10; }
-	inline HelpMenu_tFA337B11D9CEF46CAA742D7AF0F50CDB4032B59F ** get_address_of_m_HelpMenu_10() { return &___m_HelpMenu_10; }
-	inline void set_m_HelpMenu_10(HelpMenu_tFA337B11D9CEF46CAA742D7AF0F50CDB4032B59F * value)
+public:
+	inline Il2CppIActivationFactory* get_activationFactory()
 	{
-		___m_HelpMenu_10 = value;
-		Il2CppCodeGenWriteBarrier((&___m_HelpMenu_10), value);
+		Il2CppIActivationFactory* returnValue = activationFactory;
+		if (returnValue == NULL)
+		{
+			il2cpp::utils::StringView<Il2CppNativeChar> className(IL2CPP_NATIVE_STRING("Windows.Media.Capture.MediaCaptureInitializationSettings"));
+			returnValue = il2cpp_codegen_windows_runtime_get_activation_factory(className);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<Il2CppIActivationFactory>((&activationFactory), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = activationFactory;
+			}
+		}
+		return returnValue;
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // VOICECOMMANDS_TA60059AD288209E85CD3E2F35DDDB8265359A555_H
-#ifndef VUMARKHANDLER_T25B582A1D93CB5EA8B61A5D734598F1C904528EA_H
-#define VUMARKHANDLER_T25B582A1D93CB5EA8B61A5D734598F1C904528EA_H
+#endif // MEDIACAPTUREINITIALIZATIONSETTINGS_T86219F0A1AD1FE0B87F0403C7BEAF2B8428AA1B1_H
+#ifndef AUDIODEVICECONTROLLER_T4D5015A364B92A65D23E3DE7716652DC1B75EDD1_H
+#define AUDIODEVICECONTROLLER_T4D5015A364B92A65D23E3DE7716652DC1B75EDD1_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// VuMarkHandler
-struct  VuMarkHandler_t25B582A1D93CB5EA8B61A5D734598F1C904528EA  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
+// Windows.Media.Devices.AudioDeviceController
+struct  AudioDeviceController_t4D5015A364B92A65D23E3DE7716652DC1B75EDD1  : public Il2CppComObject
 {
 public:
-	// Vuforia.VuMarkManager VuMarkHandler::vumarkManager
-	VuMarkManager_tD0288834C61D3F733AD8E4E98FE9C5DED6AC56F9 * ___vumarkManager_5;
-	// UnityEngine.LineRenderer VuMarkHandler::lineRenderer
-	LineRenderer_tD225C480F28F28A4D737866474F21001B803B7C3 * ___lineRenderer_6;
-	// System.Collections.Generic.Dictionary`2<System.String,UnityEngine.Texture2D> VuMarkHandler::vumarkInstanceTextures
-	Dictionary_2_tD350AEA8AC2B301F07514C565500EDDFB0DD44CC * ___vumarkInstanceTextures_7;
-	// System.Collections.Generic.Dictionary`2<System.String,UnityEngine.GameObject> VuMarkHandler::vumarkAugmentationObjects
-	Dictionary_2_tB917211DA126597937FC7D5AF12A9E1B7A763F6A * ___vumarkAugmentationObjects_8;
-	// VuMarkHandler_AugmentationObject[] VuMarkHandler::augmentationObjects
-	AugmentationObjectU5BU5D_t2A0E18D7D7B3A800F30F23B78DFB78F8250FB123* ___augmentationObjects_9;
+	// Cached pointer to Windows.Media.Devices.IAudioDeviceController
+	IAudioDeviceController_t2F1BC18AF123286A3D5B90A8E77F3288ED861694* ____iaudioDeviceController_t2F1BC18AF123286A3D5B90A8E77F3288ED861694;
+	// Cached pointer to Windows.Media.Devices.IMediaDeviceController
+	IMediaDeviceController_t3165BC615DF1E88AD9D62D57D6783A4170CD7860* ____imediaDeviceController_t3165BC615DF1E88AD9D62D57D6783A4170CD7860;
 
 public:
-	inline static int32_t get_offset_of_vumarkManager_5() { return static_cast<int32_t>(offsetof(VuMarkHandler_t25B582A1D93CB5EA8B61A5D734598F1C904528EA, ___vumarkManager_5)); }
-	inline VuMarkManager_tD0288834C61D3F733AD8E4E98FE9C5DED6AC56F9 * get_vumarkManager_5() const { return ___vumarkManager_5; }
-	inline VuMarkManager_tD0288834C61D3F733AD8E4E98FE9C5DED6AC56F9 ** get_address_of_vumarkManager_5() { return &___vumarkManager_5; }
-	inline void set_vumarkManager_5(VuMarkManager_tD0288834C61D3F733AD8E4E98FE9C5DED6AC56F9 * value)
-	{
-		___vumarkManager_5 = value;
-		Il2CppCodeGenWriteBarrier((&___vumarkManager_5), value);
-	}
-
-	inline static int32_t get_offset_of_lineRenderer_6() { return static_cast<int32_t>(offsetof(VuMarkHandler_t25B582A1D93CB5EA8B61A5D734598F1C904528EA, ___lineRenderer_6)); }
-	inline LineRenderer_tD225C480F28F28A4D737866474F21001B803B7C3 * get_lineRenderer_6() const { return ___lineRenderer_6; }
-	inline LineRenderer_tD225C480F28F28A4D737866474F21001B803B7C3 ** get_address_of_lineRenderer_6() { return &___lineRenderer_6; }
-	inline void set_lineRenderer_6(LineRenderer_tD225C480F28F28A4D737866474F21001B803B7C3 * value)
+	inline IAudioDeviceController_t2F1BC18AF123286A3D5B90A8E77F3288ED861694* get_____iaudioDeviceController_t2F1BC18AF123286A3D5B90A8E77F3288ED861694()
 	{
-		___lineRenderer_6 = value;
-		Il2CppCodeGenWriteBarrier((&___lineRenderer_6), value);
-	}
+		IAudioDeviceController_t2F1BC18AF123286A3D5B90A8E77F3288ED861694* returnValue = ____iaudioDeviceController_t2F1BC18AF123286A3D5B90A8E77F3288ED861694;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IAudioDeviceController_t2F1BC18AF123286A3D5B90A8E77F3288ED861694::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
 
-	inline static int32_t get_offset_of_vumarkInstanceTextures_7() { return static_cast<int32_t>(offsetof(VuMarkHandler_t25B582A1D93CB5EA8B61A5D734598F1C904528EA, ___vumarkInstanceTextures_7)); }
-	inline Dictionary_2_tD350AEA8AC2B301F07514C565500EDDFB0DD44CC * get_vumarkInstanceTextures_7() const { return ___vumarkInstanceTextures_7; }
-	inline Dictionary_2_tD350AEA8AC2B301F07514C565500EDDFB0DD44CC ** get_address_of_vumarkInstanceTextures_7() { return &___vumarkInstanceTextures_7; }
-	inline void set_vumarkInstanceTextures_7(Dictionary_2_tD350AEA8AC2B301F07514C565500EDDFB0DD44CC * value)
-	{
-		___vumarkInstanceTextures_7 = value;
-		Il2CppCodeGenWriteBarrier((&___vumarkInstanceTextures_7), value);
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IAudioDeviceController_t2F1BC18AF123286A3D5B90A8E77F3288ED861694>((&____iaudioDeviceController_t2F1BC18AF123286A3D5B90A8E77F3288ED861694), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____iaudioDeviceController_t2F1BC18AF123286A3D5B90A8E77F3288ED861694;
+			}
+		}
+		return returnValue;
 	}
 
-	inline static int32_t get_offset_of_vumarkAugmentationObjects_8() { return static_cast<int32_t>(offsetof(VuMarkHandler_t25B582A1D93CB5EA8B61A5D734598F1C904528EA, ___vumarkAugmentationObjects_8)); }
-	inline Dictionary_2_tB917211DA126597937FC7D5AF12A9E1B7A763F6A * get_vumarkAugmentationObjects_8() const { return ___vumarkAugmentationObjects_8; }
-	inline Dictionary_2_tB917211DA126597937FC7D5AF12A9E1B7A763F6A ** get_address_of_vumarkAugmentationObjects_8() { return &___vumarkAugmentationObjects_8; }
-	inline void set_vumarkAugmentationObjects_8(Dictionary_2_tB917211DA126597937FC7D5AF12A9E1B7A763F6A * value)
+	inline IMediaDeviceController_t3165BC615DF1E88AD9D62D57D6783A4170CD7860* get_____imediaDeviceController_t3165BC615DF1E88AD9D62D57D6783A4170CD7860()
 	{
-		___vumarkAugmentationObjects_8 = value;
-		Il2CppCodeGenWriteBarrier((&___vumarkAugmentationObjects_8), value);
-	}
+		IMediaDeviceController_t3165BC615DF1E88AD9D62D57D6783A4170CD7860* returnValue = ____imediaDeviceController_t3165BC615DF1E88AD9D62D57D6783A4170CD7860;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IMediaDeviceController_t3165BC615DF1E88AD9D62D57D6783A4170CD7860::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
 
-	inline static int32_t get_offset_of_augmentationObjects_9() { return static_cast<int32_t>(offsetof(VuMarkHandler_t25B582A1D93CB5EA8B61A5D734598F1C904528EA, ___augmentationObjects_9)); }
-	inline AugmentationObjectU5BU5D_t2A0E18D7D7B3A800F30F23B78DFB78F8250FB123* get_augmentationObjects_9() const { return ___augmentationObjects_9; }
-	inline AugmentationObjectU5BU5D_t2A0E18D7D7B3A800F30F23B78DFB78F8250FB123** get_address_of_augmentationObjects_9() { return &___augmentationObjects_9; }
-	inline void set_augmentationObjects_9(AugmentationObjectU5BU5D_t2A0E18D7D7B3A800F30F23B78DFB78F8250FB123* value)
-	{
-		___augmentationObjects_9 = value;
-		Il2CppCodeGenWriteBarrier((&___augmentationObjects_9), value);
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IMediaDeviceController_t3165BC615DF1E88AD9D62D57D6783A4170CD7860>((&____imediaDeviceController_t3165BC615DF1E88AD9D62D57D6783A4170CD7860), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____imediaDeviceController_t3165BC615DF1E88AD9D62D57D6783A4170CD7860;
+			}
+		}
+		return returnValue;
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // VUMARKHANDLER_T25B582A1D93CB5EA8B61A5D734598F1C904528EA_H
-#ifndef TAGALONG_TF6A72276638E02A84C0B08D58D247150310B4908_H
-#define TAGALONG_TF6A72276638E02A84C0B08D58D247150310B4908_H
+#endif // AUDIODEVICECONTROLLER_T4D5015A364B92A65D23E3DE7716652DC1B75EDD1_H
+#ifndef VIDEODEVICECONTROLLER_T3FE321D6841D7614987550B33DD93CCFC55292FF_H
+#define VIDEODEVICECONTROLLER_T3FE321D6841D7614987550B33DD93CCFC55292FF_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// HoloToolkit.Unity.Tagalong
-struct  Tagalong_tF6A72276638E02A84C0B08D58D247150310B4908  : public SimpleTagalong_t37199001ED0DBE680EBA7D85763CC3DD78FE3671
+// Windows.Media.Devices.VideoDeviceController
+struct  VideoDeviceController_t3FE321D6841D7614987550B33DD93CCFC55292FF  : public Il2CppComObject
 {
 public:
-	// System.Single HoloToolkit.Unity.Tagalong::MinimumHorizontalOverlap
-	float ___MinimumHorizontalOverlap_16;
-	// System.Single HoloToolkit.Unity.Tagalong::TargetHorizontalOverlap
-	float ___TargetHorizontalOverlap_17;
-	// System.Single HoloToolkit.Unity.Tagalong::MinimumVerticalOverlap
-	float ___MinimumVerticalOverlap_18;
-	// System.Single HoloToolkit.Unity.Tagalong::TargetVerticalOverlap
-	float ___TargetVerticalOverlap_19;
-	// System.Int32 HoloToolkit.Unity.Tagalong::HorizontalRayCount
-	int32_t ___HorizontalRayCount_20;
-	// System.Int32 HoloToolkit.Unity.Tagalong::VerticalRayCount
-	int32_t ___VerticalRayCount_21;
-	// System.Single HoloToolkit.Unity.Tagalong::MinimumTagalongDistance
-	float ___MinimumTagalongDistance_22;
-	// System.Boolean HoloToolkit.Unity.Tagalong::MaintainFixedSize
-	bool ___MaintainFixedSize_23;
-	// System.Single HoloToolkit.Unity.Tagalong::DepthUpdateSpeed
-	float ___DepthUpdateSpeed_24;
-	// System.Single HoloToolkit.Unity.Tagalong::defaultTagalongDistance
-	float ___defaultTagalongDistance_25;
-	// System.Boolean HoloToolkit.Unity.Tagalong::DebugDrawLines
-	bool ___DebugDrawLines_26;
-	// UnityEngine.Light HoloToolkit.Unity.Tagalong::DebugPointLight
-	Light_tFDE490EADBC7E080F74CA804929513AF07C31A6C * ___DebugPointLight_27;
+	// Cached pointer to Windows.Media.Devices.IVideoDeviceController
+	IVideoDeviceController_t969D8DE22D47185B0104472DB46701CC6D24F963* ____ivideoDeviceController_t969D8DE22D47185B0104472DB46701CC6D24F963;
+	// Cached pointer to Windows.Media.Devices.IMediaDeviceController
+	IMediaDeviceController_t3165BC615DF1E88AD9D62D57D6783A4170CD7860* ____imediaDeviceController_t3165BC615DF1E88AD9D62D57D6783A4170CD7860;
+	// Cached pointer to Windows.Media.Devices.IAdvancedVideoCaptureDeviceController
+	IAdvancedVideoCaptureDeviceController_t36B983AF24BEC71D09C3D2573A928A85E582F510* ____iadvancedVideoCaptureDeviceController_t36B983AF24BEC71D09C3D2573A928A85E582F510;
+	// Cached pointer to Windows.Media.Devices.IAdvancedVideoCaptureDeviceController2
+	IAdvancedVideoCaptureDeviceController2_t0156A6C57BEE70C052A9444838892A9A35F3F8F4* ____iadvancedVideoCaptureDeviceController2_t0156A6C57BEE70C052A9444838892A9A35F3F8F4;
+	// Cached pointer to Windows.Media.Devices.IAdvancedVideoCaptureDeviceController3
+	IAdvancedVideoCaptureDeviceController3_t6C1557162255E65296FF2F01EE359A9E3584FF4C* ____iadvancedVideoCaptureDeviceController3_t6C1557162255E65296FF2F01EE359A9E3584FF4C;
+	// Cached pointer to Windows.Media.Devices.IAdvancedVideoCaptureDeviceController4
+	IAdvancedVideoCaptureDeviceController4_tED29D347171185E1921766AC81559BD3EE171D7A* ____iadvancedVideoCaptureDeviceController4_tED29D347171185E1921766AC81559BD3EE171D7A;
+	// Cached pointer to Windows.Media.Devices.IAdvancedVideoCaptureDeviceController5
+	IAdvancedVideoCaptureDeviceController5_t5B0434956B779CBE12A546568C6E83004A418FB4* ____iadvancedVideoCaptureDeviceController5_t5B0434956B779CBE12A546568C6E83004A418FB4;
+	// Cached pointer to Windows.Media.Devices.IAdvancedVideoCaptureDeviceController6
+	IAdvancedVideoCaptureDeviceController6_t03323832EEF893541CD077CE8E0FDBCDAA1576A1* ____iadvancedVideoCaptureDeviceController6_t03323832EEF893541CD077CE8E0FDBCDAA1576A1;
+	// Cached pointer to Windows.Media.Devices.IAdvancedVideoCaptureDeviceController7
+	IAdvancedVideoCaptureDeviceController7_t7913D7FB115FDC15EB985911CDDB14E00C4E860A* ____iadvancedVideoCaptureDeviceController7_t7913D7FB115FDC15EB985911CDDB14E00C4E860A;
 
 public:
-	inline static int32_t get_offset_of_MinimumHorizontalOverlap_16() { return static_cast<int32_t>(offsetof(Tagalong_tF6A72276638E02A84C0B08D58D247150310B4908, ___MinimumHorizontalOverlap_16)); }
-	inline float get_MinimumHorizontalOverlap_16() const { return ___MinimumHorizontalOverlap_16; }
-	inline float* get_address_of_MinimumHorizontalOverlap_16() { return &___MinimumHorizontalOverlap_16; }
-	inline void set_MinimumHorizontalOverlap_16(float value)
+	inline IVideoDeviceController_t969D8DE22D47185B0104472DB46701CC6D24F963* get_____ivideoDeviceController_t969D8DE22D47185B0104472DB46701CC6D24F963()
 	{
-		___MinimumHorizontalOverlap_16 = value;
-	}
+		IVideoDeviceController_t969D8DE22D47185B0104472DB46701CC6D24F963* returnValue = ____ivideoDeviceController_t969D8DE22D47185B0104472DB46701CC6D24F963;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IVideoDeviceController_t969D8DE22D47185B0104472DB46701CC6D24F963::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
 
-	inline static int32_t get_offset_of_TargetHorizontalOverlap_17() { return static_cast<int32_t>(offsetof(Tagalong_tF6A72276638E02A84C0B08D58D247150310B4908, ___TargetHorizontalOverlap_17)); }
-	inline float get_TargetHorizontalOverlap_17() const { return ___TargetHorizontalOverlap_17; }
-	inline float* get_address_of_TargetHorizontalOverlap_17() { return &___TargetHorizontalOverlap_17; }
-	inline void set_TargetHorizontalOverlap_17(float value)
-	{
-		___TargetHorizontalOverlap_17 = value;
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IVideoDeviceController_t969D8DE22D47185B0104472DB46701CC6D24F963>((&____ivideoDeviceController_t969D8DE22D47185B0104472DB46701CC6D24F963), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____ivideoDeviceController_t969D8DE22D47185B0104472DB46701CC6D24F963;
+			}
+		}
+		return returnValue;
 	}
 
-	inline static int32_t get_offset_of_MinimumVerticalOverlap_18() { return static_cast<int32_t>(offsetof(Tagalong_tF6A72276638E02A84C0B08D58D247150310B4908, ___MinimumVerticalOverlap_18)); }
-	inline float get_MinimumVerticalOverlap_18() const { return ___MinimumVerticalOverlap_18; }
-	inline float* get_address_of_MinimumVerticalOverlap_18() { return &___MinimumVerticalOverlap_18; }
-	inline void set_MinimumVerticalOverlap_18(float value)
+	inline IMediaDeviceController_t3165BC615DF1E88AD9D62D57D6783A4170CD7860* get_____imediaDeviceController_t3165BC615DF1E88AD9D62D57D6783A4170CD7860()
 	{
-		___MinimumVerticalOverlap_18 = value;
-	}
+		IMediaDeviceController_t3165BC615DF1E88AD9D62D57D6783A4170CD7860* returnValue = ____imediaDeviceController_t3165BC615DF1E88AD9D62D57D6783A4170CD7860;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IMediaDeviceController_t3165BC615DF1E88AD9D62D57D6783A4170CD7860::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
 
-	inline static int32_t get_offset_of_TargetVerticalOverlap_19() { return static_cast<int32_t>(offsetof(Tagalong_tF6A72276638E02A84C0B08D58D247150310B4908, ___TargetVerticalOverlap_19)); }
-	inline float get_TargetVerticalOverlap_19() const { return ___TargetVerticalOverlap_19; }
-	inline float* get_address_of_TargetVerticalOverlap_19() { return &___TargetVerticalOverlap_19; }
-	inline void set_TargetVerticalOverlap_19(float value)
-	{
-		___TargetVerticalOverlap_19 = value;
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IMediaDeviceController_t3165BC615DF1E88AD9D62D57D6783A4170CD7860>((&____imediaDeviceController_t3165BC615DF1E88AD9D62D57D6783A4170CD7860), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____imediaDeviceController_t3165BC615DF1E88AD9D62D57D6783A4170CD7860;
+			}
+		}
+		return returnValue;
 	}
 
-	inline static int32_t get_offset_of_HorizontalRayCount_20() { return static_cast<int32_t>(offsetof(Tagalong_tF6A72276638E02A84C0B08D58D247150310B4908, ___HorizontalRayCount_20)); }
-	inline int32_t get_HorizontalRayCount_20() const { return ___HorizontalRayCount_20; }
-	inline int32_t* get_address_of_HorizontalRayCount_20() { return &___HorizontalRayCount_20; }
-	inline void set_HorizontalRayCount_20(int32_t value)
+	inline IAdvancedVideoCaptureDeviceController_t36B983AF24BEC71D09C3D2573A928A85E582F510* get_____iadvancedVideoCaptureDeviceController_t36B983AF24BEC71D09C3D2573A928A85E582F510()
 	{
-		___HorizontalRayCount_20 = value;
-	}
+		IAdvancedVideoCaptureDeviceController_t36B983AF24BEC71D09C3D2573A928A85E582F510* returnValue = ____iadvancedVideoCaptureDeviceController_t36B983AF24BEC71D09C3D2573A928A85E582F510;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IAdvancedVideoCaptureDeviceController_t36B983AF24BEC71D09C3D2573A928A85E582F510::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
 
-	inline static int32_t get_offset_of_VerticalRayCount_21() { return static_cast<int32_t>(offsetof(Tagalong_tF6A72276638E02A84C0B08D58D247150310B4908, ___VerticalRayCount_21)); }
-	inline int32_t get_VerticalRayCount_21() const { return ___VerticalRayCount_21; }
-	inline int32_t* get_address_of_VerticalRayCount_21() { return &___VerticalRayCount_21; }
-	inline void set_VerticalRayCount_21(int32_t value)
-	{
-		___VerticalRayCount_21 = value;
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IAdvancedVideoCaptureDeviceController_t36B983AF24BEC71D09C3D2573A928A85E582F510>((&____iadvancedVideoCaptureDeviceController_t36B983AF24BEC71D09C3D2573A928A85E582F510), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____iadvancedVideoCaptureDeviceController_t36B983AF24BEC71D09C3D2573A928A85E582F510;
+			}
+		}
+		return returnValue;
 	}
 
-	inline static int32_t get_offset_of_MinimumTagalongDistance_22() { return static_cast<int32_t>(offsetof(Tagalong_tF6A72276638E02A84C0B08D58D247150310B4908, ___MinimumTagalongDistance_22)); }
-	inline float get_MinimumTagalongDistance_22() const { return ___MinimumTagalongDistance_22; }
-	inline float* get_address_of_MinimumTagalongDistance_22() { return &___MinimumTagalongDistance_22; }
-	inline void set_MinimumTagalongDistance_22(float value)
+	inline IAdvancedVideoCaptureDeviceController2_t0156A6C57BEE70C052A9444838892A9A35F3F8F4* get_____iadvancedVideoCaptureDeviceController2_t0156A6C57BEE70C052A9444838892A9A35F3F8F4()
 	{
-		___MinimumTagalongDistance_22 = value;
-	}
+		IAdvancedVideoCaptureDeviceController2_t0156A6C57BEE70C052A9444838892A9A35F3F8F4* returnValue = ____iadvancedVideoCaptureDeviceController2_t0156A6C57BEE70C052A9444838892A9A35F3F8F4;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IAdvancedVideoCaptureDeviceController2_t0156A6C57BEE70C052A9444838892A9A35F3F8F4::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
 
-	inline static int32_t get_offset_of_MaintainFixedSize_23() { return static_cast<int32_t>(offsetof(Tagalong_tF6A72276638E02A84C0B08D58D247150310B4908, ___MaintainFixedSize_23)); }
-	inline bool get_MaintainFixedSize_23() const { return ___MaintainFixedSize_23; }
-	inline bool* get_address_of_MaintainFixedSize_23() { return &___MaintainFixedSize_23; }
-	inline void set_MaintainFixedSize_23(bool value)
-	{
-		___MaintainFixedSize_23 = value;
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IAdvancedVideoCaptureDeviceController2_t0156A6C57BEE70C052A9444838892A9A35F3F8F4>((&____iadvancedVideoCaptureDeviceController2_t0156A6C57BEE70C052A9444838892A9A35F3F8F4), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____iadvancedVideoCaptureDeviceController2_t0156A6C57BEE70C052A9444838892A9A35F3F8F4;
+			}
+		}
+		return returnValue;
 	}
 
-	inline static int32_t get_offset_of_DepthUpdateSpeed_24() { return static_cast<int32_t>(offsetof(Tagalong_tF6A72276638E02A84C0B08D58D247150310B4908, ___DepthUpdateSpeed_24)); }
-	inline float get_DepthUpdateSpeed_24() const { return ___DepthUpdateSpeed_24; }
-	inline float* get_address_of_DepthUpdateSpeed_24() { return &___DepthUpdateSpeed_24; }
-	inline void set_DepthUpdateSpeed_24(float value)
+	inline IAdvancedVideoCaptureDeviceController3_t6C1557162255E65296FF2F01EE359A9E3584FF4C* get_____iadvancedVideoCaptureDeviceController3_t6C1557162255E65296FF2F01EE359A9E3584FF4C()
 	{
-		___DepthUpdateSpeed_24 = value;
-	}
+		IAdvancedVideoCaptureDeviceController3_t6C1557162255E65296FF2F01EE359A9E3584FF4C* returnValue = ____iadvancedVideoCaptureDeviceController3_t6C1557162255E65296FF2F01EE359A9E3584FF4C;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IAdvancedVideoCaptureDeviceController3_t6C1557162255E65296FF2F01EE359A9E3584FF4C::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
 
-	inline static int32_t get_offset_of_defaultTagalongDistance_25() { return static_cast<int32_t>(offsetof(Tagalong_tF6A72276638E02A84C0B08D58D247150310B4908, ___defaultTagalongDistance_25)); }
-	inline float get_defaultTagalongDistance_25() const { return ___defaultTagalongDistance_25; }
-	inline float* get_address_of_defaultTagalongDistance_25() { return &___defaultTagalongDistance_25; }
-	inline void set_defaultTagalongDistance_25(float value)
-	{
-		___defaultTagalongDistance_25 = value;
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IAdvancedVideoCaptureDeviceController3_t6C1557162255E65296FF2F01EE359A9E3584FF4C>((&____iadvancedVideoCaptureDeviceController3_t6C1557162255E65296FF2F01EE359A9E3584FF4C), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____iadvancedVideoCaptureDeviceController3_t6C1557162255E65296FF2F01EE359A9E3584FF4C;
+			}
+		}
+		return returnValue;
 	}
 
-	inline static int32_t get_offset_of_DebugDrawLines_26() { return static_cast<int32_t>(offsetof(Tagalong_tF6A72276638E02A84C0B08D58D247150310B4908, ___DebugDrawLines_26)); }
-	inline bool get_DebugDrawLines_26() const { return ___DebugDrawLines_26; }
-	inline bool* get_address_of_DebugDrawLines_26() { return &___DebugDrawLines_26; }
-	inline void set_DebugDrawLines_26(bool value)
+	inline IAdvancedVideoCaptureDeviceController4_tED29D347171185E1921766AC81559BD3EE171D7A* get_____iadvancedVideoCaptureDeviceController4_tED29D347171185E1921766AC81559BD3EE171D7A()
 	{
-		___DebugDrawLines_26 = value;
+		IAdvancedVideoCaptureDeviceController4_tED29D347171185E1921766AC81559BD3EE171D7A* returnValue = ____iadvancedVideoCaptureDeviceController4_tED29D347171185E1921766AC81559BD3EE171D7A;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IAdvancedVideoCaptureDeviceController4_tED29D347171185E1921766AC81559BD3EE171D7A::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IAdvancedVideoCaptureDeviceController4_tED29D347171185E1921766AC81559BD3EE171D7A>((&____iadvancedVideoCaptureDeviceController4_tED29D347171185E1921766AC81559BD3EE171D7A), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____iadvancedVideoCaptureDeviceController4_tED29D347171185E1921766AC81559BD3EE171D7A;
+			}
+		}
+		return returnValue;
 	}
 
-	inline static int32_t get_offset_of_DebugPointLight_27() { return static_cast<int32_t>(offsetof(Tagalong_tF6A72276638E02A84C0B08D58D247150310B4908, ___DebugPointLight_27)); }
-	inline Light_tFDE490EADBC7E080F74CA804929513AF07C31A6C * get_DebugPointLight_27() const { return ___DebugPointLight_27; }
-	inline Light_tFDE490EADBC7E080F74CA804929513AF07C31A6C ** get_address_of_DebugPointLight_27() { return &___DebugPointLight_27; }
-	inline void set_DebugPointLight_27(Light_tFDE490EADBC7E080F74CA804929513AF07C31A6C * value)
+	inline IAdvancedVideoCaptureDeviceController5_t5B0434956B779CBE12A546568C6E83004A418FB4* get_____iadvancedVideoCaptureDeviceController5_t5B0434956B779CBE12A546568C6E83004A418FB4()
 	{
-		___DebugPointLight_27 = value;
-		Il2CppCodeGenWriteBarrier((&___DebugPointLight_27), value);
+		IAdvancedVideoCaptureDeviceController5_t5B0434956B779CBE12A546568C6E83004A418FB4* returnValue = ____iadvancedVideoCaptureDeviceController5_t5B0434956B779CBE12A546568C6E83004A418FB4;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IAdvancedVideoCaptureDeviceController5_t5B0434956B779CBE12A546568C6E83004A418FB4::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IAdvancedVideoCaptureDeviceController5_t5B0434956B779CBE12A546568C6E83004A418FB4>((&____iadvancedVideoCaptureDeviceController5_t5B0434956B779CBE12A546568C6E83004A418FB4), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____iadvancedVideoCaptureDeviceController5_t5B0434956B779CBE12A546568C6E83004A418FB4;
+			}
+		}
+		return returnValue;
 	}
-};
 
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // TAGALONG_TF6A72276638E02A84C0B08D58D247150310B4908_H
-#ifndef MT360TRACKABLEEVENTHANDLER_T682323F580AFD85272721290579A4BAFA4AC2A37_H
-#define MT360TRACKABLEEVENTHANDLER_T682323F580AFD85272721290579A4BAFA4AC2A37_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
+	inline IAdvancedVideoCaptureDeviceController6_t03323832EEF893541CD077CE8E0FDBCDAA1576A1* get_____iadvancedVideoCaptureDeviceController6_t03323832EEF893541CD077CE8E0FDBCDAA1576A1()
+	{
+		IAdvancedVideoCaptureDeviceController6_t03323832EEF893541CD077CE8E0FDBCDAA1576A1* returnValue = ____iadvancedVideoCaptureDeviceController6_t03323832EEF893541CD077CE8E0FDBCDAA1576A1;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IAdvancedVideoCaptureDeviceController6_t03323832EEF893541CD077CE8E0FDBCDAA1576A1::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
 
-// MT360TrackableEventHandler
-struct  MT360TrackableEventHandler_t682323F580AFD85272721290579A4BAFA4AC2A37  : public DefaultTrackableEventHandler_t6997E0A19AC0FABC165FB7264F57DF2EDF4E8022
-{
-public:
-	// ModelTargetsManager MT360TrackableEventHandler::modelTargetsManager
-	ModelTargetsManager_t4C7991E925066EA8BFAF5666AB9EEB125C22F219 * ___modelTargetsManager_7;
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IAdvancedVideoCaptureDeviceController6_t03323832EEF893541CD077CE8E0FDBCDAA1576A1>((&____iadvancedVideoCaptureDeviceController6_t03323832EEF893541CD077CE8E0FDBCDAA1576A1), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____iadvancedVideoCaptureDeviceController6_t03323832EEF893541CD077CE8E0FDBCDAA1576A1;
+			}
+		}
+		return returnValue;
+	}
 
-public:
-	inline static int32_t get_offset_of_modelTargetsManager_7() { return static_cast<int32_t>(offsetof(MT360TrackableEventHandler_t682323F580AFD85272721290579A4BAFA4AC2A37, ___modelTargetsManager_7)); }
-	inline ModelTargetsManager_t4C7991E925066EA8BFAF5666AB9EEB125C22F219 * get_modelTargetsManager_7() const { return ___modelTargetsManager_7; }
-	inline ModelTargetsManager_t4C7991E925066EA8BFAF5666AB9EEB125C22F219 ** get_address_of_modelTargetsManager_7() { return &___modelTargetsManager_7; }
-	inline void set_modelTargetsManager_7(ModelTargetsManager_t4C7991E925066EA8BFAF5666AB9EEB125C22F219 * value)
+	inline IAdvancedVideoCaptureDeviceController7_t7913D7FB115FDC15EB985911CDDB14E00C4E860A* get_____iadvancedVideoCaptureDeviceController7_t7913D7FB115FDC15EB985911CDDB14E00C4E860A()
 	{
-		___modelTargetsManager_7 = value;
-		Il2CppCodeGenWriteBarrier((&___modelTargetsManager_7), value);
+		IAdvancedVideoCaptureDeviceController7_t7913D7FB115FDC15EB985911CDDB14E00C4E860A* returnValue = ____iadvancedVideoCaptureDeviceController7_t7913D7FB115FDC15EB985911CDDB14E00C4E860A;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IAdvancedVideoCaptureDeviceController7_t7913D7FB115FDC15EB985911CDDB14E00C4E860A::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IAdvancedVideoCaptureDeviceController7_t7913D7FB115FDC15EB985911CDDB14E00C4E860A>((&____iadvancedVideoCaptureDeviceController7_t7913D7FB115FDC15EB985911CDDB14E00C4E860A), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____iadvancedVideoCaptureDeviceController7_t7913D7FB115FDC15EB985911CDDB14E00C4E860A;
+			}
+		}
+		return returnValue;
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // MT360TRACKABLEEVENTHANDLER_T682323F580AFD85272721290579A4BAFA4AC2A37_H
-#ifndef MTADVANCEDTRACKABLEEVENTHANDLER_T04A7EAC5C7FACC4DAA50299D21C4ABDEE054C78D_H
-#define MTADVANCEDTRACKABLEEVENTHANDLER_T04A7EAC5C7FACC4DAA50299D21C4ABDEE054C78D_H
+#endif // VIDEODEVICECONTROLLER_T3FE321D6841D7614987550B33DD93CCFC55292FF_H
+#ifndef SPEECHSYNTHESISSTREAM_T63A89BDC1863AC74447AF97A160990B48FA4EBED_H
+#define SPEECHSYNTHESISSTREAM_T63A89BDC1863AC74447AF97A160990B48FA4EBED_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// MTAdvancedTrackableEventHandler
-struct  MTAdvancedTrackableEventHandler_t04A7EAC5C7FACC4DAA50299D21C4ABDEE054C78D  : public DefaultTrackableEventHandler_t6997E0A19AC0FABC165FB7264F57DF2EDF4E8022
+// Windows.Media.SpeechSynthesis.SpeechSynthesisStream
+struct  SpeechSynthesisStream_t63A89BDC1863AC74447AF97A160990B48FA4EBED  : public Il2CppComObject
 {
 public:
-	// ModelTargetsManager MTAdvancedTrackableEventHandler::modelTargetsManager
-	ModelTargetsManager_t4C7991E925066EA8BFAF5666AB9EEB125C22F219 * ___modelTargetsManager_7;
-	// System.Boolean MTAdvancedTrackableEventHandler::isModelTargetReferenceStored
-	bool ___isModelTargetReferenceStored_8;
+	// Cached pointer to Windows.Media.SpeechSynthesis.ISpeechSynthesisStream
+	ISpeechSynthesisStream_t3158646B3FF9B7D7F312A13B123160155F843665* ____ispeechSynthesisStream_t3158646B3FF9B7D7F312A13B123160155F843665;
+	// Cached pointer to Windows.Storage.Streams.IRandomAccessStreamWithContentType
+	IRandomAccessStreamWithContentType_t9F1D07F943E693513E0EFD51B27C50F49B7F9771* ____irandomAccessStreamWithContentType_t9F1D07F943E693513E0EFD51B27C50F49B7F9771;
+	// Cached pointer to Windows.Storage.Streams.IContentTypeProvider
+	IContentTypeProvider_tC966990E1A9CCBB174017FD532E3B895DB99A656* ____icontentTypeProvider_tC966990E1A9CCBB174017FD532E3B895DB99A656;
+	// Cached pointer to Windows.Storage.Streams.IRandomAccessStream
+	IRandomAccessStream_t5E0FCB2F3CA43A5BC93D47882CB485D7722ADD86* ____irandomAccessStream_t5E0FCB2F3CA43A5BC93D47882CB485D7722ADD86;
+	// Cached pointer to Windows.Storage.Streams.IOutputStream
+	IOutputStream_tDDEC725E2EE24D9CB5CF43B540772BFAB27E5AB4* ____ioutputStream_tDDEC725E2EE24D9CB5CF43B540772BFAB27E5AB4;
+	// Cached pointer to Windows.Storage.Streams.IInputStream
+	IInputStream_t9A06904D0534FEFA9174E580FCA59EDA460E6C6E* ____iinputStream_t9A06904D0534FEFA9174E580FCA59EDA460E6C6E;
+	// Cached pointer to Windows.Media.Core.ITimedMetadataTrackProvider
+	ITimedMetadataTrackProvider_tF751FEAD3B72E8A922F2E37AA081DE8FD043452C* ____itimedMetadataTrackProvider_tF751FEAD3B72E8A922F2E37AA081DE8FD043452C;
+	// Cached pointer to Windows.Foundation.IClosable
+	IClosable_t5808AF951019E4388C66F7A88AC569F52F581167* ____iclosable_t5808AF951019E4388C66F7A88AC569F52F581167;
 
 public:
-	inline static int32_t get_offset_of_modelTargetsManager_7() { return static_cast<int32_t>(offsetof(MTAdvancedTrackableEventHandler_t04A7EAC5C7FACC4DAA50299D21C4ABDEE054C78D, ___modelTargetsManager_7)); }
-	inline ModelTargetsManager_t4C7991E925066EA8BFAF5666AB9EEB125C22F219 * get_modelTargetsManager_7() const { return ___modelTargetsManager_7; }
-	inline ModelTargetsManager_t4C7991E925066EA8BFAF5666AB9EEB125C22F219 ** get_address_of_modelTargetsManager_7() { return &___modelTargetsManager_7; }
-	inline void set_modelTargetsManager_7(ModelTargetsManager_t4C7991E925066EA8BFAF5666AB9EEB125C22F219 * value)
+	inline ISpeechSynthesisStream_t3158646B3FF9B7D7F312A13B123160155F843665* get_____ispeechSynthesisStream_t3158646B3FF9B7D7F312A13B123160155F843665()
 	{
-		___modelTargetsManager_7 = value;
-		Il2CppCodeGenWriteBarrier((&___modelTargetsManager_7), value);
+		ISpeechSynthesisStream_t3158646B3FF9B7D7F312A13B123160155F843665* returnValue = ____ispeechSynthesisStream_t3158646B3FF9B7D7F312A13B123160155F843665;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(ISpeechSynthesisStream_t3158646B3FF9B7D7F312A13B123160155F843665::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<ISpeechSynthesisStream_t3158646B3FF9B7D7F312A13B123160155F843665>((&____ispeechSynthesisStream_t3158646B3FF9B7D7F312A13B123160155F843665), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____ispeechSynthesisStream_t3158646B3FF9B7D7F312A13B123160155F843665;
+			}
+		}
+		return returnValue;
 	}
 
-	inline static int32_t get_offset_of_isModelTargetReferenceStored_8() { return static_cast<int32_t>(offsetof(MTAdvancedTrackableEventHandler_t04A7EAC5C7FACC4DAA50299D21C4ABDEE054C78D, ___isModelTargetReferenceStored_8)); }
-	inline bool get_isModelTargetReferenceStored_8() const { return ___isModelTargetReferenceStored_8; }
-	inline bool* get_address_of_isModelTargetReferenceStored_8() { return &___isModelTargetReferenceStored_8; }
-	inline void set_isModelTargetReferenceStored_8(bool value)
+	inline IRandomAccessStreamWithContentType_t9F1D07F943E693513E0EFD51B27C50F49B7F9771* get_____irandomAccessStreamWithContentType_t9F1D07F943E693513E0EFD51B27C50F49B7F9771()
 	{
-		___isModelTargetReferenceStored_8 = value;
+		IRandomAccessStreamWithContentType_t9F1D07F943E693513E0EFD51B27C50F49B7F9771* returnValue = ____irandomAccessStreamWithContentType_t9F1D07F943E693513E0EFD51B27C50F49B7F9771;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IRandomAccessStreamWithContentType_t9F1D07F943E693513E0EFD51B27C50F49B7F9771::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IRandomAccessStreamWithContentType_t9F1D07F943E693513E0EFD51B27C50F49B7F9771>((&____irandomAccessStreamWithContentType_t9F1D07F943E693513E0EFD51B27C50F49B7F9771), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____irandomAccessStreamWithContentType_t9F1D07F943E693513E0EFD51B27C50F49B7F9771;
+			}
+		}
+		return returnValue;
 	}
-};
 
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // MTADVANCEDTRACKABLEEVENTHANDLER_T04A7EAC5C7FACC4DAA50299D21C4ABDEE054C78D_H
-#ifndef VUMARKTRACKABLEEVENTHANDLER_T3FA22A1DA17C3830A56ABF761063A60BE883252B_H
-#define VUMARKTRACKABLEEVENTHANDLER_T3FA22A1DA17C3830A56ABF761063A60BE883252B_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
+	inline IContentTypeProvider_tC966990E1A9CCBB174017FD532E3B895DB99A656* get_____icontentTypeProvider_tC966990E1A9CCBB174017FD532E3B895DB99A656()
+	{
+		IContentTypeProvider_tC966990E1A9CCBB174017FD532E3B895DB99A656* returnValue = ____icontentTypeProvider_tC966990E1A9CCBB174017FD532E3B895DB99A656;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IContentTypeProvider_tC966990E1A9CCBB174017FD532E3B895DB99A656::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
 
-// VuMarkTrackableEventHandler
-struct  VuMarkTrackableEventHandler_t3FA22A1DA17C3830A56ABF761063A60BE883252B  : public DefaultTrackableEventHandler_t6997E0A19AC0FABC165FB7264F57DF2EDF4E8022
-{
-public:
-	// Vuforia.VuMarkBehaviour VuMarkTrackableEventHandler::vumarkBehaviour
-	VuMarkBehaviour_t639ADC64791886C7F8D65CD035E0F0E4C6E2FAC4 * ___vumarkBehaviour_9;
-	// UnityEngine.LineRenderer VuMarkTrackableEventHandler::lineRenderer
-	LineRenderer_tD225C480F28F28A4D737866474F21001B803B7C3 * ___lineRenderer_10;
-	// UnityEngine.CanvasGroup VuMarkTrackableEventHandler::canvasGroup
-	CanvasGroup_tE2C664C60990D1DCCEE0CC6545CC3E80369C7F90 * ___canvasGroup_11;
-	// UnityEngine.Vector2 VuMarkTrackableEventHandler::fadeRange
-	Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___fadeRange_12;
-	// UnityEngine.Transform VuMarkTrackableEventHandler::centralAnchorPoint
-	Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * ___centralAnchorPoint_13;
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IContentTypeProvider_tC966990E1A9CCBB174017FD532E3B895DB99A656>((&____icontentTypeProvider_tC966990E1A9CCBB174017FD532E3B895DB99A656), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____icontentTypeProvider_tC966990E1A9CCBB174017FD532E3B895DB99A656;
+			}
+		}
+		return returnValue;
+	}
 
-public:
-	inline static int32_t get_offset_of_vumarkBehaviour_9() { return static_cast<int32_t>(offsetof(VuMarkTrackableEventHandler_t3FA22A1DA17C3830A56ABF761063A60BE883252B, ___vumarkBehaviour_9)); }
-	inline VuMarkBehaviour_t639ADC64791886C7F8D65CD035E0F0E4C6E2FAC4 * get_vumarkBehaviour_9() const { return ___vumarkBehaviour_9; }
-	inline VuMarkBehaviour_t639ADC64791886C7F8D65CD035E0F0E4C6E2FAC4 ** get_address_of_vumarkBehaviour_9() { return &___vumarkBehaviour_9; }
-	inline void set_vumarkBehaviour_9(VuMarkBehaviour_t639ADC64791886C7F8D65CD035E0F0E4C6E2FAC4 * value)
+	inline IRandomAccessStream_t5E0FCB2F3CA43A5BC93D47882CB485D7722ADD86* get_____irandomAccessStream_t5E0FCB2F3CA43A5BC93D47882CB485D7722ADD86()
 	{
-		___vumarkBehaviour_9 = value;
-		Il2CppCodeGenWriteBarrier((&___vumarkBehaviour_9), value);
+		IRandomAccessStream_t5E0FCB2F3CA43A5BC93D47882CB485D7722ADD86* returnValue = ____irandomAccessStream_t5E0FCB2F3CA43A5BC93D47882CB485D7722ADD86;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IRandomAccessStream_t5E0FCB2F3CA43A5BC93D47882CB485D7722ADD86::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IRandomAccessStream_t5E0FCB2F3CA43A5BC93D47882CB485D7722ADD86>((&____irandomAccessStream_t5E0FCB2F3CA43A5BC93D47882CB485D7722ADD86), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____irandomAccessStream_t5E0FCB2F3CA43A5BC93D47882CB485D7722ADD86;
+			}
+		}
+		return returnValue;
 	}
 
-	inline static int32_t get_offset_of_lineRenderer_10() { return static_cast<int32_t>(offsetof(VuMarkTrackableEventHandler_t3FA22A1DA17C3830A56ABF761063A60BE883252B, ___lineRenderer_10)); }
-	inline LineRenderer_tD225C480F28F28A4D737866474F21001B803B7C3 * get_lineRenderer_10() const { return ___lineRenderer_10; }
-	inline LineRenderer_tD225C480F28F28A4D737866474F21001B803B7C3 ** get_address_of_lineRenderer_10() { return &___lineRenderer_10; }
-	inline void set_lineRenderer_10(LineRenderer_tD225C480F28F28A4D737866474F21001B803B7C3 * value)
+	inline IOutputStream_tDDEC725E2EE24D9CB5CF43B540772BFAB27E5AB4* get_____ioutputStream_tDDEC725E2EE24D9CB5CF43B540772BFAB27E5AB4()
 	{
-		___lineRenderer_10 = value;
-		Il2CppCodeGenWriteBarrier((&___lineRenderer_10), value);
+		IOutputStream_tDDEC725E2EE24D9CB5CF43B540772BFAB27E5AB4* returnValue = ____ioutputStream_tDDEC725E2EE24D9CB5CF43B540772BFAB27E5AB4;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IOutputStream_tDDEC725E2EE24D9CB5CF43B540772BFAB27E5AB4::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IOutputStream_tDDEC725E2EE24D9CB5CF43B540772BFAB27E5AB4>((&____ioutputStream_tDDEC725E2EE24D9CB5CF43B540772BFAB27E5AB4), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____ioutputStream_tDDEC725E2EE24D9CB5CF43B540772BFAB27E5AB4;
+			}
+		}
+		return returnValue;
 	}
 
-	inline static int32_t get_offset_of_canvasGroup_11() { return static_cast<int32_t>(offsetof(VuMarkTrackableEventHandler_t3FA22A1DA17C3830A56ABF761063A60BE883252B, ___canvasGroup_11)); }
-	inline CanvasGroup_tE2C664C60990D1DCCEE0CC6545CC3E80369C7F90 * get_canvasGroup_11() const { return ___canvasGroup_11; }
-	inline CanvasGroup_tE2C664C60990D1DCCEE0CC6545CC3E80369C7F90 ** get_address_of_canvasGroup_11() { return &___canvasGroup_11; }
-	inline void set_canvasGroup_11(CanvasGroup_tE2C664C60990D1DCCEE0CC6545CC3E80369C7F90 * value)
+	inline IInputStream_t9A06904D0534FEFA9174E580FCA59EDA460E6C6E* get_____iinputStream_t9A06904D0534FEFA9174E580FCA59EDA460E6C6E()
 	{
-		___canvasGroup_11 = value;
-		Il2CppCodeGenWriteBarrier((&___canvasGroup_11), value);
+		IInputStream_t9A06904D0534FEFA9174E580FCA59EDA460E6C6E* returnValue = ____iinputStream_t9A06904D0534FEFA9174E580FCA59EDA460E6C6E;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IInputStream_t9A06904D0534FEFA9174E580FCA59EDA460E6C6E::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IInputStream_t9A06904D0534FEFA9174E580FCA59EDA460E6C6E>((&____iinputStream_t9A06904D0534FEFA9174E580FCA59EDA460E6C6E), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____iinputStream_t9A06904D0534FEFA9174E580FCA59EDA460E6C6E;
+			}
+		}
+		return returnValue;
 	}
 
-	inline static int32_t get_offset_of_fadeRange_12() { return static_cast<int32_t>(offsetof(VuMarkTrackableEventHandler_t3FA22A1DA17C3830A56ABF761063A60BE883252B, ___fadeRange_12)); }
-	inline Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  get_fadeRange_12() const { return ___fadeRange_12; }
-	inline Vector2_tA85D2DD88578276CA8A8796756458277E72D073D * get_address_of_fadeRange_12() { return &___fadeRange_12; }
-	inline void set_fadeRange_12(Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  value)
+	inline ITimedMetadataTrackProvider_tF751FEAD3B72E8A922F2E37AA081DE8FD043452C* get_____itimedMetadataTrackProvider_tF751FEAD3B72E8A922F2E37AA081DE8FD043452C()
 	{
-		___fadeRange_12 = value;
+		ITimedMetadataTrackProvider_tF751FEAD3B72E8A922F2E37AA081DE8FD043452C* returnValue = ____itimedMetadataTrackProvider_tF751FEAD3B72E8A922F2E37AA081DE8FD043452C;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(ITimedMetadataTrackProvider_tF751FEAD3B72E8A922F2E37AA081DE8FD043452C::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<ITimedMetadataTrackProvider_tF751FEAD3B72E8A922F2E37AA081DE8FD043452C>((&____itimedMetadataTrackProvider_tF751FEAD3B72E8A922F2E37AA081DE8FD043452C), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____itimedMetadataTrackProvider_tF751FEAD3B72E8A922F2E37AA081DE8FD043452C;
+			}
+		}
+		return returnValue;
 	}
 
-	inline static int32_t get_offset_of_centralAnchorPoint_13() { return static_cast<int32_t>(offsetof(VuMarkTrackableEventHandler_t3FA22A1DA17C3830A56ABF761063A60BE883252B, ___centralAnchorPoint_13)); }
-	inline Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * get_centralAnchorPoint_13() const { return ___centralAnchorPoint_13; }
-	inline Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA ** get_address_of_centralAnchorPoint_13() { return &___centralAnchorPoint_13; }
-	inline void set_centralAnchorPoint_13(Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * value)
+	inline IClosable_t5808AF951019E4388C66F7A88AC569F52F581167* get_____iclosable_t5808AF951019E4388C66F7A88AC569F52F581167()
 	{
-		___centralAnchorPoint_13 = value;
-		Il2CppCodeGenWriteBarrier((&___centralAnchorPoint_13), value);
+		IClosable_t5808AF951019E4388C66F7A88AC569F52F581167* returnValue = ____iclosable_t5808AF951019E4388C66F7A88AC569F52F581167;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = identity->QueryInterface(IClosable_t5808AF951019E4388C66F7A88AC569F52F581167::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IClosable_t5808AF951019E4388C66F7A88AC569F52F581167>((&____iclosable_t5808AF951019E4388C66F7A88AC569F52F581167), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____iclosable_t5808AF951019E4388C66F7A88AC569F52F581167;
+			}
+		}
+		return returnValue;
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // VUMARKTRACKABLEEVENTHANDLER_T3FA22A1DA17C3830A56ABF761063A60BE883252B_H
+#endif // SPEECHSYNTHESISSTREAM_T63A89BDC1863AC74447AF97A160990B48FA4EBED_H
 
 
 
@@ -6642,417 +3681,41 @@ public:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4500 = { sizeof (U3CFadeOutU3Ed__9_t7DE7ABBF184C6A60C140DCADC9584D03A9D4D4D3), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4500[4] = 
-{
-	U3CFadeOutU3Ed__9_t7DE7ABBF184C6A60C140DCADC9584D03A9D4D4D3::get_offset_of_U3CU3E1__state_0(),
-	U3CFadeOutU3Ed__9_t7DE7ABBF184C6A60C140DCADC9584D03A9D4D4D3::get_offset_of_U3CU3E2__current_1(),
-	U3CFadeOutU3Ed__9_t7DE7ABBF184C6A60C140DCADC9584D03A9D4D4D3::get_offset_of_U3CU3E4__this_2(),
-	U3CFadeOutU3Ed__9_t7DE7ABBF184C6A60C140DCADC9584D03A9D4D4D3::get_offset_of_U3CfU3E5__2_3(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4501 = { sizeof (TapHandler_t77893A0EA6C4FAF0429821F4F5558C0D2D65E5F2), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4501[5] = 
-{
-	0,
-	TapHandler_t77893A0EA6C4FAF0429821F4F5558C0D2D65E5F2::get_offset_of_mTimeSinceLastTap_5(),
-	TapHandler_t77893A0EA6C4FAF0429821F4F5558C0D2D65E5F2::get_offset_of_m_MenuOptions_6(),
-	TapHandler_t77893A0EA6C4FAF0429821F4F5558C0D2D65E5F2::get_offset_of_m_CameraSettings_7(),
-	TapHandler_t77893A0EA6C4FAF0429821F4F5558C0D2D65E5F2::get_offset_of_mTapCount_8(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4502 = { sizeof (TrackableSettings_tAA777CC0FC23BE330E495AF9917781398A70BA35), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4502[4] = 
-{
-	TrackableSettings_tAA777CC0FC23BE330E495AF9917781398A70BA35::get_offset_of_deviceTrackerEnabled_4(),
-	TrackableSettings_tAA777CC0FC23BE330E495AF9917781398A70BA35::get_offset_of_positionalDeviceTracker_5(),
-	TrackableSettings_tAA777CC0FC23BE330E495AF9917781398A70BA35::get_offset_of_relocalizationStatusDelayTimer_6(),
-	TrackableSettings_tAA777CC0FC23BE330E495AF9917781398A70BA35::get_offset_of_resetDeviceTrackerTimer_7(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4503 = { sizeof (VLog_t63DCFEA9AC5AEE08887BF454A4A5E9E76B47801F), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4504 = { sizeof (MenuController_t244BC6F4B06B69D85522469F892EA8375E376DA1), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4504[2] = 
-{
-	MenuController_t244BC6F4B06B69D85522469F892EA8375E376DA1::get_offset_of_StartingInstruction_4(),
-	MenuController_t244BC6F4B06B69D85522469F892EA8375E376DA1::get_offset_of_MainMenu_5(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4505 = { sizeof (KnobIndicator_t9286A06632F1B8CF11D36E2E8CD5A8E8BFEEA90C), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4505[1] = 
-{
-	KnobIndicator_t9286A06632F1B8CF11D36E2E8CD5A8E8BFEEA90C::get_offset_of_knobNumber_4(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4506 = { sizeof (KnobIndicatorGroup_t0C727E091CC4752C97D7AF74D17D2B777A88222F), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4506[2] = 
-{
-	KnobIndicatorGroup_t0C727E091CC4752C97D7AF74D17D2B777A88222F::get_offset_of_prefab_4(),
-	KnobIndicatorGroup_t0C727E091CC4752C97D7AF74D17D2B777A88222F::get_offset_of_indicators_5(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4507 = { sizeof (DelegateTester_t3667221E06FC92C60AED6CCCD626C244BCE43EF8), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4508 = { sizeof (NoteIndicator_t4ED2900AAE12DAED4A9F8ACEC03D036D8FE455B2), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4508[1] = 
-{
-	NoteIndicator_t4ED2900AAE12DAED4A9F8ACEC03D036D8FE455B2::get_offset_of_noteNumber_4(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4509 = { sizeof (NoteIndicatorGroup_tB497ECE81DEF5B25E939C0EC4D926BD47FCE152A), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4509[1] = 
-{
-	NoteIndicatorGroup_tB497ECE81DEF5B25E939C0EC4D926BD47FCE152A::get_offset_of_prefab_4(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4510 = { sizeof (Placetarget_tFB603789D1053B5486882F2BAFA97939137BDB47), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4510[2] = 
-{
-	Placetarget_tFB603789D1053B5486882F2BAFA97939137BDB47::get_offset_of_ObjectAnchorStoreName_4(),
-	Placetarget_tFB603789D1053B5486882F2BAFA97939137BDB47::get_offset_of_anchorStore_5(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4511 = { sizeof (DepthCanvas_t3905F2376783E66F8DC07D648E29FEE06CAEFBDB), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4511[2] = 
-{
-	DepthCanvas_t3905F2376783E66F8DC07D648E29FEE06CAEFBDB::get_offset_of_vuforiaCamera_4(),
-	DepthCanvas_t3905F2376783E66F8DC07D648E29FEE06CAEFBDB::get_offset_of_canvasRectTransform_5(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4512 = { sizeof (ModelTargetsManager_t4C7991E925066EA8BFAF5666AB9EEB125C22F219), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4512[15] = 
-{
-	ModelTargetsManager_t4C7991E925066EA8BFAF5666AB9EEB125C22F219::get_offset_of_modelTargetMode_4(),
-	ModelTargetsManager_t4C7991E925066EA8BFAF5666AB9EEB125C22F219::get_offset_of_augmentation_5(),
-	ModelTargetsManager_t4C7991E925066EA8BFAF5666AB9EEB125C22F219::get_offset_of_modelStandard_6(),
-	ModelTargetsManager_t4C7991E925066EA8BFAF5666AB9EEB125C22F219::get_offset_of_modelAdvanced_7(),
-	ModelTargetsManager_t4C7991E925066EA8BFAF5666AB9EEB125C22F219::get_offset_of_model360_8(),
-	ModelTargetsManager_t4C7991E925066EA8BFAF5666AB9EEB125C22F219::get_offset_of_DataSetStandard_9(),
-	ModelTargetsManager_t4C7991E925066EA8BFAF5666AB9EEB125C22F219::get_offset_of_DataSetAdvanced_10(),
-	ModelTargetsManager_t4C7991E925066EA8BFAF5666AB9EEB125C22F219::get_offset_of_DataSet360_11(),
-	ModelTargetsManager_t4C7991E925066EA8BFAF5666AB9EEB125C22F219::get_offset_of_guideViewsButton_12(),
-	ModelTargetsManager_t4C7991E925066EA8BFAF5666AB9EEB125C22F219::get_offset_of_datasetsMenu_13(),
-	ModelTargetsManager_t4C7991E925066EA8BFAF5666AB9EEB125C22F219::get_offset_of_objectTracker_14(),
-	ModelTargetsManager_t4C7991E925066EA8BFAF5666AB9EEB125C22F219::get_offset_of_stateManager_15(),
-	ModelTargetsManager_t4C7991E925066EA8BFAF5666AB9EEB125C22F219::get_offset_of_modelTargetsUIManager_16(),
-	ModelTargetsManager_t4C7991E925066EA8BFAF5666AB9EEB125C22F219::get_offset_of_modelTargetBehaviours_17(),
-	ModelTargetsManager_t4C7991E925066EA8BFAF5666AB9EEB125C22F219::get_offset_of_currentActiveDataSet_18(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4513 = { sizeof (ModelTargetMode_t162CE2C85BF4B801DDB26DD1C815DBC9A68EC639)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable4513[4] = 
-{
-	ModelTargetMode_t162CE2C85BF4B801DDB26DD1C815DBC9A68EC639::get_offset_of_value___2() + static_cast<int32_t>(sizeof(RuntimeObject)),
-	0,
-	0,
-	0,
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4514 = { sizeof (ModelTargetsUIManager_t5899DC814D729D2C12656815AD6F5387F881D914), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4514[14] = 
-{
-	ModelTargetsUIManager_t5899DC814D729D2C12656815AD6F5387F881D914::get_offset_of_canvasGroupAdvanced_4(),
-	ModelTargetsUIManager_t5899DC814D729D2C12656815AD6F5387F881D914::get_offset_of_canvasGroup360_5(),
-	ModelTargetsUIManager_t5899DC814D729D2C12656815AD6F5387F881D914::get_offset_of_cycleMultipleIcons_6(),
-	ModelTargetsUIManager_t5899DC814D729D2C12656815AD6F5387F881D914::get_offset_of_spatialMapping_7(),
-	ModelTargetsUIManager_t5899DC814D729D2C12656815AD6F5387F881D914::get_offset_of_whiteTransparent_8(),
-	ModelTargetsUIManager_t5899DC814D729D2C12656815AD6F5387F881D914::get_offset_of_imageSequence_9(),
-	ModelTargetsUIManager_t5899DC814D729D2C12656815AD6F5387F881D914::get_offset_of_imagesAdvanced_10(),
-	ModelTargetsUIManager_t5899DC814D729D2C12656815AD6F5387F881D914::get_offset_of_images360_11(),
-	ModelTargetsUIManager_t5899DC814D729D2C12656815AD6F5387F881D914::get_offset_of_uiEnabled_12(),
-	ModelTargetsUIManager_t5899DC814D729D2C12656815AD6F5387F881D914::get_offset_of_imageSequencePaused_13(),
-	ModelTargetsUIManager_t5899DC814D729D2C12656815AD6F5387F881D914::get_offset_of_imageSequenceIndex_14(),
-	ModelTargetsUIManager_t5899DC814D729D2C12656815AD6F5387F881D914::get_offset_of_clock_15(),
-	ModelTargetsUIManager_t5899DC814D729D2C12656815AD6F5387F881D914::get_offset_of_fadeMeter_16(),
-	0,
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4515 = { sizeof (U3CClearImageSequencePauseU3Ed__20_t2FC0A3445261800B1C06AF2EC783AA392D4A9C3D), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4515[3] = 
-{
-	U3CClearImageSequencePauseU3Ed__20_t2FC0A3445261800B1C06AF2EC783AA392D4A9C3D::get_offset_of_U3CU3E1__state_0(),
-	U3CClearImageSequencePauseU3Ed__20_t2FC0A3445261800B1C06AF2EC783AA392D4A9C3D::get_offset_of_U3CU3E2__current_1(),
-	U3CClearImageSequencePauseU3Ed__20_t2FC0A3445261800B1C06AF2EC783AA392D4A9C3D::get_offset_of_U3CU3E4__this_2(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4516 = { sizeof (MT360TrackableEventHandler_t682323F580AFD85272721290579A4BAFA4AC2A37), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4516[1] = 
-{
-	MT360TrackableEventHandler_t682323F580AFD85272721290579A4BAFA4AC2A37::get_offset_of_modelTargetsManager_7(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4517 = { sizeof (MTAdvancedTrackableEventHandler_t04A7EAC5C7FACC4DAA50299D21C4ABDEE054C78D), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4517[2] = 
-{
-	MTAdvancedTrackableEventHandler_t04A7EAC5C7FACC4DAA50299D21C4ABDEE054C78D::get_offset_of_modelTargetsManager_7(),
-	MTAdvancedTrackableEventHandler_t04A7EAC5C7FACC4DAA50299D21C4ABDEE054C78D::get_offset_of_isModelTargetReferenceStored_8(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4518 = { sizeof (CameraDepthEnabler_t8B94E44704577D03715DB8695252E0F5264D2A39), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4519 = { sizeof (MaterialSwitch_t5E11C2002C97E7E67E84CB9937D72BD45155981D), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4519[2] = 
-{
-	MaterialSwitch_t5E11C2002C97E7E67E84CB9937D72BD45155981D::get_offset_of_materials_4(),
-	MaterialSwitch_t5E11C2002C97E7E67E84CB9937D72BD45155981D::get_offset_of_materialIndex_5(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4520 = { sizeof (U3CUpdateScanTimeU3Ed__3_t7761FB7635016B230CCB6A93BCE40738E76A1D79), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4520[7] = 
-{
-	U3CUpdateScanTimeU3Ed__3_t7761FB7635016B230CCB6A93BCE40738E76A1D79::get_offset_of_U3CU3E1__state_0(),
-	U3CUpdateScanTimeU3Ed__3_t7761FB7635016B230CCB6A93BCE40738E76A1D79::get_offset_of_U3CU3E2__current_1(),
-	U3CUpdateScanTimeU3Ed__3_t7761FB7635016B230CCB6A93BCE40738E76A1D79::get_offset_of_mat_2(),
-	U3CUpdateScanTimeU3Ed__3_t7761FB7635016B230CCB6A93BCE40738E76A1D79::get_offset_of_duration_3(),
-	U3CUpdateScanTimeU3Ed__3_t7761FB7635016B230CCB6A93BCE40738E76A1D79::get_offset_of_U3CtimeU3E5__2_4(),
-	U3CUpdateScanTimeU3Ed__3_t7761FB7635016B230CCB6A93BCE40738E76A1D79::get_offset_of_U3CdeltaTimeU3E5__3_5(),
-	U3CUpdateScanTimeU3Ed__3_t7761FB7635016B230CCB6A93BCE40738E76A1D79::get_offset_of_U3CwaitU3E5__4_6(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4521 = { sizeof (ModelTargetAugmentationHandler_t19449DE28924052FA6A8FC6511DC9C5C01E036B7), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4521[3] = 
-{
-	ModelTargetAugmentationHandler_t19449DE28924052FA6A8FC6511DC9C5C01E036B7::get_offset_of_animationMaterial_4(),
-	ModelTargetAugmentationHandler_t19449DE28924052FA6A8FC6511DC9C5C01E036B7::get_offset_of_savedMaterials_5(),
-	ModelTargetAugmentationHandler_t19449DE28924052FA6A8FC6511DC9C5C01E036B7::get_offset_of_alreadyDetectedOnce_6(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4522 = { sizeof (U3CU3Ec__DisplayClass8_0_t83AA50D441AB35DA3D45957CEE065F7FDDDF20C8), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4522[3] = 
-{
-	U3CU3Ec__DisplayClass8_0_t83AA50D441AB35DA3D45957CEE065F7FDDDF20C8::get_offset_of_U3CU3E4__this_0(),
-	U3CU3Ec__DisplayClass8_0_t83AA50D441AB35DA3D45957CEE065F7FDDDF20C8::get_offset_of_animCompleteCount_1(),
-	U3CU3Ec__DisplayClass8_0_t83AA50D441AB35DA3D45957CEE065F7FDDDF20C8::get_offset_of_animCount_2(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4523 = { sizeof (U3CU3Ec__DisplayClass8_1_t32D8129B06510ABCF3090C45C504084EC8F27EDB), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4523[2] = 
-{
-	U3CU3Ec__DisplayClass8_1_t32D8129B06510ABCF3090C45C504084EC8F27EDB::get_offset_of_anim_0(),
-	U3CU3Ec__DisplayClass8_1_t32D8129B06510ABCF3090C45C504084EC8F27EDB::get_offset_of_CSU24U3CU3E8__locals1_1(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4524 = { sizeof (SimpleAnimation_t94FA757413CE9030AC86B48D58347D8CE751A481), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4524[16] = 
-{
-	SimpleAnimation_t94FA757413CE9030AC86B48D58347D8CE751A481::get_offset_of_OnStartEvent_4(),
-	SimpleAnimation_t94FA757413CE9030AC86B48D58347D8CE751A481::get_offset_of_OnCompleteEvent_5(),
-	SimpleAnimation_t94FA757413CE9030AC86B48D58347D8CE751A481::get_offset_of_startPos_6(),
-	SimpleAnimation_t94FA757413CE9030AC86B48D58347D8CE751A481::get_offset_of_endPos_7(),
-	SimpleAnimation_t94FA757413CE9030AC86B48D58347D8CE751A481::get_offset_of_rotationAxis_8(),
-	SimpleAnimation_t94FA757413CE9030AC86B48D58347D8CE751A481::get_offset_of_rotationCenter_9(),
-	SimpleAnimation_t94FA757413CE9030AC86B48D58347D8CE751A481::get_offset_of_rotationAngle_10(),
-	SimpleAnimation_t94FA757413CE9030AC86B48D58347D8CE751A481::get_offset_of_startDelay_11(),
-	SimpleAnimation_t94FA757413CE9030AC86B48D58347D8CE751A481::get_offset_of_duration_12(),
-	SimpleAnimation_t94FA757413CE9030AC86B48D58347D8CE751A481::get_offset_of_loop_13(),
-	SimpleAnimation_t94FA757413CE9030AC86B48D58347D8CE751A481::get_offset_of_playOnAwake_14(),
-	SimpleAnimation_t94FA757413CE9030AC86B48D58347D8CE751A481::get_offset_of_originalPos_15(),
-	SimpleAnimation_t94FA757413CE9030AC86B48D58347D8CE751A481::get_offset_of_originalRot_16(),
-	SimpleAnimation_t94FA757413CE9030AC86B48D58347D8CE751A481::get_offset_of_startTime_17(),
-	SimpleAnimation_t94FA757413CE9030AC86B48D58347D8CE751A481::get_offset_of_playing_18(),
-	SimpleAnimation_t94FA757413CE9030AC86B48D58347D8CE751A481::get_offset_of_startTimeReached_19(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4525 = { sizeof (OnAnimationStarted_t06E6CF5A863DF5743B555616150DD8DE6CDAA9D8), sizeof(Il2CppMethodPointer), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4526 = { sizeof (OnAnimationCompleted_t6043B8B0DAD04BB109B3BD70EE8BD411DB7579D2), sizeof(Il2CppMethodPointer), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4527 = { sizeof (VuMarkHandler_t25B582A1D93CB5EA8B61A5D734598F1C904528EA), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4527[6] = 
-{
-	0,
-	VuMarkHandler_t25B582A1D93CB5EA8B61A5D734598F1C904528EA::get_offset_of_vumarkManager_5(),
-	VuMarkHandler_t25B582A1D93CB5EA8B61A5D734598F1C904528EA::get_offset_of_lineRenderer_6(),
-	VuMarkHandler_t25B582A1D93CB5EA8B61A5D734598F1C904528EA::get_offset_of_vumarkInstanceTextures_7(),
-	VuMarkHandler_t25B582A1D93CB5EA8B61A5D734598F1C904528EA::get_offset_of_vumarkAugmentationObjects_8(),
-	VuMarkHandler_t25B582A1D93CB5EA8B61A5D734598F1C904528EA::get_offset_of_augmentationObjects_9(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4528 = { sizeof (AugmentationObject_t8F6D1880BF472F5C9A272AC91B331BA8172DAD26), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4528[2] = 
-{
-	AugmentationObject_t8F6D1880BF472F5C9A272AC91B331BA8172DAD26::get_offset_of_vumarkID_0(),
-	AugmentationObject_t8F6D1880BF472F5C9A272AC91B331BA8172DAD26::get_offset_of_augmentation_1(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4529 = { sizeof (U3CU3Ec__DisplayClass12_0_t4B2C7C7463D8C4C3FAADFF967553666CD1958F23), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4529[1] = 
-{
-	U3CU3Ec__DisplayClass12_0_t4B2C7C7463D8C4C3FAADFF967553666CD1958F23::get_offset_of_vumarkBehaviour_0(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4530 = { sizeof (U3COnVuMarkTargetAvailableU3Ed__12_t56430753AEA0B8989DC9565A574DE4AE470875A4), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4530[5] = 
-{
-	U3COnVuMarkTargetAvailableU3Ed__12_t56430753AEA0B8989DC9565A574DE4AE470875A4::get_offset_of_U3CU3E1__state_0(),
-	U3COnVuMarkTargetAvailableU3Ed__12_t56430753AEA0B8989DC9565A574DE4AE470875A4::get_offset_of_U3CU3E2__current_1(),
-	U3COnVuMarkTargetAvailableU3Ed__12_t56430753AEA0B8989DC9565A574DE4AE470875A4::get_offset_of_vumarkBehaviour_2(),
-	U3COnVuMarkTargetAvailableU3Ed__12_t56430753AEA0B8989DC9565A574DE4AE470875A4::get_offset_of_U3CU3E4__this_3(),
-	U3COnVuMarkTargetAvailableU3Ed__12_t56430753AEA0B8989DC9565A574DE4AE470875A4::get_offset_of_U3CU3E8__1_4(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4531 = { sizeof (VuMarkTrackableEventHandler_t3FA22A1DA17C3830A56ABF761063A60BE883252B), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4531[7] = 
-{
-	0,
-	0,
-	VuMarkTrackableEventHandler_t3FA22A1DA17C3830A56ABF761063A60BE883252B::get_offset_of_vumarkBehaviour_9(),
-	VuMarkTrackableEventHandler_t3FA22A1DA17C3830A56ABF761063A60BE883252B::get_offset_of_lineRenderer_10(),
-	VuMarkTrackableEventHandler_t3FA22A1DA17C3830A56ABF761063A60BE883252B::get_offset_of_canvasGroup_11(),
-	VuMarkTrackableEventHandler_t3FA22A1DA17C3830A56ABF761063A60BE883252B::get_offset_of_fadeRange_12(),
-	VuMarkTrackableEventHandler_t3FA22A1DA17C3830A56ABF761063A60BE883252B::get_offset_of_centralAnchorPoint_13(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4532 = { sizeof (ButtonTile_tE73735CFF50DE9F164B3B3661FED7F2F53AEF8BB), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4532[2] = 
-{
-	ButtonTile_tE73735CFF50DE9F164B3B3661FED7F2F53AEF8BB::get_offset_of_m_ButtonHighlight_4(),
-	ButtonTile_tE73735CFF50DE9F164B3B3661FED7F2F53AEF8BB::get_offset_of_m_SceneToLoad_5(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4533 = { sizeof (Cursor_t41C86541F738B8481E1B52E133EA0C2E03D3D630), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4533[4] = 
-{
-	Cursor_t41C86541F738B8481E1B52E133EA0C2E03D3D630::get_offset_of_m_CursorDot_4(),
-	Cursor_t41C86541F738B8481E1B52E133EA0C2E03D3D630::get_offset_of_m_CursorRing_5(),
-	Cursor_t41C86541F738B8481E1B52E133EA0C2E03D3D630::get_offset_of_m_Cursor_6(),
-	Cursor_t41C86541F738B8481E1B52E133EA0C2E03D3D630::get_offset_of_m_GestureRecognizer_7(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4534 = { sizeof (CustomTurnOffBehaviour_t8CDB915D20EEFB3A8BEBCA303083D020C2BB5C42), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4534[1] = 
-{
-	CustomTurnOffBehaviour_t8CDB915D20EEFB3A8BEBCA303083D020C2BB5C42::get_offset_of_turnOffRendering_4(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4535 = { sizeof (TurnOffRendering_t931FE22566FBF87F7FA8C2BB89D377B2A65BFDE9)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable4535[4] = 
-{
-	TurnOffRendering_t931FE22566FBF87F7FA8C2BB89D377B2A65BFDE9::get_offset_of_value___2() + static_cast<int32_t>(sizeof(RuntimeObject)),
-	0,
-	0,
-	0,
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4536 = { sizeof (HelpMenu_tFA337B11D9CEF46CAA742D7AF0F50CDB4032B59F), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4536[3] = 
-{
-	HelpMenu_tFA337B11D9CEF46CAA742D7AF0F50CDB4032B59F::get_offset_of_m_DisplayOnLoad_4(),
-	HelpMenu_tFA337B11D9CEF46CAA742D7AF0F50CDB4032B59F::get_offset_of_m_GestureRecognizer_5(),
-	HelpMenu_tFA337B11D9CEF46CAA742D7AF0F50CDB4032B59F::get_offset_of_m_AudioButtonPress_6(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4537 = { sizeof (MainMenu_t7CD5D54EA3EBFAE6ECFE46E095EFEBFD14C45105), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4537[4] = 
-{
-	MainMenu_t7CD5D54EA3EBFAE6ECFE46E095EFEBFD14C45105::get_offset_of_U3CFocusedObjectU3Ek__BackingField_4(),
-	MainMenu_t7CD5D54EA3EBFAE6ECFE46E095EFEBFD14C45105::get_offset_of_FocusedObjectPrevFrame_5(),
-	MainMenu_t7CD5D54EA3EBFAE6ECFE46E095EFEBFD14C45105::get_offset_of_m_GestureRecognizer_6(),
-	MainMenu_t7CD5D54EA3EBFAE6ECFE46E095EFEBFD14C45105::get_offset_of_m_AudioButtonPress_7(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4538 = { sizeof (Versions_t5D3FA6D1214ABD061112BAFD928AD221D5604149), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4539 = { sizeof (VoiceCommands_tA60059AD288209E85CD3E2F35DDDB8265359A555), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4539[7] = 
-{
-	VoiceCommands_tA60059AD288209E85CD3E2F35DDDB8265359A555::get_offset_of_keywords_4(),
-	VoiceCommands_tA60059AD288209E85CD3E2F35DDDB8265359A555::get_offset_of_m_KeywordRecognizer_5(),
-	VoiceCommands_tA60059AD288209E85CD3E2F35DDDB8265359A555::get_offset_of_m_CanvasGroup_6(),
-	VoiceCommands_tA60059AD288209E85CD3E2F35DDDB8265359A555::get_offset_of_m_VoiceKeywordText_7(),
-	VoiceCommands_tA60059AD288209E85CD3E2F35DDDB8265359A555::get_offset_of_m_VoiceKeywordAnimator_8(),
-	VoiceCommands_tA60059AD288209E85CD3E2F35DDDB8265359A555::get_offset_of_m_AudioSource_9(),
-	VoiceCommands_tA60059AD288209E85CD3E2F35DDDB8265359A555::get_offset_of_m_HelpMenu_10(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4540 = { sizeof (U3CU3Ec_t5915546C48D5F18D0EFD9C4955DB321BBBCAC8C1), -1, sizeof(U3CU3Ec_t5915546C48D5F18D0EFD9C4955DB321BBBCAC8C1_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable4540[9] = 
-{
-	U3CU3Ec_t5915546C48D5F18D0EFD9C4955DB321BBBCAC8C1_StaticFields::get_offset_of_U3CU3E9_0(),
-	U3CU3Ec_t5915546C48D5F18D0EFD9C4955DB321BBBCAC8C1_StaticFields::get_offset_of_U3CU3E9__9_3_1(),
-	U3CU3Ec_t5915546C48D5F18D0EFD9C4955DB321BBBCAC8C1_StaticFields::get_offset_of_U3CU3E9__9_4_2(),
-	U3CU3Ec_t5915546C48D5F18D0EFD9C4955DB321BBBCAC8C1_StaticFields::get_offset_of_U3CU3E9__9_5_3(),
-	U3CU3Ec_t5915546C48D5F18D0EFD9C4955DB321BBBCAC8C1_StaticFields::get_offset_of_U3CU3E9__9_6_4(),
-	U3CU3Ec_t5915546C48D5F18D0EFD9C4955DB321BBBCAC8C1_StaticFields::get_offset_of_U3CU3E9__9_7_5(),
-	U3CU3Ec_t5915546C48D5F18D0EFD9C4955DB321BBBCAC8C1_StaticFields::get_offset_of_U3CU3E9__9_8_6(),
-	U3CU3Ec_t5915546C48D5F18D0EFD9C4955DB321BBBCAC8C1_StaticFields::get_offset_of_U3CU3E9__9_9_7(),
-	U3CU3Ec_t5915546C48D5F18D0EFD9C4955DB321BBBCAC8C1_StaticFields::get_offset_of_U3CU3E9__9_10_8(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4541 = { sizeof (ButtonUIController_t3BCC5FCBC07E70CA7E3518E9BAF288DCBE807F44), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4541[2] = 
-{
-	ButtonUIController_t3BCC5FCBC07E70CA7E3518E9BAF288DCBE807F44::get_offset_of_Scene2Generate_4(),
-	ButtonUIController_t3BCC5FCBC07E70CA7E3518E9BAF288DCBE807F44::get_offset_of_ButtonBundary_5(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4542 = { sizeof (Cursor_UI_del_t4DB42CABBDE3444831FAAA43954A4C645617147D), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4543 = { sizeof (GazeManager_tE03EC6EAC225C91FBAA402157FBE1C801316D828), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4543[3] = 
-{
-	GazeManager_tE03EC6EAC225C91FBAA402157FBE1C801316D828::get_offset_of__selection_4(),
-	GazeManager_tE03EC6EAC225C91FBAA402157FBE1C801316D828::get_offset_of_selectableTag_5(),
-	GazeManager_tE03EC6EAC225C91FBAA402157FBE1C801316D828::get_offset_of_FocusObj_6(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4544 = { sizeof (InputManager_t208BBEDF18F7B320FCB945FC0F5D757BEBC45ACE), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4544[1] = 
-{
-	InputManager_t208BBEDF18F7B320FCB945FC0F5D757BEBC45ACE::get_offset_of_Toggle_4(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4545 = { sizeof (ShakeAnimation_t3A5A964BF2B303492C8CF521A92AA41F86F84A69), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4545[3] = 
-{
-	ShakeAnimation_t3A5A964BF2B303492C8CF521A92AA41F86F84A69::get_offset_of_shakeAmount_4(),
-	ShakeAnimation_t3A5A964BF2B303492C8CF521A92AA41F86F84A69::get_offset_of_is_shake_5(),
-	ShakeAnimation_t3A5A964BF2B303492C8CF521A92AA41F86F84A69::get_offset_of_first_pos_6(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4546 = { sizeof (ToggleUIController_tE9A9D0CB9A93822946CF715E9D784D73CEAF8995), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4546[5] = 
-{
-	ToggleUIController_tE9A9D0CB9A93822946CF715E9D784D73CEAF8995::get_offset_of_PlayScene_4(),
-	ToggleUIController_tE9A9D0CB9A93822946CF715E9D784D73CEAF8995::get_offset_of_RepeatScene_5(),
-	ToggleUIController_tE9A9D0CB9A93822946CF715E9D784D73CEAF8995::get_offset_of_Bundary_6(),
-	ToggleUIController_tE9A9D0CB9A93822946CF715E9D784D73CEAF8995::get_offset_of_Switch_7(),
-	ToggleUIController_tE9A9D0CB9A93822946CF715E9D784D73CEAF8995::get_offset_of_Repeat_8(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4547 = { sizeof (Delegate_t9AAD81FB10F2D1DFC2BA6FF9894EEBABA66FFB01), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4548 = { sizeof (Key_detection_tB5E5266FA03A9669E8083924FF12F6DCFA09DF15), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4548[1] = 
-{
-	Key_detection_tB5E5266FA03A9669E8083924FF12F6DCFA09DF15::get_offset_of_Notetester_4(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4549 = { sizeof (KeyMessageReceiver_tE60D4584279E8CF9B46B9DEAD35210A3316A73F4), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4549[3] = 
-{
-	KeyMessageReceiver_tE60D4584279E8CF9B46B9DEAD35210A3316A73F4::get_offset_of_Child_4(),
-	KeyMessageReceiver_tE60D4584279E8CF9B46B9DEAD35210A3316A73F4::get_offset_of_image_5(),
-	KeyMessageReceiver_tE60D4584279E8CF9B46B9DEAD35210A3316A73F4::get_offset_of_Musicoffset_6(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4550 = { sizeof (MultiWebCamManager_t10103B6E7C506A50519CC5E443765CAA6C59402B), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4550[3] = 
-{
-	MultiWebCamManager_t10103B6E7C506A50519CC5E443765CAA6C59402B::get_offset_of_webCamTexturePrefab_4(),
-	MultiWebCamManager_t10103B6E7C506A50519CC5E443765CAA6C59402B::get_offset_of_nameOfCams_5(),
-	MultiWebCamManager_t10103B6E7C506A50519CC5E443765CAA6C59402B::get_offset_of_webCamTextures_6(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4551 = { sizeof (ParserMusicUnity_t5D972ADDA326F1287E76105F929BDA324A1468AE), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4551[13] = 
-{
-	ParserMusicUnity_t5D972ADDA326F1287E76105F929BDA324A1468AE::get_offset_of_instance_4(),
-	ParserMusicUnity_t5D972ADDA326F1287E76105F929BDA324A1468AE::get_offset_of_notePrefab_5(),
-	ParserMusicUnity_t5D972ADDA326F1287E76105F929BDA324A1468AE::get_offset_of_Yvalue_6(),
-	ParserMusicUnity_t5D972ADDA326F1287E76105F929BDA324A1468AE::get_offset_of_XValue_7(),
-	ParserMusicUnity_t5D972ADDA326F1287E76105F929BDA324A1468AE::get_offset_of_notespeed_8(),
-	ParserMusicUnity_t5D972ADDA326F1287E76105F929BDA324A1468AE::get_offset_of_MusicInfo_9(),
-	ParserMusicUnity_t5D972ADDA326F1287E76105F929BDA324A1468AE::get_offset_of_MusicinfoDetector_10(),
-	ParserMusicUnity_t5D972ADDA326F1287E76105F929BDA324A1468AE::get_offset_of_Notes2GenerateOneTime_11(),
-	ParserMusicUnity_t5D972ADDA326F1287E76105F929BDA324A1468AE::get_offset_of_distancePerTime_12(),
-	ParserMusicUnity_t5D972ADDA326F1287E76105F929BDA324A1468AE::get_offset_of_a_13(),
-	ParserMusicUnity_t5D972ADDA326F1287E76105F929BDA324A1468AE::get_offset_of_xPosition_14(),
-	ParserMusicUnity_t5D972ADDA326F1287E76105F929BDA324A1468AE::get_offset_of_yPosition_15(),
-	ParserMusicUnity_t5D972ADDA326F1287E76105F929BDA324A1468AE::get_offset_of_zPosition_16(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4552 = { sizeof (U3CWaitAndPrintU3Ed__15_t701D6026042A3DECD1AECE72FB8AF07C52EFF601), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4552[3] = 
-{
-	U3CWaitAndPrintU3Ed__15_t701D6026042A3DECD1AECE72FB8AF07C52EFF601::get_offset_of_U3CU3E1__state_0(),
-	U3CWaitAndPrintU3Ed__15_t701D6026042A3DECD1AECE72FB8AF07C52EFF601::get_offset_of_U3CU3E2__current_1(),
-	U3CWaitAndPrintU3Ed__15_t701D6026042A3DECD1AECE72FB8AF07C52EFF601::get_offset_of_U3CU3E4__this_2(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4553 = { sizeof (VirtualKeyController_t3303962BF9975D85DF975B8EC6D1DB1D5E3DA076), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4553[1] = 
-{
-	VirtualKeyController_t3303962BF9975D85DF975B8EC6D1DB1D5E3DA076::get_offset_of_Keyspeed_4(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4554 = { sizeof (TrackableEventHandle_holoPiano_t25D420B57466CE6798F82A08F3C34D101C1CA4B0), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4554[4] = 
-{
-	TrackableEventHandle_holoPiano_t25D420B57466CE6798F82A08F3C34D101C1CA4B0::get_offset_of_mTrackableBehaviour_4(),
-	TrackableEventHandle_holoPiano_t25D420B57466CE6798F82A08F3C34D101C1CA4B0::get_offset_of_m_PreviousStatus_5(),
-	TrackableEventHandle_holoPiano_t25D420B57466CE6798F82A08F3C34D101C1CA4B0::get_offset_of_m_NewStatus_6(),
-	TrackableEventHandle_holoPiano_t25D420B57466CE6798F82A08F3C34D101C1CA4B0::get_offset_of_menuController_7(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4555 = { sizeof (MusicParser_t67DB8A6A5564D7BA16C6730F5E8236C175BEE7DF), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4555[3] = 
-{
-	MusicParser_t67DB8A6A5564D7BA16C6730F5E8236C175BEE7DF::get_offset_of_doc_0(),
-	MusicParser_t67DB8A6A5564D7BA16C6730F5E8236C175BEE7DF::get_offset_of_xmlFilePath_1(),
-	MusicParser_t67DB8A6A5564D7BA16C6730F5E8236C175BEE7DF::get_offset_of_MusicInfo_2(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4556 = { sizeof (MidiChannel_t97D5735B251967416AC5DA93355FF631BD778F87)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable4556[18] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4500 = { 0, sizeof(ISoftwareBitmap_tF311080EE78E9ED0F3A927086502A086D0A01206*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4501 = { 0, sizeof(ISoftwareBitmapFactory_tDCC6F9B370D495BF1367EDE6DD7574C18A03BF1B*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4502 = { 0, sizeof(ISoftwareBitmapStatics_tDB7DDB9262610AE1CF9C6B6D84A90529F306E225*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4503 = { sizeof (SoftwareBitmap_t871B3C0711A694F4528932C74C6772A4B469710C), -1, sizeof(SoftwareBitmap_t871B3C0711A694F4528932C74C6772A4B469710C_StaticFields), 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4504 = { 0, sizeof(IMediaFrameArrivedEventArgs_t07A7A43869474634E9BB7EFD85514DDBEC4EDC32*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4505 = { 0, sizeof(IMediaFrameReader_t41159792231B0F1C5CEA6AABB5F70CBFC5A1359C*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4506 = { 0, sizeof(IMediaFrameReader2_tF3265EEAE0A57AE73C2D1934A3C67EB21A854E41*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4507 = { 0, sizeof(IMediaFrameReference_t1A17C7B83A5DA84F0BEF457E534B81A5D5EF1F82*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4508 = { 0, sizeof(IMediaFrameReference2_tE5304240AA43B5095BDF1FD9A62A6039C4493C0A*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4509 = { 0, sizeof(IMediaFrameSource_tD3308E3D0D7FF40501F566F0DA6A0E3BDEB1AC00*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4510 = { 0, sizeof(IMediaFrameSourceGroup_t666F492EE37B820BB6324C17BA513497F569B70A*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4511 = { 0, sizeof(IMediaFrameSourceGroupStatics_tA34576A9FF3ADD20A6B5B273AB4FD6604AB6862F*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4512 = { 0, sizeof(IMediaFrameSourceInfo_t692F99DEA8E8FA2CCFC018711951A0BED5EFD0CA*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4513 = { 0, sizeof(IMediaFrameSourceInfo2_t9A1686B492F6D1620472F90E1FC9F6D0D455BF06*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4514 = { 0, sizeof(IVideoMediaFrame_tBA1410A0B2408E43F9973EB75F4797320411343A*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4515 = { sizeof (MediaFrameArrivedEventArgs_tEDB0535697E59BD65D82FC073BE9891E02D91C52), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4516 = { sizeof (MediaFrameReader_t342162B051092146AAF3EBE162314FB1B7B682A8), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4517 = { sizeof (MediaFrameReaderStartStatus_t25BC32FEBC7625500B86728E22F570F6FA8ACA41)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable4517[6] = 
 {
-	MidiChannel_t97D5735B251967416AC5DA93355FF631BD778F87::get_offset_of_value___2() + static_cast<int32_t>(sizeof(RuntimeObject)),
+	MediaFrameReaderStartStatus_t25BC32FEBC7625500B86728E22F570F6FA8ACA41::get_offset_of_value___2() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	0,
 	0,
 	0,
 	0,
 	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4518 = { sizeof (MediaFrameReference_t715F59D5326D7C916CC8EEF6D0DD32E95AE97957), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4519 = { sizeof (MediaFrameSource_t6FF8936C4424F0E059DBF2B2E89C231EDB9DF3BF), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4520 = { sizeof (MediaFrameSourceGroup_tF997C40F28C6CEB09D9F3BC9F94F275F48F23901), -1, sizeof(MediaFrameSourceGroup_tF997C40F28C6CEB09D9F3BC9F94F275F48F23901_StaticFields), 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4521 = { sizeof (MediaFrameSourceInfo_tE86F622882F703CDC5C74582BB85F69BABC54180), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4522 = { sizeof (MediaFrameSourceKind_t8B06C82985C44DB2339F6DD61CFD817F26EBC79E)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable4522[7] = 
+{
+	MediaFrameSourceKind_t8B06C82985C44DB2339F6DD61CFD817F26EBC79E::get_offset_of_value___2() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	0,
 	0,
 	0,
@@ -7060,310 +3723,113 @@ extern const int32_t g_FieldOffsetTable4556[18] =
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4557 = { sizeof (MidiMessage_t8CD3ADBE3F82C837CFC39B070CB428BF1A246DA8)+ sizeof (RuntimeObject), sizeof(MidiMessage_t8CD3ADBE3F82C837CFC39B070CB428BF1A246DA8 ), 0, 0 };
-extern const int32_t g_FieldOffsetTable4557[4] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4523 = { sizeof (VideoMediaFrame_t22718691D0AAD0F64822EE569F35DEE9EDF60532), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4524 = { 0, sizeof(IMediaCapture_t9123705D66590255587AAC3E4ED82ECE2767205B*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4525 = { 0, sizeof(IMediaCapture2_t68DE29AAFCE92011689D3D15EE28AAAF9F46F1C2*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4526 = { 0, sizeof(IMediaCapture3_t016C6386E44A19033700DBDFCE814747EE5CB351*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4527 = { 0, sizeof(IMediaCapture4_tF72CFA3080F25AEA976608EBBA0F66019F3B697B*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4528 = { 0, sizeof(IMediaCapture5_t27428D8E8E521422152B4F1A2E17E445B56EF2E2*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4529 = { 0, sizeof(IMediaCapture6_tD6E451C596042EC9DEFB6A9410427AB2F1A81382*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4530 = { 0, sizeof(IMediaCaptureInitializationSettings_t1DE7B3A5620B15183FB009189485AC2A3856B857*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4531 = { 0, sizeof(IMediaCaptureInitializationSettings2_t482972210DD8330BF057CA8F290F95CE10C0F508*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4532 = { 0, sizeof(IMediaCaptureInitializationSettings3_t579AFF8CFA204E3C76CE38804A1D7EEDCCF2607A*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4533 = { 0, sizeof(IMediaCaptureInitializationSettings4_t7137E0773132F892B4C82C7015884CADC5BA5541*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4534 = { 0, sizeof(IMediaCaptureInitializationSettings5_tA06528D746752978C624C1F39B8BAF77FB7F6689*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4535 = { 0, sizeof(IMediaCaptureInitializationSettings6_t4690F94C235648E9707EE63997895107C4ACA685*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4536 = { 0, sizeof(IMediaCaptureStatics_t42BE19EC13C73A4C538171B7388D79D4452ED1C8*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4537 = { 0, sizeof(IMediaCaptureVideoPreview_t9226A4AA5FCD778BA9439FF047B95A86ED32B3AB*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4538 = { sizeof (MediaCapture_t9943184E78F5E7BEE77F2169A0C554B47A74C8A4), -1, sizeof(MediaCapture_t9943184E78F5E7BEE77F2169A0C554B47A74C8A4_StaticFields), 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4539 = { sizeof (MediaCaptureInitializationSettings_t86219F0A1AD1FE0B87F0403C7BEAF2B8428AA1B1), -1, sizeof(MediaCaptureInitializationSettings_t86219F0A1AD1FE0B87F0403C7BEAF2B8428AA1B1_StaticFields), 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4540 = { sizeof (MediaCaptureMemoryPreference_tA054D938FC915F3D12266E27673C27B0F6B298E6)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable4540[3] = 
 {
-	MidiMessage_t8CD3ADBE3F82C837CFC39B070CB428BF1A246DA8::get_offset_of_source_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
-	MidiMessage_t8CD3ADBE3F82C837CFC39B070CB428BF1A246DA8::get_offset_of_status_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
-	MidiMessage_t8CD3ADBE3F82C837CFC39B070CB428BF1A246DA8::get_offset_of_data1_2() + static_cast<int32_t>(sizeof(RuntimeObject)),
-	MidiMessage_t8CD3ADBE3F82C837CFC39B070CB428BF1A246DA8::get_offset_of_data2_3() + static_cast<int32_t>(sizeof(RuntimeObject)),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4558 = { sizeof (MidiDriver_t0C077280D855F8BB520A7C72D8D69C6FF9BF4E12), -1, sizeof(MidiDriver_t0C077280D855F8BB520A7C72D8D69C6FF9BF4E12_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable4558[6] = 
-{
-	MidiDriver_t0C077280D855F8BB520A7C72D8D69C6FF9BF4E12::get_offset_of__channelArray_0(),
-	MidiDriver_t0C077280D855F8BB520A7C72D8D69C6FF9BF4E12::get_offset_of__lastFrame_1(),
-	MidiDriver_t0C077280D855F8BB520A7C72D8D69C6FF9BF4E12::get_offset_of_U3CnoteOnDelegateU3Ek__BackingField_2(),
-	MidiDriver_t0C077280D855F8BB520A7C72D8D69C6FF9BF4E12::get_offset_of_U3CnoteOffDelegateU3Ek__BackingField_3(),
-	MidiDriver_t0C077280D855F8BB520A7C72D8D69C6FF9BF4E12::get_offset_of_U3CknobDelegateU3Ek__BackingField_4(),
-	MidiDriver_t0C077280D855F8BB520A7C72D8D69C6FF9BF4E12_StaticFields::get_offset_of__instance_5(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4559 = { sizeof (ChannelState_t2F3BBA01D56F4FB87D8E4F777DBB3AD9164986AB), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4559[2] = 
-{
-	ChannelState_t2F3BBA01D56F4FB87D8E4F777DBB3AD9164986AB::get_offset_of__noteArray_0(),
-	ChannelState_t2F3BBA01D56F4FB87D8E4F777DBB3AD9164986AB::get_offset_of__knobMap_1(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4560 = { sizeof (NoteOnDelegate_tEFD77A4AD3CB70F0EC4BAB93EBEE23A70F51C398), sizeof(Il2CppMethodPointer), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4561 = { sizeof (NoteOffDelegate_tCB084EDADCD9221746EEDA6BC57308995B1BED35), sizeof(Il2CppMethodPointer), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4562 = { sizeof (KnobDelegate_t834ED9A2E7591235544DED63B3C731F8AA91968C), sizeof(Il2CppMethodPointer), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4563 = { sizeof (MidiMaster_t15D939F714CBEF7B8A88D5143E1A6EE5EC57FEF4), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4564 = { sizeof (MidiStateUpdater_t23667673EDC8942E414F725B00F4C700A0A2C5F2), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4564[1] = 
-{
-	MidiStateUpdater_t23667673EDC8942E414F725B00F4C700A0A2C5F2::get_offset_of__callback_4(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4565 = { sizeof (Callback_tC38747B8485A5657D460EBD31B06F21FBBC5C1A3), sizeof(Il2CppMethodPointer), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4566 = { sizeof (CameraCache_t442E41B2CF392BC7F600FE0A6E56F83609475326), -1, sizeof(CameraCache_t442E41B2CF392BC7F600FE0A6E56F83609475326_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable4566[1] = 
-{
-	CameraCache_t442E41B2CF392BC7F600FE0A6E56F83609475326_StaticFields::get_offset_of_cachedCamera_0(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4567 = { sizeof (Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4567[22] = 
-{
-	Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB::get_offset_of_UseUnscaledTime_4(),
-	0,
-	Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB::get_offset_of_PositionPerSecond_6(),
-	Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB::get_offset_of_RotationDegreesPerSecond_7(),
-	Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB::get_offset_of_RotationSpeedScaler_8(),
-	Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB::get_offset_of_ScalePerSecond_9(),
-	Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB::get_offset_of_SmoothLerpToTarget_10(),
-	Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB::get_offset_of_SmoothPositionLerpRatio_11(),
-	Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB::get_offset_of_SmoothRotationLerpRatio_12(),
-	Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB::get_offset_of_SmoothScaleLerpRatio_13(),
-	Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB::get_offset_of_targetPosition_14(),
-	Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB::get_offset_of_U3CAnimatingPositionU3Ek__BackingField_15(),
-	Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB::get_offset_of_targetRotation_16(),
-	Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB::get_offset_of_U3CAnimatingRotationU3Ek__BackingField_17(),
-	Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB::get_offset_of_targetLocalRotation_18(),
-	Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB::get_offset_of_U3CAnimatingLocalRotationU3Ek__BackingField_19(),
-	Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB::get_offset_of_targetLocalScale_20(),
-	Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB::get_offset_of_U3CAnimatingLocalScaleU3Ek__BackingField_21(),
-	Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB::get_offset_of_InterpolationStarted_22(),
-	Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB::get_offset_of_InterpolationDone_23(),
-	Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB::get_offset_of_U3CPositionVelocityU3Ek__BackingField_24(),
-	Interpolator_t91D8B29AE390B7B78F51A16E607B6E077BCF08FB::get_offset_of_oldPosition_25(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4568 = { sizeof (PivotAxis_t0C9C612304ED1362B78F9DB9CBB7BE918A2F230D)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable4568[3] = 
-{
-	PivotAxis_t0C9C612304ED1362B78F9DB9CBB7BE918A2F230D::get_offset_of_value___2() + static_cast<int32_t>(sizeof(RuntimeObject)),
+	MediaCaptureMemoryPreference_tA054D938FC915F3D12266E27673C27B0F6B298E6::get_offset_of_value___2() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4569 = { sizeof (Billboard_tAA8C1AD8979B5E4EB34DF529C07E9F1485ED61CD), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4569[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4541 = { sizeof (MediaCategory_t30261E1B04C33AB5BAEEB3860A44B5AD781EDA3A)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable4541[6] = 
 {
-	Billboard_tAA8C1AD8979B5E4EB34DF529C07E9F1485ED61CD::get_offset_of_PivotAxis_4(),
-	Billboard_tAA8C1AD8979B5E4EB34DF529C07E9F1485ED61CD::get_offset_of_TargetTransform_5(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4570 = { sizeof (FixedAngularSize_t84073CBDB97236B0628E55C301ECB054732ECF1A), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4570[3] = 
-{
-	FixedAngularSize_t84073CBDB97236B0628E55C301ECB054732ECF1A::get_offset_of_SizeRatio_4(),
-	FixedAngularSize_t84073CBDB97236B0628E55C301ECB054732ECF1A::get_offset_of_startingDistance_5(),
-	FixedAngularSize_t84073CBDB97236B0628E55C301ECB054732ECF1A::get_offset_of_startingScale_6(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4571 = { sizeof (SimpleTagalong_t37199001ED0DBE680EBA7D85763CC3DD78FE3671), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4571[12] = 
-{
-	SimpleTagalong_t37199001ED0DBE680EBA7D85763CC3DD78FE3671::get_offset_of_TagalongDistance_4(),
-	SimpleTagalong_t37199001ED0DBE680EBA7D85763CC3DD78FE3671::get_offset_of_EnforceDistance_5(),
-	SimpleTagalong_t37199001ED0DBE680EBA7D85763CC3DD78FE3671::get_offset_of_PositionUpdateSpeed_6(),
-	SimpleTagalong_t37199001ED0DBE680EBA7D85763CC3DD78FE3671::get_offset_of_SmoothMotion_7(),
-	SimpleTagalong_t37199001ED0DBE680EBA7D85763CC3DD78FE3671::get_offset_of_SmoothingFactor_8(),
-	SimpleTagalong_t37199001ED0DBE680EBA7D85763CC3DD78FE3671::get_offset_of_tagalongCollider_9(),
-	SimpleTagalong_t37199001ED0DBE680EBA7D85763CC3DD78FE3671::get_offset_of_interpolator_10(),
-	SimpleTagalong_t37199001ED0DBE680EBA7D85763CC3DD78FE3671::get_offset_of_frustumPlanes_11(),
-	0,
-	0,
-	0,
-	0,
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4572 = { sizeof (Tagalong_tF6A72276638E02A84C0B08D58D247150310B4908), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4572[12] = 
-{
-	Tagalong_tF6A72276638E02A84C0B08D58D247150310B4908::get_offset_of_MinimumHorizontalOverlap_16(),
-	Tagalong_tF6A72276638E02A84C0B08D58D247150310B4908::get_offset_of_TargetHorizontalOverlap_17(),
-	Tagalong_tF6A72276638E02A84C0B08D58D247150310B4908::get_offset_of_MinimumVerticalOverlap_18(),
-	Tagalong_tF6A72276638E02A84C0B08D58D247150310B4908::get_offset_of_TargetVerticalOverlap_19(),
-	Tagalong_tF6A72276638E02A84C0B08D58D247150310B4908::get_offset_of_HorizontalRayCount_20(),
-	Tagalong_tF6A72276638E02A84C0B08D58D247150310B4908::get_offset_of_VerticalRayCount_21(),
-	Tagalong_tF6A72276638E02A84C0B08D58D247150310B4908::get_offset_of_MinimumTagalongDistance_22(),
-	Tagalong_tF6A72276638E02A84C0B08D58D247150310B4908::get_offset_of_MaintainFixedSize_23(),
-	Tagalong_tF6A72276638E02A84C0B08D58D247150310B4908::get_offset_of_DepthUpdateSpeed_24(),
-	Tagalong_tF6A72276638E02A84C0B08D58D247150310B4908::get_offset_of_defaultTagalongDistance_25(),
-	Tagalong_tF6A72276638E02A84C0B08D58D247150310B4908::get_offset_of_DebugDrawLines_26(),
-	Tagalong_tF6A72276638E02A84C0B08D58D247150310B4908::get_offset_of_DebugPointLight_27(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4573 = { sizeof (U3CPrivateImplementationDetailsU3E_t4846F3E0DC61BBD6AE249FF1EAAC4CB64097DE4A), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4574 = { sizeof (U3CModuleU3E_tF157A75827DFDE1F9E89CA3CBB54B07FA9E227FC), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4575 = { sizeof (MenuSceneLoader_tED3F5289ED7B0BED1A420F475DA66E8FF4A2B0CD), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4575[2] = 
-{
-	MenuSceneLoader_tED3F5289ED7B0BED1A420F475DA66E8FF4A2B0CD::get_offset_of_menuUI_4(),
-	MenuSceneLoader_tED3F5289ED7B0BED1A420F475DA66E8FF4A2B0CD::get_offset_of_m_Go_5(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4576 = { sizeof (PauseMenu_t01B62300A10E9F2CFEBE8D9E5171BC583EAC2939), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4576[4] = 
-{
-	PauseMenu_t01B62300A10E9F2CFEBE8D9E5171BC583EAC2939::get_offset_of_m_MenuToggle_4(),
-	PauseMenu_t01B62300A10E9F2CFEBE8D9E5171BC583EAC2939::get_offset_of_m_TimeScaleRef_5(),
-	PauseMenu_t01B62300A10E9F2CFEBE8D9E5171BC583EAC2939::get_offset_of_m_VolumeRef_6(),
-	PauseMenu_t01B62300A10E9F2CFEBE8D9E5171BC583EAC2939::get_offset_of_m_Paused_7(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4577 = { sizeof (SceneAndURLLoader_tB39E2777F0AB69CEABCC90C76B69FBC1F002E649), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4577[1] = 
-{
-	SceneAndURLLoader_tB39E2777F0AB69CEABCC90C76B69FBC1F002E649::get_offset_of_m_PauseMenu_4(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4578 = { sizeof (CameraSwitch_tD1CD73543B6468A64BCE40E61FF8FE77A75D589E), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4578[3] = 
-{
-	CameraSwitch_tD1CD73543B6468A64BCE40E61FF8FE77A75D589E::get_offset_of_objects_4(),
-	CameraSwitch_tD1CD73543B6468A64BCE40E61FF8FE77A75D589E::get_offset_of_text_5(),
-	CameraSwitch_tD1CD73543B6468A64BCE40E61FF8FE77A75D589E::get_offset_of_m_CurrentActiveObject_6(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4579 = { sizeof (LevelReset_tB9564C9993E2B89A7DEF83BCA188F126AF3DB46E), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4580 = { sizeof (AlphaButtonClickMask_t431FFA331A9DD47186CB93FD6922BAF79193588A), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4580[1] = 
-{
-	AlphaButtonClickMask_t431FFA331A9DD47186CB93FD6922BAF79193588A::get_offset_of__image_4(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4581 = { sizeof (EventSystemChecker_tBCFA2122420709BFD03E62FC9C31AB1EF1C0D9A2), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4582 = { sizeof (ForcedReset_tEC3681031282AAB62160CCEDC9038AD76F4ABD48), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4583 = { sizeof (ActivateTrigger_t27EAD9B7C42E77005A11C30C36157241265BEBFE), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4583[5] = 
-{
-	ActivateTrigger_t27EAD9B7C42E77005A11C30C36157241265BEBFE::get_offset_of_action_4(),
-	ActivateTrigger_t27EAD9B7C42E77005A11C30C36157241265BEBFE::get_offset_of_target_5(),
-	ActivateTrigger_t27EAD9B7C42E77005A11C30C36157241265BEBFE::get_offset_of_source_6(),
-	ActivateTrigger_t27EAD9B7C42E77005A11C30C36157241265BEBFE::get_offset_of_triggerCount_7(),
-	ActivateTrigger_t27EAD9B7C42E77005A11C30C36157241265BEBFE::get_offset_of_repeatTrigger_8(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4584 = { sizeof (Mode_tECAD0D4C21C8FACD30B1EA8B2273801BB473E016)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable4584[7] = 
-{
-	Mode_tECAD0D4C21C8FACD30B1EA8B2273801BB473E016::get_offset_of_value___2() + static_cast<int32_t>(sizeof(RuntimeObject)),
-	0,
+	MediaCategory_t30261E1B04C33AB5BAEEB3860A44B5AD781EDA3A::get_offset_of_value___2() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	0,
 	0,
 	0,
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4585 = { sizeof (AutoMobileShaderSwitch_tD7D1F3E76F3ACE1F239A8282654518512466F602), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4585[1] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4542 = { sizeof (MediaStreamType_t546C2A3EE080E2AC38DF1BB6161D4F79841951A2)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable4542[5] = 
 {
-	AutoMobileShaderSwitch_tD7D1F3E76F3ACE1F239A8282654518512466F602::get_offset_of_m_ReplacementList_4(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4586 = { sizeof (ReplacementDefinition_t3D10BAC1E74904A954F1225F7B5F7A26BD6B04E3), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4586[2] = 
-{
-	ReplacementDefinition_t3D10BAC1E74904A954F1225F7B5F7A26BD6B04E3::get_offset_of_original_0(),
-	ReplacementDefinition_t3D10BAC1E74904A954F1225F7B5F7A26BD6B04E3::get_offset_of_replacement_1(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4587 = { sizeof (ReplacementList_tB61E3C48AEAD548534A66E61A114FE42725BF8B7), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4587[1] = 
-{
-	ReplacementList_tB61E3C48AEAD548534A66E61A114FE42725BF8B7::get_offset_of_items_0(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4588 = { sizeof (AutoMoveAndRotate_t0C306BE99E1D9B543961EFD066E123FEF9981BAE), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4588[4] = 
-{
-	AutoMoveAndRotate_t0C306BE99E1D9B543961EFD066E123FEF9981BAE::get_offset_of_moveUnitsPerSecond_4(),
-	AutoMoveAndRotate_t0C306BE99E1D9B543961EFD066E123FEF9981BAE::get_offset_of_rotateDegreesPerSecond_5(),
-	AutoMoveAndRotate_t0C306BE99E1D9B543961EFD066E123FEF9981BAE::get_offset_of_ignoreTimescale_6(),
-	AutoMoveAndRotate_t0C306BE99E1D9B543961EFD066E123FEF9981BAE::get_offset_of_m_LastRealTime_7(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4589 = { sizeof (Vector3andSpace_tFFBEB79251E79158007EDD76C0AA5F44D94FC61C), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4589[2] = 
-{
-	Vector3andSpace_tFFBEB79251E79158007EDD76C0AA5F44D94FC61C::get_offset_of_value_0(),
-	Vector3andSpace_tFFBEB79251E79158007EDD76C0AA5F44D94FC61C::get_offset_of_space_1(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4590 = { sizeof (CameraRefocus_t2D15BFE1408DB751FF2C93747084E74B86409683), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4590[5] = 
-{
-	CameraRefocus_t2D15BFE1408DB751FF2C93747084E74B86409683::get_offset_of_Camera_0(),
-	CameraRefocus_t2D15BFE1408DB751FF2C93747084E74B86409683::get_offset_of_Lookatpoint_1(),
-	CameraRefocus_t2D15BFE1408DB751FF2C93747084E74B86409683::get_offset_of_Parent_2(),
-	CameraRefocus_t2D15BFE1408DB751FF2C93747084E74B86409683::get_offset_of_m_OrigCameraPos_3(),
-	CameraRefocus_t2D15BFE1408DB751FF2C93747084E74B86409683::get_offset_of_m_Refocus_4(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4591 = { sizeof (CurveControlledBob_tF4E3AA910B2B83A2C5EFC83AE44AF01410EB3CDD), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4591[9] = 
-{
-	CurveControlledBob_tF4E3AA910B2B83A2C5EFC83AE44AF01410EB3CDD::get_offset_of_HorizontalBobRange_0(),
-	CurveControlledBob_tF4E3AA910B2B83A2C5EFC83AE44AF01410EB3CDD::get_offset_of_VerticalBobRange_1(),
-	CurveControlledBob_tF4E3AA910B2B83A2C5EFC83AE44AF01410EB3CDD::get_offset_of_Bobcurve_2(),
-	CurveControlledBob_tF4E3AA910B2B83A2C5EFC83AE44AF01410EB3CDD::get_offset_of_VerticaltoHorizontalRatio_3(),
-	CurveControlledBob_tF4E3AA910B2B83A2C5EFC83AE44AF01410EB3CDD::get_offset_of_m_CyclePositionX_4(),
-	CurveControlledBob_tF4E3AA910B2B83A2C5EFC83AE44AF01410EB3CDD::get_offset_of_m_CyclePositionY_5(),
-	CurveControlledBob_tF4E3AA910B2B83A2C5EFC83AE44AF01410EB3CDD::get_offset_of_m_BobBaseInterval_6(),
-	CurveControlledBob_tF4E3AA910B2B83A2C5EFC83AE44AF01410EB3CDD::get_offset_of_m_OriginalCameraPosition_7(),
-	CurveControlledBob_tF4E3AA910B2B83A2C5EFC83AE44AF01410EB3CDD::get_offset_of_m_Time_8(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4592 = { sizeof (DragRigidbody_t69356A31AE06158C9C3A6F186ADA66CA6947621E), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4592[7] = 
-{
+	MediaStreamType_t546C2A3EE080E2AC38DF1BB6161D4F79841951A2::get_offset_of_value___2() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	0,
 	0,
 	0,
 	0,
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4543 = { sizeof (StreamingCaptureMode_tC9866CDFB670BCDE0C1D600D65677FDFD67BFC00)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable4543[4] = 
+{
+	StreamingCaptureMode_tC9866CDFB670BCDE0C1D600D65677FDFD67BFC00::get_offset_of_value___2() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	0,
 	0,
-	DragRigidbody_t69356A31AE06158C9C3A6F186ADA66CA6947621E::get_offset_of_m_SpringJoint_10(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4593 = { sizeof (U3CDragObjectU3Ed__8_t828402A7C81F732C617C4D4B11AE8CECCF21BFDE), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4593[7] = 
-{
-	U3CDragObjectU3Ed__8_t828402A7C81F732C617C4D4B11AE8CECCF21BFDE::get_offset_of_U3CU3E1__state_0(),
-	U3CDragObjectU3Ed__8_t828402A7C81F732C617C4D4B11AE8CECCF21BFDE::get_offset_of_U3CU3E2__current_1(),
-	U3CDragObjectU3Ed__8_t828402A7C81F732C617C4D4B11AE8CECCF21BFDE::get_offset_of_U3CU3E4__this_2(),
-	U3CDragObjectU3Ed__8_t828402A7C81F732C617C4D4B11AE8CECCF21BFDE::get_offset_of_distance_3(),
-	U3CDragObjectU3Ed__8_t828402A7C81F732C617C4D4B11AE8CECCF21BFDE::get_offset_of_U3ColdDragU3E5__2_4(),
-	U3CDragObjectU3Ed__8_t828402A7C81F732C617C4D4B11AE8CECCF21BFDE::get_offset_of_U3ColdAngularDragU3E5__3_5(),
-	U3CDragObjectU3Ed__8_t828402A7C81F732C617C4D4B11AE8CECCF21BFDE::get_offset_of_U3CmainCameraU3E5__4_6(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4594 = { sizeof (DynamicShadowSettings_tC19A73E12D5C65EDF4C4229F037176B73DC6B819), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4594[11] = 
-{
-	DynamicShadowSettings_tC19A73E12D5C65EDF4C4229F037176B73DC6B819::get_offset_of_sunLight_4(),
-	DynamicShadowSettings_tC19A73E12D5C65EDF4C4229F037176B73DC6B819::get_offset_of_minHeight_5(),
-	DynamicShadowSettings_tC19A73E12D5C65EDF4C4229F037176B73DC6B819::get_offset_of_minShadowDistance_6(),
-	DynamicShadowSettings_tC19A73E12D5C65EDF4C4229F037176B73DC6B819::get_offset_of_minShadowBias_7(),
-	DynamicShadowSettings_tC19A73E12D5C65EDF4C4229F037176B73DC6B819::get_offset_of_maxHeight_8(),
-	DynamicShadowSettings_tC19A73E12D5C65EDF4C4229F037176B73DC6B819::get_offset_of_maxShadowDistance_9(),
-	DynamicShadowSettings_tC19A73E12D5C65EDF4C4229F037176B73DC6B819::get_offset_of_maxShadowBias_10(),
-	DynamicShadowSettings_tC19A73E12D5C65EDF4C4229F037176B73DC6B819::get_offset_of_adaptTime_11(),
-	DynamicShadowSettings_tC19A73E12D5C65EDF4C4229F037176B73DC6B819::get_offset_of_m_SmoothHeight_12(),
-	DynamicShadowSettings_tC19A73E12D5C65EDF4C4229F037176B73DC6B819::get_offset_of_m_ChangeSpeed_13(),
-	DynamicShadowSettings_tC19A73E12D5C65EDF4C4229F037176B73DC6B819::get_offset_of_m_OriginalStrength_14(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4595 = { sizeof (FollowTarget_t16A3ED322B3D2F4070743A76D701B2C1BA818207), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4595[2] = 
-{
-	FollowTarget_t16A3ED322B3D2F4070743A76D701B2C1BA818207::get_offset_of_target_4(),
-	FollowTarget_t16A3ED322B3D2F4070743A76D701B2C1BA818207::get_offset_of_offset_5(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4596 = { sizeof (FOVKick_tAA0380126A0AB10D241285A16AB305CBC25E0338), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4596[6] = 
-{
-	FOVKick_tAA0380126A0AB10D241285A16AB305CBC25E0338::get_offset_of_Camera_0(),
-	FOVKick_tAA0380126A0AB10D241285A16AB305CBC25E0338::get_offset_of_originalFov_1(),
-	FOVKick_tAA0380126A0AB10D241285A16AB305CBC25E0338::get_offset_of_FOVIncrease_2(),
-	FOVKick_tAA0380126A0AB10D241285A16AB305CBC25E0338::get_offset_of_TimeToIncrease_3(),
-	FOVKick_tAA0380126A0AB10D241285A16AB305CBC25E0338::get_offset_of_TimeToDecrease_4(),
-	FOVKick_tAA0380126A0AB10D241285A16AB305CBC25E0338::get_offset_of_IncreaseCurve_5(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4597 = { sizeof (U3CFOVKickUpU3Ed__9_tF607E93C083049E68350B12FC37D2151BBC87360), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4597[4] = 
-{
-	U3CFOVKickUpU3Ed__9_tF607E93C083049E68350B12FC37D2151BBC87360::get_offset_of_U3CU3E1__state_0(),
-	U3CFOVKickUpU3Ed__9_tF607E93C083049E68350B12FC37D2151BBC87360::get_offset_of_U3CU3E2__current_1(),
-	U3CFOVKickUpU3Ed__9_tF607E93C083049E68350B12FC37D2151BBC87360::get_offset_of_U3CU3E4__this_2(),
-	U3CFOVKickUpU3Ed__9_tF607E93C083049E68350B12FC37D2151BBC87360::get_offset_of_U3CtU3E5__2_3(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4598 = { sizeof (U3CFOVKickDownU3Ed__10_tA3A428EA856F6715B9E240F0F89309C5FCB5B775), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4598[4] = 
-{
-	U3CFOVKickDownU3Ed__10_tA3A428EA856F6715B9E240F0F89309C5FCB5B775::get_offset_of_U3CU3E1__state_0(),
-	U3CFOVKickDownU3Ed__10_tA3A428EA856F6715B9E240F0F89309C5FCB5B775::get_offset_of_U3CU3E2__current_1(),
-	U3CFOVKickDownU3Ed__10_tA3A428EA856F6715B9E240F0F89309C5FCB5B775::get_offset_of_U3CU3E4__this_2(),
-	U3CFOVKickDownU3Ed__10_tA3A428EA856F6715B9E240F0F89309C5FCB5B775::get_offset_of_U3CtU3E5__2_3(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4599 = { sizeof (FPSCounter_tBC9E1AF914C13C7EC521697E94D53B0DCE5CF598), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable4599[6] = 
-{
 	0,
-	FPSCounter_tBC9E1AF914C13C7EC521697E94D53B0DCE5CF598::get_offset_of_m_FpsAccumulator_5(),
-	FPSCounter_tBC9E1AF914C13C7EC521697E94D53B0DCE5CF598::get_offset_of_m_FpsNextPeriod_6(),
-	FPSCounter_tBC9E1AF914C13C7EC521697E94D53B0DCE5CF598::get_offset_of_m_CurrentFps_7(),
-	0,
-	FPSCounter_tBC9E1AF914C13C7EC521697E94D53B0DCE5CF598::get_offset_of_m_Text_9(),
 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4544 = { 0, sizeof(ITimedMetadataTrackProvider_tF751FEAD3B72E8A922F2E37AA081DE8FD043452C*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4545 = { sizeof (AudioDeviceController_t4D5015A364B92A65D23E3DE7716652DC1B75EDD1), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4546 = { 0, sizeof(IAdvancedVideoCaptureDeviceController_t36B983AF24BEC71D09C3D2573A928A85E582F510*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4547 = { 0, sizeof(IAdvancedVideoCaptureDeviceController2_t0156A6C57BEE70C052A9444838892A9A35F3F8F4*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4548 = { 0, sizeof(IAdvancedVideoCaptureDeviceController3_t6C1557162255E65296FF2F01EE359A9E3584FF4C*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4549 = { 0, sizeof(IAdvancedVideoCaptureDeviceController4_tED29D347171185E1921766AC81559BD3EE171D7A*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4550 = { 0, sizeof(IAdvancedVideoCaptureDeviceController5_t5B0434956B779CBE12A546568C6E83004A418FB4*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4551 = { 0, sizeof(IAdvancedVideoCaptureDeviceController6_t03323832EEF893541CD077CE8E0FDBCDAA1576A1*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4552 = { 0, sizeof(IAdvancedVideoCaptureDeviceController7_t7913D7FB115FDC15EB985911CDDB14E00C4E860A*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4553 = { 0, sizeof(IAudioDeviceController_t2F1BC18AF123286A3D5B90A8E77F3288ED861694*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4554 = { 0, sizeof(IMediaDeviceControl_t666956282429407E543A29B60E07040E111AF899*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4555 = { 0, sizeof(IMediaDeviceController_t3165BC615DF1E88AD9D62D57D6783A4170CD7860*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4556 = { 0, sizeof(IVideoDeviceController_t969D8DE22D47185B0104472DB46701CC6D24F963*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4557 = { sizeof (MediaDeviceControl_t1258FE1F900A772A8299940F25E149DBDB9E56BE), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4558 = { sizeof (VideoDeviceController_t3FE321D6841D7614987550B33DD93CCFC55292FF), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4559 = { 0, sizeof(IVideoEffectDefinition_tB3BDE54658672900C714EE7B8ECDA0EAB155E589*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4560 = { 0, sizeof(IMediaExtension_tB342711957C1D9ACAC9E3E85C4B4F68E4637B5ED*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4561 = { 0, sizeof(IMediaEncodingProperties_t161B1E1789909965DD52E51AE4703028AB8EB003*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4562 = { 0, sizeof(IMediaEncodingSubtypesStatics_t45F1A6FEA78173D554298437C1E2A69D72EA67D2*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4563 = { 0, sizeof(IMediaEncodingSubtypesStatics2_t2B6BF183CB0CD1DFD49D954CF64186324E26B01B*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4564 = { 0, sizeof(IMediaEncodingSubtypesStatics3_t47F830745F0DFE30D426682E91B747A71EAC12CD*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4565 = { 0, sizeof(IMediaEncodingSubtypesStatics4_t82F4C9E4DFB25D9D17E61C44D2C31EF8B815FE55*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4566 = { 0, sizeof(IMediaEncodingSubtypesStatics5_tB0311A1306690977D21DA0F9929321C729287F59*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4567 = { 0, sizeof(IMediaRatio_tDBBB7757E0030AA6510825F6BC0D5FD265CB0E55*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4568 = { 0, sizeof(IVideoEncodingProperties_tD45C3489F08F03A97B3FE0BC7E44695344F92D68*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4569 = { 0, sizeof(IVideoEncodingProperties2_tC14A8671575FC2276B0979128A90AB11342FD978*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4570 = { 0, sizeof(IVideoEncodingProperties3_t6DBEBF2F6C3C16C2B8C318E4C15321D3F9325864*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4571 = { 0, sizeof(IVideoEncodingProperties4_t17EB6B012BC70A9E8BBE184BDC8139BD0E51A216*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4572 = { 0, sizeof(IVideoEncodingProperties5_t4B3702033B965E27CECE1BFE811218A715B4E1A0*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4573 = { 0, sizeof(IVideoEncodingPropertiesStatics_t5C1FFB0BBFB5DA97B49E75A2CAD934ED984D557F*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4574 = { 0, sizeof(IVideoEncodingPropertiesStatics2_t4551D182D5576ED7B3888651840B73416B8EE22E*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4575 = { sizeof (MediaEncodingSubtypes_t5FAA0D0C81884372AC21736D5D96BE5FA4B5F8A1), -1, sizeof(MediaEncodingSubtypes_t5FAA0D0C81884372AC21736D5D96BE5FA4B5F8A1_StaticFields), 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4576 = { sizeof (MediaPropertySet_t1C2AABD14D3DB741938E0283A4B24394DBE7937C), -1, sizeof(MediaPropertySet_t1C2AABD14D3DB741938E0283A4B24394DBE7937C_StaticFields), 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4577 = { sizeof (MediaRatio_tC2CF36E10AEFE5F8A09DF33E38AC5B67DE7B910A), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4578 = { sizeof (VideoEncodingProperties_tAFED37F348B6713E9E01FE5CAC57C1A3CB3A2652), -1, sizeof(VideoEncodingProperties_tAFED37F348B6713E9E01FE5CAC57C1A3CB3A2652_StaticFields), 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4579 = { 0, sizeof(IInstalledVoicesStatic_t5603923E9B07BC445EF1704DF763BD9A8DE8EA26*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4580 = { 0, sizeof(IInstalledVoicesStatic2_t4E597FCEFC1FE77F34510156BDF478520D211B3F*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4581 = { 0, sizeof(ISpeechSynthesisStream_t3158646B3FF9B7D7F312A13B123160155F843665*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4582 = { 0, sizeof(ISpeechSynthesizer_t091D478F98B160C7BDC66FD80727A7C43D9345EA*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4583 = { 0, sizeof(ISpeechSynthesizer2_t0D042039205C82FA8EF06BE41815B86301E83795*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4584 = { 0, sizeof(IVoiceInformation_t7606A990C72B19AFBA32B8BFE6BA93CECC002951*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4585 = { sizeof (SpeechSynthesisStream_t63A89BDC1863AC74447AF97A160990B48FA4EBED), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4586 = { sizeof (SpeechSynthesizer_t3FDCAAF5EABFC84F7D3C3F85E728E05BCBA97CA2), -1, sizeof(SpeechSynthesizer_t3FDCAAF5EABFC84F7D3C3F85E728E05BCBA97CA2_StaticFields), 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4587 = { sizeof (VoiceInformation_tB8E5450502FC3969D822253F14FFCBDCB985532C), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4588 = { sizeof (HostName_tDD37407B091F8A365D9C09F55E6F4D488358064F), -1, sizeof(HostName_tDD37407B091F8A365D9C09F55E6F4D488358064F_StaticFields), 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4589 = { 0, sizeof(IHostName_t7CC103357C0004DB2503909F01EAF58DEE073A91*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4590 = { 0, sizeof(IHostNameFactory_tFAC92E74B9B1ECB8C74BA8E62CF32D72A317A9B1*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4591 = { 0, sizeof(IHostNameStatics_t037D7823E06A83B2840951D9582F972EE0A1C3DC*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4592 = { sizeof (DatagramSocket_t6F2D811AC1E3705DA96D6972DA4D6BA0A96B2C78), -1, sizeof(DatagramSocket_t6F2D811AC1E3705DA96D6972DA4D6BA0A96B2C78_StaticFields), 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4593 = { sizeof (DatagramSocketMessageReceivedEventArgs_t576CC06FFC9E4EFFBCB6F08EE5ACB8FFEC6E9E7D), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4594 = { 0, sizeof(IDatagramSocket_t848EE6700A7594CBABF900E1A2EDA9CA16BBC69C*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4595 = { 0, sizeof(IDatagramSocket2_t9B6F3932780D35065730ED075C569F2EC63971CB*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4596 = { 0, sizeof(IDatagramSocket3_tC850609CA66B2414F6A6177A72803BF4F2A3660D*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4597 = { 0, sizeof(IDatagramSocketMessageReceivedEventArgs_t7FDF380B953E1040BB8DC9B74396100AEE3E8571*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4598 = { 0, sizeof(IDatagramSocketStatics_t5405037877878A8B44286DAA57B9410B9E5A1306*), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4599 = { 0, sizeof(IStreamSocket_t54E613F47EB9A57A06BD3CA55485E33B54B70014*), 0, 0 };
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

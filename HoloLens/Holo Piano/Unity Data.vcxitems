@@ -49,11 +49,11 @@
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\level1">
+    <None Include="$(MSBuildThisFileDirectory)Data\level0.resS">
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\level1.resS">
+    <None Include="$(MSBuildThisFileDirectory)Data\level1">
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
@@ -73,6 +73,14 @@
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\level5.resS">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\level6">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
+    </None>
     <None Include="$(MSBuildThisFileDirectory)Data\nativePlugins.txt">
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
@@ -85,19 +93,23 @@
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\resources.resource">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
+    </None>
     <None Include="$(MSBuildThisFileDirectory)Data\sharedassets0.assets">
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\sharedassets0.assets.resS">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\sharedassets0.resource">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
+    </None>
     <None Include="$(MSBuildThisFileDirectory)Data\sharedassets1.assets">
-      <DeploymentContent>true</DeploymentContent>
-      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
-    </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\sharedassets1.assets.resS">
-      <DeploymentContent>true</DeploymentContent>
-      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
-    </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\sharedassets1.resource">
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
@@ -110,6 +122,10 @@
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
     <None Include="$(MSBuildThisFileDirectory)Data\sharedassets3.assets">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\sharedassets3.assets.resS">
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
@@ -126,6 +142,14 @@
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
     <None Include="$(MSBuildThisFileDirectory)Data\sharedassets5.assets.resS">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\sharedassets6.assets">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\sharedassets6.assets.resS">
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
@@ -213,11 +237,23 @@
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\il2cpp_data\Resources\UnityChat.dll-resources.dat">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
+    </None>
     <None Include="$(MSBuildThisFileDirectory)Data\Resources\unity default resources">
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
     <None Include="$(MSBuildThisFileDirectory)Data\Resources\unity_builtin_extra">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\StreamingAssets\Vuforia\Piano_notes.dat">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\StreamingAssets\Vuforia\Piano_notes.xml">
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
@@ -273,6 +309,10 @@
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
+    <None Include="$(MSBuildThisFileDirectory)PlaneFinding.dll">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
+    </None>
     <None Include="$(MSBuildThisFileDirectory)VuforiaDL.dll">
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
@@ -281,7 +321,23 @@
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
+    <None Include="$(MSBuildThisFileDirectory)MicStreamSelector.dll">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)GpuTiming.dll">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
+    </None>
     <None Include="$(MSBuildThisFileDirectory)Vuforia.dll">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)SharingClient.dll">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)SpatialUnderstanding.dll">
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
@@ -310,6 +366,10 @@
             <Delete Files="$(ProjectDir)VuforiaWrapper.pdb" Condition="Exists('$(ProjectDir)VuforiaWrapper.pdb')" />
             <Delete Files="$(ProjectDir)VuforiaWrapper.dll.mdb" Condition="Exists('$(ProjectDir)VuforiaWrapper.dll.mdb')" />
             <Copy SourceFiles="$(ProjectDir)Plugins\$(PlatformShortName)\VuforiaWrapper.pdb" DestinationFiles="$(ProjectDir)VuforiaWrapper.pdb" Condition="Exists('$(ProjectDir)Plugins\$(PlatformShortName)\VuforiaWrapper.pdb')" />
+        <Copy SourceFiles="$(ProjectDir)Plugins\$(PlatformShortName)\PlaneFinding.dll" DestinationFiles="$(ProjectDir)PlaneFinding.dll" />
+            <Delete Files="$(ProjectDir)PlaneFinding.pdb" Condition="Exists('$(ProjectDir)PlaneFinding.pdb')" />
+            <Delete Files="$(ProjectDir)PlaneFinding.dll.mdb" Condition="Exists('$(ProjectDir)PlaneFinding.dll.mdb')" />
+            <Copy SourceFiles="$(ProjectDir)Plugins\$(PlatformShortName)\PlaneFinding.pdb" DestinationFiles="$(ProjectDir)PlaneFinding.pdb" Condition="Exists('$(ProjectDir)Plugins\$(PlatformShortName)\PlaneFinding.pdb')" />
         <Copy SourceFiles="$(ProjectDir)Plugins\$(PlatformShortName)\VuforiaDL.dll" DestinationFiles="$(ProjectDir)VuforiaDL.dll" />
             <Delete Files="$(ProjectDir)VuforiaDL.pdb" Condition="Exists('$(ProjectDir)VuforiaDL.pdb')" />
             <Delete Files="$(ProjectDir)VuforiaDL.dll.mdb" Condition="Exists('$(ProjectDir)VuforiaDL.dll.mdb')" />
@@ -318,9 +378,25 @@
             <Delete Files="$(ProjectDir)AudioPluginMsHRTF.pdb" Condition="Exists('$(ProjectDir)AudioPluginMsHRTF.pdb')" />
             <Delete Files="$(ProjectDir)AudioPluginMsHRTF.dll.mdb" Condition="Exists('$(ProjectDir)AudioPluginMsHRTF.dll.mdb')" />
             <Copy SourceFiles="$(ProjectDir)Plugins\$(PlatformShortName)\AudioPluginMsHRTF.pdb" DestinationFiles="$(ProjectDir)AudioPluginMsHRTF.pdb" Condition="Exists('$(ProjectDir)Plugins\$(PlatformShortName)\AudioPluginMsHRTF.pdb')" />
+        <Copy SourceFiles="$(ProjectDir)Plugins\$(PlatformShortName)\MicStreamSelector.dll" DestinationFiles="$(ProjectDir)MicStreamSelector.dll" />
+            <Delete Files="$(ProjectDir)MicStreamSelector.pdb" Condition="Exists('$(ProjectDir)MicStreamSelector.pdb')" />
+            <Delete Files="$(ProjectDir)MicStreamSelector.dll.mdb" Condition="Exists('$(ProjectDir)MicStreamSelector.dll.mdb')" />
+            <Copy SourceFiles="$(ProjectDir)Plugins\$(PlatformShortName)\MicStreamSelector.pdb" DestinationFiles="$(ProjectDir)MicStreamSelector.pdb" Condition="Exists('$(ProjectDir)Plugins\$(PlatformShortName)\MicStreamSelector.pdb')" />
+        <Copy SourceFiles="$(ProjectDir)Plugins\$(PlatformShortName)\GpuTiming.dll" DestinationFiles="$(ProjectDir)GpuTiming.dll" />
+            <Delete Files="$(ProjectDir)GpuTiming.pdb" Condition="Exists('$(ProjectDir)GpuTiming.pdb')" />
+            <Delete Files="$(ProjectDir)GpuTiming.dll.mdb" Condition="Exists('$(ProjectDir)GpuTiming.dll.mdb')" />
+            <Copy SourceFiles="$(ProjectDir)Plugins\$(PlatformShortName)\GpuTiming.pdb" DestinationFiles="$(ProjectDir)GpuTiming.pdb" Condition="Exists('$(ProjectDir)Plugins\$(PlatformShortName)\GpuTiming.pdb')" />
         <Copy SourceFiles="$(ProjectDir)Plugins\$(PlatformShortName)\Vuforia.dll" DestinationFiles="$(ProjectDir)Vuforia.dll" />
             <Delete Files="$(ProjectDir)Vuforia.pdb" Condition="Exists('$(ProjectDir)Vuforia.pdb')" />
             <Delete Files="$(ProjectDir)Vuforia.dll.mdb" Condition="Exists('$(ProjectDir)Vuforia.dll.mdb')" />
             <Copy SourceFiles="$(ProjectDir)Plugins\$(PlatformShortName)\Vuforia.pdb" DestinationFiles="$(ProjectDir)Vuforia.pdb" Condition="Exists('$(ProjectDir)Plugins\$(PlatformShortName)\Vuforia.pdb')" />
+        <Copy SourceFiles="$(ProjectDir)Plugins\$(PlatformShortName)\SharingClient.dll" DestinationFiles="$(ProjectDir)SharingClient.dll" />
+            <Delete Files="$(ProjectDir)SharingClient.pdb" Condition="Exists('$(ProjectDir)SharingClient.pdb')" />
+            <Delete Files="$(ProjectDir)SharingClient.dll.mdb" Condition="Exists('$(ProjectDir)SharingClient.dll.mdb')" />
+            <Copy SourceFiles="$(ProjectDir)Plugins\$(PlatformShortName)\SharingClient.pdb" DestinationFiles="$(ProjectDir)SharingClient.pdb" Condition="Exists('$(ProjectDir)Plugins\$(PlatformShortName)\SharingClient.pdb')" />
+        <Copy SourceFiles="$(ProjectDir)Plugins\$(PlatformShortName)\SpatialUnderstanding.dll" DestinationFiles="$(ProjectDir)SpatialUnderstanding.dll" />
+            <Delete Files="$(ProjectDir)SpatialUnderstanding.pdb" Condition="Exists('$(ProjectDir)SpatialUnderstanding.pdb')" />
+            <Delete Files="$(ProjectDir)SpatialUnderstanding.dll.mdb" Condition="Exists('$(ProjectDir)SpatialUnderstanding.dll.mdb')" />
+            <Copy SourceFiles="$(ProjectDir)Plugins\$(PlatformShortName)\SpatialUnderstanding.pdb" DestinationFiles="$(ProjectDir)SpatialUnderstanding.pdb" Condition="Exists('$(ProjectDir)Plugins\$(PlatformShortName)\SpatialUnderstanding.pdb')" />
   </Target>
 </Project>

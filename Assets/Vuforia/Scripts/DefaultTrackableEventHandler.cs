@@ -53,8 +53,8 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
     {
         m_PreviousStatus = previousStatus;
         m_NewStatus = newStatus;
-        
-        Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + 
+
+        Debug.Log("Trackable " + mTrackableBehaviour.TrackableName +
                   " " + mTrackableBehaviour.CurrentStatus +
                   " -- " + mTrackableBehaviour.CurrentStatusInfo);
 
@@ -89,7 +89,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             var rendererComponents = mTrackableBehaviour.GetComponentsInChildren<Renderer>(true);
             var colliderComponents = mTrackableBehaviour.GetComponentsInChildren<Collider>(true);
             var canvasComponents = mTrackableBehaviour.GetComponentsInChildren<Canvas>(true);
-            
+
             // Enable rendering:
             foreach (var component in rendererComponents)
                 component.enabled = true;
@@ -113,7 +113,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             var colliderComponents = mTrackableBehaviour.GetComponentsInChildren<Collider>(true);
             var canvasComponents = mTrackableBehaviour.GetComponentsInChildren<Canvas>(true);
 
-            
+
 
             // Disable rendering:
             foreach (var component in rendererComponents)

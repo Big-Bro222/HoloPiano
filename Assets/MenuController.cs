@@ -11,7 +11,7 @@ public class MenuController : MonoBehaviour
     void Start()
     {
         StartingInstruction.SetActive(true);
-        MainMenu.SetActive(false);
+        //MainMenu.SetActive(false);
     }
 
     // Update is called once per frame
