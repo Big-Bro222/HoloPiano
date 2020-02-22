@@ -100,7 +100,7 @@ public class ParseMusicUnityEditor:MonoBehaviour
             KeyMapping[20] = new int[3] { 5, 4, 0 };
             KeyMapping[22] = new int[3] { 6, 4, 0 };
             KeyMapping[23] = new int[3] { 7, 4, -1 };
-            KeyMapping[25] = new int[3] { 1, 4, 0 }; 
+            KeyMapping[25] = new int[3] { 1, 5, 0 }; 
 
 
         }
