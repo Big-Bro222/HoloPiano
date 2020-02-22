@@ -58,7 +58,7 @@ public class ParseMusicUnityEditor:MonoBehaviour
                 Vector3 NoteScale = new Vector3(1, (float)Measureinfo[j][3], 0.01f);
                 Vector3 NotePosition = new Vector3(XPosition, YPosition, 0);
                 GameObject Note = Instantiate(prefab, NotePosition,Quaternion.identity,Measure.transform);
-                Note.GetComponent<NoteController>().setNoteinfo(Measureinfo[j]);
+                Note.GetComponent<NoteController>().setNoteinfo(XPosition);
                 Note.transform.localScale = NoteScale;
                 Note.name = i + "," + j;
                 YPosition += (float)Measureinfo[j][3]/2;

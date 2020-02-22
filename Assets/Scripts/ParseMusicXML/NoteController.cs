@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class NoteController : MonoBehaviour
 {
-    public int[] noteInformation;
+    public int noteInformation;
 
     void Start()
     {
@@ -17,12 +17,12 @@ public class NoteController : MonoBehaviour
 
     }
 
-    public void setNoteinfo(int[] noteinfo)
+    public void setNoteinfo(int noteinfo)
     {
         noteInformation = noteinfo;
     }
 
-    public int[] getNoteinfo()
+    public int getNoteinfo()
     {
         return noteInformation;
     }
