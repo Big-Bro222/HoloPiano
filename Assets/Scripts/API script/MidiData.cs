@@ -7,6 +7,7 @@ public class MidiData : MonoBehaviour
 {
     public string getMidiDataUrl;
     public GameObject keyboard;
+    private midiData resultdata;
 
     IEnumerator GetMidiData()
     {
@@ -28,10 +29,10 @@ public class MidiData : MonoBehaviour
                     string jsonResult =
                         System.Text.Encoding.UTF8.GetString(www.downloadHandler.data);
                     
-                    midiData resultdata  = JsonUtility.FromJson<midiData>(jsonResult);
-                    Debug.Log(resultdata.value[1] + "---"+resultdata.value[0] + "="+ resultdata.value[2]);
+                    resultdata  = JsonUtility.FromJson<midiData>(jsonResult);
+                    //Debug.Log(resultdata.value[1] + "---"+resultdata.value[0] + "="+ resultdata.value[2]);
                     child = getChildGameObject(keyboard, findKeyPressed(resultdata));
-                    if (resultdata.value[0] == 144)
+                    if (resultdata.value[2] != 0)
                     {
                         child.GetComponent<Renderer>().material.color = new Color(0.3f, 0.4f, 0.6f);
                     }
@@ -53,7 +54,34 @@ public class MidiData : MonoBehaviour
         }
     }
 
-    static public GameObject getChildGameObject(GameObject fromGameObject, string withName)
+    public int offsetRemovedValue()
+    {
+
+        if(resultdata != null && (resultdata.value[2] != 0))
+        {
+            Debug.Log(resultdata.value[1]);
+            if (resultdata.value[1] == 72)
+            {
+                return 25;
+            }
+            return (resultdata.value[1] % 24) + 1;
+        }
+        return 999;
+       
+    }
+
+    public bool Keypressing()
+    {
+        if(resultdata != null && (resultdata.value[2] != 0))
+        {
+            return (resultdata.value[2] != 0);
+        }
+        else
+        {
+            return false;
+        }
+    }
+    public GameObject getChildGameObject(GameObject fromGameObject, string withName)
     {
         Transform[] ts = fromGameObject.transform.GetComponentsInChildren<Transform>(true);
         foreach (Transform t in ts) if (t.gameObject.name == withName) return t.gameObject;

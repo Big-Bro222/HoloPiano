@@ -6,6 +6,8 @@ public class NoteBehavior : MonoBehaviour
 {
     public Vector3 StartingPoint = new Vector3(0, 4, 0);
     public float Speed = 10f;
+    public float KeyStartHeight = 5f;
+    public bool Running = true;
 
     private int CurrentMeasure = 0;
     private float[] Defalutposition ={0, 0, 0, 0, 0,0,0,0,0,0,0,0,0,0,0,0};
@@ -56,10 +58,14 @@ public class NoteBehavior : MonoBehaviour
     }
     void Update()
     {
-        for(int i=0;i<transform.childCount; i++)
+        if (Running)
         {
-            transform.GetChild(i).transform.Translate(Vector3.down * Speed * Time.deltaTime);
+            for (int i = 0; i < transform.childCount; i++)
+            {
+                transform.GetChild(i).transform.Translate(Vector3.down * Speed * Time.deltaTime);
+            }
         }
+        
         
         GameObject CurrentMeasureobj = transform.GetChild(CurrentMeasure).gameObject;
         CurrentMeasureobj.SetActive(true);
