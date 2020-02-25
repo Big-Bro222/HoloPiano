@@ -6,7 +6,9 @@ TagManager:
   tags:
   - Button
   - VirtualNote
-  - Base
+  - Practise
+  - black_keys
+  - Sheet
   layers:
   - Default
   - TransparentFX

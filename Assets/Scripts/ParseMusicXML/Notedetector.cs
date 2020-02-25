@@ -16,7 +16,7 @@ public class Notedetector : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        print("Current Key value should be : " + CurrentKeyValue);
+        //print("Current Key value should be : " + CurrentKeyValue);
     }
 
     private void OnTriggerStay(Collider other)

@@ -1,31 +1,31 @@
-﻿using UnityEngine;
-using UnityEditor;
+﻿//using UnityEngine;
+//using UnityEditor;
 
-[CustomEditor(typeof(ParseMusicUnityEditor))]
-public class MenuButton : Editor {
+//[CustomEditor(typeof(ParseMusicUnityEditor))]
+//public class MenuButton : Editor {
 
-    public override void OnInspectorGUI()
-    {
+//    //public override void OnInspectorGUI()
+//    //{
 
-        DrawDefaultInspector();
+//    //    DrawDefaultInspector();
 
 
 
-        ParseMusicUnityEditor myScript = (ParseMusicUnityEditor)target;
+//    //   // ParseMusicUnityEditor myScript = (ParseMusicUnityEditor)target;
 
-        if (GUILayout.Button("Creat prefab"))
-        {
+//    //    if (GUILayout.Button("Creat prefab"))
+//    //    {
 
-            myScript.Creatprefab();
+//    //        myScript.Creatprefab();
 
-        }
-        else if (GUILayout.Button("Clear prefab"))
-        {
+//    //    }
+//    //    else if (GUILayout.Button("Clear prefab"))
+//    //    {
 
-            myScript.ClearPrefab();
+//    //        myScript.ClearPrefab();
 
-        }
+//    //    }
 
-    }
+//    //}
 
-}
+//}
