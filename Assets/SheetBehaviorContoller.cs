@@ -23,6 +23,7 @@ public class SheetBehaviorContoller : MonoBehaviour
         for(int i = StartMeasure; i < EndMeasure+1; i++)
         {
             Sections[i].OnselectRender();
+            Sections[i].OnGazeEnabled = false;
         }
         
     }
@@ -34,9 +35,11 @@ public class SheetBehaviorContoller : MonoBehaviour
         for(int j = 0; j < Sections.Length; j++)
         {
             Sections[j].DeSelectRender();
+            Sections[j].OnGazeEnabled = true;
 
         }
         Sections[Measure].OnselectRender();
+        Sections[Measure].OnGazeEnabled = false;
     }
 
 
