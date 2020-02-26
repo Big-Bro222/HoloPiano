@@ -6,6 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Virtual Piano.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/SampleResources/Scenes/1-Menu.unity
+    guid: 72a81fd0bdedaf0448e6c17d1e8fcb86
+  - enabled: 0
+    path: Assets/SampleResources/Scenes/0-Splash.unity
+    guid: c821e2eca6ff325469f8a758a0d7e93e
+  - enabled: 0
+    path: Assets/SampleResources/Scenes/2-Loading.unity
+    guid: bc9186907dc6f6b4f8473356c1d379c3
+  - enabled: 0
+    path: Assets/SampleResources/Scenes/3-ImageTargets.unity
+    guid: 03ddc4184641b534487cecd6dab620df
+  - enabled: 0
+    path: Assets/SampleResources/Scenes/3-ModelTargets.unity
+    guid: 530386685ba085242832bd5cc78d7222
+  - enabled: 0
+    path: Assets/Vedio stream SDK/UnityChatDemo/Scenes/UnityChatDemo_HoloLens.unity
+    guid: 8015c52284ea87948951dad3fa5f498e
+  - enabled: 0
+    path: Assets/SampleResources/Scenes/3-VuMarks.unity
+    guid: d9b53b25a285640cf8ac170a80603e34
   m_configObjects: {}
