@@ -23996,6 +23996,14 @@ extern "C" IL2CPP_METHOD_ATTR RuntimeObject * Func_9_EndInvoke_m2B116E56944BBF52
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.Void System.IO.FileSystemEnumerableIterator`1<System.Object>::.ctor(System.String,System.String,System.String,System.IO.SearchOption,System.IO.SearchResultHandler`1<TSource>,System.Boolean)
 extern "C" IL2CPP_METHOD_ATTR void FileSystemEnumerableIterator_1__ctor_m2001F7461EBBD6195AEC4BA675DD60CCBB75369A_gshared (FileSystemEnumerableIterator_1_t260ADAFDADCE994D032A8BD81941FD7004831294 * __this, String_t* ___path0, String_t* ___originalUserPath1, String_t* ___searchPattern2, int32_t ___searchOption3, SearchResultHandler_1_t8F3FC374A9C3B6ACC965D7728D3926838F62AA4A * ___resultHandler4, bool ___checkHost5, const RuntimeMethod* method)
 {

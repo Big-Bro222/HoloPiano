@@ -101,9 +101,9 @@ struct IReadOnlyList_1_t28879AE79398C551255B7BC61EA4F0798B62AA86;
 // System.Collections.Generic.IReadOnlyList`1<Windows.Foundation.Rect>
 struct IReadOnlyList_1_t1124C0483D5AB19158A19B987854B75EAB257426;
 // System.Collections.Generic.IReadOnlyList`1<Windows.Foundation.Size>
-struct IReadOnlyList_1_t4ECCDB05DC24B6AC51546AC2FDA0CD9C408B27A7;
-// System.Collections.Generic.IReadOnlyList`1<Windows.Foundation.Size>
 struct IReadOnlyList_1_t904CED62A6B55863E45C451DEEEA3B8E8EA0D2A8;
+// System.Collections.Generic.IReadOnlyList`1<Windows.Foundation.Size>
+struct IReadOnlyList_1_t4ECCDB05DC24B6AC51546AC2FDA0CD9C408B27A7;
 // System.Collections.Generic.IReadOnlyList`1<Windows.Foundation.TimeSpan>
 struct IReadOnlyList_1_t3459082882580E84DDEFEC18BFB8FB747DC630BB;
 // System.Collections.Generic.IReadOnlyList`1<Windows.Foundation.UniversalApiContract>
@@ -271,9 +271,9 @@ struct RectU5BU5D_t04A0BEA0B6C281BD9A695F537DC48BF7576C358F;
 // Windows.Foundation.Rect[]
 struct RectU5BU5D_tDAF406D13B5A5E854CE4CD12849F253B54D84AC7;
 // Windows.Foundation.Size[]
-struct SizeU5BU5D_t039A7BC3968859A1AC03A46860F6108D053B9D58;
-// Windows.Foundation.Size[]
 struct SizeU5BU5D_t9B66FD0DE66BE54A0260714C9F6BBD896A4FDD0B;
+// Windows.Foundation.Size[]
+struct SizeU5BU5D_t039A7BC3968859A1AC03A46860F6108D053B9D58;
 // Windows.Foundation.TimeSpan[]
 struct TimeSpanU5BU5D_tACF30B716D863271CE7340AFE41B366570EF6A45;
 // Windows.Foundation.UniversalApiContract[]
@@ -644,8 +644,8 @@ struct PointU5BU5D_tD91AB35E3284C9E9789C9BA78F4B2C58A2E4FF11;
 struct PropertyTypeU5BU5D_tB7D44737771CD756341AB3D4255FA11E156C2EA5;
 struct RectU5BU5D_t04A0BEA0B6C281BD9A695F537DC48BF7576C358F;
 struct RectU5BU5D_tDAF406D13B5A5E854CE4CD12849F253B54D84AC7;
-struct SizeU5BU5D_t9B66FD0DE66BE54A0260714C9F6BBD896A4FDD0B;
 struct SizeU5BU5D_t039A7BC3968859A1AC03A46860F6108D053B9D58;
+struct SizeU5BU5D_t9B66FD0DE66BE54A0260714C9F6BBD896A4FDD0B;
 struct TimeSpanU5BU5D_tACF30B716D863271CE7340AFE41B366570EF6A45;
 struct UniversalApiContractU5BU5D_t34EEF3C7CA08DBC70ACA767782DD83D7D711FF0F;
 struct IMediaFrameSourceGroupU5BU5D_t89D514D4220DC953539E592124298C4FED58AEC1;
@@ -2649,45 +2649,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // RECT_TD277A11EF3F3CC633796B8FF0BC4822826E72BB0_H
-#ifndef SIZE_TBE9F75FCA10276DC3998237A8906733B64FB75A2_H
-#define SIZE_TBE9F75FCA10276DC3998237A8906733B64FB75A2_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// Windows.Foundation.Size
-struct  Size_tBE9F75FCA10276DC3998237A8906733B64FB75A2 
-{
-public:
-	// System.Single Windows.Foundation.Size::_width
-	float ____width_0;
-	// System.Single Windows.Foundation.Size::_height
-	float ____height_1;
-
-public:
-	inline static int32_t get_offset_of__width_0() { return static_cast<int32_t>(offsetof(Size_tBE9F75FCA10276DC3998237A8906733B64FB75A2, ____width_0)); }
-	inline float get__width_0() const { return ____width_0; }
-	inline float* get_address_of__width_0() { return &____width_0; }
-	inline void set__width_0(float value)
-	{
-		____width_0 = value;
-	}
-
-	inline static int32_t get_offset_of__height_1() { return static_cast<int32_t>(offsetof(Size_tBE9F75FCA10276DC3998237A8906733B64FB75A2, ____height_1)); }
-	inline float get__height_1() const { return ____height_1; }
-	inline float* get_address_of__height_1() { return &____height_1; }
-	inline void set__height_1(float value)
-	{
-		____height_1 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // SIZE_TBE9F75FCA10276DC3998237A8906733B64FB75A2_H
 #ifndef SIZE_T4766FF009097CE547F699B69250246058DA664D9_H
 #define SIZE_T4766FF009097CE547F699B69250246058DA664D9_H
 #ifdef __clang__
@@ -2727,6 +2688,45 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // SIZE_T4766FF009097CE547F699B69250246058DA664D9_H
+#ifndef SIZE_TBE9F75FCA10276DC3998237A8906733B64FB75A2_H
+#define SIZE_TBE9F75FCA10276DC3998237A8906733B64FB75A2_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// Windows.Foundation.Size
+struct  Size_tBE9F75FCA10276DC3998237A8906733B64FB75A2 
+{
+public:
+	// System.Single Windows.Foundation.Size::_width
+	float ____width_0;
+	// System.Single Windows.Foundation.Size::_height
+	float ____height_1;
+
+public:
+	inline static int32_t get_offset_of__width_0() { return static_cast<int32_t>(offsetof(Size_tBE9F75FCA10276DC3998237A8906733B64FB75A2, ____width_0)); }
+	inline float get__width_0() const { return ____width_0; }
+	inline float* get_address_of__width_0() { return &____width_0; }
+	inline void set__width_0(float value)
+	{
+		____width_0 = value;
+	}
+
+	inline static int32_t get_offset_of__height_1() { return static_cast<int32_t>(offsetof(Size_tBE9F75FCA10276DC3998237A8906733B64FB75A2, ____height_1)); }
+	inline float get__height_1() const { return ____height_1; }
+	inline float* get_address_of__height_1() { return &____height_1; }
+	inline void set__height_1(float value)
+	{
+		____height_1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // SIZE_TBE9F75FCA10276DC3998237A8906733B64FB75A2_H
 #ifndef TIMESPAN_TD18885B289077804D4E82931E68E84181C072755_H
 #define TIMESPAN_TD18885B289077804D4E82931E68E84181C072755_H
 #ifdef __clang__
@@ -3474,15 +3474,6 @@ struct NOVTABLE IVectorView_1_t1B0784EAE2BADFCB600504F9AA05DA3836014F08 : Il2Cpp
 	virtual il2cpp_hresult_t STDCALL IVectorView_1_GetMany_m6359E11437D7FBAD999817FB25166D3A186443BA(uint32_t ___startIndex0, uint32_t ___items1ArraySize, Rect_tD277A11EF3F3CC633796B8FF0BC4822826E72BB0 * ___items1, uint32_t* comReturnValue) = 0;
 };
 // Windows.Foundation.Collections.IVectorView`1<Windows.Foundation.Size>
-struct NOVTABLE IVectorView_1_tB38D95C34E86785DC7A35B281E2B790453C65A10 : Il2CppIInspectable
-{
-	static const Il2CppGuid IID;
-	virtual il2cpp_hresult_t STDCALL IVectorView_1_GetAt_m70D898CC4FD186906812F8D0F78D15C6019D28E1(uint32_t ___index0, Size_tBE9F75FCA10276DC3998237A8906733B64FB75A2 * comReturnValue) = 0;
-	virtual il2cpp_hresult_t STDCALL IVectorView_1_get_Size_m4B92B51E6040173F1642F5A9BEF9DF32E2A0B5E5(uint32_t* comReturnValue) = 0;
-	virtual il2cpp_hresult_t STDCALL IVectorView_1_IndexOf_m591A718A8A5E8EBE24E822543033D2F2DED1E420(Size_tBE9F75FCA10276DC3998237A8906733B64FB75A2  ___value0, uint32_t* ___index1, bool* comReturnValue) = 0;
-	virtual il2cpp_hresult_t STDCALL IVectorView_1_GetMany_mE77488F6FE6C0A8246BBA501F65D3068B61F6F74(uint32_t ___startIndex0, uint32_t ___items1ArraySize, Size_tBE9F75FCA10276DC3998237A8906733B64FB75A2 * ___items1, uint32_t* comReturnValue) = 0;
-};
-// Windows.Foundation.Collections.IVectorView`1<Windows.Foundation.Size>
 struct NOVTABLE IVectorView_1_t8042FAD04D2C8523CBBA9A36C4E5C25ADAE8A97B : Il2CppIInspectable
 {
 	static const Il2CppGuid IID;
@@ -3490,6 +3481,15 @@ struct NOVTABLE IVectorView_1_t8042FAD04D2C8523CBBA9A36C4E5C25ADAE8A97B : Il2Cpp
 	virtual il2cpp_hresult_t STDCALL IVectorView_1_get_Size_mD2B9BC0926DAA28F76A82F8F2C98ACBCA57F4CFE(uint32_t* comReturnValue) = 0;
 	virtual il2cpp_hresult_t STDCALL IVectorView_1_IndexOf_mCB736629DB68CD6CF7922AF20FC4F9F2CD93B9FD(Size_t4766FF009097CE547F699B69250246058DA664D9  ___value0, uint32_t* ___index1, bool* comReturnValue) = 0;
 	virtual il2cpp_hresult_t STDCALL IVectorView_1_GetMany_m303D90DE22146CF5A0E54CFE06BD842422B1738D(uint32_t ___startIndex0, uint32_t ___items1ArraySize, Size_t4766FF009097CE547F699B69250246058DA664D9 * ___items1, uint32_t* comReturnValue) = 0;
+};
+// Windows.Foundation.Collections.IVectorView`1<Windows.Foundation.Size>
+struct NOVTABLE IVectorView_1_tB38D95C34E86785DC7A35B281E2B790453C65A10 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IVectorView_1_GetAt_m70D898CC4FD186906812F8D0F78D15C6019D28E1(uint32_t ___index0, Size_tBE9F75FCA10276DC3998237A8906733B64FB75A2 * comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IVectorView_1_get_Size_m4B92B51E6040173F1642F5A9BEF9DF32E2A0B5E5(uint32_t* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IVectorView_1_IndexOf_m591A718A8A5E8EBE24E822543033D2F2DED1E420(Size_tBE9F75FCA10276DC3998237A8906733B64FB75A2  ___value0, uint32_t* ___index1, bool* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IVectorView_1_GetMany_mE77488F6FE6C0A8246BBA501F65D3068B61F6F74(uint32_t ___startIndex0, uint32_t ___items1ArraySize, Size_tBE9F75FCA10276DC3998237A8906733B64FB75A2 * ___items1, uint32_t* comReturnValue) = 0;
 };
 // Windows.Foundation.Collections.IVectorView`1<Windows.Foundation.TimeSpan>
 struct NOVTABLE IVectorView_1_t73DC468BA703F5124F58DFA5B5BFABF1E31E0BC1 : Il2CppIInspectable
@@ -3663,23 +3663,6 @@ struct NOVTABLE IVector_1_tB5F5D889719EB1F193A419842C96D71805FAAB02 : Il2CppIIns
 	virtual il2cpp_hresult_t STDCALL IVector_1_ReplaceAll_mE7409C4E6B125809B80897F912ABF2AC66163558(uint32_t ___items0ArraySize, Rect_tC430FB498F3B42BBCD93E88C03BA3CBB77B60ACA * ___items0) = 0;
 };
 // Windows.Foundation.Collections.IVector`1<Windows.Foundation.Size>
-struct NOVTABLE IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8 : Il2CppIInspectable
-{
-	static const Il2CppGuid IID;
-	virtual il2cpp_hresult_t STDCALL IVector_1_GetAt_m7ECA4E469F676C52EDE5400B423F4E2D4209D119(uint32_t ___index0, Size_t4766FF009097CE547F699B69250246058DA664D9 * comReturnValue) = 0;
-	virtual il2cpp_hresult_t STDCALL IVector_1_get_Size_mD6832F7B4E5D86E699FF2560427C1919B4CD9FD5(uint32_t* comReturnValue) = 0;
-	virtual il2cpp_hresult_t STDCALL IVector_1_GetView_mF62EA29CBAC5FB17ECDE24F9E33BC487F0804CEC(IVectorView_1_t8042FAD04D2C8523CBBA9A36C4E5C25ADAE8A97B** comReturnValue) = 0;
-	virtual il2cpp_hresult_t STDCALL IVector_1_IndexOf_m718D05B74197EEB4147091573DC19DD13E98DB1A(Size_t4766FF009097CE547F699B69250246058DA664D9  ___value0, uint32_t* ___index1, bool* comReturnValue) = 0;
-	virtual il2cpp_hresult_t STDCALL IVector_1_SetAt_m32B55AF9F5277286FDB6AF16EA252BDC6B60D838(uint32_t ___index0, Size_t4766FF009097CE547F699B69250246058DA664D9  ___value1) = 0;
-	virtual il2cpp_hresult_t STDCALL IVector_1_InsertAt_mE4B01B34A3CEF946A1ECB04DEFCC1A74035938FD(uint32_t ___index0, Size_t4766FF009097CE547F699B69250246058DA664D9  ___value1) = 0;
-	virtual il2cpp_hresult_t STDCALL IVector_1_RemoveAt_mD3B3ACF92CD66993019CA3B115EF0D6C46035523(uint32_t ___index0) = 0;
-	virtual il2cpp_hresult_t STDCALL IVector_1_Append_m2FCF810D140BCC51E05D5C1A125B1D6991DC089C(Size_t4766FF009097CE547F699B69250246058DA664D9  ___value0) = 0;
-	virtual il2cpp_hresult_t STDCALL IVector_1_RemoveAtEnd_m40AFD1E5DD3C6C5C8115BAB2E578991381F8AF23() = 0;
-	virtual il2cpp_hresult_t STDCALL IVector_1_Clear_mF14DF5926DA041787F0ADF803A7706CD9ECEDEB8() = 0;
-	virtual il2cpp_hresult_t STDCALL IVector_1_GetMany_m390590C27DB1C1496832A856364083C6E7E5C737(uint32_t ___startIndex0, uint32_t ___items1ArraySize, Size_t4766FF009097CE547F699B69250246058DA664D9 * ___items1, uint32_t* comReturnValue) = 0;
-	virtual il2cpp_hresult_t STDCALL IVector_1_ReplaceAll_m2DC5D0ADA3FDE35A22A0261F89A1A2A407EEFF42(uint32_t ___items0ArraySize, Size_t4766FF009097CE547F699B69250246058DA664D9 * ___items0) = 0;
-};
-// Windows.Foundation.Collections.IVector`1<Windows.Foundation.Size>
 struct NOVTABLE IVector_1_tFF499B0D2C4CFA234C8341A0E67F1C5B0558E080 : Il2CppIInspectable
 {
 	static const Il2CppGuid IID;
@@ -3695,6 +3678,23 @@ struct NOVTABLE IVector_1_tFF499B0D2C4CFA234C8341A0E67F1C5B0558E080 : Il2CppIIns
 	virtual il2cpp_hresult_t STDCALL IVector_1_Clear_mB673D334EF55E4F986BF7DEBEEC06526772E147E() = 0;
 	virtual il2cpp_hresult_t STDCALL IVector_1_GetMany_m43CCD31EBDF2988B76478D534FE8876C56981780(uint32_t ___startIndex0, uint32_t ___items1ArraySize, Size_tBE9F75FCA10276DC3998237A8906733B64FB75A2 * ___items1, uint32_t* comReturnValue) = 0;
 	virtual il2cpp_hresult_t STDCALL IVector_1_ReplaceAll_m43A4A257320A29444AF981687B4BE67E8266AB81(uint32_t ___items0ArraySize, Size_tBE9F75FCA10276DC3998237A8906733B64FB75A2 * ___items0) = 0;
+};
+// Windows.Foundation.Collections.IVector`1<Windows.Foundation.Size>
+struct NOVTABLE IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IVector_1_GetAt_m7ECA4E469F676C52EDE5400B423F4E2D4209D119(uint32_t ___index0, Size_t4766FF009097CE547F699B69250246058DA664D9 * comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IVector_1_get_Size_mD6832F7B4E5D86E699FF2560427C1919B4CD9FD5(uint32_t* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IVector_1_GetView_mF62EA29CBAC5FB17ECDE24F9E33BC487F0804CEC(IVectorView_1_t8042FAD04D2C8523CBBA9A36C4E5C25ADAE8A97B** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IVector_1_IndexOf_m718D05B74197EEB4147091573DC19DD13E98DB1A(Size_t4766FF009097CE547F699B69250246058DA664D9  ___value0, uint32_t* ___index1, bool* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IVector_1_SetAt_m32B55AF9F5277286FDB6AF16EA252BDC6B60D838(uint32_t ___index0, Size_t4766FF009097CE547F699B69250246058DA664D9  ___value1) = 0;
+	virtual il2cpp_hresult_t STDCALL IVector_1_InsertAt_mE4B01B34A3CEF946A1ECB04DEFCC1A74035938FD(uint32_t ___index0, Size_t4766FF009097CE547F699B69250246058DA664D9  ___value1) = 0;
+	virtual il2cpp_hresult_t STDCALL IVector_1_RemoveAt_mD3B3ACF92CD66993019CA3B115EF0D6C46035523(uint32_t ___index0) = 0;
+	virtual il2cpp_hresult_t STDCALL IVector_1_Append_m2FCF810D140BCC51E05D5C1A125B1D6991DC089C(Size_t4766FF009097CE547F699B69250246058DA664D9  ___value0) = 0;
+	virtual il2cpp_hresult_t STDCALL IVector_1_RemoveAtEnd_m40AFD1E5DD3C6C5C8115BAB2E578991381F8AF23() = 0;
+	virtual il2cpp_hresult_t STDCALL IVector_1_Clear_mF14DF5926DA041787F0ADF803A7706CD9ECEDEB8() = 0;
+	virtual il2cpp_hresult_t STDCALL IVector_1_GetMany_m390590C27DB1C1496832A856364083C6E7E5C737(uint32_t ___startIndex0, uint32_t ___items1ArraySize, Size_t4766FF009097CE547F699B69250246058DA664D9 * ___items1, uint32_t* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IVector_1_ReplaceAll_m2DC5D0ADA3FDE35A22A0261F89A1A2A407EEFF42(uint32_t ___items0ArraySize, Size_t4766FF009097CE547F699B69250246058DA664D9 * ___items0) = 0;
 };
 // Windows.Foundation.Collections.IVector`1<Windows.Foundation.TimeSpan>
 struct NOVTABLE IVector_1_tAF70F9E47159959744936ABFCD7AC8179638CDB8 : Il2CppIInspectable
@@ -6732,41 +6732,6 @@ public:
 	}
 };
 // Windows.Foundation.Size[]
-struct SizeU5BU5D_t039A7BC3968859A1AC03A46860F6108D053B9D58  : public RuntimeArray
-{
-public:
-	ALIGN_FIELD (8) Size_t4766FF009097CE547F699B69250246058DA664D9  m_Items[1];
-
-public:
-	inline Size_t4766FF009097CE547F699B69250246058DA664D9  GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline Size_t4766FF009097CE547F699B69250246058DA664D9 * GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, Size_t4766FF009097CE547F699B69250246058DA664D9  value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline Size_t4766FF009097CE547F699B69250246058DA664D9  GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline Size_t4766FF009097CE547F699B69250246058DA664D9 * GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, Size_t4766FF009097CE547F699B69250246058DA664D9  value)
-	{
-		m_Items[index] = value;
-	}
-};
-// Windows.Foundation.Size[]
 struct SizeU5BU5D_t9B66FD0DE66BE54A0260714C9F6BBD896A4FDD0B  : public RuntimeArray
 {
 public:
@@ -6797,6 +6762,41 @@ public:
 		return m_Items + index;
 	}
 	inline void SetAtUnchecked(il2cpp_array_size_t index, Size_tBE9F75FCA10276DC3998237A8906733B64FB75A2  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// Windows.Foundation.Size[]
+struct SizeU5BU5D_t039A7BC3968859A1AC03A46860F6108D053B9D58  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) Size_t4766FF009097CE547F699B69250246058DA664D9  m_Items[1];
+
+public:
+	inline Size_t4766FF009097CE547F699B69250246058DA664D9  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Size_t4766FF009097CE547F699B69250246058DA664D9 * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Size_t4766FF009097CE547F699B69250246058DA664D9  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Size_t4766FF009097CE547F699B69250246058DA664D9  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Size_t4766FF009097CE547F699B69250246058DA664D9 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Size_t4766FF009097CE547F699B69250246058DA664D9  value)
 	{
 		m_Items[index] = value;
 	}
@@ -18761,218 +18761,6 @@ extern "C" IL2CPP_METHOD_ATTR void IVector_1_ReplaceAll_m8F32DCA07484FF4EA900247
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // T Windows.Foundation.Collections.IVector`1<Windows.Foundation.Size>::GetAt(System.UInt32)
-extern "C" IL2CPP_METHOD_ATTR Size_t4766FF009097CE547F699B69250246058DA664D9  IVector_1_GetAt_m7ECA4E469F676C52EDE5400B423F4E2D4209D119 (RuntimeObject* __this, uint32_t ___index0, const RuntimeMethod* method)
-{
-	IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8* ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8 = il2cpp_codegen_com_query_interface<IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8>(static_cast<Il2CppComObject*>(__this));
-
-	// Native function invocation
-	Size_t4766FF009097CE547F699B69250246058DA664D9  returnValue = {};
-	const il2cpp_hresult_t hr = ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8->IVector_1_GetAt_m7ECA4E469F676C52EDE5400B423F4E2D4209D119(___index0, &returnValue);
-
-	il2cpp_codegen_com_raise_exception_if_failed(hr, false);
-
-	return returnValue;
-}
-// System.UInt32 Windows.Foundation.Collections.IVector`1<Windows.Foundation.Size>::get_Size()
-extern "C" IL2CPP_METHOD_ATTR uint32_t IVector_1_get_Size_mD6832F7B4E5D86E699FF2560427C1919B4CD9FD5 (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8* ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8 = il2cpp_codegen_com_query_interface<IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8>(static_cast<Il2CppComObject*>(__this));
-
-	// Native function invocation
-	uint32_t returnValue = 0;
-	const il2cpp_hresult_t hr = ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8->IVector_1_get_Size_mD6832F7B4E5D86E699FF2560427C1919B4CD9FD5(&returnValue);
-
-	il2cpp_codegen_com_raise_exception_if_failed(hr, false);
-
-	return returnValue;
-}
-// System.Collections.Generic.IReadOnlyList`1<T> Windows.Foundation.Collections.IVector`1<Windows.Foundation.Size>::GetView()
-extern "C" IL2CPP_METHOD_ATTR RuntimeObject* IVector_1_GetView_mF62EA29CBAC5FB17ECDE24F9E33BC487F0804CEC (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (IVector_1_GetView_mF62EA29CBAC5FB17ECDE24F9E33BC487F0804CEC_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8* ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8 = il2cpp_codegen_com_query_interface<IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8>(static_cast<Il2CppComObject*>(__this));
-
-	// Native function invocation
-	IVectorView_1_t8042FAD04D2C8523CBBA9A36C4E5C25ADAE8A97B* returnValue = NULL;
-	const il2cpp_hresult_t hr = ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8->IVector_1_GetView_mF62EA29CBAC5FB17ECDE24F9E33BC487F0804CEC(&returnValue);
-
-	il2cpp_codegen_com_raise_exception_if_failed(hr, false);
-
-	// Marshaling of return value back from native representation
-	RuntimeObject* _returnValue_unmarshaled = NULL;
-	if (returnValue != NULL)
-	{
-		_returnValue_unmarshaled = il2cpp_codegen_com_get_or_create_rcw_from_iinspectable<RuntimeObject>(returnValue, Il2CppComObject_il2cpp_TypeInfo_var);
-
-		if (il2cpp_codegen_is_import_or_windows_runtime(_returnValue_unmarshaled))
-		{
-			il2cpp_codegen_com_cache_queried_interface(static_cast<Il2CppComObject*>(_returnValue_unmarshaled), IVectorView_1_t8042FAD04D2C8523CBBA9A36C4E5C25ADAE8A97B::IID, returnValue);
-		}
-	}
-	else
-	{
-		_returnValue_unmarshaled = NULL;
-	}
-
-	// Marshaling cleanup of return value native representation
-	if (returnValue != NULL)
-	{
-		(returnValue)->Release();
-		returnValue = NULL;
-	}
-
-	return _returnValue_unmarshaled;
-}
-// System.Boolean Windows.Foundation.Collections.IVector`1<Windows.Foundation.Size>::IndexOf(T,System.UInt32U26)
-extern "C" IL2CPP_METHOD_ATTR bool IVector_1_IndexOf_m718D05B74197EEB4147091573DC19DD13E98DB1A (RuntimeObject* __this, Size_t4766FF009097CE547F699B69250246058DA664D9  ___value0, uint32_t* ___index1, const RuntimeMethod* method)
-{
-	IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8* ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8 = il2cpp_codegen_com_query_interface<IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8>(static_cast<Il2CppComObject*>(__this));
-
-	// Native function invocation
-	bool returnValue = 0;
-	const il2cpp_hresult_t hr = ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8->IVector_1_IndexOf_m718D05B74197EEB4147091573DC19DD13E98DB1A(___value0, ___index1, &returnValue);
-
-	il2cpp_codegen_com_raise_exception_if_failed(hr, false);
-
-	return returnValue;
-}
-// System.Void Windows.Foundation.Collections.IVector`1<Windows.Foundation.Size>::SetAt(System.UInt32,T)
-extern "C" IL2CPP_METHOD_ATTR void IVector_1_SetAt_m32B55AF9F5277286FDB6AF16EA252BDC6B60D838 (RuntimeObject* __this, uint32_t ___index0, Size_t4766FF009097CE547F699B69250246058DA664D9  ___value1, const RuntimeMethod* method)
-{
-	IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8* ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8 = il2cpp_codegen_com_query_interface<IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8>(static_cast<Il2CppComObject*>(__this));
-
-	// Native function invocation
-	const il2cpp_hresult_t hr = ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8->IVector_1_SetAt_m32B55AF9F5277286FDB6AF16EA252BDC6B60D838(___index0, ___value1);
-
-	il2cpp_codegen_com_raise_exception_if_failed(hr, false);
-
-}
-// System.Void Windows.Foundation.Collections.IVector`1<Windows.Foundation.Size>::InsertAt(System.UInt32,T)
-extern "C" IL2CPP_METHOD_ATTR void IVector_1_InsertAt_mE4B01B34A3CEF946A1ECB04DEFCC1A74035938FD (RuntimeObject* __this, uint32_t ___index0, Size_t4766FF009097CE547F699B69250246058DA664D9  ___value1, const RuntimeMethod* method)
-{
-	IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8* ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8 = il2cpp_codegen_com_query_interface<IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8>(static_cast<Il2CppComObject*>(__this));
-
-	// Native function invocation
-	const il2cpp_hresult_t hr = ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8->IVector_1_InsertAt_mE4B01B34A3CEF946A1ECB04DEFCC1A74035938FD(___index0, ___value1);
-
-	il2cpp_codegen_com_raise_exception_if_failed(hr, false);
-
-}
-// System.Void Windows.Foundation.Collections.IVector`1<Windows.Foundation.Size>::RemoveAt(System.UInt32)
-extern "C" IL2CPP_METHOD_ATTR void IVector_1_RemoveAt_mD3B3ACF92CD66993019CA3B115EF0D6C46035523 (RuntimeObject* __this, uint32_t ___index0, const RuntimeMethod* method)
-{
-	IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8* ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8 = il2cpp_codegen_com_query_interface<IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8>(static_cast<Il2CppComObject*>(__this));
-
-	// Native function invocation
-	const il2cpp_hresult_t hr = ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8->IVector_1_RemoveAt_mD3B3ACF92CD66993019CA3B115EF0D6C46035523(___index0);
-
-	il2cpp_codegen_com_raise_exception_if_failed(hr, false);
-
-}
-// System.Void Windows.Foundation.Collections.IVector`1<Windows.Foundation.Size>::Append(T)
-extern "C" IL2CPP_METHOD_ATTR void IVector_1_Append_m2FCF810D140BCC51E05D5C1A125B1D6991DC089C (RuntimeObject* __this, Size_t4766FF009097CE547F699B69250246058DA664D9  ___value0, const RuntimeMethod* method)
-{
-	IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8* ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8 = il2cpp_codegen_com_query_interface<IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8>(static_cast<Il2CppComObject*>(__this));
-
-	// Native function invocation
-	const il2cpp_hresult_t hr = ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8->IVector_1_Append_m2FCF810D140BCC51E05D5C1A125B1D6991DC089C(___value0);
-
-	il2cpp_codegen_com_raise_exception_if_failed(hr, false);
-
-}
-// System.Void Windows.Foundation.Collections.IVector`1<Windows.Foundation.Size>::RemoveAtEnd()
-extern "C" IL2CPP_METHOD_ATTR void IVector_1_RemoveAtEnd_m40AFD1E5DD3C6C5C8115BAB2E578991381F8AF23 (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8* ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8 = il2cpp_codegen_com_query_interface<IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8>(static_cast<Il2CppComObject*>(__this));
-
-	// Native function invocation
-	const il2cpp_hresult_t hr = ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8->IVector_1_RemoveAtEnd_m40AFD1E5DD3C6C5C8115BAB2E578991381F8AF23();
-
-	il2cpp_codegen_com_raise_exception_if_failed(hr, false);
-
-}
-// System.Void Windows.Foundation.Collections.IVector`1<Windows.Foundation.Size>::Clear()
-extern "C" IL2CPP_METHOD_ATTR void IVector_1_Clear_mF14DF5926DA041787F0ADF803A7706CD9ECEDEB8 (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8* ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8 = il2cpp_codegen_com_query_interface<IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8>(static_cast<Il2CppComObject*>(__this));
-
-	// Native function invocation
-	const il2cpp_hresult_t hr = ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8->IVector_1_Clear_mF14DF5926DA041787F0ADF803A7706CD9ECEDEB8();
-
-	il2cpp_codegen_com_raise_exception_if_failed(hr, false);
-
-}
-// System.UInt32 Windows.Foundation.Collections.IVector`1<Windows.Foundation.Size>::GetMany(System.UInt32,T[])
-extern "C" IL2CPP_METHOD_ATTR uint32_t IVector_1_GetMany_m390590C27DB1C1496832A856364083C6E7E5C737 (RuntimeObject* __this, uint32_t ___startIndex0, SizeU5BU5D_t039A7BC3968859A1AC03A46860F6108D053B9D58* ___items1, const RuntimeMethod* method)
-{
-	IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8* ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8 = il2cpp_codegen_com_query_interface<IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8>(static_cast<Il2CppComObject*>(__this));
-
-	// Marshaling of parameter U27___items1U27 to native representation
-	uint32_t ____items1_marshaledArraySize = 0;
-	Size_t4766FF009097CE547F699B69250246058DA664D9 * ____items1_marshaled = NULL;
-	if (___items1 != NULL)
-	{
-		____items1_marshaledArraySize = static_cast<uint32_t>((___items1)->max_length);
-		____items1_marshaled = il2cpp_codegen_marshal_allocate_array<Size_t4766FF009097CE547F699B69250246058DA664D9 >(static_cast<int32_t>(____items1_marshaledArraySize));
-		memset(____items1_marshaled, 0, static_cast<int32_t>(____items1_marshaledArraySize) * sizeof(Size_t4766FF009097CE547F699B69250246058DA664D9 ));
-	}
-
-	// Native function invocation
-	uint32_t returnValue = 0;
-	const il2cpp_hresult_t hr = ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8->IVector_1_GetMany_m390590C27DB1C1496832A856364083C6E7E5C737(___startIndex0, ____items1_marshaledArraySize, ____items1_marshaled, &returnValue);
-
-	il2cpp_codegen_com_raise_exception_if_failed(hr, false);
-
-	// Marshaling of parameter U27___items1U27 back from native representation
-	if (____items1_marshaled != NULL)
-	{
-		____items1_marshaledArraySize = static_cast<uint32_t>((___items1)->max_length);
-		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(static_cast<int32_t>(____items1_marshaledArraySize)); i++)
-		{
-			(___items1)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), (____items1_marshaled)[i]);
-		}
-	}
-
-	// Marshaling cleanup of parameter U27___items1U27 native representation
-	il2cpp_codegen_marshal_free(____items1_marshaled);
-	____items1_marshaled = NULL;
-
-	return returnValue;
-}
-// System.Void Windows.Foundation.Collections.IVector`1<Windows.Foundation.Size>::ReplaceAll(T[])
-extern "C" IL2CPP_METHOD_ATTR void IVector_1_ReplaceAll_m2DC5D0ADA3FDE35A22A0261F89A1A2A407EEFF42 (RuntimeObject* __this, SizeU5BU5D_t039A7BC3968859A1AC03A46860F6108D053B9D58* ___items0, const RuntimeMethod* method)
-{
-	IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8* ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8 = il2cpp_codegen_com_query_interface<IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8>(static_cast<Il2CppComObject*>(__this));
-
-	// Marshaling of parameter U27___items0U27 to native representation
-	uint32_t ____items0_marshaledArraySize = 0;
-	Size_t4766FF009097CE547F699B69250246058DA664D9 * ____items0_marshaled = NULL;
-	if (___items0 != NULL)
-	{
-		____items0_marshaledArraySize = static_cast<uint32_t>((___items0)->max_length);
-		____items0_marshaled = reinterpret_cast<Size_t4766FF009097CE547F699B69250246058DA664D9 *>((___items0)->GetAddressAtUnchecked(0));
-	}
-
-	// Native function invocation
-	const il2cpp_hresult_t hr = ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8->IVector_1_ReplaceAll_m2DC5D0ADA3FDE35A22A0261F89A1A2A407EEFF42(____items0_marshaledArraySize, ____items0_marshaled);
-
-	il2cpp_codegen_com_raise_exception_if_failed(hr, false);
-
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// T Windows.Foundation.Collections.IVector`1<Windows.Foundation.Size>::GetAt(System.UInt32)
 extern "C" IL2CPP_METHOD_ATTR Size_tBE9F75FCA10276DC3998237A8906733B64FB75A2  IVector_1_GetAt_mAC9D4AFE60AF9E4E11B2019A7E88E67FD01220CA (RuntimeObject* __this, uint32_t ___index0, const RuntimeMethod* method)
 {
 	IVector_1_tFF499B0D2C4CFA234C8341A0E67F1C5B0558E080* ____ivector_1_tFF499B0D2C4CFA234C8341A0E67F1C5B0558E080 = il2cpp_codegen_com_query_interface<IVector_1_tFF499B0D2C4CFA234C8341A0E67F1C5B0558E080>(static_cast<Il2CppComObject*>(__this));
@@ -19172,6 +18960,218 @@ extern "C" IL2CPP_METHOD_ATTR void IVector_1_ReplaceAll_m43A4A257320A29444AF9816
 
 	// Native function invocation
 	const il2cpp_hresult_t hr = ____ivector_1_tFF499B0D2C4CFA234C8341A0E67F1C5B0558E080->IVector_1_ReplaceAll_m43A4A257320A29444AF981687B4BE67E8266AB81(____items0_marshaledArraySize, ____items0_marshaled);
+
+	il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// T Windows.Foundation.Collections.IVector`1<Windows.Foundation.Size>::GetAt(System.UInt32)
+extern "C" IL2CPP_METHOD_ATTR Size_t4766FF009097CE547F699B69250246058DA664D9  IVector_1_GetAt_m7ECA4E469F676C52EDE5400B423F4E2D4209D119 (RuntimeObject* __this, uint32_t ___index0, const RuntimeMethod* method)
+{
+	IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8* ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8 = il2cpp_codegen_com_query_interface<IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8>(static_cast<Il2CppComObject*>(__this));
+
+	// Native function invocation
+	Size_t4766FF009097CE547F699B69250246058DA664D9  returnValue = {};
+	const il2cpp_hresult_t hr = ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8->IVector_1_GetAt_m7ECA4E469F676C52EDE5400B423F4E2D4209D119(___index0, &returnValue);
+
+	il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+	return returnValue;
+}
+// System.UInt32 Windows.Foundation.Collections.IVector`1<Windows.Foundation.Size>::get_Size()
+extern "C" IL2CPP_METHOD_ATTR uint32_t IVector_1_get_Size_mD6832F7B4E5D86E699FF2560427C1919B4CD9FD5 (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8* ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8 = il2cpp_codegen_com_query_interface<IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8>(static_cast<Il2CppComObject*>(__this));
+
+	// Native function invocation
+	uint32_t returnValue = 0;
+	const il2cpp_hresult_t hr = ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8->IVector_1_get_Size_mD6832F7B4E5D86E699FF2560427C1919B4CD9FD5(&returnValue);
+
+	il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+	return returnValue;
+}
+// System.Collections.Generic.IReadOnlyList`1<T> Windows.Foundation.Collections.IVector`1<Windows.Foundation.Size>::GetView()
+extern "C" IL2CPP_METHOD_ATTR RuntimeObject* IVector_1_GetView_mF62EA29CBAC5FB17ECDE24F9E33BC487F0804CEC (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IVector_1_GetView_mF62EA29CBAC5FB17ECDE24F9E33BC487F0804CEC_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8* ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8 = il2cpp_codegen_com_query_interface<IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8>(static_cast<Il2CppComObject*>(__this));
+
+	// Native function invocation
+	IVectorView_1_t8042FAD04D2C8523CBBA9A36C4E5C25ADAE8A97B* returnValue = NULL;
+	const il2cpp_hresult_t hr = ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8->IVector_1_GetView_mF62EA29CBAC5FB17ECDE24F9E33BC487F0804CEC(&returnValue);
+
+	il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+	// Marshaling of return value back from native representation
+	RuntimeObject* _returnValue_unmarshaled = NULL;
+	if (returnValue != NULL)
+	{
+		_returnValue_unmarshaled = il2cpp_codegen_com_get_or_create_rcw_from_iinspectable<RuntimeObject>(returnValue, Il2CppComObject_il2cpp_TypeInfo_var);
+
+		if (il2cpp_codegen_is_import_or_windows_runtime(_returnValue_unmarshaled))
+		{
+			il2cpp_codegen_com_cache_queried_interface(static_cast<Il2CppComObject*>(_returnValue_unmarshaled), IVectorView_1_t8042FAD04D2C8523CBBA9A36C4E5C25ADAE8A97B::IID, returnValue);
+		}
+	}
+	else
+	{
+		_returnValue_unmarshaled = NULL;
+	}
+
+	// Marshaling cleanup of return value native representation
+	if (returnValue != NULL)
+	{
+		(returnValue)->Release();
+		returnValue = NULL;
+	}
+
+	return _returnValue_unmarshaled;
+}
+// System.Boolean Windows.Foundation.Collections.IVector`1<Windows.Foundation.Size>::IndexOf(T,System.UInt32U26)
+extern "C" IL2CPP_METHOD_ATTR bool IVector_1_IndexOf_m718D05B74197EEB4147091573DC19DD13E98DB1A (RuntimeObject* __this, Size_t4766FF009097CE547F699B69250246058DA664D9  ___value0, uint32_t* ___index1, const RuntimeMethod* method)
+{
+	IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8* ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8 = il2cpp_codegen_com_query_interface<IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8>(static_cast<Il2CppComObject*>(__this));
+
+	// Native function invocation
+	bool returnValue = 0;
+	const il2cpp_hresult_t hr = ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8->IVector_1_IndexOf_m718D05B74197EEB4147091573DC19DD13E98DB1A(___value0, ___index1, &returnValue);
+
+	il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+	return returnValue;
+}
+// System.Void Windows.Foundation.Collections.IVector`1<Windows.Foundation.Size>::SetAt(System.UInt32,T)
+extern "C" IL2CPP_METHOD_ATTR void IVector_1_SetAt_m32B55AF9F5277286FDB6AF16EA252BDC6B60D838 (RuntimeObject* __this, uint32_t ___index0, Size_t4766FF009097CE547F699B69250246058DA664D9  ___value1, const RuntimeMethod* method)
+{
+	IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8* ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8 = il2cpp_codegen_com_query_interface<IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8>(static_cast<Il2CppComObject*>(__this));
+
+	// Native function invocation
+	const il2cpp_hresult_t hr = ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8->IVector_1_SetAt_m32B55AF9F5277286FDB6AF16EA252BDC6B60D838(___index0, ___value1);
+
+	il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+}
+// System.Void Windows.Foundation.Collections.IVector`1<Windows.Foundation.Size>::InsertAt(System.UInt32,T)
+extern "C" IL2CPP_METHOD_ATTR void IVector_1_InsertAt_mE4B01B34A3CEF946A1ECB04DEFCC1A74035938FD (RuntimeObject* __this, uint32_t ___index0, Size_t4766FF009097CE547F699B69250246058DA664D9  ___value1, const RuntimeMethod* method)
+{
+	IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8* ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8 = il2cpp_codegen_com_query_interface<IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8>(static_cast<Il2CppComObject*>(__this));
+
+	// Native function invocation
+	const il2cpp_hresult_t hr = ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8->IVector_1_InsertAt_mE4B01B34A3CEF946A1ECB04DEFCC1A74035938FD(___index0, ___value1);
+
+	il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+}
+// System.Void Windows.Foundation.Collections.IVector`1<Windows.Foundation.Size>::RemoveAt(System.UInt32)
+extern "C" IL2CPP_METHOD_ATTR void IVector_1_RemoveAt_mD3B3ACF92CD66993019CA3B115EF0D6C46035523 (RuntimeObject* __this, uint32_t ___index0, const RuntimeMethod* method)
+{
+	IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8* ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8 = il2cpp_codegen_com_query_interface<IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8>(static_cast<Il2CppComObject*>(__this));
+
+	// Native function invocation
+	const il2cpp_hresult_t hr = ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8->IVector_1_RemoveAt_mD3B3ACF92CD66993019CA3B115EF0D6C46035523(___index0);
+
+	il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+}
+// System.Void Windows.Foundation.Collections.IVector`1<Windows.Foundation.Size>::Append(T)
+extern "C" IL2CPP_METHOD_ATTR void IVector_1_Append_m2FCF810D140BCC51E05D5C1A125B1D6991DC089C (RuntimeObject* __this, Size_t4766FF009097CE547F699B69250246058DA664D9  ___value0, const RuntimeMethod* method)
+{
+	IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8* ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8 = il2cpp_codegen_com_query_interface<IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8>(static_cast<Il2CppComObject*>(__this));
+
+	// Native function invocation
+	const il2cpp_hresult_t hr = ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8->IVector_1_Append_m2FCF810D140BCC51E05D5C1A125B1D6991DC089C(___value0);
+
+	il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+}
+// System.Void Windows.Foundation.Collections.IVector`1<Windows.Foundation.Size>::RemoveAtEnd()
+extern "C" IL2CPP_METHOD_ATTR void IVector_1_RemoveAtEnd_m40AFD1E5DD3C6C5C8115BAB2E578991381F8AF23 (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8* ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8 = il2cpp_codegen_com_query_interface<IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8>(static_cast<Il2CppComObject*>(__this));
+
+	// Native function invocation
+	const il2cpp_hresult_t hr = ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8->IVector_1_RemoveAtEnd_m40AFD1E5DD3C6C5C8115BAB2E578991381F8AF23();
+
+	il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+}
+// System.Void Windows.Foundation.Collections.IVector`1<Windows.Foundation.Size>::Clear()
+extern "C" IL2CPP_METHOD_ATTR void IVector_1_Clear_mF14DF5926DA041787F0ADF803A7706CD9ECEDEB8 (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8* ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8 = il2cpp_codegen_com_query_interface<IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8>(static_cast<Il2CppComObject*>(__this));
+
+	// Native function invocation
+	const il2cpp_hresult_t hr = ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8->IVector_1_Clear_mF14DF5926DA041787F0ADF803A7706CD9ECEDEB8();
+
+	il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+}
+// System.UInt32 Windows.Foundation.Collections.IVector`1<Windows.Foundation.Size>::GetMany(System.UInt32,T[])
+extern "C" IL2CPP_METHOD_ATTR uint32_t IVector_1_GetMany_m390590C27DB1C1496832A856364083C6E7E5C737 (RuntimeObject* __this, uint32_t ___startIndex0, SizeU5BU5D_t039A7BC3968859A1AC03A46860F6108D053B9D58* ___items1, const RuntimeMethod* method)
+{
+	IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8* ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8 = il2cpp_codegen_com_query_interface<IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8>(static_cast<Il2CppComObject*>(__this));
+
+	// Marshaling of parameter U27___items1U27 to native representation
+	uint32_t ____items1_marshaledArraySize = 0;
+	Size_t4766FF009097CE547F699B69250246058DA664D9 * ____items1_marshaled = NULL;
+	if (___items1 != NULL)
+	{
+		____items1_marshaledArraySize = static_cast<uint32_t>((___items1)->max_length);
+		____items1_marshaled = il2cpp_codegen_marshal_allocate_array<Size_t4766FF009097CE547F699B69250246058DA664D9 >(static_cast<int32_t>(____items1_marshaledArraySize));
+		memset(____items1_marshaled, 0, static_cast<int32_t>(____items1_marshaledArraySize) * sizeof(Size_t4766FF009097CE547F699B69250246058DA664D9 ));
+	}
+
+	// Native function invocation
+	uint32_t returnValue = 0;
+	const il2cpp_hresult_t hr = ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8->IVector_1_GetMany_m390590C27DB1C1496832A856364083C6E7E5C737(___startIndex0, ____items1_marshaledArraySize, ____items1_marshaled, &returnValue);
+
+	il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+	// Marshaling of parameter U27___items1U27 back from native representation
+	if (____items1_marshaled != NULL)
+	{
+		____items1_marshaledArraySize = static_cast<uint32_t>((___items1)->max_length);
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(static_cast<int32_t>(____items1_marshaledArraySize)); i++)
+		{
+			(___items1)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), (____items1_marshaled)[i]);
+		}
+	}
+
+	// Marshaling cleanup of parameter U27___items1U27 native representation
+	il2cpp_codegen_marshal_free(____items1_marshaled);
+	____items1_marshaled = NULL;
+
+	return returnValue;
+}
+// System.Void Windows.Foundation.Collections.IVector`1<Windows.Foundation.Size>::ReplaceAll(T[])
+extern "C" IL2CPP_METHOD_ATTR void IVector_1_ReplaceAll_m2DC5D0ADA3FDE35A22A0261F89A1A2A407EEFF42 (RuntimeObject* __this, SizeU5BU5D_t039A7BC3968859A1AC03A46860F6108D053B9D58* ___items0, const RuntimeMethod* method)
+{
+	IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8* ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8 = il2cpp_codegen_com_query_interface<IVector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8>(static_cast<Il2CppComObject*>(__this));
+
+	// Marshaling of parameter U27___items0U27 to native representation
+	uint32_t ____items0_marshaledArraySize = 0;
+	Size_t4766FF009097CE547F699B69250246058DA664D9 * ____items0_marshaled = NULL;
+	if (___items0 != NULL)
+	{
+		____items0_marshaledArraySize = static_cast<uint32_t>((___items0)->max_length);
+		____items0_marshaled = reinterpret_cast<Size_t4766FF009097CE547F699B69250246058DA664D9 *>((___items0)->GetAddressAtUnchecked(0));
+	}
+
+	// Native function invocation
+	const il2cpp_hresult_t hr = ____ivector_1_t7C2129FC172D11816EEAE23C4B25DA195CD9B8D8->IVector_1_ReplaceAll_m2DC5D0ADA3FDE35A22A0261F89A1A2A407EEFF42(____items0_marshaledArraySize, ____items0_marshaled);
 
 	il2cpp_codegen_com_raise_exception_if_failed(hr, false);
 

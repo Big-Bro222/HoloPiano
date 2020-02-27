@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Keytester : MonoBehaviour
 {
-    public MidiData midiData;
+    public Key_detection key_detection;
     public NoteBehavior noteBehavior;
     public Notedetector notedetector;
 
@@ -26,7 +26,7 @@ public class Keytester : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        KeyPressing = midiData.Keypressing();
+        KeyPressing = key_detection.Keypressing();
 
         if (KeyPressing)
         {
@@ -39,9 +39,8 @@ public class Keytester : MonoBehaviour
         {
             y = true;
         }
-        //Debug.Log(y + "YvalueAfterif");
-        //Debug.Log(currentObjName + "and" + notedetector.GetCurrentObjNameOnBase());
-        currentKey = midiData.offsetRemovedValue();
+        currentKey = key_detection.offsetRemovedValue();
+        print(currentKey);
         currentNote = notedetector.GetCurrentKeyValueOnBase();
         if (currentNote == currentKey&&currentObjName==notedetector.GetCurrentObjNameOnBase())
         {

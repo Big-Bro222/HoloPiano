@@ -535,6 +535,8 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Bulk_Vuforia.UnityExtensions_4.cpp">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_VuforiaScripts_0.cpp">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Bulk_WebRtcProcess_0.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Bulk_WindowsRuntimeMetadata_0.cpp">
@@ -826,6 +828,8 @@
     <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_77Table.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_78Table.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_79Table.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_7Table.cpp">
     </ClCompile>

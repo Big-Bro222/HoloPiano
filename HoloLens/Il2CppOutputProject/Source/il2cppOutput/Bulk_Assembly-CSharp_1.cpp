@@ -143,6 +143,18 @@ struct GenericVirtActionInvoker0
 		((Action)invokeData.methodPtr)(obj, invokeData.method);
 	}
 };
+template <typename T1, typename T2, typename T3>
+struct GenericVirtActionInvoker3
+{
+	typedef void (*Action)(void*, T1, T2, T3, const RuntimeMethod*);
+
+	static inline void Invoke (const RuntimeMethod* method, RuntimeObject* obj, T1 p1, T2 p2, T3 p3)
+	{
+		VirtualInvokeData invokeData;
+		il2cpp_codegen_get_generic_virtual_invoke_data(method, obj, &invokeData);
+		((Action)invokeData.methodPtr)(obj, p1, p2, p3, invokeData.method);
+	}
+};
 template <typename T1, typename T2>
 struct InterfaceActionInvoker2
 {
@@ -195,6 +207,17 @@ struct InterfaceActionInvoker0
 	{
 		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
 		((Action)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename T1, typename T2, typename T3>
+struct InterfaceActionInvoker3
+{
+	typedef void (*Action)(void*, T1, T2, T3, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1, T2 p2, T3 p3)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		((Action)invokeData.methodPtr)(obj, p1, p2, p3, invokeData.method);
 	}
 };
 template <typename T1, typename T2>
@@ -256,6 +279,18 @@ struct GenericInterfaceActionInvoker0
 		((Action)invokeData.methodPtr)(obj, invokeData.method);
 	}
 };
+template <typename T1, typename T2, typename T3>
+struct GenericInterfaceActionInvoker3
+{
+	typedef void (*Action)(void*, T1, T2, T3, const RuntimeMethod*);
+
+	static inline void Invoke (const RuntimeMethod* method, RuntimeObject* obj, T1 p1, T2 p2, T3 p3)
+	{
+		VirtualInvokeData invokeData;
+		il2cpp_codegen_get_generic_interface_invoke_data(method, obj, &invokeData);
+		((Action)invokeData.methodPtr)(obj, p1, p2, p3, invokeData.method);
+	}
+};
 
 // HoloToolkit.Sharing.AnchorDownloadRequest
 struct AnchorDownloadRequest_tBC209707ED39C8FFA11A3AEFEEC56AA3EA630A4F;
@@ -267,14 +302,6 @@ struct DoubleElement_t3D09EA76B3BC82A38C2411D6CF7D99C96E287829;
 struct Element_t25F00AE5B3B76ACFF06ABF09CCF04EEFE83FBC32;
 // HoloToolkit.Sharing.FloatArrayElement
 struct FloatArrayElement_tDFB548FFC2B72E3B2E8FF429804FAADA22887628;
-// HoloToolkit.Sharing.FloatArrayListener
-struct FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1;
-// HoloToolkit.Sharing.FloatArrayListener/SwigDelegateFloatArrayListener_0
-struct SwigDelegateFloatArrayListener_0_tA9A7E854A14FA0A879F6015E5F8EAA3A94833FD7;
-// HoloToolkit.Sharing.FloatArrayListener/SwigDelegateFloatArrayListener_1
-struct SwigDelegateFloatArrayListener_1_tD0C94947929A1D17D534387D11C11CF2E4B6EE6D;
-// HoloToolkit.Sharing.FloatArrayListener/SwigDelegateFloatArrayListener_2
-struct SwigDelegateFloatArrayListener_2_t3ECAF7DB385704AB1054931F6DE29F5670C0CBE3;
 // HoloToolkit.Sharing.FloatElement
 struct FloatElement_t38027DB1707A01C77A0C76CFB7450410134B555E;
 // HoloToolkit.Sharing.IntArrayElement
@@ -514,7 +541,6 @@ extern RuntimeClass* DoubleElement_t3D09EA76B3BC82A38C2411D6CF7D99C96E287829_il2
 extern RuntimeClass* Double_t358B8F23BDC52A5DD700E727E204F9F7CDE12409_il2cpp_TypeInfo_var;
 extern RuntimeClass* Element_t25F00AE5B3B76ACFF06ABF09CCF04EEFE83FBC32_il2cpp_TypeInfo_var;
 extern RuntimeClass* FloatArrayElement_tDFB548FFC2B72E3B2E8FF429804FAADA22887628_il2cpp_TypeInfo_var;
-extern RuntimeClass* FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1_il2cpp_TypeInfo_var;
 extern RuntimeClass* FloatElement_t38027DB1707A01C77A0C76CFB7450410134B555E_il2cpp_TypeInfo_var;
 extern RuntimeClass* GC_tC1D7BD74E8F44ECCEF5CD2B5D84BFF9AAE02D01D_il2cpp_TypeInfo_var;
 extern RuntimeClass* Int32_t585191389E07734F19F3156FF88FB3EF4800D102_il2cpp_TypeInfo_var;
@@ -540,9 +566,6 @@ extern RuntimeClass* SharingClientPINVOKE_tFF4292D2BC5A9EB345172E6D4F8BE281B3799
 extern RuntimeClass* Single_tDDDA9169C4E4E308AC6D7A824F9B28DC82204AE1_il2cpp_TypeInfo_var;
 extern RuntimeClass* StringArrayElement_tA84F9B545876A8A19FC4527F960BE94617AC1B85_il2cpp_TypeInfo_var;
 extern RuntimeClass* StringElement_tEFAB9670CBCFB24E014078ACA6D61D417E994388_il2cpp_TypeInfo_var;
-extern RuntimeClass* SwigDelegateFloatArrayListener_0_tA9A7E854A14FA0A879F6015E5F8EAA3A94833FD7_il2cpp_TypeInfo_var;
-extern RuntimeClass* SwigDelegateFloatArrayListener_1_tD0C94947929A1D17D534387D11C11CF2E4B6EE6D_il2cpp_TypeInfo_var;
-extern RuntimeClass* SwigDelegateFloatArrayListener_2_t3ECAF7DB385704AB1054931F6DE29F5670C0CBE3_il2cpp_TypeInfo_var;
 extern RuntimeClass* SwigDelegateIntArrayListener_0_t9D2C8F15B2606C1EA521B105E71838E7D2DA526E_il2cpp_TypeInfo_var;
 extern RuntimeClass* SwigDelegateIntArrayListener_1_tD73C7E4E2FCEFEEA43F051A45B67907C6162A719_il2cpp_TypeInfo_var;
 extern RuntimeClass* SwigDelegateIntArrayListener_2_t64357A558E9C6C811AC3FD8C9700793DC226D054_il2cpp_TypeInfo_var;
@@ -626,9 +649,6 @@ extern const RuntimeMethod* Action_2_Invoke_mCA0152CE9E67ACAAEF0A66C0CADDEB5C772
 extern const RuntimeMethod* Action_2_Invoke_mCE47FA3BCD6FFC91EAC0C1E70EAD9F5D0FBA2C09_RuntimeMethod_var;
 extern const RuntimeMethod* Action_2_Invoke_mE3BE9CAEF056074C16B22E03A28817FC4B60FCCC_RuntimeMethod_var;
 extern const RuntimeMethod* Action_3_Invoke_mA13A5651AA4FD8F350BA33458F72F71D0D70EB11_RuntimeMethod_var;
-extern const RuntimeMethod* FloatArrayListener_SwigDirectorOnValueChanged_m1544E859C02E217E8E48A250BBF622D56C126186_RuntimeMethod_var;
-extern const RuntimeMethod* FloatArrayListener_SwigDirectorOnValueInserted_m0B00C286D13D6AFF494EFD452E19E07294CE1154_RuntimeMethod_var;
-extern const RuntimeMethod* FloatArrayListener_SwigDirectorOnValueRemoved_mDA88FB0AF00E7C623BFD09F0926CACEE7C71411D_RuntimeMethod_var;
 extern const RuntimeMethod* IntArrayListener_SwigDirectorOnValueChanged_mAC8CE2BDED0BCBA6F0B2E6207221235E94715CFB_RuntimeMethod_var;
 extern const RuntimeMethod* IntArrayListener_SwigDirectorOnValueInserted_mDFD82E70D026FA6802940A5F4563CAB268DBD5CB_RuntimeMethod_var;
 extern const RuntimeMethod* IntArrayListener_SwigDirectorOnValueRemoved_m39577E615C5EF50A2FC6A9AF65D995CAF14448E0_RuntimeMethod_var;
@@ -671,7 +691,6 @@ extern const RuntimeType* AnchorDownloadRequest_tBC209707ED39C8FFA11A3AEFEEC56AA
 extern const RuntimeType* Boolean_tB53F6830F670160873277339AA58F15CAED4399C_0_0_0_var;
 extern const RuntimeType* Double_t358B8F23BDC52A5DD700E727E204F9F7CDE12409_0_0_0_var;
 extern const RuntimeType* Element_t25F00AE5B3B76ACFF06ABF09CCF04EEFE83FBC32_0_0_0_var;
-extern const RuntimeType* FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1_0_0_0_var;
 extern const RuntimeType* Int32_t585191389E07734F19F3156FF88FB3EF4800D102_0_0_0_var;
 extern const RuntimeType* Int64_t7A386C2FF7B0280A0F516992401DDFCF0FF7B436_0_0_0_var;
 extern const RuntimeType* IntArrayListener_t00A4B6E98676D3416FFC34C807C68F03136FFFCF_0_0_0_var;
@@ -689,27 +708,6 @@ extern const RuntimeType* Room_t427DF70AAC91616B57AA703121C86EF6800E41EA_0_0_0_v
 extern const RuntimeType* Single_tDDDA9169C4E4E308AC6D7A824F9B28DC82204AE1_0_0_0_var;
 extern const RuntimeType* String_t_0_0_0_var;
 extern const RuntimeType* XString_tDCF0ABE190D865AF50A84C87276DC88B61473193_0_0_0_var;
-extern const uint32_t FloatArrayElement_AddListener_m9D49C98D9C8CD1DADA4F57808CCC5B21BFFBDEB8_MetadataUsageId;
-extern const uint32_t FloatArrayElement_Cast_mDF17DDA314C22392A99004E7E1FBC1E517A28642_MetadataUsageId;
-extern const uint32_t FloatArrayElement_Dispose_m8F080E310722D4F0334518D14E8BE6652A6CF59D_MetadataUsageId;
-extern const uint32_t FloatArrayElement_GetCount_mB276F8B1DC6DDA4598F0C4ACDD9BC2DC4C7571F2_MetadataUsageId;
-extern const uint32_t FloatArrayElement_GetValue_mEE94C55DF31C84D2B76E5957A6468016685F88EF_MetadataUsageId;
-extern const uint32_t FloatArrayElement_InsertValue_mB742485BE156539BD397FE8B68E4343D764E053D_MetadataUsageId;
-extern const uint32_t FloatArrayElement_RemoveListener_m829F7E7FCB075302CB1C1B5FB821C15FF912473C_MetadataUsageId;
-extern const uint32_t FloatArrayElement_RemoveValue_m9B669FC52BD9EFF5B671A8471DCEE3583BA38932_MetadataUsageId;
-extern const uint32_t FloatArrayElement_SetValue_mEDC6C9E5E42C452490E1CE67AF9E6E5019797F73_MetadataUsageId;
-extern const uint32_t FloatArrayElement__ctor_m5B23F95865D051E5E00B8A8FDD1C274A79CCEEEA_MetadataUsageId;
-extern const uint32_t FloatArrayElement_getCPtr_mA193D7E574A570BB6AB815B91E6DF8E2D16FF9E2_MetadataUsageId;
-extern const uint32_t FloatArrayListener_Dispose_mD0E8C53D665B4CA6096D45A5AB35DBACE1DAF2CB_MetadataUsageId;
-extern const uint32_t FloatArrayListener_OnValueChanged_mDF14FDABF683F41293BB02CE75056663A2A8A228_MetadataUsageId;
-extern const uint32_t FloatArrayListener_OnValueInserted_m22B0C9D6DC3F6E5577BCEC1B5E44B86F40D5E1A9_MetadataUsageId;
-extern const uint32_t FloatArrayListener_OnValueRemoved_mC35FCB461E12C671946E9EC908DF4F1B38B8F4EE_MetadataUsageId;
-extern const uint32_t FloatArrayListener_SwigDerivedClassHasMethod_mA54B9FC47F6FD9600884309B200F6DD88C294AE1_MetadataUsageId;
-extern const uint32_t FloatArrayListener_SwigDirectorConnect_mA3FD8A626666A87847724DE1280D9326AA21E643_MetadataUsageId;
-extern const uint32_t FloatArrayListener__cctor_m3F802865AE3C042FC9FF19D5EB846C7FB15A8084_MetadataUsageId;
-extern const uint32_t FloatArrayListener__ctor_m149ACFE715508769DB823A8A187A37921B312AB0_MetadataUsageId;
-extern const uint32_t FloatArrayListener__ctor_m321FADCBF64BACC24B76F68EC105777C99D149C3_MetadataUsageId;
-extern const uint32_t FloatArrayListener_getCPtr_m3BFA8F3EE3E857358410DCED528586F4AA3BB573_MetadataUsageId;
 extern const uint32_t FloatElement_Cast_mA6645D182C82B37F6C3A166F20B780B0E04C2A9C_MetadataUsageId;
 extern const uint32_t FloatElement_Dispose_m77AEA92DC7E4DA68A9DF048C7E312EEE0A99E4DD_MetadataUsageId;
 extern const uint32_t FloatElement_GetValue_mAF1B2523E43E1FAE6A740923F7D805B74865545F_MetadataUsageId;
@@ -1035,9 +1033,6 @@ extern const uint32_t Room_GetUserCount_m84E9829C70A6AC065AFD79AB4E004185E36CC9B
 extern const uint32_t Room_GetUserID_m5754C063BCB4AF1874D15C7F0A27CFBAE6ACB8A7_MetadataUsageId;
 extern const uint32_t Room_SetKeepOpen_m77683023A7F8D3C3B01142C512D68C88444D0C63_MetadataUsageId;
 extern const uint32_t Room_getCPtr_m8A87F8061CCF6AA53C4F93F0F64C050C546D0A4D_MetadataUsageId;
-extern const uint32_t SwigDelegateFloatArrayListener_0_BeginInvoke_m2C28F46CA0BF7707B9EE16F333010BBBC61FE6C4_MetadataUsageId;
-extern const uint32_t SwigDelegateFloatArrayListener_1_BeginInvoke_mB7CA9F35B987B6CE194C08DABA50CCE9BC7F639B_MetadataUsageId;
-extern const uint32_t SwigDelegateFloatArrayListener_2_BeginInvoke_m308E783BF9971B641D23DBBE87856250871B03AA_MetadataUsageId;
 extern const uint32_t SwigDelegateIntArrayListener_0_BeginInvoke_mD601C072D31B61AA47457836802B5B4656F4B341_MetadataUsageId;
 extern const uint32_t SwigDelegateIntArrayListener_1_BeginInvoke_m5E4BBEFE6B224C4DAF9832D799AFB413CD7CEEBD_MetadataUsageId;
 extern const uint32_t SwigDelegateIntArrayListener_2_BeginInvoke_m5E1BD35F21FCEEFFC4148B38E39E4DC69DDDA506_MetadataUsageId;
@@ -1056,6 +1051,13 @@ extern const uint32_t SwigDelegateObjectElementListener_6_BeginInvoke_m92564AF89
 extern const uint32_t SwigDelegateObjectElementListener_7_BeginInvoke_m5CB8D730A82A116A07B14A14C82743B41E1318AB_MetadataUsageId;
 extern const uint32_t SwigDelegatePairMaker_2_BeginInvoke_m92E41DDDE08CB3D7094F5F512B402EE231F43A26_MetadataUsageId;
 extern const uint32_t SwigDelegatePairingListener_1_BeginInvoke_m1C06D42C3E73CC568278244C2388E3031E87246B_MetadataUsageId;
+extern const uint32_t SwigDelegateRoomManagerListener_0_BeginInvoke_m2AA6B8C8837BD2CC229D1DE79A7DB01145B5BE04_MetadataUsageId;
+extern const uint32_t SwigDelegateRoomManagerListener_1_BeginInvoke_mB446576B45AF1A2EFF51FEBA458CF545AD439BC3_MetadataUsageId;
+extern const uint32_t SwigDelegateRoomManagerListener_2_BeginInvoke_mEE9FC9CDE58036107B074839EDCCCF6C4128E91D_MetadataUsageId;
+extern const uint32_t SwigDelegateRoomManagerListener_3_BeginInvoke_m6736F943B957411622D2AC34A04FE5A3C8520CDC_MetadataUsageId;
+extern const uint32_t SwigDelegateRoomManagerListener_4_BeginInvoke_m7BA86F27F46A25AA82E52312B137C80E7FB75235_MetadataUsageId;
+extern const uint32_t SwigDelegateRoomManagerListener_5_BeginInvoke_m90A2743898EA49A1C03D8BD18E3A0B8940EDF2D1_MetadataUsageId;
+extern const uint32_t SwigDelegateRoomManagerListener_6_BeginInvoke_m45F9CE0C5F9A23FB92143EB4D5699997CA30CB8A_MetadataUsageId;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 struct Exception_t_marshaled_com;
@@ -2026,35 +2028,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // CLIENTROLE_T10950230267B5E19E3FB6B6C58D0C16C2C4FBD25_H
-#ifndef ELEMENTTYPE_T8F3750CF94A4F4B3EB8A14E079BE91D6175B5E06_H
-#define ELEMENTTYPE_T8F3750CF94A4F4B3EB8A14E079BE91D6175B5E06_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// HoloToolkit.Sharing.ElementType
-struct  ElementType_t8F3750CF94A4F4B3EB8A14E079BE91D6175B5E06 
-{
-public:
-	// System.Int32 HoloToolkit.Sharing.ElementType::value__
-	int32_t ___value___2;
-
-public:
-	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(ElementType_t8F3750CF94A4F4B3EB8A14E079BE91D6175B5E06, ___value___2)); }
-	inline int32_t get_value___2() const { return ___value___2; }
-	inline int32_t* get_address_of_value___2() { return &___value___2; }
-	inline void set_value___2(int32_t value)
-	{
-		___value___2 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // ELEMENTTYPE_T8F3750CF94A4F4B3EB8A14E079BE91D6175B5E06_H
 #ifndef LOGSEVERITY_TE0FF100D1045F41F2DDDA42245611B37170354BC_H
 #define LOGSEVERITY_TE0FF100D1045F41F2DDDA42245611B37170354BC_H
 #ifdef __clang__
@@ -3747,167 +3720,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // FLOATARRAYELEMENT_TDFB548FFC2B72E3B2E8FF429804FAADA22887628_H
-#ifndef FLOATARRAYLISTENER_TE3906ABC7A0CBC603469883954487B5F68AD9BA1_H
-#define FLOATARRAYLISTENER_TE3906ABC7A0CBC603469883954487B5F68AD9BA1_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// HoloToolkit.Sharing.FloatArrayListener
-struct  FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1  : public Listener_t3466CE06B278C6B8D8CC0655DF5EC0000BF962C2
-{
-public:
-	// System.Runtime.InteropServices.HandleRef HoloToolkit.Sharing.FloatArrayListener::swigCPtr
-	HandleRef_t876E76124F400D12395BF61D562162AB6822204A  ___swigCPtr_2;
-	// HoloToolkit.Sharing.FloatArrayListener_SwigDelegateFloatArrayListener_0 HoloToolkit.Sharing.FloatArrayListener::swigDelegate0
-	SwigDelegateFloatArrayListener_0_tA9A7E854A14FA0A879F6015E5F8EAA3A94833FD7 * ___swigDelegate0_3;
-	// HoloToolkit.Sharing.FloatArrayListener_SwigDelegateFloatArrayListener_1 HoloToolkit.Sharing.FloatArrayListener::swigDelegate1
-	SwigDelegateFloatArrayListener_1_tD0C94947929A1D17D534387D11C11CF2E4B6EE6D * ___swigDelegate1_4;
-	// HoloToolkit.Sharing.FloatArrayListener_SwigDelegateFloatArrayListener_2 HoloToolkit.Sharing.FloatArrayListener::swigDelegate2
-	SwigDelegateFloatArrayListener_2_t3ECAF7DB385704AB1054931F6DE29F5670C0CBE3 * ___swigDelegate2_5;
-
-public:
-	inline static int32_t get_offset_of_swigCPtr_2() { return static_cast<int32_t>(offsetof(FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1, ___swigCPtr_2)); }
-	inline HandleRef_t876E76124F400D12395BF61D562162AB6822204A  get_swigCPtr_2() const { return ___swigCPtr_2; }
-	inline HandleRef_t876E76124F400D12395BF61D562162AB6822204A * get_address_of_swigCPtr_2() { return &___swigCPtr_2; }
-	inline void set_swigCPtr_2(HandleRef_t876E76124F400D12395BF61D562162AB6822204A  value)
-	{
-		___swigCPtr_2 = value;
-	}
-
-	inline static int32_t get_offset_of_swigDelegate0_3() { return static_cast<int32_t>(offsetof(FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1, ___swigDelegate0_3)); }
-	inline SwigDelegateFloatArrayListener_0_tA9A7E854A14FA0A879F6015E5F8EAA3A94833FD7 * get_swigDelegate0_3() const { return ___swigDelegate0_3; }
-	inline SwigDelegateFloatArrayListener_0_tA9A7E854A14FA0A879F6015E5F8EAA3A94833FD7 ** get_address_of_swigDelegate0_3() { return &___swigDelegate0_3; }
-	inline void set_swigDelegate0_3(SwigDelegateFloatArrayListener_0_tA9A7E854A14FA0A879F6015E5F8EAA3A94833FD7 * value)
-	{
-		___swigDelegate0_3 = value;
-		Il2CppCodeGenWriteBarrier((&___swigDelegate0_3), value);
-	}
-
-	inline static int32_t get_offset_of_swigDelegate1_4() { return static_cast<int32_t>(offsetof(FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1, ___swigDelegate1_4)); }
-	inline SwigDelegateFloatArrayListener_1_tD0C94947929A1D17D534387D11C11CF2E4B6EE6D * get_swigDelegate1_4() const { return ___swigDelegate1_4; }
-	inline SwigDelegateFloatArrayListener_1_tD0C94947929A1D17D534387D11C11CF2E4B6EE6D ** get_address_of_swigDelegate1_4() { return &___swigDelegate1_4; }
-	inline void set_swigDelegate1_4(SwigDelegateFloatArrayListener_1_tD0C94947929A1D17D534387D11C11CF2E4B6EE6D * value)
-	{
-		___swigDelegate1_4 = value;
-		Il2CppCodeGenWriteBarrier((&___swigDelegate1_4), value);
-	}
-
-	inline static int32_t get_offset_of_swigDelegate2_5() { return static_cast<int32_t>(offsetof(FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1, ___swigDelegate2_5)); }
-	inline SwigDelegateFloatArrayListener_2_t3ECAF7DB385704AB1054931F6DE29F5670C0CBE3 * get_swigDelegate2_5() const { return ___swigDelegate2_5; }
-	inline SwigDelegateFloatArrayListener_2_t3ECAF7DB385704AB1054931F6DE29F5670C0CBE3 ** get_address_of_swigDelegate2_5() { return &___swigDelegate2_5; }
-	inline void set_swigDelegate2_5(SwigDelegateFloatArrayListener_2_t3ECAF7DB385704AB1054931F6DE29F5670C0CBE3 * value)
-	{
-		___swigDelegate2_5 = value;
-		Il2CppCodeGenWriteBarrier((&___swigDelegate2_5), value);
-	}
-};
-
-struct FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1_StaticFields
-{
-public:
-	// System.Type[] HoloToolkit.Sharing.FloatArrayListener::swigMethodTypes0
-	TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* ___swigMethodTypes0_6;
-	// System.Type[] HoloToolkit.Sharing.FloatArrayListener::swigMethodTypes1
-	TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* ___swigMethodTypes1_7;
-	// System.Type[] HoloToolkit.Sharing.FloatArrayListener::swigMethodTypes2
-	TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* ___swigMethodTypes2_8;
-
-public:
-	inline static int32_t get_offset_of_swigMethodTypes0_6() { return static_cast<int32_t>(offsetof(FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1_StaticFields, ___swigMethodTypes0_6)); }
-	inline TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* get_swigMethodTypes0_6() const { return ___swigMethodTypes0_6; }
-	inline TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F** get_address_of_swigMethodTypes0_6() { return &___swigMethodTypes0_6; }
-	inline void set_swigMethodTypes0_6(TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* value)
-	{
-		___swigMethodTypes0_6 = value;
-		Il2CppCodeGenWriteBarrier((&___swigMethodTypes0_6), value);
-	}
-
-	inline static int32_t get_offset_of_swigMethodTypes1_7() { return static_cast<int32_t>(offsetof(FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1_StaticFields, ___swigMethodTypes1_7)); }
-	inline TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* get_swigMethodTypes1_7() const { return ___swigMethodTypes1_7; }
-	inline TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F** get_address_of_swigMethodTypes1_7() { return &___swigMethodTypes1_7; }
-	inline void set_swigMethodTypes1_7(TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* value)
-	{
-		___swigMethodTypes1_7 = value;
-		Il2CppCodeGenWriteBarrier((&___swigMethodTypes1_7), value);
-	}
-
-	inline static int32_t get_offset_of_swigMethodTypes2_8() { return static_cast<int32_t>(offsetof(FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1_StaticFields, ___swigMethodTypes2_8)); }
-	inline TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* get_swigMethodTypes2_8() const { return ___swigMethodTypes2_8; }
-	inline TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F** get_address_of_swigMethodTypes2_8() { return &___swigMethodTypes2_8; }
-	inline void set_swigMethodTypes2_8(TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* value)
-	{
-		___swigMethodTypes2_8 = value;
-		Il2CppCodeGenWriteBarrier((&___swigMethodTypes2_8), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // FLOATARRAYLISTENER_TE3906ABC7A0CBC603469883954487B5F68AD9BA1_H
-#ifndef SWIGDELEGATEFLOATARRAYLISTENER_0_TA9A7E854A14FA0A879F6015E5F8EAA3A94833FD7_H
-#define SWIGDELEGATEFLOATARRAYLISTENER_0_TA9A7E854A14FA0A879F6015E5F8EAA3A94833FD7_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// HoloToolkit.Sharing.FloatArrayListener_SwigDelegateFloatArrayListener_0
-struct  SwigDelegateFloatArrayListener_0_tA9A7E854A14FA0A879F6015E5F8EAA3A94833FD7  : public MulticastDelegate_t
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // SWIGDELEGATEFLOATARRAYLISTENER_0_TA9A7E854A14FA0A879F6015E5F8EAA3A94833FD7_H
-#ifndef SWIGDELEGATEFLOATARRAYLISTENER_1_TD0C94947929A1D17D534387D11C11CF2E4B6EE6D_H
-#define SWIGDELEGATEFLOATARRAYLISTENER_1_TD0C94947929A1D17D534387D11C11CF2E4B6EE6D_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// HoloToolkit.Sharing.FloatArrayListener_SwigDelegateFloatArrayListener_1
-struct  SwigDelegateFloatArrayListener_1_tD0C94947929A1D17D534387D11C11CF2E4B6EE6D  : public MulticastDelegate_t
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // SWIGDELEGATEFLOATARRAYLISTENER_1_TD0C94947929A1D17D534387D11C11CF2E4B6EE6D_H
-#ifndef SWIGDELEGATEFLOATARRAYLISTENER_2_T3ECAF7DB385704AB1054931F6DE29F5670C0CBE3_H
-#define SWIGDELEGATEFLOATARRAYLISTENER_2_T3ECAF7DB385704AB1054931F6DE29F5670C0CBE3_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// HoloToolkit.Sharing.FloatArrayListener_SwigDelegateFloatArrayListener_2
-struct  SwigDelegateFloatArrayListener_2_t3ECAF7DB385704AB1054931F6DE29F5670C0CBE3  : public MulticastDelegate_t
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // SWIGDELEGATEFLOATARRAYLISTENER_2_T3ECAF7DB385704AB1054931F6DE29F5670C0CBE3_H
 #ifndef FLOATELEMENT_T38027DB1707A01C77A0C76CFB7450410134B555E_H
 #define FLOATELEMENT_T38027DB1707A01C77A0C76CFB7450410134B555E_H
 #ifdef __clang__
@@ -6272,8 +6084,8 @@ extern "C" IL2CPP_METHOD_ATTR void Action_3_Invoke_m480DE9B31C4C030942270947F20A
 // System.Void System.Action`2<System.Boolean,System.Object>::Invoke(!0,!1)
 extern "C" IL2CPP_METHOD_ATTR void Action_2_Invoke_m876D07286BCD4816A21B0B271318E0CD99F9B39F_gshared (Action_2_t3780F2B81C7D781FF31EC17E37A6D4B6CACAF5DA * __this, bool p0, RuntimeObject * p1, const RuntimeMethod* method);
 
-// System.IntPtr HoloToolkit.Sharing.SharingClientPINVOKE::FloatArrayElement_SWIGUpcast(System.IntPtr)
-extern "C" IL2CPP_METHOD_ATTR intptr_t SharingClientPINVOKE_FloatArrayElement_SWIGUpcast_m7988DD40D87F1E40B4ADFF8D6FCFF2AFAB8E52C5 (intptr_t ___jarg10, const RuntimeMethod* method);
+// System.IntPtr HoloToolkit.Sharing.SharingClientPINVOKE::FloatElement_SWIGUpcast(System.IntPtr)
+extern "C" IL2CPP_METHOD_ATTR intptr_t SharingClientPINVOKE_FloatElement_SWIGUpcast_mC8F276BA4183F567E67BBCEBD258C2EFC9613F27 (intptr_t ___jarg10, const RuntimeMethod* method);
 // System.Void HoloToolkit.Sharing.Element::.ctor(System.IntPtr,System.Boolean)
 extern "C" IL2CPP_METHOD_ATTR void Element__ctor_m4EF0C70D0E43853F5E837FC5149C67391C6005C2 (Element_t25F00AE5B3B76ACFF06ABF09CCF04EEFE83FBC32 * __this, intptr_t ___cPtr0, bool ___cMemoryOwn1, const RuntimeMethod* method);
 // System.Void System.Runtime.InteropServices.HandleRef::.ctor(System.Object,System.IntPtr)
@@ -6286,8 +6098,8 @@ extern "C" IL2CPP_METHOD_ATTR void Monitor_Enter_mC5B353DD83A0B0155DF6FBCC4DF5A5
 extern "C" IL2CPP_METHOD_ATTR intptr_t HandleRef_get_Handle_m095712F299EA36BF75975343C726FA160EE38277 (HandleRef_t876E76124F400D12395BF61D562162AB6822204A * __this, const RuntimeMethod* method);
 // System.Boolean System.IntPtr::op_Inequality(System.IntPtr,System.IntPtr)
 extern "C" IL2CPP_METHOD_ATTR bool IntPtr_op_Inequality_mB4886A806009EA825EFCC60CD2A7F6EB8E273A61 (intptr_t p0, intptr_t p1, const RuntimeMethod* method);
-// System.Void HoloToolkit.Sharing.SharingClientPINVOKE::delete_FloatArrayElement(System.Runtime.InteropServices.HandleRef)
-extern "C" IL2CPP_METHOD_ATTR void SharingClientPINVOKE_delete_FloatArrayElement_m7C8472D19FE85B9731E1FDA64AF60B577566029A (HandleRef_t876E76124F400D12395BF61D562162AB6822204A  ___jarg10, const RuntimeMethod* method);
+// System.Void HoloToolkit.Sharing.SharingClientPINVOKE::delete_FloatElement(System.Runtime.InteropServices.HandleRef)
+extern "C" IL2CPP_METHOD_ATTR void SharingClientPINVOKE_delete_FloatElement_m787B09666574533A5F3BE784CEC07840F55D85F3 (HandleRef_t876E76124F400D12395BF61D562162AB6822204A  ___jarg10, const RuntimeMethod* method);
 // System.Void System.GC::SuppressFinalize(System.Object)
 extern "C" IL2CPP_METHOD_ATTR void GC_SuppressFinalize_m037319A9B95A5BA437E806DE592802225EE5B425 (RuntimeObject * p0, const RuntimeMethod* method);
 // System.Void HoloToolkit.Sharing.Element::Dispose()
@@ -6296,78 +6108,10 @@ extern "C" IL2CPP_METHOD_ATTR void Element_Dispose_mC888F42859EB341F5DBC52867E78
 extern "C" IL2CPP_METHOD_ATTR void Monitor_Exit_m49A1E5356D984D0B934BB97A305E2E5E207225C2 (RuntimeObject * p0, const RuntimeMethod* method);
 // System.Runtime.InteropServices.HandleRef HoloToolkit.Sharing.Element::getCPtr(HoloToolkit.Sharing.Element)
 extern "C" IL2CPP_METHOD_ATTR HandleRef_t876E76124F400D12395BF61D562162AB6822204A  Element_getCPtr_m9096AA694E0DEDEC832966C5B5237D73DA2C9341 (Element_t25F00AE5B3B76ACFF06ABF09CCF04EEFE83FBC32 * ___obj0, const RuntimeMethod* method);
-// System.IntPtr HoloToolkit.Sharing.SharingClientPINVOKE::FloatArrayElement_Cast(System.Runtime.InteropServices.HandleRef)
-extern "C" IL2CPP_METHOD_ATTR intptr_t SharingClientPINVOKE_FloatArrayElement_Cast_m66755B35C3A2524031228474973CC1B7BFA8FFF7 (HandleRef_t876E76124F400D12395BF61D562162AB6822204A  ___jarg10, const RuntimeMethod* method);
-// System.Boolean System.IntPtr::op_Equality(System.IntPtr,System.IntPtr)
-extern "C" IL2CPP_METHOD_ATTR bool IntPtr_op_Equality_mEE8D9FD2DFE312BBAA8B4ED3BF7976B3142A5934 (intptr_t p0, intptr_t p1, const RuntimeMethod* method);
-// System.Void HoloToolkit.Sharing.FloatArrayElement::.ctor(System.IntPtr,System.Boolean)
-extern "C" IL2CPP_METHOD_ATTR void FloatArrayElement__ctor_m5B23F95865D051E5E00B8A8FDD1C274A79CCEEEA (FloatArrayElement_tDFB548FFC2B72E3B2E8FF429804FAADA22887628 * __this, intptr_t ___cPtr0, bool ___cMemoryOwn1, const RuntimeMethod* method);
-// System.Int32 HoloToolkit.Sharing.SharingClientPINVOKE::FloatArrayElement_GetCount(System.Runtime.InteropServices.HandleRef)
-extern "C" IL2CPP_METHOD_ATTR int32_t SharingClientPINVOKE_FloatArrayElement_GetCount_m5A54528FB80EEDB34C5F4BB498B25D6A73F243F5 (HandleRef_t876E76124F400D12395BF61D562162AB6822204A  ___jarg10, const RuntimeMethod* method);
-// System.Single HoloToolkit.Sharing.SharingClientPINVOKE::FloatArrayElement_GetValue(System.Runtime.InteropServices.HandleRef,System.Int32)
-extern "C" IL2CPP_METHOD_ATTR float SharingClientPINVOKE_FloatArrayElement_GetValue_m0F891B1AA73D162DA97364B9A20400F9BB36D554 (HandleRef_t876E76124F400D12395BF61D562162AB6822204A  ___jarg10, int32_t ___jarg21, const RuntimeMethod* method);
-// System.Void HoloToolkit.Sharing.SharingClientPINVOKE::FloatArrayElement_SetValue(System.Runtime.InteropServices.HandleRef,System.Int32,System.Single)
-extern "C" IL2CPP_METHOD_ATTR void SharingClientPINVOKE_FloatArrayElement_SetValue_m8613A95BE98DC21E523E82E5A5ED83ED1C547C7E (HandleRef_t876E76124F400D12395BF61D562162AB6822204A  ___jarg10, int32_t ___jarg21, float ___jarg32, const RuntimeMethod* method);
-// System.Void HoloToolkit.Sharing.SharingClientPINVOKE::FloatArrayElement_InsertValue(System.Runtime.InteropServices.HandleRef,System.Int32,System.Single)
-extern "C" IL2CPP_METHOD_ATTR void SharingClientPINVOKE_FloatArrayElement_InsertValue_mD8CBB654CC258EEDBFE53263A092AE531DA58853 (HandleRef_t876E76124F400D12395BF61D562162AB6822204A  ___jarg10, int32_t ___jarg21, float ___jarg32, const RuntimeMethod* method);
-// System.Void HoloToolkit.Sharing.SharingClientPINVOKE::FloatArrayElement_RemoveValue(System.Runtime.InteropServices.HandleRef,System.Int32)
-extern "C" IL2CPP_METHOD_ATTR void SharingClientPINVOKE_FloatArrayElement_RemoveValue_m659D8CF58AB5F7A97825916C2FBED8E001DF893F (HandleRef_t876E76124F400D12395BF61D562162AB6822204A  ___jarg10, int32_t ___jarg21, const RuntimeMethod* method);
-// System.Runtime.InteropServices.HandleRef HoloToolkit.Sharing.FloatArrayListener::getCPtr(HoloToolkit.Sharing.FloatArrayListener)
-extern "C" IL2CPP_METHOD_ATTR HandleRef_t876E76124F400D12395BF61D562162AB6822204A  FloatArrayListener_getCPtr_m3BFA8F3EE3E857358410DCED528586F4AA3BB573 (FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1 * ___obj0, const RuntimeMethod* method);
-// System.Void HoloToolkit.Sharing.SharingClientPINVOKE::FloatArrayElement_AddListener(System.Runtime.InteropServices.HandleRef,System.Runtime.InteropServices.HandleRef)
-extern "C" IL2CPP_METHOD_ATTR void SharingClientPINVOKE_FloatArrayElement_AddListener_m82413FD3B843F21B4AB473CB41BE5EDF0201AE07 (HandleRef_t876E76124F400D12395BF61D562162AB6822204A  ___jarg10, HandleRef_t876E76124F400D12395BF61D562162AB6822204A  ___jarg21, const RuntimeMethod* method);
-// System.Void HoloToolkit.Sharing.SharingClientPINVOKE::FloatArrayElement_RemoveListener(System.Runtime.InteropServices.HandleRef,System.Runtime.InteropServices.HandleRef)
-extern "C" IL2CPP_METHOD_ATTR void SharingClientPINVOKE_FloatArrayElement_RemoveListener_m65F08A9F1D0D163B38237DEBA3E14BD6223F8DC5 (HandleRef_t876E76124F400D12395BF61D562162AB6822204A  ___jarg10, HandleRef_t876E76124F400D12395BF61D562162AB6822204A  ___jarg21, const RuntimeMethod* method);
-// System.IntPtr HoloToolkit.Sharing.SharingClientPINVOKE::FloatArrayListener_SWIGUpcast(System.IntPtr)
-extern "C" IL2CPP_METHOD_ATTR intptr_t SharingClientPINVOKE_FloatArrayListener_SWIGUpcast_m7E81ED6EC8659FCB818C70F9FE84ACEA23070A3C (intptr_t ___jarg10, const RuntimeMethod* method);
-// System.Void HoloToolkit.Sharing.Listener::.ctor(System.IntPtr,System.Boolean)
-extern "C" IL2CPP_METHOD_ATTR void Listener__ctor_mE404916AF84130D7909382BE4B7CCB8AF6C330EC (Listener_t3466CE06B278C6B8D8CC0655DF5EC0000BF962C2 * __this, intptr_t ___cPtr0, bool ___cMemoryOwn1, const RuntimeMethod* method);
-// System.Void HoloToolkit.Sharing.Listener::Finalize()
-extern "C" IL2CPP_METHOD_ATTR void Listener_Finalize_m2C60A2308F49141B33EE1EDD8A3C4ABBF2A2FFB1 (Listener_t3466CE06B278C6B8D8CC0655DF5EC0000BF962C2 * __this, const RuntimeMethod* method);
-// System.Void HoloToolkit.Sharing.SharingClientPINVOKE::delete_FloatArrayListener(System.Runtime.InteropServices.HandleRef)
-extern "C" IL2CPP_METHOD_ATTR void SharingClientPINVOKE_delete_FloatArrayListener_mB9C3E751CDD1DED706C9348545D820F435989F5B (HandleRef_t876E76124F400D12395BF61D562162AB6822204A  ___jarg10, const RuntimeMethod* method);
-// System.Void HoloToolkit.Sharing.Listener::Dispose()
-extern "C" IL2CPP_METHOD_ATTR void Listener_Dispose_mF59F4962F238FD2A986747D0092EC14293296D30 (Listener_t3466CE06B278C6B8D8CC0655DF5EC0000BF962C2 * __this, const RuntimeMethod* method);
-// System.Boolean HoloToolkit.Sharing.FloatArrayListener::SwigDerivedClassHasMethod(System.String,System.Type[])
-extern "C" IL2CPP_METHOD_ATTR bool FloatArrayListener_SwigDerivedClassHasMethod_mA54B9FC47F6FD9600884309B200F6DD88C294AE1 (FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1 * __this, String_t* ___methodName0, TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* ___methodTypes1, const RuntimeMethod* method);
-// System.Void HoloToolkit.Sharing.SharingClientPINVOKE::FloatArrayListener_OnValueChangedSwigExplicitFloatArrayListener(System.Runtime.InteropServices.HandleRef,System.Int32,System.Single)
-extern "C" IL2CPP_METHOD_ATTR void SharingClientPINVOKE_FloatArrayListener_OnValueChangedSwigExplicitFloatArrayListener_mEF709F7973E30FAC15B980CBC221ABDC291E3515 (HandleRef_t876E76124F400D12395BF61D562162AB6822204A  ___jarg10, int32_t ___jarg21, float ___jarg32, const RuntimeMethod* method);
-// System.Void HoloToolkit.Sharing.SharingClientPINVOKE::FloatArrayListener_OnValueChanged(System.Runtime.InteropServices.HandleRef,System.Int32,System.Single)
-extern "C" IL2CPP_METHOD_ATTR void SharingClientPINVOKE_FloatArrayListener_OnValueChanged_m26705B6E1D9F45D2BFF0CA38D6E4B82DB8CAFF6B (HandleRef_t876E76124F400D12395BF61D562162AB6822204A  ___jarg10, int32_t ___jarg21, float ___jarg32, const RuntimeMethod* method);
-// System.Void HoloToolkit.Sharing.SharingClientPINVOKE::FloatArrayListener_OnValueInsertedSwigExplicitFloatArrayListener(System.Runtime.InteropServices.HandleRef,System.Int32,System.Single)
-extern "C" IL2CPP_METHOD_ATTR void SharingClientPINVOKE_FloatArrayListener_OnValueInsertedSwigExplicitFloatArrayListener_mC2174243872EC8447B68628E72C4B9625804CCB5 (HandleRef_t876E76124F400D12395BF61D562162AB6822204A  ___jarg10, int32_t ___jarg21, float ___jarg32, const RuntimeMethod* method);
-// System.Void HoloToolkit.Sharing.SharingClientPINVOKE::FloatArrayListener_OnValueInserted(System.Runtime.InteropServices.HandleRef,System.Int32,System.Single)
-extern "C" IL2CPP_METHOD_ATTR void SharingClientPINVOKE_FloatArrayListener_OnValueInserted_m366D58AEE31D9BE52C3DB94824A2B8EC79D358D7 (HandleRef_t876E76124F400D12395BF61D562162AB6822204A  ___jarg10, int32_t ___jarg21, float ___jarg32, const RuntimeMethod* method);
-// System.Void HoloToolkit.Sharing.SharingClientPINVOKE::FloatArrayListener_OnValueRemovedSwigExplicitFloatArrayListener(System.Runtime.InteropServices.HandleRef,System.Int32,System.Single)
-extern "C" IL2CPP_METHOD_ATTR void SharingClientPINVOKE_FloatArrayListener_OnValueRemovedSwigExplicitFloatArrayListener_m526FC506EA8BACF458D96FA3F3BB8968029181E0 (HandleRef_t876E76124F400D12395BF61D562162AB6822204A  ___jarg10, int32_t ___jarg21, float ___jarg32, const RuntimeMethod* method);
-// System.Void HoloToolkit.Sharing.SharingClientPINVOKE::FloatArrayListener_OnValueRemoved(System.Runtime.InteropServices.HandleRef,System.Int32,System.Single)
-extern "C" IL2CPP_METHOD_ATTR void SharingClientPINVOKE_FloatArrayListener_OnValueRemoved_m2A2B5F133A44270584322C73E382BDC17A25665C (HandleRef_t876E76124F400D12395BF61D562162AB6822204A  ___jarg10, int32_t ___jarg21, float ___jarg32, const RuntimeMethod* method);
-// System.IntPtr HoloToolkit.Sharing.SharingClientPINVOKE::new_FloatArrayListener()
-extern "C" IL2CPP_METHOD_ATTR intptr_t SharingClientPINVOKE_new_FloatArrayListener_m1635A211DB6A52FA86B770A5257C04756BC650A3 (const RuntimeMethod* method);
-// System.Void HoloToolkit.Sharing.FloatArrayListener::.ctor(System.IntPtr,System.Boolean)
-extern "C" IL2CPP_METHOD_ATTR void FloatArrayListener__ctor_m321FADCBF64BACC24B76F68EC105777C99D149C3 (FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1 * __this, intptr_t ___cPtr0, bool ___cMemoryOwn1, const RuntimeMethod* method);
-// System.Void HoloToolkit.Sharing.FloatArrayListener::SwigDirectorConnect()
-extern "C" IL2CPP_METHOD_ATTR void FloatArrayListener_SwigDirectorConnect_mA3FD8A626666A87847724DE1280D9326AA21E643 (FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1 * __this, const RuntimeMethod* method);
-// System.Void HoloToolkit.Sharing.FloatArrayListener/SwigDelegateFloatArrayListener_0::.ctor(System.Object,System.IntPtr)
-extern "C" IL2CPP_METHOD_ATTR void SwigDelegateFloatArrayListener_0__ctor_m869A477B43875E7415252693806982B2C8663F93 (SwigDelegateFloatArrayListener_0_tA9A7E854A14FA0A879F6015E5F8EAA3A94833FD7 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
-// System.Void HoloToolkit.Sharing.FloatArrayListener/SwigDelegateFloatArrayListener_1::.ctor(System.Object,System.IntPtr)
-extern "C" IL2CPP_METHOD_ATTR void SwigDelegateFloatArrayListener_1__ctor_mC280DB826140CA367506E7590133EC8077D1345E (SwigDelegateFloatArrayListener_1_tD0C94947929A1D17D534387D11C11CF2E4B6EE6D * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
-// System.Void HoloToolkit.Sharing.FloatArrayListener/SwigDelegateFloatArrayListener_2::.ctor(System.Object,System.IntPtr)
-extern "C" IL2CPP_METHOD_ATTR void SwigDelegateFloatArrayListener_2__ctor_mF3CFDF28FB2D77DC08778B84E13C10D4FB557D39 (SwigDelegateFloatArrayListener_2_t3ECAF7DB385704AB1054931F6DE29F5670C0CBE3 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
-// System.Void HoloToolkit.Sharing.SharingClientPINVOKE::FloatArrayListener_director_connect(System.Runtime.InteropServices.HandleRef,HoloToolkit.Sharing.FloatArrayListener/SwigDelegateFloatArrayListener_0,HoloToolkit.Sharing.FloatArrayListener/SwigDelegateFloatArrayListener_1,HoloToolkit.Sharing.FloatArrayListener/SwigDelegateFloatArrayListener_2)
-extern "C" IL2CPP_METHOD_ATTR void SharingClientPINVOKE_FloatArrayListener_director_connect_m842A93914CED932E455AFE24D9D5200D72064E5C (HandleRef_t876E76124F400D12395BF61D562162AB6822204A  ___jarg10, SwigDelegateFloatArrayListener_0_tA9A7E854A14FA0A879F6015E5F8EAA3A94833FD7 * ___delegate01, SwigDelegateFloatArrayListener_1_tD0C94947929A1D17D534387D11C11CF2E4B6EE6D * ___delegate12, SwigDelegateFloatArrayListener_2_t3ECAF7DB385704AB1054931F6DE29F5670C0CBE3 * ___delegate23, const RuntimeMethod* method);
-// System.Type System.Object::GetType()
-extern "C" IL2CPP_METHOD_ATTR Type_t * Object_GetType_m2E0B62414ECCAA3094B703790CE88CBB2F83EA60 (RuntimeObject * __this, const RuntimeMethod* method);
-// System.Reflection.MethodInfo System.Type::GetMethod(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[])
-extern "C" IL2CPP_METHOD_ATTR MethodInfo_t * Type_GetMethod_m694F07057F23808980BF6B1637544F34852759FA (Type_t * __this, String_t* p0, int32_t p1, Binder_t4D5CB06963501D32847C057B57157D6DC49CA759 * p2, TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* p3, ParameterModifierU5BU5D_t63EC46F14F048DC9EF6BF1362E8AEBEA1A05A5EA* p4, const RuntimeMethod* method);
-// System.Type System.Type::GetTypeFromHandle(System.RuntimeTypeHandle)
-extern "C" IL2CPP_METHOD_ATTR Type_t * Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6 (RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  p0, const RuntimeMethod* method);
-// System.IntPtr HoloToolkit.Sharing.SharingClientPINVOKE::FloatElement_SWIGUpcast(System.IntPtr)
-extern "C" IL2CPP_METHOD_ATTR intptr_t SharingClientPINVOKE_FloatElement_SWIGUpcast_mC8F276BA4183F567E67BBCEBD258C2EFC9613F27 (intptr_t ___jarg10, const RuntimeMethod* method);
-// System.Void HoloToolkit.Sharing.SharingClientPINVOKE::delete_FloatElement(System.Runtime.InteropServices.HandleRef)
-extern "C" IL2CPP_METHOD_ATTR void SharingClientPINVOKE_delete_FloatElement_m787B09666574533A5F3BE784CEC07840F55D85F3 (HandleRef_t876E76124F400D12395BF61D562162AB6822204A  ___jarg10, const RuntimeMethod* method);
 // System.IntPtr HoloToolkit.Sharing.SharingClientPINVOKE::FloatElement_Cast(System.Runtime.InteropServices.HandleRef)
 extern "C" IL2CPP_METHOD_ATTR intptr_t SharingClientPINVOKE_FloatElement_Cast_m53741EC0B758D5C2A7D94251E15026C7270919B7 (HandleRef_t876E76124F400D12395BF61D562162AB6822204A  ___jarg10, const RuntimeMethod* method);
+// System.Boolean System.IntPtr::op_Equality(System.IntPtr,System.IntPtr)
+extern "C" IL2CPP_METHOD_ATTR bool IntPtr_op_Equality_mEE8D9FD2DFE312BBAA8B4ED3BF7976B3142A5934 (intptr_t p0, intptr_t p1, const RuntimeMethod* method);
 // System.Void HoloToolkit.Sharing.FloatElement::.ctor(System.IntPtr,System.Boolean)
 extern "C" IL2CPP_METHOD_ATTR void FloatElement__ctor_m0E5B5F557F54914C92B90960FF864737CBD75E93 (FloatElement_t38027DB1707A01C77A0C76CFB7450410134B555E * __this, intptr_t ___cPtr0, bool ___cMemoryOwn1, const RuntimeMethod* method);
 // System.Single HoloToolkit.Sharing.SharingClientPINVOKE::FloatElement_GetValue(System.Runtime.InteropServices.HandleRef)
@@ -6400,8 +6144,14 @@ extern "C" IL2CPP_METHOD_ATTR void SharingClientPINVOKE_IntArrayElement_AddListe
 extern "C" IL2CPP_METHOD_ATTR void SharingClientPINVOKE_IntArrayElement_RemoveListener_m19DA7D52E7C19DAF50E83BAEA814BF2EED613646 (HandleRef_t876E76124F400D12395BF61D562162AB6822204A  ___jarg10, HandleRef_t876E76124F400D12395BF61D562162AB6822204A  ___jarg21, const RuntimeMethod* method);
 // System.IntPtr HoloToolkit.Sharing.SharingClientPINVOKE::IntArrayListener_SWIGUpcast(System.IntPtr)
 extern "C" IL2CPP_METHOD_ATTR intptr_t SharingClientPINVOKE_IntArrayListener_SWIGUpcast_m89D0CB234CEB8C9DAD520FCFB3ED128979287492 (intptr_t ___jarg10, const RuntimeMethod* method);
+// System.Void HoloToolkit.Sharing.Listener::.ctor(System.IntPtr,System.Boolean)
+extern "C" IL2CPP_METHOD_ATTR void Listener__ctor_mE404916AF84130D7909382BE4B7CCB8AF6C330EC (Listener_t3466CE06B278C6B8D8CC0655DF5EC0000BF962C2 * __this, intptr_t ___cPtr0, bool ___cMemoryOwn1, const RuntimeMethod* method);
+// System.Void HoloToolkit.Sharing.Listener::Finalize()
+extern "C" IL2CPP_METHOD_ATTR void Listener_Finalize_m2C60A2308F49141B33EE1EDD8A3C4ABBF2A2FFB1 (Listener_t3466CE06B278C6B8D8CC0655DF5EC0000BF962C2 * __this, const RuntimeMethod* method);
 // System.Void HoloToolkit.Sharing.SharingClientPINVOKE::delete_IntArrayListener(System.Runtime.InteropServices.HandleRef)
 extern "C" IL2CPP_METHOD_ATTR void SharingClientPINVOKE_delete_IntArrayListener_m717627569A463D63E8D09053C2E6C2AB3D160B51 (HandleRef_t876E76124F400D12395BF61D562162AB6822204A  ___jarg10, const RuntimeMethod* method);
+// System.Void HoloToolkit.Sharing.Listener::Dispose()
+extern "C" IL2CPP_METHOD_ATTR void Listener_Dispose_mF59F4962F238FD2A986747D0092EC14293296D30 (Listener_t3466CE06B278C6B8D8CC0655DF5EC0000BF962C2 * __this, const RuntimeMethod* method);
 // System.Boolean HoloToolkit.Sharing.IntArrayListener::SwigDerivedClassHasMethod(System.String,System.Type[])
 extern "C" IL2CPP_METHOD_ATTR bool IntArrayListener_SwigDerivedClassHasMethod_m3A74DEAA59563625694B4815926DEA27A536E336 (IntArrayListener_t00A4B6E98676D3416FFC34C807C68F03136FFFCF * __this, String_t* ___methodName0, TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* ___methodTypes1, const RuntimeMethod* method);
 // System.Void HoloToolkit.Sharing.SharingClientPINVOKE::IntArrayListener_OnValueChangedSwigExplicitIntArrayListener(System.Runtime.InteropServices.HandleRef,System.Int32,System.Int32)
@@ -6430,6 +6180,12 @@ extern "C" IL2CPP_METHOD_ATTR void SwigDelegateIntArrayListener_1__ctor_mB76C2BA
 extern "C" IL2CPP_METHOD_ATTR void SwigDelegateIntArrayListener_2__ctor_mD105506308A7FABFD65203B0A63E82E77C4ABCA0 (SwigDelegateIntArrayListener_2_t64357A558E9C6C811AC3FD8C9700793DC226D054 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
 // System.Void HoloToolkit.Sharing.SharingClientPINVOKE::IntArrayListener_director_connect(System.Runtime.InteropServices.HandleRef,HoloToolkit.Sharing.IntArrayListener/SwigDelegateIntArrayListener_0,HoloToolkit.Sharing.IntArrayListener/SwigDelegateIntArrayListener_1,HoloToolkit.Sharing.IntArrayListener/SwigDelegateIntArrayListener_2)
 extern "C" IL2CPP_METHOD_ATTR void SharingClientPINVOKE_IntArrayListener_director_connect_mFEC32BC92C096C328E112E75AA25435EC509D379 (HandleRef_t876E76124F400D12395BF61D562162AB6822204A  ___jarg10, SwigDelegateIntArrayListener_0_t9D2C8F15B2606C1EA521B105E71838E7D2DA526E * ___delegate01, SwigDelegateIntArrayListener_1_tD73C7E4E2FCEFEEA43F051A45B67907C6162A719 * ___delegate12, SwigDelegateIntArrayListener_2_t64357A558E9C6C811AC3FD8C9700793DC226D054 * ___delegate23, const RuntimeMethod* method);
+// System.Type System.Object::GetType()
+extern "C" IL2CPP_METHOD_ATTR Type_t * Object_GetType_m2E0B62414ECCAA3094B703790CE88CBB2F83EA60 (RuntimeObject * __this, const RuntimeMethod* method);
+// System.Reflection.MethodInfo System.Type::GetMethod(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[])
+extern "C" IL2CPP_METHOD_ATTR MethodInfo_t * Type_GetMethod_m694F07057F23808980BF6B1637544F34852759FA (Type_t * __this, String_t* p0, int32_t p1, Binder_t4D5CB06963501D32847C057B57157D6DC49CA759 * p2, TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* p3, ParameterModifierU5BU5D_t63EC46F14F048DC9EF6BF1362E8AEBEA1A05A5EA* p4, const RuntimeMethod* method);
+// System.Type System.Type::GetTypeFromHandle(System.RuntimeTypeHandle)
+extern "C" IL2CPP_METHOD_ATTR Type_t * Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6 (RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  p0, const RuntimeMethod* method);
 // System.IntPtr HoloToolkit.Sharing.SharingClientPINVOKE::IntElement_SWIGUpcast(System.IntPtr)
 extern "C" IL2CPP_METHOD_ATTR intptr_t SharingClientPINVOKE_IntElement_SWIGUpcast_m1ECF13C9F7507E2FAB198B7AF952B1BDAA99E977 (intptr_t ___jarg10, const RuntimeMethod* method);
 // System.Void HoloToolkit.Sharing.SharingClientPINVOKE::delete_IntElement(System.Runtime.InteropServices.HandleRef)
@@ -6716,6 +6472,8 @@ extern "C" IL2CPP_METHOD_ATTR intptr_t SharingClientPINVOKE_ObjectElement_Create
 extern "C" IL2CPP_METHOD_ATTR intptr_t SharingClientPINVOKE_ObjectElement_CreateIntArrayElement_mE8387718E7C827F57AC5C90C0B13F7844F7AAFBF (HandleRef_t876E76124F400D12395BF61D562162AB6822204A  ___jarg10, HandleRef_t876E76124F400D12395BF61D562162AB6822204A  ___jarg21, const RuntimeMethod* method);
 // System.IntPtr HoloToolkit.Sharing.SharingClientPINVOKE::ObjectElement_CreateFloatArrayElement(System.Runtime.InteropServices.HandleRef,System.Runtime.InteropServices.HandleRef)
 extern "C" IL2CPP_METHOD_ATTR intptr_t SharingClientPINVOKE_ObjectElement_CreateFloatArrayElement_mA5FCD92CFE1B7B36DD226D442219C654B3949ED3 (HandleRef_t876E76124F400D12395BF61D562162AB6822204A  ___jarg10, HandleRef_t876E76124F400D12395BF61D562162AB6822204A  ___jarg21, const RuntimeMethod* method);
+// System.Void HoloToolkit.Sharing.FloatArrayElement::.ctor(System.IntPtr,System.Boolean)
+extern "C" IL2CPP_METHOD_ATTR void FloatArrayElement__ctor_m5B23F95865D051E5E00B8A8FDD1C274A79CCEEEA (FloatArrayElement_tDFB548FFC2B72E3B2E8FF429804FAADA22887628 * __this, intptr_t ___cPtr0, bool ___cMemoryOwn1, const RuntimeMethod* method);
 // System.IntPtr HoloToolkit.Sharing.SharingClientPINVOKE::ObjectElement_CreateStringArrayElement(System.Runtime.InteropServices.HandleRef,System.Runtime.InteropServices.HandleRef)
 extern "C" IL2CPP_METHOD_ATTR intptr_t SharingClientPINVOKE_ObjectElement_CreateStringArrayElement_m13D85D9D8C2793ACA5A492BABA0EB943A1EFE881 (HandleRef_t876E76124F400D12395BF61D562162AB6822204A  ___jarg10, HandleRef_t876E76124F400D12395BF61D562162AB6822204A  ___jarg21, const RuntimeMethod* method);
 // System.Void HoloToolkit.Sharing.StringArrayElement::.ctor(System.IntPtr,System.Boolean)
@@ -7112,1511 +6870,6 @@ extern "C" IL2CPP_METHOD_ATTR void SwigDelegateRoomManagerListener_6__ctor_mF862
 extern "C" IL2CPP_METHOD_ATTR void SharingClientPINVOKE_RoomManagerListener_director_connect_m8C3A1BE235BF3261B495C6008011B83D55A9D943 (HandleRef_t876E76124F400D12395BF61D562162AB6822204A  ___jarg10, SwigDelegateRoomManagerListener_0_tD9464AF2626A50936E364AB7F60760858DB7DBE8 * ___delegate01, SwigDelegateRoomManagerListener_1_tEF5AA0ACCAD5D7AD7E11041DEC11BBF64F6A6893 * ___delegate12, SwigDelegateRoomManagerListener_2_t77250B5B362E7346942FDA3931CC823661BFB8A6 * ___delegate23, SwigDelegateRoomManagerListener_3_t21828182B06A336E610CEF968ED0366427611263 * ___delegate34, SwigDelegateRoomManagerListener_4_t17F73B1BCAF0DDFE074C7D173786695726BEDFFD * ___delegate45, SwigDelegateRoomManagerListener_5_tB132549318E3DF8C5DD819B35529C0D024DC1710 * ___delegate56, SwigDelegateRoomManagerListener_6_tC34893C07299BEF24DB86CFD8B5793A79EEC74CD * ___delegate67, const RuntimeMethod* method);
 // System.Void HoloToolkit.Sharing.AnchorDownloadRequest::.ctor(System.IntPtr,System.Boolean)
 extern "C" IL2CPP_METHOD_ATTR void AnchorDownloadRequest__ctor_m3E250766961A936BD9D9DD3E325951EFE0FD3DD8 (AnchorDownloadRequest_tBC209707ED39C8FFA11A3AEFEEC56AA3EA630A4F * __this, intptr_t ___cPtr0, bool ___cMemoryOwn1, const RuntimeMethod* method);
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void HoloToolkit.Sharing.FloatArrayElement::.ctor(System.IntPtr,System.Boolean)
-extern "C" IL2CPP_METHOD_ATTR void FloatArrayElement__ctor_m5B23F95865D051E5E00B8A8FDD1C274A79CCEEEA (FloatArrayElement_tDFB548FFC2B72E3B2E8FF429804FAADA22887628 * __this, intptr_t ___cPtr0, bool ___cMemoryOwn1, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (FloatArrayElement__ctor_m5B23F95865D051E5E00B8A8FDD1C274A79CCEEEA_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// internal FloatArrayElement(global::System.IntPtr cPtr, bool cMemoryOwn) : base(SharingClientPINVOKE.FloatArrayElement_SWIGUpcast(cPtr), cMemoryOwn) {
-		intptr_t L_0 = ___cPtr0;
-		IL2CPP_RUNTIME_CLASS_INIT(SharingClientPINVOKE_tFF4292D2BC5A9EB345172E6D4F8BE281B3799A1F_il2cpp_TypeInfo_var);
-		intptr_t L_1 = SharingClientPINVOKE_FloatArrayElement_SWIGUpcast_m7988DD40D87F1E40B4ADFF8D6FCFF2AFAB8E52C5((intptr_t)L_0, /*hidden argument*/NULL);
-		bool L_2 = ___cMemoryOwn1;
-		Element__ctor_m4EF0C70D0E43853F5E837FC5149C67391C6005C2(__this, (intptr_t)L_1, L_2, /*hidden argument*/NULL);
-		// swigCPtr = new global::System.Runtime.InteropServices.HandleRef(this, cPtr);
-		intptr_t L_3 = ___cPtr0;
-		HandleRef_t876E76124F400D12395BF61D562162AB6822204A  L_4;
-		memset(&L_4, 0, sizeof(L_4));
-		HandleRef__ctor_mCD64E7F91766FE7602EE34A8CEEF6C1EF4C943BB((&L_4), __this, (intptr_t)L_3, /*hidden argument*/NULL);
-		__this->set_swigCPtr_2(L_4);
-		// }
-		return;
-	}
-}
-// System.Runtime.InteropServices.HandleRef HoloToolkit.Sharing.FloatArrayElement::getCPtr(HoloToolkit.Sharing.FloatArrayElement)
-extern "C" IL2CPP_METHOD_ATTR HandleRef_t876E76124F400D12395BF61D562162AB6822204A  FloatArrayElement_getCPtr_mA193D7E574A570BB6AB815B91E6DF8E2D16FF9E2 (FloatArrayElement_tDFB548FFC2B72E3B2E8FF429804FAADA22887628 * ___obj0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (FloatArrayElement_getCPtr_mA193D7E574A570BB6AB815B91E6DF8E2D16FF9E2_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// return (obj == null) ? new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero) : obj.swigCPtr;
-		FloatArrayElement_tDFB548FFC2B72E3B2E8FF429804FAADA22887628 * L_0 = ___obj0;
-		if (!L_0)
-		{
-			goto IL_000a;
-		}
-	}
-	{
-		FloatArrayElement_tDFB548FFC2B72E3B2E8FF429804FAADA22887628 * L_1 = ___obj0;
-		NullCheck(L_1);
-		HandleRef_t876E76124F400D12395BF61D562162AB6822204A  L_2 = L_1->get_swigCPtr_2();
-		return L_2;
-	}
-
-IL_000a:
-	{
-		HandleRef_t876E76124F400D12395BF61D562162AB6822204A  L_3;
-		memset(&L_3, 0, sizeof(L_3));
-		HandleRef__ctor_mCD64E7F91766FE7602EE34A8CEEF6C1EF4C943BB((&L_3), NULL, (intptr_t)(0), /*hidden argument*/NULL);
-		return L_3;
-	}
-}
-// System.Void HoloToolkit.Sharing.FloatArrayElement::Finalize()
-extern "C" IL2CPP_METHOD_ATTR void FloatArrayElement_Finalize_m2343E023D6546EEA9655ED29FCED94647D5206A3 (FloatArrayElement_tDFB548FFC2B72E3B2E8FF429804FAADA22887628 * __this, const RuntimeMethod* method)
-{
-	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 1);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
-
-IL_0000:
-	try
-	{ // begin try (depth: 1)
-		// Dispose();
-		VirtActionInvoker0::Invoke(5 /* System.Void HoloToolkit.Sharing.Element::Dispose() */, __this);
-		IL2CPP_LEAVE(0xF, FINALLY_0008);
-	} // end try (depth: 1)
-	catch(Il2CppExceptionWrapper& e)
-	{
-		__last_unhandled_exception = (Exception_t *)e.ex;
-		goto FINALLY_0008;
-	}
-
-FINALLY_0008:
-	{ // begin finally (depth: 1)
-		// }
-		Element_Finalize_m80F6E707EE7841F325DCD821182B107C64315BD4(__this, /*hidden argument*/NULL);
-		IL2CPP_END_FINALLY(8)
-	} // end finally (depth: 1)
-	IL2CPP_CLEANUP(8)
-	{
-		IL2CPP_JUMP_TBL(0xF, IL_000f)
-		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
-	}
-
-IL_000f:
-	{
-		// }
-		return;
-	}
-}
-// System.Void HoloToolkit.Sharing.FloatArrayElement::Dispose()
-extern "C" IL2CPP_METHOD_ATTR void FloatArrayElement_Dispose_m8F080E310722D4F0334518D14E8BE6652A6CF59D (FloatArrayElement_tDFB548FFC2B72E3B2E8FF429804FAADA22887628 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (FloatArrayElement_Dispose_m8F080E310722D4F0334518D14E8BE6652A6CF59D_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	FloatArrayElement_tDFB548FFC2B72E3B2E8FF429804FAADA22887628 * V_0 = NULL;
-	bool V_1 = false;
-	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 1);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
-	{
-		// lock(this) {
-		V_0 = __this;
-		V_1 = (bool)0;
-	}
-
-IL_0004:
-	try
-	{ // begin try (depth: 1)
-		{
-			FloatArrayElement_tDFB548FFC2B72E3B2E8FF429804FAADA22887628 * L_0 = V_0;
-			Monitor_Enter_mC5B353DD83A0B0155DF6FBCC4DF5A580C25534C5(L_0, (bool*)(&V_1), /*hidden argument*/NULL);
-			// if (swigCPtr.Handle != global::System.IntPtr.Zero) {
-			HandleRef_t876E76124F400D12395BF61D562162AB6822204A * L_1 = __this->get_address_of_swigCPtr_2();
-			intptr_t L_2 = HandleRef_get_Handle_m095712F299EA36BF75975343C726FA160EE38277((HandleRef_t876E76124F400D12395BF61D562162AB6822204A *)L_1, /*hidden argument*/NULL);
-			bool L_3 = IntPtr_op_Inequality_mB4886A806009EA825EFCC60CD2A7F6EB8E273A61((intptr_t)L_2, (intptr_t)(0), /*hidden argument*/NULL);
-			if (!L_3)
-			{
-				goto IL_004e;
-			}
-		}
-
-IL_0023:
-		{
-			// if (swigCMemOwn) {
-			bool L_4 = ((Element_t25F00AE5B3B76ACFF06ABF09CCF04EEFE83FBC32 *)__this)->get_swigCMemOwn_1();
-			if (!L_4)
-			{
-				goto IL_003d;
-			}
-		}
-
-IL_002b:
-		{
-			// swigCMemOwn = false;
-			((Element_t25F00AE5B3B76ACFF06ABF09CCF04EEFE83FBC32 *)__this)->set_swigCMemOwn_1((bool)0);
-			// SharingClientPINVOKE.delete_FloatArrayElement(swigCPtr);
-			HandleRef_t876E76124F400D12395BF61D562162AB6822204A  L_5 = __this->get_swigCPtr_2();
-			IL2CPP_RUNTIME_CLASS_INIT(SharingClientPINVOKE_tFF4292D2BC5A9EB345172E6D4F8BE281B3799A1F_il2cpp_TypeInfo_var);
-			SharingClientPINVOKE_delete_FloatArrayElement_m7C8472D19FE85B9731E1FDA64AF60B577566029A(L_5, /*hidden argument*/NULL);
-		}
-
-IL_003d:
-		{
-			// swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
-			HandleRef_t876E76124F400D12395BF61D562162AB6822204A  L_6;
-			memset(&L_6, 0, sizeof(L_6));
-			HandleRef__ctor_mCD64E7F91766FE7602EE34A8CEEF6C1EF4C943BB((&L_6), NULL, (intptr_t)(0), /*hidden argument*/NULL);
-			__this->set_swigCPtr_2(L_6);
-		}
-
-IL_004e:
-		{
-			// global::System.GC.SuppressFinalize(this);
-			IL2CPP_RUNTIME_CLASS_INIT(GC_tC1D7BD74E8F44ECCEF5CD2B5D84BFF9AAE02D01D_il2cpp_TypeInfo_var);
-			GC_SuppressFinalize_m037319A9B95A5BA437E806DE592802225EE5B425(__this, /*hidden argument*/NULL);
-			// base.Dispose();
-			Element_Dispose_mC888F42859EB341F5DBC52867E784F495D35779C(__this, /*hidden argument*/NULL);
-			// }
-			IL2CPP_LEAVE(0x66, FINALLY_005c);
-		}
-	} // end try (depth: 1)
-	catch(Il2CppExceptionWrapper& e)
-	{
-		__last_unhandled_exception = (Exception_t *)e.ex;
-		goto FINALLY_005c;
-	}
-
-FINALLY_005c:
-	{ // begin finally (depth: 1)
-		{
-			bool L_7 = V_1;
-			if (!L_7)
-			{
-				goto IL_0065;
-			}
-		}
-
-IL_005f:
-		{
-			FloatArrayElement_tDFB548FFC2B72E3B2E8FF429804FAADA22887628 * L_8 = V_0;
-			Monitor_Exit_m49A1E5356D984D0B934BB97A305E2E5E207225C2(L_8, /*hidden argument*/NULL);
-		}
-
-IL_0065:
-		{
-			IL2CPP_END_FINALLY(92)
-		}
-	} // end finally (depth: 1)
-	IL2CPP_CLEANUP(92)
-	{
-		IL2CPP_JUMP_TBL(0x66, IL_0066)
-		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
-	}
-
-IL_0066:
-	{
-		// }
-		return;
-	}
-}
-// HoloToolkit.Sharing.FloatArrayElement HoloToolkit.Sharing.FloatArrayElement::Cast(HoloToolkit.Sharing.Element)
-extern "C" IL2CPP_METHOD_ATTR FloatArrayElement_tDFB548FFC2B72E3B2E8FF429804FAADA22887628 * FloatArrayElement_Cast_mDF17DDA314C22392A99004E7E1FBC1E517A28642 (Element_t25F00AE5B3B76ACFF06ABF09CCF04EEFE83FBC32 * ___element0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (FloatArrayElement_Cast_mDF17DDA314C22392A99004E7E1FBC1E517A28642_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	intptr_t V_0;
-	memset(&V_0, 0, sizeof(V_0));
-	{
-		// global::System.IntPtr cPtr = SharingClientPINVOKE.FloatArrayElement_Cast(Element.getCPtr(element));
-		Element_t25F00AE5B3B76ACFF06ABF09CCF04EEFE83FBC32 * L_0 = ___element0;
-		HandleRef_t876E76124F400D12395BF61D562162AB6822204A  L_1 = Element_getCPtr_m9096AA694E0DEDEC832966C5B5237D73DA2C9341(L_0, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(SharingClientPINVOKE_tFF4292D2BC5A9EB345172E6D4F8BE281B3799A1F_il2cpp_TypeInfo_var);
-		intptr_t L_2 = SharingClientPINVOKE_FloatArrayElement_Cast_m66755B35C3A2524031228474973CC1B7BFA8FFF7(L_1, /*hidden argument*/NULL);
-		V_0 = (intptr_t)L_2;
-		// FloatArrayElement ret = (cPtr == global::System.IntPtr.Zero) ? null : new FloatArrayElement(cPtr, true);
-		intptr_t L_3 = V_0;
-		bool L_4 = IntPtr_op_Equality_mEE8D9FD2DFE312BBAA8B4ED3BF7976B3142A5934((intptr_t)L_3, (intptr_t)(0), /*hidden argument*/NULL);
-		if (L_4)
-		{
-			goto IL_0021;
-		}
-	}
-	{
-		intptr_t L_5 = V_0;
-		FloatArrayElement_tDFB548FFC2B72E3B2E8FF429804FAADA22887628 * L_6 = (FloatArrayElement_tDFB548FFC2B72E3B2E8FF429804FAADA22887628 *)il2cpp_codegen_object_new(FloatArrayElement_tDFB548FFC2B72E3B2E8FF429804FAADA22887628_il2cpp_TypeInfo_var);
-		FloatArrayElement__ctor_m5B23F95865D051E5E00B8A8FDD1C274A79CCEEEA(L_6, (intptr_t)L_5, (bool)1, /*hidden argument*/NULL);
-		return L_6;
-	}
-
-IL_0021:
-	{
-		// return ret;
-		return (FloatArrayElement_tDFB548FFC2B72E3B2E8FF429804FAADA22887628 *)NULL;
-	}
-}
-// System.Int32 HoloToolkit.Sharing.FloatArrayElement::GetCount()
-extern "C" IL2CPP_METHOD_ATTR int32_t FloatArrayElement_GetCount_mB276F8B1DC6DDA4598F0C4ACDD9BC2DC4C7571F2 (FloatArrayElement_tDFB548FFC2B72E3B2E8FF429804FAADA22887628 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (FloatArrayElement_GetCount_mB276F8B1DC6DDA4598F0C4ACDD9BC2DC4C7571F2_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// int ret = SharingClientPINVOKE.FloatArrayElement_GetCount(swigCPtr);
-		HandleRef_t876E76124F400D12395BF61D562162AB6822204A  L_0 = __this->get_swigCPtr_2();
-		IL2CPP_RUNTIME_CLASS_INIT(SharingClientPINVOKE_tFF4292D2BC5A9EB345172E6D4F8BE281B3799A1F_il2cpp_TypeInfo_var);
-		int32_t L_1 = SharingClientPINVOKE_FloatArrayElement_GetCount_m5A54528FB80EEDB34C5F4BB498B25D6A73F243F5(L_0, /*hidden argument*/NULL);
-		// return ret;
-		return L_1;
-	}
-}
-// System.Single HoloToolkit.Sharing.FloatArrayElement::GetValue(System.Int32)
-extern "C" IL2CPP_METHOD_ATTR float FloatArrayElement_GetValue_mEE94C55DF31C84D2B76E5957A6468016685F88EF (FloatArrayElement_tDFB548FFC2B72E3B2E8FF429804FAADA22887628 * __this, int32_t ___index0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (FloatArrayElement_GetValue_mEE94C55DF31C84D2B76E5957A6468016685F88EF_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// float ret = SharingClientPINVOKE.FloatArrayElement_GetValue(swigCPtr, index);
-		HandleRef_t876E76124F400D12395BF61D562162AB6822204A  L_0 = __this->get_swigCPtr_2();
-		int32_t L_1 = ___index0;
-		IL2CPP_RUNTIME_CLASS_INIT(SharingClientPINVOKE_tFF4292D2BC5A9EB345172E6D4F8BE281B3799A1F_il2cpp_TypeInfo_var);
-		float L_2 = SharingClientPINVOKE_FloatArrayElement_GetValue_m0F891B1AA73D162DA97364B9A20400F9BB36D554(L_0, L_1, /*hidden argument*/NULL);
-		// return ret;
-		return L_2;
-	}
-}
-// System.Void HoloToolkit.Sharing.FloatArrayElement::SetValue(System.Int32,System.Single)
-extern "C" IL2CPP_METHOD_ATTR void FloatArrayElement_SetValue_mEDC6C9E5E42C452490E1CE67AF9E6E5019797F73 (FloatArrayElement_tDFB548FFC2B72E3B2E8FF429804FAADA22887628 * __this, int32_t ___index0, float ___newValue1, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (FloatArrayElement_SetValue_mEDC6C9E5E42C452490E1CE67AF9E6E5019797F73_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// SharingClientPINVOKE.FloatArrayElement_SetValue(swigCPtr, index, newValue);
-		HandleRef_t876E76124F400D12395BF61D562162AB6822204A  L_0 = __this->get_swigCPtr_2();
-		int32_t L_1 = ___index0;
-		float L_2 = ___newValue1;
-		IL2CPP_RUNTIME_CLASS_INIT(SharingClientPINVOKE_tFF4292D2BC5A9EB345172E6D4F8BE281B3799A1F_il2cpp_TypeInfo_var);
-		SharingClientPINVOKE_FloatArrayElement_SetValue_m8613A95BE98DC21E523E82E5A5ED83ED1C547C7E(L_0, L_1, L_2, /*hidden argument*/NULL);
-		// }
-		return;
-	}
-}
-// System.Void HoloToolkit.Sharing.FloatArrayElement::InsertValue(System.Int32,System.Single)
-extern "C" IL2CPP_METHOD_ATTR void FloatArrayElement_InsertValue_mB742485BE156539BD397FE8B68E4343D764E053D (FloatArrayElement_tDFB548FFC2B72E3B2E8FF429804FAADA22887628 * __this, int32_t ___index0, float ___value1, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (FloatArrayElement_InsertValue_mB742485BE156539BD397FE8B68E4343D764E053D_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// SharingClientPINVOKE.FloatArrayElement_InsertValue(swigCPtr, index, value);
-		HandleRef_t876E76124F400D12395BF61D562162AB6822204A  L_0 = __this->get_swigCPtr_2();
-		int32_t L_1 = ___index0;
-		float L_2 = ___value1;
-		IL2CPP_RUNTIME_CLASS_INIT(SharingClientPINVOKE_tFF4292D2BC5A9EB345172E6D4F8BE281B3799A1F_il2cpp_TypeInfo_var);
-		SharingClientPINVOKE_FloatArrayElement_InsertValue_mD8CBB654CC258EEDBFE53263A092AE531DA58853(L_0, L_1, L_2, /*hidden argument*/NULL);
-		// }
-		return;
-	}
-}
-// System.Void HoloToolkit.Sharing.FloatArrayElement::RemoveValue(System.Int32)
-extern "C" IL2CPP_METHOD_ATTR void FloatArrayElement_RemoveValue_m9B669FC52BD9EFF5B671A8471DCEE3583BA38932 (FloatArrayElement_tDFB548FFC2B72E3B2E8FF429804FAADA22887628 * __this, int32_t ___index0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (FloatArrayElement_RemoveValue_m9B669FC52BD9EFF5B671A8471DCEE3583BA38932_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// SharingClientPINVOKE.FloatArrayElement_RemoveValue(swigCPtr, index);
-		HandleRef_t876E76124F400D12395BF61D562162AB6822204A  L_0 = __this->get_swigCPtr_2();
-		int32_t L_1 = ___index0;
-		IL2CPP_RUNTIME_CLASS_INIT(SharingClientPINVOKE_tFF4292D2BC5A9EB345172E6D4F8BE281B3799A1F_il2cpp_TypeInfo_var);
-		SharingClientPINVOKE_FloatArrayElement_RemoveValue_m659D8CF58AB5F7A97825916C2FBED8E001DF893F(L_0, L_1, /*hidden argument*/NULL);
-		// }
-		return;
-	}
-}
-// System.Void HoloToolkit.Sharing.FloatArrayElement::AddListener(HoloToolkit.Sharing.FloatArrayListener)
-extern "C" IL2CPP_METHOD_ATTR void FloatArrayElement_AddListener_m9D49C98D9C8CD1DADA4F57808CCC5B21BFFBDEB8 (FloatArrayElement_tDFB548FFC2B72E3B2E8FF429804FAADA22887628 * __this, FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1 * ___newListener0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (FloatArrayElement_AddListener_m9D49C98D9C8CD1DADA4F57808CCC5B21BFFBDEB8_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// SharingClientPINVOKE.FloatArrayElement_AddListener(swigCPtr, FloatArrayListener.getCPtr(newListener));
-		HandleRef_t876E76124F400D12395BF61D562162AB6822204A  L_0 = __this->get_swigCPtr_2();
-		FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1 * L_1 = ___newListener0;
-		IL2CPP_RUNTIME_CLASS_INIT(FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1_il2cpp_TypeInfo_var);
-		HandleRef_t876E76124F400D12395BF61D562162AB6822204A  L_2 = FloatArrayListener_getCPtr_m3BFA8F3EE3E857358410DCED528586F4AA3BB573(L_1, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(SharingClientPINVOKE_tFF4292D2BC5A9EB345172E6D4F8BE281B3799A1F_il2cpp_TypeInfo_var);
-		SharingClientPINVOKE_FloatArrayElement_AddListener_m82413FD3B843F21B4AB473CB41BE5EDF0201AE07(L_0, L_2, /*hidden argument*/NULL);
-		// }
-		return;
-	}
-}
-// System.Void HoloToolkit.Sharing.FloatArrayElement::RemoveListener(HoloToolkit.Sharing.FloatArrayListener)
-extern "C" IL2CPP_METHOD_ATTR void FloatArrayElement_RemoveListener_m829F7E7FCB075302CB1C1B5FB821C15FF912473C (FloatArrayElement_tDFB548FFC2B72E3B2E8FF429804FAADA22887628 * __this, FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1 * ___oldListener0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (FloatArrayElement_RemoveListener_m829F7E7FCB075302CB1C1B5FB821C15FF912473C_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// SharingClientPINVOKE.FloatArrayElement_RemoveListener(swigCPtr, FloatArrayListener.getCPtr(oldListener));
-		HandleRef_t876E76124F400D12395BF61D562162AB6822204A  L_0 = __this->get_swigCPtr_2();
-		FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1 * L_1 = ___oldListener0;
-		IL2CPP_RUNTIME_CLASS_INIT(FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1_il2cpp_TypeInfo_var);
-		HandleRef_t876E76124F400D12395BF61D562162AB6822204A  L_2 = FloatArrayListener_getCPtr_m3BFA8F3EE3E857358410DCED528586F4AA3BB573(L_1, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(SharingClientPINVOKE_tFF4292D2BC5A9EB345172E6D4F8BE281B3799A1F_il2cpp_TypeInfo_var);
-		SharingClientPINVOKE_FloatArrayElement_RemoveListener_m65F08A9F1D0D163B38237DEBA3E14BD6223F8DC5(L_0, L_2, /*hidden argument*/NULL);
-		// }
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void HoloToolkit.Sharing.FloatArrayListener::.ctor(System.IntPtr,System.Boolean)
-extern "C" IL2CPP_METHOD_ATTR void FloatArrayListener__ctor_m321FADCBF64BACC24B76F68EC105777C99D149C3 (FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1 * __this, intptr_t ___cPtr0, bool ___cMemoryOwn1, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (FloatArrayListener__ctor_m321FADCBF64BACC24B76F68EC105777C99D149C3_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// internal FloatArrayListener(global::System.IntPtr cPtr, bool cMemoryOwn) : base(SharingClientPINVOKE.FloatArrayListener_SWIGUpcast(cPtr), cMemoryOwn) {
-		intptr_t L_0 = ___cPtr0;
-		IL2CPP_RUNTIME_CLASS_INIT(SharingClientPINVOKE_tFF4292D2BC5A9EB345172E6D4F8BE281B3799A1F_il2cpp_TypeInfo_var);
-		intptr_t L_1 = SharingClientPINVOKE_FloatArrayListener_SWIGUpcast_m7E81ED6EC8659FCB818C70F9FE84ACEA23070A3C((intptr_t)L_0, /*hidden argument*/NULL);
-		bool L_2 = ___cMemoryOwn1;
-		Listener__ctor_mE404916AF84130D7909382BE4B7CCB8AF6C330EC(__this, (intptr_t)L_1, L_2, /*hidden argument*/NULL);
-		// swigCPtr = new global::System.Runtime.InteropServices.HandleRef(this, cPtr);
-		intptr_t L_3 = ___cPtr0;
-		HandleRef_t876E76124F400D12395BF61D562162AB6822204A  L_4;
-		memset(&L_4, 0, sizeof(L_4));
-		HandleRef__ctor_mCD64E7F91766FE7602EE34A8CEEF6C1EF4C943BB((&L_4), __this, (intptr_t)L_3, /*hidden argument*/NULL);
-		__this->set_swigCPtr_2(L_4);
-		// }
-		return;
-	}
-}
-// System.Runtime.InteropServices.HandleRef HoloToolkit.Sharing.FloatArrayListener::getCPtr(HoloToolkit.Sharing.FloatArrayListener)
-extern "C" IL2CPP_METHOD_ATTR HandleRef_t876E76124F400D12395BF61D562162AB6822204A  FloatArrayListener_getCPtr_m3BFA8F3EE3E857358410DCED528586F4AA3BB573 (FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1 * ___obj0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (FloatArrayListener_getCPtr_m3BFA8F3EE3E857358410DCED528586F4AA3BB573_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// return (obj == null) ? new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero) : obj.swigCPtr;
-		FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1 * L_0 = ___obj0;
-		if (!L_0)
-		{
-			goto IL_000a;
-		}
-	}
-	{
-		FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1 * L_1 = ___obj0;
-		NullCheck(L_1);
-		HandleRef_t876E76124F400D12395BF61D562162AB6822204A  L_2 = L_1->get_swigCPtr_2();
-		return L_2;
-	}
-
-IL_000a:
-	{
-		HandleRef_t876E76124F400D12395BF61D562162AB6822204A  L_3;
-		memset(&L_3, 0, sizeof(L_3));
-		HandleRef__ctor_mCD64E7F91766FE7602EE34A8CEEF6C1EF4C943BB((&L_3), NULL, (intptr_t)(0), /*hidden argument*/NULL);
-		return L_3;
-	}
-}
-// System.Void HoloToolkit.Sharing.FloatArrayListener::Finalize()
-extern "C" IL2CPP_METHOD_ATTR void FloatArrayListener_Finalize_mA4C899B4CB044E40FB8CEAFDB6818F905FD0787B (FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1 * __this, const RuntimeMethod* method)
-{
-	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 1);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
-
-IL_0000:
-	try
-	{ // begin try (depth: 1)
-		// Dispose();
-		VirtActionInvoker0::Invoke(5 /* System.Void HoloToolkit.Sharing.Listener::Dispose() */, __this);
-		IL2CPP_LEAVE(0xF, FINALLY_0008);
-	} // end try (depth: 1)
-	catch(Il2CppExceptionWrapper& e)
-	{
-		__last_unhandled_exception = (Exception_t *)e.ex;
-		goto FINALLY_0008;
-	}
-
-FINALLY_0008:
-	{ // begin finally (depth: 1)
-		// }
-		Listener_Finalize_m2C60A2308F49141B33EE1EDD8A3C4ABBF2A2FFB1(__this, /*hidden argument*/NULL);
-		IL2CPP_END_FINALLY(8)
-	} // end finally (depth: 1)
-	IL2CPP_CLEANUP(8)
-	{
-		IL2CPP_JUMP_TBL(0xF, IL_000f)
-		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
-	}
-
-IL_000f:
-	{
-		// }
-		return;
-	}
-}
-// System.Void HoloToolkit.Sharing.FloatArrayListener::Dispose()
-extern "C" IL2CPP_METHOD_ATTR void FloatArrayListener_Dispose_mD0E8C53D665B4CA6096D45A5AB35DBACE1DAF2CB (FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (FloatArrayListener_Dispose_mD0E8C53D665B4CA6096D45A5AB35DBACE1DAF2CB_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1 * V_0 = NULL;
-	bool V_1 = false;
-	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 1);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
-	{
-		// lock(this) {
-		V_0 = __this;
-		V_1 = (bool)0;
-	}
-
-IL_0004:
-	try
-	{ // begin try (depth: 1)
-		{
-			FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1 * L_0 = V_0;
-			Monitor_Enter_mC5B353DD83A0B0155DF6FBCC4DF5A580C25534C5(L_0, (bool*)(&V_1), /*hidden argument*/NULL);
-			// if (swigCPtr.Handle != global::System.IntPtr.Zero) {
-			HandleRef_t876E76124F400D12395BF61D562162AB6822204A * L_1 = __this->get_address_of_swigCPtr_2();
-			intptr_t L_2 = HandleRef_get_Handle_m095712F299EA36BF75975343C726FA160EE38277((HandleRef_t876E76124F400D12395BF61D562162AB6822204A *)L_1, /*hidden argument*/NULL);
-			bool L_3 = IntPtr_op_Inequality_mB4886A806009EA825EFCC60CD2A7F6EB8E273A61((intptr_t)L_2, (intptr_t)(0), /*hidden argument*/NULL);
-			if (!L_3)
-			{
-				goto IL_004e;
-			}
-		}
-
-IL_0023:
-		{
-			// if (swigCMemOwn) {
-			bool L_4 = ((Listener_t3466CE06B278C6B8D8CC0655DF5EC0000BF962C2 *)__this)->get_swigCMemOwn_1();
-			if (!L_4)
-			{
-				goto IL_003d;
-			}
-		}
-
-IL_002b:
-		{
-			// swigCMemOwn = false;
-			((Listener_t3466CE06B278C6B8D8CC0655DF5EC0000BF962C2 *)__this)->set_swigCMemOwn_1((bool)0);
-			// SharingClientPINVOKE.delete_FloatArrayListener(swigCPtr);
-			HandleRef_t876E76124F400D12395BF61D562162AB6822204A  L_5 = __this->get_swigCPtr_2();
-			IL2CPP_RUNTIME_CLASS_INIT(SharingClientPINVOKE_tFF4292D2BC5A9EB345172E6D4F8BE281B3799A1F_il2cpp_TypeInfo_var);
-			SharingClientPINVOKE_delete_FloatArrayListener_mB9C3E751CDD1DED706C9348545D820F435989F5B(L_5, /*hidden argument*/NULL);
-		}
-
-IL_003d:
-		{
-			// swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
-			HandleRef_t876E76124F400D12395BF61D562162AB6822204A  L_6;
-			memset(&L_6, 0, sizeof(L_6));
-			HandleRef__ctor_mCD64E7F91766FE7602EE34A8CEEF6C1EF4C943BB((&L_6), NULL, (intptr_t)(0), /*hidden argument*/NULL);
-			__this->set_swigCPtr_2(L_6);
-		}
-
-IL_004e:
-		{
-			// global::System.GC.SuppressFinalize(this);
-			IL2CPP_RUNTIME_CLASS_INIT(GC_tC1D7BD74E8F44ECCEF5CD2B5D84BFF9AAE02D01D_il2cpp_TypeInfo_var);
-			GC_SuppressFinalize_m037319A9B95A5BA437E806DE592802225EE5B425(__this, /*hidden argument*/NULL);
-			// base.Dispose();
-			Listener_Dispose_mF59F4962F238FD2A986747D0092EC14293296D30(__this, /*hidden argument*/NULL);
-			// }
-			IL2CPP_LEAVE(0x66, FINALLY_005c);
-		}
-	} // end try (depth: 1)
-	catch(Il2CppExceptionWrapper& e)
-	{
-		__last_unhandled_exception = (Exception_t *)e.ex;
-		goto FINALLY_005c;
-	}
-
-FINALLY_005c:
-	{ // begin finally (depth: 1)
-		{
-			bool L_7 = V_1;
-			if (!L_7)
-			{
-				goto IL_0065;
-			}
-		}
-
-IL_005f:
-		{
-			FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1 * L_8 = V_0;
-			Monitor_Exit_m49A1E5356D984D0B934BB97A305E2E5E207225C2(L_8, /*hidden argument*/NULL);
-		}
-
-IL_0065:
-		{
-			IL2CPP_END_FINALLY(92)
-		}
-	} // end finally (depth: 1)
-	IL2CPP_CLEANUP(92)
-	{
-		IL2CPP_JUMP_TBL(0x66, IL_0066)
-		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
-	}
-
-IL_0066:
-	{
-		// }
-		return;
-	}
-}
-// System.Void HoloToolkit.Sharing.FloatArrayListener::OnValueChanged(System.Int32,System.Single)
-extern "C" IL2CPP_METHOD_ATTR void FloatArrayListener_OnValueChanged_mDF14FDABF683F41293BB02CE75056663A2A8A228 (FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1 * __this, int32_t ___index0, float ___newValue1, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (FloatArrayListener_OnValueChanged_mDF14FDABF683F41293BB02CE75056663A2A8A228_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// if (SwigDerivedClassHasMethod("OnValueChanged", swigMethodTypes0)) SharingClientPINVOKE.FloatArrayListener_OnValueChangedSwigExplicitFloatArrayListener(swigCPtr, index, newValue); else SharingClientPINVOKE.FloatArrayListener_OnValueChanged(swigCPtr, index, newValue);
-		IL2CPP_RUNTIME_CLASS_INIT(FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1_il2cpp_TypeInfo_var);
-		TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* L_0 = ((FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1_StaticFields*)il2cpp_codegen_static_fields_for(FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1_il2cpp_TypeInfo_var))->get_swigMethodTypes0_6();
-		bool L_1 = FloatArrayListener_SwigDerivedClassHasMethod_mA54B9FC47F6FD9600884309B200F6DD88C294AE1(__this, _stringLiteral989438E0E639164C238A62552C5BD25DB04EC9EA, L_0, /*hidden argument*/NULL);
-		if (!L_1)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-		// if (SwigDerivedClassHasMethod("OnValueChanged", swigMethodTypes0)) SharingClientPINVOKE.FloatArrayListener_OnValueChangedSwigExplicitFloatArrayListener(swigCPtr, index, newValue); else SharingClientPINVOKE.FloatArrayListener_OnValueChanged(swigCPtr, index, newValue);
-		HandleRef_t876E76124F400D12395BF61D562162AB6822204A  L_2 = __this->get_swigCPtr_2();
-		int32_t L_3 = ___index0;
-		float L_4 = ___newValue1;
-		IL2CPP_RUNTIME_CLASS_INIT(SharingClientPINVOKE_tFF4292D2BC5A9EB345172E6D4F8BE281B3799A1F_il2cpp_TypeInfo_var);
-		SharingClientPINVOKE_FloatArrayListener_OnValueChangedSwigExplicitFloatArrayListener_mEF709F7973E30FAC15B980CBC221ABDC291E3515(L_2, L_3, L_4, /*hidden argument*/NULL);
-		return;
-	}
-
-IL_0020:
-	{
-		// if (SwigDerivedClassHasMethod("OnValueChanged", swigMethodTypes0)) SharingClientPINVOKE.FloatArrayListener_OnValueChangedSwigExplicitFloatArrayListener(swigCPtr, index, newValue); else SharingClientPINVOKE.FloatArrayListener_OnValueChanged(swigCPtr, index, newValue);
-		HandleRef_t876E76124F400D12395BF61D562162AB6822204A  L_5 = __this->get_swigCPtr_2();
-		int32_t L_6 = ___index0;
-		float L_7 = ___newValue1;
-		IL2CPP_RUNTIME_CLASS_INIT(SharingClientPINVOKE_tFF4292D2BC5A9EB345172E6D4F8BE281B3799A1F_il2cpp_TypeInfo_var);
-		SharingClientPINVOKE_FloatArrayListener_OnValueChanged_m26705B6E1D9F45D2BFF0CA38D6E4B82DB8CAFF6B(L_5, L_6, L_7, /*hidden argument*/NULL);
-		// }
-		return;
-	}
-}
-// System.Void HoloToolkit.Sharing.FloatArrayListener::OnValueInserted(System.Int32,System.Single)
-extern "C" IL2CPP_METHOD_ATTR void FloatArrayListener_OnValueInserted_m22B0C9D6DC3F6E5577BCEC1B5E44B86F40D5E1A9 (FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1 * __this, int32_t ___index0, float ___value1, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (FloatArrayListener_OnValueInserted_m22B0C9D6DC3F6E5577BCEC1B5E44B86F40D5E1A9_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// if (SwigDerivedClassHasMethod("OnValueInserted", swigMethodTypes1)) SharingClientPINVOKE.FloatArrayListener_OnValueInsertedSwigExplicitFloatArrayListener(swigCPtr, index, value); else SharingClientPINVOKE.FloatArrayListener_OnValueInserted(swigCPtr, index, value);
-		IL2CPP_RUNTIME_CLASS_INIT(FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1_il2cpp_TypeInfo_var);
-		TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* L_0 = ((FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1_StaticFields*)il2cpp_codegen_static_fields_for(FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1_il2cpp_TypeInfo_var))->get_swigMethodTypes1_7();
-		bool L_1 = FloatArrayListener_SwigDerivedClassHasMethod_mA54B9FC47F6FD9600884309B200F6DD88C294AE1(__this, _stringLiteralC23FF2C3D17AD1DF2B1F7B99B0394F8F24718806, L_0, /*hidden argument*/NULL);
-		if (!L_1)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-		// if (SwigDerivedClassHasMethod("OnValueInserted", swigMethodTypes1)) SharingClientPINVOKE.FloatArrayListener_OnValueInsertedSwigExplicitFloatArrayListener(swigCPtr, index, value); else SharingClientPINVOKE.FloatArrayListener_OnValueInserted(swigCPtr, index, value);
-		HandleRef_t876E76124F400D12395BF61D562162AB6822204A  L_2 = __this->get_swigCPtr_2();
-		int32_t L_3 = ___index0;
-		float L_4 = ___value1;
-		IL2CPP_RUNTIME_CLASS_INIT(SharingClientPINVOKE_tFF4292D2BC5A9EB345172E6D4F8BE281B3799A1F_il2cpp_TypeInfo_var);
-		SharingClientPINVOKE_FloatArrayListener_OnValueInsertedSwigExplicitFloatArrayListener_mC2174243872EC8447B68628E72C4B9625804CCB5(L_2, L_3, L_4, /*hidden argument*/NULL);
-		return;
-	}
-
-IL_0020:
-	{
-		// if (SwigDerivedClassHasMethod("OnValueInserted", swigMethodTypes1)) SharingClientPINVOKE.FloatArrayListener_OnValueInsertedSwigExplicitFloatArrayListener(swigCPtr, index, value); else SharingClientPINVOKE.FloatArrayListener_OnValueInserted(swigCPtr, index, value);
-		HandleRef_t876E76124F400D12395BF61D562162AB6822204A  L_5 = __this->get_swigCPtr_2();
-		int32_t L_6 = ___index0;
-		float L_7 = ___value1;
-		IL2CPP_RUNTIME_CLASS_INIT(SharingClientPINVOKE_tFF4292D2BC5A9EB345172E6D4F8BE281B3799A1F_il2cpp_TypeInfo_var);
-		SharingClientPINVOKE_FloatArrayListener_OnValueInserted_m366D58AEE31D9BE52C3DB94824A2B8EC79D358D7(L_5, L_6, L_7, /*hidden argument*/NULL);
-		// }
-		return;
-	}
-}
-// System.Void HoloToolkit.Sharing.FloatArrayListener::OnValueRemoved(System.Int32,System.Single)
-extern "C" IL2CPP_METHOD_ATTR void FloatArrayListener_OnValueRemoved_mC35FCB461E12C671946E9EC908DF4F1B38B8F4EE (FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1 * __this, int32_t ___index0, float ___value1, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (FloatArrayListener_OnValueRemoved_mC35FCB461E12C671946E9EC908DF4F1B38B8F4EE_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// if (SwigDerivedClassHasMethod("OnValueRemoved", swigMethodTypes2)) SharingClientPINVOKE.FloatArrayListener_OnValueRemovedSwigExplicitFloatArrayListener(swigCPtr, index, value); else SharingClientPINVOKE.FloatArrayListener_OnValueRemoved(swigCPtr, index, value);
-		IL2CPP_RUNTIME_CLASS_INIT(FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1_il2cpp_TypeInfo_var);
-		TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* L_0 = ((FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1_StaticFields*)il2cpp_codegen_static_fields_for(FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1_il2cpp_TypeInfo_var))->get_swigMethodTypes2_8();
-		bool L_1 = FloatArrayListener_SwigDerivedClassHasMethod_mA54B9FC47F6FD9600884309B200F6DD88C294AE1(__this, _stringLiteralBB6447E62CC9FD7C116B27A145EB4C9CC7387DFA, L_0, /*hidden argument*/NULL);
-		if (!L_1)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-		// if (SwigDerivedClassHasMethod("OnValueRemoved", swigMethodTypes2)) SharingClientPINVOKE.FloatArrayListener_OnValueRemovedSwigExplicitFloatArrayListener(swigCPtr, index, value); else SharingClientPINVOKE.FloatArrayListener_OnValueRemoved(swigCPtr, index, value);
-		HandleRef_t876E76124F400D12395BF61D562162AB6822204A  L_2 = __this->get_swigCPtr_2();
-		int32_t L_3 = ___index0;
-		float L_4 = ___value1;
-		IL2CPP_RUNTIME_CLASS_INIT(SharingClientPINVOKE_tFF4292D2BC5A9EB345172E6D4F8BE281B3799A1F_il2cpp_TypeInfo_var);
-		SharingClientPINVOKE_FloatArrayListener_OnValueRemovedSwigExplicitFloatArrayListener_m526FC506EA8BACF458D96FA3F3BB8968029181E0(L_2, L_3, L_4, /*hidden argument*/NULL);
-		return;
-	}
-
-IL_0020:
-	{
-		// if (SwigDerivedClassHasMethod("OnValueRemoved", swigMethodTypes2)) SharingClientPINVOKE.FloatArrayListener_OnValueRemovedSwigExplicitFloatArrayListener(swigCPtr, index, value); else SharingClientPINVOKE.FloatArrayListener_OnValueRemoved(swigCPtr, index, value);
-		HandleRef_t876E76124F400D12395BF61D562162AB6822204A  L_5 = __this->get_swigCPtr_2();
-		int32_t L_6 = ___index0;
-		float L_7 = ___value1;
-		IL2CPP_RUNTIME_CLASS_INIT(SharingClientPINVOKE_tFF4292D2BC5A9EB345172E6D4F8BE281B3799A1F_il2cpp_TypeInfo_var);
-		SharingClientPINVOKE_FloatArrayListener_OnValueRemoved_m2A2B5F133A44270584322C73E382BDC17A25665C(L_5, L_6, L_7, /*hidden argument*/NULL);
-		// }
-		return;
-	}
-}
-// System.Void HoloToolkit.Sharing.FloatArrayListener::.ctor()
-extern "C" IL2CPP_METHOD_ATTR void FloatArrayListener__ctor_m149ACFE715508769DB823A8A187A37921B312AB0 (FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (FloatArrayListener__ctor_m149ACFE715508769DB823A8A187A37921B312AB0_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// public FloatArrayListener() : this(SharingClientPINVOKE.new_FloatArrayListener(), true) {
-		IL2CPP_RUNTIME_CLASS_INIT(SharingClientPINVOKE_tFF4292D2BC5A9EB345172E6D4F8BE281B3799A1F_il2cpp_TypeInfo_var);
-		intptr_t L_0 = SharingClientPINVOKE_new_FloatArrayListener_m1635A211DB6A52FA86B770A5257C04756BC650A3(/*hidden argument*/NULL);
-		FloatArrayListener__ctor_m321FADCBF64BACC24B76F68EC105777C99D149C3(__this, (intptr_t)L_0, (bool)1, /*hidden argument*/NULL);
-		// SwigDirectorConnect();
-		FloatArrayListener_SwigDirectorConnect_mA3FD8A626666A87847724DE1280D9326AA21E643(__this, /*hidden argument*/NULL);
-		// }
-		return;
-	}
-}
-// System.Void HoloToolkit.Sharing.FloatArrayListener::SwigDirectorConnect()
-extern "C" IL2CPP_METHOD_ATTR void FloatArrayListener_SwigDirectorConnect_mA3FD8A626666A87847724DE1280D9326AA21E643 (FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (FloatArrayListener_SwigDirectorConnect_mA3FD8A626666A87847724DE1280D9326AA21E643_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// if (SwigDerivedClassHasMethod("OnValueChanged", swigMethodTypes0))
-		IL2CPP_RUNTIME_CLASS_INIT(FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1_il2cpp_TypeInfo_var);
-		TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* L_0 = ((FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1_StaticFields*)il2cpp_codegen_static_fields_for(FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1_il2cpp_TypeInfo_var))->get_swigMethodTypes0_6();
-		bool L_1 = FloatArrayListener_SwigDerivedClassHasMethod_mA54B9FC47F6FD9600884309B200F6DD88C294AE1(__this, _stringLiteral989438E0E639164C238A62552C5BD25DB04EC9EA, L_0, /*hidden argument*/NULL);
-		if (!L_1)
-		{
-			goto IL_0024;
-		}
-	}
-	{
-		// swigDelegate0 = new SwigDelegateFloatArrayListener_0(SwigDirectorOnValueChanged);
-		SwigDelegateFloatArrayListener_0_tA9A7E854A14FA0A879F6015E5F8EAA3A94833FD7 * L_2 = (SwigDelegateFloatArrayListener_0_tA9A7E854A14FA0A879F6015E5F8EAA3A94833FD7 *)il2cpp_codegen_object_new(SwigDelegateFloatArrayListener_0_tA9A7E854A14FA0A879F6015E5F8EAA3A94833FD7_il2cpp_TypeInfo_var);
-		SwigDelegateFloatArrayListener_0__ctor_m869A477B43875E7415252693806982B2C8663F93(L_2, __this, (intptr_t)((intptr_t)FloatArrayListener_SwigDirectorOnValueChanged_m1544E859C02E217E8E48A250BBF622D56C126186_RuntimeMethod_var), /*hidden argument*/NULL);
-		__this->set_swigDelegate0_3(L_2);
-	}
-
-IL_0024:
-	{
-		// if (SwigDerivedClassHasMethod("OnValueInserted", swigMethodTypes1))
-		IL2CPP_RUNTIME_CLASS_INIT(FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1_il2cpp_TypeInfo_var);
-		TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* L_3 = ((FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1_StaticFields*)il2cpp_codegen_static_fields_for(FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1_il2cpp_TypeInfo_var))->get_swigMethodTypes1_7();
-		bool L_4 = FloatArrayListener_SwigDerivedClassHasMethod_mA54B9FC47F6FD9600884309B200F6DD88C294AE1(__this, _stringLiteralC23FF2C3D17AD1DF2B1F7B99B0394F8F24718806, L_3, /*hidden argument*/NULL);
-		if (!L_4)
-		{
-			goto IL_0048;
-		}
-	}
-	{
-		// swigDelegate1 = new SwigDelegateFloatArrayListener_1(SwigDirectorOnValueInserted);
-		SwigDelegateFloatArrayListener_1_tD0C94947929A1D17D534387D11C11CF2E4B6EE6D * L_5 = (SwigDelegateFloatArrayListener_1_tD0C94947929A1D17D534387D11C11CF2E4B6EE6D *)il2cpp_codegen_object_new(SwigDelegateFloatArrayListener_1_tD0C94947929A1D17D534387D11C11CF2E4B6EE6D_il2cpp_TypeInfo_var);
-		SwigDelegateFloatArrayListener_1__ctor_mC280DB826140CA367506E7590133EC8077D1345E(L_5, __this, (intptr_t)((intptr_t)FloatArrayListener_SwigDirectorOnValueInserted_m0B00C286D13D6AFF494EFD452E19E07294CE1154_RuntimeMethod_var), /*hidden argument*/NULL);
-		__this->set_swigDelegate1_4(L_5);
-	}
-
-IL_0048:
-	{
-		// if (SwigDerivedClassHasMethod("OnValueRemoved", swigMethodTypes2))
-		IL2CPP_RUNTIME_CLASS_INIT(FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1_il2cpp_TypeInfo_var);
-		TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* L_6 = ((FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1_StaticFields*)il2cpp_codegen_static_fields_for(FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1_il2cpp_TypeInfo_var))->get_swigMethodTypes2_8();
-		bool L_7 = FloatArrayListener_SwigDerivedClassHasMethod_mA54B9FC47F6FD9600884309B200F6DD88C294AE1(__this, _stringLiteralBB6447E62CC9FD7C116B27A145EB4C9CC7387DFA, L_6, /*hidden argument*/NULL);
-		if (!L_7)
-		{
-			goto IL_006c;
-		}
-	}
-	{
-		// swigDelegate2 = new SwigDelegateFloatArrayListener_2(SwigDirectorOnValueRemoved);
-		SwigDelegateFloatArrayListener_2_t3ECAF7DB385704AB1054931F6DE29F5670C0CBE3 * L_8 = (SwigDelegateFloatArrayListener_2_t3ECAF7DB385704AB1054931F6DE29F5670C0CBE3 *)il2cpp_codegen_object_new(SwigDelegateFloatArrayListener_2_t3ECAF7DB385704AB1054931F6DE29F5670C0CBE3_il2cpp_TypeInfo_var);
-		SwigDelegateFloatArrayListener_2__ctor_mF3CFDF28FB2D77DC08778B84E13C10D4FB557D39(L_8, __this, (intptr_t)((intptr_t)FloatArrayListener_SwigDirectorOnValueRemoved_mDA88FB0AF00E7C623BFD09F0926CACEE7C71411D_RuntimeMethod_var), /*hidden argument*/NULL);
-		__this->set_swigDelegate2_5(L_8);
-	}
-
-IL_006c:
-	{
-		// SharingClientPINVOKE.FloatArrayListener_director_connect(swigCPtr, swigDelegate0, swigDelegate1, swigDelegate2);
-		HandleRef_t876E76124F400D12395BF61D562162AB6822204A  L_9 = __this->get_swigCPtr_2();
-		SwigDelegateFloatArrayListener_0_tA9A7E854A14FA0A879F6015E5F8EAA3A94833FD7 * L_10 = __this->get_swigDelegate0_3();
-		SwigDelegateFloatArrayListener_1_tD0C94947929A1D17D534387D11C11CF2E4B6EE6D * L_11 = __this->get_swigDelegate1_4();
-		SwigDelegateFloatArrayListener_2_t3ECAF7DB385704AB1054931F6DE29F5670C0CBE3 * L_12 = __this->get_swigDelegate2_5();
-		IL2CPP_RUNTIME_CLASS_INIT(SharingClientPINVOKE_tFF4292D2BC5A9EB345172E6D4F8BE281B3799A1F_il2cpp_TypeInfo_var);
-		SharingClientPINVOKE_FloatArrayListener_director_connect_m842A93914CED932E455AFE24D9D5200D72064E5C(L_9, L_10, L_11, L_12, /*hidden argument*/NULL);
-		// }
-		return;
-	}
-}
-// System.Boolean HoloToolkit.Sharing.FloatArrayListener::SwigDerivedClassHasMethod(System.String,System.Type[])
-extern "C" IL2CPP_METHOD_ATTR bool FloatArrayListener_SwigDerivedClassHasMethod_mA54B9FC47F6FD9600884309B200F6DD88C294AE1 (FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1 * __this, String_t* ___methodName0, TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* ___methodTypes1, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (FloatArrayListener_SwigDerivedClassHasMethod_mA54B9FC47F6FD9600884309B200F6DD88C294AE1_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// global::System.Reflection.MethodInfo methodInfo = this.GetType().GetMethod(methodName, global::System.Reflection.BindingFlags.Public | global::System.Reflection.BindingFlags.NonPublic | global::System.Reflection.BindingFlags.Instance, null, methodTypes, null);
-		Type_t * L_0 = Object_GetType_m2E0B62414ECCAA3094B703790CE88CBB2F83EA60(__this, /*hidden argument*/NULL);
-		String_t* L_1 = ___methodName0;
-		TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* L_2 = ___methodTypes1;
-		NullCheck(L_0);
-		MethodInfo_t * L_3 = Type_GetMethod_m694F07057F23808980BF6B1637544F34852759FA(L_0, L_1, ((int32_t)52), (Binder_t4D5CB06963501D32847C057B57157D6DC49CA759 *)NULL, L_2, (ParameterModifierU5BU5D_t63EC46F14F048DC9EF6BF1362E8AEBEA1A05A5EA*)(ParameterModifierU5BU5D_t63EC46F14F048DC9EF6BF1362E8AEBEA1A05A5EA*)NULL, /*hidden argument*/NULL);
-		// bool hasDerivedMethod = methodInfo.DeclaringType.IsSubclassOf(typeof(FloatArrayListener));
-		NullCheck(L_3);
-		Type_t * L_4 = VirtFuncInvoker0< Type_t * >::Invoke(8 /* System.Type System.Reflection.MemberInfo::get_DeclaringType() */, L_3);
-		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_5 = { reinterpret_cast<intptr_t> (FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1_0_0_0_var) };
-		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		Type_t * L_6 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6(L_5, /*hidden argument*/NULL);
-		NullCheck(L_4);
-		bool L_7 = VirtFuncInvoker1< bool, Type_t * >::Invoke(118 /* System.Boolean System.Type::IsSubclassOf(System.Type) */, L_4, L_6);
-		// return hasDerivedMethod;
-		return L_7;
-	}
-}
-// System.Void HoloToolkit.Sharing.FloatArrayListener::SwigDirectorOnValueChanged(System.Int32,System.Single)
-extern "C" IL2CPP_METHOD_ATTR void FloatArrayListener_SwigDirectorOnValueChanged_m1544E859C02E217E8E48A250BBF622D56C126186 (FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1 * __this, int32_t ___index0, float ___newValue1, const RuntimeMethod* method)
-{
-	{
-		// OnValueChanged(index, newValue);
-		int32_t L_0 = ___index0;
-		float L_1 = ___newValue1;
-		VirtActionInvoker2< int32_t, float >::Invoke(6 /* System.Void HoloToolkit.Sharing.FloatArrayListener::OnValueChanged(System.Int32,System.Single) */, __this, L_0, L_1);
-		// }
-		return;
-	}
-}
-// System.Void HoloToolkit.Sharing.FloatArrayListener::SwigDirectorOnValueInserted(System.Int32,System.Single)
-extern "C" IL2CPP_METHOD_ATTR void FloatArrayListener_SwigDirectorOnValueInserted_m0B00C286D13D6AFF494EFD452E19E07294CE1154 (FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1 * __this, int32_t ___index0, float ___value1, const RuntimeMethod* method)
-{
-	{
-		// OnValueInserted(index, value);
-		int32_t L_0 = ___index0;
-		float L_1 = ___value1;
-		VirtActionInvoker2< int32_t, float >::Invoke(7 /* System.Void HoloToolkit.Sharing.FloatArrayListener::OnValueInserted(System.Int32,System.Single) */, __this, L_0, L_1);
-		// }
-		return;
-	}
-}
-// System.Void HoloToolkit.Sharing.FloatArrayListener::SwigDirectorOnValueRemoved(System.Int32,System.Single)
-extern "C" IL2CPP_METHOD_ATTR void FloatArrayListener_SwigDirectorOnValueRemoved_mDA88FB0AF00E7C623BFD09F0926CACEE7C71411D (FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1 * __this, int32_t ___index0, float ___value1, const RuntimeMethod* method)
-{
-	{
-		// OnValueRemoved(index, value);
-		int32_t L_0 = ___index0;
-		float L_1 = ___value1;
-		VirtActionInvoker2< int32_t, float >::Invoke(8 /* System.Void HoloToolkit.Sharing.FloatArrayListener::OnValueRemoved(System.Int32,System.Single) */, __this, L_0, L_1);
-		// }
-		return;
-	}
-}
-// System.Void HoloToolkit.Sharing.FloatArrayListener::.cctor()
-extern "C" IL2CPP_METHOD_ATTR void FloatArrayListener__cctor_m3F802865AE3C042FC9FF19D5EB846C7FB15A8084 (const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (FloatArrayListener__cctor_m3F802865AE3C042FC9FF19D5EB846C7FB15A8084_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// private static global::System.Type[] swigMethodTypes0 = new global::System.Type[] { typeof(int), typeof(float) };
-		TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* L_0 = (TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F*)SZArrayNew(TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F_il2cpp_TypeInfo_var, (uint32_t)2);
-		TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* L_1 = L_0;
-		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_2 = { reinterpret_cast<intptr_t> (Int32_t585191389E07734F19F3156FF88FB3EF4800D102_0_0_0_var) };
-		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		Type_t * L_3 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6(L_2, /*hidden argument*/NULL);
-		NullCheck(L_1);
-		ArrayElementTypeCheck (L_1, L_3);
-		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_3);
-		TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* L_4 = L_1;
-		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_5 = { reinterpret_cast<intptr_t> (Single_tDDDA9169C4E4E308AC6D7A824F9B28DC82204AE1_0_0_0_var) };
-		Type_t * L_6 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6(L_5, /*hidden argument*/NULL);
-		NullCheck(L_4);
-		ArrayElementTypeCheck (L_4, L_6);
-		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(1), (Type_t *)L_6);
-		((FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1_StaticFields*)il2cpp_codegen_static_fields_for(FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1_il2cpp_TypeInfo_var))->set_swigMethodTypes0_6(L_4);
-		// private static global::System.Type[] swigMethodTypes1 = new global::System.Type[] { typeof(int), typeof(float) };
-		TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* L_7 = (TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F*)SZArrayNew(TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F_il2cpp_TypeInfo_var, (uint32_t)2);
-		TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* L_8 = L_7;
-		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_9 = { reinterpret_cast<intptr_t> (Int32_t585191389E07734F19F3156FF88FB3EF4800D102_0_0_0_var) };
-		Type_t * L_10 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6(L_9, /*hidden argument*/NULL);
-		NullCheck(L_8);
-		ArrayElementTypeCheck (L_8, L_10);
-		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_10);
-		TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* L_11 = L_8;
-		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_12 = { reinterpret_cast<intptr_t> (Single_tDDDA9169C4E4E308AC6D7A824F9B28DC82204AE1_0_0_0_var) };
-		Type_t * L_13 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6(L_12, /*hidden argument*/NULL);
-		NullCheck(L_11);
-		ArrayElementTypeCheck (L_11, L_13);
-		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(1), (Type_t *)L_13);
-		((FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1_StaticFields*)il2cpp_codegen_static_fields_for(FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1_il2cpp_TypeInfo_var))->set_swigMethodTypes1_7(L_11);
-		// private static global::System.Type[] swigMethodTypes2 = new global::System.Type[] { typeof(int), typeof(float) };
-		TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* L_14 = (TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F*)SZArrayNew(TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F_il2cpp_TypeInfo_var, (uint32_t)2);
-		TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* L_15 = L_14;
-		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_16 = { reinterpret_cast<intptr_t> (Int32_t585191389E07734F19F3156FF88FB3EF4800D102_0_0_0_var) };
-		Type_t * L_17 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6(L_16, /*hidden argument*/NULL);
-		NullCheck(L_15);
-		ArrayElementTypeCheck (L_15, L_17);
-		(L_15)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_17);
-		TypeU5BU5D_t7FE623A666B49176DE123306221193E888A12F5F* L_18 = L_15;
-		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_19 = { reinterpret_cast<intptr_t> (Single_tDDDA9169C4E4E308AC6D7A824F9B28DC82204AE1_0_0_0_var) };
-		Type_t * L_20 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6(L_19, /*hidden argument*/NULL);
-		NullCheck(L_18);
-		ArrayElementTypeCheck (L_18, L_20);
-		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(1), (Type_t *)L_20);
-		((FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1_StaticFields*)il2cpp_codegen_static_fields_for(FloatArrayListener_tE3906ABC7A0CBC603469883954487B5F68AD9BA1_il2cpp_TypeInfo_var))->set_swigMethodTypes2_8(L_18);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-extern "C"  void DelegatePInvokeWrapper_SwigDelegateFloatArrayListener_0_tA9A7E854A14FA0A879F6015E5F8EAA3A94833FD7 (SwigDelegateFloatArrayListener_0_tA9A7E854A14FA0A879F6015E5F8EAA3A94833FD7 * __this, int32_t ___index0, float ___newValue1, const RuntimeMethod* method)
-{
-	typedef void (DEFAULT_CALL *PInvokeFunc)(int32_t, float);
-	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
-
-	// Native function invocation
-	il2cppPInvokeFunc(___index0, ___newValue1);
-
-}
-// System.Void HoloToolkit.Sharing.FloatArrayListener_SwigDelegateFloatArrayListener_0::.ctor(System.Object,System.IntPtr)
-extern "C" IL2CPP_METHOD_ATTR void SwigDelegateFloatArrayListener_0__ctor_m869A477B43875E7415252693806982B2C8663F93 (SwigDelegateFloatArrayListener_0_tA9A7E854A14FA0A879F6015E5F8EAA3A94833FD7 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
-{
-	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
-	__this->set_method_3(___method1);
-	__this->set_m_target_2(___object0);
-}
-// System.Void HoloToolkit.Sharing.FloatArrayListener_SwigDelegateFloatArrayListener_0::Invoke(System.Int32,System.Single)
-extern "C" IL2CPP_METHOD_ATTR void SwigDelegateFloatArrayListener_0_Invoke_mF48E50F1C73B76EF0AB588CAE17701324D439C46 (SwigDelegateFloatArrayListener_0_tA9A7E854A14FA0A879F6015E5F8EAA3A94833FD7 * __this, int32_t ___index0, float ___newValue1, const RuntimeMethod* method)
-{
-	DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* delegatesToInvoke = __this->get_delegates_11();
-	if (delegatesToInvoke != NULL)
-	{
-		il2cpp_array_size_t length = delegatesToInvoke->max_length;
-		for (il2cpp_array_size_t i = 0; i < length; i++)
-		{
-			Delegate_t* currentDelegate = (delegatesToInvoke)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i));
-			Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
-			RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
-			RuntimeObject* targetThis = currentDelegate->get_m_target_2();
-			if (!il2cpp_codegen_method_is_virtual(targetMethod))
-			{
-				il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
-			}
-			bool ___methodIsStatic = MethodIsStatic(targetMethod);
-			int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
-			if (___methodIsStatic)
-			{
-				if (___parameterCount == 2)
-				{
-					// open
-					typedef void (*FunctionPointerType) (int32_t, float, const RuntimeMethod*);
-					((FunctionPointerType)targetMethodPointer)(___index0, ___newValue1, targetMethod);
-				}
-				else
-				{
-					// closed
-					typedef void (*FunctionPointerType) (void*, int32_t, float, const RuntimeMethod*);
-					((FunctionPointerType)targetMethodPointer)(targetThis, ___index0, ___newValue1, targetMethod);
-				}
-			}
-			else
-			{
-				// closed
-				if (il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
-				{
-					if (il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
-					{
-						if (targetThis == NULL)
-						{
-							typedef void (*FunctionPointerType) (int32_t, float, const RuntimeMethod*);
-							((FunctionPointerType)targetMethodPointer)(___index0, ___newValue1, targetMethod);
-						}
-						else if (il2cpp_codegen_method_is_generic_instance(targetMethod))
-						{
-							if (il2cpp_codegen_method_is_interface_method(targetMethod))
-								GenericInterfaceActionInvoker2< int32_t, float >::Invoke(targetMethod, targetThis, ___index0, ___newValue1);
-							else
-								GenericVirtActionInvoker2< int32_t, float >::Invoke(targetMethod, targetThis, ___index0, ___newValue1);
-						}
-						else
-						{
-							if (il2cpp_codegen_method_is_interface_method(targetMethod))
-								InterfaceActionInvoker2< int32_t, float >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___index0, ___newValue1);
-							else
-								VirtActionInvoker2< int32_t, float >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___index0, ___newValue1);
-						}
-					}
-				}
-				else
-				{
-					typedef void (*FunctionPointerType) (void*, int32_t, float, const RuntimeMethod*);
-					((FunctionPointerType)targetMethodPointer)(targetThis, ___index0, ___newValue1, targetMethod);
-				}
-			}
-		}
-	}
-	else
-	{
-		Il2CppMethodPointer targetMethodPointer = __this->get_method_ptr_0();
-		RuntimeMethod* targetMethod = (RuntimeMethod*)(__this->get_method_3());
-		RuntimeObject* targetThis = __this->get_m_target_2();
-		if (!il2cpp_codegen_method_is_virtual(targetMethod))
-		{
-			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
-		}
-		bool ___methodIsStatic = MethodIsStatic(targetMethod);
-		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
-		if (___methodIsStatic)
-		{
-			if (___parameterCount == 2)
-			{
-				// open
-				typedef void (*FunctionPointerType) (int32_t, float, const RuntimeMethod*);
-				((FunctionPointerType)targetMethodPointer)(___index0, ___newValue1, targetMethod);
-			}
-			else
-			{
-				// closed
-				typedef void (*FunctionPointerType) (void*, int32_t, float, const RuntimeMethod*);
-				((FunctionPointerType)targetMethodPointer)(targetThis, ___index0, ___newValue1, targetMethod);
-			}
-		}
-		else
-		{
-			// closed
-			if (il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
-			{
-				if (il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
-				{
-					if (targetThis == NULL)
-					{
-						typedef void (*FunctionPointerType) (int32_t, float, const RuntimeMethod*);
-						((FunctionPointerType)targetMethodPointer)(___index0, ___newValue1, targetMethod);
-					}
-					else if (il2cpp_codegen_method_is_generic_instance(targetMethod))
-					{
-						if (il2cpp_codegen_method_is_interface_method(targetMethod))
-							GenericInterfaceActionInvoker2< int32_t, float >::Invoke(targetMethod, targetThis, ___index0, ___newValue1);
-						else
-							GenericVirtActionInvoker2< int32_t, float >::Invoke(targetMethod, targetThis, ___index0, ___newValue1);
-					}
-					else
-					{
-						if (il2cpp_codegen_method_is_interface_method(targetMethod))
-							InterfaceActionInvoker2< int32_t, float >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___index0, ___newValue1);
-						else
-							VirtActionInvoker2< int32_t, float >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___index0, ___newValue1);
-					}
-				}
-			}
-			else
-			{
-				typedef void (*FunctionPointerType) (void*, int32_t, float, const RuntimeMethod*);
-				((FunctionPointerType)targetMethodPointer)(targetThis, ___index0, ___newValue1, targetMethod);
-			}
-		}
-	}
-}
-// System.IAsyncResult HoloToolkit.Sharing.FloatArrayListener_SwigDelegateFloatArrayListener_0::BeginInvoke(System.Int32,System.Single,System.AsyncCallback,System.Object)
-extern "C" IL2CPP_METHOD_ATTR RuntimeObject* SwigDelegateFloatArrayListener_0_BeginInvoke_m2C28F46CA0BF7707B9EE16F333010BBBC61FE6C4 (SwigDelegateFloatArrayListener_0_tA9A7E854A14FA0A879F6015E5F8EAA3A94833FD7 * __this, int32_t ___index0, float ___newValue1, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback2, RuntimeObject * ___object3, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (SwigDelegateFloatArrayListener_0_BeginInvoke_m2C28F46CA0BF7707B9EE16F333010BBBC61FE6C4_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	void *__d_args[3] = {0};
-	__d_args[0] = Box(Int32_t585191389E07734F19F3156FF88FB3EF4800D102_il2cpp_TypeInfo_var, &___index0);
-	__d_args[1] = Box(Single_tDDDA9169C4E4E308AC6D7A824F9B28DC82204AE1_il2cpp_TypeInfo_var, &___newValue1);
-	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback2, (RuntimeObject*)___object3);
-}
-// System.Void HoloToolkit.Sharing.FloatArrayListener_SwigDelegateFloatArrayListener_0::EndInvoke(System.IAsyncResult)
-extern "C" IL2CPP_METHOD_ATTR void SwigDelegateFloatArrayListener_0_EndInvoke_m010306B87E007D4368057E813033EC2516D63CE3 (SwigDelegateFloatArrayListener_0_tA9A7E854A14FA0A879F6015E5F8EAA3A94833FD7 * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
-{
-	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-extern "C"  void DelegatePInvokeWrapper_SwigDelegateFloatArrayListener_1_tD0C94947929A1D17D534387D11C11CF2E4B6EE6D (SwigDelegateFloatArrayListener_1_tD0C94947929A1D17D534387D11C11CF2E4B6EE6D * __this, int32_t ___index0, float ___value1, const RuntimeMethod* method)
-{
-	typedef void (DEFAULT_CALL *PInvokeFunc)(int32_t, float);
-	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
-
-	// Native function invocation
-	il2cppPInvokeFunc(___index0, ___value1);
-
-}
-// System.Void HoloToolkit.Sharing.FloatArrayListener_SwigDelegateFloatArrayListener_1::.ctor(System.Object,System.IntPtr)
-extern "C" IL2CPP_METHOD_ATTR void SwigDelegateFloatArrayListener_1__ctor_mC280DB826140CA367506E7590133EC8077D1345E (SwigDelegateFloatArrayListener_1_tD0C94947929A1D17D534387D11C11CF2E4B6EE6D * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
-{
-	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
-	__this->set_method_3(___method1);
-	__this->set_m_target_2(___object0);
-}
-// System.Void HoloToolkit.Sharing.FloatArrayListener_SwigDelegateFloatArrayListener_1::Invoke(System.Int32,System.Single)
-extern "C" IL2CPP_METHOD_ATTR void SwigDelegateFloatArrayListener_1_Invoke_m41EE8B8938A87A089EB32250D22B62891D83AC18 (SwigDelegateFloatArrayListener_1_tD0C94947929A1D17D534387D11C11CF2E4B6EE6D * __this, int32_t ___index0, float ___value1, const RuntimeMethod* method)
-{
-	DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* delegatesToInvoke = __this->get_delegates_11();
-	if (delegatesToInvoke != NULL)
-	{
-		il2cpp_array_size_t length = delegatesToInvoke->max_length;
-		for (il2cpp_array_size_t i = 0; i < length; i++)
-		{
-			Delegate_t* currentDelegate = (delegatesToInvoke)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i));
-			Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
-			RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
-			RuntimeObject* targetThis = currentDelegate->get_m_target_2();
-			if (!il2cpp_codegen_method_is_virtual(targetMethod))
-			{
-				il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
-			}
-			bool ___methodIsStatic = MethodIsStatic(targetMethod);
-			int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
-			if (___methodIsStatic)
-			{
-				if (___parameterCount == 2)
-				{
-					// open
-					typedef void (*FunctionPointerType) (int32_t, float, const RuntimeMethod*);
-					((FunctionPointerType)targetMethodPointer)(___index0, ___value1, targetMethod);
-				}
-				else
-				{
-					// closed
-					typedef void (*FunctionPointerType) (void*, int32_t, float, const RuntimeMethod*);
-					((FunctionPointerType)targetMethodPointer)(targetThis, ___index0, ___value1, targetMethod);
-				}
-			}
-			else
-			{
-				// closed
-				if (il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
-				{
-					if (il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
-					{
-						if (targetThis == NULL)
-						{
-							typedef void (*FunctionPointerType) (int32_t, float, const RuntimeMethod*);
-							((FunctionPointerType)targetMethodPointer)(___index0, ___value1, targetMethod);
-						}
-						else if (il2cpp_codegen_method_is_generic_instance(targetMethod))
-						{
-							if (il2cpp_codegen_method_is_interface_method(targetMethod))
-								GenericInterfaceActionInvoker2< int32_t, float >::Invoke(targetMethod, targetThis, ___index0, ___value1);
-							else
-								GenericVirtActionInvoker2< int32_t, float >::Invoke(targetMethod, targetThis, ___index0, ___value1);
-						}
-						else
-						{
-							if (il2cpp_codegen_method_is_interface_method(targetMethod))
-								InterfaceActionInvoker2< int32_t, float >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___index0, ___value1);
-							else
-								VirtActionInvoker2< int32_t, float >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___index0, ___value1);
-						}
-					}
-				}
-				else
-				{
-					typedef void (*FunctionPointerType) (void*, int32_t, float, const RuntimeMethod*);
-					((FunctionPointerType)targetMethodPointer)(targetThis, ___index0, ___value1, targetMethod);
-				}
-			}
-		}
-	}
-	else
-	{
-		Il2CppMethodPointer targetMethodPointer = __this->get_method_ptr_0();
-		RuntimeMethod* targetMethod = (RuntimeMethod*)(__this->get_method_3());
-		RuntimeObject* targetThis = __this->get_m_target_2();
-		if (!il2cpp_codegen_method_is_virtual(targetMethod))
-		{
-			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
-		}
-		bool ___methodIsStatic = MethodIsStatic(targetMethod);
-		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
-		if (___methodIsStatic)
-		{
-			if (___parameterCount == 2)
-			{
-				// open
-				typedef void (*FunctionPointerType) (int32_t, float, const RuntimeMethod*);
-				((FunctionPointerType)targetMethodPointer)(___index0, ___value1, targetMethod);
-			}
-			else
-			{
-				// closed
-				typedef void (*FunctionPointerType) (void*, int32_t, float, const RuntimeMethod*);
-				((FunctionPointerType)targetMethodPointer)(targetThis, ___index0, ___value1, targetMethod);
-			}
-		}
-		else
-		{
-			// closed
-			if (il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
-			{
-				if (il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
-				{
-					if (targetThis == NULL)
-					{
-						typedef void (*FunctionPointerType) (int32_t, float, const RuntimeMethod*);
-						((FunctionPointerType)targetMethodPointer)(___index0, ___value1, targetMethod);
-					}
-					else if (il2cpp_codegen_method_is_generic_instance(targetMethod))
-					{
-						if (il2cpp_codegen_method_is_interface_method(targetMethod))
-							GenericInterfaceActionInvoker2< int32_t, float >::Invoke(targetMethod, targetThis, ___index0, ___value1);
-						else
-							GenericVirtActionInvoker2< int32_t, float >::Invoke(targetMethod, targetThis, ___index0, ___value1);
-					}
-					else
-					{
-						if (il2cpp_codegen_method_is_interface_method(targetMethod))
-							InterfaceActionInvoker2< int32_t, float >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___index0, ___value1);
-						else
-							VirtActionInvoker2< int32_t, float >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___index0, ___value1);
-					}
-				}
-			}
-			else
-			{
-				typedef void (*FunctionPointerType) (void*, int32_t, float, const RuntimeMethod*);
-				((FunctionPointerType)targetMethodPointer)(targetThis, ___index0, ___value1, targetMethod);
-			}
-		}
-	}
-}
-// System.IAsyncResult HoloToolkit.Sharing.FloatArrayListener_SwigDelegateFloatArrayListener_1::BeginInvoke(System.Int32,System.Single,System.AsyncCallback,System.Object)
-extern "C" IL2CPP_METHOD_ATTR RuntimeObject* SwigDelegateFloatArrayListener_1_BeginInvoke_mB7CA9F35B987B6CE194C08DABA50CCE9BC7F639B (SwigDelegateFloatArrayListener_1_tD0C94947929A1D17D534387D11C11CF2E4B6EE6D * __this, int32_t ___index0, float ___value1, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback2, RuntimeObject * ___object3, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (SwigDelegateFloatArrayListener_1_BeginInvoke_mB7CA9F35B987B6CE194C08DABA50CCE9BC7F639B_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	void *__d_args[3] = {0};
-	__d_args[0] = Box(Int32_t585191389E07734F19F3156FF88FB3EF4800D102_il2cpp_TypeInfo_var, &___index0);
-	__d_args[1] = Box(Single_tDDDA9169C4E4E308AC6D7A824F9B28DC82204AE1_il2cpp_TypeInfo_var, &___value1);
-	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback2, (RuntimeObject*)___object3);
-}
-// System.Void HoloToolkit.Sharing.FloatArrayListener_SwigDelegateFloatArrayListener_1::EndInvoke(System.IAsyncResult)
-extern "C" IL2CPP_METHOD_ATTR void SwigDelegateFloatArrayListener_1_EndInvoke_mA4199F87C270F39689DE44C662CF21AFA783E571 (SwigDelegateFloatArrayListener_1_tD0C94947929A1D17D534387D11C11CF2E4B6EE6D * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
-{
-	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-extern "C"  void DelegatePInvokeWrapper_SwigDelegateFloatArrayListener_2_t3ECAF7DB385704AB1054931F6DE29F5670C0CBE3 (SwigDelegateFloatArrayListener_2_t3ECAF7DB385704AB1054931F6DE29F5670C0CBE3 * __this, int32_t ___index0, float ___value1, const RuntimeMethod* method)
-{
-	typedef void (DEFAULT_CALL *PInvokeFunc)(int32_t, float);
-	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
-
-	// Native function invocation
-	il2cppPInvokeFunc(___index0, ___value1);
-
-}
-// System.Void HoloToolkit.Sharing.FloatArrayListener_SwigDelegateFloatArrayListener_2::.ctor(System.Object,System.IntPtr)
-extern "C" IL2CPP_METHOD_ATTR void SwigDelegateFloatArrayListener_2__ctor_mF3CFDF28FB2D77DC08778B84E13C10D4FB557D39 (SwigDelegateFloatArrayListener_2_t3ECAF7DB385704AB1054931F6DE29F5670C0CBE3 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
-{
-	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
-	__this->set_method_3(___method1);
-	__this->set_m_target_2(___object0);
-}
-// System.Void HoloToolkit.Sharing.FloatArrayListener_SwigDelegateFloatArrayListener_2::Invoke(System.Int32,System.Single)
-extern "C" IL2CPP_METHOD_ATTR void SwigDelegateFloatArrayListener_2_Invoke_mC247D98A5CC767435C82AAFBF546BCFB2774597D (SwigDelegateFloatArrayListener_2_t3ECAF7DB385704AB1054931F6DE29F5670C0CBE3 * __this, int32_t ___index0, float ___value1, const RuntimeMethod* method)
-{
-	DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* delegatesToInvoke = __this->get_delegates_11();
-	if (delegatesToInvoke != NULL)
-	{
-		il2cpp_array_size_t length = delegatesToInvoke->max_length;
-		for (il2cpp_array_size_t i = 0; i < length; i++)
-		{
-			Delegate_t* currentDelegate = (delegatesToInvoke)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i));
-			Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
-			RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
-			RuntimeObject* targetThis = currentDelegate->get_m_target_2();
-			if (!il2cpp_codegen_method_is_virtual(targetMethod))
-			{
-				il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
-			}
-			bool ___methodIsStatic = MethodIsStatic(targetMethod);
-			int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
-			if (___methodIsStatic)
-			{
-				if (___parameterCount == 2)
-				{
-					// open
-					typedef void (*FunctionPointerType) (int32_t, float, const RuntimeMethod*);
-					((FunctionPointerType)targetMethodPointer)(___index0, ___value1, targetMethod);
-				}
-				else
-				{
-					// closed
-					typedef void (*FunctionPointerType) (void*, int32_t, float, const RuntimeMethod*);
-					((FunctionPointerType)targetMethodPointer)(targetThis, ___index0, ___value1, targetMethod);
-				}
-			}
-			else
-			{
-				// closed
-				if (il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
-				{
-					if (il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
-					{
-						if (targetThis == NULL)
-						{
-							typedef void (*FunctionPointerType) (int32_t, float, const RuntimeMethod*);
-							((FunctionPointerType)targetMethodPointer)(___index0, ___value1, targetMethod);
-						}
-						else if (il2cpp_codegen_method_is_generic_instance(targetMethod))
-						{
-							if (il2cpp_codegen_method_is_interface_method(targetMethod))
-								GenericInterfaceActionInvoker2< int32_t, float >::Invoke(targetMethod, targetThis, ___index0, ___value1);
-							else
-								GenericVirtActionInvoker2< int32_t, float >::Invoke(targetMethod, targetThis, ___index0, ___value1);
-						}
-						else
-						{
-							if (il2cpp_codegen_method_is_interface_method(targetMethod))
-								InterfaceActionInvoker2< int32_t, float >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___index0, ___value1);
-							else
-								VirtActionInvoker2< int32_t, float >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___index0, ___value1);
-						}
-					}
-				}
-				else
-				{
-					typedef void (*FunctionPointerType) (void*, int32_t, float, const RuntimeMethod*);
-					((FunctionPointerType)targetMethodPointer)(targetThis, ___index0, ___value1, targetMethod);
-				}
-			}
-		}
-	}
-	else
-	{
-		Il2CppMethodPointer targetMethodPointer = __this->get_method_ptr_0();
-		RuntimeMethod* targetMethod = (RuntimeMethod*)(__this->get_method_3());
-		RuntimeObject* targetThis = __this->get_m_target_2();
-		if (!il2cpp_codegen_method_is_virtual(targetMethod))
-		{
-			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
-		}
-		bool ___methodIsStatic = MethodIsStatic(targetMethod);
-		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
-		if (___methodIsStatic)
-		{
-			if (___parameterCount == 2)
-			{
-				// open
-				typedef void (*FunctionPointerType) (int32_t, float, const RuntimeMethod*);
-				((FunctionPointerType)targetMethodPointer)(___index0, ___value1, targetMethod);
-			}
-			else
-			{
-				// closed
-				typedef void (*FunctionPointerType) (void*, int32_t, float, const RuntimeMethod*);
-				((FunctionPointerType)targetMethodPointer)(targetThis, ___index0, ___value1, targetMethod);
-			}
-		}
-		else
-		{
-			// closed
-			if (il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
-			{
-				if (il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
-				{
-					if (targetThis == NULL)
-					{
-						typedef void (*FunctionPointerType) (int32_t, float, const RuntimeMethod*);
-						((FunctionPointerType)targetMethodPointer)(___index0, ___value1, targetMethod);
-					}
-					else if (il2cpp_codegen_method_is_generic_instance(targetMethod))
-					{
-						if (il2cpp_codegen_method_is_interface_method(targetMethod))
-							GenericInterfaceActionInvoker2< int32_t, float >::Invoke(targetMethod, targetThis, ___index0, ___value1);
-						else
-							GenericVirtActionInvoker2< int32_t, float >::Invoke(targetMethod, targetThis, ___index0, ___value1);
-					}
-					else
-					{
-						if (il2cpp_codegen_method_is_interface_method(targetMethod))
-							InterfaceActionInvoker2< int32_t, float >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___index0, ___value1);
-						else
-							VirtActionInvoker2< int32_t, float >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___index0, ___value1);
-					}
-				}
-			}
-			else
-			{
-				typedef void (*FunctionPointerType) (void*, int32_t, float, const RuntimeMethod*);
-				((FunctionPointerType)targetMethodPointer)(targetThis, ___index0, ___value1, targetMethod);
-			}
-		}
-	}
-}
-// System.IAsyncResult HoloToolkit.Sharing.FloatArrayListener_SwigDelegateFloatArrayListener_2::BeginInvoke(System.Int32,System.Single,System.AsyncCallback,System.Object)
-extern "C" IL2CPP_METHOD_ATTR RuntimeObject* SwigDelegateFloatArrayListener_2_BeginInvoke_m308E783BF9971B641D23DBBE87856250871B03AA (SwigDelegateFloatArrayListener_2_t3ECAF7DB385704AB1054931F6DE29F5670C0CBE3 * __this, int32_t ___index0, float ___value1, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback2, RuntimeObject * ___object3, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (SwigDelegateFloatArrayListener_2_BeginInvoke_m308E783BF9971B641D23DBBE87856250871B03AA_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	void *__d_args[3] = {0};
-	__d_args[0] = Box(Int32_t585191389E07734F19F3156FF88FB3EF4800D102_il2cpp_TypeInfo_var, &___index0);
-	__d_args[1] = Box(Single_tDDDA9169C4E4E308AC6D7A824F9B28DC82204AE1_il2cpp_TypeInfo_var, &___value1);
-	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback2, (RuntimeObject*)___object3);
-}
-// System.Void HoloToolkit.Sharing.FloatArrayListener_SwigDelegateFloatArrayListener_2::EndInvoke(System.IAsyncResult)
-extern "C" IL2CPP_METHOD_ATTR void SwigDelegateFloatArrayListener_2_EndInvoke_m770C512ACFE62F53F750FEF3CBB57D087C2A7074 (SwigDelegateFloatArrayListener_2_t3ECAF7DB385704AB1054931F6DE29F5670C0CBE3 * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
-{
-	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -28048,6 +26301,1229 @@ extern "C" IL2CPP_METHOD_ATTR void RoomManagerListener__cctor_mFCB388BF39AABCE8B
 		((RoomManagerListener_tA02B81A3B6F99188E4272485ADE69F007D89AB8D_StaticFields*)il2cpp_codegen_static_fields_for(RoomManagerListener_tA02B81A3B6F99188E4272485ADE69F007D89AB8D_il2cpp_TypeInfo_var))->set_swigMethodTypes6_16(L_40);
 		return;
 	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+extern "C"  void DelegatePInvokeWrapper_SwigDelegateRoomManagerListener_0_tD9464AF2626A50936E364AB7F60760858DB7DBE8 (SwigDelegateRoomManagerListener_0_tD9464AF2626A50936E364AB7F60760858DB7DBE8 * __this, intptr_t ___newRoom0, const RuntimeMethod* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc)(intptr_t);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
+
+	// Native function invocation
+	il2cppPInvokeFunc(___newRoom0);
+
+}
+// System.Void HoloToolkit.Sharing.RoomManagerListener_SwigDelegateRoomManagerListener_0::.ctor(System.Object,System.IntPtr)
+extern "C" IL2CPP_METHOD_ATTR void SwigDelegateRoomManagerListener_0__ctor_m13AB9693FC6B279C77C4B06EC2FD299483AE99F4 (SwigDelegateRoomManagerListener_0_tD9464AF2626A50936E364AB7F60760858DB7DBE8 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Void HoloToolkit.Sharing.RoomManagerListener_SwigDelegateRoomManagerListener_0::Invoke(System.IntPtr)
+extern "C" IL2CPP_METHOD_ATTR void SwigDelegateRoomManagerListener_0_Invoke_m117F7AD36023321C7D1C451D3FF7D5306BAA6F92 (SwigDelegateRoomManagerListener_0_tD9464AF2626A50936E364AB7F60760858DB7DBE8 * __this, intptr_t ___newRoom0, const RuntimeMethod* method)
+{
+	DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* delegatesToInvoke = __this->get_delegates_11();
+	if (delegatesToInvoke != NULL)
+	{
+		il2cpp_array_size_t length = delegatesToInvoke->max_length;
+		for (il2cpp_array_size_t i = 0; i < length; i++)
+		{
+			Delegate_t* currentDelegate = (delegatesToInvoke)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i));
+			Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
+			RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
+			RuntimeObject* targetThis = currentDelegate->get_m_target_2();
+			if (!il2cpp_codegen_method_is_virtual(targetMethod))
+			{
+				il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
+			}
+			bool ___methodIsStatic = MethodIsStatic(targetMethod);
+			int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
+			if (___methodIsStatic)
+			{
+				if (___parameterCount == 1)
+				{
+					// open
+					typedef void (*FunctionPointerType) (intptr_t, const RuntimeMethod*);
+					((FunctionPointerType)targetMethodPointer)(___newRoom0, targetMethod);
+				}
+				else
+				{
+					// closed
+					typedef void (*FunctionPointerType) (void*, intptr_t, const RuntimeMethod*);
+					((FunctionPointerType)targetMethodPointer)(targetThis, ___newRoom0, targetMethod);
+				}
+			}
+			else
+			{
+				// closed
+				if (il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+				{
+					if (il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+					{
+						if (targetThis == NULL)
+						{
+							typedef void (*FunctionPointerType) (intptr_t, const RuntimeMethod*);
+							((FunctionPointerType)targetMethodPointer)(___newRoom0, targetMethod);
+						}
+						else if (il2cpp_codegen_method_is_generic_instance(targetMethod))
+						{
+							if (il2cpp_codegen_method_is_interface_method(targetMethod))
+								GenericInterfaceActionInvoker1< intptr_t >::Invoke(targetMethod, targetThis, ___newRoom0);
+							else
+								GenericVirtActionInvoker1< intptr_t >::Invoke(targetMethod, targetThis, ___newRoom0);
+						}
+						else
+						{
+							if (il2cpp_codegen_method_is_interface_method(targetMethod))
+								InterfaceActionInvoker1< intptr_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___newRoom0);
+							else
+								VirtActionInvoker1< intptr_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___newRoom0);
+						}
+					}
+				}
+				else
+				{
+					typedef void (*FunctionPointerType) (void*, intptr_t, const RuntimeMethod*);
+					((FunctionPointerType)targetMethodPointer)(targetThis, ___newRoom0, targetMethod);
+				}
+			}
+		}
+	}
+	else
+	{
+		Il2CppMethodPointer targetMethodPointer = __this->get_method_ptr_0();
+		RuntimeMethod* targetMethod = (RuntimeMethod*)(__this->get_method_3());
+		RuntimeObject* targetThis = __this->get_m_target_2();
+		if (!il2cpp_codegen_method_is_virtual(targetMethod))
+		{
+			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
+		}
+		bool ___methodIsStatic = MethodIsStatic(targetMethod);
+		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
+		if (___methodIsStatic)
+		{
+			if (___parameterCount == 1)
+			{
+				// open
+				typedef void (*FunctionPointerType) (intptr_t, const RuntimeMethod*);
+				((FunctionPointerType)targetMethodPointer)(___newRoom0, targetMethod);
+			}
+			else
+			{
+				// closed
+				typedef void (*FunctionPointerType) (void*, intptr_t, const RuntimeMethod*);
+				((FunctionPointerType)targetMethodPointer)(targetThis, ___newRoom0, targetMethod);
+			}
+		}
+		else
+		{
+			// closed
+			if (il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+			{
+				if (il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+				{
+					if (targetThis == NULL)
+					{
+						typedef void (*FunctionPointerType) (intptr_t, const RuntimeMethod*);
+						((FunctionPointerType)targetMethodPointer)(___newRoom0, targetMethod);
+					}
+					else if (il2cpp_codegen_method_is_generic_instance(targetMethod))
+					{
+						if (il2cpp_codegen_method_is_interface_method(targetMethod))
+							GenericInterfaceActionInvoker1< intptr_t >::Invoke(targetMethod, targetThis, ___newRoom0);
+						else
+							GenericVirtActionInvoker1< intptr_t >::Invoke(targetMethod, targetThis, ___newRoom0);
+					}
+					else
+					{
+						if (il2cpp_codegen_method_is_interface_method(targetMethod))
+							InterfaceActionInvoker1< intptr_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___newRoom0);
+						else
+							VirtActionInvoker1< intptr_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___newRoom0);
+					}
+				}
+			}
+			else
+			{
+				typedef void (*FunctionPointerType) (void*, intptr_t, const RuntimeMethod*);
+				((FunctionPointerType)targetMethodPointer)(targetThis, ___newRoom0, targetMethod);
+			}
+		}
+	}
+}
+// System.IAsyncResult HoloToolkit.Sharing.RoomManagerListener_SwigDelegateRoomManagerListener_0::BeginInvoke(System.IntPtr,System.AsyncCallback,System.Object)
+extern "C" IL2CPP_METHOD_ATTR RuntimeObject* SwigDelegateRoomManagerListener_0_BeginInvoke_m2AA6B8C8837BD2CC229D1DE79A7DB01145B5BE04 (SwigDelegateRoomManagerListener_0_tD9464AF2626A50936E364AB7F60760858DB7DBE8 * __this, intptr_t ___newRoom0, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback1, RuntimeObject * ___object2, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SwigDelegateRoomManagerListener_0_BeginInvoke_m2AA6B8C8837BD2CC229D1DE79A7DB01145B5BE04_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[2] = {0};
+	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___newRoom0);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback1, (RuntimeObject*)___object2);
+}
+// System.Void HoloToolkit.Sharing.RoomManagerListener_SwigDelegateRoomManagerListener_0::EndInvoke(System.IAsyncResult)
+extern "C" IL2CPP_METHOD_ATTR void SwigDelegateRoomManagerListener_0_EndInvoke_mA493AAEDDAC160DA934CCB9833491B001FFE004B (SwigDelegateRoomManagerListener_0_tD9464AF2626A50936E364AB7F60760858DB7DBE8 * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+extern "C"  void DelegatePInvokeWrapper_SwigDelegateRoomManagerListener_1_tEF5AA0ACCAD5D7AD7E11041DEC11BBF64F6A6893 (SwigDelegateRoomManagerListener_1_tEF5AA0ACCAD5D7AD7E11041DEC11BBF64F6A6893 * __this, intptr_t ___room0, const RuntimeMethod* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc)(intptr_t);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
+
+	// Native function invocation
+	il2cppPInvokeFunc(___room0);
+
+}
+// System.Void HoloToolkit.Sharing.RoomManagerListener_SwigDelegateRoomManagerListener_1::.ctor(System.Object,System.IntPtr)
+extern "C" IL2CPP_METHOD_ATTR void SwigDelegateRoomManagerListener_1__ctor_m979325CB55116B4B01E8C5FBD73C670B49FBDD40 (SwigDelegateRoomManagerListener_1_tEF5AA0ACCAD5D7AD7E11041DEC11BBF64F6A6893 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Void HoloToolkit.Sharing.RoomManagerListener_SwigDelegateRoomManagerListener_1::Invoke(System.IntPtr)
+extern "C" IL2CPP_METHOD_ATTR void SwigDelegateRoomManagerListener_1_Invoke_mA3B72B96FB550E4FCD7263A62E8FF8E375DEA4A3 (SwigDelegateRoomManagerListener_1_tEF5AA0ACCAD5D7AD7E11041DEC11BBF64F6A6893 * __this, intptr_t ___room0, const RuntimeMethod* method)
+{
+	DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* delegatesToInvoke = __this->get_delegates_11();
+	if (delegatesToInvoke != NULL)
+	{
+		il2cpp_array_size_t length = delegatesToInvoke->max_length;
+		for (il2cpp_array_size_t i = 0; i < length; i++)
+		{
+			Delegate_t* currentDelegate = (delegatesToInvoke)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i));
+			Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
+			RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
+			RuntimeObject* targetThis = currentDelegate->get_m_target_2();
+			if (!il2cpp_codegen_method_is_virtual(targetMethod))
+			{
+				il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
+			}
+			bool ___methodIsStatic = MethodIsStatic(targetMethod);
+			int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
+			if (___methodIsStatic)
+			{
+				if (___parameterCount == 1)
+				{
+					// open
+					typedef void (*FunctionPointerType) (intptr_t, const RuntimeMethod*);
+					((FunctionPointerType)targetMethodPointer)(___room0, targetMethod);
+				}
+				else
+				{
+					// closed
+					typedef void (*FunctionPointerType) (void*, intptr_t, const RuntimeMethod*);
+					((FunctionPointerType)targetMethodPointer)(targetThis, ___room0, targetMethod);
+				}
+			}
+			else
+			{
+				// closed
+				if (il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+				{
+					if (il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+					{
+						if (targetThis == NULL)
+						{
+							typedef void (*FunctionPointerType) (intptr_t, const RuntimeMethod*);
+							((FunctionPointerType)targetMethodPointer)(___room0, targetMethod);
+						}
+						else if (il2cpp_codegen_method_is_generic_instance(targetMethod))
+						{
+							if (il2cpp_codegen_method_is_interface_method(targetMethod))
+								GenericInterfaceActionInvoker1< intptr_t >::Invoke(targetMethod, targetThis, ___room0);
+							else
+								GenericVirtActionInvoker1< intptr_t >::Invoke(targetMethod, targetThis, ___room0);
+						}
+						else
+						{
+							if (il2cpp_codegen_method_is_interface_method(targetMethod))
+								InterfaceActionInvoker1< intptr_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___room0);
+							else
+								VirtActionInvoker1< intptr_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___room0);
+						}
+					}
+				}
+				else
+				{
+					typedef void (*FunctionPointerType) (void*, intptr_t, const RuntimeMethod*);
+					((FunctionPointerType)targetMethodPointer)(targetThis, ___room0, targetMethod);
+				}
+			}
+		}
+	}
+	else
+	{
+		Il2CppMethodPointer targetMethodPointer = __this->get_method_ptr_0();
+		RuntimeMethod* targetMethod = (RuntimeMethod*)(__this->get_method_3());
+		RuntimeObject* targetThis = __this->get_m_target_2();
+		if (!il2cpp_codegen_method_is_virtual(targetMethod))
+		{
+			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
+		}
+		bool ___methodIsStatic = MethodIsStatic(targetMethod);
+		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
+		if (___methodIsStatic)
+		{
+			if (___parameterCount == 1)
+			{
+				// open
+				typedef void (*FunctionPointerType) (intptr_t, const RuntimeMethod*);
+				((FunctionPointerType)targetMethodPointer)(___room0, targetMethod);
+			}
+			else
+			{
+				// closed
+				typedef void (*FunctionPointerType) (void*, intptr_t, const RuntimeMethod*);
+				((FunctionPointerType)targetMethodPointer)(targetThis, ___room0, targetMethod);
+			}
+		}
+		else
+		{
+			// closed
+			if (il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+			{
+				if (il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+				{
+					if (targetThis == NULL)
+					{
+						typedef void (*FunctionPointerType) (intptr_t, const RuntimeMethod*);
+						((FunctionPointerType)targetMethodPointer)(___room0, targetMethod);
+					}
+					else if (il2cpp_codegen_method_is_generic_instance(targetMethod))
+					{
+						if (il2cpp_codegen_method_is_interface_method(targetMethod))
+							GenericInterfaceActionInvoker1< intptr_t >::Invoke(targetMethod, targetThis, ___room0);
+						else
+							GenericVirtActionInvoker1< intptr_t >::Invoke(targetMethod, targetThis, ___room0);
+					}
+					else
+					{
+						if (il2cpp_codegen_method_is_interface_method(targetMethod))
+							InterfaceActionInvoker1< intptr_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___room0);
+						else
+							VirtActionInvoker1< intptr_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___room0);
+					}
+				}
+			}
+			else
+			{
+				typedef void (*FunctionPointerType) (void*, intptr_t, const RuntimeMethod*);
+				((FunctionPointerType)targetMethodPointer)(targetThis, ___room0, targetMethod);
+			}
+		}
+	}
+}
+// System.IAsyncResult HoloToolkit.Sharing.RoomManagerListener_SwigDelegateRoomManagerListener_1::BeginInvoke(System.IntPtr,System.AsyncCallback,System.Object)
+extern "C" IL2CPP_METHOD_ATTR RuntimeObject* SwigDelegateRoomManagerListener_1_BeginInvoke_mB446576B45AF1A2EFF51FEBA458CF545AD439BC3 (SwigDelegateRoomManagerListener_1_tEF5AA0ACCAD5D7AD7E11041DEC11BBF64F6A6893 * __this, intptr_t ___room0, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback1, RuntimeObject * ___object2, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SwigDelegateRoomManagerListener_1_BeginInvoke_mB446576B45AF1A2EFF51FEBA458CF545AD439BC3_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[2] = {0};
+	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___room0);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback1, (RuntimeObject*)___object2);
+}
+// System.Void HoloToolkit.Sharing.RoomManagerListener_SwigDelegateRoomManagerListener_1::EndInvoke(System.IAsyncResult)
+extern "C" IL2CPP_METHOD_ATTR void SwigDelegateRoomManagerListener_1_EndInvoke_m675B5E9B58BC29A3D53777E44D476F61A1FF18EC (SwigDelegateRoomManagerListener_1_tEF5AA0ACCAD5D7AD7E11041DEC11BBF64F6A6893 * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+extern "C"  void DelegatePInvokeWrapper_SwigDelegateRoomManagerListener_2_t77250B5B362E7346942FDA3931CC823661BFB8A6 (SwigDelegateRoomManagerListener_2_t77250B5B362E7346942FDA3931CC823661BFB8A6 * __this, intptr_t ___room0, int32_t ___user1, const RuntimeMethod* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc)(intptr_t, int32_t);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
+
+	// Native function invocation
+	il2cppPInvokeFunc(___room0, ___user1);
+
+}
+// System.Void HoloToolkit.Sharing.RoomManagerListener_SwigDelegateRoomManagerListener_2::.ctor(System.Object,System.IntPtr)
+extern "C" IL2CPP_METHOD_ATTR void SwigDelegateRoomManagerListener_2__ctor_m0A989120B261151A530640A9A237327C3336D2EF (SwigDelegateRoomManagerListener_2_t77250B5B362E7346942FDA3931CC823661BFB8A6 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Void HoloToolkit.Sharing.RoomManagerListener_SwigDelegateRoomManagerListener_2::Invoke(System.IntPtr,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void SwigDelegateRoomManagerListener_2_Invoke_m623AADE9601C4CFD48FDF1A137A418CE89D63939 (SwigDelegateRoomManagerListener_2_t77250B5B362E7346942FDA3931CC823661BFB8A6 * __this, intptr_t ___room0, int32_t ___user1, const RuntimeMethod* method)
+{
+	DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* delegatesToInvoke = __this->get_delegates_11();
+	if (delegatesToInvoke != NULL)
+	{
+		il2cpp_array_size_t length = delegatesToInvoke->max_length;
+		for (il2cpp_array_size_t i = 0; i < length; i++)
+		{
+			Delegate_t* currentDelegate = (delegatesToInvoke)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i));
+			Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
+			RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
+			RuntimeObject* targetThis = currentDelegate->get_m_target_2();
+			if (!il2cpp_codegen_method_is_virtual(targetMethod))
+			{
+				il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
+			}
+			bool ___methodIsStatic = MethodIsStatic(targetMethod);
+			int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
+			if (___methodIsStatic)
+			{
+				if (___parameterCount == 2)
+				{
+					// open
+					typedef void (*FunctionPointerType) (intptr_t, int32_t, const RuntimeMethod*);
+					((FunctionPointerType)targetMethodPointer)(___room0, ___user1, targetMethod);
+				}
+				else
+				{
+					// closed
+					typedef void (*FunctionPointerType) (void*, intptr_t, int32_t, const RuntimeMethod*);
+					((FunctionPointerType)targetMethodPointer)(targetThis, ___room0, ___user1, targetMethod);
+				}
+			}
+			else
+			{
+				// closed
+				if (il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+				{
+					if (il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+					{
+						if (targetThis == NULL)
+						{
+							typedef void (*FunctionPointerType) (intptr_t, int32_t, const RuntimeMethod*);
+							((FunctionPointerType)targetMethodPointer)(___room0, ___user1, targetMethod);
+						}
+						else if (il2cpp_codegen_method_is_generic_instance(targetMethod))
+						{
+							if (il2cpp_codegen_method_is_interface_method(targetMethod))
+								GenericInterfaceActionInvoker2< intptr_t, int32_t >::Invoke(targetMethod, targetThis, ___room0, ___user1);
+							else
+								GenericVirtActionInvoker2< intptr_t, int32_t >::Invoke(targetMethod, targetThis, ___room0, ___user1);
+						}
+						else
+						{
+							if (il2cpp_codegen_method_is_interface_method(targetMethod))
+								InterfaceActionInvoker2< intptr_t, int32_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___room0, ___user1);
+							else
+								VirtActionInvoker2< intptr_t, int32_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___room0, ___user1);
+						}
+					}
+				}
+				else
+				{
+					typedef void (*FunctionPointerType) (void*, intptr_t, int32_t, const RuntimeMethod*);
+					((FunctionPointerType)targetMethodPointer)(targetThis, ___room0, ___user1, targetMethod);
+				}
+			}
+		}
+	}
+	else
+	{
+		Il2CppMethodPointer targetMethodPointer = __this->get_method_ptr_0();
+		RuntimeMethod* targetMethod = (RuntimeMethod*)(__this->get_method_3());
+		RuntimeObject* targetThis = __this->get_m_target_2();
+		if (!il2cpp_codegen_method_is_virtual(targetMethod))
+		{
+			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
+		}
+		bool ___methodIsStatic = MethodIsStatic(targetMethod);
+		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
+		if (___methodIsStatic)
+		{
+			if (___parameterCount == 2)
+			{
+				// open
+				typedef void (*FunctionPointerType) (intptr_t, int32_t, const RuntimeMethod*);
+				((FunctionPointerType)targetMethodPointer)(___room0, ___user1, targetMethod);
+			}
+			else
+			{
+				// closed
+				typedef void (*FunctionPointerType) (void*, intptr_t, int32_t, const RuntimeMethod*);
+				((FunctionPointerType)targetMethodPointer)(targetThis, ___room0, ___user1, targetMethod);
+			}
+		}
+		else
+		{
+			// closed
+			if (il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+			{
+				if (il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+				{
+					if (targetThis == NULL)
+					{
+						typedef void (*FunctionPointerType) (intptr_t, int32_t, const RuntimeMethod*);
+						((FunctionPointerType)targetMethodPointer)(___room0, ___user1, targetMethod);
+					}
+					else if (il2cpp_codegen_method_is_generic_instance(targetMethod))
+					{
+						if (il2cpp_codegen_method_is_interface_method(targetMethod))
+							GenericInterfaceActionInvoker2< intptr_t, int32_t >::Invoke(targetMethod, targetThis, ___room0, ___user1);
+						else
+							GenericVirtActionInvoker2< intptr_t, int32_t >::Invoke(targetMethod, targetThis, ___room0, ___user1);
+					}
+					else
+					{
+						if (il2cpp_codegen_method_is_interface_method(targetMethod))
+							InterfaceActionInvoker2< intptr_t, int32_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___room0, ___user1);
+						else
+							VirtActionInvoker2< intptr_t, int32_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___room0, ___user1);
+					}
+				}
+			}
+			else
+			{
+				typedef void (*FunctionPointerType) (void*, intptr_t, int32_t, const RuntimeMethod*);
+				((FunctionPointerType)targetMethodPointer)(targetThis, ___room0, ___user1, targetMethod);
+			}
+		}
+	}
+}
+// System.IAsyncResult HoloToolkit.Sharing.RoomManagerListener_SwigDelegateRoomManagerListener_2::BeginInvoke(System.IntPtr,System.Int32,System.AsyncCallback,System.Object)
+extern "C" IL2CPP_METHOD_ATTR RuntimeObject* SwigDelegateRoomManagerListener_2_BeginInvoke_mEE9FC9CDE58036107B074839EDCCCF6C4128E91D (SwigDelegateRoomManagerListener_2_t77250B5B362E7346942FDA3931CC823661BFB8A6 * __this, intptr_t ___room0, int32_t ___user1, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback2, RuntimeObject * ___object3, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SwigDelegateRoomManagerListener_2_BeginInvoke_mEE9FC9CDE58036107B074839EDCCCF6C4128E91D_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[3] = {0};
+	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___room0);
+	__d_args[1] = Box(Int32_t585191389E07734F19F3156FF88FB3EF4800D102_il2cpp_TypeInfo_var, &___user1);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback2, (RuntimeObject*)___object3);
+}
+// System.Void HoloToolkit.Sharing.RoomManagerListener_SwigDelegateRoomManagerListener_2::EndInvoke(System.IAsyncResult)
+extern "C" IL2CPP_METHOD_ATTR void SwigDelegateRoomManagerListener_2_EndInvoke_mA23C2AA36613D08B3F22C236AA2141D264FBB927 (SwigDelegateRoomManagerListener_2_t77250B5B362E7346942FDA3931CC823661BFB8A6 * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+extern "C"  void DelegatePInvokeWrapper_SwigDelegateRoomManagerListener_3_t21828182B06A336E610CEF968ED0366427611263 (SwigDelegateRoomManagerListener_3_t21828182B06A336E610CEF968ED0366427611263 * __this, intptr_t ___room0, int32_t ___user1, const RuntimeMethod* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc)(intptr_t, int32_t);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
+
+	// Native function invocation
+	il2cppPInvokeFunc(___room0, ___user1);
+
+}
+// System.Void HoloToolkit.Sharing.RoomManagerListener_SwigDelegateRoomManagerListener_3::.ctor(System.Object,System.IntPtr)
+extern "C" IL2CPP_METHOD_ATTR void SwigDelegateRoomManagerListener_3__ctor_m62C5387160B7055E1A383B27557B4DC64108B396 (SwigDelegateRoomManagerListener_3_t21828182B06A336E610CEF968ED0366427611263 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Void HoloToolkit.Sharing.RoomManagerListener_SwigDelegateRoomManagerListener_3::Invoke(System.IntPtr,System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void SwigDelegateRoomManagerListener_3_Invoke_mE9B85125721690F01C57FE019EDFEF579C5FB592 (SwigDelegateRoomManagerListener_3_t21828182B06A336E610CEF968ED0366427611263 * __this, intptr_t ___room0, int32_t ___user1, const RuntimeMethod* method)
+{
+	DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* delegatesToInvoke = __this->get_delegates_11();
+	if (delegatesToInvoke != NULL)
+	{
+		il2cpp_array_size_t length = delegatesToInvoke->max_length;
+		for (il2cpp_array_size_t i = 0; i < length; i++)
+		{
+			Delegate_t* currentDelegate = (delegatesToInvoke)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i));
+			Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
+			RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
+			RuntimeObject* targetThis = currentDelegate->get_m_target_2();
+			if (!il2cpp_codegen_method_is_virtual(targetMethod))
+			{
+				il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
+			}
+			bool ___methodIsStatic = MethodIsStatic(targetMethod);
+			int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
+			if (___methodIsStatic)
+			{
+				if (___parameterCount == 2)
+				{
+					// open
+					typedef void (*FunctionPointerType) (intptr_t, int32_t, const RuntimeMethod*);
+					((FunctionPointerType)targetMethodPointer)(___room0, ___user1, targetMethod);
+				}
+				else
+				{
+					// closed
+					typedef void (*FunctionPointerType) (void*, intptr_t, int32_t, const RuntimeMethod*);
+					((FunctionPointerType)targetMethodPointer)(targetThis, ___room0, ___user1, targetMethod);
+				}
+			}
+			else
+			{
+				// closed
+				if (il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+				{
+					if (il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+					{
+						if (targetThis == NULL)
+						{
+							typedef void (*FunctionPointerType) (intptr_t, int32_t, const RuntimeMethod*);
+							((FunctionPointerType)targetMethodPointer)(___room0, ___user1, targetMethod);
+						}
+						else if (il2cpp_codegen_method_is_generic_instance(targetMethod))
+						{
+							if (il2cpp_codegen_method_is_interface_method(targetMethod))
+								GenericInterfaceActionInvoker2< intptr_t, int32_t >::Invoke(targetMethod, targetThis, ___room0, ___user1);
+							else
+								GenericVirtActionInvoker2< intptr_t, int32_t >::Invoke(targetMethod, targetThis, ___room0, ___user1);
+						}
+						else
+						{
+							if (il2cpp_codegen_method_is_interface_method(targetMethod))
+								InterfaceActionInvoker2< intptr_t, int32_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___room0, ___user1);
+							else
+								VirtActionInvoker2< intptr_t, int32_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___room0, ___user1);
+						}
+					}
+				}
+				else
+				{
+					typedef void (*FunctionPointerType) (void*, intptr_t, int32_t, const RuntimeMethod*);
+					((FunctionPointerType)targetMethodPointer)(targetThis, ___room0, ___user1, targetMethod);
+				}
+			}
+		}
+	}
+	else
+	{
+		Il2CppMethodPointer targetMethodPointer = __this->get_method_ptr_0();
+		RuntimeMethod* targetMethod = (RuntimeMethod*)(__this->get_method_3());
+		RuntimeObject* targetThis = __this->get_m_target_2();
+		if (!il2cpp_codegen_method_is_virtual(targetMethod))
+		{
+			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
+		}
+		bool ___methodIsStatic = MethodIsStatic(targetMethod);
+		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
+		if (___methodIsStatic)
+		{
+			if (___parameterCount == 2)
+			{
+				// open
+				typedef void (*FunctionPointerType) (intptr_t, int32_t, const RuntimeMethod*);
+				((FunctionPointerType)targetMethodPointer)(___room0, ___user1, targetMethod);
+			}
+			else
+			{
+				// closed
+				typedef void (*FunctionPointerType) (void*, intptr_t, int32_t, const RuntimeMethod*);
+				((FunctionPointerType)targetMethodPointer)(targetThis, ___room0, ___user1, targetMethod);
+			}
+		}
+		else
+		{
+			// closed
+			if (il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+			{
+				if (il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+				{
+					if (targetThis == NULL)
+					{
+						typedef void (*FunctionPointerType) (intptr_t, int32_t, const RuntimeMethod*);
+						((FunctionPointerType)targetMethodPointer)(___room0, ___user1, targetMethod);
+					}
+					else if (il2cpp_codegen_method_is_generic_instance(targetMethod))
+					{
+						if (il2cpp_codegen_method_is_interface_method(targetMethod))
+							GenericInterfaceActionInvoker2< intptr_t, int32_t >::Invoke(targetMethod, targetThis, ___room0, ___user1);
+						else
+							GenericVirtActionInvoker2< intptr_t, int32_t >::Invoke(targetMethod, targetThis, ___room0, ___user1);
+					}
+					else
+					{
+						if (il2cpp_codegen_method_is_interface_method(targetMethod))
+							InterfaceActionInvoker2< intptr_t, int32_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___room0, ___user1);
+						else
+							VirtActionInvoker2< intptr_t, int32_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___room0, ___user1);
+					}
+				}
+			}
+			else
+			{
+				typedef void (*FunctionPointerType) (void*, intptr_t, int32_t, const RuntimeMethod*);
+				((FunctionPointerType)targetMethodPointer)(targetThis, ___room0, ___user1, targetMethod);
+			}
+		}
+	}
+}
+// System.IAsyncResult HoloToolkit.Sharing.RoomManagerListener_SwigDelegateRoomManagerListener_3::BeginInvoke(System.IntPtr,System.Int32,System.AsyncCallback,System.Object)
+extern "C" IL2CPP_METHOD_ATTR RuntimeObject* SwigDelegateRoomManagerListener_3_BeginInvoke_m6736F943B957411622D2AC34A04FE5A3C8520CDC (SwigDelegateRoomManagerListener_3_t21828182B06A336E610CEF968ED0366427611263 * __this, intptr_t ___room0, int32_t ___user1, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback2, RuntimeObject * ___object3, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SwigDelegateRoomManagerListener_3_BeginInvoke_m6736F943B957411622D2AC34A04FE5A3C8520CDC_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[3] = {0};
+	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___room0);
+	__d_args[1] = Box(Int32_t585191389E07734F19F3156FF88FB3EF4800D102_il2cpp_TypeInfo_var, &___user1);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback2, (RuntimeObject*)___object3);
+}
+// System.Void HoloToolkit.Sharing.RoomManagerListener_SwigDelegateRoomManagerListener_3::EndInvoke(System.IAsyncResult)
+extern "C" IL2CPP_METHOD_ATTR void SwigDelegateRoomManagerListener_3_EndInvoke_m11BA9815704F6C4EC182A15A7C4EB01421401AF4 (SwigDelegateRoomManagerListener_3_t21828182B06A336E610CEF968ED0366427611263 * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+extern "C"  void DelegatePInvokeWrapper_SwigDelegateRoomManagerListener_4_t17F73B1BCAF0DDFE074C7D173786695726BEDFFD (SwigDelegateRoomManagerListener_4_t17F73B1BCAF0DDFE074C7D173786695726BEDFFD * __this, intptr_t ___room0, const RuntimeMethod* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc)(intptr_t);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
+
+	// Native function invocation
+	il2cppPInvokeFunc(___room0);
+
+}
+// System.Void HoloToolkit.Sharing.RoomManagerListener_SwigDelegateRoomManagerListener_4::.ctor(System.Object,System.IntPtr)
+extern "C" IL2CPP_METHOD_ATTR void SwigDelegateRoomManagerListener_4__ctor_mEC9BE798989F9C7220C6AE70DD9D75B58A684397 (SwigDelegateRoomManagerListener_4_t17F73B1BCAF0DDFE074C7D173786695726BEDFFD * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Void HoloToolkit.Sharing.RoomManagerListener_SwigDelegateRoomManagerListener_4::Invoke(System.IntPtr)
+extern "C" IL2CPP_METHOD_ATTR void SwigDelegateRoomManagerListener_4_Invoke_mB10C3C68C83BE7B5AF5FF93DA30DE35E83EEADBF (SwigDelegateRoomManagerListener_4_t17F73B1BCAF0DDFE074C7D173786695726BEDFFD * __this, intptr_t ___room0, const RuntimeMethod* method)
+{
+	DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* delegatesToInvoke = __this->get_delegates_11();
+	if (delegatesToInvoke != NULL)
+	{
+		il2cpp_array_size_t length = delegatesToInvoke->max_length;
+		for (il2cpp_array_size_t i = 0; i < length; i++)
+		{
+			Delegate_t* currentDelegate = (delegatesToInvoke)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i));
+			Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
+			RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
+			RuntimeObject* targetThis = currentDelegate->get_m_target_2();
+			if (!il2cpp_codegen_method_is_virtual(targetMethod))
+			{
+				il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
+			}
+			bool ___methodIsStatic = MethodIsStatic(targetMethod);
+			int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
+			if (___methodIsStatic)
+			{
+				if (___parameterCount == 1)
+				{
+					// open
+					typedef void (*FunctionPointerType) (intptr_t, const RuntimeMethod*);
+					((FunctionPointerType)targetMethodPointer)(___room0, targetMethod);
+				}
+				else
+				{
+					// closed
+					typedef void (*FunctionPointerType) (void*, intptr_t, const RuntimeMethod*);
+					((FunctionPointerType)targetMethodPointer)(targetThis, ___room0, targetMethod);
+				}
+			}
+			else
+			{
+				// closed
+				if (il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+				{
+					if (il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+					{
+						if (targetThis == NULL)
+						{
+							typedef void (*FunctionPointerType) (intptr_t, const RuntimeMethod*);
+							((FunctionPointerType)targetMethodPointer)(___room0, targetMethod);
+						}
+						else if (il2cpp_codegen_method_is_generic_instance(targetMethod))
+						{
+							if (il2cpp_codegen_method_is_interface_method(targetMethod))
+								GenericInterfaceActionInvoker1< intptr_t >::Invoke(targetMethod, targetThis, ___room0);
+							else
+								GenericVirtActionInvoker1< intptr_t >::Invoke(targetMethod, targetThis, ___room0);
+						}
+						else
+						{
+							if (il2cpp_codegen_method_is_interface_method(targetMethod))
+								InterfaceActionInvoker1< intptr_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___room0);
+							else
+								VirtActionInvoker1< intptr_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___room0);
+						}
+					}
+				}
+				else
+				{
+					typedef void (*FunctionPointerType) (void*, intptr_t, const RuntimeMethod*);
+					((FunctionPointerType)targetMethodPointer)(targetThis, ___room0, targetMethod);
+				}
+			}
+		}
+	}
+	else
+	{
+		Il2CppMethodPointer targetMethodPointer = __this->get_method_ptr_0();
+		RuntimeMethod* targetMethod = (RuntimeMethod*)(__this->get_method_3());
+		RuntimeObject* targetThis = __this->get_m_target_2();
+		if (!il2cpp_codegen_method_is_virtual(targetMethod))
+		{
+			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
+		}
+		bool ___methodIsStatic = MethodIsStatic(targetMethod);
+		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
+		if (___methodIsStatic)
+		{
+			if (___parameterCount == 1)
+			{
+				// open
+				typedef void (*FunctionPointerType) (intptr_t, const RuntimeMethod*);
+				((FunctionPointerType)targetMethodPointer)(___room0, targetMethod);
+			}
+			else
+			{
+				// closed
+				typedef void (*FunctionPointerType) (void*, intptr_t, const RuntimeMethod*);
+				((FunctionPointerType)targetMethodPointer)(targetThis, ___room0, targetMethod);
+			}
+		}
+		else
+		{
+			// closed
+			if (il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+			{
+				if (il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+				{
+					if (targetThis == NULL)
+					{
+						typedef void (*FunctionPointerType) (intptr_t, const RuntimeMethod*);
+						((FunctionPointerType)targetMethodPointer)(___room0, targetMethod);
+					}
+					else if (il2cpp_codegen_method_is_generic_instance(targetMethod))
+					{
+						if (il2cpp_codegen_method_is_interface_method(targetMethod))
+							GenericInterfaceActionInvoker1< intptr_t >::Invoke(targetMethod, targetThis, ___room0);
+						else
+							GenericVirtActionInvoker1< intptr_t >::Invoke(targetMethod, targetThis, ___room0);
+					}
+					else
+					{
+						if (il2cpp_codegen_method_is_interface_method(targetMethod))
+							InterfaceActionInvoker1< intptr_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___room0);
+						else
+							VirtActionInvoker1< intptr_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___room0);
+					}
+				}
+			}
+			else
+			{
+				typedef void (*FunctionPointerType) (void*, intptr_t, const RuntimeMethod*);
+				((FunctionPointerType)targetMethodPointer)(targetThis, ___room0, targetMethod);
+			}
+		}
+	}
+}
+// System.IAsyncResult HoloToolkit.Sharing.RoomManagerListener_SwigDelegateRoomManagerListener_4::BeginInvoke(System.IntPtr,System.AsyncCallback,System.Object)
+extern "C" IL2CPP_METHOD_ATTR RuntimeObject* SwigDelegateRoomManagerListener_4_BeginInvoke_m7BA86F27F46A25AA82E52312B137C80E7FB75235 (SwigDelegateRoomManagerListener_4_t17F73B1BCAF0DDFE074C7D173786695726BEDFFD * __this, intptr_t ___room0, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback1, RuntimeObject * ___object2, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SwigDelegateRoomManagerListener_4_BeginInvoke_m7BA86F27F46A25AA82E52312B137C80E7FB75235_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[2] = {0};
+	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___room0);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback1, (RuntimeObject*)___object2);
+}
+// System.Void HoloToolkit.Sharing.RoomManagerListener_SwigDelegateRoomManagerListener_4::EndInvoke(System.IAsyncResult)
+extern "C" IL2CPP_METHOD_ATTR void SwigDelegateRoomManagerListener_4_EndInvoke_m1A0DFCD91EBD89655EAC825EA0D3E30477AB47A4 (SwigDelegateRoomManagerListener_4_t17F73B1BCAF0DDFE074C7D173786695726BEDFFD * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+extern "C"  void DelegatePInvokeWrapper_SwigDelegateRoomManagerListener_5_tB132549318E3DF8C5DD819B35529C0D024DC1710 (SwigDelegateRoomManagerListener_5_tB132549318E3DF8C5DD819B35529C0D024DC1710 * __this, bool ___successful0, intptr_t ___request1, intptr_t ___failureReason2, const RuntimeMethod* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc)(int32_t, intptr_t, intptr_t);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
+
+	// Native function invocation
+	il2cppPInvokeFunc(static_cast<int32_t>(___successful0), ___request1, ___failureReason2);
+
+}
+// System.Void HoloToolkit.Sharing.RoomManagerListener_SwigDelegateRoomManagerListener_5::.ctor(System.Object,System.IntPtr)
+extern "C" IL2CPP_METHOD_ATTR void SwigDelegateRoomManagerListener_5__ctor_m6C33F914FF7B187B876DA19A5D792660FD262086 (SwigDelegateRoomManagerListener_5_tB132549318E3DF8C5DD819B35529C0D024DC1710 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Void HoloToolkit.Sharing.RoomManagerListener_SwigDelegateRoomManagerListener_5::Invoke(System.Boolean,System.IntPtr,System.IntPtr)
+extern "C" IL2CPP_METHOD_ATTR void SwigDelegateRoomManagerListener_5_Invoke_m4C7E69A6C581061591F94F996C00F31E2AFA7137 (SwigDelegateRoomManagerListener_5_tB132549318E3DF8C5DD819B35529C0D024DC1710 * __this, bool ___successful0, intptr_t ___request1, intptr_t ___failureReason2, const RuntimeMethod* method)
+{
+	DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* delegatesToInvoke = __this->get_delegates_11();
+	if (delegatesToInvoke != NULL)
+	{
+		il2cpp_array_size_t length = delegatesToInvoke->max_length;
+		for (il2cpp_array_size_t i = 0; i < length; i++)
+		{
+			Delegate_t* currentDelegate = (delegatesToInvoke)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i));
+			Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
+			RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
+			RuntimeObject* targetThis = currentDelegate->get_m_target_2();
+			if (!il2cpp_codegen_method_is_virtual(targetMethod))
+			{
+				il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
+			}
+			bool ___methodIsStatic = MethodIsStatic(targetMethod);
+			int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
+			if (___methodIsStatic)
+			{
+				if (___parameterCount == 3)
+				{
+					// open
+					typedef void (*FunctionPointerType) (bool, intptr_t, intptr_t, const RuntimeMethod*);
+					((FunctionPointerType)targetMethodPointer)(___successful0, ___request1, ___failureReason2, targetMethod);
+				}
+				else
+				{
+					// closed
+					typedef void (*FunctionPointerType) (void*, bool, intptr_t, intptr_t, const RuntimeMethod*);
+					((FunctionPointerType)targetMethodPointer)(targetThis, ___successful0, ___request1, ___failureReason2, targetMethod);
+				}
+			}
+			else
+			{
+				// closed
+				if (il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+				{
+					if (il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+					{
+						if (targetThis == NULL)
+						{
+							typedef void (*FunctionPointerType) (bool, intptr_t, intptr_t, const RuntimeMethod*);
+							((FunctionPointerType)targetMethodPointer)(___successful0, ___request1, ___failureReason2, targetMethod);
+						}
+						else if (il2cpp_codegen_method_is_generic_instance(targetMethod))
+						{
+							if (il2cpp_codegen_method_is_interface_method(targetMethod))
+								GenericInterfaceActionInvoker3< bool, intptr_t, intptr_t >::Invoke(targetMethod, targetThis, ___successful0, ___request1, ___failureReason2);
+							else
+								GenericVirtActionInvoker3< bool, intptr_t, intptr_t >::Invoke(targetMethod, targetThis, ___successful0, ___request1, ___failureReason2);
+						}
+						else
+						{
+							if (il2cpp_codegen_method_is_interface_method(targetMethod))
+								InterfaceActionInvoker3< bool, intptr_t, intptr_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___successful0, ___request1, ___failureReason2);
+							else
+								VirtActionInvoker3< bool, intptr_t, intptr_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___successful0, ___request1, ___failureReason2);
+						}
+					}
+				}
+				else
+				{
+					typedef void (*FunctionPointerType) (void*, bool, intptr_t, intptr_t, const RuntimeMethod*);
+					((FunctionPointerType)targetMethodPointer)(targetThis, ___successful0, ___request1, ___failureReason2, targetMethod);
+				}
+			}
+		}
+	}
+	else
+	{
+		Il2CppMethodPointer targetMethodPointer = __this->get_method_ptr_0();
+		RuntimeMethod* targetMethod = (RuntimeMethod*)(__this->get_method_3());
+		RuntimeObject* targetThis = __this->get_m_target_2();
+		if (!il2cpp_codegen_method_is_virtual(targetMethod))
+		{
+			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
+		}
+		bool ___methodIsStatic = MethodIsStatic(targetMethod);
+		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
+		if (___methodIsStatic)
+		{
+			if (___parameterCount == 3)
+			{
+				// open
+				typedef void (*FunctionPointerType) (bool, intptr_t, intptr_t, const RuntimeMethod*);
+				((FunctionPointerType)targetMethodPointer)(___successful0, ___request1, ___failureReason2, targetMethod);
+			}
+			else
+			{
+				// closed
+				typedef void (*FunctionPointerType) (void*, bool, intptr_t, intptr_t, const RuntimeMethod*);
+				((FunctionPointerType)targetMethodPointer)(targetThis, ___successful0, ___request1, ___failureReason2, targetMethod);
+			}
+		}
+		else
+		{
+			// closed
+			if (il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+			{
+				if (il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+				{
+					if (targetThis == NULL)
+					{
+						typedef void (*FunctionPointerType) (bool, intptr_t, intptr_t, const RuntimeMethod*);
+						((FunctionPointerType)targetMethodPointer)(___successful0, ___request1, ___failureReason2, targetMethod);
+					}
+					else if (il2cpp_codegen_method_is_generic_instance(targetMethod))
+					{
+						if (il2cpp_codegen_method_is_interface_method(targetMethod))
+							GenericInterfaceActionInvoker3< bool, intptr_t, intptr_t >::Invoke(targetMethod, targetThis, ___successful0, ___request1, ___failureReason2);
+						else
+							GenericVirtActionInvoker3< bool, intptr_t, intptr_t >::Invoke(targetMethod, targetThis, ___successful0, ___request1, ___failureReason2);
+					}
+					else
+					{
+						if (il2cpp_codegen_method_is_interface_method(targetMethod))
+							InterfaceActionInvoker3< bool, intptr_t, intptr_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___successful0, ___request1, ___failureReason2);
+						else
+							VirtActionInvoker3< bool, intptr_t, intptr_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___successful0, ___request1, ___failureReason2);
+					}
+				}
+			}
+			else
+			{
+				typedef void (*FunctionPointerType) (void*, bool, intptr_t, intptr_t, const RuntimeMethod*);
+				((FunctionPointerType)targetMethodPointer)(targetThis, ___successful0, ___request1, ___failureReason2, targetMethod);
+			}
+		}
+	}
+}
+// System.IAsyncResult HoloToolkit.Sharing.RoomManagerListener_SwigDelegateRoomManagerListener_5::BeginInvoke(System.Boolean,System.IntPtr,System.IntPtr,System.AsyncCallback,System.Object)
+extern "C" IL2CPP_METHOD_ATTR RuntimeObject* SwigDelegateRoomManagerListener_5_BeginInvoke_m90A2743898EA49A1C03D8BD18E3A0B8940EDF2D1 (SwigDelegateRoomManagerListener_5_tB132549318E3DF8C5DD819B35529C0D024DC1710 * __this, bool ___successful0, intptr_t ___request1, intptr_t ___failureReason2, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback3, RuntimeObject * ___object4, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SwigDelegateRoomManagerListener_5_BeginInvoke_m90A2743898EA49A1C03D8BD18E3A0B8940EDF2D1_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[4] = {0};
+	__d_args[0] = Box(Boolean_tB53F6830F670160873277339AA58F15CAED4399C_il2cpp_TypeInfo_var, &___successful0);
+	__d_args[1] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___request1);
+	__d_args[2] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___failureReason2);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback3, (RuntimeObject*)___object4);
+}
+// System.Void HoloToolkit.Sharing.RoomManagerListener_SwigDelegateRoomManagerListener_5::EndInvoke(System.IAsyncResult)
+extern "C" IL2CPP_METHOD_ATTR void SwigDelegateRoomManagerListener_5_EndInvoke_mBFA896E4E80C6D37350401FFFC828C65C76020A0 (SwigDelegateRoomManagerListener_5_tB132549318E3DF8C5DD819B35529C0D024DC1710 * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+extern "C"  void DelegatePInvokeWrapper_SwigDelegateRoomManagerListener_6_tC34893C07299BEF24DB86CFD8B5793A79EEC74CD (SwigDelegateRoomManagerListener_6_tC34893C07299BEF24DB86CFD8B5793A79EEC74CD * __this, bool ___successful0, intptr_t ___failureReason1, const RuntimeMethod* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc)(int32_t, intptr_t);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
+
+	// Native function invocation
+	il2cppPInvokeFunc(static_cast<int32_t>(___successful0), ___failureReason1);
+
+}
+// System.Void HoloToolkit.Sharing.RoomManagerListener_SwigDelegateRoomManagerListener_6::.ctor(System.Object,System.IntPtr)
+extern "C" IL2CPP_METHOD_ATTR void SwigDelegateRoomManagerListener_6__ctor_mF862E65CC350404A6E0C59459BC71CF76A7DBFB8 (SwigDelegateRoomManagerListener_6_tC34893C07299BEF24DB86CFD8B5793A79EEC74CD * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Void HoloToolkit.Sharing.RoomManagerListener_SwigDelegateRoomManagerListener_6::Invoke(System.Boolean,System.IntPtr)
+extern "C" IL2CPP_METHOD_ATTR void SwigDelegateRoomManagerListener_6_Invoke_m275B0939DEDC7DBF8D7295924C076E0FBFCF6642 (SwigDelegateRoomManagerListener_6_tC34893C07299BEF24DB86CFD8B5793A79EEC74CD * __this, bool ___successful0, intptr_t ___failureReason1, const RuntimeMethod* method)
+{
+	DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* delegatesToInvoke = __this->get_delegates_11();
+	if (delegatesToInvoke != NULL)
+	{
+		il2cpp_array_size_t length = delegatesToInvoke->max_length;
+		for (il2cpp_array_size_t i = 0; i < length; i++)
+		{
+			Delegate_t* currentDelegate = (delegatesToInvoke)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i));
+			Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
+			RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
+			RuntimeObject* targetThis = currentDelegate->get_m_target_2();
+			if (!il2cpp_codegen_method_is_virtual(targetMethod))
+			{
+				il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
+			}
+			bool ___methodIsStatic = MethodIsStatic(targetMethod);
+			int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
+			if (___methodIsStatic)
+			{
+				if (___parameterCount == 2)
+				{
+					// open
+					typedef void (*FunctionPointerType) (bool, intptr_t, const RuntimeMethod*);
+					((FunctionPointerType)targetMethodPointer)(___successful0, ___failureReason1, targetMethod);
+				}
+				else
+				{
+					// closed
+					typedef void (*FunctionPointerType) (void*, bool, intptr_t, const RuntimeMethod*);
+					((FunctionPointerType)targetMethodPointer)(targetThis, ___successful0, ___failureReason1, targetMethod);
+				}
+			}
+			else
+			{
+				// closed
+				if (il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+				{
+					if (il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+					{
+						if (targetThis == NULL)
+						{
+							typedef void (*FunctionPointerType) (bool, intptr_t, const RuntimeMethod*);
+							((FunctionPointerType)targetMethodPointer)(___successful0, ___failureReason1, targetMethod);
+						}
+						else if (il2cpp_codegen_method_is_generic_instance(targetMethod))
+						{
+							if (il2cpp_codegen_method_is_interface_method(targetMethod))
+								GenericInterfaceActionInvoker2< bool, intptr_t >::Invoke(targetMethod, targetThis, ___successful0, ___failureReason1);
+							else
+								GenericVirtActionInvoker2< bool, intptr_t >::Invoke(targetMethod, targetThis, ___successful0, ___failureReason1);
+						}
+						else
+						{
+							if (il2cpp_codegen_method_is_interface_method(targetMethod))
+								InterfaceActionInvoker2< bool, intptr_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___successful0, ___failureReason1);
+							else
+								VirtActionInvoker2< bool, intptr_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___successful0, ___failureReason1);
+						}
+					}
+				}
+				else
+				{
+					typedef void (*FunctionPointerType) (void*, bool, intptr_t, const RuntimeMethod*);
+					((FunctionPointerType)targetMethodPointer)(targetThis, ___successful0, ___failureReason1, targetMethod);
+				}
+			}
+		}
+	}
+	else
+	{
+		Il2CppMethodPointer targetMethodPointer = __this->get_method_ptr_0();
+		RuntimeMethod* targetMethod = (RuntimeMethod*)(__this->get_method_3());
+		RuntimeObject* targetThis = __this->get_m_target_2();
+		if (!il2cpp_codegen_method_is_virtual(targetMethod))
+		{
+			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
+		}
+		bool ___methodIsStatic = MethodIsStatic(targetMethod);
+		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
+		if (___methodIsStatic)
+		{
+			if (___parameterCount == 2)
+			{
+				// open
+				typedef void (*FunctionPointerType) (bool, intptr_t, const RuntimeMethod*);
+				((FunctionPointerType)targetMethodPointer)(___successful0, ___failureReason1, targetMethod);
+			}
+			else
+			{
+				// closed
+				typedef void (*FunctionPointerType) (void*, bool, intptr_t, const RuntimeMethod*);
+				((FunctionPointerType)targetMethodPointer)(targetThis, ___successful0, ___failureReason1, targetMethod);
+			}
+		}
+		else
+		{
+			// closed
+			if (il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+			{
+				if (il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+				{
+					if (targetThis == NULL)
+					{
+						typedef void (*FunctionPointerType) (bool, intptr_t, const RuntimeMethod*);
+						((FunctionPointerType)targetMethodPointer)(___successful0, ___failureReason1, targetMethod);
+					}
+					else if (il2cpp_codegen_method_is_generic_instance(targetMethod))
+					{
+						if (il2cpp_codegen_method_is_interface_method(targetMethod))
+							GenericInterfaceActionInvoker2< bool, intptr_t >::Invoke(targetMethod, targetThis, ___successful0, ___failureReason1);
+						else
+							GenericVirtActionInvoker2< bool, intptr_t >::Invoke(targetMethod, targetThis, ___successful0, ___failureReason1);
+					}
+					else
+					{
+						if (il2cpp_codegen_method_is_interface_method(targetMethod))
+							InterfaceActionInvoker2< bool, intptr_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___successful0, ___failureReason1);
+						else
+							VirtActionInvoker2< bool, intptr_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___successful0, ___failureReason1);
+					}
+				}
+			}
+			else
+			{
+				typedef void (*FunctionPointerType) (void*, bool, intptr_t, const RuntimeMethod*);
+				((FunctionPointerType)targetMethodPointer)(targetThis, ___successful0, ___failureReason1, targetMethod);
+			}
+		}
+	}
+}
+// System.IAsyncResult HoloToolkit.Sharing.RoomManagerListener_SwigDelegateRoomManagerListener_6::BeginInvoke(System.Boolean,System.IntPtr,System.AsyncCallback,System.Object)
+extern "C" IL2CPP_METHOD_ATTR RuntimeObject* SwigDelegateRoomManagerListener_6_BeginInvoke_m45F9CE0C5F9A23FB92143EB4D5699997CA30CB8A (SwigDelegateRoomManagerListener_6_tC34893C07299BEF24DB86CFD8B5793A79EEC74CD * __this, bool ___successful0, intptr_t ___failureReason1, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback2, RuntimeObject * ___object3, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SwigDelegateRoomManagerListener_6_BeginInvoke_m45F9CE0C5F9A23FB92143EB4D5699997CA30CB8A_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[3] = {0};
+	__d_args[0] = Box(Boolean_tB53F6830F670160873277339AA58F15CAED4399C_il2cpp_TypeInfo_var, &___successful0);
+	__d_args[1] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___failureReason1);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback2, (RuntimeObject*)___object3);
+}
+// System.Void HoloToolkit.Sharing.RoomManagerListener_SwigDelegateRoomManagerListener_6::EndInvoke(System.IAsyncResult)
+extern "C" IL2CPP_METHOD_ATTR void SwigDelegateRoomManagerListener_6_EndInvoke_mA03307D9D3D110601BB47FDE68A33400E495A5ED (SwigDelegateRoomManagerListener_6_tC34893C07299BEF24DB86CFD8B5793A79EEC74CD * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

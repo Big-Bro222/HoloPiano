@@ -151,6 +151,8 @@ struct Camera_t48B2B9ECB3CE6108A98BF949A1CECF0FE3421F34;
 struct Collision_t7FF0F4B0E24A2AEB1131DD980F63AB8CBF11FC3C;
 // UnityEngine.ParticleSystem[]
 struct ParticleSystemU5BU5D_t58EE604F685D8CBA8EFC9353456969F5A1B2FBB9;
+// UnityStandardAssets.Effects.ExplosionFireAndDebris
+struct ExplosionFireAndDebris_tACCFCC1184BB9A8C3A0B39D99FFC831E76F9EECB;
 // UnityStandardAssets.Effects.ExplosionPhysicsForce
 struct ExplosionPhysicsForce_t59463D9C69E811AF9C885416501F2C8833800C58;
 // UnityStandardAssets.Effects.Explosive
@@ -1840,6 +1842,67 @@ struct ValueType_t4D0C27076F7C36E76190FB3328E232BCB1CD1FFF_marshaled_com
 {
 };
 #endif // VALUETYPE_T4D0C27076F7C36E76190FB3328E232BCB1CD1FFF_H
+#ifndef U3CSTARTU3ED__4_T945A707CD8C01DA1C37AE2DD9D0A904C80F58139_H
+#define U3CSTARTU3ED__4_T945A707CD8C01DA1C37AE2DD9D0A904C80F58139_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityStandardAssets.Effects.ExplosionFireAndDebris_<Start>d__4
+struct  U3CStartU3Ed__4_t945A707CD8C01DA1C37AE2DD9D0A904C80F58139  : public RuntimeObject
+{
+public:
+	// System.Int32 UnityStandardAssets.Effects.ExplosionFireAndDebris_<Start>d__4::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Object UnityStandardAssets.Effects.ExplosionFireAndDebris_<Start>d__4::<>2__current
+	RuntimeObject * ___U3CU3E2__current_1;
+	// UnityStandardAssets.Effects.ExplosionFireAndDebris UnityStandardAssets.Effects.ExplosionFireAndDebris_<Start>d__4::<>4__this
+	ExplosionFireAndDebris_tACCFCC1184BB9A8C3A0B39D99FFC831E76F9EECB * ___U3CU3E4__this_2;
+	// System.Single UnityStandardAssets.Effects.ExplosionFireAndDebris_<Start>d__4::<multiplier>5__2
+	float ___U3CmultiplierU3E5__2_3;
+
+public:
+	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CStartU3Ed__4_t945A707CD8C01DA1C37AE2DD9D0A904C80F58139, ___U3CU3E1__state_0)); }
+	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
+	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
+	inline void set_U3CU3E1__state_0(int32_t value)
+	{
+		___U3CU3E1__state_0 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CU3E2__current_1() { return static_cast<int32_t>(offsetof(U3CStartU3Ed__4_t945A707CD8C01DA1C37AE2DD9D0A904C80F58139, ___U3CU3E2__current_1)); }
+	inline RuntimeObject * get_U3CU3E2__current_1() const { return ___U3CU3E2__current_1; }
+	inline RuntimeObject ** get_address_of_U3CU3E2__current_1() { return &___U3CU3E2__current_1; }
+	inline void set_U3CU3E2__current_1(RuntimeObject * value)
+	{
+		___U3CU3E2__current_1 = value;
+		Il2CppCodeGenWriteBarrier((&___U3CU3E2__current_1), value);
+	}
+
+	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CStartU3Ed__4_t945A707CD8C01DA1C37AE2DD9D0A904C80F58139, ___U3CU3E4__this_2)); }
+	inline ExplosionFireAndDebris_tACCFCC1184BB9A8C3A0B39D99FFC831E76F9EECB * get_U3CU3E4__this_2() const { return ___U3CU3E4__this_2; }
+	inline ExplosionFireAndDebris_tACCFCC1184BB9A8C3A0B39D99FFC831E76F9EECB ** get_address_of_U3CU3E4__this_2() { return &___U3CU3E4__this_2; }
+	inline void set_U3CU3E4__this_2(ExplosionFireAndDebris_tACCFCC1184BB9A8C3A0B39D99FFC831E76F9EECB * value)
+	{
+		___U3CU3E4__this_2 = value;
+		Il2CppCodeGenWriteBarrier((&___U3CU3E4__this_2), value);
+	}
+
+	inline static int32_t get_offset_of_U3CmultiplierU3E5__2_3() { return static_cast<int32_t>(offsetof(U3CStartU3Ed__4_t945A707CD8C01DA1C37AE2DD9D0A904C80F58139, ___U3CmultiplierU3E5__2_3)); }
+	inline float get_U3CmultiplierU3E5__2_3() const { return ___U3CmultiplierU3E5__2_3; }
+	inline float* get_address_of_U3CmultiplierU3E5__2_3() { return &___U3CmultiplierU3E5__2_3; }
+	inline void set_U3CmultiplierU3E5__2_3(float value)
+	{
+		___U3CmultiplierU3E5__2_3 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // U3CSTARTU3ED__4_T945A707CD8C01DA1C37AE2DD9D0A904C80F58139_H
 #ifndef U3CSTARTU3ED__1_TFA687701957C85736794A1CD53601F73339D788F_H
 #define U3CSTARTU3ED__1_TFA687701957C85736794A1CD53601F73339D788F_H
 #ifdef __clang__
@@ -7346,6 +7409,101 @@ extern "C" IL2CPP_METHOD_ATTR float Int64_System_IConvertible_ToSingle_m282A94EF
 extern "C" IL2CPP_METHOD_ATTR double Int64_System_IConvertible_ToDouble_mBF9D431716723F0B8614D0C3C7906D447788431E (int64_t* __this, RuntimeObject* ___provider0, const RuntimeMethod* method);
 // System.Int32 System.Int32::System.IConvertible.ToInt32(System.IFormatProvider)
 extern "C" IL2CPP_METHOD_ATTR int32_t Int32_System_IConvertible_ToInt32_m4191129190E57223399981DA5C6C22FDDAC3F5DA (int32_t* __this, RuntimeObject* ___provider0, const RuntimeMethod* method);
+
+// COM Callable Wrapper for UnityStandardAssets.Effects.ExplosionFireAndDebris_<Start>d__4
+struct U3CStartU3Ed__4_t945A707CD8C01DA1C37AE2DD9D0A904C80F58139_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<U3CStartU3Ed__4_t945A707CD8C01DA1C37AE2DD9D0A904C80F58139_ComCallableWrapper>, IClosable_t5808AF951019E4388C66F7A88AC569F52F581167
+{
+	inline U3CStartU3Ed__4_t945A707CD8C01DA1C37AE2DD9D0A904C80F58139_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<U3CStartU3Ed__4_t945A707CD8C01DA1C37AE2DD9D0A904C80F58139_ComCallableWrapper>(obj) {}
+
+	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
+	{
+		if (::memcmp(&iid, &Il2CppIUnknown::IID, sizeof(Il2CppGuid)) == 0
+		 || ::memcmp(&iid, &Il2CppIInspectable::IID, sizeof(Il2CppGuid)) == 0
+		 || ::memcmp(&iid, &Il2CppIAgileObject::IID, sizeof(Il2CppGuid)) == 0)
+		{
+			*object = GetIdentity();
+			AddRefImpl();
+			return IL2CPP_S_OK;
+		}
+
+		if (::memcmp(&iid, &Il2CppIManagedObjectHolder::IID, sizeof(Il2CppGuid)) == 0)
+		{
+			*object = static_cast<Il2CppIManagedObjectHolder*>(this);
+			AddRefImpl();
+			return IL2CPP_S_OK;
+		}
+
+		if (::memcmp(&iid, &IClosable_t5808AF951019E4388C66F7A88AC569F52F581167::IID, sizeof(Il2CppGuid)) == 0)
+		{
+			*object = static_cast<IClosable_t5808AF951019E4388C66F7A88AC569F52F581167*>(this);
+			AddRefImpl();
+			return IL2CPP_S_OK;
+		}
+
+		if (::memcmp(&iid, &Il2CppIMarshal::IID, sizeof(Il2CppGuid)) == 0)
+		{
+			*object = static_cast<Il2CppIMarshal*>(this);
+			AddRefImpl();
+			return IL2CPP_S_OK;
+		}
+
+		if (::memcmp(&iid, &Il2CppIWeakReferenceSource::IID, sizeof(Il2CppGuid)) == 0)
+		{
+			*object = static_cast<Il2CppIWeakReferenceSource*>(this);
+			AddRefImpl();
+			return IL2CPP_S_OK;
+		}
+
+		*object = NULL;
+		return IL2CPP_E_NOINTERFACE;
+	}
+
+	virtual uint32_t STDCALL AddRef() IL2CPP_OVERRIDE
+	{
+		return AddRefImpl();
+	}
+
+	virtual uint32_t STDCALL Release() IL2CPP_OVERRIDE
+	{
+		return ReleaseImpl();
+	}
+
+	virtual il2cpp_hresult_t STDCALL GetIids(uint32_t* iidCount, Il2CppGuid** iids) IL2CPP_OVERRIDE
+	{
+		Il2CppGuid* interfaceIds = il2cpp_codegen_marshal_allocate_array<Il2CppGuid>(1);
+		interfaceIds[0] = IClosable_t5808AF951019E4388C66F7A88AC569F52F581167::IID;
+
+		*iidCount = 1;
+		*iids = interfaceIds;
+		return IL2CPP_S_OK;
+	}
+
+	virtual il2cpp_hresult_t STDCALL GetRuntimeClassName(Il2CppHString* className) IL2CPP_OVERRIDE
+	{
+		return ComObjectBase::GetRuntimeClassName(className);
+	}
+
+	virtual il2cpp_hresult_t STDCALL GetTrustLevel(int32_t* trustLevel) IL2CPP_OVERRIDE
+	{
+		return ComObjectBase::GetTrustLevel(trustLevel);
+	}
+
+	virtual il2cpp_hresult_t STDCALL IClosable_Close_m9A054CE065D4C97FAF595A8F92B3CB3463C5BCD6() IL2CPP_OVERRIDE
+	{
+		return IClosable_Close_m9A054CE065D4C97FAF595A8F92B3CB3463C5BCD6_ComCallableWrapperProjectedMethod(GetManagedObjectInline());
+	}
+};
+
+extern "C" Il2CppIUnknown* CreateComCallableWrapperFor_U3CStartU3Ed__4_t945A707CD8C01DA1C37AE2DD9D0A904C80F58139(RuntimeObject* obj)
+{
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(U3CStartU3Ed__4_t945A707CD8C01DA1C37AE2DD9D0A904C80F58139_ComCallableWrapper));
+	if (memory == NULL)
+	{
+		il2cpp_codegen_raise_out_of_memory_exception();
+	}
+
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) U3CStartU3Ed__4_t945A707CD8C01DA1C37AE2DD9D0A904C80F58139_ComCallableWrapper(obj));
+}
 
 // COM Callable Wrapper for UnityStandardAssets.Effects.ExplosionPhysicsForce_<Start>d__1
 struct U3CStartU3Ed__1_tFA687701957C85736794A1CD53601F73339D788F_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<U3CStartU3Ed__1_tFA687701957C85736794A1CD53601F73339D788F_ComCallableWrapper>, IClosable_t5808AF951019E4388C66F7A88AC569F52F581167
