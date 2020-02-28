@@ -8,6 +8,7 @@ public class NoteBehavior : MonoBehaviour
     public float Speed = 10f;
     public bool Running = true;
     public SheetBehaviorContoller sheetBehaviorContoller;
+    public GameObject Info;
 
 
     private int StopMeasure =99;
@@ -30,12 +31,14 @@ public class NoteBehavior : MonoBehaviour
         {
             PracticeSection[0] = SectionNum;
             sheetBehaviorContoller.SingleSelect(PracticeSection[0]);
+            Info.GetComponent<TextMesh>().text = "Section "+ (PracticeSection[0]+1)+ " - XX";
             print(1);
         }
         else if (PracticeSection[1] == 99)
         {
             PracticeSection[1] = SectionNum;
             sheetBehaviorContoller.HighLightSheet(PracticeSection[0],PracticeSection[1]);
+            Info.GetComponent<TextMesh>().text = "Section " + (PracticeSection[0]+1) + " - "+ (PracticeSection[1]+1);
             print(2);
         }
         else
@@ -43,6 +46,7 @@ public class NoteBehavior : MonoBehaviour
             PracticeSection[0] = SectionNum;
             PracticeSection[1] = 99;
             sheetBehaviorContoller.SingleSelect(PracticeSection[0]);
+            Info.GetComponent<TextMesh>().text = "Section " + (PracticeSection[0]+1) + " - XX";
             print(3);
 
         }

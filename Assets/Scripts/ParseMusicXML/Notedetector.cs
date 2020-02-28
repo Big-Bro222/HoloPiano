@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Notedetector : MonoBehaviour
 {
+    public AlignmentTest alignmentTest;
     private int CurrentKeyValue;
     private string CurrentObjName;
     // Start is called before the first frame update
@@ -19,12 +20,13 @@ public class Notedetector : MonoBehaviour
         print("Current Key value should be : " + CurrentKeyValue);
     }
 
+
     private void OnTriggerStay(Collider other)
     {
         if (other.gameObject.CompareTag("VirtualNote"))
         {
             CurrentKeyValue = other.gameObject.GetComponent<NoteController>().getNoteinfo();
-
+            alignmentTest.SetCurrentMeasure(CurrentKeyValue);
         }
     }
     private void OnTriggerEnter(Collider other)
@@ -33,6 +35,8 @@ public class Notedetector : MonoBehaviour
         {
             CurrentKeyValue = other.gameObject.GetComponent<NoteController>().getNoteinfo();
             CurrentObjName = other.gameObject.name;
+            alignmentTest.SetCurrentMeasure(CurrentKeyValue);
+
         }
     }
 

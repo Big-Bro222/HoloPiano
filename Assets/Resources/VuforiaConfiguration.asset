@@ -28,7 +28,7 @@ MonoBehaviour:
     distortionRenderingLayer: 31
     eyewearType: 1
     stereoFramework: 0
-    seeThroughConfiguration: 0
+    seeThroughConfiguration: 1
     viewerName: 
     viewerManufacturer: 
     useCustomViewer: 0

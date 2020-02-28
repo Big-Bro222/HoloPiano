@@ -7,6 +7,7 @@ public class Keytester : MonoBehaviour
     public Key_detection key_detection;
     public NoteBehavior noteBehavior;
     public Notedetector notedetector;
+    public AlignmentTest alignmentTest;
 
     private int currentKey;
     private int currentNote;
@@ -45,10 +46,13 @@ public class Keytester : MonoBehaviour
         if (currentNote == currentKey&&currentObjName==notedetector.GetCurrentObjNameOnBase())
         {
             noteBehavior.Running = true;
+            alignmentTest.ChangeColor(true);
         }
         else
         {
+
             noteBehavior.Running = false;
+            alignmentTest.ChangeColor(false);
         }
 
         

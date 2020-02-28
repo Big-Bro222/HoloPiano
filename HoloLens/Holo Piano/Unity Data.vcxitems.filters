@@ -2,52 +2,52 @@
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Data">
-      <UniqueIdentifier>{96743bcf-d5f1-42d6-a7e1-17e4be5958f9}</UniqueIdentifier>
+      <UniqueIdentifier>{11d234ef-a1c5-4586-8741-7d2c79a824f6}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono">
-      <UniqueIdentifier>{a4b54f3c-692b-4c84-b87e-7839393e6bea}</UniqueIdentifier>
+      <UniqueIdentifier>{f1fedbe0-7422-45da-954e-fd869e803ba5}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\2.0">
-      <UniqueIdentifier>{1ecbad70-2ba2-423d-9abd-f792ee06f3e3}</UniqueIdentifier>
+      <UniqueIdentifier>{ec52fb2d-a841-4859-9b07-281af443852b}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\2.0\Browsers">
-      <UniqueIdentifier>{f8ef8a9c-673d-4518-962f-472bfa7ad501}</UniqueIdentifier>
+      <UniqueIdentifier>{888d2470-4692-4b1f-a365-8592d704530a}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\4.0">
-      <UniqueIdentifier>{9d170481-bfe9-42de-a21d-9f67aad89795}</UniqueIdentifier>
+      <UniqueIdentifier>{43140a71-165f-44de-8772-7eda2fe3c4e7}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\4.0\Browsers">
-      <UniqueIdentifier>{f265f6db-36ac-4f1c-a04a-b9cf1af6ea91}</UniqueIdentifier>
+      <UniqueIdentifier>{1b127e3a-1158-470f-9345-75c8f8e76ec5}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\4.5">
-      <UniqueIdentifier>{b78c337e-59f7-4c53-8f80-f9ac44b013fb}</UniqueIdentifier>
+      <UniqueIdentifier>{9c9546de-cc00-4ca7-9f6d-c9b5c98585ff}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\4.5\Browsers">
-      <UniqueIdentifier>{367bb2a5-7682-4173-9c5d-89a2a49f5cbd}</UniqueIdentifier>
+      <UniqueIdentifier>{b8a9c9d9-5a2b-4824-8bf5-0ccea7beaff6}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\mconfig">
-      <UniqueIdentifier>{7aed197f-69e6-4f59-86b5-306292b8eed7}</UniqueIdentifier>
+      <UniqueIdentifier>{cda8a86c-cbab-4605-a2ff-3f58e338dbd4}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\Metadata">
-      <UniqueIdentifier>{a32e1613-7cc6-405c-b396-8ba74b2e3c0b}</UniqueIdentifier>
+      <UniqueIdentifier>{2a29a0a7-df97-4839-9601-5a17e14a13ac}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\Resources">
-      <UniqueIdentifier>{216f3523-73d5-4064-9ed6-c135f539954a}</UniqueIdentifier>
+      <UniqueIdentifier>{d13555d4-e99b-44cf-8700-7e15c77019b3}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\Resources">
-      <UniqueIdentifier>{3da10049-0a2c-4763-8185-5b38d7cb6219}</UniqueIdentifier>
+      <UniqueIdentifier>{c34e0bf4-8321-4824-908f-fe339771e672}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\StreamingAssets\Vuforia">
-      <UniqueIdentifier>{f9380539-7617-49d5-8212-2bd38fc41774}</UniqueIdentifier>
+      <UniqueIdentifier>{47528ef8-b439-4a27-a59e-47dfc81fefdd}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc">
-      <UniqueIdentifier>{e5913c59-e46d-4b79-9682-4590fda76b3b}</UniqueIdentifier>
+      <UniqueIdentifier>{a46ade3e-530b-49a3-8bbc-e9a91f3f1683}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data">
-      <UniqueIdentifier>{c5e4484e-0048-4621-836e-0cf93a376167}</UniqueIdentifier>
+      <UniqueIdentifier>{031616fb-9109-44dc-80e3-3e29937c9fc9}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\StreamingAssets">
-      <UniqueIdentifier>{253c0273-5308-4cb5-8485-35454ef1ee6e}</UniqueIdentifier>
+      <UniqueIdentifier>{7005d4c3-5620-4024-aaff-e92f969cb816}</UniqueIdentifier>
     </Filter>
     <Resource Include="$(MSBuildThisFileDirectory)Resource.res" />
     <None Include="$(MSBuildThisFileDirectory)StoreManifest.xml" />
@@ -68,7 +68,19 @@
     <None Include="$(MSBuildThisFileDirectory)Data\level0">
       <Filter>Data</Filter>
     </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\level0.resS">
+    <None Include="$(MSBuildThisFileDirectory)Data\level1">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\level2">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\level2.resS">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\level3">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\level3.resS">
       <Filter>Data</Filter>
     </None>
     <None Include="$(MSBuildThisFileDirectory)Data\nativePlugins.txt">
@@ -89,7 +101,22 @@
     <None Include="$(MSBuildThisFileDirectory)Data\sharedassets0.assets.resS">
       <Filter>Data</Filter>
     </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\sharedassets0.resource">
+    <None Include="$(MSBuildThisFileDirectory)Data\sharedassets1.assets">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\sharedassets1.assets.resS">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\sharedassets2.assets">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\sharedassets2.assets.resS">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\sharedassets2.resource">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\sharedassets3.assets">
       <Filter>Data</Filter>
     </None>
     <None Include="$(MSBuildThisFileDirectory)Data\il2cpp_data\etc\mono\browscap.ini">
@@ -221,9 +248,5 @@
     <None Include="$(MSBuildThisFileDirectory)Vuforia.dll" />
     <None Include="$(MSBuildThisFileDirectory)SharingClient.dll" />
     <None Include="$(MSBuildThisFileDirectory)SpatialUnderstanding.dll" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="$(OutDir)GameAssembly.dll" />
-    <None Include="$(OutDir)GameAssembly.pdb" />
   </ItemGroup>
 </Project>
