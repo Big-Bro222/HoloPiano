@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -87,6 +88,8 @@ public class NoteBehavior : MonoBehaviour
         }
 
     }
+
+
     void Update()
     {
 
@@ -94,6 +97,9 @@ public class NoteBehavior : MonoBehaviour
         {
             Running = false;
         }
+
+
+        //if the Note is running, move every measure with the same speed
         if (Running)
         {
             for (int i = 0; i < transform.childCount; i++)
@@ -101,8 +107,8 @@ public class NoteBehavior : MonoBehaviour
                 transform.GetChild(i).transform.Translate(Vector3.down * Speed * Time.deltaTime);
             }
         }
-        
-        
+
+
         GameObject CurrentMeasureobj = transform.GetChild(CurrentMeasure).gameObject;
         CurrentMeasureobj.SetActive(true);
 
