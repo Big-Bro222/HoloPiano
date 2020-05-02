@@ -4,39 +4,37 @@ using UnityEngine;
 
 public class Notedetector : MonoBehaviour
 {
-
-    //this script is for detecting the current value for the key that should be pressed
-
-    private int CurrentKeyValueShouldbe;
+    public AlignmentTest alignmentTest;
+    private int CurrentKeyValue;
     private string CurrentObjName;
     // Start is called before the first frame update
     void Start()
     {
-        // currentKeyValue should be
-        CurrentKeyValueShouldbe =999;
+        CurrentKeyValue =999;
         CurrentObjName = "Null";
     }
 
     // Update is called once per frame
     void Update()
     {
-        print("Current Key value should be : " + CurrentKeyValueShouldbe);
+        print("Current Key value should be : " + CurrentKeyValue);
     }
 
-    //private void OnTriggerStay(Collider other)
-    //{
-    //    if (other.gameObject.CompareTag("VirtualNote"))
-    //    {
-    //        CurrentKeyValueShouldbe = other.gameObject.GetComponent<NoteController>().getNoteinfo();
 
-    //    }
-    //}
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.gameObject.CompareTag("VirtualNote"))
+        {
+            CurrentKeyValue = other.gameObject.GetComponent<NoteController>().getNoteinfo();
+        }
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("VirtualNote"))
         {
-            CurrentKeyValueShouldbe = other.gameObject.GetComponent<NoteController>().getNoteinfo();
+            CurrentKeyValue = other.gameObject.GetComponent<NoteController>().getNoteinfo();
             CurrentObjName = other.gameObject.name;
+
         }
     }
 
@@ -56,6 +54,6 @@ public class Notedetector : MonoBehaviour
     }
     public int GetCurrentKeyValueOnBase()
     {
-        return CurrentKeyValueShouldbe;
+        return CurrentKeyValue;
     }
 }

@@ -59,6 +59,7 @@ public class TrackableEventHandle_holoPiano : MonoBehaviour, ITrackableEventHand
 
     private void OnTrackingFound()
     {
+        GetComponent<MeshRenderer>().enabled = false;
         if (mTrackableBehaviour)
         {
             var rendererComponents = mTrackableBehaviour.GetComponentsInChildren<Renderer>(true);

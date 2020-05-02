@@ -1,0 +1,1 @@
+{"m_ScriptingRuntimeVersion":1,"m_DefineSymbols":[{"first":1,"second":"CROSS_PLATFORM_INPUT"},{"first":4,"second":"VUFORIA_IOS_SETTINGS;CROSS_PLATFORM_INPUT;MOBILE_INPUT"},{"first":7,"second":"VUFORIA_ANDROID_SETTINGS;CROSS_PLATFORM_INPUT;MOBILE_INPUT"},{"first":14,"second":"VUFORIA_WSA_SETTINGS;MOBILE_INPUT"}],"m_AllowUnsafeCode":false}

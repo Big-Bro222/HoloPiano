@@ -5,10 +5,11 @@ using UnityEngine;
 
 public class Keytester : MonoBehaviour
 {
-    public MidiData midiData;
+    public Key_detection key_detection;
     public NoteBehavior noteBehavior;
     public Notedetector notedetector;
     public AlignmentColorIndicator alignmentColorIndicator;
+
 
     private int currentKey;
     private int currentNote;
@@ -18,6 +19,7 @@ public class Keytester : MonoBehaviour
     private string currentObjName;
     private bool KeyPressing;
     private bool keySeperator;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,9 +27,9 @@ public class Keytester : MonoBehaviour
         currentKey = 999;
         currentNote = 999;
         previousKey = 999;
-
         KeyPressing = false;
         keySeperator = true;
+
     }
 
     // Update is called once per frame
@@ -37,11 +39,9 @@ public class Keytester : MonoBehaviour
         MidiKeydetection();
         KeyboardKeySimulation();
 
-        Debug.Log(currentObjName + "is name1");
-        Debug.Log(notedetector.GetCurrentObjNameOnBase() + "is name2");
-
-        //current press should be the same as current keyshould be, and also current obj should be the same as current gameobject.
-        if (currentNote == currentKey && currentObjName == notedetector.GetCurrentObjNameOnBase())
+        print(currentKey);
+        currentNote = notedetector.GetCurrentKeyValueOnBase();
+        if (currentNote == currentKey&&currentObjName==notedetector.GetCurrentObjNameOnBase())
         {
             noteBehavior.Running = true;
             alignmentColorIndicator.keycolorIndicator(currentKey, "true");
@@ -50,7 +50,6 @@ public class Keytester : MonoBehaviour
         {
             noteBehavior.Running = false;
             alignmentColorIndicator.keycolorIndicator(currentKey, "false");
-
         }
 
         if (previousKey != currentKey)
@@ -60,17 +59,15 @@ public class Keytester : MonoBehaviour
                 alignmentColorIndicator.keycolorIndicator(previousKey, "default");
             }
             previousKey = currentKey;
-            
+
         }
 
 
     }
 
-
-    //key simulation by keyboard via Unity Editor
     private void KeyboardKeySimulation()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha1)|| Input.GetKeyDown(KeyCode.Alpha2) || Input.GetKeyDown(KeyCode.Alpha3) || Input.GetKeyDown(KeyCode.Alpha4))
+        if (Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Alpha2) || Input.GetKeyDown(KeyCode.Alpha3) || Input.GetKeyDown(KeyCode.Alpha4))
         {
             if (keySeperator)
             {
@@ -107,11 +104,10 @@ public class Keytester : MonoBehaviour
 
     }
 
-
-    //key detection behavior on the Midi keyboard
     private void MidiKeydetection()
     {
-        KeyPressing = midiData.Keypressing();
+
+        KeyPressing = key_detection.Keypressing();
 
         if (KeyPressing)
         {
@@ -125,8 +121,6 @@ public class Keytester : MonoBehaviour
         {
             keySeperator = true;
         }
-
-
-        currentKey = midiData.offsetRemovedValue();
+        currentKey = key_detection.offsetRemovedValue();
     }
 }
